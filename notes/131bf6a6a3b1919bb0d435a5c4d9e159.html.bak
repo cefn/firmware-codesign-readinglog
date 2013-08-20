@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <!-- TITLE -->
+    <title>Formulating Usability</title>
+  </head>
+  <body>
+    <h1><a href="../papers/131bf6a6a3b1919bb0d435a5c4d9e159.pdf">Formulating
+        Usability</a></h1>
+    <h2>Authors</h2>
+    <p></p>
+    <h2>Notes</h2>
+    <p>&nbsp;Various formal measures of usability for a system described as a
+      state machine connected by a graph of transitions.</p>
+    <h2>Field of Study</h2>
+    <p></p>
+    <h2>Concepts</h2>
+    <p>Graph theory, State Machine, Usability, Formalism, Complexity</p>
+    <p></p>
+    <h2>Quotations</h2>
+    <p>"The motivation of the present work is to make a contribution to user
+      interface design, specifically to discuss ways of measuring usability from
+      design, from specifications rather than implementations."</p>
+    <p>"Ideally, of course, user interfaces should be empirically evaluated and
+      then improved, but in practice many products are designed and then fobbed
+      off to users, with little opportunity for improvements."</p>
+    <p>"This paper suggests treating user interfaces as finite state machines,
+      and using graph theory as an analytic framework. The approach is not
+      contentious, but means that many (even obvious) faults in user interfaces
+      will not be addressed."</p>
+    <p>"although there may be a direct way to give the user a model, doing so
+      can be assumed to interfere with the user's task"</p>
+    <p>"we may be safe in assuming that the larger the length of a complete
+      manual is, the less usable the system"</p>
+    <p>"much complexity arises from pedantry in what we wish to describe. If
+      users can be assumed to understand the numbers involved in times, then we
+      do not need to describe every possible change of time: instead all times
+      can be treated equivalently. The alarm clock becomes about 3 augmented
+      states."</p>
+    <p><br>
+      <br>
+    </p>
+    <p></p>
+    <h2>References</h2>
+    <p></p>
+    <h2>Methodology</h2>
+    <p></p>
+    <!-- UNIQUE HASH 131bf6a6a3b1919bb0d435a5c4d9e159 -->
+  </body>
+</html>
