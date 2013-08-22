@@ -24,7 +24,7 @@ if zenity --question --text="Log $TITLE for PhD?"; then
   cp "$FILE" "$BACKUPFILE"
 
   # create log file if it doesn't exist, expanding BASH variables inline
-  if [ ! -f $LOGFILE ]; then
+  if [ ! -f "$LOGFILE" ]; then
       echo "Creating new log file $LOGFILE"
       echo $(eval echo $(cat notes_template.html)) >> "$LOGFILE"
   fi
