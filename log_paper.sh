@@ -10,6 +10,8 @@ cd "$SCRIPTPATH"
 # generate title information and query user
 TITLE=`java -jar docears-pdf-inspector.jar -title "$FILE"`
 
+# workaround to force Zenity to appear on top
+WINDOWID=
 # ask user to log or not
 if zenity --question --text="Log $TITLE for PhD?"; then
   # user wants this document to be logged
