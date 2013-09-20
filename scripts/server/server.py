@@ -38,15 +38,18 @@ class myHandler(BaseHTTPRequestHandler):
 				)
 			def binary(resource,params):
 				filepath = "public/" + resource
+				(mimetype,encoding)= mimetypes.guess_type(filepath)
 				return (
-					mimetypes.guess_type(filepath), 
+					mimetype,
 					open(filepath,"rb")
 				)
 
 			# map from paths to handlers
 			sitemap = [ 	
 				("\w+.xq",xquery),
-				("\w+.\w+",binary)
+				("\w+.\w+",binary),
+				("papers/\w+.pdf",binary),
+				("notes/\w+.html",binary)
 			]
 
 			# generic mapping routine, which permits either strings or files to be returned as a result
@@ -63,19 +66,24 @@ class myHandler(BaseHTTPRequestHandler):
 						params[name]=value
 					
 					# get response to this resource request, using the specified params
-					(mimetype,result) = handler(resource,params)
-					
+					try:
+						(mimetype,result) = handler(resource,params)
+					except RuntimeError as e:
+						self.send_error(404,str(e))
+
 					# marshall response
 					self.send_response(200)
 					self.send_header("Content-type",mimetype)
 					
 					if type(result) is str:
 						self.end_headers()
-						self.wfile.write(result)						
-					elif type(result) is file:		
+						self.wfile.write(result)					
+					elif type(result) is file:
 						self.send_header("Content-Length", str(os.fstat(result.fileno())[6]))
 						self.end_headers()
 						shutil.copyfileobj(result, self.wfile)
+						result.close()
+						self.wfile.close()
 						
 					return # exit the loop - the request has been handled
 						
