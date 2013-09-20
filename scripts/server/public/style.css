@@ -13,6 +13,10 @@ table{
 	overflow:auto;
 }
 
+#menu{
+	width:10em;
+}
+
 td{
-	padding:5%;
+	padding:2%;
 }
