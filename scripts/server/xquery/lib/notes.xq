@@ -9,7 +9,7 @@ declare default element namespace "http://www.w3.org/1999/xhtml";
 declare variable $notes:headings := ('Concepts','Methodology','Field of Study','Quotations','References');
 
 declare %ann:nondeterministic function notes:allnotes(){
-	template:loadhtml("../../notes/")
+	template:loadhtml("resources/notes/")
 };
 
 declare function notes:followingheader($nodes,$title){
