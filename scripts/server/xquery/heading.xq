@@ -6,7 +6,13 @@ declare variable $match external;
 
 template:webpage(
 	<div>
-		<p>{$match}</p>
-		{for $heading in notes:followingheader(notes:allnotes(),$match)[self::p] return <h3>{string($heading)}</h3>}
+		<h1>{$match}</h1>
+		{for $heading in notes:notesoftype($match)[self::p][text()] (: consider only non-empty paragraphs:)
+			return 
+				<p>
+					{string($heading)}
+					{notes:paperlinks($heading)}
+				</p>
+		}
 	</div>
 )
