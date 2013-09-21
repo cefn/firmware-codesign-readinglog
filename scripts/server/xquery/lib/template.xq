@@ -15,7 +15,7 @@ declare function template:webpage($nodes){
 			<link href="style.css" rel="stylesheet" type="text/css"></link>
 		</head>
 		<body>
-			<table>
+			<table id="layout">
 				<tr>
 					<td>
 						<div id="menu">
