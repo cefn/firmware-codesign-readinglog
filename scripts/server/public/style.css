@@ -1,11 +1,21 @@
 html,body{
 	height:100%;
 	width:100%;
+	font-family:sans-serif;
 }
 
-table{
+table#layout{
 	height:90%;
 	width:90%;
+}
+
+table.search td{
+	border-style: solid;
+	border-width:1px;
+}
+
+td.ref{
+	width:30%;
 }
 
 #menu,#content{
