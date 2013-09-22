@@ -4,6 +4,6 @@ declare default element namespace "http://www.w3.org/1999/xhtml";
 
 template:webpage(
 	<div>
-		{for $heading in notes:allnotes()//h1 return <h3>{string($heading)}</h3>}
+		{for $heading in $notes:allnotes//h1 return <h3>{string($heading)}</h3>}
 	</div>
 )
