@@ -49,7 +49,7 @@ class myHandler(BaseHTTPRequestHandler):
 				("\w+.xq",xquery),
 				("\w+.\w+",binary),
 				("papers/\w+.pdf",binary),
-				("notes/\w+.html",binary)
+				("notes/[\w-]+.html",binary)
 			]
 
 			# generic mapping routine, which permits either strings or files to be returned as a result
