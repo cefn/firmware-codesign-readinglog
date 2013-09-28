@@ -1,7 +1,15 @@
-html,body{
+html,body, table#layout, div#content{
 	height:100%;
 	width:100%;
 	font-family:sans-serif;
+}
+
+tr.top {
+	height:5%;
+}
+
+tr.bottom {
+	height:95%;
 }
 
 table#layout td{
