@@ -12,13 +12,13 @@ declare function template:webpage($nodes){
 	<html>
 		<head>
 		    <meta content="text/html; charset=utf-16" http-equiv="content-type"></meta>
-			<link href="style.css" rel="stylesheet" type="text/css"></link>
+			<link href="/style.css" rel="stylesheet" type="text/css"></link>
 		</head>
 		<body>
 			<table id="layout">
-				<tr>
+				<tr class="top">
 					<th id="logo">
-						<em>PhD Reading Log</em>
+						<em><a href="/">Log</a></em>
 					</th>
 					<td id="menu" colspan="2">
 						{template:menu()}
@@ -34,7 +34,7 @@ declare function template:webpage($nodes){
 						</form>
 					</td>
 				</tr>
-				<tr>
+				<tr class="bottom">
 					<td colspan="4">
 						<div id="content">
 								{$nodes}
@@ -56,11 +56,11 @@ declare %ann:nondeterministic function template:loadhtml($dirpath) {
 (: Returns all the document nodes of the XHTML note files :)
 declare function template:menu(){
 	<ul>
-		<li><a href="authors.xq">Authors</a></li>
+		<li><a href="/authors.xq">Authors</a></li>
 		{
 			for $item in $notes:headings where not($item='Authors')
 			return 
-			<li><a href="heading.xq?match={$item}">{$item}</a></li>
+			<li><a href="/heading.xq?type={$item}">{$item}</a></li>
 		}
 	</ul>
 };
