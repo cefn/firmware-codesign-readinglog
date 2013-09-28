@@ -8,7 +8,7 @@ template:webpage(
 		{
 			for	$records in notes:notesoftype($notes:authors),
 				$records-no-notes in string-join(for $item in $records//text()[not(normalize-space(.)='')] return replace(string($item),"\[[^\]]+\]",""),","), (: strip out notes, concatenate:)
-				$records-no-separators in for $item in $records-no-notes return tokenize($item,"(,|( and ))"),
+				$records-no-separators in for $item in $records-no-notes return tokenize($item,"((,? +AND +)|(,? ?&amp; ?)|(,? +and +)|,)"),
 				$records-no-space in for $item in $records-no-separators return normalize-space($item),
 				$records-distinct in distinct-values($records-no-space), 
 				$record-normal in for $item in $records-distinct return replace(normalize-space($item),"(.*)\s([^\s]+)$", "$2, $1") 
