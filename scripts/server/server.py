@@ -18,6 +18,10 @@ class myHandler(BaseHTTPRequestHandler):
 		
 	#Handler for the GET requests
 	def do_GET(self):
+
+		# specify fallback error message and code
+		errormsg = "Unknown Error"
+		errorcode = 404
 		
 		# root path alias
 		if(self.path == "/"):
@@ -36,6 +40,7 @@ class myHandler(BaseHTTPRequestHandler):
 					'text/html',
 					xquery.execute()
 				)
+
 			def binary(resource,params):
 				filepath = "public/" + resource
 				(mimetype,encoding)= mimetypes.guess_type(filepath)
@@ -44,54 +49,73 @@ class myHandler(BaseHTTPRequestHandler):
 					open(filepath,"rb")
 				)
 
+			def style(resource,params):
+				params['styled'] = "public/" + resource
+				resource = "style.xq"
+				return xquery(resource,params)
+
+			def embed(resource,params):
+				if "binary" in params:
+					return binary(resource,params)
+				else:
+					# wrap in iframe 
+					params['embedded'] = "/" + resource + "?binary=true"
+					resource = "embed.xq"
+					return xquery(resource,params)
+
 			# map from paths to handlers
 			sitemap = [ 	
 				("\w+.xq",xquery),
 				("\w+.\w+",binary),
-				("papers/\w+.pdf",binary),
-				("notes/\w+.html",binary)
+				("papers/[\w-]+.pdf",embed),
+				("notes/[\w-]+.html",style)
 			]
 
 			# generic mapping routine, which permits either strings or files to be returned as a result
 			for (pattern,handler) in sitemap:
 				try:
 					
-					# processes full path (including parameters) into matching chunks
-					[(resource,paramstring)] = re.findall("^/(" + pattern + ")((?:\?[\s\w=&%]+)?)$",self.path)
+					# processes full path (including parameters in separate group) into matching chunks
+					[(resource,paramstring)] = re.findall("^/(" + pattern + ")((?:\?[\s\w\+-=&%]+)?)$",self.path) 
 					paramstring = urllib.unquote(paramstring)
 					
 					# unmarshall get parameters
 					params = {}
-					for (name,value) in re.findall("(\w+)=([\s\w]+)",paramstring):
+					for (name,value) in re.findall("(\w+)=([\s\w\+-]+)",paramstring): # allow characters, spaces, pluses and hyphens
 						params[name]=value
 					
 					# get response to this resource request, using the specified params
 					try:
 						(mimetype,result) = handler(resource,params)
 					except RuntimeError as e:
-						self.send_error(404,str(e))
+						errorcode = 500
+						errormsg = str(e)
+						break
 
-					# marshall response
-					self.send_response(200)
-					self.send_header("Content-type",mimetype)
-					
-					if type(result) is str:
-						self.end_headers()
-						self.wfile.write(result)					
-					elif type(result) is file:
-						self.send_header("Content-Length", str(os.fstat(result.fileno())[6]))
-						self.end_headers()
-						shutil.copyfileobj(result, self.wfile)
-						result.close()
-						self.wfile.close()
-						
-					return # exit the loop - the request has been handled
+					if(result and mimetype):
+						# marshall response
+						self.send_response(200)
+						self.send_header("Content-type",mimetype)
+
+						if type(result) is str:
+							self.end_headers()
+							self.wfile.write(result)					
+						elif type(result) is file:
+							self.send_header("Content-Length", str(os.fstat(result.fileno())[6]))
+							self.end_headers()
+							shutil.copyfileobj(result, self.wfile)
+							result.close()
+							self.wfile.close()
+						return # exit the loop - the request has been handled
 						
 				except ValueError: # this pattern can't unpack the request
 					pass
 
 		except (IOError) as e:
-			self.send_error(404,str(e))
+			errorcode = 404
+			errormsg = str(e)
+		
+		self.send_error(errorcode,errormsg)
 		
 try:
 	#Create a web server and define the handler to manage 

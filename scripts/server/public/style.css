@@ -1,32 +1,76 @@
-html,body{
+html,body, table#layout, div#content{
 	height:100%;
 	width:100%;
 	font-family:sans-serif;
 }
 
-table#layout{
-	height:90%;
-	width:90%;
+tr.top {
+	height:5%;
 }
 
-table.search td{
+tr.bottom {
+	height:95%;
+}
+
+table#layout td{
+	vertical-align:top;
+}
+
+#logo{
+	width:10%;
+}
+
+#menu{
+	width:80%;
+}
+
+#searchform{
+	width:10%;
+}
+
+#menu *{
+	vertical-align: middle;
+}
+
+#menu li{
+	display:inline;
+	list-style-type:none;
+	padding:0.2em;
+}
+
+#menu ul, #menu form {
+	display:inline-block;
+}
+
+table.search td, table.search th{
 	border-style: solid;
 	border-width:1px;
 }
 
-td.ref{
-	width:30%;
+table.search p{
+	padding-left:0.5em;
+	padding-right:0.5em;
 }
 
-#menu,#content{
+table.search th{
+	border-width:2px;
+	padding-top:1em;
+}
+
+#content{
 	height:100%;
 	overflow:auto;
 }
 
-#menu{
-	width:10em;
+#content p{
+	font-size:0.8em;
 }
 
-td{
-	padding:2%;
+tr.record>td{
+	border-top-style:solid;
+	border-width:2px;
+}
+
+.author.record li{
+	font-size:0.7em;
 }

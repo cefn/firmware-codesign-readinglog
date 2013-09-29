@@ -12,17 +12,30 @@ declare function template:webpage($nodes){
 	<html>
 		<head>
 		    <meta content="text/html; charset=utf-16" http-equiv="content-type"></meta>
-			<link href="style.css" rel="stylesheet" type="text/css"></link>
+			<link href="/style.css" rel="stylesheet" type="text/css"></link>
 		</head>
 		<body>
 			<table id="layout">
-				<tr>
-					<td>
-						<div id="menu">
-								{template:menu()}
-						</div>
+				<tr class="top">
+					<th id="logo">
+						<em><a href="/">Log</a></em>
+					</th>
+					<td id="menu" colspan="2">
+						{template:menu()}
 					</td>
-					<td>
+					<td id="searchform">
+						<form action="/search.xq">
+							<table>
+								<tr>
+									<td><input type="text" name="text" /></td>
+									<td><input type="submit" value="Search"/></td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				</tr>
+				<tr class="bottom">
+					<td colspan="4">
 						<div id="content">
 								{$nodes}
 						</div>
@@ -43,9 +56,30 @@ declare %ann:nondeterministic function template:loadhtml($dirpath) {
 (: Returns all the document nodes of the XHTML note files :)
 declare function template:menu(){
 	<ul>
+		<li><a href="/authors.xq">Authors</a></li>
 		{
-			for $item in $notes:headings return 
-			<li><a href="heading.xq?match={$item}">{$item}</a></li>
+			for $item in $notes:headings where not($item='Authors')
+			return 
+			<li><a href="/heading.xq?type={$item}">{$item}</a></li>
 		}
 	</ul>
+};
+
+(: TODO CH Weird Zorba bug to report - declaring content within XML attribute 
+	literal causes spurious output of a text node as well as insertion of the text
+	in the style attribute - try let $share := 100 idiv count($items)  and style="width:{$share}%;" 
+	within a td literal instead of attribute constructor below to observe the problem :)
+declare function template:tabulate($items){
+	let $tdstyle := concat("width:",100 idiv count($items),"%;")
+	return 
+		<table style="width:100%">
+			<tr>
+				{
+					for $item in $items return 
+					<td style="{$tdstyle}">
+						{$item}
+					</td>
+				}
+			</tr>
+		</table>
 };

@@ -23,7 +23,7 @@ TITLE=`java -jar docears-pdf-inspector.jar -title "$FILE"`
 # workaround to force Zenity to appear on top
 WINDOWID=
 # ask user to log or not
-if [ $ASK -eq 0 ] || zenity --question --text="Log $TITLE for PhD?" 
+if [ $ASK -eq 0 ] || zenity --question --text="Edit PhD Notes for $TITLE ?" 
 	then
 		# user wants this document to be logged
 		  
