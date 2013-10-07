@@ -8,6 +8,7 @@ declare default element namespace "http://www.w3.org/1999/xhtml";
 
 declare variable $notes:authors := "Authors";
 declare variable $notes:concepts := "Concepts";
+declare variable $notes:quotations := "Quotations";
 declare variable $notes:headings := (
 	$notes:authors,
 	$notes:concepts,
