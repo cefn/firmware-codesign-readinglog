@@ -1,5 +1,6 @@
 import module namespace notes="http://cefn.com/readinglog/notes" at "/home/cefn/Documents/highwire/participatory firmware design/readinglog/scripts/server/xquery/lib/notes.xq";
 import module namespace template="http://cefn.com/readinglog/template" at "/home/cefn/Documents/highwire/participatory firmware design/readinglog/scripts/server/xquery/lib/template.xq";
+import module namespace functx="http://www.functx.com/";
 declare default element namespace "http://www.w3.org/1999/xhtml"; 
 
 (: Defines the set of text nodes matching the requested string:)
@@ -14,5 +15,5 @@ template:webpage(
 			order by $record-normal
 			return 
 			for $record in $records return
-				<p>{$record-normal}</p>
+				<p>{functx:capitalize-first(lower-case($record-normal))}</p>
 )
