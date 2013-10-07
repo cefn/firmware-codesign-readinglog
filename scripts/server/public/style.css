@@ -1,4 +1,11 @@
-html,body, table#layout, div#content{
+//fixes unnecessary scrollbars
+body{
+	height:99%;
+	width:99%;
+}
+
+//forces fill
+html,body,table#layout,tbody,tr,div#content,iframe{
 	height:100%;
 	width:100%;
 	font-family:sans-serif;
