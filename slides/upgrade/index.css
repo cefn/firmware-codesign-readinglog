@@ -1,0 +1,84 @@
+html, body, .slide{
+	height:100%;
+	/*display:table;*/
+}
+
+.left{
+	float:left;
+}
+
+.right{
+	float:right;
+}
+
+ul.left, ul.right{
+	height:480px;
+	position:absolute;
+	top:50%;
+	margin-top:-240px;
+}
+
+ul.left{
+	left:0%;
+	margin-left:4em;
+}
+
+ul.right{
+	left:50%;
+	margin-right:4em;
+}
+
+li {
+	font-family: 'Stoke', serif;
+	font-size:4em;
+	color:white;
+}
+
+.saloondoor{
+	perspective:10px;
+}
+
+.left .saloondoor{
+	-webkit-transform-origin:left center;
+	-webkit-transform:rotateX(-5deg) rotateY(40deg);
+}
+
+.right .saloondoor{
+	-webkit-transform-origin:right center;
+	-webkit-transform:rotateX(-5deg) rotateY(-40deg);
+}
+
+.foreground, .background, .wash{
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.wash {
+	background-color:red;
+	z-index: -2;
+}
+
+.background{
+	z-index: -1;
+	opacity:0.5;
+	background-size:100%;
+}
+
+.circuit .background{
+	background-image:url('img/circuit.jpg');
+}
+
+.bikes .background{
+	background-image:url('img/bikes.jpg');
+}
+
+.dildos .background{
+	background-image:url('img/dildos.jpg');
+}
+
+.tvs .background{
+	background-image:url('img/tvs.jpg');
+}
