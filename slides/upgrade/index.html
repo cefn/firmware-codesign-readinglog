@@ -3,45 +3,68 @@
   <head>
     <meta charset="utf-8">
     <title>Co-Design of Product Firmware</title>
+    <!-- 
 	<link href='http://fonts.googleapis.com/css?family=Stoke' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded' rel='stylesheet' type='text/css'>
+    -->
+	<link href='font/Stoke.css' rel='stylesheet' type='text/css'>
+	<link href='font/Stint+Ultra+Expanded.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded' rel='stylesheet' type='text/css'>
 	<link href='index.css' rel='stylesheet' type='text/css'>
+	
     <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/TweenMax.min.js"></script>
+
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/jquery.gsap.min.js"></script>
+	<script src="js/plugins/CSSRulePlugin.min.js"></script>
+	<script src="js/plugins/RaphaelPlugin.min.js"></script>
+	<script src="js/plugins/ColorPropsPlugin.min.js"></script>
+	<script src="js/plugins/EaselPlugin.min.js"></script>
+	<script src="js/plugins/TextPlugin.min.js"></script>
+	<script src="js/plugins/ScrollToPlugin.min.js"></script>
+	<script src="js/plugins/KineticPlugin.min.js"></script>
+	<script src="js/utils/Draggable.min.js"></script>
+
     <script src="index.js"></script>
+    
   </head>
   <body>
 	<div class="wash"></div>
 	<div class="background"></div>
-	<div class="slide circuit">
-		<div class="background"></div>
-		<div class="foreground">
+	<div class="slide">
+		<div class="background circuit"></div>
+		<div class="foreground saloondoor">
+			<div class="animation grow">
+				<h1>Firmware Co-Design</h1>
+			</div>
 			<ul class="left">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
+				<li class="animation">Critical</li>
+				<li class="animation">Non-Existent</li>
+				<li class="animation">Uncharted</li>
 			</ul>
 			<ul class="right">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
+				<li class="animation manual">Here we go</li>
+				<li class="animation manual">Bullet 1</li>
+				<li class="animation manual">Bullet 2</li>
 			</ul>
-			<div style="clear:both" ></div>
 		</div>
 	</div>
-	<div class="slide bikes">
-		<div class="background"></div>
+	<div class="slide">
+		<div class="background bikes"></div>
 		<div class="foreground">
+			<div class="animation grow">
+				<h1>Problem with universities</h1>
+			</div>
 			<ul class="left">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
+				<li class="animation">Pesky Students</li>
+				<li class="animation">Pesky Students</li>
+				<li class="animation">Pesky Students</li>
 			</ul>
 			<ul class="right">
 				<li class="animation saloondoor">Pesky Students</li>
 				<li class="animation saloondoor">Pesky Students</li>
 				<li class="animation saloondoor">Pesky Students</li>
 			</ul>
-			<div style="clear:both" ></div>
 		</div>
 	</div>
 	<div class="slide dildos">
@@ -57,8 +80,9 @@
 				<li class="animation saloondoor">Pesky Students</li>
 				<li class="animation saloondoor">Pesky Students</li>
 			</ul>
-			<div style="clear:both" ></div>
 		</div>
 	</div>
+	<!-- forces floated elements to 'take up room' and ensures background fills body, therefore screen--> 
+	<div style="clear:both;" ></div>
   </body>
 </html>
