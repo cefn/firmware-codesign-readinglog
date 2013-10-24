@@ -1,88 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
     <title>Co-Design of Product Firmware</title>
-    <!-- 
-	<link href='http://fonts.googleapis.com/css?family=Stoke' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded' rel='stylesheet' type='text/css'>
-    -->
-	<link href='font/Stoke.css' rel='stylesheet' type='text/css'>
-	<link href='font/Stint+Ultra+Expanded.css' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Stint+Ultra+Expanded' rel='stylesheet' type='text/css'>
-	<link href='index.css' rel='stylesheet' type='text/css'>
-	
+    <link href="font/Stoke.css" rel="stylesheet" type="text/css">
+    <link href="font/StintUltraExpanded-Regular.css" rel="stylesheet" type="text/css">
+    <link href="index.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.10.2.js"></script>
-
-	<script src="js/TweenMax.min.js"></script>
-	<script src="js/jquery.gsap.min.js"></script>
-	<script src="js/plugins/CSSRulePlugin.min.js"></script>
-	<script src="js/plugins/RaphaelPlugin.min.js"></script>
-	<script src="js/plugins/ColorPropsPlugin.min.js"></script>
-	<script src="js/plugins/EaselPlugin.min.js"></script>
-	<script src="js/plugins/TextPlugin.min.js"></script>
-	<script src="js/plugins/ScrollToPlugin.min.js"></script>
-	<script src="js/plugins/KineticPlugin.min.js"></script>
-	<script src="js/utils/Draggable.min.js"></script>
-
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/jquery.gsap.min.js"></script>
+    <script src="js/plugins/CSSRulePlugin.min.js"></script>
+    <script src="js/plugins/RaphaelPlugin.min.js"></script>
+    <script src="js/plugins/ColorPropsPlugin.min.js"></script>
+    <script src="js/plugins/EaselPlugin.min.js"></script>
+    <script src="js/plugins/TextPlugin.min.js"></script>
+    <script src="js/plugins/ScrollToPlugin.min.js"></script>
+    <script src="js/plugins/KineticPlugin.min.js"></script>
+    <script src="js/utils/Draggable.min.js"></script>
     <script src="index.js"></script>
-    
   </head>
   <body>
-	<div class="wash"></div>
-	<div class="background"></div>
-	<div class="slide">
-		<div class="background circuit"></div>
-		<div class="foreground saloondoor">
-			<div class="animation grow">
-				<h1>Firmware Co-Design</h1>
-			</div>
-			<ul class="left">
-				<li class="animation">Critical</li>
-				<li class="animation">Non-Existent</li>
-				<li class="animation">Uncharted</li>
-			</ul>
-			<ul class="right">
-				<li class="animation manual">Here we go</li>
-				<li class="animation manual">Bullet 1</li>
-				<li class="animation manual">Bullet 2</li>
-			</ul>
-		</div>
-	</div>
-	<div class="slide">
-		<div class="background bikes"></div>
-		<div class="foreground">
-			<div class="animation grow">
-				<h1>Problem with universities</h1>
-			</div>
-			<ul class="left">
-				<li class="animation">Pesky Students</li>
-				<li class="animation">Pesky Students</li>
-				<li class="animation">Pesky Students</li>
-			</ul>
-			<ul class="right">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-			</ul>
-		</div>
-	</div>
-	<div class="slide dildos">
-		<div class="background"></div>
-		<div class="foreground">
-			<ul class="left">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-			</ul>
-			<ul class="right">
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-				<li class="animation saloondoor">Pesky Students</li>
-			</ul>
-		</div>
-	</div>
-	<!-- forces floated elements to 'take up room' and ensures background fills body, therefore screen--> 
-	<div style="clear:both;" ></div>
+    <div class="wash"></div>
+    <div class="slide">
+      <div class="background circuit"></div>
+      <div class="foreground saloondoor">
+        <div class="anim grow">
+          <h1>Firmware Co-Design</h1>
+        </div>
+        <ul class="left">
+          <li class="anim">Critical</li>
+          <li class="anim">Non-Existent</li>
+          <li class="anim">Uncharted</li>
+        </ul>
+        <ul class="right">
+          <li class="anim manual">A folded bullet</li>
+          <li class="anim manual">Bullet 1</li>
+          <li class="anim manual">Bullet 2</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <div class="anim grow">
+          <h1>Problem with universities</h1>
+        </div>
+        <ul class="left">
+          <li class="anim">Pesky Students</li>
+          <li class="anim">Pesky Students</li>
+          <li class="anim">Pesky Students</li>
+        </ul>
+        <ul class="right">
+          <li class="anim">Another bit</li>
+          <li class="anim">Pesky Students</li>
+          <li class="anim">Pesky Students</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background dildos"></div>
+      <div class="foreground">
+        <div class="anim grow">
+          <h1>Problem with universities</h1>
+        </div>
+        <ul class="left">
+          <li class="anim saloondoor">Pesky Students</li>
+          <li class="anim saloondoor">Pesky Students</li>
+          <li class="anim saloondoor">Pesky Students</li>
+        </ul>
+        <ul class="right">
+          <li class="anim saloondoor">Pesky Students</li>
+          <li class="anim saloondoor">Pesky Students</li>
+          <li class="anim saloondoor">Pesky Students</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide saloondoor">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <div class="anim grow">
+          <h1>Co-design of Product Firmware</h1>
+        </div>
+        <ul class="left">
+          <li class="anim">Critical background</li>
+          <li class="anim">Firmware blueprints</li>
+          <li class="anim">Declarative vs. Imperative</li>
+          <li class="anim">Imperative bricolage</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <h1>Critical Background</h1>
+        <h2>What is the problem?</h2>
+        <ul class="left">
+          <li>Firmware is broken </li>
+          <li>User design engagement is promising</li>
+          <li>Systemic issues prevent user engagement</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <h1>Declarative vs. Imperative</h1>
+        <h2>Existing solutions</h2>
+        <ul class="left">
+          <li>Requirements; declarative</li>
+          <li>Planner unsolved AI problem</li>
+          <li>Programmer as planner</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <h1>Firmware Blueprints</h1>
+        <ul class="left">
+          <li>Knowledge; 'boundary objects'</li>
+          <li>Design; Sketching</li>
+          <li>Constraints: Bricolage</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide">
+      <div class="background bikes"></div>
+      <div class="foreground saloondoor">
+        <h1>Imperative Bricolage</h1>
+        <ul class="left">
+          <li>Bullet</li>
+        </ul>
+      </div>
+    </div>
+    <!-- forces floated elements to 'take up room' and ensures background fills body, therefore screen-->
+    <div style="clear:both;"></div>
   </body>
 </html>
