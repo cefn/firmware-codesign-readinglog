@@ -9,7 +9,7 @@ html, body, .slide{
 
 body *{
 	font-family:Stint Ultra Expanded,sans;
-	font-size:1.3em;
+	font-size:36px;
 	color:white;
 }
 
@@ -44,17 +44,21 @@ body *{
 
 .foreground{
 	width:80%;
-	height:80%;
-	margin:10%;
-	perspective:10px; 
+	height:90%;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:5%;
+	margin-bottom:5%;
+	perspective:10px;
+	display:table;
 }
 
 .left, .right{
-	display:table-cell;
-}
-
-.right{
-	display:table-cell;
+	margin:0;
+	margin-top:2em;
+	padding:0;
+	display:inline-block;
+	width:49%;
 }
 
 .chunk{ /* used to annotate individual chunks of text */
@@ -72,7 +76,8 @@ ul{
 }
 
 li {
-	padding:0.5em;
+	padding:0.3em;
+	margin:0.05em;
 	background-color:rgba(128,128,128,0.5);
 }
 
@@ -90,11 +95,11 @@ li {
 	-webkit-transform:rotateX(-5deg) rotateY(-40deg);
 }
 
-.anim.grow {
+.reveal.grow {
 	overflow:hidden;
 }
 
-.anim.grow>*{
+.reveal.grow>*{
 	width:16em;
 }
 
