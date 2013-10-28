@@ -1,7 +1,7 @@
 var MUDSLIDE = function(){
 
-	var defaultDuration=0.5;
-	var staggerOffset=0.1;
+	var defaultTime=1.0;
+	var slideRevealTime=2.0;
 	var slideSelector = ".slide";
 	
 	/** Used to construct a single timeline, combining all the slides individual timelines into a single presentation.
@@ -10,7 +10,11 @@ var MUDSLIDE = function(){
 	 * * reveal - transitions causing individual slides to become visible (to simplify, they are reversed for invisible) 
 	 * */
 	var slideRevealFactories = [];
-	slideRevealFactories[slideSelector] = revealFactory(defaultDuration, {autoAlpha:0});
+	slideRevealFactories[slideSelector] = revealFactory({
+		from:{autoAlpha:0},
+		time:slideRevealTime,
+		offset:("-=" + slideRevealTime),
+	});
 	
 	/** Used to constructs a series of timelines, one per slide, which can be combined.
 	 * Animations within each slide are considered atomic (although of course other 
@@ -22,9 +26,9 @@ var MUDSLIDE = function(){
 	 * */
 	 
 	var elementRevealFactories = {
-		".saloondoor .left li.reveal":revealFactory(defaultDuration, {opacity:0,rotationY:100}),
-		".saloondoor .right li.reveal":revealFactory(defaultDuration, {opacity:0,rotationY:-100}),
-		".reveal.grow":revealFactory(defaultDuration, {width:0}),
+		".saloondoor .left li.reveal":revealFactory({ from:{opacity:0,rotationY:100}, time:1.0, stagger:"-=0.2" }),
+		".saloondoor .right li.reveal":revealFactory({ from:{opacity:0,rotationY:-100}, time:1.0, stagger:"-=0.2"}),
+		".reveal.grow":revealFactory({ from:{width:0} }),
 	};
 
 	function initDeck(){
@@ -54,54 +58,43 @@ var MUDSLIDE = function(){
 	
 	/** Returns a unique string label for a timeline, based on the position of the slide. */
 	function getSlideLabel(idx){
-		"slide-" + idx;
+		return "slide-" + idx;
 	}
 	
 	function timelineDeck(){
 		
-		var decktl = new TimelineMax();
+		var slidetl = new TimelineMax();
 		
 		$(slideSelector).each(function(idx,el){
-			var slidetl = new TimelineMax();
 			
 			var slideq = $(this);
 			var slideReveals = makeReveals(slideRevealFactories, slideq);
-			var elementReveals = makeReveals(elementRevealFactories,slideq);
+			var elementReveals = makeReveals(elementRevealFactories, slideq);
 			
-			var tween, lastDuration = staggerOffset;
 			//insert slide reveal(s) and element reveals
 			for(var sri = 0; sri < slideReveals.length; sri++){
-				tween = slideReveals[sri].showTween();
-				slidetl.append(tween, 0);
-				lastDuration = tween.duration();
+				slideReveals[sri].showTween(slidetl);
 			}
 			for(var eri = 0; eri < elementReveals.length; eri++){
-				tween = elementReveals[eri].showTween();
-				slidetl.append(tween, -lastDuration + staggerOffset);
-				lastDuration = tween.duration();
+				elementReveals[eri].showTween(slidetl);
 			}
 			
 			//add a label for this slide at the current point
-			slidetl.addLabel(getSlideLabel(idx), slidetl.duration);
+			slidetl.addLabel(getSlideLabel(idx), slidetl.duration());
 			
 			//insert the same reveals in reverse
 			for(var eri = elementReveals.length; eri-->0 ;){
-				tween = elementReveals[eri].hideTween();
-				slidetl.append(tween, -lastDuration + staggerOffset);
-				lastDuration = tween.duration();
+				elementReveals[eri].hideTween(slidetl);
 			}
 			for(var sri = slideReveals.length; sri-->0 ; ){
-				tween = slideReveals[sri].hideTween();
-				slidetl.append(tween, 0);
-				lastDuration = tween.duration();
+				slideReveals[sri].hideTween(slidetl);
 			}
-			
-			//append to the timeline
-			decktl.append(slidetl);
 			
 		});
 		
-		return decktl;
+		slidetl.pause();
+		
+		return slidetl;
 		
 	}
 	
@@ -132,18 +125,40 @@ var MUDSLIDE = function(){
 		return reveals;
 	}
 	
-	function revealFactory(time, fromvals, tovals){
-		if(!tovals){
-			tovals = {};
-			copyProperties(fromvals,tovals);
-		}
+	/** Creates a factory for reveal (and unreveal) tweens 
+	 * which can create the tweens for items which are passed to the factory. */
+	function revealFactory(params){
+		
+		var from, time, to, offset, stagger;
+		
+		if("from" in params) from = params.from;
+		else throw Error("revealFactory needs a 'from' object to indicate the CSS from which elements are tweened");
+		
+		if("time" in params) time = params.time;
+		else time = defaultTime;
+		
+		if("to" in params) to = params.to;
+		else to = copyProperties(params.from,{});
+		
+		if("offset" in params) offset = params.offset;
+		else offset = "+=0";
+
+		if("stagger" in params) stagger = params.stagger;
+		else stagger = "+=0";
+		
+		var showCount = 0;
+		var hideCount = 0;
 		return function(items){
 			return {
-				showTween:function(){ 
-					return TweenLite.from(items,time,fromvals);
+				showTween:function(tl){
+					if(showCount == 0) tl.insert(TweenMax.from(items,time,from),offset); //offset applies to first in series 
+					else tl.insert(TweenMax.from(items,time,from),stagger); //stagger applies to remainder of series
+					showCount++;
 				},
-				hideTween:function(){ 
-					return TweenLite.to(items,time,tovals); 
+				hideTween:function(tl){ 
+					if(hideCount == 0) tl.insert(TweenMax.to(items,time,to),offset); //offset applies to first in series 
+					else tl.insert(TweenMax.to(items,time,to),stagger); //stagger applies to remainder of series
+					hideCount++;
 				},
 			};
 		};
@@ -204,24 +219,24 @@ var MUDSLIDE = function(){
 
 	/** Returns exported values and functions. */
 	return eval(writeScopeExportCode([
-		"initDeck"
+		"initDeck","getSlideLabel"
 	]));
 }();
 
 //wire up an event listener to scale the fonts according to viewport size, can then measure everything in em?
 //from https://gist.github.com/williammalo/2475269
-var fudgeFactor = 40 / 768; // defines the size of the body text for the maximum screen width 
+var fudgeFactor = 36 / 768; // defines the size of the body text for the maximum screen width 
 function fontFix() {
 	var height = window.innerHeight || document.documentElement.clientHeight;
 	document.body.style.fontSize = Math.max(20, fudgeFactor * height ) + "px";
 };
-window.addEventListener('resize', fontFix);
-window.addEventListener('load', fontFix);
+
+$(fontFix);
+$(window).resize(fontFix);
 
 $(function(){
-		
-	var timeline = MUDSLIDE.initDeck();
 	
-	timeline.play();
-
+	var timeline = MUDSLIDE.initDeck();
+	timeline.tweenTo(MUDSLIDE.getSlideLabel(0));
+	
 });
