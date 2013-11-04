@@ -7,6 +7,8 @@
     <link href="font/StintUltraExpanded-Regular.css" rel="stylesheet" type="text/css">
     <link href="index.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.media.js"></script>
+    <script src="js/underscore.js"></script>
     <script src="js/TweenMax.js"></script>
     <script src="js/jquery.gsap.min.js"></script>
     <script src="js/plugins/CSSRulePlugin.min.js"></script>
@@ -20,8 +22,42 @@
     <script src="index.js"></script>
   </head>
   <body>
+    <audio id="theme" src="index.mp3" preload="auto" ></audio>
     <div class="wash">&nbsp;</div>
-    <div class="slide">
+    <div class="scene">
+      <div class="background circuit"> </div>
+      <h1 class="reveal">Firmware is the hidden software component which
+        controls the behaviour of digital products like… </h1>
+    </div>
+    <div class="scene">
+      <div class="background toy"> </div>
+      <h1>toys, for kids...</h1>
+    </div>
+    <div class="scene">
+      <div class="background dildo"> </div>
+      <h1 class="reveal">...and for adults,</h1>
+    </div>
+    <div class="scene">
+      <div class="background toaster"> </div>
+      <h1 class="reveal">Appliances, small...</h1>
+    </div>
+    <div class="scene">
+      <div class="background washer"> </div>
+      <h1 class="reveal">...and large.</h1>
+    </div>
+    <div class="scene">
+      <div class="background camera"> </div>
+      <h1 class="reveal">cameras,</h1>
+    </div>
+    <div class="scene">
+      <div class="background phone reveal"> </div>
+      <h1 class="reveal">phones,</h1>
+    </div>
+    <div class="scene">
+      <div class="background gadget reveal"> </div>
+      <h1 class="reveal">...and all kinds of other gadget.</h1>
+    </div>
+    <div class="scene">
       <div class="background circuit">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
@@ -33,14 +69,14 @@
           <li class="reveal">Uncharted</li>
         </ul>
         <ul class="right">
-          <li class="reveal manual">A folded bullet</li>
-          <li class="reveal manual">Bullet 1</li>
-          <li class="reveal manual">Bullet 2</li>
+          <li class="reveal pause">A folded bullet</li>
+          <li class="reveal pause">Bullet 1</li>
+          <li class="reveal pause">Bullet 2</li>
         </ul>
       </div>
     </div>
-    <div class="slide">
-      <div class="background bikes">&nbsp;</div>
+    <div class="scene">
+      <div class="background bike">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
           <h1>Co-design of Product Firmware</h1>
@@ -53,8 +89,8 @@
         </ul>
       </div>
     </div>
-    <div class="slide">
-      <div class="background dildos">&nbsp;</div>
+    <div class="scene">
+      <div class="background dildo">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
           <h1>Critical Background</h1>
@@ -69,8 +105,8 @@
         </ul>
       </div>
     </div>
-    <div class="slide">
-      <div class="background bikes">&nbsp;</div>
+    <div class="scene">
+      <div class="background bike">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
           <h1>Declarative vs. Imperative</h1>
@@ -85,8 +121,8 @@
         </ul>
       </div>
     </div>
-    <div class="slide">
-      <div class="background bikes">&nbsp;</div>
+    <div class="scene">
+      <div class="background bike">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
           <h1>Firmware Blueprints</h1>
@@ -98,8 +134,8 @@
         </ul>
       </div>
     </div>
-    <div class="slide">
-      <div class="background bikes">&nbsp;</div>
+    <div class="scene">
+      <div class="background bike">&nbsp;</div>
       <div class="foreground saloondoor">
         <div class="reveal grow">
           <h1>Imperative Bricolage</h1>
@@ -110,6 +146,5 @@
       </div>
     </div>
     <!-- forces floated elements to 'take up room' and ensures background fills body, therefore screen-->
-    <div style="clear:both;"></div>
   </body>
 </html>
