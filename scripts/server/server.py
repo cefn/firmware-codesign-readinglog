@@ -68,7 +68,8 @@ class myHandler(BaseHTTPRequestHandler):
 				("\w+.xq",xquery),
 				("\w+.\w+",binary),
 				("papers/[\w-]+.pdf",embed),
-				("notes/[\w-]+.html",style)
+				("notes/[\w-]+.html",style),
+				("slides/.*\w+.(?:html|css|js|jpg|gif|png|mp3|woff)",binary),
 			]
 
 			# generic mapping routine, which permits either strings or files to be returned as a result
