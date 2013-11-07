@@ -20,6 +20,7 @@ html, body, .scene{
 body{
 	font-size:36px;
 	font-family:Stint Ultra Expanded,sans;
+/*	font-family:Open Sans,sans; */
 	color:white;
 }
 
@@ -85,32 +86,38 @@ body{
 h1 {
 	font-size:2em;
 	color:black;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(255,255,255,0.8);
 	margin-bottom:1em;
+	line-height:1.5em;
 }
 
 ul{
 	list-style-type: none;
+	padding-left:0px;
+}
+
+h1,li{
+	padding-left:20px;
 }
 
 li {
 	padding:0.3em;
 	margin:0.05em;
-	background-color:rgba(128,128,128,0.5);
+	background-color:rgba(128,128,128,0.8);
 }
 
 .saloondoor .left li {
 	transform-origin:left center;
-	transform:rotateX(-5deg) rotateY(40deg);
+	transform:rotateX(-5deg) rotateY(25deg);
 	-webkit-transform-origin:left center;
-	-webkit-transform:rotateX(-5deg) rotateY(40deg);
+	-webkit-transform:rotateX(-5deg) rotateY(25deg);
 }
 
 .saloondoor .right li {
 	transform-origin:right center;
-	transform:rotateX(-5deg) rotateY(-40deg);
+	transform:rotateX(-5deg) rotateY(-25deg);
 	-webkit-transform-origin:right center;
-	-webkit-transform:rotateX(-5deg) rotateY(-40deg);
+	-webkit-transform:rotateX(-5deg) rotateY(-25deg);
 }
 
 .reveal.grow {
