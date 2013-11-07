@@ -1,7 +1,9 @@
 $(function(){
 	
-	var from = MUDSLIDE.from, 
-		to=MUDSLIDE.to;
+	var from 	= MUDSLIDE.from, 
+		to		= MUDSLIDE.to,
+		label	= MUDSLIDE.label;
+		
 	
 	/** These are the tween generation rules, with an order which can be used to determine their priority within
 	 * a scene. Keys are selectors, and values are either...
@@ -10,30 +12,17 @@ $(function(){
 	 * - arrays (further sequences of factories and objects)
 	 * */
 	var rules = {
-
-		/* //reintroduce wash once fundamental tweening works again
-		".wash":sequenceFactory(60,
-			[
-				{backgroundColor:"hsl(0,50%,50%)"}, 
-				{backgroundColor:"hsl(120,50%,50%)"},				
-				{backgroundColor:"hsl(240,50%,50%)"},
-			],
-			{forever:true}
-		),
-		*/
-		".scene .intro":[
-			from({},{duration:1,offset:"-=1"}),
-			to({},{duration:1}),
-		]
 		".scene":[
-			from({},{duration:1,offset:"-=1"}),
+			from({},{duration:1.0,outerOffset:"-=0.9"}),
 			{".reveal.grow":from({width:0})},
 			{".saloondoor .left li.reveal":from({rotationY:100})},
 			{".saloondoor .right li.reveal":from({rotationY:-100})},
+			label("scene"),
 			{".saloondoor .right li.reveal":to({rotationY:-100})},
 			{".saloondoor .left li.reveal":to({rotationY:100})},
 			{".reveal.grow":to({width:0})},
-			to({}, {duration:1}),
+			{".scene:not(.intro)":to({delay:0.1}, {duration:1.0})},
+			{".scene.intro":to({delay:3.0}, {duration:1.0})},
 		],
 	};
 	
@@ -56,6 +45,7 @@ $(function(){
 	washTl.play();
 		
 	MUDSLIDE.initDeck(rules);
+	MUDSLIDE.timeline.pause();
 	MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(0));
 
 	/* //switch this for a media tween factory ASAP
@@ -66,6 +56,17 @@ $(function(){
 	});
 	*/
 	
+			/* //reintroduce wash once fundamental tweening works again
+		".wash":sequenceFactory(60,
+			[
+				{backgroundColor:"hsl(0,50%,50%)"}, 
+				{backgroundColor:"hsl(120,50%,50%)"},				
+				{backgroundColor:"hsl(240,50%,50%)"},
+			],
+			{forever:true}
+		),
+	*/
+
 });
 
 
