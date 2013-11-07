@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Stint Ultra Expanded';
+  font-style: normal;
+  font-weight: 400;
+  src: url(StintUltraExpanded-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Stoke';
+  font-style: normal;
+  font-weight: 400;
+  src: url(Stoke.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(OpenSansHebrew-Regular.woff) format('woff');
+}
+
