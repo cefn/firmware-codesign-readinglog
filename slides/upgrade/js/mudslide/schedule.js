@@ -47,66 +47,110 @@ MUDSLIDE.copyProperties(function(){
 	
 	var nextPause = 0;
 	var nextScene = 0;
+
+	function log(msg,arg){
+		alert(msg);
+	}
 	
-	function from(gsSpec, msSpec){
-		
+	function from(gsSpec, msSpec){		
 		return function(ensemble, actor){
-			
+			//get defaults
+			var gs = clone(MUDSLIDE.configuration.defaultGsProps.from);
+			var ms = clone(MUDSLIDE.configuration.defaultMsProps.from);
+			//merge specified properties
+			copyProperties(gsSpec,gs);
+			copyProperties(msSpec,ms);
+			//add event monitors suitable for debugging
+			copyProperties({
+				onStart:function(){ 
+					//log("something");
+				},
+				onComplete:function(){ 
+					//log("something");
+				},
+			}, gs);
 			return {
-				
 				ensemble:ensemble,
 				actor:actor,
+				gs:gs, 
+				ms:ms,
 				schedule:function(tl){
-					
-					//merge in default 'from' properties
-					this.gs = copyProperties(gsSpec? gsSpec : {}, clone(MUDSLIDE.configuration.defaultGsProps.from));
-					this.ms = copyProperties(msSpec? msSpec : {}, clone(MUDSLIDE.configuration.defaultMsProps.from));
 					
 					//calculate offset relative to set
 					var offset = ensemble.index(actor) > 0 ? this.ms.innerOffset : this.ms.outerOffset;
-					
+										
 					//schedule tween
-					tl.from(actor, this.ms.duration, this.gs ,offset);
+					var tween = TweenMax.from(actor, this.ms.duration, this.gs);
+					if(this.ms.parallel){ //schedule the triggering of this tween but takes no duration
+						tween.pause();
+						tl.addCallback(function(){
+							tween.play();
+						}, tl.duration());
+					}
+					else{
+						tl.add(tween, offset);
+					}
 					
-					if(actor.is(sceneSelector)){ //add pause exceptionally to scenes
-						if( actor.is(".pause") ){
-							addPauseLabel(tl);							
-						}
+					if(this.ms.pause){
+						addPauseLabel(tl);							
 					}
-					else{ //withold pause exceptionally for everything else
-						if( ! actor.is(".nopause") ){ 
-							addPauseLabel(tl);														
-						}
-					}
+					
 				},
 				type:"from",
-			}
+			};
 		}
 	}
 	
 	function to(gsSpec, msSpec){
 		
 		return function(ensemble, actor){
+			//get defaults
+			var gs = clone(MUDSLIDE.configuration.defaultGsProps.to);
+			var ms = clone(MUDSLIDE.configuration.defaultMsProps.to);
+			//merge specified properties
+			copyProperties(gsSpec,gs);
+			copyProperties(msSpec,ms);
+			//add event monitors suitable for debugging
+			copyProperties({
+				onStart:function(){ 
+					//log("something");
+				},
+				onComplete:function(){ 
+					//log("something");
+				},
+			}, gs);
 			return {
 				ensemble:ensemble,
 				actor:actor,
+				gs:gs, 
+				ms:ms,
 				schedule:function(tl){
 	
-					//merge in default 'to' properties
-					this.gs = copyProperties(gsSpec? gsSpec : {}, clone(MUDSLIDE.configuration.defaultGsProps.to));
-					this.ms = copyProperties(msSpec? msSpec : {}, clone(MUDSLIDE.configuration.defaultMsProps.to));
-
 					//calculate offset relative to set
 					var offset = ensemble.index(actor) > 0 ? this.ms.innerOffset : this.ms.outerOffset;
 
 					//schedule tween
-					tl.to(actor, this.ms.duration, this.gs ,offset);
+					var tween = TweenMax.to(actor, this.ms.duration, this.gs);
+					if(this.ms.parallel){ //schedule the triggering of this tween but takes no duration
+						tween.pause();
+						tl.addCallback(function(){
+							tween.play();
+						}, tl.duration());
+					}
+					else{
+						tl.add(tween, offset);
+					}
+
+					if(this.ms.pause){
+						addPauseLabel(tl);							
+					}
+
 				},
 				type:"to",
 			}
 		}		
 	}
-	
+		
 	var labelRegistry = {};
 	function label(prefix){
 		return function(ensemble, actor){
@@ -115,7 +159,7 @@ MUDSLIDE.copyProperties(function(){
 				actor:actor,
 				schedule:function(tl){
 					if( ! (prefix in labelRegistry) ){
-						labelRegistry[prefix] = 0
+						labelRegistry[prefix] = 0;
 					}
 					addFrameLabel(tl,prefix,labelRegistry[prefix]++);
 				},
@@ -124,14 +168,126 @@ MUDSLIDE.copyProperties(function(){
 			}
 		}
 	}
-	
-	function mediaShow(gsprops, msprops){ //should louden, reveal, fade in audio/video
-		
+
+	function killTweens(){
+		return function(ensemble, actor){
+			return {
+				ensemble:ensemble,
+				actor:actor,
+				schedule:function(tl){
+					tl.addCallback(function(){
+						TweenMax.killTweensOf(actor);					
+					},tl.duration());
+				},
+				type:"killTweens",
+			}
+		}
 	}
 	
-	function mediaHide(gsprops, msprops){ //should silence, hide, fade out audio/video
+	function pause(){
+		return label("pause");
 	}
 
+	/** A scheduler factory which clones the JQuery HTML literal or selector, removes any IDs and appends to current location. 
+	 * Creates a null scheduler which does nothing. */
+	function cloneAppend(selector, newclass){
+		return function(ensemble, actor){
+			$(selector).clone().removeAttr("id").appendTo(actor);
+			return createNullScheduler(ensemble, actor, {type:"cloneAppend"});
+		};
+	}
+	
+	function tokenize(separator, rules){
+		return [
+			function(ensemble, actor){
+				splitText(actor, separator, "<span class='token' />"); //generates new distinguishable spans
+				return createNullScheduler(ensemble,actor,{type:"tokenize",separator:separator});
+			},
+			//TODO CH nasty bug here where descendants will be matched if you're not careful to limit to children only
+			{">span.token":rules} //returns association mapping those spans with the rules passed in
+		]; 
+	}
+	
+	function createNullScheduler(ensemble,actor,props){
+		return createScheduler(ensemble,actor,null,props);
+	}
+	
+	function createScheduler(ensemble,actor,schedule,props){
+		var scheduler = {
+				ensemble:ensemble,
+				actor:actor,
+				schedule:schedule,
+		};
+		if(props){
+			copyProperties(props,scheduler);
+		}
+		return scheduler;
+	}
+	
+	function tokenizeChars(rules){
+		return tokenize("",rules);
+	}
+	
+	function splitText(container, separator, wrapper){
+		var createdq = $([]);
+		
+		separator = _.isUndefined(separator) ? "" : separator;
+		wrapper = _.isUndefined(wrapper) ? "<span />" : wrapper;
+		
+		//replace immediate text children into annotated divs containing same text sequence
+		container.contents().each(function(idx,node){
+			if(node.nodeType ===3){ //apply only to text nodes
+				//record important facts about the node, then remove it
+				var nodeq = $(node);
+				var parentq = nodeq.parent();
+				var nodeidx = nodeq.index();
+				nodeq.remove();
+				//add annotated spans in the place of the node
+				$.each(nodeq.text().split(separator), function(idx,chunk){
+					if(chunk === " ") chunk = "&nbsp;";
+					var newq = $(wrapper).html(chunk);
+					if(nodeidx === 0){ //workaround for lack of JQuery insertAt!
+						parentq.prepend(newq);
+					}
+					else{
+						parentq.children().eq(nodeidx-1).after(newq);
+					}
+					nodeidx++;
+					createdq.add(newq);
+				});
+			}
+		});
+		
+		return createdq;
+			
+	}
+		
+	function mediaPlay(){ 
+		return function(ensemble,actor){
+			return {
+				ensemble:ensemble,
+				actor:actor,
+				type:"mediaPlay",
+				schedule:function(tl){
+					$.media(actor).play();
+				},
+			};
+		}
+	}
+
+	function mediaStop(){ 
+		return function(ensemble,actor){
+			return {
+				ensemble:ensemble,
+				actor:actor,
+				type:"mediaStop",
+				schedule:function(tl){
+					$.media(actor).stop();
+				},
+			};
+		}
+	}
+	
 	/** Functions to define scheduler order. */
 
 	/** Defines a scheduler order based on the document order of the actor. */
@@ -206,7 +362,7 @@ MUDSLIDE.copyProperties(function(){
 		
 		//use whole document where set not specified (e.g. initial call)
 		if(typeof setq === "undefined"){
-			setq = $(document);
+			setq = $("body");
 		}
 
 		setq.each(function(){
@@ -218,16 +374,31 @@ MUDSLIDE.copyProperties(function(){
 				scheduler.rule = rules;
 				schedulers.push(scheduler);
 			}
-			if($.isArray(rules)){ //a series of rules at current level
+			else if($.isArray(rules)){ //a series of rules at current level
 				$.each(rules, function(){
 					makeSchedulers(this, schedulers, matchq);
 				});
 			}
 			else if($.isPlainObject(rules)){ //object with selector keys and rules for levels below
 				for(selector in rules){ //for each, invoke recursively with new rule and set
-					makeSchedulers(rules[selector],schedulers,matchq.find(selector).addBack(selector));
+					var newsetq;
+					if(selector.replace(" ","").indexOf(">")===0){ //if jquery rule is context-based (starts with >)
+						newsetq = setq.find(selector); //use contextual query
+					}
+					else{ //else treat as docwide selector
+						newsetq = $(selector).filter(function(){ //use global query (but restrict to descendants)
+							return $(this).parents().addBack().is(matchq);
+						});
+					}
+					//if anything matches, run rules on them
+					if(newsetq.size()){
+						makeSchedulers(rules[selector],schedulers,newsetq);
+					}
 				}
-			}	
+			}
+			else{
+				log("Improper type of rule", rules);
+			}
 					
 		});
 						
@@ -266,12 +437,20 @@ MUDSLIDE.copyProperties(function(){
 		});
 		
 		//sort by preferred order
-		schedulers.sort(schedulerSortOrder);
+		//TODO CH reintroduce an explicit specification of the initial sort order
+		//schedulers.sort(schedulerSortOrder);
 		
 		//use the tween schedulers to construct a new timeline	
 		var timeline = new TimelineMax();
 		$.each(schedulers,function(){
-			this.schedule(timeline);
+			if("schedule" in this){
+				if(this.schedule != null){ //handle possible null schedulers
+					this.schedule(timeline);
+				}
+			}
+			else{
+				log("Error in schedule construction",this);
+			}
 		});
 		
 		//dispose of any preceding timeline
@@ -316,9 +495,9 @@ MUDSLIDE.copyProperties(function(){
 			
 			var matchMaker = function(string){
 				return function(item){
-					return item.label.indexOf(string) != -1;
+					return item.name.indexOf(string) != -1;
 				};
-			}
+			};
 			
 			if(e.which == 32){
 				//SPACEBAR - navigate to next pause
@@ -382,7 +561,7 @@ MUDSLIDE.copyProperties(function(){
 		if(timeType === "string"){		//return true only after the label is passed
 			timeTest = function(label){
 				if(time === null){
-					return true;
+					return fn(label);
 				}
 				else if (label.name === time){
 					time = null;
@@ -392,9 +571,14 @@ MUDSLIDE.copyProperties(function(){
 		}
 		else{ //use time if specified 
 			timeTest = function(label){
-				return label.time > time;
+				if(label.time > time){
+					return fn(label);
+				}
+				else{
+					return false;
+				}
 			};
-			if(timeType != "number"){ //use time if specified, fallback to current time
+			if(timeType != "number"){ //return true only after time is passed (if specified), fallback to current time
 				time = tl.time(); 				
 			}
 		}
@@ -410,7 +594,7 @@ MUDSLIDE.copyProperties(function(){
 		if(timeType === "string"){		//return true only after the label is passed
 			timeTest = function(label){
 				if(time === null){
-					return true;
+					return fn(label);
 				}
 				else if (label.name === time){
 					time = null;
@@ -420,7 +604,12 @@ MUDSLIDE.copyProperties(function(){
 		}
 		else{
 			timeTest = function(label){
-				return label.time < time;
+				if(label.time > time){
+					return fn(label);
+				}
+				else{
+					return false;
+				}
 			};
 			if(timeType != "number"){ //use time if specified, fallback to current time
 				time = tl.time(); 				
@@ -428,33 +617,14 @@ MUDSLIDE.copyProperties(function(){
 		}
 		return _.find( labels, timeTest);
 	}
-	
-	/** Example (tested) function from Greensock demos which splits text into spans. */
-	function splitText(containerq){
-		var phrase = containerq.text();
-		var separator = "";
-		var chunks = phrase.split(separator);
-		containerq.contents().filter(function(){return this.nodeType == 3;}).remove();
-		var prevChunk;
-		$.each(chunks, function(index, val) {
-			if(val === " "){
-				val = "&nbsp;";
-			}
-			var outputChunk = $("<div />", { id : "txt" + index} ).addClass('chunk').html(val);
-			outputChunk.appendTo(containerq);
-	 
-			if(prevChunk) {
-				$(outputChunk).css("left", ($(prevChunk).position().left + $(prevChunk).width()) + "px");
-			};
-			prevChunk = outputChunk;
-		});
-	}
-	
-	TweenLite.ticker.fps(30);
+		
+	TweenLite.ticker.fps(15);
 
 	/** Returns exported values and functions. */
 	return eval(MUDSLIDE.writeScopeExportCode([
-		"initDeck","from","to","getPauseLabel","getSceneLabel","getFrameLabel", "nextLabelMatching","prevLabelMatching","label"
+		"initDeck","getPauseLabel","getSceneLabel","getFrameLabel", "nextLabelMatching","prevLabelMatching",
+		"from","to","label","cloneAppend","splitText",
+		"tokenize", "tokenizeChars", "mediaPlay", "mediaStop", "killTweens",
 	]));
 }(), MUDSLIDE);
 
