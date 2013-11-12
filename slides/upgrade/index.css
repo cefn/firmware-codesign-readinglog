@@ -83,6 +83,11 @@ body{
 	display:inline-block;
 }
 
+ul{
+	list-style-type: none;
+	padding-left:0px;
+}
+
 h1 {
 	font-size:2em;
 	color:black;
@@ -91,19 +96,23 @@ h1 {
 	line-height:1.5em;
 }
 
-ul{
-	list-style-type: none;
-	padding-left:0px;
-}
-
-h1,li{
+.saloondoor h1, .saloondoor li{
 	padding-left:20px;
 }
 
-li {
+.saloondoor li {
 	padding:0.3em;
 	margin:0.05em;
 	background-color:rgba(128,128,128,0.8);
+}
+
+.console{
+	background:black;
+}
+
+.console ul li{
+	color:green;
+	font-family:'Press Start 2P';
 }
 
 .saloondoor .left li {
