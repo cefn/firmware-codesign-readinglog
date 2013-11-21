@@ -7,8 +7,15 @@ $(function(){
 		tokenize		= MUDSLIDE.tokenize,
 		tokenizeChars	= MUDSLIDE.tokenizeChars,
 		mediaPlay		= MUDSLIDE.mediaPlay,
-		mediaStop		= MUDSLIDE.mediaStop;
-		killTweens		= MUDSLIDE.killTweens;
+		mediaVolume		= MUDSLIDE.mediaVolume,
+		mediaStop		= MUDSLIDE.mediaStop,
+		killTweens		= MUDSLIDE.killTweens,
+		fix				= MUDSLIDE.fix,
+		record			= MUDSLIDE.record,
+		revert			= MUDSLIDE.revert,
+		delay			= MUDSLIDE.delay,
+		pause			= MUDSLIDE.pause,
+		wrapInner		= MUDSLIDE.wrapInner;
 		
 	
 	/** These are the tween generation rules, with an order which can be used to determine their priority within
@@ -17,20 +24,44 @@ $(function(){
 	 * - objects (further selector keys in the heirarchy)
 	 * - arrays (further sequences of factories and objects)
 	 * */
+	 
 	var rules = [
 		{".scene":[ 
 			//reveals in order of preferred appearance
 			from({},{duration:1.0,outerOffset:"-=0.9",pause:false}),
+			{".scene .gantt":pause()},
+//			{".scene .gantt td":to({autoAlpha:1,width:"5%"}, {duration:0,pause:false})}, //forces width value
+			{".scene .gantt td":record()}, //records position of all divs without disturbing layout
+			{".scene .gantt td":revert()}, //applies recorded positions to all, recreating layout in absolute terms?
+			{".scene .gantt td.workshop.phase0":[
+				pause("+=1"),
+				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
+			]},
+			{".scene .gantt td.workshop.phase1":
+				to({position:"absolute",top:"33%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"})},
+			{".scene .gantt td.workshop.phase2":
+				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
+			},
+			{".scene .gantt td.publication.phase0":[
+				pause("+=1"),
+				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
+			]},
+			{".scene .gantt td.publication.phase1":
+				to({position:"absolute",top:"33%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"})},
+			{".scene .gantt td.publication.phase2":
+				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
+			},
 			{".scene.console li.reveal":[
-				cloneAppend("<audio class='typing' src='typing.mp3' preload='auto' ></audio>"), //creates an audio sample
-				{"audio.typing":mediaPlay()}, //plays the audio sample
-				cloneAppend("<span class='cursor'>_</span>"), //immediately copies a cursor in place
-				{">span.cursor":from({repeat:-1,repeatDelay:0.5,yoyo:true},{duration:0.01,parallel:true})},
+				cloneAppend("<audio class='typing' preload='auto' ><source src='audio/teletype_beep.wav' /> </audio>"), //creates an audio sample
+				cloneAppend("<span class='cursor'>_</span>"), //copies a cursor in place at build time
+				{">span.cursor":from({repeat:-1,yoyo:true},{duration:0.25,parallel:true, pause:false})},
+				pause(),
+				{"audio.typing":[from({duration:0.05},{pause:false}), mediaVolume(0.05), mediaPlay()]}, //plays the audio sample
 				tokenizeChars(
-					from({display:"none",delay:0.1},{duration:0, pause:false})
+					from({display:"none",delay:0.05},{duration:0,pause:false})
 				),
-				{">span.cursor":to({display:"none"})},
-				{"audio.sample":mediaStop()}, //stops the audio sample
+				{">span.cursor":to({},{parallel:true,pause:false})},
+				{"audio.typing":mediaStop()}, //stops the audio sample
 			]},
 			{".reveal.grow":from({width:0})},
 			{".saloondoor .left li.reveal": from({rotationY:100})},
@@ -66,27 +97,25 @@ $(function(){
 		
 	MUDSLIDE.initDeck(rules);
 	MUDSLIDE.timeline.pause();
-	MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(0));
+	MUDSLIDE.timeline.timeScale = 32;
+	var matchMaker = function(string){
+		return function(item){
+			return item.name.indexOf(string) != -1;
+		};
+	};
+	var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause-3"), 0);
+	TweenLite.fromTo(MUDSLIDE.timeline, 10, {time:0}, {time:label.time});
+	//MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(3), {onComplete:function(){MUDSLIDE.timeline.timeScale=1;}});
 
 	/* //switch this for a media tween factory ASAP
 	var audio = $.media("#theme");
 	$("#theme").bind("canplaythrough", function () {
-			audio.seek(38);
+			//audio.seek(38);
 			audio.play();
 	});
 	*/
 	
-			/* //reintroduce wash once fundamental tweening works again
-		".wash":sequenceFactory(60,
-			[
-				{backgroundColor:"hsl(0,50%,50%)"}, 
-				{backgroundColor:"hsl(120,50%,50%)"},				
-				{backgroundColor:"hsl(240,50%,50%)"},
-			],
-			{forever:true}
-		),
-	*/
-
+	
 });
 
 
