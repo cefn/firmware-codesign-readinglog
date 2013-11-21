@@ -52,6 +52,11 @@ MUDSLIDE.copyProperties(function(){
 		alert(msg);
 	}
 	
+	/* Adds a function callback to the end of a timeline. */
+	function scheduleCall(tl,fn){
+		tl.addCallback(fn,tl.duration());
+	};
+		
 	function from(gsSpec, msSpec){		
 		return function(ensemble, actor){
 			//get defaults
@@ -69,6 +74,11 @@ MUDSLIDE.copyProperties(function(){
 					//log("something");
 				},
 			}, gs);
+			/*
+			if("position" in gs && gs.position ==="absolute"){ //attempt to translate absolute to relative
+				gs=MUDSLIDE.absoluteToRelative(gs,actor);
+			}
+			*/
 			return {
 				ensemble:ensemble,
 				actor:actor,
@@ -83,16 +93,16 @@ MUDSLIDE.copyProperties(function(){
 					var tween = TweenMax.from(actor, this.ms.duration, this.gs);
 					if(this.ms.parallel){ //schedule the triggering of this tween but takes no duration
 						tween.pause();
-						tl.addCallback(function(){
+						scheduleCall(tl, function(){
 							tween.play();
-						}, tl.duration());
+						});
 					}
 					else{
 						tl.add(tween, offset);
 					}
 					
 					if(this.ms.pause){
-						addPauseLabel(tl);							
+						scheduleLabel(tl,"pause");
 					}
 					
 				},
@@ -119,6 +129,11 @@ MUDSLIDE.copyProperties(function(){
 					//log("something");
 				},
 			}, gs);
+			/*
+			if("position" in gs && gs.position ==="absolute"){ //attempt to translate absolute to relative
+				gs=MUDSLIDE.absoluteToRelative(gs,actor);
+			}
+			*/
 			return {
 				ensemble:ensemble,
 				actor:actor,
@@ -133,16 +148,16 @@ MUDSLIDE.copyProperties(function(){
 					var tween = TweenMax.to(actor, this.ms.duration, this.gs);
 					if(this.ms.parallel){ //schedule the triggering of this tween but takes no duration
 						tween.pause();
-						tl.addCallback(function(){
+						scheduleCall(tl,function(){
 							tween.play();
-						}, tl.duration());
+						});
 					}
 					else{
 						tl.add(tween, offset);
 					}
 
 					if(this.ms.pause){
-						addPauseLabel(tl);							
+						scheduleLabel(tl,"pause");
 					}
 
 				},
@@ -150,42 +165,46 @@ MUDSLIDE.copyProperties(function(){
 			}
 		}		
 	}
-		
-	var labelRegistry = {};
-	function label(prefix){
-		return function(ensemble, actor){
-			return {
-				ensemble:ensemble,
-				actor:actor,
-				schedule:function(tl){
-					if( ! (prefix in labelRegistry) ){
-						labelRegistry[prefix] = 0;
-					}
-					addFrameLabel(tl,prefix,labelRegistry[prefix]++);
-				},
-				type:"label",
-				prefix:prefix,
-			}
-		}
-	}
-
-	function killTweens(){
-		return function(ensemble, actor){
-			return {
-				ensemble:ensemble,
-				actor:actor,
-				schedule:function(tl){
-					tl.addCallback(function(){
-						TweenMax.killTweensOf(actor);					
-					},tl.duration());
-				},
-				type:"killTweens",
-			}
-		}
+			
+	function label(prefix,time){
+		return createSchedulerFactory(
+			function(tl){
+				scheduleLabel(tl,prefix,time);
+			},
+			{type:"label", prefix:prefix}
+		);
 	}
 	
-	function pause(){
-		return label("pause");
+	var labelRegistry = {};
+	function scheduleLabel(tl, prefix, time){
+		if( ! (prefix in labelRegistry) ){
+			labelRegistry[prefix] = 0;
+		}
+		addFrameLabel(tl,prefix,labelRegistry[prefix]++, time);
+	}
+	
+	function killTweens(){
+		return createSchedulerFactory(
+			function(tl){
+				scheduleCall( tl, function(){
+					TweenMax.killTweensOf(this.actor);					
+				});
+			},
+			{type:"killTweens"}
+		);
+	}
+
+	function delay(time){
+		return createSchedulerFactory(
+			function(tl){
+				tl.to(this.actor, time, {});
+			},
+			{type:"delay",time:time}
+		);
+	}
+	
+	function pause(time){
+		return label("pause",time);
 	}
 
 	/** A scheduler factory which clones the JQuery HTML literal or selector, removes any IDs and appends to current location. 
@@ -207,7 +226,69 @@ MUDSLIDE.copyProperties(function(){
 			{">span.token":rules} //returns association mapping those spans with the rules passed in
 		]; 
 	}
+
+	function wrapInner(html){
+		return function(ensemble,actor){
+			actor.wrapInner(html);
+			return createNullScheduler(ensemble,actor,{type:"wrapInner"});
+		}
+	}
 	
+	function mediaPlay(){ 
+		return createSchedulerFactory(function(tl){
+			var that = this;
+			scheduleCall( tl, function(tl){
+				$.media(that.actor).play();
+			});
+		},{type:"mediaPlay"});
+	}
+
+	function mediaStop(){ 
+		return createSchedulerFactory(function(tl){
+			var that = this;
+			scheduleCall( tl, function(tl){
+				$.media(that.actor).stop();
+			});
+		},{type:"mediaStop"});
+	}
+
+	function mediaVolume(vol){ 
+		return createSchedulerFactory(function(tl){
+			var that = this;
+			scheduleCall( tl, function(tl){
+				$.media(that.actor).volume(vol);
+			});
+		},{type:"mediaStop"});
+	}
+
+	function record(){
+		return createSchedulerFactory(function(tl){
+			var that = this;
+			scheduleCall( tl, function(){
+				var snapshot = {
+					position:"absolute",
+					left:that.actor.offset().left,
+					top:that.actor.offset().top,
+					width:that.actor.width(),
+					height:that.actor.height(),
+				};
+				that.actor.data("snapshot",snapshot);
+			});
+		},{type:"record"});
+	}
+
+	function revert(){
+		return createSchedulerFactory(function(tl){
+			var that = this;
+			scheduleCall( tl, function(){
+				that.actor.css(that.actor.data("snapshot"));
+			});
+		},{type:"revert"});
+	}
+	
+	//TODO CH refactor this, named as a BuildTime or SideEffectFactory 
+	//(which triggers an immediate side effect when factory is run, 
+	//but actually creates a NOOP scheduler)
 	function createNullScheduler(ensemble,actor,props){
 		return createScheduler(ensemble,actor,null,props);
 	}
@@ -222,6 +303,12 @@ MUDSLIDE.copyProperties(function(){
 			copyProperties(props,scheduler);
 		}
 		return scheduler;
+	}
+	
+	function createSchedulerFactory(schedule,props){
+		return function(ensemble,actor){
+			return createScheduler(ensemble,actor,schedule,props);
+		};
 	}
 	
 	function tokenizeChars(rules){
@@ -261,33 +348,7 @@ MUDSLIDE.copyProperties(function(){
 		return createdq;
 			
 	}
-		
-	function mediaPlay(){ 
-		return function(ensemble,actor){
-			return {
-				ensemble:ensemble,
-				actor:actor,
-				type:"mediaPlay",
-				schedule:function(tl){
-					$.media(actor).play();
-				},
-			};
-		}
-	}
-
-	function mediaStop(){ 
-		return function(ensemble,actor){
-			return {
-				ensemble:ensemble,
-				actor:actor,
-				type:"mediaStop",
-				schedule:function(tl){
-					$.media(actor).stop();
-				},
-			};
-		}
-	}
-	
+			
 	/** Functions to define scheduler order. */
 
 	/** Defines a scheduler order based on the document order of the actor. */
@@ -462,7 +523,7 @@ MUDSLIDE.copyProperties(function(){
 		return timeline;
 		
 	}
-	
+		
 	/** Moves all the .scene elements to be positioned at 0,0 relative to the viewport, 
 	 * so they all appear presentation style in the same place (editable original is 
 	 * scrollable with one scene after the next). 
@@ -534,15 +595,10 @@ MUDSLIDE.copyProperties(function(){
 	}
 
 	/** Inserts a label to indicate a point at which the given scene is fully viewable. */
-	function addSceneLabel(tl, idx){
+	function addSceneLabel(tl, idx, time){
 		if(typeof idx === "undefined") idx = nextScene++;
-		return addFrameLabel(tl,"scene",idx);
-	}
-
-	/** Inserts a label to indicate a point at which a sceneshow is expected to pause and wait for input. */
-	function addPauseLabel(tl, idx){
-		if(typeof idx === "undefined") idx = nextPause++;
-		return addFrameLabel(tl,"pause",idx);
+		return addFrameLabel(tl,"scene",idx, time);
+		return addFrameLabel(tl,"scene",idx, time);
 	}
 
 	function addFrameLabel(tl,name,idx,time){
@@ -591,7 +647,7 @@ MUDSLIDE.copyProperties(function(){
 		var labels = _.clone(tl.getLabelsArray()).reverse(); //reverse order of labels before searching  	
 		var timeTest;
 		var timeType = typeof time;
-		if(timeType === "string"){		//return true only after the label is passed
+		if(timeType === "string"){		//function only considered after the label is passed
 			timeTest = function(label){
 				if(time === null){
 					return fn(label);
@@ -603,12 +659,12 @@ MUDSLIDE.copyProperties(function(){
 			};
 		}
 		else{
-			timeTest = function(label){
-				if(label.time > time){
-					return fn(label);
+			timeTest = function(label){ //function only considered after the time is passed
+				if(label.time > time){ 
+					return false; //inverted logic to previous
 				}
 				else{
-					return false;
+					return fn(label);
 				}
 			};
 			if(timeType != "number"){ //use time if specified, fallback to current time
@@ -624,7 +680,7 @@ MUDSLIDE.copyProperties(function(){
 	return eval(MUDSLIDE.writeScopeExportCode([
 		"initDeck","getPauseLabel","getSceneLabel","getFrameLabel", "nextLabelMatching","prevLabelMatching",
 		"from","to","label","cloneAppend","splitText",
-		"tokenize", "tokenizeChars", "mediaPlay", "mediaStop", "killTweens",
+		"tokenize", "tokenizeChars", "mediaPlay", "mediaStop", "mediaVolume", "killTweens","pause","record","revert","delay","wrapInner"
 	]));
 }(), MUDSLIDE);
 
