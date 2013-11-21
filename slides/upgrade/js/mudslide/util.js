@@ -88,17 +88,68 @@ MUDSLIDE = function(){
 		}
 		return newitem;
 	}
+
+	/** Handles a number, a string containing a number with or without px or % and returns a number, 
+	 * referencing the max value in case the value is a percent. */
+	function scaleToPixels(coordinate,max){
+		if(typeof coordinate === "number"){
+			return coordinate;
+		}
+		else{
+			var scaled;
+			scaled = coordinate.replace("px","");
+			if(scaled !== coordinate){ //has px suffix
+				return parseInt(scaled);
+			}
+			scaled = scaled.replace("%","");
+			if(scaled !== coordinate){ //has percent suffix
+				return parseInt(scaled) * max / 100;
+			}
+		}
+		return null;
+	}
+
+	/** Translates rectangle coordinates (top,left,bottom,right,width,height) using pixels or percent 
+	 * into a relative pixel coordinate based on the current size of the viewport and the current location 
+	 * of the parent. */ 
+	function absoluteToRelative(absolute,itemq){
+		var relative=deepClone(absolute);
+		//copy absolute values as starting point
+		relative["position"] = "relative";
+		//interpret to pixel numbers, assuming viewport percentages
+		var windowWidth = window.innerWidth || document.documentElement.clientWidth;
+		var windowHeight = window.innerHeight || document.documentElement.clientHeight;
+		$.each(["left","width","right"], function(){
+			if(this in relative) relative[this] = scaleToPixels(relative[this],windowWidth);
+		});
+		$.each(["top","bottom","height"], function(){
+			if(this in relative) relative[this] = scaleToPixels(relative[this],windowHeight);
+		});
+		//offset for relative origin
+		var offset = itemq.offset(); //should perhaps be 'position'
+		var itemWidth = itemq.outerWidth();
+		var itemHeight = itemq.outerHeight();
+		if("top" in relative) relative.top -= offset.top;
+		if("left" in relative) relative.left -= offset.left;
+		if("right" in relative) relative.right -= (windowWidth - (offset.left + itemWidth));
+		if("bottom" in relative) relative.bottom -= (windowHeight - (offset.top + itemHeight));
+		//append px suffix
+		$.each(["top","bottom","height","left","width","right"], function(){
+			if(this in relative) relative[this] = relative[this] + "px";
+		});
+		return relative;
+	}
 	
-		/** Creates a JSON representation of properties exported from the closure namespace, to be passed to eval */
+	/** Creates a JSON representation of properties exported from the closure namespace, to be passed to eval */
 	function writeScopeExportCode(propnames){
 		var pairs = [];
 		propnames.forEach(function(item){pairs.push("\"" + item + "\":" + item);});
 		return "({" + pairs.join(",") + "})";                 
 	}
 
-		/** Returns exported values and functions. */
+	/** Returns exported values and functions. */
 	return eval(writeScopeExportCode([
-		"copyProperties", "compareDocumentNodes", "clone","orderBy", "writeScopeExportCode"
+		"copyProperties", "compareDocumentNodes", "clone","orderBy", "absoluteToRelative","writeScopeExportCode"
 	]));
 
 }();
