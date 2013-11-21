@@ -13,7 +13,7 @@ MUDSLIDE.copyProperties(function(){
 
 		defaultMsProps:{
 			from:{duration:0.5, outerOffset:"+=0", innerOffset:"+=0", parallel:false, pause:true},
-			to:{duration:0.2, outerOffset:"+=0", innerOffset:"-=0.1", parallel:false, pause:false}
+			to:{duration:0.2, outerOffset:"+=0", innerOffset:"+=0", parallel:false, pause:false}
 		},
 
 		//possible future msProps
