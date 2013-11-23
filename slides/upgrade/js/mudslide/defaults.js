@@ -4,7 +4,7 @@ MUDSLIDE.copyProperties(function(){
 		
 		sceneSelector:".scene",
 	
-		fontHeightShare:36 / 768, // defines the size of the body text for the maximum screen width 
+		fontHeightShare:26 / 768, // defines the size of the body text for the maximum screen height 
 		
 		defaultGsProps:{
 			from:{autoAlpha:0},
