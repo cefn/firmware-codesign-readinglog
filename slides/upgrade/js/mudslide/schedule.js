@@ -53,8 +53,9 @@ MUDSLIDE.copyProperties(function(){
 	}
 	
 	/* Adds a function callback to the end of a timeline. */
-	function scheduleCall(tl,fn){
-		tl.addCallback(fn,tl.duration());
+	function scheduleCall(tl,fn,time){
+		if(_.isUndefined(time)) time = tl.duration();
+		tl.addCallback(fn, time);
 	};
 		
 	function from(gsSpec, msSpec){		
@@ -95,7 +96,7 @@ MUDSLIDE.copyProperties(function(){
 						tween.pause();
 						scheduleCall(tl, function(){
 							tween.play();
-						});
+						}, offset);
 					}
 					else{
 						tl.add(tween, offset);
@@ -150,7 +151,7 @@ MUDSLIDE.copyProperties(function(){
 						tween.pause();
 						scheduleCall(tl,function(){
 							tween.play();
-						});
+						}, offset);
 					}
 					else{
 						tl.add(tween, offset);
@@ -552,36 +553,6 @@ MUDSLIDE.copyProperties(function(){
 		$(fontFix); //causes function to be called on document load
 		$(window).resize(fontFix); //causes function to be called on document load
 		
-		$(document).keydown(function(e){ //attach key events
-			
-			var matchMaker = function(string){
-				return function(item){
-					return item.name.indexOf(string) != -1;
-				};
-			};
-			
-			if(e.which == 32){
-				//SPACEBAR - navigate to next pause
-				var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-				MUDSLIDE.timeline.tweenTo(label.name);
-				return false;
-			}
-			if (e.which == 37) { 
-				//LEFT ARROW - navigate back to last pause
-				var label = MUDSLIDE.prevLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-				MUDSLIDE.timeline.tweenTo(label.name);
-				return false;
-			}
-			if (e.which == 39) { 
-				//RIGHT ARROW - navigate on to next pause
-				var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-				MUDSLIDE.timeline.tweenTo(label.name);
-				return false;
-			}
-			
-		});
-
-		
 	}
 
 	/** Functions for Greensock labels within the timeline */
@@ -660,7 +631,7 @@ MUDSLIDE.copyProperties(function(){
 		}
 		else{
 			timeTest = function(label){ //function only considered after the time is passed
-				if(label.time > time){ 
+				if(label.time >= time){ 
 					return false; //inverted logic to previous
 				}
 				else{
