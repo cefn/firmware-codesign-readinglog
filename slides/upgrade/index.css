@@ -53,7 +53,7 @@ html, body, .scene{
 }
 
 body{
-	font-size:24px;
+	font-size:20px;
 	font-family:Stint Ultra Expanded,sans;
 /*	font-family:Open Sans,sans; */
 	color:white;
@@ -98,7 +98,7 @@ body{
 }
 
 .foreground{
-	width:80%;
+	width:90%;
 	height:90%;
 	margin-left:10%;
 	margin-right:10%;
@@ -109,10 +109,20 @@ body{
 
 .left, .right{
 	margin:0;
-	margin-top:2em;
+	margin-top:1em;
+	margin-left:2%;
+	margin-right:2%;
 	padding:0;
 	display:inline-block;
-	width:49%;
+	vertical-align:top;
+	width:40%;
+}
+
+.left img, .right img{
+	width:75%;
+	margin:0;
+	margin-left:12%;
+	margin-right:12%;
 }
 
 .chunk{ /* used to annotate individual chunks of text */
@@ -128,7 +138,8 @@ h1 {
 	font-size:200%;
 	color:black;
 	background-color:rgba(255,255,255,0.8);
-	margin-bottom:1em;
+	margin-top:0.5em;
+	margin-bottom:1.5em;
 	line-height:1.5em;
 }
 
@@ -151,14 +162,14 @@ h1 {
 	font-family:'Press Start 2P';
 }
 
-.saloondoor .left li {
+.saloondoor .left li{
 	transform-origin:left center;
 	transform:rotateX(-5deg) rotateY(25deg);
 	-webkit-transform-origin:left center;
 	-webkit-transform:rotateX(-5deg) rotateY(25deg);
 }
 
-.saloondoor .right li {
+.saloondoor .right li{
 	transform-origin:right center;
 	transform:rotateX(-5deg) rotateY(-25deg);
 	-webkit-transform-origin:right center;
@@ -187,6 +198,10 @@ h1 {
 
 .background.blueprint{
 	background-image:url('img/blueprint_sketched.jpg');
+}
+
+.background.electronics{
+	background-image:url('img/leds.jpg');
 }
 
 .background.camera{
@@ -219,4 +234,80 @@ h1 {
 
 .background.phone{
 	background-image:url('img/phones.jpg');
+}
+
+.background.book{
+	background-image:url('img/book.jpg');
+}
+
+.background.brains{
+	background-image:url('img/brains.jpg');
+}
+
+.background.conductor{
+	background-image:url('img/conductor.jpg');
+}
+
+.background.crier{
+	background-image:url('img/crier.jpg');
+}
+
+.background.megaphone{
+	background-image:url('img/megaphone.jpg');
+}
+
+.background.piano{
+	background-image:url('img/piano_hands.jpg');
+}
+
+.background.scratch{
+	background-image:url('img/scratch.jpg');
+}
+
+.background.stress{
+	background-image:url('img/stress.jpg');
+}
+
+.background.tools{
+	background-image:url('img/tools.jpg');
+}
+
+.background.woz_head{
+	background-image:url('img/woz_head.jpg');
+}
+
+.background.woz_curtain{
+	background-image:url('img/woz_curtain.jpg');
+}
+
+.background.goal{
+	background-image:url('img/goal.jpg');
+}
+
+.background.pov{
+	background-image:url('img/pov.jpg');
+}
+
+.background.smiley{
+	background-image:url('img/smiley.jpg');
+}
+
+.background.flight{
+	background-image:url('img/paraglider.jpg');
+}
+
+.background.earthrise{
+	background-image:url('img/earthrise.jpg');
+}
+
+/*
+.round_mask {
+	-webkit-mask-box-image:url('img/round_mask.png');
+	-webkit-mask-size: auto 100%;
+
+}
+*/
+
+.round_mask{
+	-webkit-mask-box-image: -webkit-radial-gradient(center, ellipse cover,white, white 60%, transparent 70%)
 }
