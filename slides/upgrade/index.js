@@ -10,7 +10,6 @@ $(function(){
 		mediaVolume		= MUDSLIDE.mediaVolume,
 		mediaStop		= MUDSLIDE.mediaStop,
 		killTweens		= MUDSLIDE.killTweens,
-		fix				= MUDSLIDE.fix,
 		record			= MUDSLIDE.record,
 		revert			= MUDSLIDE.revert,
 		delay			= MUDSLIDE.delay,
@@ -33,6 +32,7 @@ $(function(){
 //			{".scene .gantt td":to({autoAlpha:1,width:"5%"}, {duration:0,pause:false})}, //forces width value
 			{".scene .gantt td":record()}, //records position of all divs without disturbing layout
 			{".scene .gantt td":revert()}, //applies recorded positions to all, recreating layout in absolute terms?
+			{".scene .gantt td.workshop li":from({position:"relative",left:"500px"},{duration:1,parallel:true,pause:false})},
 			{".scene .gantt td.workshop.phase0":[
 				pause("+=1"),
 				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
@@ -42,6 +42,8 @@ $(function(){
 			{".scene .gantt td.workshop.phase2":
 				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
 			},
+			{".scene .gantt td.workshop li":to({position:"relative",left:"500px"},{duration:1,outerOffset:"-=1",innerOffset:"-=1",pause:false})},
+			{".scene .gantt td.publication li":from({position:"relative",left:"500px"},{duration:1,parallel:true,pause:false})},
 			{".scene .gantt td.publication.phase0":[
 				pause("+=1"),
 				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
@@ -51,6 +53,7 @@ $(function(){
 			{".scene .gantt td.publication.phase2":
 				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
 			},
+			{".scene .gantt td.publication li":to({position:"relative",left:"500px"},{duration:1,outerOffset:"-=1",innerOffset:"-=1",pause:false})},
 			{".scene.console li.reveal":[
 				cloneAppend("<audio class='typing' preload='auto' ><source src='audio/teletype_beep.wav' /> </audio>"), //creates an audio sample
 				cloneAppend("<span class='cursor'>_</span>"), //copies a cursor in place at build time
@@ -68,8 +71,8 @@ $(function(){
 			{".saloondoor .right li.reveal":from({rotationY:-100})},			
 			label("scene"),
 			//conceals in order of preferred appearance
-			{".saloondoor .right li.reveal":to({rotationY:-100})},
-			{".saloondoor .left li.reveal":to({rotationY:100})},
+			{".saloondoor .right li.reveal":to({rotationY:-100},{innerOffset:"-=0.1"})},
+			{".saloondoor .left li.reveal":to({rotationY:100},{innerOffset:"-=0.1"})},
 			{".reveal.grow":to({width:0})},
 			{".scene:not(.intro)":to({delay:0.1}, {duration:1.0})},
 			{".scene.intro":to({delay:3.0}, {duration:1.0})},
@@ -97,14 +100,12 @@ $(function(){
 		
 	MUDSLIDE.initDeck(rules);
 	MUDSLIDE.timeline.pause();
-	MUDSLIDE.timeline.timeScale = 32;
 	var matchMaker = function(string){
 		return function(item){
 			return item.name.indexOf(string) != -1;
 		};
 	};
-	var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause-3"), 0);
-	TweenLite.fromTo(MUDSLIDE.timeline, 10, {time:0}, {time:label.time});
+	//TweenLite.fromTo(MUDSLIDE.timeline, 120, {time:0}, {time:300});
 	//MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(3), {onComplete:function(){MUDSLIDE.timeline.timeScale=1;}});
 
 	/* //switch this for a media tween factory ASAP
