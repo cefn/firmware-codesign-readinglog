@@ -63,13 +63,26 @@ class myHandler(BaseHTTPRequestHandler):
 					resource = "embed.xq"
 					return xquery(resource,params)
 
+			#define handlers, each returning (mimetype, result) pair
+			def svg(resource,params):
+				filepath = "svg/" + re.sub("\.svg",".xq", resource)
+				xquery = zorba.compileQuery(open(filepath, 'r').read())
+				for name, value in params.iteritems():
+					xquery.getDynamicContext().setVariable(name,factory.createString(value));
+				return (
+					'image/svg+xml',
+					xquery.execute()
+				)
+
 			# map from paths to handlers
 			sitemap = [ 	
 				("\w+.xq",xquery),
+				("[\w-]+.svg",svg),
 				("\w+.\w+",binary),
 				("papers/[\w-]+.pdf",embed),
 				("notes/[\w-]+.html",style),
-				("slides/.*\w+.(?:html|css|js|jpg|gif|png|mp3|woff)",binary),
+				("slides/.*\w+.(?:html|css|js|jpg|gif|png|mp3|wav|aiff|woff)",binary),
+				("mudslide/.*\w+.(?:html|css|js|jpg|gif|png|mp3|wav|aiff|woff)",binary),
 			]
 
 			# generic mapping routine, which permits either strings or files to be returned as a result
