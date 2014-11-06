@@ -5,7 +5,7 @@ import module namespace file = "http://expath.org/ns/file";
 
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
-declare namespace ann = "http://www.zorba-xquery.com/annotations";
+declare namespace ann = "http://zorba.io/annotations";
 
 (: templates a webpage, including the nodes specified :)
 declare function template:webpage($nodes){
