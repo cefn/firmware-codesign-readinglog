@@ -10,14 +10,22 @@ declare function local:filter-item($item as node()) as node()? {
     typeswitch($item)
        case element() return 
             let $name := local-name($item)
-            return element {$name} { 
-                local:filter-descendants($item) 
-            }
+            return 
+            if( $name = 'script' ) then 
+                ()
+            else
+                element {$name} { 
+                    local:filter-descendants($item) 
+                }
        case attribute() return 
            let $name := local-name($item)
-           return attribute {QName('', $name)} {
-                string($item)
-           }
+           return 
+           if ( $name = 'contenteditable' ) then
+               ()
+           else 
+               attribute {QName('', $name)} {
+                    string($item)
+               }
        case text() return 
            text{$item}
        case processing-instruction() return 

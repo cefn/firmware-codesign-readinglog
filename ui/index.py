@@ -1,11 +1,18 @@
 import os,sys,glob
 from PyQt4 import QtCore, QtGui, uic
 from PyQt4.QtGui import QApplication
-from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer
+from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer,QIODevice
 from PyQt4.QtWebKit import QWebView,QWebSettings
 from PyQt4.QtXmlPatterns import QXmlItem,QXmlName,QXmlQuery
 
-from watchdog.observers import Observer 
+from watchdog.observers import Observer
+
+def debug_trace():
+  '''Set a tracepoint in the Python debugger that works with Qt'''
+  from PyQt4.QtCore import pyqtRemoveInputHook
+  from pdb import set_trace
+  pyqtRemoveInputHook()
+  set_trace()
 
 # Manages an updating view of an XQuery
 class QueryDisplay(QObject):
@@ -36,7 +43,8 @@ class QueryDisplay(QObject):
         self.view.setContent(buf.buffer(),"application/xhtml+xml")
         '''
         self.view.setHtml(queryimpl.evaluateToString())
-        
+
+# TODO promote functionality for both nav and edit into common superclass        
 class QEditorAdaptor(QObject):
     
     def __init__(self,view=None, load_filter_path='lib/xq/load_template.xq', save_filter_path='lib/xq/save_template.xq'):
@@ -68,18 +76,21 @@ class QEditorAdaptor(QObject):
                 load_filter = QXmlQuery(QXmlQuery.XQuery10)
                 load_filter.setFocus(QUrl.fromLocalFile(filepath))
                 load_filter.setQuery(QUrl.fromLocalFile(self.load_filter_path))
-                '''
+
+                base_url = QUrl.fromLocalFile(os.path.dirname(filepath) + os.sep)
+                
                 buf = QBuffer()
                 buf.open(QBuffer.ReadWrite)
                 load_filter.evaluateTo(buf)
-                print buf.buffer()
-                self.view.setContent(buf.buffer(), "application/xhtml+xml")
-                '''
-                html = load_filter.evaluateToString()
-                print unicode(html)
-                base_url = QUrl.fromLocalFile(os.path.dirname(filepath) + "/")
-                print base_url
-                self.view.setHtml(html, base_url)
+                
+                f = open("example_filtered.html", "w")
+                f.write(buf.buffer())
+                f.close()
+                
+                self.view.setContent(buf.buffer(), "application/xhtml+xml", base_url)
+                #self.view.setHtml(load_filter.evaluateToString(), base_url)
+                self.view.page().mainFrame().addToJavaScriptWindowObject("editor", self)
+                
             else:
                 self.view.setHtml('')
 
@@ -93,16 +104,25 @@ class QEditorAdaptor(QObject):
 
     
     # call this to save an xpath file
-    @pyqtSlot(str,str)
-    def save_serialized(self, serialized):
-        f = open(self.filepath, 'w')
+    @pyqtSlot(str)
+    def save(self, serialized, filepath=None):
+        #debug_trace()
+        serialized = serialized.toUtf8().data().decode('utf-8', "ignore")
+        if filepath == None:
+            filepath = self.filepath
+        print "Saving to " + filepath + " : " + serialized
+        f = open(filepath, 'w')
         # this filter should remove any javascript and simplify the html
         # back to basics (should whitelist elements, attributes, text etc.)
         save_filter = QXmlQuery(QXmlQuery.XQuery10)
         save_filter.setFocus(serialized)
         save_filter.setQuery(QUrl(self.save_filter_path))
-        f.write(serialized)
+        f.write(save_filter.evaluateToString())
 
+    # call this to save an xpath file
+    @pyqtSlot(str)
+    def autosave(self, serialized):
+        self.save(serialized, self.filepath + "~")
 
 # provides simple signalling mechanism for watchdog module
 # based on emulating a minimal Watchdog 'EventHandler'

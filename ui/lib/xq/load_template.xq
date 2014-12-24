@@ -23,26 +23,18 @@ declare function local:filter-item($item as node()) as node()? {
                else if ($name = 'head') then ( element {$name} { 
                        (: TODO Introduce scripts at end of body for fast visual loading :)
                        local:filter-descendants($item),
-                       <script type="text/javascript" src="lib/js/require.js" >{comment {'prevent self-closing'}}</script>,
+                       <script type="text/javascript" data-main="lib/js/main" src="lib/js/require.js" >{comment {'prevent self-closing'}}</script>,
                        <script type="text/javascript">
                        <![CDATA[
-                           requirejs.config({
-                                baseUrl: 'lib/js',
-                                paths: {
-                                    jquery: 'jquery-1.11.1',
-                                }
-                            });
-                            requirejs(['jquery'], function($) {
-                                $(function(){
-                                    alert('hello');
-                                });
-                            });
+                       ;
                        ]]>
                        </script>
                     }
                )
+               else if($name = 'meta' and $item/@http-equiv and $item/@content) then 
+                   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                else element {$name} { 
-                    local:filter-descendants($item) 
+                    local:filter-descendants($item)
                }
         )
        case attribute() return 
