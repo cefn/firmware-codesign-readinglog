@@ -3,14 +3,6 @@ from PyQt4.QtGui import QApplication
 from PyQt4.QtWebKit import QWebView
 import os,sys
 
-#import os,sys,glob
-#from PyQt4 import QtCore, QtGui, uic
-#from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer,QIODevice
-#from PyQt4.QtWebKit import QWebView,QWebSettings
-#from PyQt4.QtXmlPatterns import QXmlItem,QXmlName,QXmlQuery
-
-#from watchdog.observers import Observer
-
 filepath = "test.html"
 
 # Object which exposes a slot to QWebView
