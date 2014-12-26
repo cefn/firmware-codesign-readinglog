@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type" />
+    <!-- TITLE -->
+    <title>
+      Demonstrates problem with Serializing Smart Quotes
+      through QT slot binding
+    </title>
+    <script>
+      //<![CDATA[
+        window.onload = function(){
+          var ser = new XMLSerializer();
+          var mystr = ser.serializeToString(document.documentElement);
+          editor.save(mystr);          
+        }
+      //]]>
+    </script>
+  </head>
+  <body>
+    <p>
+      "Practitioners acknowledge the need to inform designers about user
+      experiences and their context (Leonard and Rayport 1997, Buchenau and
+      Fulton Suri 2000), and a number of tools and techniques have been
+      presented (Fulton Suri 2003a) aiming to support designers to ‘step into
+      the user’s shoes’ and ‘walk the user’s walk’ in order to design products
+      that fit the user’s life"
+    </p>
+  </body>
+</html>
