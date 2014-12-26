@@ -3,6 +3,13 @@ from PyQt4.QtGui import QApplication
 from PyQt4.QtWebKit import QWebView,QWebSettings
 import os,sys
 
+def debug_trace():
+  '''Set a tracepoint in the Python debugger that works with Qt'''
+  from PyQt4.QtCore import pyqtRemoveInputHook
+  from pdb import set_trace
+  pyqtRemoveInputHook()
+  set_trace()
+
 filepath = "test.html"
 
 # Object which exposes a slot to QWebView
@@ -12,16 +19,12 @@ class Editor(QObject):
   def __init__(self):
     super(QObject,self).__init__()
     
-  @pyqtSlot("QVariantList")
+  #@pyqtSlot("QVariantList")
+  @pyqtSlot(str)
   def save(self, serialized):
-    
-    # come in as floats from javascript
-    domchars = [unichr(int(entry)) for entry in serialized]
-    domunicode = ''.join(domchars)
-    domascii = domunicode.encode("UTF-8")
-
+  
     f = open("saved_" + filepath, 'w')
-    f.write(domascii)
+    f.write(serialized.toUtf8())
     f.close()
 
 # Routine to create a Webview, load it and have

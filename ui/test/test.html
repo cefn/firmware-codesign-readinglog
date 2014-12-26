@@ -10,17 +10,9 @@
       //<![CDATA[
         window.onload = function(){
 
-          function getChars(s) {
-            var chars = [];
-            for (var i = 0; i < s.length; i++) {
-              chars.push(s.charCodeAt(i));
-            }
-            return chars;
-          };
-
           var ser = new XMLSerializer();
           var mystr = ser.serializeToString(document.documentElement);
-          editor.save(getChars(mystr));
+          editor.save(mystr);
           
         }
       //]]>
