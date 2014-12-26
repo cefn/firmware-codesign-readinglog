@@ -9,9 +9,19 @@
     <script>
       //<![CDATA[
         window.onload = function(){
+
+          function getChars(s) {
+            var chars = [];
+            for (var i = 0; i < s.length; i++) {
+              chars.push(s.charCodeAt(i));
+            }
+            return chars;
+          };
+
           var ser = new XMLSerializer();
           var mystr = ser.serializeToString(document.documentElement);
-          editor.save(mystr);          
+          editor.save(getChars(mystr));
+          
         }
       //]]>
     </script>
@@ -21,9 +31,9 @@
       "Practitioners acknowledge the need to inform designers about user
       experiences and their context (Leonard and Rayport 1997, Buchenau and
       Fulton Suri 2000), and a number of tools and techniques have been
-      presented (Fulton Suri 2003a) aiming to support designers to ?step into
-      the user?s shoes? and ?walk the user?s walk? in order to design products
-      that fit the user?s life"
+      presented (Fulton Suri 2003a) aiming to support designers to ‘step into
+      the user’s shoes’ and ‘walk the user’s walk’ in order to design products
+      that fit the user’s life"
     </p>
   </body>
 </html>

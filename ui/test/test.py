@@ -1,6 +1,6 @@
-from PyQt4.QtCore import QObject,pyqtSlot,QUrl,QBuffer,QFile
+from PyQt4.QtCore import QObject,pyqtSlot,QUrl,QBuffer,QFile,QString
 from PyQt4.QtGui import QApplication
-from PyQt4.QtWebKit import QWebView
+from PyQt4.QtWebKit import QWebView,QWebSettings
 import os,sys
 
 filepath = "test.html"
@@ -12,10 +12,16 @@ class Editor(QObject):
   def __init__(self):
     super(QObject,self).__init__()
     
-  @pyqtSlot(str)
+  @pyqtSlot("QVariantList")
   def save(self, serialized):
+    
+    # come in as floats from javascript
+    domchars = [unichr(int(entry)) for entry in serialized]
+    domunicode = ''.join(domchars)
+    domascii = domunicode.encode("UTF-8")
+
     f = open("saved_" + filepath, 'w')
-    f.write(serialized)
+    f.write(domascii)
     f.close()
 
 # Routine to create a Webview, load it and have
@@ -24,9 +30,10 @@ class Editor(QObject):
 def main():
 
   app = QApplication(sys.argv)
-  view = QWebView()  
   editor = Editor()
 
+  view = QWebView()  
+  view.settings().setAttribute(QWebSettings.DeveloperExtrasEnabled, True)
   view.show()
 
   # function which injects editor object with (save slot) on page load
