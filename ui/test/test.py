@@ -3,13 +3,6 @@ from PyQt4.QtGui import QApplication
 from PyQt4.QtWebKit import QWebView,QWebSettings
 import os,sys
 
-def debug_trace():
-  '''Set a tracepoint in the Python debugger that works with Qt'''
-  from PyQt4.QtCore import pyqtRemoveInputHook
-  from pdb import set_trace
-  pyqtRemoveInputHook()
-  set_trace()
-
 filepath = "test.html"
 
 # Object which exposes a slot to QWebView
@@ -19,7 +12,6 @@ class Editor(QObject):
   def __init__(self):
     super(QObject,self).__init__()
     
-  #@pyqtSlot("QVariantList")
   @pyqtSlot(str)
   def save(self, serialized):
   
