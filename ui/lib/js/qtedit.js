@@ -9,8 +9,7 @@ require(['jquery'], function($){
     //add behaviour for defocusing (also autosave?)
     function blurHandler(evt){
         evt.target.contentEditable=false;
-        $(evt.target).unbind('blur',blurHandler);
-        
+        $(evt.target).unbind('blur',blurHandler);    
         editor.autosave(serializeDocument());
     }
     
@@ -21,10 +20,15 @@ require(['jquery'], function($){
     });
     
     //add behaviour for handling CTRL+S
-    $(window).keypress(function(e) {
-        if (e.ctrlKey) {
-            if (e.which=='s') {
-                editor.save(serializeDocument());
+    $(window).bind('keydown', function(event) {
+        if (event.ctrlKey || event.metaKey) {
+            switch (String.fromCharCode(event.which).toLowerCase()) {
+                case 's':
+                    event.preventDefault();
+                    editor.save(serializeDocument());
+                    break;
+                default:
+                    break;
             }
         }
     });
