@@ -106,18 +106,18 @@ class QEditorAdaptor(QObject):
     # call this to save an xpath file
     @pyqtSlot(str)
     def save(self, serialized, filepath=None):
-        #debug_trace()
-        serialized = serialized.toUtf8().data().decode('utf-8', "ignore")
         if filepath == None:
             filepath = self.filepath
-        print "Saving to " + filepath + " : " + serialized
         f = open(filepath, 'w')
         # this filter should remove any javascript and simplify the html
         # back to basics (should whitelist elements, attributes, text etc.)
         save_filter = QXmlQuery(QXmlQuery.XQuery10)
         save_filter.setFocus(serialized)
         save_filter.setQuery(QUrl(self.save_filter_path))
-        f.write(save_filter.evaluateToString())
+        result = save_filter.evaluateToString()
+        #debug_trace()
+        result = result.toUtf8()
+        f.write(result)
 
     # call this to save an xpath file
     @pyqtSlot(str)
