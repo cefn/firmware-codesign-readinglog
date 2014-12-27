@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <!-- TITLE -->
@@ -52,9 +52,9 @@
       "Practitioners acknowledge the need to inform designers about user
       experiences and their context (Leonard and Rayport 1997, Buchenau and
       Fulton Suri 2000), and a number of tools and techniques have been
-      presented (Fulton Suri 2003a) aiming to support designers to ?step into
-      the user?s shoes? and ?walk the user?s walk? in order to design products
-      that fit the user?s life"
+      presented (Fulton Suri 2003a) aiming to support designers to ‘step into
+      the user’s shoes’ and ‘walk the user’s walk’ in order to design products
+      that fit the user’s life"
     </p>
         <p>
       "Several authors describe a variety of tools and techniques that are
@@ -62,7 +62,7 @@
       these techniques into three main classes: techniques for direct contact
       between designers and users (research), techniques for communicating
       findings of user studies to design teams (communication) and techniques
-      for evoking the designer?s own experiences in a domain relevant to the
+      for evoking the designer’s own experiences in a domain relevant to the
       user (ideation)"
     </p>
         <p/>
