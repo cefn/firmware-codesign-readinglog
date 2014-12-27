@@ -1,3 +1,5 @@
+declare default element namespace "http://www.w3.org/1999/xhtml";
+
 declare function local:filter-descendants($item as node()) as node()* {
         let 
             $attributes := for $attribute in $item/@* return local:filter-item($attribute),
