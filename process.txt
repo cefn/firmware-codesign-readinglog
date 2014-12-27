@@ -1,0 +1,19 @@
+added over time
+concepts 
+
+collect, categorise/classify, criticise, choose
+
+themes, (clusters) e.g. 
+- sentence for each paper-theme edge
+- venue for each theme
+
+co-design
+- boundary objects in workshop context
+- reflective practice
+
+communities, conference tracks, venues
+
+tagging papers
+
+intellisense
+
