@@ -2,6 +2,14 @@ module namespace log="http://cefn.com/readinglog/log";
 
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
+declare variable $log:filepaths as xs:string external;
+
+declare variable $log:collection := log:aggregate($log:filepaths);
+
+declare function log:aggregate($filepaths as xs:string){
+    for $token in tokenize($filepaths, ',') return doc(resolve-uri($token))
+};
+
 (: Returns all the document nodes of the XHTML note files :)
 declare function log:menu(){
 	<ul>
