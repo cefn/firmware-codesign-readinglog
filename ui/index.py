@@ -1,4 +1,4 @@
-import os,sys,glob
+import os,sys,glob,re
 from PyQt4 import QtCore, QtGui, uic
 from PyQt4.QtGui import QApplication
 from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer,QIODevice
@@ -13,36 +13,96 @@ def debug_trace():
   from pdb import set_trace
   pyqtRemoveInputHook()
   set_trace()
+  
+# hack to work around Qt's refusal to import XQuery modules
+# https://bugreports.qt-project.org/browse/QTBUG-43414
+# looks for a module import pattern in the XQuery source, just copies
+# selected code from the imported file
+# currently, just function definitions
+def xquery_import_workaround(querypath):
+
+    
+    # definitions of patterns used to process query and imported files
+    import_pattern = 'import module namespace ([A-Za-z]+)="([^"]+)" at "([^"]+)";'
+    declare_pattern = '(declare function.*?};|declare variable [^;]+;)'
+    
+    # get the original query and separate out the imports in it
+    queryfile = open(querypath,'r')
+    querysource = queryfile.read()
+    queryfile.close()
+    querysplit = re.split(import_pattern, querysource)
+       
+    # process the imports by grabbing source code from the imported file
+    newquerysplit = [querysplit[0]] #include chunk before first declaration
+
+    # number of capture groups in the import pattern
+    num_capture_groups = 3
+    strings_per_import = num_capture_groups + 1
+    
+    # for each module import, replace it with inlined funcs and vars
+    for splitindex in range(1,len(querysplit),strings_per_import):
+        #[bracketed patterns serve namespace and path from each match]
+        import_groups = querysplit[splitindex:splitindex+strings_per_import]
+        (localnamespace,globalnamespace,modulepath,following) = import_groups
+        
+        # add a namespace declaration corresponding to this import
+        newquerysplit.append( 'declare namespace %s="%s";' % (localnamespace, globalnamespace))
+        
+        modulefile = open(modulepath,'r')
+        modulesource = modulefile.read()
+        modulefile.close()
+        modulefunctionsplit = re.findall(declare_pattern,modulesource, re.MULTILINE|re.DOTALL)
+
+        newquerysplit.append("\n\n".join(modulefunctionsplit) + "\n\n")
+        newquerysplit.append(following)
+
+    newquerysource = ''.join(newquerysplit) # rejoin all the string parts
+    return newquerysource
 
 # Manages an updating view of an XQuery
 class QueryDisplay(QObject):
 
-    def __init__(self, focus, query, vardict={}, view=None):
+    def __init__(self, focuspath, querypath, varlist=[], view=None):
         super(QueryDisplay,self).__init__()
-        self.focus = focus
-        self.query = query
-        self.vardict = vardict
+        self.focuspath = focuspath
+        self.querypath = querypath
+        self.varlist = varlist
         self.view = view if view != None else QWebView()
     
     @pyqtSlot()
     def render(self):
         queryimpl = QXmlQuery(QXmlQuery.XQuery10)
         #bind variables
-        for key in self.vardict:
-            queryimpl.bindVariable(key,QXmlItem(self.vardict[key]))
+        for item in self.varlist:
+            if len(item)==3 : # item has namespace
+                (name,value,namespace) = item
+                qname = QXmlName(queryimpl.namePool(), name, namespace)
+            else:
+                (name,value) = item
+                qname = QXmlName(queryimpl.namePool(), name)
+            qvalue = QXmlItem(value)
+            queryimpl.bindVariable(qname,qvalue)
         #bind focus if available
-        if(self.focus != None):
-            queryimpl.setFocus(self.focus)
+        if(self.focuspath != None):
+            queryimpl.setFocus(QUrl.fromLocalFile(self.focuspath))
         #load xquery
-        queryimpl.setQuery(self.query)
+        querysource = xquery_import_workaround(self.querypath)
+        queryimpl.setQuery(querysource)
+
+        
         #push result of query to HTML viewer
         '''
         buf = QBuffer()
         buf.open(QBuffer.ReadWrite)
         queryimpl.evaluateTo(buf)
         self.view.setContent(buf.buffer(),"application/xhtml+xml")
-        '''
         self.view.setHtml(queryimpl.evaluateToString())
+        '''
+        base_url = QUrl.fromLocalFile(os.path.dirname(self.querypath) + os.sep)
+        buf = QBuffer()
+        buf.open(QBuffer.ReadWrite)
+        queryimpl.evaluateTo(buf)        
+        self.view.setContent(buf.buffer(), "application/xhtml+xml", base_url)
 
 # TODO promote functionality for both nav and edit into common superclass        
 class QEditorAdaptor(QObject):
@@ -82,11 +142,7 @@ class QEditorAdaptor(QObject):
                 buf = QBuffer()
                 buf.open(QBuffer.ReadWrite)
                 load_filter.evaluateTo(buf)
-                
-                f = open("example_filtered.html", "w")
-                f.write(buf.buffer())
-                f.close()
-                
+                                
                 self.view.setContent(buf.buffer(), "application/xhtml+xml", base_url)
                 #self.view.setHtml(load_filter.evaluateToString(), base_url)
                 self.view.page().mainFrame().addToJavaScriptWindowObject("editor", self)
@@ -159,14 +215,13 @@ def main():
     htmlcsv = ",".join([("file:///" + path) for path in glob.glob(datadir + "/*.html")])
 
     # prepare values for XQuery view    
-    focus = None
-    query = QUrl.fromLocalFile(queryfile)
-    vardict = {
-        'filepaths':htmlcsv
-    }
+    focusfile = None
+    varlist = [
+        ['filepaths', htmlcsv,'http://cefn.com/readinglog/log']
+    ]
     
     # create UI for rendering aggregate log data      
-    navigator = QueryDisplay(focus,query,vardict,navView)
+    navigator = QueryDisplay(focusfile,queryfile,varlist,navView)
     # create UI for editing specific log entry
     editor = QEditorAdaptor(editView)
         
@@ -178,7 +233,7 @@ def main():
     observer.start()
     adaptor.watchdog_signal.connect(navigator.render)
 
-    ui.show()    
+    ui.show()
     navigator.render()
     editor.edit(os.path.realpath("example.html"))
     
