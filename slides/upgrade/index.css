@@ -21,41 +21,49 @@ html, body, .scene{
 	overflow:hidden;
 }
 
-.gantt td{
-	padding:0;
+ul{
+	list-style-type: none;
+	padding-left:0px;
+}
+
+h1 {
+	font-size:300%;
+	color:black;
+	background-color:rgba(255,255,255,0.8);
+	margin-top:0.5em;
+	margin-bottom:1em;
+	line-height:1.5em;
+}
+
+h1, li{
+	padding-left:20px;
+}
+
+h2{
+	color:black;
+	background-color:rgba(128,128,128,0.8);
+	padding:1em;
 	margin:0;
-	font-size:50%;
+	font-size:150%;
 }
 
-.gantt td ul{
-	list-style-type: disc;
-	padding-left:2em;
+blockquote{
+	
 }
 
-.gantt tr.calendar td{
-	background-color: #666666;
+blockquote cite{
+	font-weight:bold;
 }
 
-.gantt td.method{
-	background-color: #cc9933;
-}
-
-.gantt td.workshop{
-	background-color: #cc33cc;
-}
-
-.gantt td.prototype{
-	background-color: #009900;
-}
-
-.gantt td.publication{
-	background-color: #3333ff;	
+.digital li, .literature li{
+	background-color:rgba(128,128,128,0.3);
 }
 
 body{
 	font-size:20px;
-	font-family:Stint Ultra Expanded,sans;
+/*	font-family:Stint Ultra Expanded,sans; */
 /*	font-family:Open Sans,sans; */
+	font-family:Jur,sans;
 	color:white;
 }
 
@@ -115,36 +123,45 @@ body{
 	padding:0;
 	display:inline-block;
 	vertical-align:top;
-	width:40%;
+	width:42%;
 }
 
-.left img, .right img{
-	width:75%;
-	margin:0;
-	margin-left:12%;
-	margin-right:12%;
+ul.left, ul.right{
+	width:42;
+	height:50%;
+}
+
+ul.right{
+	font-size:150%;
+}
+
+img.left, img.right{
+	width:auto;
+	height:50%;
 }
 
 .chunk{ /* used to annotate individual chunks of text */
 	display:inline-block;
 }
 
-ul{
-	list-style-type: none;
-	padding-left:0px;
+.reveal.grow {
+	overflow:hidden;
 }
 
-h1 {
-	font-size:200%;
-	color:black;
-	background-color:rgba(255,255,255,0.8);
-	margin-top:0.5em;
-	margin-bottom:1.5em;
-	line-height:1.5em;
+.reveal.grow>*{
+	width:16em;
 }
 
-.saloondoor h1, .saloondoor li{
-	padding-left:20px;
+.digital ul.left{
+	list-style-type:square;
+}
+
+.digital .right{
+	background-color:rgba(100,100,100,100);
+}
+
+.literature{
+	
 }
 
 .saloondoor li {
@@ -155,11 +172,31 @@ h1 {
 
 .console{
 	background:black;
+	font-family:'Press Start 2P';
+	font-size:140%;
+	color:green;
 }
 
 .console ul li{
-	color:green;
-	font-family:'Press Start 2P';
+	padding-left:0;
+	margin-left:0;
+	padding-top:0.5em;
+}
+
+.digital li {
+	color:white;
+	font-family:Jura;
+	padding-top:0.5em;
+	font-size:125%;
+}
+/*
+.digital h1 {
+	font-family:Orbitron;
+}
+*/
+
+h1 {
+	font-family:Orbitron;
 }
 
 .saloondoor .left li{
@@ -176,12 +213,84 @@ h1 {
 	-webkit-transform:rotateX(-5deg) rotateY(-25deg);
 }
 
-.reveal.grow {
-	overflow:hidden;
+table.gantt {
+	border-spacing:0 10px;
+	border-collapse:none;
 }
 
-.reveal.grow>*{
-	width:16em;
+.gantt td{
+	padding:0;
+	margin:0;
+	font-size:50%;
+}
+
+.gantt td ul{
+	list-style-type: disc;
+	padding-left:2em;
+}
+
+.gantt tr.calendar td{
+	background-color: #666666;
+	padding-top:1em;
+	padding-bottom:1em;
+	text-align:center;
+}
+
+.gantt .entry{
+	color:black;
+	background-color: white;
+	border-width:0;
+	border-radius:10px 10px 0px 0px;
+	border-style:none;
+	border-color:white;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-top-width:16px;
+	border-bottom-width:8px;
+	border-bottom-color:#CCCCCC;
+	padding:1em;
+	width:8%;
+}
+
+.gantt .method .entry{
+	border-top-color: #cc9933;
+}
+
+.gantt .method .transcription.entry{
+	border-top-color: yellow;
+}
+
+.gantt .workshop.entry{
+	border-top-color: #cc33cc;
+}
+
+.gantt .prototype.entry{
+	border-top-color: #009900;
+}
+
+.gantt .publication.entry{
+	border-top-color: #3333ff;	
+}
+
+.gantt .phase0 .entry{
+	border-bottom-color:red;	
+}
+
+.gantt .phase1 .entry{
+	border-bottom-color:orange;	
+}
+
+.gantt .phase2 .entry{
+	border-bottom-color:teal;	
+}
+
+.gantt .entry{
+	border-left-style:solid;
+	border-right-style:solid;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-left-color:black;
+	border-right-color:black;
 }
 
 .background.circuit{
@@ -192,8 +301,8 @@ h1 {
 	background-image:url('img/bikes.jpg');
 }
 
-.background.dildo{
-	background-image:url('img/dildos.jpg');
+.background.sextoy{
+	background-image:url('img/vibrator.jpg');
 }
 
 .background.blueprint{
@@ -257,7 +366,7 @@ h1 {
 }
 
 .background.piano{
-	background-image:url('img/piano_hands.jpg');
+	background-image:url('img/piano_wikimedia.jpg');
 }
 
 .background.scratch{
@@ -284,6 +393,10 @@ h1 {
 	background-image:url('img/goal.jpg');
 }
 
+.background.robot{
+	background-image:url('img/robots.png');
+}
+
 .background.pov{
 	background-image:url('img/pov.jpg');
 }
@@ -298,6 +411,30 @@ h1 {
 
 .background.earthrise{
 	background-image:url('img/earthrise.jpg');
+}
+
+.background.quotecloud{
+	background-image:url('img/quotecloud.png');
+}
+
+.background.authorcloud{
+	background-image:url('img/authorcloud.png');
+}
+
+.background.object{
+	background-image:url('img/object_blueman.jpg');
+}
+
+.background.plasticine{
+	background-image:url('img/object_plasticine.jpg');
+}
+
+.background.workshop{
+	background-image:url('img/object_sketching.jpg');
+}
+
+.background.soldier{
+	background-image:url('img/lego_soldiers.jpg');
 }
 
 /*

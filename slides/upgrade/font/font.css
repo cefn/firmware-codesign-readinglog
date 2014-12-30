@@ -23,6 +23,61 @@
   font-family: 'Press Start 2P';
   font-style: normal;
   font-weight: 400;
-  src: url('PressStart2P-Regular.woff'), format('woff');
+  src: url('PressStart2P-Regular.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Orbitron-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  src: url('Orbitron-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 700;
+  src: url('Orbitron-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 900;
+  src: url('Orbitron-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 300;
+  src: url('Jura-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 400;
+  src: url('Jura-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 500;
+  src: url('Jura-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 600;
+  src: url('Jura-DemiBold.woff') format('woff');
+}

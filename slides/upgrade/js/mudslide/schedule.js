@@ -87,6 +87,14 @@ MUDSLIDE.copyProperties(function(){
 				ms:ms,
 				schedule:function(tl){
 					
+					//calculate duration and delay based on text if asked
+					if(this.ms.autoDuration){
+						this.ms.duration = actor.text().length * this.ms.autoDuration;
+					}
+					if(this.ms.autoDelay){
+						this.gs.delay = actor.text().length * this.ms.autoDelay;
+					}
+					
 					//calculate offset relative to set
 					var offset = ensemble.index(actor) > 0 ? this.ms.innerOffset : this.ms.outerOffset;
 										
@@ -142,6 +150,14 @@ MUDSLIDE.copyProperties(function(){
 				ms:ms,
 				schedule:function(tl){
 	
+					//calculate duration and delay based on text if asked
+					if(this.ms.autoDuration){
+						this.ms.duration = actor.text().length * this.ms.autoDuration;
+					}
+					if(this.ms.autoDelay){
+						this.gs.delay = actor.text().length * this.ms.autoDelay;
+					}
+					
 					//calculate offset relative to set
 					var offset = ensemble.index(actor) > 0 ? this.ms.innerOffset : this.ms.outerOffset;
 

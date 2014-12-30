@@ -15,7 +15,7 @@ function loadHash(hash)
   }
 }
 
-function labelLoaded(hash){	
+function labelLoaded(hash){
 	
 	var matchMaker = function(string){
 		return function(item){
@@ -24,12 +24,28 @@ function labelLoaded(hash){
 	};
 	
 	var disableSeek = function(){ seekNext = false; };
-	
+
+	if(hash=="autoplay"){
+		disableSeek(); //causes it to tween, not skip
+		MUDSLIDE.timeline.seek(0); //moves to beginning
+		//hash = MUDSLIDE.prevLabelMatching(MUDSLIDE.timeline, matchMaker("pause"), MUDSLIDE.timeline.duration()); //search from end to find final pause
+		hash = "pause-0";
+	}
+
+	if(hash=="auto"){
+		disableSeek(); //causes it to tween, not skip
+		MUDSLIDE.timeline.seek("pause-0"); //moves to beginning
+		//hash = MUDSLIDE.prevLabelMatching(MUDSLIDE.timeline, matchMaker("pause"), MUDSLIDE.timeline.duration()); //search from end to find final pause
+		hash = MUDSLIDE.timeline.duration();
+	}
+		
 	if(seekNext){ //time taken to do the tween to the target label
 		var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker(hash), 0); //search from start to find label matching hash
-		TweenLite.fromTo(MUDSLIDE.timeline, 1, {time:MUDSLIDE.timeline.time()}, {time:label.time, onComplete:disableSeek});
+		if(label){
+			TweenLite.fromTo(MUDSLIDE.timeline, 1, {time:MUDSLIDE.timeline.time()}, {time:label.time, onComplete:disableSeek});
+		}
 	}
-	else{
+	else{		
 		MUDSLIDE.timeline.tweenTo(hash);
 	}
 	
@@ -37,6 +53,18 @@ function labelLoaded(hash){
 
 //onload event
 $(function(){
+	
+	var ctrlPressed = false;
+	var shiftPressed = false;
+
+	$(document).keyup(function(e){
+		if(e.keyCode == 17){ //ctrl key
+			ctrlPressed = false;
+		}		
+		else if(e.keyCode == 16){ //shift key
+			shiftPressed = false;
+		}		
+    });
 
 	//set up keyboard eventing
 	$(document).keydown(function(e){
@@ -46,25 +74,47 @@ $(function(){
 				return item.name.indexOf(string) != -1;
 			};
 		};
+				
+		if(e.keyCode == 17){ //ctrl key
+			ctrlPressed = true;
+		}
+		else if(e.keyCode == 16){ //shift key
+			shiftPressed = true;
+		}
+		else {
+			
+			if(ctrlPressed){
+				seekNext = true;
+			}
+			else{
+				seekNext = false;
+			}
+			
+			var pattern = "pause";
+			if(shiftPressed){
+				pattern = "scene";
+			}
+			
+			if(e.which == 32){
+				//SPACEBAR - navigate to next pause
+				var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker(pattern));
+				loadHash(label.name);
+				return false;
+			}
+			else if (e.which == 37) { 
+				//LEFT ARROW - navigate back to last pause
+				var label = MUDSLIDE.prevLabelMatching(MUDSLIDE.timeline, matchMaker(pattern));
+				loadHash(label.name);
+				return false;
+			}
+			else if (e.which == 39) { 
+				//RIGHT ARROW - navigate on to next pause
+				var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker(pattern));
+				loadHash(label.name);
+				return false;
+			}
+		}
 		
-		if(e.which == 32){
-			//SPACEBAR - navigate to next pause
-			var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-			loadHash(label.name);
-			return false;
-		}
-		if (e.which == 37) { 
-			//LEFT ARROW - navigate back to last pause
-			var label = MUDSLIDE.prevLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-			loadHash(label.name);
-			return false;
-		}
-		if (e.which == 39) { 
-			//RIGHT ARROW - navigate on to next pause
-			var label = MUDSLIDE.nextLabelMatching(MUDSLIDE.timeline, matchMaker("pause"));
-			loadHash(label.name);
-			return false;
-		}
 		
 	});
 	

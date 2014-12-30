@@ -149,7 +149,7 @@ MUDSLIDE = function(){
 
 	/** Returns exported values and functions. */
 	return eval(writeScopeExportCode([
-		"copyProperties", "compareDocumentNodes", "clone","orderBy", "absoluteToRelative","writeScopeExportCode"
+		"copyProperties", "deepClone", "compareDocumentNodes", "clone","orderBy", "absoluteToRelative","writeScopeExportCode"
 	]));
 
 }();

@@ -4,6 +4,8 @@ $(function(){
 		to				= MUDSLIDE.to,
 		label			= MUDSLIDE.label,
 		cloneAppend		= MUDSLIDE.cloneAppend,
+		copyProperties	= MUDSLIDE.copyProperties,
+		deepClone		= MUDSLIDE.deepClone,
 		tokenize		= MUDSLIDE.tokenize,
 		tokenizeChars	= MUDSLIDE.tokenizeChars,
 		mediaPlay		= MUDSLIDE.mediaPlay,
@@ -15,8 +17,7 @@ $(function(){
 		delay			= MUDSLIDE.delay,
 		pause			= MUDSLIDE.pause,
 		wrapInner		= MUDSLIDE.wrapInner;
-		
-	
+			
 	/** These are the tween generation rules, with an order which can be used to determine their priority within
 	 * a scene. Keys are selectors, and values are either...
 	 * - SchedulerFactories
@@ -24,63 +25,77 @@ $(function(){
 	 * - arrays (further sequences of factories and objects)
 	 * */
 	 
+	var gantZoomGs0 = {position:"absolute",fontSize:"12pt",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true};
+	var gantZoomGs1 = copyProperties({top:"33.6%"},deepClone(gantZoomGs0));
+	var gantZoomGs2 = copyProperties({top:"66.6%"},deepClone(gantZoomGs0));
+	var gantZoomMs = {duration:1,outerOffset:"-=2"};
+	
+	var gantLiZoomGs = {display:"none",position:"relative",left:"500px",repeat:1,yoyo:true};
+	var gantLiZoomMs = {duration:1,innerOffset:"-=2"};
+
+	 
 	var rules = [
 		{".scene":[ 
 			//reveals in order of preferred appearance
-			from({},{duration:1.0,outerOffset:"-=0.9",pause:false}),
+			{".scene":from({},{duration:1.0,outerOffset:"-=0.9"})},
+			
 			{".scene .gantt":pause()},
-//			{".scene .gantt td":to({autoAlpha:1,width:"5%"}, {duration:0,pause:false})}, //forces width value
-			{".scene .gantt td":record()}, //records position of all divs without disturbing layout
-			{".scene .gantt td":revert()}, //applies recorded positions to all, recreating layout in absolute terms?
-			{".scene .gantt td.workshop li":from({position:"relative",left:"500px"},{duration:1,parallel:true,pause:false})},
-			{".scene .gantt td.workshop.phase0":[
-				pause("+=1"),
-				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
-			]},
-			{".scene .gantt td.workshop.phase1":
-				to({position:"absolute",top:"33%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"})},
-			{".scene .gantt td.workshop.phase2":
-				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
-			},
-			{".scene .gantt td.workshop li":to({position:"relative",left:"500px"},{duration:1,outerOffset:"-=1",innerOffset:"-=1",pause:false})},
-			{".scene .gantt td.publication li":from({position:"relative",left:"500px"},{duration:1,parallel:true,pause:false})},
-			{".scene .gantt td.publication.phase0":[
-				pause("+=1"),
-				to({position:"absolute",top:"0%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false}),
-			]},
-			{".scene .gantt td.publication.phase1":
-				to({position:"absolute",top:"33%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"})},
-			{".scene .gantt td.publication.phase2":
-				to({position:"absolute",top:"66%",left:"0%",width:"100%",height:"33%",zIndex:2,autoAlpha:1,repeat:1,yoyo:true},{duration:1,pause:false,outerOffset:"-=2"}),
-			},
-			{".scene .gantt td.publication li":to({position:"relative",left:"500px"},{duration:1,outerOffset:"-=1",innerOffset:"-=1",pause:false})},
-			{".scene.console li.reveal":[
+			{".gantt td":record()}, //records position of all divs without disturbing layout
+			{".gantt td":revert()}, //applies recorded positions to all, recreating layout in absolute terms?
+						
+			//animate transcription tasks
+			{".gantt .method li":from(gantLiZoomGs,gantLiZoomMs)},
+			{".gantt .method .transcription.phase0": to(gantZoomGs0,gantZoomMs)},
+			{".gantt .method .transcription.phase1":to(gantZoomGs1,gantZoomMs)},
+			{".gantt .method .transcription.phase2":to(gantZoomGs2,gantZoomMs)},
+			{".gantt":[pause("-=1"), pause()]},
+
+			//animate workshop tasks
+			{".gantt .workshop li":from(gantLiZoomGs,gantLiZoomMs)},
+			{".gantt .phase0 .workshop": to(gantZoomGs0,gantZoomMs)},
+			{".gantt .phase1 .workshop":to(gantZoomGs1,gantZoomMs)},
+			{".gantt .phase2 .workshop":to(gantZoomGs2,gantZoomMs)},
+			{".gantt":[pause("-=1"), pause()]},
+
+			//animate publication tasks
+			{".gantt .publication li":from(gantLiZoomGs,gantLiZoomMs)},
+			{".gantt .phase0 .publication": to(gantZoomGs0,gantZoomMs)},
+			{".gantt .phase1 .publication":to(gantZoomGs1,gantZoomMs)},
+			{".gantt .phase2 .publication":to(gantZoomGs2,gantZoomMs)},
+			{".gantt":[pause("-=1"), pause()]},
+
+			{".scene.console li.tokenize":[
 				cloneAppend("<audio class='typing' preload='auto' ><source src='audio/teletype_beep.wav' /> </audio>"), //creates an audio sample
 				cloneAppend("<span class='cursor'>_</span>"), //copies a cursor in place at build time
-				{">span.cursor":from({repeat:-1,yoyo:true},{duration:0.25,parallel:true, pause:false})},
-				pause(),
-				{"audio.typing":[from({duration:0.05},{pause:false}), mediaVolume(0.05), mediaPlay()]}, //plays the audio sample
+				{">span.cursor":from({repeat:-1,yoyo:true},{duration:0.25,parallel:true})},
+				{"li.tokenize:not(.auto)":pause()},
+				{"audio.typing":[from({duration:0.05},{}), mediaVolume(0.15), mediaPlay()]}, //plays the audio sample
 				tokenizeChars(
-					from({display:"none",delay:0.05},{duration:0,pause:false})
+					from({display:"none",delay:0.05},{duration:0})
 				),
-				{">span.cursor":to({},{parallel:true,pause:false})},
+				{">span.cursor":to({},{parallel:true})},
 				{"audio.typing":mediaStop()}, //stops the audio sample
 			]},
-			{".reveal.grow":from({width:0})},
-			{".saloondoor .left li.reveal": from({rotationY:100})},
-			{".saloondoor .right li.reveal":from({rotationY:-100})},			
+			{".grow":from({width:0},{})},
+			{"h2":from({},{duration:2,innerOffset:"-=1.5"})},
+			{"blockquote":from({},{duration:2,innerOffset:"-=1.5"})},
+			{".left,.wide": from({position:"relative",top:"25px",left:"-25px",ease:Power1.easeIn},{})},
+			{".right": from({position:"relative",top:"25px",left:"25px",ease:Power1.easeIn},{outerOffset:"-=" + MUDSLIDE.configuration.defaultMsProps.from.duration})},
 			label("scene"),
+			{".scene:not(.intro)":pause()},
+			//{".scene:not(.intro)":delay(2)},
 			//conceals in order of preferred appearance
-			{".saloondoor .right li.reveal":to({rotationY:-100},{innerOffset:"-=0.1"})},
-			{".saloondoor .left li.reveal":to({rotationY:100},{innerOffset:"-=0.1"})},
-			{".reveal.grow":to({width:0})},
+			{".right": to({position:"relative",top:"25px",left:"25px"})},
+			{".left,.wide": to({position:"relative",top:"25px",left:"-25px"})},
+			{"blockquote":to({},{innerOffset:"-=" + (MUDSLIDE.configuration.defaultMsProps.to.duration * 0.75)})},
+			{"h2":to({},{innerOffset:"-=" + (MUDSLIDE.configuration.defaultMsProps.to.duration * 0.75)})},
+			{".grow":to({width:0})},
 			{".scene:not(.intro)":to({delay:0.1}, {duration:1.0})},
-			{".scene.intro":to({delay:3.0}, {duration:1.0})},
-			
+			{".scene.intro":to({}, {autoDelay:0.075})},	
 		]}
 	];
 		
-	//CH TODO - figure out how to activate this on a per-slide basis - triggering when shown to save CPU
+	//CH TODO - figure out how to activate this on a per-slide basis - triggering only when shown to save CPU
 	var translateMax = 50;
 	var scaleMax = 1.2;
 	var translateX = Math.round(-translateMax + (Math.random() * translateMax * 2));
@@ -92,6 +107,7 @@ $(function(){
 		yoyo:true
 	});
 	
+	//CH TODO - find a neat representation for this within the macro language
 	var washTl = new TimelineMax({repeat:-1,yoyo:true});
 	washTl.append(TweenMax.to(".wash", 30, {backgroundColor:"hsl(0,50%,50%)"}));
 	washTl.append(TweenMax.to(".wash", 30, {backgroundColor:"hsl(120,50%,50%)"}));
@@ -100,13 +116,16 @@ $(function(){
 		
 	MUDSLIDE.initDeck(rules);
 	MUDSLIDE.timeline.pause();
+	
+	/*
 	var matchMaker = function(string){
 		return function(item){
 			return item.name.indexOf(string) != -1;
 		};
 	};
-	//TweenLite.fromTo(MUDSLIDE.timeline, 120, {time:0}, {time:300});
-	//MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(3), {onComplete:function(){MUDSLIDE.timeline.timeScale=1;}});
+	TweenLite.fromTo(MUDSLIDE.timeline, 120, {time:0}, {time:300});
+	MUDSLIDE.timeline.tweenTo(MUDSLIDE.getPauseLabel(3), {onComplete:function(){MUDSLIDE.timeline.timeScale=1;}});
+	*/
 
 	/* //switch this for a media tween factory ASAP
 	var audio = $.media("#theme");
