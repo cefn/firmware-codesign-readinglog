@@ -1,9 +1,19 @@
 import os,sys,glob,re
+
 from PyQt4 import QtCore, QtGui, uic
 from PyQt4.QtGui import QApplication
 from PyQt4.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer,QIODevice
 from PyQt4.QtWebKit import QWebView,QWebSettings
 from PyQt4.QtXmlPatterns import QXmlItem,QXmlName,QXmlQuery
+'''
+from PyQt5 import QtCore, QtGui, uic
+from PyQt5.QtWidgets import QApplication
+from PyQt5.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer,QIODevice
+from PyQt5.QtWebKitWidgets import QWebView
+from PyQt5.QtWebKit import QWebSettings
+from PyQt5.QtXmlPatterns import QXmlItem,QXmlName,QXmlQuery
+'''
+
 
 from watchdog.observers import Observer
 
@@ -48,6 +58,8 @@ def xquery_import_workaround(querypath):
         # add a namespace declaration corresponding to this import
         newquerysplit.append( 'declare namespace %s="%s";' % (localnamespace, globalnamespace))
         
+        if(not(os.path.isabs(modulepath))):
+            modulepath = os.path.normpath(os.path.join(os.path.dirname(querypath), modulepath))
         modulefile = open(modulepath,'r')
         modulesource = modulefile.read()
         modulefile.close()
@@ -107,7 +119,7 @@ class QueryDisplay(QObject):
 # TODO promote functionality for both nav and edit into common superclass        
 class QEditorAdaptor(QObject):
     
-    def __init__(self,view=None, load_filter_path='lib/xq/load_template.xq', save_filter_path='lib/xq/save_template.xq'):
+    def __init__(self,view=None, load_filter_path='xq/lib/load_template.xq', save_filter_path='xq/lib/save_template.xq'):
         super(QEditorAdaptor,self).__init__()
         self.view = view if view != None else QWebView()
         self.view.settings().setAttribute(QWebSettings.LocalContentCanAccessFileUrls, True)
@@ -205,7 +217,7 @@ def main():
     
     # try to get values from command line, or use fallbacks    
     datadir = sys.argv[1] if len(sys.argv) > 1 else "../scripts/server/public/notes"
-    queryfile = sys.argv[2] if len(sys.argv) > 2 else "./index.xq"
+    queryfile = sys.argv[2] if len(sys.argv) > 2 else "./xq/index.xq"
     
     # sanitise paths
     datadir = os.path.realpath(datadir)
