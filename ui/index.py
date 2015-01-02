@@ -1,4 +1,4 @@
-import os,sys,glob,re
+import os,sys,glob,re,urllib
 
 from PyQt4 import QtCore, QtGui, uic
 from PyQt4.QtGui import QApplication
@@ -80,6 +80,8 @@ class QueryDisplay(QObject):
         self.querypath = querypath
         self.varlist = varlist
         self.view = view if view != None else QWebView()
+        self.view.settings().setAttribute(QWebSettings.DeveloperExtrasEnabled, True)
+
     
     @pyqtSlot()
     def render(self):
@@ -122,8 +124,8 @@ class QEditorAdaptor(QObject):
     def __init__(self,view=None, load_filter_path='xq/lib/load_template.xq', save_filter_path='xq/lib/save_template.xq'):
         super(QEditorAdaptor,self).__init__()
         self.view = view if view != None else QWebView()
-        self.view.settings().setAttribute(QWebSettings.LocalContentCanAccessFileUrls, True)
-        self.view.settings().setAttribute(QWebSettings.LocalContentCanAccessRemoteUrls, True)
+        #self.view.settings().setAttribute(QWebSettings.LocalContentCanAccessFileUrls, True)
+        #self.view.settings().setAttribute(QWebSettings.LocalContentCanAccessRemoteUrls, True)
         self.view.settings().setAttribute(QWebSettings.DeveloperExtrasEnabled, True)
         self.load_filter_path = os.path.realpath(load_filter_path)
         self.save_filter_path = os.path.realpath(save_filter_path)
@@ -139,6 +141,9 @@ class QEditorAdaptor(QObject):
     # document.head.appendChild(sc);
     @pyqtSlot(str)
     def load(self, filepath, force=False):
+        # normalise
+        (filepath, headers) = urllib.urlretrieve(str(filepath))
+        filepath = os.path.realpath(filepath)
         if(filepath != self.filepath or force):
             self.filepath = filepath
             # check there is a file being sent to editor
@@ -154,7 +159,7 @@ class QEditorAdaptor(QObject):
                 buf = QBuffer()
                 buf.open(QBuffer.ReadWrite)
                 load_filter.evaluateTo(buf)
-                                
+                
                 self.view.setContent(buf.buffer(), "application/xhtml+xml", base_url)
                 #self.view.setHtml(load_filter.evaluateToString(), base_url)
                 self.view.page().mainFrame().addToJavaScriptWindowObject("editor", self)
@@ -183,7 +188,6 @@ class QEditorAdaptor(QObject):
         save_filter.setFocus(serialized)
         save_filter.setQuery(QUrl(self.save_filter_path))
         result = save_filter.evaluateToString()
-        #debug_trace()
         result = result.toUtf8()
         f.write(result)
 
@@ -236,18 +240,34 @@ def main():
     navigator = QueryDisplay(focusfile,queryfile,varlist,navView)
     # create UI for editing specific log entry
     editor = QEditorAdaptor(editView)
+
+    def utility_binder(frame):
+        def binder():
+            frame.addToJavaScriptWindowObject("editor", editor)
+        return binder
+    
+    # create navigator utility binding function and attach to load event
+    navigatorFrame = navigator.view.page().mainFrame()
+    navigatorBinder = utility_binder(navigatorFrame)
+    navigatorFrame.javaScriptWindowObjectCleared.connect(navigatorBinder)
+    
+    # create editor utility binding function and attach to load event
+    editorFrame = editor.view.page().mainFrame()
+    editorBinder = utility_binder(editorFrame)
+    editorFrame.javaScriptWindowObjectCleared.connect(editorBinder)
         
     # generate Qt signals on watchdog filesystem events
     observer = Observer()
     adaptor = QWatchdogAdaptor()
     observer.schedule(adaptor, datadir)
     observer.schedule(adaptor, os.path.dirname(queryfile))
+    observer.schedule(adaptor, 'xq/lib')
     observer.start()
     adaptor.watchdog_signal.connect(navigator.render)
 
     ui.show()
     navigator.render()
-    editor.edit(os.path.realpath("example.html"))
+    editor.edit("file:example.html")
     
     sys.exit(app.exec_())
     

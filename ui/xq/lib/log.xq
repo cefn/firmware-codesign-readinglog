@@ -10,6 +10,14 @@ declare function log:aggregate($filepaths as xs:string){
     for $token in tokenize($filepaths, ',') return doc(resolve-uri($token))
 };
 
+declare function log:editor-link($node){
+	log:editor-link($node, $node//text())
+};
+
+declare function log:editor-link($node, $text){
+	<a href="javascript:editor.load('{document-uri(root($node))}');">{$text}</a>
+};
+
 (: Returns all the document nodes of the XHTML note files :)
 declare function log:menu(){
 	<ul>

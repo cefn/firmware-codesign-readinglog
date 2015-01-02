@@ -23,7 +23,7 @@ declare function local:filter-item($item as node()) as node()? {
                else if ($name = 'head') then ( element {$name} { 
                        (: TODO Introduce scripts at end of body for fast visual loading :)
                        local:filter-descendants($item),
-                       <script type="text/javascript" data-main="lib/js/main" src="lib/js/require.js" >{comment {'prevent self-closing'}}</script>,
+                       <script type="text/javascript" data-main="js/lib/main" src="js/lib/require.js" >{comment {'prevent self-closing'}}</script>,
                        <script type="text/javascript">
                        <![CDATA[
                        ;

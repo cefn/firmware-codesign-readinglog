@@ -1,5 +1,7 @@
 require(['jquery'], function($){
     
+    isChanged = false; //TODO CH namespace this properly
+    
     function serializeDocument(){
         var ser = new XMLSerializer();
         var mystr = ser.serializeToString(document.documentElement);
@@ -17,8 +19,9 @@ require(['jquery'], function($){
     $("h1,h2,h3,h4,h5,h6,p").click(function(){
         this.contentEditable=true;
         $(this).bind('blur',blurHandler);
+        isChanged = true;
     });
-    
+        
     //add behaviour for handling CTRL+S
     $(window).bind('keydown', function(event) {
         if (event.ctrlKey || event.metaKey) {
@@ -32,6 +35,17 @@ require(['jquery'], function($){
             }
         }
     });
+    
+    $(window).bind("beforeunload",function(event) {
+        if (isChanged) {    
+            event.returnValue = "You have unsaved changes";
+            return event.returnValue
+        }
+        else{
+            return;
+        }
+    });
+
     
     //do a load of readinglog improvement tasks with this functionality
     
