@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: 'lib/js',
+    baseUrl: 'js/lib',
     paths: {
         jquery: 'jquery-1.11.1'
     }
