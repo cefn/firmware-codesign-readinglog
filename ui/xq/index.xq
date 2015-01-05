@@ -1,7 +1,10 @@
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
-import module namespace log="http://cefn.com/readinglog/log" at "lib/log.xq"; 
+import module namespace logx="http://cefn.com/logx" at "lib/logx.xq";
 
-log:webpage(
-    for $doc in $log:collection return log:editor-link(($doc//h1[1]))
+logx:webpage(
+    for $doc in $logx:collection
+        return <div>
+        {logx:editor-link(($doc//h1[1]))}
+    </div>
 )

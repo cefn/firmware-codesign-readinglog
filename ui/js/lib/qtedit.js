@@ -29,6 +29,7 @@ require(['jquery'], function($){
                 case 's':
                     event.preventDefault();
                     editor.save(serializeDocument());
+                    isChanged = false;
                     break;
                 default:
                     break;
