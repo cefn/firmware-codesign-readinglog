@@ -1,33 +1,39 @@
-module namespace log="http://cefn.com/readinglog/log";
+module namespace logx="http://cefn.com/logx";
 
 declare default element namespace "http://www.w3.org/1999/xhtml";
 
-declare variable $log:filepaths as xs:string external;
+declare variable $logx:sourceurls as xs:string external;
 
-declare variable $log:collection := log:aggregate($log:filepaths);
+declare variable $logx:collection := logx:aggregate($logx:sourceurls);
 
-declare function log:aggregate($filepaths as xs:string){
+declare function logx:aggregate($filepaths as xs:string){
     for $token in tokenize($filepaths, ',') return doc(resolve-uri($token))
 };
 
-declare function log:editor-link($node){
-	log:editor-link($node, $node//text())
+declare function logx:editor-link($node){
+	logx:editor-link($node, $node//text())
 };
 
-declare function log:editor-link($node, $text){
-	<a href="javascript:editor.load('{document-uri(root($node))}');">{$text}</a>
+declare function logx:editor-link($node, $text){
+	<a href="javascript:void(editor.load('{document-uri(root($node))}'))">{$text}</a>
+};
+
+declare function logx:viewer-link($path, $nodes){
+	<a href="javascript:void(viewer.querypath='{$path})'">{$nodes}</a>
 };
 
 (: Returns all the document nodes of the XHTML note files :)
-declare function log:menu(){
+declare function logx:menu(){
 	<ul>
-		<li><a href="">Item1</a></li>
+		<li>
+			{logx:viewer-link('xq/untagged.xq','Untagged')}
+		</li>
 		<li><a href="">Item2</a></li>
 	</ul>
 };
 
 (: templates a webpage, including the nodes specified :)
-declare function log:webpage($nodes){
+declare function logx:webpage($nodes){
 	<html>
 		<head>
 		    <meta content="text/html; charset=utf-16" http-equiv="content-type"></meta>
@@ -40,7 +46,7 @@ declare function log:webpage($nodes){
 						<em><a href="/">Log</a></em>
 					</th>
 					<td id="menu" colspan="2">
-						{log:menu()}
+						{logx:menu()}
 					</td>
 					<td id="searchform">
 						<form action="/search.xq">
