@@ -23,8 +23,7 @@ def main():
     sourcepaths = glob.glob(sourcedir + "/*.html")
     
     # for PyQt4
-    sourceurls = ",".join([("file://" + path) for path in sourcepaths])
-    
+    sourceurls = ",".join([("file://" + path) for path in sourcepaths])    
     # for PyQt5
     #sourceurls = ",".join([path2url(path) for path in sourcepaths])
 
@@ -50,8 +49,6 @@ def main():
         viewer.registersource(sourcepath)
         
     ui.show()
-
-    editor.focuspath = "example.html"
     
     viewer.render()
         
