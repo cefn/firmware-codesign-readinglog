@@ -1,104 +1,45 @@
-Taken from the book "Universal Methods of Design"
-http://onesearch.lancs.ac.uk/primo_library/libweb/action/display.do?tabs=detailsTab&ct=display&fn=search&doc=44LAN_ALMA_DS5188119810001221&indx=4&recIds=44LAN_ALMA_DS5188119810001221&recIdxs=3&elementId=3&renderMode=poppedOut&displayMode=full&frbrVersion=4&dscnt=1&scp.scps=scope%3A%2844LAN_ALMA_DS%29%2Cscope%3A%2844LAN_ML_DS%29%2Cprimo_central_multiple_fe&frbg=&tab=quicksearch&dstmp=1390839067295&srt=rank&mode=Basic&dum=true&tb=t&vl(freeText0)=universal%20methods&vid=LUL_VU1
-http://web.ebscohost.com.ezproxy.lancs.ac.uk/ehost/ebookviewer/ebook/bmxlYmtfXzU3NjQ5MV9fQU41?sid=3747920b-00a7-46aa-9b32-074574f65c94@sessionmgr113&vid=1&format=EB&rid=1
-
-01. A/B Testing
-02. AEIOU
-03. Affinity Diagramming
-04. Artifact Analysis
-05. Automated Remote Research
-06. Behavioral Mapping
-07. Bodystorming
-08. Brainstorm Graphic Organizers
-09. Business Origami
-10. Card Sorting
-11. Case Studies
-12. Cognitive Mapping
-13. Cognitive Walkthrough
-14. Collage
-15. Competitive Testing
-16. Concept Mapping
-17. Content Analysis
-18. Content Inventory & Audit
-19. Contextual Design
-20. Contextual Inquiry
-21. Creative Toolkits
-22. Critical Incident Technique
-23. Crowdsourcing
-24. Cultural Probes
-25. Customer Experience Audit
-26. Design Charette
-27. Design Ethnography
-28. Design Workshops
-29. Desirability Testing
-30. Diary Studies
-31. Directed Storytelling
-32. Elito Method
-33. Ergonomic Analysis
-34. Evaluative Research
-35. Evidence-based Design
-36. Experience Prototyping
-37. Experience Sampling Method
-38. Experiments
-39. Exploratory Research
-40. Eyetracking
-41. Flexible Modeling
-42. Fly-on-the-Wall Observation
-43. Focus Groups
-44. Generative Research
-45. Graffiti Walls
-46. Heuristic Evaluation
-47. Image Boards
-48. Interviews
-49. KJ Technique
-50. Kano Analysis
-51. Key Performance Indicators
-52. Laddering
-53. Literature Reviews
-54. The Love Letter & the Breakup Letter
-55. Mental Model Diagrams
-56. Mind Mapping
-57. Observation
-58. Parallel Prototyping
-59. Participant Observation
-60. Participatory Action Research (PAR)
-61. Participatory Design
-62. Personal Inventories
-63. Personas
-64. Photo Studies
-65. Picture Cards
-66. Prototyping
-67. Questionnaires
-68. Rapid Iterative Testing & Evaluation (RITE)
-69. Remote Moderated Research
-70. Research Through Design
-71. Role-playing
-72. Scenario Description Swimlanes
-73. Scenarios
-74. Secondary Research
-75. Semantic Differential
-76. Shadowing
-77. Simulation Exercises
-78. Site Search Analytics
-79. Speed Dating
-80. Stakeholder Maps
-81. Stakeholder Walkthrough
-82. Storyboards
-83. Surveys
-84. Task Analysis
-85. Territory Maps
-86. Thematic Networks
-87. Think-aloud Protocol
-88. Time-aware Research
-89. Touchstone Tours
-90. Triading
-91. Triangulation
-92. Unobtrusive Measures
-93. Usability Report
-94. Usability Testing
-95. User Journey Maps
-96. Value Opportunity Analysis
-97. Web Analytics
-98. Weighted Matrix
-99. Wizard of Oz
-100. Word Clouds
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <p>
+      Taken from the book "Universal Methods of Design"
+      http://onesearch.lancs.ac.uk/primo_library/libweb/action/display.do?tabs=detailsTab&amp;ct=display&amp;fn=search&amp;doc=44LAN_ALMA_DS5188119810001221&amp;indx=4&amp;recIds=44LAN_ALMA_DS5188119810001221&amp;recIdxs=3&amp;elementId=3&amp;renderMode=poppedOut&amp;displayMode=full&amp;frbrVersion=4&amp;dscnt=1&amp;scp.scps=scope%3A%2844LAN_ALMA_DS%29%2Cscope%3A%2844LAN_ML_DS%29%2Cprimo_central_multiple_fe&amp;frbg=&amp;tab=quicksearch&amp;dstmp=1390839067295&amp;srt=rank&amp;mode=Basic&amp;dum=true&amp;tb=t&amp;vl(freeText0)=universal%20methods&amp;vid=LUL_VU1
+      http://web.ebscohost.com.ezproxy.lancs.ac.uk/ehost/ebookviewer/ebook/bmxlYmtfXzU3NjQ5MV9fQU41?sid=3747920b-00a7-46aa-9b32-074574f65c94@sessionmgr113&amp;vid=1&amp;format=EB&amp;rid=1
+      01. A/B Testing 02. AEIOU 03. Affinity Diagramming 04. Artifact Analysis
+      05. Automated Remote Research 06. Behavioral Mapping 07. Bodystorming 08.
+      Brainstorm Graphic Organizers 09. Business Origami 10. Card Sorting 11.
+      Case Studies 12. Cognitive Mapping 13. Cognitive Walkthrough 14. Collage
+      15. Competitive Testing 16. Concept Mapping 17. Content Analysis 18.
+      Content Inventory &amp; Audit 19. Contextual Design 20. Contextual
+      Inquiry 21. Creative Toolkits 22. Critical Incident Technique 23.
+      Crowdsourcing 24. Cultural Probes 25. Customer Experience Audit 26.
+      Design Charette 27. Design Ethnography 28. Design Workshops 29.
+      Desirability Testing 30. Diary Studies 31. Directed Storytelling 32.
+      Elito Method 33. Ergonomic Analysis 34. Evaluative Research 35.
+      Evidence-based Design 36. Experience Prototyping 37. Experience Sampling
+      Method 38. Experiments 39. Exploratory Research 40. Eyetracking 41.
+      Flexible Modeling 42. Fly-on-the-Wall Observation 43. Focus Groups 44.
+      Generative Research 45. Graffiti Walls 46. Heuristic Evaluation 47. Image
+      Boards 48. Interviews 49. KJ Technique 50. Kano Analysis 51. Key
+      Performance Indicators 52. Laddering 53. Literature Reviews 54. The Love
+      Letter &amp; the Breakup Letter 55. Mental Model Diagrams 56. Mind
+      Mapping 57. Observation 58. Parallel Prototyping 59. Participant
+      Observation 60. Participatory Action Research (PAR) 61. Participatory
+      Design 62. Personal Inventories 63. Personas 64. Photo Studies 65.
+      Picture Cards 66. Prototyping 67. Questionnaires 68. Rapid Iterative
+      Testing &amp; Evaluation (RITE) 69. Remote Moderated Research 70.
+      Research Through Design 71. Role-playing 72. Scenario Description
+      Swimlanes 73. Scenarios 74. Secondary Research 75. Semantic Differential
+      76. Shadowing 77. Simulation Exercises 78. Site Search Analytics 79.
+      Speed Dating 80. Stakeholder Maps 81. Stakeholder Walkthrough 82.
+      Storyboards 83. Surveys 84. Task Analysis 85. Territory Maps 86. Thematic
+      Networks 87. Think-aloud Protocol 88. Time-aware Research 89. Touchstone
+      Tours 90. Triading 91. Triangulation 92. Unobtrusive Measures 93.
+      Usability Report 94. Usability Testing 95. User Journey Maps 96. Value
+      Opportunity Analysis 97. Web Analytics 98. Weighted Matrix 99. Wizard of
+      Oz 100. Word Clouds
+    </p>
+  </body>
+</html>
