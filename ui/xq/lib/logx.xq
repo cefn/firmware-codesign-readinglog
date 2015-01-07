@@ -15,16 +15,19 @@ declare function logx:editor-link($node){
 };
 
 declare function logx:editor-link($node, $text){
-	<a href="javascript:void(editor.load('{document-uri(root($node))}'))">{$text}</a>
+	<a href="javascript:void(editor.loadfocus('{document-uri(root($node))}'))">{$text}</a>
 };
 
 declare function logx:viewer-link($path, $nodes){
-	<a href="javascript:void(viewer.querypath='{$path})'">{$nodes}</a>
+	<a href="javascript:void(viewer.loadquery('{$path}'))">{$nodes}</a>
 };
 
 (: Returns all the document nodes of the XHTML note files :)
 declare function logx:menu(){
 	<ul>
+		<li>
+			{logx:viewer-link('xq/index.xq','Home')}
+		</li>
 		<li>
 			{logx:viewer-link('xq/untagged.xq','Untagged')}
 		</li>
