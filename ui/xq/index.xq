@@ -4,7 +4,10 @@ import module namespace logx="http://cefn.com/logx" at "lib/logx.xq";
 
 logx:webpage(
     for $doc in $logx:collection
-        return <div>
-        {logx:editor-link(($doc//h1[1]))}
+        let $textcount := count($doc//p//text())
+        order by $textcount descending
+        return
+            <div>
+        {$textcount} {logx:editor-link(($doc//h1[1]))}
     </div>
 )
