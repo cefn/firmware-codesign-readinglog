@@ -1,4 +1,4 @@
-import os,re,urllib,sys
+import os,re,urllib,sys,traceback
 
 '''
 from PyQt5.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer
@@ -19,6 +19,10 @@ def debug_trace():
   from pdb import set_trace
   pyqtRemoveInputHook()
   set_trace()
+  
+def handle_except(e=None):
+    traceback.print_exc()
+    return traceback.format_exc()
 
 # hack to work around Qt's refusal to import XQuery modules
 # https://bugreports.qt-project.org/browse/QTBUG-43414
@@ -83,7 +87,8 @@ class QWatchdogAdaptor(QObject):
     
     def dispatch(self, event):
         if(os.path.realpath(event.src_path) == os.path.realpath(self.filepath)):
-            self.watchdog.emit()
+            if event.event_type == 'modified':
+                self.watchdog.emit()
 
 def createjsbinder(frame, items):
         def jsbinder():
@@ -109,6 +114,7 @@ class Viewer(QObject): #change back to object to view property errors
         self._javascriptnames = javascriptnames if javascriptnames != None else dict()
         self.view = view if view != None else QWebView() # note: uses setter
         
+        self._watches = dict()
         self._watchdogobserver = Observer()
         self._watchdogobserver.start() # starts monitoring thread
 
@@ -150,10 +156,7 @@ class Viewer(QObject): #change back to object to view property errors
         self._focuspath = focuspath
         if self._focuspath != None:
             self.registersource(self._focuspath)
-        try:
-            self.render()
-        except:
-             print "Unexpected error:", sys.exc_info()
+        self.render()
 
     @property
     def querypath(self):
@@ -172,10 +175,7 @@ class Viewer(QObject): #change back to object to view property errors
         self._querypath = querypath
         if self._querypath != None:
             self.registersource(self._querypath)
-        try:
-            self.render()
-        except:
-             print "Unexpected error:", sys.exc_info()
+        self.render()
         
     @property
     def querysource(self):
@@ -197,32 +197,28 @@ class Viewer(QObject): #change back to object to view property errors
     
     @property
     def xmlbuffer(self):
-        try:
-            queryimpl = QXmlQuery(QXmlQuery.XQuery10)
-            #push values in xquerynames
-            for item in self.xquerynames:
-                if len(item)==3 : # item has namespace
-                    (name,value,namespace) = item
-                    qname = QXmlName(queryimpl.namePool(), name, namespace)
-                else:
-                    (name,value) = item
-                    qname = QXmlName(queryimpl.namePool(), name)
-                qvalue = QXmlItem(value)
-                queryimpl.bindVariable(qname,qvalue)
-            #bind focus if available
-            if(self.focuspath != None):
-                queryimpl.setFocus(QUrl.fromLocalFile(self.focuspath))
-            queryimpl.setQuery(self.querysource)
-    
-            buf = QBuffer()
-            buf.open(QBuffer.ReadWrite)
-            queryimpl.evaluateTo(buf)
-            buf.close()
-            data = buf.data()
-            return data
-        except:
-            return bytes("Unexpected error:" +  sys.exc_info())
-            
+        queryimpl = QXmlQuery(QXmlQuery.XQuery10)
+        #push values in xquerynames
+        for item in self.xquerynames:
+            if len(item)==3 : # item has namespace
+                (name,value,namespace) = item
+                qname = QXmlName(queryimpl.namePool(), name, namespace)
+            else:
+                (name,value) = item
+                qname = QXmlName(queryimpl.namePool(), name)
+            qvalue = QXmlItem(value)
+            queryimpl.bindVariable(qname,qvalue)
+        #bind focus if available
+        if(self.focuspath != None):
+            queryimpl.setFocus(QUrl.fromLocalFile(self.focuspath))
+        queryimpl.setQuery(self.querysource)
+
+        buf = QBuffer()
+        buf.open(QBuffer.ReadWrite)
+        queryimpl.evaluateTo(buf)
+        buf.close()
+        data = buf.data()
+        return data
         
     @property
     def mime(self):
@@ -235,21 +231,23 @@ class Viewer(QObject): #change back to object to view property errors
     # Use to make a source file explicit so this view
     # will re-render when the file is updated
     def registersource(self, filepath):
-        adaptor = QWatchdogAdaptor(filepath)
-        self._watchdogobserver.schedule(adaptor, os.path.dirname(os.path.realpath(filepath)))
-        adaptor.watchdog.connect(self.refresh)
+        if filepath not in self._watches:
+            adaptor = QWatchdogAdaptor(filepath)
+            adaptor.watchdog.connect(self.refresh)
+            self._watches[filepath] = self._watchdogobserver.schedule(adaptor, os.path.dirname(os.path.realpath(filepath)))
 
     def unregistersource(self, filepath):
-        pass #TODO CH here for symmetry, implement to improve performance
+        if filepath in self._matches:
+            self._watchdogobserver.unschedule(self._matches[filepath])
 
     @pyqtSlot()
     def render(self):
+        QWebSettings.clearMemoryCaches()
         try:
             mybuffer = self.xmlbuffer
             self.view.setContent(mybuffer, self.mime, self.baseurl)
-        except:
-            print "Unexpected error:", sys.exc_info()
-            self.view.setHtml('')
+        except Exception as e:
+            self.view.setHtml( "Unexpected error:" + handle_except(e) )
             
     @pyqtSlot()
     def refresh(self):
