@@ -24,15 +24,12 @@ declare function logx:viewer-link($path, $nodes){
 
 (: Returns all the document nodes of the XHTML note files :)
 declare function logx:menu(){
-	<ul>
-		<li>
-			{logx:viewer-link('xq/index.xq','Home')}
-		</li>
-		<li>
-			{logx:viewer-link('xq/untagged.xq','Untagged')}
-		</li>
-		<li><a href="">Item2</a></li>
-	</ul>
+	for $item in (
+		logx:viewer-link('xq/index.xq','Home'),
+		logx:viewer-link('xq/tasks.xq','Tasks'),
+		logx:viewer-link('xq/headers.xq','Browse')
+	)
+	return ($item,' ')
 };
 
 (: templates a webpage, including the nodes specified :)
@@ -45,9 +42,6 @@ declare function logx:webpage($nodes){
 		<body>
 			<table id="layout" style="height:99%;width:99%;">
 				<tr class="top">
-					<th id="logo">
-						<em><a href="/">Log</a></em>
-					</th>
 					<td id="menu" colspan="2">
 						{logx:menu()}
 					</td>
@@ -63,7 +57,7 @@ declare function logx:webpage($nodes){
 					</td>
 				</tr>
 				<tr class="bottom">
-					<td colspan="4">
+					<td colspan="3">
 						<div id="content">
 								{$nodes}
 						</div>
