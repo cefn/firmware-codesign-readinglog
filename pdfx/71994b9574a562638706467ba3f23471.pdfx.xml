@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>dbfe558c90ac064428068aa74171402a27da67c3cab8efaa6a57f2e4d913d3e6</job>
+    <base_name>62c4</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1002/9780470373699.speced0557">http://dx.doi.org/10.1002/9780470373699.speced0556</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Participatory Design of Future Every Day IT Artifacts</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Halmstad University P.O Box 823 S-301 81 Halmstad</name>
+          <aff id="5">823</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Sweden</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="8">{carina.ihlstrom, jesper.svensson, <email id="7">maria.akesson}@ide.hh.se</email></region>
+      <abstract class="DoCO:Abstract" id="9">In this paper we describe a PD approach applied in a context of designing a future everyday IT artifact with limited resources. In the DigiNews project we aim at proposing design suggestions for the future e-newspaper, i.e. a newspaper based on e- paper technology. The PD approach includes future workshop, scenario and mock-up techniques and focus groups. Based on eleven workshops with readers, newspaper staff and advertisers and three different focus groups involving readers, newspaper designers and interaction designers respectively, we illustrate the various types of results which could be derived from this approach.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="2" page="1" column="1">- Engaging readers and publishers in designing the e-newspaper</h1>
+        <region class="unknown" id="3" page="1" column="1">Ihlström, C., Svensson, J., &amp; Åkesson, M.</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="10" page="1" column="1">1. Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="20" page="1" column="1">Designing everyday artifacts is challenging. Firstly, the user target group is ‘anyone’, making it difficult to identify specific users ( <xref ref-type="bibr" rid="R20" id="11" class="deo:Reference">Grudin &amp; Pruitt, 2002</xref>). Secondly, there are no organizational boundaries and no specific context of use (<xref ref-type="bibr" rid="R19" id="12" class="deo:Reference">Grudin, 1993</xref>). Finally, users have different motives for use (<xref ref-type="bibr" rid="R11" id="13" class="deo:Reference">Dozier &amp; Rice, 1984</xref>) and thereby different conceptions of quality.<marker type="page" number="2"/><marker type="block"/> An example of a successful everyday artifact is the newspaper with a very broad audience. The newspaper is read at different locations at different times of day with different motives for reading (e.g. get an update on the news in the morning, check the stock market during lunch, leisure reading in the evening). The design of this every day artifact was challenged a decade ago when most newspapers went online. The online newspaper design initially mimicked the design of the printed newspaper, but has later evolved into a new digital genre, expanding the number of newspaper channels. Within the DigiNews project (ITEA 03015), we are currently working with the development and design of the e-newspaper, a future everyday IT artifact, which is a challenging task. The e-newspaper is a newspaper published on e-paper based on E Ink technology (<xref ref-type="bibr" rid="R31" id="15" class="deo:Reference">Philips Research Technologies, 2005</xref>). The e-paper is reflecting, giving the same reader experience as paper (such as high contrast, good color representation and the possibility to read in sunlight). The e-paper is thin, flexible and non-sensitive. In addition, it does not require high battery performance – ultimately, the screen image is stable and fix even when there is no electrical voltage applied. One example of a product using this technology is the Sony Librié (<xref ref-type="bibr" rid="R17" id="16" class="deo:Reference">Graydon, 2004</xref>). The e-newspaper is predicted to be presented on a very thin and foldable eReader device, combing the readability and overview from the printed newspaper with the possibilities of digital media such as constant updates, interactivity and video. It should support sequential reading as in the printed editions as well as support browsing as in the online editions. As early as in 1995, Negroponte (1995, p. 152) envisioned an e-newspaper: ”Imagine an electronic newspaper delivered to your home as bits. Assume it is sent to a magical, paper-thin, flexible, waterproof, wireless, lightweight, bright display. The interface solution is likely to call upon mankind’s years of experience with headlining and layout, typographic landmarks, images, and a host of techniques to assist browsing. Done well, this is likely to be a magnificent news medium. Done badly, it will be hell.” To avoid doing badly, we have designed a participatory design (PD) study engaging different stakeholders in the design process. Eight Swedish newspapers are engaged in the DigiNews project, providing us with expert knowledge of newspaper design and experience of the transition to online. With the help from the newspapers we have also engaged newspaper readers and advertisers. In the DigiNews case, with e-paper technology still in its infancy being developed at a very rapid speed, the technical specifications are constantly altered, resulting in the technology and the design being developed in parallel. Even though the time span of the project is two years, the different phases in the design process are relatively time constrained. In addition, we only have restricted time with busy newspaper staff and with the readers, not being compensated for participating in our studies.<marker type="page" number="3"/><marker type="block"/> By tradition, research within the participatory design field has been focused on working environments with the IT artifact supporting clearly defined roles and tasks (<xref ref-type="bibr" rid="R18" id="18" class="deo:Reference">Greenbaum &amp; Kyng, 1991</xref>). Traditional PD techniques are often time consuming and can be expensive to use, both regarding time spent conducting the studies and analyzing the results. Given the circumstances described above with limited resources and not having access to the technology together with the fact that we are designing a future everyday IT artifact, there is a need for re-thinking methods for involving users. As stated by Ehn and Malmborg (1998, p. 1) “new media and digital technology transform former design processes into new ways of working and constituting design”. The choice of method must always be related to the situation at hand and the people involved (<xref ref-type="bibr" rid="R24" id="19" class="deo:Reference">Löwgren &amp; Stolterman, 1999</xref>). We have chosen to initially use an adapted future workshop approach, including scenario- and mock-up techniques, later supplemented with focus groups. Our choice for the adapted future workshop approach was made on the following grounds: not time consuming to learn and carry out; possible to use with short introduction for participants; suitable in early design stages; possible to generate concept and ideas etc. To continue the design process from the initial inputs, we have worked with three different focus groups, i.e. readers, newspaper designers and interaction designers. The aim of this paper is to describe a PD approach applied in a context of designing a future everyday IT artifact, i.e. the e-newspaper in the DigiNews project, with limited resources and to discuss what design input possible to derive with this approach.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="21" page="3" column="1">2. Background to PD and PD techniques</h1>
+        <region class="DoCO:TextChunk" id="24" page="3" column="1">Participatory design (PD) has a long tradition in Scandinavia, starting with work in collaboration with trade unions in the 60 ́s and 70 ́s (<xref ref-type="bibr" rid="R9" id="22" class="deo:Reference">Clement &amp; Van den Besselaar, 1993</xref>). The PD approach actively involves potential and current users and practitioners in design and decision-making processes. The incentive for PD was not only to improve information systems but also to empower workers and democratization of working places (<xref ref-type="bibr" rid="R12" id="23" class="deo:Reference">Ehn, 1989</xref>). Even though there is not a single definition of PD, there are some common principles shared by most PD practitioners and advocators. Greenbaum and Kyng (1991, p. 5) suggest the following:</region>
+        <region class="DoCO:TextChunk" id="25" confidence="possible" page="3" column="1">• mutual learning between users and designers about their respective fields; • use of tools in the design process that are familiar to the users;</region>
+        <region class="DoCO:TextChunk" id="26" confidence="possible" page="4" column="1">• envisioning future work situations to allow the users to experience how emerging designs may affect the work practice rather than relying on the seemingly esoteric language of system developers; and • the importance of starting the design process in the practice field of the users.</region>
+        <region class="DoCO:TextChunk" id="31" page="4" column="1">During the 90 ́s, the PD initiatives moved beyond working environments to include PD in consumer product development (<xref ref-type="bibr" rid="R19" id="27" class="deo:Reference">Grudin, 1993</xref>; Kyng, 1994; <xref ref-type="bibr" rid="R20" id="28" class="deo:Reference">Grudin &amp; Pruitt, 2002</xref>). The motive has been to increase the level of user participation compared to laboratory studies, but some elements of PD were lost e.g. long-term engagement with participants and attention to quality in life issues (<xref ref-type="bibr" rid="R20" id="29" class="deo:Reference">Grudin &amp; Pruitt, 2002</xref>). Today, some of the concepts of PD are becoming standard practice and PD is not only discussed as a research interest but also as a professional practice (<xref ref-type="bibr" rid="R6" id="30" class="deo:Reference">Bödker &amp; Iversen, 2002</xref>). PD researchers have suggested a variety of techniques to facilitate the communication between users and designers. The practices and techniques used in the PD process may not be inherently participatory. However, they are selected for use in PD projects with the assumption that their use will accommodate the goals of PD (Greenbaum, 1993). In the following, we have focused on giving a background to the techniques used in the PD approach applied in DigiNews project as our intention is not to give a complete overview of PD techniques.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="32" page="4" column="1">2.1 Future workshops</h2>
+          <region class="DoCO:TextChunk" id="42" page="4" column="1">Future workshops were originally intended to help people to dream up and implement creative ideas and projects to improve the society (Junkt &amp; <xref ref-type="bibr" rid="R21" id="33" class="deo:Reference">Müllert, 1996</xref>). The future workshop concept has been used within the PD field to vision how computers can support future work situation (<xref ref-type="bibr" rid="R22" id="34" class="deo:Reference">Kensing &amp; Halskov Madsen, 1991</xref>). A future workshop is normally divided into three main phases: the critique, the fantasy, and the implementation phase (Junkt &amp; <xref ref-type="bibr" rid="R21" id="35" class="deo:Reference">Müllert, 1996</xref>). According to <xref ref-type="bibr" rid="R22" id="36" class="deo:Reference">Kensing and Halskov Madsen (1991)</xref>, the critique phase is basically a structured brain-storming that focuses on problems related to the question at hand. For example, the criticism that the participants present about a certain work situation is formulated into short statements. Keywords from these statements are then derived and written down on a wall chart. The facilitator’s role is to make certain that the discussion stays focused on the context and that all participants are involved. The fantasy phase starts with two warm-up activities. Firstly, the negative statements from the critique phase are inverted into positive statements. Secondly, the participants draw a picture of how they would wish their situation to be in five years. Thereafter, a new brainstorm session begins, similar to the earlier session in the critique phase, but now focused on a preferred future situation. The same<marker type="page" number="5"/><marker type="block"/> approach regarding short statements is used, but this time the statements are ranked by the participants. Every participant gets, for example, five votes to cast on the statements that they favor the most, resulting in five to ten short statements to function as an ‘utopian outline’. The outline is then discussed and developed further in smaller groups without considering possible drawbacks (<xref ref-type="bibr" rid="R22" id="38" class="deo:Reference">Kensing &amp; Halskov Madsen, 1991</xref>). More recently, <xref ref-type="bibr" rid="R1" id="39" class="deo:Reference">Arvidsson et al (2002)</xref> have added a trigger phase in their modified version of a future workshop. The purpose of this trigger phase is to increase the participants’ awareness of what is possible to achieve with a new technology. The implementation phase begins with each group presenting their version of the utopian outline. The outlines are then evaluated in the whole group and a discussion concerning the possibility of realization in the current situation is conducted. This discussion also concerns whether it is necessary or possible to establish new conditions to realize the utopian outlines. The workshop is concluded with agreeing on a common strategy and a detailed plan for how the first steps in this strategy shall be implemented (<xref ref-type="bibr" rid="R22" id="40" class="deo:Reference">Kensing &amp; Halskov Madsen, 1991</xref>). Future workshops are mainly regarded as a way to initiate change processes in the IS field. However, when designing a future artifact without a well defined user target group, <xref ref-type="bibr" rid="R24" id="41" class="deo:Reference">Löwgren and Stolterman (1999)</xref> argue that future workshops can be especially useful.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="43" page="5" column="1">2.2 Scenarios</h2>
+          <region class="DoCO:TextChunk" id="51" page="5" column="1">Scenarios are “stories about people and their activities” ( <xref ref-type="bibr" rid="R8" id="44" class="deo:Reference">Carroll, 2000</xref>) and focus on describing a stakeholder view of what, how and why a particular instance of use happens and can be presented in text, story-boards, video mock-ups, scripted prototypes etc. They support reasoning about use situations even before for example an IT-artifact is developed (<xref ref-type="bibr" rid="R8" id="45" class="deo:Reference">Carroll, 2000</xref>). Scenarios allow discussions of contexts, needs and requirements and are often the first step in establishing stakeholder requirements. They can also serve as a communication tool between different stakeholders with different backgrounds (<xref ref-type="bibr" rid="R32" id="46" class="deo:Reference">Preece et al, 2002</xref>). Scenarios are built on the following characteristic elements: a setting; agents or actors; goals or objectives; and action and event (<xref ref-type="bibr" rid="R8" id="47" class="deo:Reference">Carroll, 2000</xref>). <xref ref-type="bibr" rid="R4" id="48" class="deo:Reference">Bødker (2000)</xref> argues that being selective pays off; it is better to work with a number of scenarios that are very specific than with a few that are general. Furthermore, open-ended scenarios are good to use early in the design process while more closed scenarios may serve better later in the process when, for example, testing a particular solution. However, there is a risk that scenarios include unrealistic assumptions about practice or technical feasibility (<xref ref-type="bibr" rid="R20" id="49" class="deo:Reference">Grudin &amp; Pruitt, 2002</xref>). The greatest problem with scenarios is if they are used instead of empirically grounded data, e.g. by<marker type="page" number="6"/><marker type="block"/> data drawn from ethnographic or market studies, contextual inquiry etc., or obtained directly from participant users.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="52" page="6" column="1">2.3 Mock-ups</h2>
+          <region class="DoCO:TextChunk" id="59" page="6" column="1">Mock-up techniques are ways to make effective use of the users’ experience and knowledge, as well as ways of experiencing the future and they can be very useful early in the design process (<xref ref-type="bibr" rid="R14" id="53" class="deo:Reference">Ehn &amp; Kyng, 1991</xref>). In the UTOPIA project, mockups became a central PD technique, used for example to envision technology not yet accessible (and not even heard of by the users) that could support and enhance the users work situation (<xref ref-type="bibr" rid="R34" id="54" class="deo:Reference">Spinuzzi, 2002</xref>). An example of this was a mockup of a desktop laser printer (a cardboard box with the words written on it) which simulated a work situation where the journalist and the typographer could easily print out suggestions of layout. The mock-up made it possible for the users to envision and experience the future work without spending a large amount of money and time into on the development work (<xref ref-type="bibr" rid="R5" id="55" class="deo:Reference">Bødker et al, 1987</xref>) Within the HCI field, paper prototyping has been proposed as an easy way to visualize user interface design by using a sheet of paper or a card to represent the screen and for example hardware buttons (<xref ref-type="bibr" rid="R2" id="56" class="deo:Reference">Benyon et al, 2005</xref>). To simulate, for example, dropdown menus and movable windows post-it notes can be used. <xref ref-type="bibr" rid="R25" id="57" class="deo:Reference">Löwgren and Stolterman (2005)</xref> describe interface sketches as simple drawings of what a system could look like. The interface sketch can show functions, interaction techniques and spatial structuring. Mock-ups, paper prototypes or interface sketches can be a useful aid when discussing and communicating ideas between different stakeholders (<xref ref-type="bibr" rid="R32" id="58" class="deo:Reference">Preece et al, 2002</xref>).</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="60" page="6" column="1">2.4 Focus groups</h2>
+          <region class="DoCO:TextChunk" id="66" page="6" column="1">Focus groups are representatives of stakeholders for the design. A normal focus group involves three to ten people which are selected to provide a representative sample that share certain characteristics. The validity of the focus groups method appears high, primarily because the results are readily understood and findings appear believable ( <xref ref-type="bibr" rid="R26" id="61" class="deo:Reference">Marshall and Rossman, 1999</xref>). The discussion is normally recorded to provide later analysis. There is also the opportunity to invite the participants later on to explain their comments. These sessions can provide fruitful discussions which sometimes lead to a consensus view regarding a topic or highlights areas of disagreement (<xref ref-type="bibr" rid="R32" id="62" class="deo:Reference">Preece et al, 2002</xref>). It is not uncommon for stakeholders to be unaware of other stakeholder’s views which can lead to a rather rigid thinking. A group discussion can be more dynamic than a one on one interview, making people think about others situation, revealing new perspectives and penetrate problems further. The social context helps individuals develop opinions by talking with others and it<marker type="page" number="7"/><marker type="block"/> allows sensitive and diverse issues to be raised that otherwise could be missed (<xref ref-type="bibr" rid="R32" id="64" class="deo:Reference">Preece et al, 2002</xref>). Focus group sessions need to be structured carefully and the selection of participants is crucial for the result. There is a risk otherwise that some participants dominate the discussion, especially if they have a higher status or influence over the others (e.g. a higher position in an organization). A focus group session has normally a preset agenda to guide the discussion, but it can also be unstructured. In the latter case it is essential that a facilitator can keep the discussion on track and provide focus and redirection if needed. It is also up to the facilitator to encourage quiet people to talk and handle participants that are too dominant in the discussion (<xref ref-type="bibr" rid="R29" id="65" class="deo:Reference">Nielsen, 1997</xref>).</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="67" page="7" column="1">2.5 Personas</h2>
+          <region class="DoCO:TextChunk" id="76" page="7" column="1">The idea of persona in design originates from <xref ref-type="bibr" rid="R10" id="68" class="deo:Reference">Cooper (1999)</xref> and others have presented similar thoughts (<xref ref-type="bibr" rid="R35" id="69" class="deo:Reference">Tahir, 1997</xref>; <xref ref-type="bibr" rid="R27" id="70" class="deo:Reference">Mikkelson &amp; Lee, 2000</xref>). The idea was to “develop a precise description of our user and what he wishes to accomplish” (<xref ref-type="bibr" rid="R10" id="71" class="deo:Reference">Cooper, 1999</xref>, p. 123) and then create a design that is suited for the particular persona(s). The detailed description of the user includes the main goal of the user. Personas are often hypothetical archetypes of actual users and the main reason for using them is that actual users might not have the solution to a particular problem (<xref ref-type="bibr" rid="R10" id="72" class="deo:Reference">Cooper, 1999</xref>). Therefore, persona(s) can be a valuable source for designers to create solutions that work for the target group intended. <xref ref-type="bibr" rid="R20" id="73" class="deo:Reference">Grudin and Pruitt (2002)</xref> have developed the technique further and argue that personas can be a powerful tool for true participation in design. The personas technique forces designers to handle social and political aspects of design that can be overlooked using other techniques. The technique has a connection to others in that it serves as a foundation on which to for example build scenarios. Personas also serve as a way to communicate data that is gathered using other techniques. One of the main points that <xref ref-type="bibr" rid="R20" id="74" class="deo:Reference">Grudin and Pruitt (2002)</xref> argue for is that personas can be used for intensifying engagement and reality in the design group. However, Grudin and Pruitt’s personas have been tested recently within an industrial software development project with a mass market product for the telecommunications industry, with a rather low success rate (<xref ref-type="bibr" rid="R33" id="75" class="deo:Reference">Rönkkö et al, 2004</xref>). The main reason was that other actor interests (i.e. of actors outside the company involved in the design process) had a greater impact on the design process than the persona(s) created.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="77" page="7" column="1">3. The DigiNews PD approach</h1>
+        <region class="DoCO:TextChunk" id="79" page="7" column="1">In the PD approach within the DigiNews project we have worked with an adapted future workshop approach and with focus groups. In the following we are firstly <marker type="page" number="8"/><marker type="block"/> describing the selection of participants to the different activities, followed by a description of how we have chosen to work with future workshops and focus groups.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="80" page="8" column="1">3.1 Participants</h2>
+          <region class="DoCO:TextChunk" id="84" page="8" column="1">We have conducted 11 different future workshops using the approach described in next section, four with users/readers (in total 23 persons), four workshops with newspaper staff (in total 21 persons) and three with advertisers (in total 12 persons). The readers answered a call for interest via an advertisement in the printed or online edition of four newspapers involved in the DigiNews project. The selection of readers was done on the base of age, gender and geographical location. The aim was to get a representative sample of readers but also to get a dynamic workgroup for the workshop. The size of the groups ranged from three to eight people. The group size was selected to get a manageable group where the discussion would not be constrained by too many people. The groups were reasonably evenly matched concerning gender and the age span was from 20 to 70 years. The newspaper staff was selected to represent managers, designers, marketing and IT people. Not only did they represent the publishers’ view, but also acted as newspaper readers in the scenario building and mock-up phases. The advertisers represented local stores, retailers and brands as well as a media bureau. All activities were filmed and tape recorded. To continue the reader and newspaper staff participation in the design process of the e-newspaper, we have had meetings with three parallel focus groups (see <xref ref-type="table" rid="T1" id="81" class="deo:Reference">table 1</xref>). The first consists of six readers that all answered an online advertisement in the local newspaper, Hallandsposten, and were also selected for one of the future workshops mentioned above. There were two females and four males in the group, spanning from 29 to 82 years, with different levels of education, representing both subscribers and none-subscribers of the local newspaper. To date, we have had four meetings with this focus group. The second is a focus group with four newspaper designers from Aftonbladet, Göteborgs-Posten, Norrköpings Tidningar and Sundsvalls Tidning, all participating in the DigiNews project. During the four meetings so far, we have discussed the input from the future workshops and the reader focus group and have been working on four high fidelity (high-fi) e-newspaper prototypes representing each newspaper. The third focus group consists of three interaction designers, partners of a parallel project aiming at visualizing the future e-newspaper in three short films based on personas. This project feeds on the results from the DigiNews project, but only involves the Swedish partners, with the addition of the Swedish Industrial Design Foundation (SVID) and Propeller by Semcon. During the three meetings so far, we have been focusing on scenarios, personas and the design of<marker type="page" number="9"/><marker type="block"/> the eReader device as well as the Graphical User Interface (GUI) of the e- newspaper. In <xref ref-type="table" rid="T1" id="83" class="deo:Reference">table 1</xref> we have summarized the workshop and focus group activities in temporal order.</region>
+          <region class="DoCO:TableBox" id="Tx85">
+            <content>
+              <table class="DoCO:Table" number="1" page="9">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Activity</th>
+                    <th class="table"> Type</th>
+                    <th class="table"> Participants</th>
+                    <th class="table"> Focus</th>
+                    <th class="table"> No.</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> 1</td>
+                    <td class="table"> Workshop/</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 6</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Focus group</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 2</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Newspaper staff</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 6</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 3</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 6</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 4</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Newspaper staff</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 8</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 5</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 6</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 6</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Designers</td>
+                    <td class="table"> Discussing mock-ups, prototyping</td>
+                    <td class="table"> 2</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 7</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Advertisers</td>
+                    <td class="table"> Advertisement integration</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 8</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Newspaper staff</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 9</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 5</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 10</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Newspaper staff</td>
+                    <td class="table"> Adapted future workshop</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 11</td>
+                    <td class="table"> Focus Group</td>
+                    <td class="table"> Designers</td>
+                    <td class="table"> Prototyping</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 12</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Scenarios and mock-ups</td>
+                    <td class="table"> 5</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 13</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Advertisers</td>
+                    <td class="table"> Advertisement integration</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 14</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Interaction Designers</td>
+                    <td class="table"> Scenarios</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 15</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Prototype testing</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 16</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Designers</td>
+                    <td class="table"> Prototyping</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 17</td>
+                    <td class="table"> Workshop</td>
+                    <td class="table"> Advertisers</td>
+                    <td class="table"> Advertisement integration</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 18</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Interaction Designers</td>
+                    <td class="table"> Personas, GUI</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 19</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Readers</td>
+                    <td class="table"> Prototype testing</td>
+                    <td class="table"> 5</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 20</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Designers</td>
+                    <td class="table"> Prototyping</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 21</td>
+                    <td class="table"> Focus group</td>
+                    <td class="table"> Interaction Designers</td>
+                    <td class="table"> Personas, GUI</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="86" confidence="possible" page="9" column="1">Activity Type Participants Focus No. 1 Workshop/ Readers Adapted future workshop 6 Focus group 2 Workshop Newspaper staff Adapted future workshop 6 3 Workshop Readers Adapted future workshop 6 4 Workshop Newspaper staff Adapted future workshop 8 5 Workshop Readers Adapted future workshop 6 6 Focus group Designers Discussing mock-ups, prototyping 2 7 Workshop Advertisers Advertisement integration 4 8 Workshop Newspaper staff Adapted future workshop 4 9 Workshop Readers Adapted future workshop 5 10 Workshop Newspaper staff Adapted future workshop 3 11 Focus Group Designers Prototyping 4 12 Focus group Readers Scenarios and mock-ups 5 13 Workshop Advertisers Advertisement integration 4 14 Focus group Interaction Designers Scenarios 3 15 Focus group Readers Prototype testing 4 16 Focus group Designers Prototyping 3 17 Workshop Advertisers Advertisement integration 4 18 Focus group Interaction Designers Personas, GUI 3 19 Focus group Readers Prototype testing 5 20 Focus group Designers Prototyping 3 21 Focus group Interaction Designers Personas, GUI 3</region>
+            <caption class="deo:Caption" id="87" page="9" column="1">Table 1. Workshop and focus group activities in the DigiNews project in temporal order</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="88" page="9" column="1">3.2 Future workshop activities</h2>
+          <region class="DoCO:TextChunk" id="94" page="9" column="1">The adapted future workshop approach designed for the DigiNews project combine future workshop, scenario and mock-up techniques and includes three phases; visioning phase, scenario building phase and mock-up phase ( <xref ref-type="fig" rid="F1" id="89" class="deo:Reference">figure 1</xref>). The results from these activities serve as a base for personas, scenarios and user requirements to the DigiNews project. The approach is designed to be carried out during a three hours session, including a 15 minute break. This is a drastic reduction in time compared to the original idea of e.g. future workshops that were designed to take one or two full days (Junkt &amp; <xref ref-type="bibr" rid="R21" id="90" class="deo:Reference">Müllert, 1996</xref>). In the DigiNews project, it is essential not only to have the user requirements, but also to have the newspaper publisher view in mind to propose design suggestions for the future e- newspaper. Therefore, time was set to three hours considering the busy newspaper staff participating as well as the users being able to participate after working hours.<marker type="page" number="10"/><marker type="block"/> 3.2.1 Visioning Phase The aim of the visioning phase was to introduce the technology, identify problems (from different stakeholders, i.e. both readers and newspaper staff) and to remove barriers that could limit the creativity in the scenario building phase. The visioning phase includes three parts, i.e. introduction (10 min), trigger (20 min) and critique (15 min). The introduction part started with a presentation of the workshop leaders and the participants followed by a short introduction of the DigiNews project. The roles of the workshop leaders and the participants were then explained. The importance of each participant’s activeness and creativity was pointed out as crucial for the outcome of the workshop. The workshop phases were briefly presented to make the participants aware of our intentions and to present the overall concept of the workshop. Furthermore, an explanation was given to why we used mp3 recorders and video recorders and that all personal data about the participants was confidential. The trigger part was essential since the underlying technology was not yet fully developed. Different triggers (e.g. video clips of future use and the E-ink technology, pictures of prototypes, low-fi prototypes etc.) were used to envision the possibilities of the technology. We elaborated with different triggers as it was noticed that some of those used in the early workshops (particularly some of the low-fi prototypes), influenced the design solutions proposed by participants later in the mock-up phase. In the initial workshops, we read two scenarios as triggers. These scenarios were illustrating extended services and were removed later on as they influenced the participants to focus more on extended services than on the newspaper artifact when creating their own scenarios. The critique part related to the problems of realizing the future e-newspaper. All identified problems were written on large sheets of paper visible for everybody. The problems were roughly categorized during the discussion by the workshop leader (e.g. technical issues, monetary issues, newspaper content</region>
+          <region class="DoCO:FigureBox" id="F1">
+            <image class="DoCO:Figure" src="62c4.page_010.image_01.png" thmb="62c4.page_010.image_01-thumb.png"/>
+            <caption class="deo:Caption" id="93" page="10" column="1">Figure 1. Adapted future workshop approach</caption>
+          </region>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62c4.page_011.image_02.png" thmb="62c4.page_011.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="96" page="11" column="1">Figure 2. Ranking problems</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="98" confidence="possible" page="11" column="1">issues) to make a clearer picture of the problem domains. The workshop leader ended this phase when the time limit was reached or when no more problems arose. The participants then ranked (<xref ref-type="fig" rid="F2" id="97" class="deo:Reference">figure 2</xref>) the most serious problems within every category which helped us to create a prioritized list. This part was concluded by the “removal” of all the problems, e.g. “solving” the problems for example by stating that “the infrastructure problem will be solved in 3 years”. In this way, the participants could enter the next phase with a “free mind” and be able to decide on creative scenarios without being constrained to limitations of today.</region>
+          <region class="DoCO:FigureBox" id="Fx99">
+            <image class="DoCO:Figure" src="62c4.page_011.image_03.png" thmb="62c4.page_011.image_03-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="103" page="11" column="1">3.2.2 Scenario Building Phase The second phase started with an introduction explaining the roles and activities in the scenario building phase. The scenario building group activity was aimed at retrieving suggestions of future use and services for the e-newspaper took about 60 minutes. The participants were divided into two subgroups to make it easier for everyone to make his/her voice heard. The scenario activity was lead by the workshop leader that made sure that the activity ran as planned and that every participant had input to the process. The fact that the participants in the reader workshops did not know each other made the facilitator role very important. There were tendencies during some of the workshops that one or two persons took charge over the scenario building, if the workshop leader did not act to make everybody in the subgroups involved. Six cards in different colors and numbers, pre- labeled with different questions; "Who?", "When?", Where?", "What?", "How?" and “Idea?” were used to build scenarios ( <xref ref-type="fig" rid="F3" id="100" class="deo:Reference">figure 3</xref>). These cards served as a backbone for the scenarios where the first five cards were the base for the scenario. The “Idea?” card served as <xref ref-type="fig" rid="F3" id="101" class="deo:Reference">Figure 3</xref>. Scenario Building means to document any additional new ideas that emerged during the process as a way to ensure that everything got captured. In order to ensure active participation, the participants wrote the cards in their own words. By placing the cards in sequential order on a big sheet of paper the scenarios were built by the participants. Any additional information, such as a more thorough explanation that did not fit on the cards, was written next to the cards on the paper sheet. The groups were encouraged to make several scenarios<marker type="page" number="12"/><marker type="block"/> that showed different use situations. This activity helped the participants envision future use, which was valuable input to the next phase. The phase was concluded with the participants explaining their scenarios, which also was video taped.</region>
+          <region class="DoCO:FigureBox" id="F4">
+            <image class="DoCO:Figure" src="62c4.page_012.image_04.png" thmb="62c4.page_012.image_04-thumb.png"/>
+            <caption class="deo:Caption" id="105" page="12" column="1">Figure 4. Mocking-up</caption>
+          </region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="107" page="12" column="1">3.2.3 Mock-up Phase The last phase, the mock-up activity (<xref ref-type="fig" rid="F4" id="106" class="deo:Reference">figure 4</xref>), was an individual activity which enabled each participant to be creative by making mock-ups of the future e-newspaper. The phase was introduced with a variety of material such as paper, overhead film, pencils, tape etc. Both the traditional newspaper and printouts of the online version were given to the participants providing them with texts, pictures and headers to use in their mock-ups. To simulate an e-newspaper version of the same newspaper that the participants were used to reading or working with, the local newspaper was used. Although the printouts of the online version provided icons and buttons, the participants for the most part sketched their own menus, buttons and icons. The aim of the mock-up phase was to envision the physical interface and GUI of the services and functions discussed in the scenario building phase. The mockups created during this phase also visualized different kinds of interaction, such as speech, touch- and point and click interaction. The phase took approximately 60 minutes and ended with every individual showing their e-newspaper mock-up and explaining their thoughts behind the design to the other participants. These presentations were videotaped.</h3>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="108" page="12" column="1">3.3 Focus group activities</h2>
+          <region class="DoCO:TextChunk" id="110" page="12" column="1">We have worked with three different focus groups representing readers, newspaper designers and interaction designers. In our first meeting with the reader focus group we conducted a pilot study for our future workshop approach. In our second meeting we discussed issues that were identified during the previous workshop more thoroughly, new as well as old questions were discussed. The participants also finished their mock-ups and scenarios on the basis of this discussion. In our third meeting the participants tested and evaluated four different high-fidelity prototypes giving input regarding their preferences. This session was concluded with a rather free discussion regarding pros and cons about the e-paper design suggestions. The fourth meeting was also a test session. New prototypes were evaluated with special focus on advertisement and navigation. In our first meeting with the design focus group we evaluated all mock-ups produced in our future workshops. The participants were presented with short video presentations were the creator of the mock-up explained their ideas. At the same time the focus group had the mock-up at hand to evaluate the ideas. The <marker type="page" number="13"/><marker type="block"/> focus was to find design solutions that could be used in the e-paper device. At our second meeting the designers had all created their own high-fidelity prototypes incorporating ideas from the first meeting. The prototypes were discussed in the group leading to new suggestions and pros and cons with the four design solutions. In the third session the results from the evaluation of the prototypes from the reader focus group were presented and discussed. At this session we also discussed what abilities that were really unique with the e-paper and therefore should be focused on. The session was concluded with a general discussion about designing menus, handling subscriptions and other aspects like buying a single copy of a newspaper. The designers also got instructions to develop their prototypes further with a special focus on advertisement integration. The fourth session primarily focused on the design of a good navigational aid and we also agreed on some design solutions that all four prototypes should incorporate. In the interaction design focus group we started our first meeting discussing possible interaction models and discussed several design solution that could solve different kind of issues. We also discussed some of the scenarios that been produced earlier and created three new scenarios as a backbone for our work in this focus group. At our second meeting we started creating personas for the three scenarios and also brainstormed on some new solutions regarding interaction models and GUI. In the third session with this focus group we finalized the scenarios and personas and also created different future solutions regarding the physical layout of the e-paper device. We also discussed what type of physical materials could be used creating the device and which form of layout of the GUI that could be suitable for the initial target group.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="111" page="13" column="1">4. Exemplifying the results</h1>
+        <region class="DoCO:TextChunk" id="118" page="13" column="1">We have examined the data gathered from all three phases. First of all, we summarized the problems from the visioning phase from all eleven workshops resulting in general requirement patterns. Then, we studied the video recordings from the scenario building phase resulting in a list of use situations, functions and possible services, to be considered for the e-newspaper. Finally, we examined the mock-ups together with the video recorded explanations resulting in a detailed list of categorized requirements. Categories of user requirements for the e-newspaper elicited from our approach are requirements for the GUI, physical interface, interaction, functions and services. From the visioning phase, we retrieved general requirements, e.g. ease of use, simplicity, robustness and newspaper specifics such as newspaper look and feel. This phase also enlightened us to the concerns that the users and the publishers had regarding the e-newspaper introduction ( <xref ref-type="table" rid="T2" id="112" class="deo:Reference">table 2</xref>).<marker type="page" number="14"/><marker type="block"/> Examples of results derived from the scenario building phase are suggestions of functions (e.g. the ability to print out an article), new services (e.g. extended TV schedule), and use situations (<xref ref-type="table" rid="T3" id="117" class="deo:Reference">table 3</xref>).</region>
+        <region class="DoCO:TableBox" id="Tx114">
+          <content>
+            <table class="DoCO:Table" number="2" page="14">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Ranking</th>
+                  <th class="table"> Statements</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> 1</td>
+                  <td class="table.strange"> Communication (band width, accessibility, and acceptance)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Secure technology</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2</td>
+                  <td class="table"> Long period of parallel distribution of printed and e-paper editions</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Investments in printing presses restrain introduction</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> 3</td>
+                  <td class="table.strange"> Business models / economy</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Integration of advertisements</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="115" confidence="possible" page="14" column="1">Ranking Statements 1 Communication (band width, accessibility, cost and acceptance) Secure technology 2 Long period of parallel distribution of printed and e-paper editions Investments in printing presses restrain e-newspaper introduction 3 Business models / economy Integration of advertisements</region>
+          <caption class="deo:Caption" id="116" page="14" column="1">Table 2. Statements from the critique part of the visioning phase</caption>
+        </region>
+        <region class="unknown" id="119" page="14" column="1">Scenario name Swedish senior citizens on beach in Spain User and context User profile Senior citizen couple Mindset and situation spending their vacation in Spain and receiving their local Swedish newspaper User ́s goal/motivation Reading the local newspaper is a habit, the do it every day since 45 years – now days on the e-paper Interaction combination of soft and hard keys, virtual keyboard, mouse pointer operated by keypad Scenario Mr and Mrs Johansson are on the beach waiting for the 12 o’clock description edition of their local Swedish newspaper. They really appreciate reading their traditional newspaper with the familiar layout with columns, fonts and headings. Mrs Johansson is browsing the newspaper section by section. Mr Johansson is starting with the sports as usual, continuing with the TV guide and finally moves on to the international and local news. – It is fantastic he says that even though I am reading my newspaper from home the TV guide is presenting the Spanish TV tableau. When done reading the news he chooses to read a pocket book by choosing books in the content menu and thereafter selecting the book he is currently reading. After blowing the sand off the display he starts to read, the e-paper device automatically shows the page where he put his bookmark yesterday. Mrs Johansson starts to solve the crossword typing the letters with the virtual keyboard on the display operated by a “Gameboy” like hardware buttons. When she is finished with the crossword she sends the result to the newspaper and hopes that she will be one of today’s winners. “I must remember to check the paper later today to find out if I have won anything” she tells her husband.</region>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="120" page="14" column="1">Table 3. Example of a scenario retrieved during the scenario building phase</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="122" confidence="possible" page="14" column="1">From the mock-up phase we gained a variety of mock-ups in different sizes and formats (<xref ref-type="fig" rid="F5" id="121" class="deo:Reference">figure 5</xref>). This phase provided us with most informative data concerning physical</region>
+        <region class="DoCO:FigureBox" id="F5">
+          <image class="DoCO:Figure" src="62c4.page_014.image_05.png" thmb="62c4.page_014.image_05-thumb.png"/>
+          <caption class="deo:Caption" id="124" page="14" column="1">Figure 5. Examples of user mock-ups</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="125" page="15" column="1">interface and GUI requirements, e.g. suggestions of navigation (e.g. sequential- and section reading, menus), interaction techniques (e.g. point and click, buttons on the hardware), format and presentation (e.g. markers and size on text) etc. From the mock-ups we also retrieved suggestions of, for example, different kinds of navigational aids, to support both goal oriented and ludenic reading, as input to user requirements:</region>
+        <region class="DoCO:TextChunk" id="126" confidence="possible" page="15" column="1">• Index – e.g. in three levels (front page, index of sections, index per section) • Menus – for different functions (saving, printing etc.) or an easy way of going back and forth to sections and pages • Turning page – support for both traditional page by page browsing and skimming (browsing through multiple pages very quickly) • Page indicators – strong indicators that gives an overview of where you are in the total newspaper and support the feeling of an beginning and an end, e.g. page 27/52 • Visual cues concerning which section the reader is currently in – e.g. color coded sections (sport – pink) • Thumbnails –a way to give overview but also a indicate amount of pictures (depth) available for an article • Headlines – different headlines that helps the user orient themselves on a page • Hyperlinks – support fast navigation to a specific article without having to browse</region>
+        <region class="DoCO:TextChunk" id="138" page="15" column="1">We have also validated these results in collaboration with the reader, newspaper and interaction designer focus groups. Together these results will build a base for designing and testing prototypes within the DigiNews project. Together with the interaction designers we have created personas ( <xref ref-type="table" rid="T4" id="127" class="deo:Reference">table 4</xref>) based on input from our future workshops.<marker type="page" number="16"/><marker type="block"/> Together with the newspaper designer we have validated and ranked the output from the mock-up phase, resulting in initial requirements for the e-newspaper. These results are also incorporated in the development of the low-fi e-newspaper prototypes developed by newspaper designers (<xref ref-type="fig" rid="F6" id="133" class="deo:Reference">figure 6</xref> and 7)<marker type="page" number="17"/><marker type="block"/> Further, these prototypes have been tested with the reader focus group, leading to further development.</region>
+        <region class="unknown" id="129" page="16" column="1">Persona: Ezgûr (Student)</region>
+        <region class="DoCO:FigureBox" id="Fx130">
+          <image class="DoCO:Figure" src="62c4.page_016.image_06.png" thmb="62c4.page_016.image_06-thumb.png"/>
+        </region>
+        <region class="unknown" id="131" page="16" column="1">Age 21 Family situation and Single, moved to Sweden with his family from Turkey when he home environment was six years old. Currently living in student's den in Stockholm. Occupation Student (the Media Program at Stockholm University) Work part-time at the local store Interests Music and sports, big consumer of the entertainment world in Stockholm Computer and Internet High skills Media consumption Free and online newspapers He uphold old traditions of Turkey and stays updated of news from his hometown Istanbul and keep tracks on his favorite soccer team Fenerbahce.</region>
+        <region class="DoCO:TableBox" id="T4">
+          <caption class="deo:Caption" id="132" page="16" column="1">Table 4. Example of a persona compiled from the scenario building phase</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F6">
+          <image class="DoCO:Figure" src="62c4.page_016.image_07.png" thmb="62c4.page_016.image_07-thumb.png"/>
+          <image class="DoCO:Figure" src="62c4.page_016.image_08.png" thmb="62c4.page_016.image_08-thumb.png"/>
+          <caption class="deo:Caption" id="136" page="16" column="1">Figure 6. Example of an A5 GP</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F7">
+          <caption class="deo:Caption" id="137" page="16" column="1">Figure 7. Example of an A4 Aftonbladet</caption>
+        </region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="139" page="17" column="1">5. Discussion</h1>
+        <region class="DoCO:TextChunk" id="141" page="17" column="1">The aim of this paper is to describe a PD approach applied in a context of designing a future everyday IT artifact. In this case, we have been working in the DigiNews project with both readers and publishers in designing initial prototypes of the e-newspaper, not having access to the actual e-paper technology. Here we discuss how we have adapted the techniques and reflect on the work process and the design input. Thereafter we discuss some experiences and lessons learned. The PD approach that we applied was adapted to the conditions of this project. We have shortened the future workshop from two days to three hours. This does mean that the participant’s reflections were limited and we can assume that the two day process would have resulted in more reflective input. In some cases we actually got mail from participants sharing their thoughts after the workshop, which confirms this assumption. Shortening the future workshop does indeed require careful planning to ensure fruitful results from all three phases. Planning is of course always important but it is essential to realize that three hours gives no margins. Therefore keeping the schedule was essential, and in some cases we felt like we were interrupting discussions in doing so. In some of the workshops, the visioning and scenario building phases intruded somewhat on the mock-up phase. Due to the difficulty presenting and envisioning the technology, we used many types of triggers. This was time consuming and sometimes led to spaced-out scenarios, more related to high-tech possibilities than newspaper services, depending on the triggers used. In the later workshops, other triggers were used for shortening this phase. The scenario building phase was also shortened, to give more time for individuals to visualize their ideas in the mock-up phase, as these were more down to earth. We also experienced that eight workshop participants were too much, resulting in a few individuals taking a more passive role. The most suitable group size was six participants from our point of view. A further improvement to the scenario building phase could be to replace the card “Idea?”, that was not frequently used, with a “Why?” card, which would indicate the motive of use. Another lesson learned was that we might have influenced ideas for scenarios and mock-ups by presenting low-fi prototypes of e-newspapers as triggers. We chose to involve newspaper staff and interaction designers in the process. If we had only involved users in future workshops, this could have resulted in novice design solutions for the e-newspaper from users lacking actual design knowledge. However, as we worked with newspaper- and interaction designers in parallel it has been possible to validate user input and highlight usable design solutions. Engaging readers, newspaper designers and interaction designers in <marker type="page" number="18"/><marker type="block"/> focus groups, thereby building long-term relationships, has proven to be very rewarding. Firstly, we have a group of readers that have had the time to reflect and reconsider their initial ideas. Secondly, the design focus group has given us the possibility to discuss and validate the input with domain experts. Finally, the interaction designer focus group has been a forum for discussing and validating interaction issues. The data gathered with this approach is extensive and rich and we were able to get more input than we expected. The workshops with the newspaper staff gave an overview of the publishing domain and resulted in several identified problems with the introduction of the e-newspaper. However, they also raised a range of possibilities not recognized before. The scenario building phase with readers generated suggestions of new services and identified new business possibilities. Further, the validation process resulted in several interesting design suggestions useful for further development of e-newspaper prototypes. However, these results initially only serve as grounds for designing and testing early prototypes. Requirements, design suggestions as well as new service proposals need to be revised and validated in an iterative design process. This adapted PD approach used to engage participants in designing a future IT artifact has proven to be fruitful for the DigiNews project. We suggest that our experiences can be of help for others occupied by designing everyday artifacts under similar conditions. Hereafter, we summarize some advice to be considered in the early data-gathering phase when designing a future everyday IT artifact. How the idea of the artifact is presented and which triggers and materials for mock-ups are chosen, all influence participant input very much. Therefore, it is very important that these decisions are carefully considered: be aware that you do influence the participants When contexts of use and users are diverse, conducting workshops with regular users as well as with domain experts are useful: include participants with domain knowledge To avoid design suggestions’ being unrealistic or depending on technological advancement not probable, validation with experts is recommendable before forcing design work: validate results with expertise relevant for the situation at hand Using focus groups in parallel with workshops creates a long term and deeper engagement with users, domain professional designers and interaction designers: complement extensive data gathering with long term relationships</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="142" page="18" column="1">6. Conclusions</h1>
+        <region class="DoCO:TextChunk" id="144" page="18" column="1">In this paper we have illustrated a feasible approach for the DigiNews context, not argued for the best solution possible. Even so, we argue that PD techniques are useful in the initial design process of every day artifacts. Even though many <marker type="page" number="19"/><marker type="block"/> PD techniques were designed to be used in working environments they are possible to adapt to the conditions of designing everyday artifacts. We consider the input to be rich and visionary and very useful to our further work in designing the future e-newspaper.</region>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="145" page="19" column="1">Acknowledgments</h1>
+        <region class="DoCO:TextChunk" id="146" confidence="possible" page="19" column="1">We would like to thank VINNOVA for project funding as well as all participants in our future workshops and focus groups.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="147" page="19" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="148" page="19" column="1">Arvidsson, F., Ihlström, C., and Lundberg, J. (2002). “Visions of Future News – Consensus or Conflict?”, in Proceedings of the 25th Information Systems Research Seminar in Scandinavia, Denmark. CD-ROM.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="149" page="19" column="1">Benyon, D., Turner, T., and Turner, S. (2005). Designing Interactive Systems – People, Activities, Contexts, Technologies. Essex: Pearson Education.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="150" page="19" column="1">Beyer, H., and Holtzblatt, K. (1998). Contextual design. Morgan Kaufmann.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="151" page="19" column="1">Bødker, S. (2000). “Scenarios in user-centred design - Setting the stage for reflection and action”, Interacting with computers, Vol. 13, No. 1, pp. 61-75.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="152" page="19" column="1">Bødker, S., Ehn, P., Kammersgaard, J., Kyng, M. and Sundblad, Y. (1987). “A UTOPIAN Experience: On Design of Powerful Computer-Based Tools for Skilled Graphical Workers” in Bjerknes, G., Ehn, P. &amp; Kyng, M. (eds.). Computers and Democracy – A Scandinavian Challenge, pp. 251-278. Aldershot, UK: Avebury</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="153" page="19" column="1">Bödker, S., and Iversen, S. O. (2002). “Staging a Professional Participatory Design Practice Moving PD beyond the Initial Fascination of User Involvement”, in Proceedings of NordiCHI, Tampere, Finland.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="154" page="19" column="1">Bødker, S. Grønback, K., and Kyng, M. (1993). “Cooperative Design: Techniques and Experiences from the Scandinavian Scene”, in D. Schuler and A. Namioka (eds.), Participatory design: Principles and practices, pp. 157-176. Hillsdale, NJ: Lawrence Erlbaum Associates.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="155" page="19" column="1">Carroll, J. M. (2000). “Five reasons for scenario-based design”, Interacting with computers, vol. 13, no. 1, 43-60.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="156" confidence="possible" page="19" column="1">Clement, A., and Van den Besselar, P. (1993). “A retrospective look at PD projects”, Communications of the ACM, vol. 36, no. 4, 29-39.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="157" confidence="possible" page="19" column="1">Cooper, A. (1999). The inmates are running the asylum. Indiana: Macmillan</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="158" page="19" column="1">Dozier, D. and Rice, R. (1984). “Rival theories of electronic newsreading”, in R. Rice (ed.), The New Media, pp. 103-128. London: Sage Publications.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="159" page="19" column="1">Ehn, P. (1989). Work-oriented design of computer artifacts (Second edition). Erlbaum.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="160" page="19" column="1">Ehn, P. (1993). “Scandinavian design: On participation and skill”, in D. Schuler and A. Namioka (eds.), Participatory design, pp. 41-77. Erlbaum.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="161" page="19" column="1">Ehn, P., and Kyng, M. (1991). “Cardboard computers: Mocking-it-up or hands-on the future”, in J. Greenbaum and M. Kyng (eds.), Design at work, pp. 169-198. Hillsdale: Lawrence Erlbaum Associates, Inc.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="162" page="20" column="1">Ehn, P., and Malmborg, L. (1998). “The design challenge”, Scandinavian Journal of Information systems, vol. 10, no. 1, 211-219.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="163" page="20" column="1">Go, K., and Carrol, J. M. (2004). “The Blind Men and the Elephant: Views of Scenario-Based System Design”, Interactions, nov + dec, 45-53.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="165" page="20" column="1">Graydon, O. (2004). “E-paper makes consumer debut”, Optics org. Retrieved March 9, 2005 from <ext-link ext-link-type="uri" href="http://optics.org/articles/news/10/3/24/1" id="164">http://optics.org/articles/news/10/3/24/1</ext-link></ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="166" page="20" column="1">Greenbaum, J., and Kyng, M. (1991). “Introduction: Situated Design”, in J. Greenbaum and M. Kyng (eds.), Design at Work, 1-24. Hillsdale: Lawrence Erlbaum Associates, Inc.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="167" page="20" column="1">Grudin, J. (1993). “Obstacles to participatory design in large product development organizations”, in D. Schuler and A. Namioka (eds.), Participatory Design: Principles and Practices, pp. 99-119. Hillsdale, New Jersey: Lawrence Erlbaum Associates.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="168" page="20" column="1">Grudin, J., and Pruitt, J. (2002). “Personas, Participatory Design and Product Development: An Infrastructure for Engagement”, in Proceedings of Participatory Design Conference, 144- 161.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="169" page="20" column="1">Jungk, R., and Müllert, N. (1996). Future Workshops - How to Create Desirable Futures. London: Institute for Social Inventions.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="170" page="20" column="1">Kensing, F., and Halskov Madsen, K. (1991). “Generating Visions: Future Workshops and Metaphorical Design”, in J. Greenbaum and M. Kyng (eds.), Design at Work, pp. 155-168. Hillsdale: Lawrence Erlbaum Associates, Inc.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="171" page="20" column="1">Kyng, M. (1994). “Scandinavian design: Users in product development”, in Proceedings of CHI ́94, 3-9.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="172" page="20" column="1">Löwgren, J., and Stolterman, E. (1999). “Design Methodology and Design Practice”, Interactions, jan + feb, 13-20.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="173" page="20" column="1">Löwgren, J., and Stolterman, E. (2005). Thoughtful Interaction Design : A Design Perspective on Information Technology. Massachusetts: The MIT Press.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="174" page="20" column="1">Marshall, C., and Rossman, G. B. (1999). Designing Qualitative Research (3rd ed.). Thousand Oaks, CA: Sage Publications.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="175" page="20" column="1">Mikkelson, N. and Lee, W. O. (2000). “Incorporating user archetypes into scenario-based design”, in Proceedings of UPA 2000.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="176" page="20" column="1">Negroponte, N. (1995). Being Digital. Coronet Books, Hodder and Stoughton, London.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="177" page="20" column="1">Nielsen, J. (1997). “The Use and Misuse of Focus Groups”, IEEE Software, vol. 14, no. 1 (Jan.- Feb.), pp. 94-95.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="178" page="20" column="1">Petersen, M. G., Halskov Madsen, M., and Kjær, A. (2002). “The usability of everyday technology: emerging and fading opportunities”, ACM Transactions on Computer-Human Interaction, vol. 9, no. 2, 74-105.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="180" page="20" column="1">Philips Research Technologies. Retrieved at March 9, 2005 from <ext-link ext-link-type="uri" href="http://www.research.philips.com/technologies/display/ov_elpap.html" id="179">http://www.research.philips.com/technologies/display/ov_elpap.html</ext-link></ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="181" page="20" column="1">Preece, J., Sharp, H., &amp; Rogers, Y. (2002). Interaction Design: Beyond Human-Computer Interaction. New York: John Wiley &amp; Sons, Ltd.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="182" page="20" column="1">Rönkkö, K., Hellman, M., Kihlander, B. and Dittrich, Y. (2004) “Personas is not Applicable: Local Remedies Interpreted in a Wider Context”, in Proceedings of the Participatory Design Conference 2004, 112-120.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="183" page="20" column="1">Spinuzzi, C. (2002). “A Scandinavian Challenge, a US Response: Methodological Assumptions in Scandinavia and US Prototyping Approaches”, in Proceedings of SIGDC’02, 208-215.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="184" page="20" column="1">Tahir, M. F. (1997). “Who’s on the other side of your software: Creating user profiles through contextual inquiry”, in Proceedings of UPA  ́97.</ref>
+        </ref-list>
+      </section>
+    </body>
+  </article>
+</pdfx>

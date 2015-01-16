@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>c2bede313a54952a554384d0d3cc85e805ace17690daeaa3ab644f56e9268dd1</job>
+    <base_name>62lo</base_name>
+    <doi>http://dx.doi.org/10.1007/b116193</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Sensemaking-Coevolution-Implementation Theory</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">A Model of the Software Engineering Process in Practice</article-title>
+      </title-group>
+      <region class="DoCO:TextChunk" id="4" confidence="possible">Paul Ralph Department of Management Science Lancaster University Lancaster, UK <email id="3">paul@paulralph.name</email></region>
+      <abstract class="DoCO:Abstract" id="5">Abstract—Sensemaking-Coevolution-Implementation Theory is a teleological process theory of the practice of designing complex software systems. It posits that an independent agent (design team) creates a software system by alternating between its three titular activities. Its veracity has been demonstrated using questionnaire and case-study methods. It has been used to evaluate software engineering curricula and highlight deficiencies in software engineering methods and practices.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="10" page="1" column="1">Keywords-SCI Theory; process theory; design; coevolution I. SCI T HEORY Theories of the software engineering (SE) process have historically been dominated by stage-gate or lifecycle models, beginning with the Waterfall Model [1]. This was followed by a “methodology era”, during which SE was usually conceptualized through a methods lens, and a “post- methodology era” where methods continued to dominate conceptualization of SE despite their decreasing relevance to practice [2]. These lifecycle models and the methods based on them are fundamentally misleading due to their empirically debunked assumptions [3], [4]. Sensemaking-Coevolution-Implementation Theory (SCI) was developed as an alternative to lifecycle models of SE [5]. It is based on Alexander’s model of the “selfconscious” design process [6], reflection-in-action [7], and theorizing of coevolution by [8] among others. SCI ( <xref ref-type="fig" rid="F1" id="6" class="deo:Reference">Figure 1</xref>, <xref ref-type="table" rid="T1" id="7" class="deo:Reference">Table 1</xref>) posits that where a complex software system is developed by an independent, goal-oriented agent, that agent will engage in three basic processes – Sensemaking, Coevolution and Implementation – in a self- directed sequence. The agent may be an individual or team. The arrows in <xref ref-type="fig" rid="F1" id="8" class="deo:Reference">Figure 1</xref> indicate relationships between concepts and activities, not sequence – the agent may transition between activities in any order. In a typical project, Sensemaking may include interviewing stakeholders, writing notes, organizing notes, reading about the domain, reading about technologies that could be used in project, sharing insights among team members and acceptance testing (getting feedback from stakeholders on prototypes). Implementation may include coding, managing the codebase, writing documentation, automated testing, creating unit tests, running unit tests and debugging. While Coevolution does not directly map to a variety of well-known software engineering activities, it is observable in real projects. For example, when a team stands around a whiteboard drawing informal models and discussing how to proceed, they often oscillate between ideas about the design<marker type="column" number="2"/><marker type="block"/> object (e.g., ‘how should we distribute features between the partner channel screen and the partner program screen?’) and the context (e.g., ‘you know what, I think channels and programs are just different names for the same thing.’). This mutual exploration of context and design object is Coevolution. Coevolution may occur in planning meetings and design meetings, following breakdowns or during an individual’s internal reflection. Evolution and coevolution are easily confused. In design literature, evolution, specifically evolutionary prototyping, denotes the gradual improvement of a software object. In contrast, coevolution refers to “developing and refining together both the formulation of a problem and ideas for a solution, with constant iteration of analysis, synthesis and evaluation processes between the ... problem space and solution space” {Dorst:2001tq, p. 434}. SCI therefore distinguishes between two types of iteration – coevolution denotes simultaneously revising ideas of problem and solution within minutes or hours, while evolution denotes improving software artifacts over weeks and months. SCI is a teleological process theory, intended to explain how software is developed in practice. Van de Ven [9] distinguishes two types of theories – variance theories explain the causes of consequences of something and often specify the relative contribution of multiple antecedents, while process theories explain how and why an entity changes and develops. Process theories come in at least four types [10]: lifecycle theories posit that an entity progresses through a series of stages in a predefined sequence; evolutionary theories posit a population of entities that changes as less fit entities expire and remaining entities change and recombine; dialectic theories posit that changes result from shifts in power among conflicting entities; teleological theories posit an agent who purposefully selects and takes actions to achieve a goal. SCI therefore takes a teleological approach to causality: software artifacts change as human beings (having free will) choose to change them. This differs from the probabilistic approach to causality adopted by many variance theories. A survey [11] of over 1300 software development professionals found that SCI better described their processes than either Waterfall or an alternative SE process theory, the Function-Behavior-Structure Framework (FBS) [12]. Emerging evidence from an ethnographic study of an English software development team also supports SCI’s core claims and the impossibility of understanding conventional SE through Waterfall or FBS. SCI has been used to analyze SE curricula [13]. It can also be used to analyze design</region>
+      <outsider class="DoCO:TextBox" type="header" id="11" page="2" column="1">methods and practices, and to teach SE and project [7] D. A. Schön, The reflective practitioner: how professionals think in management. action. USA: Basic Books, 1983. [8] N. Cross, “Research in Design Thinking,” in Research in design R EFERENCES thinking, N. Cross, K. Dorst, and N. Roozenburg, Eds. Delft, Netherlands: Delft University Press, 1992. [1] W. Royce, “Managing the development of large software systems,” [9] A. H. Van de Ven, Engaged scholarship: a guide for organizational</outsider>
+      <region class="unknown" id="12" page="2" column="1">presented at the Proceedings of WESCON, the Western Electronic Show and Convention, Los Angeles, USA, 1970. [2] D. Avison and G. Fitzgerald, “Where Now for Development Methodologies,” Communications of the ACM, vol. 46, no. 1, pp. 79– 82, 2003. [3] F. P. Brooks, The Design of Design: Essays from a Computer Scientist. Addison-Wesley Professional, 2010. [4] P. Ralph, “Introducing an Empirical Model of Design,” in Proceedings of The 6th Mediterranean Conference on Information Systems, Limassol, Cyprus, 2011. [5] P. Ralph, “The Sensemaking-Coevolution-Implementation Theory of Software Design,” MIS Quarterly, under review. [6] C. W. Alexander, Notes on the synthesis of form. Harvard University Press, 1964.</region>
+      <region class="DoCO:TextChunk" id="13" confidence="possible" page="2" column="1">and social research. Oxford, UK: Oxford University Press, 2007. [10] A. H. Van de Ven and M. S. Poole, “Explaining development and change in organizations,” The Academy of Management Review, vol. 20, no. 3, pp. 510–540, Jul. 1995. [11] P. Ralph, “Comparing Two Software Design Process Theories,” in Proceedings of the Fifth International Design Science Research in Information Systems and Technology Conference, St. Gallen, Switzerland, 2010, vol. 6105, pp. 139–153. [12]   J. S. Gero and U. Kannengiesser, “An ontological model of emergent design in software engineering,” presented at the 16th International Conference on Engineering Design, Paris, France, 2007. [13] P. Ralph, “Improving coverage of design in information systems education,” in Proceedings of the 2012 International Conference on Information Systems, Orlando, FL, USA, 2012.</region>
+      <region class="unknown" id="14" page="2" column="1">Key</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="15" page="2" column="1">Design Object</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="16" page="2" column="1">Primitives</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="2" column="1">Implementation</h1>
+        <region class="unknown" id="18" page="2" column="1">Design Agent</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="19" page="2" column="1">Input Context Output Composition Executes Unbounded Entity Object Sensemaking Mental Entity Activity</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="20" page="2" column="1">Goals Mental Mental Picture Picture of Coevolution of Design Constraints Context</h1>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="21" page="2" column="1">Figure 1.</caption>
+        </region>
+        <region class="DoCO:TableBox" id="Tx22">
+          <content>
+            <table class="DoCO:Table" number="I" page="2">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> of a TWO-COLUMN figure caption: (a) this is the format for referencing parts of a figure.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Concept / Activity</td>
+                  <td class="table.strange"> Meaning</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Constraints</td>
+                  <td class="table"> the set of restrictions on the design object’s properties</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Design Agent</td>
+                  <td class="table"> an entity or group of entities capable of forming intentions and goals and taking actions to achieve those goals and that specifies the structural properties of the design object</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Context</td>
+                  <td class="table"> the totality of the surroundings of the design object and agent, including the object’s intended domain of deployment</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Design Object</td>
+                  <td class="table"> the thing being designed</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Goals</td>
+                  <td class="table"> optative statements about the effects the design object should have on its environment</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Mental Picture of Context</td>
+                  <td class="table"> the collection of all of the design agent’s beliefs about its and the design object’s environments</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Mental Picture of Design</td>
+                  <td class="table.strange"> the collection of all of the design agent’s beliefs about the design object</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Primitives</td>
+                  <td class="table"> the set of entities from which the design object may be composed</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Sensemaking</td>
+                  <td class="table"> the process where the design agent organizes and assigns meaning to its perception of the context, creating and refining the mental picture of context</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Coevolution</td>
+                  <td class="table"> the process where the design agent simultaneously refines its mental picture of the design object, based on its mental picture of context, and the inverse</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Implementation</td>
+                  <td class="table"> the process where the design agent generates or updates the design object using its mental picture of the design object</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="23" confidence="possible" page="2" column="1">Example of a TWO-COLUMN figure caption: (a) this is the format for referencing parts of a figure.</region>
+          <region class="TableInfo" id="24" confidence="possible" page="2" column="1">Concept / Activity Meaning Constraints the set of restrictions on the design object’s properties Design Agent an entity or group of entities capable of forming intentions and goals and taking actions to achieve those goals and that specifies the structural properties of the design object Context the totality of the surroundings of the design object and agent, including the object’s intended domain of deployment Design Object the thing being designed Goals optative statements about the effects the design object should have on its environment Mental Picture of Context the collection of all of the design agent’s beliefs about its and the design object’s environments Mental Picture of Design Object the collection of all of the design agent’s beliefs about the design object Primitives the set of entities from which the design object may be composed Sensemaking the process where the design agent organizes and assigns meaning to its perception of the context, creating and refining the mental picture of context Coevolution the process where the design agent simultaneously refines its mental picture of the design object, based on its mental picture of context, and the inverse Implementation the process where the design agent generates or updates the design object using its mental picture of the design object</region>
+          <caption class="deo:Caption" id="25" page="2" column="1">TABLE I.</caption>
+        </region>
+        <region class="unknown" id="26" page="2" column="1">C ONCEPTS AND R ELATIONSHIPS OF SCI T HEORY , D EFINED</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="27" page="2" column="2">Object</h1>
+      </section>
+    </body>
+  </article>
+</pdfx>

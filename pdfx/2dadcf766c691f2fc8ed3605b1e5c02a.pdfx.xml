@@ -1,0 +1,910 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>1f48e754f95b71b38b27619e30fed3b3d4f20f41c74d622721b5855e77803f32</job>
+    <base_name>62ca</base_name>
+    <doi>http://dx.doi.org/10.1016/s0142-694x(99)00034-4</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Unexpected discoveries and S-invention of design requirements: important vehicles for a design process</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Masaki Suwa</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">John Gero</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Terry Purcell</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Key Centre of Design Computing</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Cognition</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Department of Architectural</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">Design Science</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="9">University of Sydney</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="10">Sydney</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">NSW</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="12">Australia</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="13" confidence="possible">Designers, during a conceptual design process, do not just synthesize solutions that satisfy initially given requirements, but also invent design issues or requirements that capture important aspects of the given problem. How do they do this? What becomes the impetus for the invention of important issues or requirements? So-called ‘unexpected discoveries’, the acts of attending to visuo-spatial features in sketches which were not intended when they were drawn, are believed to contribute to it. The purpose of the present research is to verify this hypothesis. Analysing the cognitive processes of a practising architect in a design session, we found that in about a half of his entire design process there were bi-directional relations between unexpected discoveries and the invention of issues or requirements. Not only did unexpected discoveries become the driving force for the invention of issues or requirements, but also the occurrence of invention, in turn, tended to cause new unexpected discoveries. This has provided empirical evidence for two anecdotal views of designing. First, designing is a situated act; designers invent design issues or requirements in a way situated in the environment in which they design. We call inventions of this sort situated-invention (S-invention). Secondly, a design process progresses in such a way that the problem-space and the solution-space co-evolve. Further, this has brought a pedagogical implication as well as an insight about an important aspect of learning by experience in design. k c 2000 Elsevier Science Ltd. All rights reserved. Keywords: conceptual design; design cognition; design process; drawing; perception</abstract>
+      <region class="DoCO:TextChunk" id="14" confidence="possible">ow does a design process proceed? Do designers commence with H synthesize an analysis solutions of important based aspects on this of the analysis, given design and finally problem, evaluate then</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="15">539</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="16">www.elsevier.com/locate/destud 0142-694X/00 $ - see front matter Design Studies 21 (2000) 539–567 PII: S0142-694X(99)00034-4 © 2000 Elsevier Science Ltd All rights reserved Printed in Great Britain</outsider>
+      <region class="DoCO:TextChunk" id="22">the solutions? The answer is no. Designers do not go through these phases in a sequential order in the entire process, but rather analyse, synthesize and evaluate in a more rapid cycle, almost simultaneously. In many cases, it is only after designers synthesize a solution that they are able to detect and understand important issues and requirements of the given problem. Lawson 1 called this phenomenon ‘analysis through synthesis’. Further, problem-finding behaviours of this sort are strongly associated with creative outcomes. Getzels and Csikszentmihalyi 2 presented evidence for this from a longitudinal study of art students. <marker type="block"/> For the same reason, freehand sketches are indispensable for designers in conceptual design processes. It is not until externalizing on paper the ideas of what they think might be a potential solution and inspecting them that designers are able to find new aspects of the problem and to generate new ideas 3,4 . Our previous study of architects’ sketches presented evidence that their thoughts of functional issues in an architectural design task are situated actions; they are born from the process of drawing on paper and perceiving the visuo-spatial features of depictions 5 . Then, a question arises. What aspects in the acts of drawing sketches and perceiving features in them enable a designer to invent important design issues and requirements 1 Lawson, B How designers of a given problem? By ‘invent’ we do not mean that the issue or require- think Butterworth Architecture, Oxford, UK (1990) ment has been generated for the first time in history, i.e. historical-inven- 2 Getzels, J W and Csiksz- tion in Boden’s terminology 6 , or that a designer has generated it for the entmihalyi, M The creative vision: a longitudinal study of first time in his or her life, i.e. psychological-invention. What is meant in problem finding in art Wiley, New York (1976) this paper is that a designer has generated the issue or requirement for the 3 Robbins, E Why architects first time in the current design task, in a way situated in the design setting. draw MIT Press, Cambridge, MA (1994) We call this ‘situated-invention (S-invention)’. 4 Goldschmidt, G ‘On visual design thinking: the vis kids of architecture’ Design Studies Vol Freehand sketches are believed to encourage discoveries of unintended fea- 15 No 2 (1994) pp 158–174 5 Suwa, M, Gero, J and Pur- tures and consequences 4,7 . Making a depiction on paper forces some cell, T ‘The roles of sketches in organization and specificity in terms of visuo-spatial features 8 , regardless early conceptual design pro- cesses’ Proceedings of Twenti- of whether or not the sketcher pays attention to them. For example, a eth Annual Meeting of the Cognitive Science Society Erlbaum, depiction necessarily takes some shape and occupies an area of a certain Hillsdale, NJ pp 1043–1048 size on paper, even though these visual features may not be intended by (1998) 6 Boden, A The creative mind: the sketcher. When a sketcher makes a new depiction, intending it to hold myths and mechanism Weiden- a spatial relation to some existing depictions, it will automatically produce feld &amp; Nicolson, London (1990) 7 Schon, D A and Wiggins, G spatial relations between the new depiction and other existing depictions ‘Kinds of seeing and their functions in designing’ Design Stud- which the sketcher does not intend. These implicit visuo-spatial features, ies Vol 13 No 2 (1992) pp 135– in turn, may be discovered in an unexpected way by later inspection. 156 8 Stenning, K and Ober- lander, J ‘A cognitive theory of graphical and linguistic reason- Unexpected discoveries of this sort are believed to become the strong ing: logic and implementation’ impetus for the invention of important design requirements of a given prob- Cognitive Science Vol 19 No 1 (1995) pp 97–140 lem. To quote Goldschmidt,<marker type="page" number="3"/><marker type="block"/> She argues that unexpected discoveries of new combinations and relationships among elements will provide useful clues; clues for what? She explains in the same page as follows;</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="19">540</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="20">Design Studies Vol 21 No. 6 November 2000</outsider>
+      <region class="unknown" id="21">One reads off the sketch more information than was invested in its making. This becomes possible because when we put down on paper dots, lines and other marks, new combinations and relationships among these elements are created that we could not have anticipated or planned for. We discover them in the sketch as it is being made, and some of these new configurations can potentially provide useful clues (1994, p. 164).</region>
+      <region class="DoCO:TextChunk" id="23" confidence="possible">... It is our belief that the purpose of this early sketching activity is primarily to avail oneself of potentially meaningful clues. If picked up, these clues can be used to form and to inform emerging design concepts (1994, p. 164).</region>
+      <region class="DoCO:TextChunk" id="24">It is obvious that what she means by ‘to inform emerging design concepts’ is equal to what we mean by ‘to invent design requirements’. All in all, her argument here suggests that the occurrences of unexpected discoveries are likely to become the driving-force for the S-invention of design requirements. Some researchers, using protocol analysis technique, have discussed concepts similar to what we call the invention of design requirements, e.g. Akin’s notion of novel design decision 9 . However, no past research has investigated the relationship between unexpected discoveries and the invention of design requirements, i.e. whether the former is likely to become the driving-force for the latter. The purpose of this paper is to verify this hypothesis, seeking empirical evidence in the cognitive processes of designers.</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="25" page="3" column="1">Our approach</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="26" confidence="possible" page="3" column="1">1</h2>
+          <region class="DoCO:TextChunk" id="32" page="3" column="1">We have looked into the cognitive processes of a practising architect using the technique of protocol analysis. The protocols of his design session were collected as a retrospective report after the session 10 . The design session, which lasted for 45 min, was to work on the conceptual design of a museum on a given site in a natural environment in the suburb of a large city. The architect was encouraged to draw sketches on tracing paper. His sketching activities were videotaped. In the report session, he talked about what he had been thinking of for each stroke of his pencil during the design session, while watching the videotape. 9 Akin, O and Lin, C ‘Design protocol data and novel design decisions’ Design Studies Vol 16 The S-invention of design issues and requirements appear in protocols as No 2 (1995) pp 211–236 10 Suwa, M and Tversky, B the acts of setting up goals to bring them into reality. We found in his ‘What do architects and students perceive in their design protocols many instances of goals of this kind. For example, in a relatively sketches?: a protocol analysis’ early phase of his process, he decided that visitors to this museum should Design Studies Vol 18 No 4 (1997) pp 385–403 experience a cheerful and pleasant feeling even before getting to the main <marker type="page" number="4"/><marker type="block"/> building from the parking lot. As another example, he talked about the necessity of service area for the buildings, such as for the delivery of goods and garbage collections. Functional requirements of this sort, the former being psychological and the latter practical, were not given to him as initial requirements, but rather emerged during the process. We coded from the protocols instances of goals to invent functional issues and requirements. We will describe this in Section 2.3.<marker type="block"/> Another task in this research is to code instances of unexpected discoveries from verbal protocols. The pioneering researches that have established the concept of unexpected discovery 4,7 , however, did not present an explicit definition of it; they just presented convincing examples of unexpected discoveries from protocols in an episodic way, because the aim was to show that unexpected discovery is one of the benefits that sketching provides designers with. We have recently developed a coding scheme that is suitable for examination of cognitive processes of designers 11 . There, we proposed that unexpected discovery can be defined as a class of perceptual actions. We have used this definition to collect instances from the protocols of our architect. The definition will be presented in Section 2.2.<marker type="block"/> Based on the coding of goals as S-invention and unexpected discoveries, we have examined whether there are any significant relationships between the occurrences of both, and if any, what kinds of relationships they are. The results will be presented in Section 3.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="28" page="3" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="29" page="3" column="1">541</outsider>
+          <region class="unknown" id="33" page="4" column="1">2</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="34" page="4" column="1">Coding of unexpected discoveries and goals as sinventions</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="35" confidence="possible" page="4" column="1">2.</h2>
+          <region class="unknown" id="36" page="4" column="1">1 Coding scheme: overview</region>
+          <region class="DoCO:TextChunk" id="37" page="4" column="1">The main thrust of our coding scheme is that it allows for codings of different modes of designers’ cognitive actions from protocols. The definitions and codings of both unexpected discoveries and goals as S-invention are derived from this scheme. First, we will give a brief overview of the scheme.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="38" confidence="possible" page="4" column="1">2.</h2>
+          <region class="unknown" id="39" page="4" column="1">1.1 Segmentation</region>
+          <region class="unknown" id="40" page="4" column="1">11 Suwa, M, Purcell, T and Gero, J ‘Macroscopic analyses of design processes based on a scheme for coding designers’ cognitive actions’ Design Studies Vol 19 No 4 (1998) pp 455–483 12 Goldschmidt, G ‘The dia- lectics of sketching’ Creativity Research Journal Vol 4 No 2 (1991) pp 123–143 13 van Someren, M W, Bar- nard, Y F and Sandberth, J A C The think aloud method: a practical guide to modelling cognitive processes Academic Press, London (1994) 14 Gero, J and McNeill T ‘An approach to the analysis of design protocols’ Design Studies Vol 19 No 1 (1998) pp 21–61</region>
+          <region class="DoCO:TextChunk" id="44" page="4" column="1">As many previous protocol analysis methods have done, we divide the entire verbal protocol into small units, that is, segmentation. The method of segmentation we employed is to divide the protocol based on the shift of subject’s intention, of the contents of their thoughts, or of their actions 10,12–14 . For example, Goldschmidt 12 defined a segment, what she calls a ‘design move’, as ‘an act of reasoning which presents a coherent proposition pertaining to an entity that is being designed’. A change in the <marker type="page" number="5"/><marker type="block"/> subject’s intention or in the contents of their thoughts or their actions flags the start of a new segment. Consequently, a single segment sometimes consists of one sentence, and sometimes of many.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="42" page="4" column="1">542</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="43" page="4" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="unknown" id="45" page="5" column="1">1.2 Different modes of cognitive actions</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="46" confidence="possible" page="5" column="1">2.</h2>
+          <region class="DoCO:TextChunk" id="53" page="5" column="1">For each segment, we code different modes of designers’ cognitive actions. There are four modes; physical, perceptual, functional and conceptual. The first category, physical, refers to actions that have direct relevance to physical depictions on paper. It consists of two classes: drawing-actions and looking-actions. <marker type="block"/> Drawing-actions are divided into two subclasses. One is to draw a new element on paper. Designers draw various types of depictions, such as dots, lines, rectangles, circles, arrows and so on, to represent architectural functions and/or areas. The other subclass of drawing-actions is to over- draw, or trace onto another sheet, a previously-drawn element. Looking- actions are to pay attention to the existence of a previously-drawn element, without any involvement of drawing-actions. We collect instances of physical actions, by seeking justification for the videotape of the subject’s sketching activities and/or by interpreting the contents of the subject’s verbal protocols.<marker type="block"/> The second category, perceptual, refers to actions of attending to visuo- spatial features of depicted elements. There are four classes of perceptual actions: perception of (1) visual features of elements, such as shapes, sizes, or textures, (2) spatial relations among elements, such as proximity, remoteness, alignment, intersection, connectedness and so on, (3) organization or comparison among elements, such as grouping, uniformity/similarity, and contrast/difference, and (4) implicit spaces that exist in-between depicted elements. We collect instances of perceptual actions from verbal protocols, interpreting the semantic contents of the protocol.<marker type="block"/> A perceptual action has a dependency on physical action(s). For example, suppose that an architect mentioned the shape of an element drawn previously. Attention to the shape is an instance of perceptual action, and is dependent on the physical action of paying attention to the existence of the element. As another example, suppose that an architect drew a new element near a previously drawn element, considering the proximity between the two. The attention to the proximity is an instance of perceptual action, and is dependent on two physical actions: an action of drawing the former element, and an action of paying attention to the existence of the latter element. In coding instances of perceptual actions, we code their dependencies on physical actions as well.<marker type="page" number="6"/><marker type="block"/> We will describe functional and conceptual actions later, when we describe the coding of goals.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="51" page="5" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="52" page="5" column="1">543</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="54" confidence="possible" page="6" column="1">2.</h2>
+          <region class="unknown" id="55" page="6" column="1">1.3 Index of whether or not cognitive actions are new</region>
+          <region class="DoCO:TextChunk" id="64" page="6" column="1">Orthogonal to the classification of cognitive actions into physical, perceptual, functional, or conceptual categories, cognitive actions are classified into the following two types: ‘new’ actions, and ‘old’ actions. Here, we will describe the distinction between the two for physical actions and perceptual actions. <marker type="block"/> A physical action associated with a new depiction is defined as ‘new’, while an action associated with a previously-drawn element as ‘old’. By this definition, therefore, drawing a new element on paper is a ‘new’ physical action. Overdrawing, or tracing on another sheet, a previously-drawn element is an ‘old’ action. A looking-action, i.e. paying attention to a previously-drawn element, is an ‘old’ action.<marker type="block"/> As far as perceptual actions are concerned, if a designer attends to a visuo- spatial feature for the first time since the outset of his or her design process, the attention to that feature is defined as a ‘new’ perceptual action. If the designer re-attends to a previously-mentioned visuo-spatial feature, the attention to that feature is defined as an ‘old’ perceptual action. For example, if an architect considers a shape of an element for the first time, the attention to the shape is a new perceptual action. If an architect mentions a shape which he or she has attended before, then it is an old perceptual action.<marker type="block"/> For each cognitive action coded in a segment, we identify which type the action belongs to, by interpreting the contents of the designer’s verbal protocols.<marker type="block"/> 2. 2 Definition of unexpected discoveries 2. 2.1 How unexpected discovery was interpreted in past literature Schon and Wiggins 7 argued that unexpected discovery is an action of noticing consequences that were not intended by the sketcher when he or she drew it. What they mean by ‘consequences’ include many things. They presented, as an example, the sketches of an architectural student in which she arranged six classrooms for six grades in a series of L-shapes. Schon and Wiggins discussed that, even though her initial intention was just to extend the sizes of classrooms, she happened to discover a couple of spaces in front of the classrooms as well as a spatial relation between these spaces,<marker type="page" number="7"/><marker type="block"/> and also thought that these relations can be used for a certain function. ‘Spaces’, ‘spatial relations’ and ‘function’ were all instances of what they mean by unintended ‘consequences’. The ‘spaces’ and the ‘spatial relation’ are visual information that she directly detected in the appearance of a sketch, while ‘function’ is a non-visual meaning that she associated with the visual information. In this sense, Schon and Wiggins’s version of unexpected discovery includes the discovery not only of visuo-spatial features in sketches but also of concepts that emerge as a result of interpreting visuo-spatial features.<marker type="block"/> On the other hand, Goldschmidt’s 4 version of unexpected discovery is more simple; it includes only the discovery of visuo-spatial features, as obvious in the quotes shown in the Introduction. We prefer restricting our definition of unexpected discovery to this simpler version. The reason is that if we include the discovery of non-visual concepts, it would blur the distinction between unexpected discovery and so-called ‘re-interpretation’, another benefit which sketching provides designers with 12,15 . In order to understand that the emergent spaces in front of the L-shaped classrooms could be used for a certain function, the female student must have had one more step of inference, after noticing the existence of those spaces, to interpret the configuration of the spaces. This inference, which is non-visual per se, should be more associated with the act of ‘re-interpretation’.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="61" page="6" column="1">544</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="62" page="6" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="65" confidence="possible" page="7" column="1">2.</h2>
+          <region class="unknown" id="66" page="7" column="1">2.2 Our definition of unexpected discovery</region>
+          <region class="DoCO:TextChunk" id="76" page="7" column="1">Based on this discussion, we defined unexpected discovery as a class of perceptual actions; an unexpected discovery is a ‘new’ perceptual action that has a dependency on ‘old’ physical action(s). As defined in Section 2.1.3, ‘old’ physical actions include (1) overdrawing, or tracing onto another sheet, a previously-drawn element, and (2) paying attention to the existence of a previously-drawn element. If an architect attends to a new visuo-spatial feature of a previously-drawn element, whether by overdrawing it, tracing it, or paying attention to its existence, then we say that the attention to the feature is an instance of unexpected discovery. <marker type="block"/> Unexpected discoveries are classified into three distinct types, depending on what types of visuo-spatial feature the designer discovers. <xref ref-type="table" rid="T1" id="69" class="deo:Reference">Table 1</xref> sum- marizes the three types. One is the discovery of a visual feature such as shape, size or texture of a previously-drawn element. For example, if an architect overdraws a circular line that was originally a simple indication of an area for a function, e.g. entrance hall in the main building of a museum, and now begins to attend to its circular shape for the first time, it is an instance of unexpected discovery of the first type.<marker type="page" number="8"/><marker type="block"/> The second is the discovery of a spatial or organizational relation among more than one previously-drawn element. For example, if an architect overdraws an element and at the same time pays attention to another element near the first element, and notices the proximity between the two elements for the first time, it is an instance of unexpected discovery of the second type.<marker type="block"/> The third is the discovery of a space that exists in between previously drawn elements. This is so-called perception of figure-ground reversal, one of the characteristics of human perception. A famous example from psy- chology is perception of a single vase versus the contours of two human faces facing each other. Arnheim, under a chapter titled ‘solids and hol- lows’ in his book 16 , has given many examples of this in the context of architectural design. The definition of this type is an exception; its dependency on ‘old’ physical actions is implicit. Of course, when an architect mentions the discovery of a space of this sort, he or she must be paying attention to the existence of surrounding elements. But, it is not clear which of the surrounding elements involve the perception of a space in between. This implicitness did not hamper the coding of this type of discovery, because, while reporting, our architect pointed to the area of an implicit space on the TV screen where his sketching activities were being replayed.</region>
+          <region class="unknown" id="68" page="7" column="1">15 Goel, V Sketches of thought MIT Press, Cambridge (1995)</region>
+          <outsider class="DoCO:TextBox" type="footer" id="71" page="7" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="72" page="7" column="1">545</outsider>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="73" page="8" column="1">Table 1. Three distinct types of unexpected discoveries</caption>
+            <content>
+              <table class="DoCO:Table" number="1" page="8">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Type</th>
+                    <th class="table"></th>
+                    <th class="table"> Definition</th>
+                    <th class="table"></th>
+                    <th class="table"> Description</th>
+                    <th class="table"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Behaviour</td>
+                    <td class="table.strange"> Dependent on</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Type</td>
+                    <td class="table.strange"> 1</td>
+                    <td class="table.strange"> ‘New’ attention to a shape, size</td>
+                    <td class="table.strange"> A single ‘old’ physical physical action</td>
+                    <td class="table.strange"> Discovery of</td>
+                    <td class="table.strange"> a visual feature of</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> or texture</td>
+                    <td class="table"></td>
+                    <td class="table"> an element</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type</td>
+                    <td class="table"> 2</td>
+                    <td class="table"> ‘New’ attention to a relation</td>
+                    <td class="table"> More than one ‘old’ physical</td>
+                    <td class="table"> Discovery of</td>
+                    <td class="table"> a spatial or</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> action</td>
+                    <td class="table"></td>
+                    <td class="table"> relation among</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> elements</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type</td>
+                    <td class="table"> 3</td>
+                    <td class="table"> ‘New’ attention to an empty</td>
+                    <td class="table"> Implicit</td>
+                    <td class="table"> Discovery of</td>
+                    <td class="table"> an implicit space</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> space among elements</td>
+                    <td class="table"></td>
+                    <td class="table"> that exists in</td>
+                    <td class="table"> between elements</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="74" confidence="possible" page="8" column="1">Type Definition Description Behaviour Dependent on Type 1 ‘New’ attention to a shape, size A single ‘old’ physical action Discovery of a visual feature of or texture an element Type 2 ‘New’ attention to a relation More than one ‘old’ physical Discovery of a spatial or action organizational relation among elements Type 3 ‘New’ attention to an empty Implicit Discovery of an implicit space space among elements that exists in between elements</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="77" confidence="possible" page="8" column="1">2. 2.</h2>
+          <region class="unknown" id="78" page="8" column="1">3 Goals as the invention of design issues or requirements 3.1 Distinction between functional actions and the set- up of goals</region>
+          <region class="unknown" id="79" page="8" column="1">16 Arnheim, R The dynamics of architectural form University of California Press, Berkeley (1977)</region>
+          <region class="DoCO:TextChunk" id="85" page="8" column="1">As a preparation for explaining how to code goals as S-invention, we will first describe the distinction between functional actions and conceptual actions in our coding scheme. Functional actions refer to actions of associ- <marker type="page" number="9"/><marker type="block"/> ating particular visuo-spatial features in sketches with meanings, functions or abstract concepts. For example, if an architect attended to a proximity between a plaza in front of the museum building and a street outside the property line, and thought of a view from and to each other, the thought about the ‘view’ is an instance of functional action; the architect attached a meaning, ‘view’, to the spatial relation, ‘proximity’.<marker type="block"/> Here, a question arises. Whenever an architect conceives of a new meaning, function or abstract concept associated with a particular visuo-spatial feature, should we code this action of conceiving as the S-invention of a design requirement? The answer is no. What we mean by ‘the S-invention of design issues or requirements’ has the following connotation; i.e. an issue should be abstracted out of specific situations in sketches and become general enough to be carried through the entire design process as one of the primary design requirements. We assume that this act appears as the set-up of goals in design processes. In the example of ‘view’ presented before, if the architect detaches the ‘view’ from the particular proximity between the two regions, and says ‘let’s always introduce a view from the street to the main feature of the museum’, then we code this as the instance of the S-invention of a design issue or requirement. The architect has set up a goal to introduce a function, i.e. ‘a view from the street to the main feature of the museum’, and may carry this design requirement through the subsequent process as one of his primary concerns.<marker type="block"/> The set-up of goals like the one appearing in this example is one category of conceptual actions in our coding scheme. The other categories of conceptual actions are (1) preferential or aesthetic evaluations and (2) retrieval of knowledge or past similar cases 11 . We will not go into the details of these categories, because they are not relevant to the purpose of this paper.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="81" page="8" column="1">546</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="82" page="8" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="86" confidence="possible" page="9" column="1">2.</h2>
+          <region class="unknown" id="87" page="9" column="1">3.2 Distinct types of goals and their examples</region>
+          <region class="DoCO:TextChunk" id="110" page="9" column="1">From intensive observation of the verbal protocol of our architect, we have classified the set-up of goals into distinct categories. <xref ref-type="table" rid="T2" id="88" class="deo:Reference">Table 2</xref> shows all the categories. First, there are four major categories; one is goals to introduce new functions at the current segment (Type 1 goals). The second is goals to resolve problematic conflicts that are detected in the current design (Type 2 goals). The third is goals to apply previously-introduced functions or arrangements in the current context (Type 3 goals). The fourth is repeated goals from a previous segment (Type 4 goals).<marker type="block"/> The first category is, in turn, divided into several subclasses. The first is goals to create functions that are listed in the initial requirements given to the architect at the beginning of the design session (Type 1.1). For example,<marker type="page" number="10"/><marker type="block"/> in the design task which Suwa and Tversky 10 gave to architects, they were asked to arrange not only museum building(s) but also green area(s) with pond(s), sculpture gardens, and a parking lot. So, whenever there is an instance that the architect intentionally introduced one of these functions at a new spot in his or her sketch in a way which had never been done before, we code it as Type 1.1 goal.<marker type="block"/> The second is goals triggered by retrieval of knowledge or past similar cases (Type 1.2). For example, if an architect mentions a piece of knowledge that a museum typically has restrooms near its entrance hall, and sets up a goal to create a ‘restroom’ function, this is an instance of Type 1.2 goal.<marker type="block"/> The third is goals derived from a previous goal in an extended way (Type 1.3). One form of extension is to extend an issue dealt with in a previous goal into a more concrete specification. For example, at a fairly early phase of his design process, our architect set up a goal that, in order to guide people from the parking lot to the main building of the museum, he should somehow control the flow of people after they park their car. Based on this goal, after a while, he set up another goal that he should arrange series of amusing objects, such as sculptures, water streams, or whatever, along the procession space from the parking lot to the building. The second goal is an extension of the first one; he specified in a concrete way how to ‘control the flow of people’.<marker type="block"/> Another form of extension is in an opposite direction, i.e. to generalize the issue dealt with in a previous goal and bring it into a broader context. For example, after he had tentatively determined the position of an entryway from the outside street to the site of the museum, our architect set up a goal to decide the shape of the entryway. Then, suddenly, he began to<marker type="page" number="11"/><marker type="block"/> question, from the concern of traffic interruption, whether or not it is really possible for visitors to enter the site from that spot, and set up another goal to consider the position of the entryway in the context of outside traffic. The concern of the second goal is broader than the first one, although still dealing with the issue of designing the entryway. This corresponds to what Lawson 1 called ‘defining problems by escalation’.<marker type="block"/> The fourth is goals to create new functions in a way that is not supported by explicit knowledge, previous cases or experiences, initially given requirements, or previous goals (Type 1.4). We code goals to introduce new functions into this category, when we cannot find in the verbal protocol any supporting evidence of how the architect conceived of the functions. For example, our architect set up a goal that when visitors walk from the parking lot to the main building of the museum, they should be soaked in bright sunlight. It was for the first time in his design process that he talked about the relationship between the pathway and sunlight. Neither explicit knowledge nor past experiences were reported. Goals in this category must have derived from some justified reasons. In the above example, the architect sought justification in a reason such as ‘people don’t want to walk in a dark place’. We posit that reasons of this sort are fundamentally different in nature from explicitly articulated knowledge; these are not retrieved from an organized set of domain knowledge or past cases in memory, but rather constructed on the fly in a situated way. For this reason, we distinguish goals in this category from Type 1.2 goals.<marker type="block"/> An example of Type 2 goals is as follows. Our architect once decided to bring a water stream from the open plaza in front of the museum building into the entrance hall, as a means to guide visitors into the building in a cheerful way. Then, after a while, he noticed that water in the building may cause problems because humidity affects the artworks. But, because he thought that the idea of bringing water inside is still promising to produce a lively atmosphere, he set up a goal to search for a method to let artworks and water co-exist. In most cases, judgement of this sort that some aspects in the current design are problematic is mediated by domain knowledge. But, goals in this category are distinct from Type 1.2 goals; Type 1.2 goals are set up to introduce new functions as the corresponding knowledge or past cases prescribe, while knowledge just mediates the judgement done before the set-up of Type 2 goals.<marker type="block"/> An example of Type 3 goals is as follows. In the middle of his design process, our architect discovered that there is nothing physical on a line extending from an entryway into the site to the sculpture garden in the relatively far end of the site, and that an interesting view to the cheerful<marker type="page" number="12"/><marker type="block"/> sculptures could be the first experience for visitors when they drive through the entryway. The thought on this particular ‘view’ per se is a functional action in our coding scheme, because it is bound by the particular spatial relation between the entryway and the sculpture garden, and thus still not abstracted out as a goal. Then, while he was sketching in a later sheet of paper, he remembered this, abstracted it into a general issue such as ‘create an interesting view from entryway to a sculpture garden’, and applied it to the situation at that moment.<marker type="block"/> 2. 3 Goals as the S-invention of design issues or requirements Which types of goals should be interpreted as instances of the S-invention of design issues or requirements? Obviously, Type 1.1 goals should not be included, because the functions introduced by them are given in the list of initial requirements, not invented during the process. Because we are interested in the exact moment when inventive design issues or requirements emerge, we do not code Type 4 goals as instances of S-invention, even though it was an instance of invention when it was originally set up.<marker type="block"/> We assume that Type 3 goals should be omitted, too. Although it is for the first time during the design process that an architect sets up a goal to deal with the issue or requirement, the seed for this goal existed at a previous segment in the form of a particular function associated with particular visuo-spatial features. Therefore, we cannot say in a true sense that the general issue or requirement has been invented exactly at this moment. For the same reason we reject Type 4 goals, Type 3 goals should not be included.<marker type="block"/> The remaining goals, Type 1.2, Type 1.3, Type 1.4, Type 2, all satisfy the requirement for S-invention; the issue or requirement emerged at that moment for the first time, although the ways it emerge vary from time to time. Thus, we regard goals belonging to these four categories as instances of the S-invention of design issues or requirements.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="91" page="9" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="92" page="9" column="1">547</outsider>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="93" page="10" column="1">Table 2. Types of goals to invent new functions and issues</caption>
+          </region>
+          <region class="unknown" id="94" page="10" column="1">Type 1: goals to introduce new functions Type 1.1: based on the given list of initial requirements Type 1.2: directed by the use of explicit knowledge or past cases Type 1.3: extended from a previous goal (subtypes: concretizing and broadening) Type 1.4: in a way that is not supported by knowledge, given requirements, or a previous goal Type 2: goals to resolve problematic conflicts Type 3: goals to apply previously introduced functions or arrangements in the current context Type 4: repeated goals from a previous segment</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="99" page="10" column="1">548</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="100" page="10" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="105" page="11" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="106" page="11" column="1">549</outsider>
+        </section>
+      </section>
+      <section class="deo:Results">
+        <h1 class="DoCO:SectionTitle" id="111" page="12" column="1">Results</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="112" confidence="possible" page="12" column="1">3 3.</h2>
+          <region class="unknown" id="113" page="12" column="1">1 Coding of unexpected discoveries and goals</region>
+          <region class="DoCO:TextChunk" id="152" page="12" column="1">The entire protocol of our architect contained 340 segments. For each segment, we identified and coded instances of unexpected discoveries and goals. The entire protocol contained 608 perceptual actions, out of which 173 were unexpected discoveries. The fact that a significant portion of the perceptual actions, 28.5%, belonged to unexpected discoveries clearly shows its importance in the design process of our architect. Out of the 173 <marker type="page" number="13"/><marker type="block"/> instances of unexpected discoveries, 38 belonged to the discovery of visual features of elements, 106 to the discovery of spatial or organizational relations among elements, and 29 to the discovery of implicit spaces.<marker type="block"/> The entire protocol contained 240 instances of the set-up of goals. <xref ref-type="table" rid="T3" id="118" class="deo:Reference">Table 3</xref> shows the number of occurrences of each type of goal. The most frequent goals were Type 1 goals, the ones to introduce new functions. 60% of the total belonged to this type. This is not surprising because the task of a designer is to introduce and arrange many new functions so that they make a coherent harmony under given requirements. The second most frequent goal was Type 3, the one to apply previously-introduced functions and arrangements in the current context. The design of our architect developed as he went through many sheets of sketches. He produced 13 pages of sketches. This suggests that one important aspect of his design was to remember functions and/or arrangements which he had adopted previously, abstract them out of the particular contexts of previous segments and apply them in the current context.<marker type="block"/> We had 128 instances of goals as S-invention, i.e. the sum total of Type 1.2, Type 1.3, Type 1.4, and Type 2. This corresponds to 53.3% of the total occurrences of goals. The fact that about a half of the goals relate to the act of inventing design issues or requirements suggests its importance in the design process of this architect. Further, goals related to S-invention were much more frequent than Type 1.1 goals (to introduce new functions based on the given list of requirements), 128 vs 32. This clearly shows<marker type="page" number="14"/><marker type="block"/> one characteristic of conceptual design processes using freehand sketches. Designers must satisfy a given list of requirements in their designs. But, more than that, they should be able to invent design issues or requirements through interaction with sketches, sometimes by using explicitly articulatable knowledge, and sometimes by constructing justifiable reasons on the fly.<marker type="block"/> 3. 2 Correlation between unexpected discoveries and goals as inventions Is it throughout the entire design process that unexpected discoveries become the driving-force for the S-invention of design issues or requirements? It may be so, or the relation may be observed only during certain periods. If the latter case, how should we identify the periods of significant relationship between both? We conjectured as follows. If there is any significant relationship in certain periods, then the frequencies of the occurrences of both might increase or decrease in a similar way in those periods. Thus, we have examined whether or not the frequencies of the occurrences of both changed over time in a similar way with each other. Thereafter, for simplicity, we will denote unexpected discoveries as UXD, and goals as S-invention as G inv .<marker type="block"/> For this examination, using the segment-by-segment changes of frequencies of UXD and G inv would not be a good idea, because our concern is to roughly examine the tendencies in which the frequencies of both change over time. For each page of the sketch that the architect produced, we chunked every five segments from the beginning, and thereby calculated the sum total of the occurrences of UXD and G inv in each 5-segment block. Since the number of segments in each page is not necessarily a multiple of five, the last block in each page could be made of 1, 2, 3, 4 or 5 segments. If the number of segments in the last block is too small, the situation would be close to an examination of segment-by-segment changes, and thus not desirable. Therefore, we did the following modifi- cation. If the last block of each page turned out to consist of 1 or 2 segments, we merged these segments into its immediately previous block, so that the resulting last block became to consist of 6 or 7 segments. If the last block of each page turned out to consist of 3, 4 or 5 segments, we adopted it as the last block as it was. So, although most blocks throughout the entire protocol consist of 5 segments, only the last block of each page consist of 3, 4, 5, 6 or 7 segments. Why should we stick to this modifi- cation, instead of just simply dividing the entire protocol into 5-segment blocks? It is because we assume that behaviours of a designer in the last portion of each page and those in the beginning part of the next page are different in nature, and thus should not be merged into each other.<marker type="page" number="15"/><marker type="block"/> In Section 2.3.3, we defined G inv as goals belonging to Type 1.2, Type 1.3, Type 1.4, or Type 2. Although all relate to the S-invention of design issues or requirements, however, we assume that Type 1.2 goals and the remaining three types of goals are slightly different in nature. Type 1.2 goals are set up according to the prescription of what a piece of explicitly articulated knowledge or past cases dictates, while the other types are not. Therefore we determined to investigate the following two correlations. One is correlations between UXD and goals belonging to any of the four types (we will denote this as G inv1 ). The other is correlations between UXD and goals belonging to either Type 1.3, Type 1.4, or Type 2 (we will denote this as G inv2 ).<marker type="block"/> Figures 1 and 2, respectively, show the block-to-block changes of the frequencies of occurrences of UXD and G inv1 , and of UXD and G inv2 , throughout the entire protocol of our architect. The horizontal axis is the block number. We had 68 blocks for the entire 340 segments. The vertical axis is the frequency normalized as follows. The sum total of occurrences in each block is divided by the number of segments in the block, to get the frequency per segment in the block, F. Then, we calculate the average, F avg , and standard deviation, F std , of F over the entire 68 blocks. As the vertical value, we use (F F avg )/F std . We did this because, in examining<marker type="page" number="16"/><marker type="block"/> correlations between UXD and G inv1 or G inv2 , it might be better to compare by removing the magnitudes of frequency that are specific to both.<marker type="block"/> Based on the data on the normalized frequencies of UXD and G inv1 (or G inv2 ) in each block, we examined whether or not there are any portions of the entire design process in which the frequencies of both changed in correlation with each other. We carried out statistical analyses in the following manner. First, for each block, we calculated the difference of the normalized frequency from its immediate previous block. Then, we identified a period of consecutive blocks, under the constraint that the length of the period should be at least three blocks, in which the sequence of block-to-block differences of UXD correlate with that of G inv1 (or G inv2 ), i.e. UXD and G inv1 (or G inv2 ) increased or decreased in a similar manner. We did this analysis by conducting χ 2 test on the pair of sequences of differences of UXD and G inv1 (or G inv2 ). We picked up only periods of consecutive blocks for which correlation is statistically valid with a certainty of more than 90%. The reason why we picked up a period of blocks whose length is at least three is that, by doing so, we can eliminate the cases in which UXD and G inv1 (or G inv2 ) happened to increase or decrease to a similar extent for a single transition from one block to the next block. More than one period of consecutive blocks that satisfy these conditions are expected to be identified in the entire design process, and each period of blocks is regarded as a period of correlation between UXD and G inv1 (or G inv2 ).<marker type="block"/>  <xref ref-type="fig" rid="F3" id="140" class="deo:Reference">Figure 3</xref> shows, for the pairs of UXD and G inv1 and of UXD and G inv2 , the periods of correlation. The horizontal axis is the block number, representing the time frame of our architect’s process. The horizontal bars represent periods of correlation. The number written near each bar is the identification number of the period, corresponding to each period number in <xref ref-type="table" rid="T4" id="141" class="deo:Reference">Table 4</xref>. <xref ref-type="table" rid="T4" id="142" class="deo:Reference">Table 4</xref> shows the statistical data for each period of correlation: the duration of the correlation in terms of the number of consecutive blocks, χ 2 value, and a certainty.<marker type="block"/> UXD and G inv1 correlated with each other in 26 blocks in total, which corresponds to 127 segments. This covers 37% of the entire process. The<marker type="page" number="17"/><marker type="block"/> periods of correlation existed from the middle of the entire process to the end. On the other hand, UXD and G inv2 correlated with each other in 36 blocks in total, which corresponds to 177 segments. This covers 52% of the entire process. The periods of correlation cover almost those periods for the former pair, and additionally some other periods in which the former pair does not correlate.<marker type="block"/> We have obtained the following insights. First, although correlations between UXD and G inv1 (or G inv2 ) do not necessarily occur in the entire process, correlations between UXD and G inv are actually a major phenomenon; they cover a significantly large part of the entire design process. This suggests the possibility of a significant relationship between unexpected discoveries and the goals as S-invention in large parts of the design process. Second, the periods of correlation between UXD and G inv2 almost cover, and are significantly longer than, the periods of correlation between UXD and G inv1 . This suggests that unexpected discoveries may have a stronger relation to Type 1.3, Type 1.4, or Type 2 goals than to Type 1.2 goals.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="115" page="12" column="1">550</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="116" page="12" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="121" page="13" column="1">Table 3. The numbers of occurrences of distinct types of goals</caption>
+            <content>
+              <table class="DoCO:Table" number="3" page="13">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Types</th>
+                    <th class="table"> Number of goals</th>
+                    <th class="table"> identified</th>
+                    <th class="table"> Percentage to the</th>
+                    <th class="table"> total (%)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Type 1 total</td>
+                    <td class="table"> 144</td>
+                    <td class="table"></td>
+                    <td class="table"> 60.0</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 1.1</td>
+                    <td class="table"></td>
+                    <td class="table"> 321</td>
+                    <td class="table"></td>
+                    <td class="table"> 3.3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 1.2</td>
+                    <td class="table"></td>
+                    <td class="table"> 40</td>
+                    <td class="table"></td>
+                    <td class="table"> 16.7</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 1.3</td>
+                    <td class="table"></td>
+                    <td class="table"> 43</td>
+                    <td class="table"></td>
+                    <td class="table"> 17.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 1.4</td>
+                    <td class="table"></td>
+                    <td class="table"> 29</td>
+                    <td class="table"></td>
+                    <td class="table"> 12.1</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 2</td>
+                    <td class="table"> 16</td>
+                    <td class="table"></td>
+                    <td class="table"> 6.7</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 3</td>
+                    <td class="table"> 54</td>
+                    <td class="table"></td>
+                    <td class="table"> 22.5</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Type 4</td>
+                    <td class="table"> 26</td>
+                    <td class="table"></td>
+                    <td class="table"> 10.8</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Goals for S-</td>
+                    <td class="table"> 128</td>
+                    <td class="table"></td>
+                    <td class="table"> 53.3</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> invention + (Type</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> 1.2 + Type 1.3</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Type 1.4 +</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Type 2)</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr class="table">
+                    <th class="table"> Total</th>
+                    <th class="table"> 240</th>
+                    <th class="table"></th>
+                    <th class="table"></th>
+                    <th class="table"></th>
+                  </tr>
+                </tfoot>
+              </table>
+            </content>
+            <region class="TableInfo" id="122" confidence="possible" page="13" column="1">Types Number of goals identified Percentage to the total (%) Type 1 total 144 60.0 Type 1.1 321 3.3 Type 1.2 40 16.7 Type 1.3 43 17.9 Type 1.4 29 12.1 Type 2 16 6.7 Type 3 54 22.5 Type 4 26 10.8 Goals for S- 128 53.3 invention (Type 1.2 + Type 1.3 + Type 1.4 + Type 2) Total 240</region>
+          </region>
+          <outsider class="DoCO:TextBox" type="footer" id="123" page="13" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="124" page="13" column="1">551</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="128" page="14" column="1">552</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="129" page="14" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="unknown" id="133" page="15" column="1"> <xref ref-type="fig" rid="F1" id="132" class="deo:Reference">Figure 1</xref> Block-to-block changes of frequencies of both UXD and G inv1</region>
+          <region class="unknown" id="135" page="15" column="1"> <xref ref-type="fig" rid="F2" id="134" class="deo:Reference">Figure 2</xref> Block-to-block changes of frequencies of both UXD and G inv2</region>
+          <outsider class="DoCO:TextBox" type="footer" id="136" page="15" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="137" page="15" column="1">553</outsider>
+          <region class="unknown" id="146" page="16" column="1"> <xref ref-type="fig" rid="F3" id="145" class="deo:Reference">Figure 3</xref> The periods of correlation between UXD and G inv1 , and between UXD and G inv2</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="147" page="16" column="1">554</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="148" page="16" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="DoCO:TableBox" id="T4">
+            <caption class="deo:Caption" id="149" page="17" column="1">Table 4. The statistical data of periods of correlation</caption>
+            <content>
+              <table class="DoCO:Table" number="4" page="17">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Period number</th>
+                    <th class="table"> Duration of</th>
+                    <th class="table"> χ 2 value</th>
+                    <th class="table"> Certainty</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> correlation</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 1</td>
+                    <td class="table"> 10</td>
+                    <td class="table"> 3.07</td>
+                    <td class="table"> P &gt; 0.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 2</td>
+                    <td class="table"> 7</td>
+                    <td class="table"> 1.85</td>
+                    <td class="table"> P &gt; 0.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 3</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 0.58</td>
+                    <td class="table"> P &gt; 0.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 4</td>
+                    <td class="table"> 5</td>
+                    <td class="table"> 0.09</td>
+                    <td class="table"> P &gt; 0.995</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 5</td>
+                    <td class="table"> 8</td>
+                    <td class="table"> 1.56</td>
+                    <td class="table"> P &gt; 0.975</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 6</td>
+                    <td class="table"> 7</td>
+                    <td class="table"> 1.89</td>
+                    <td class="table"> P &gt; 0.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 7</td>
+                    <td class="table"> 15</td>
+                    <td class="table"> 5.54</td>
+                    <td class="table"> P &gt; 0.975</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 8</td>
+                    <td class="table"> 3</td>
+                    <td class="table"> 0.001</td>
+                    <td class="table"> P &gt; 0.995</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 9</td>
+                    <td class="table"> 3</td>
+                    <td class="table"> 0.027</td>
+                    <td class="table"> P &gt; 0.975</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="150" confidence="possible" page="17" column="1">Period number Duration of χ 2 value Certainty correlation 1 10 3.07 P &gt; 0.9 2 7 1.85 P &gt; 0.9 3 4 0.58 P &gt; 0.9 4 5 0.09 P &gt; 0.995 5 8 1.56 P &gt; 0.975 6 7 1.89 P &gt; 0.9 7 15 5.54 P &gt; 0.975 8 3 0.001 P &gt; 0.995 9 3 0.027 P &gt; 0.975</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="153" confidence="possible" page="17" column="1">3.</h2>
+          <region class="unknown" id="154" page="17" column="1">3 Do unexpected discoveries become the driving-force for goals as inventions?</region>
+          <region class="DoCO:TextChunk" id="159" page="17" column="1">The analysis in the preceding section was on the basis of blocks; we identified the periods of correlation between the occurrences of unexpected discoveries and those of goals as S-invention, expecting that correlations between both might imply causal relations between both. As the next pur- suit, we examined, more precisely using the granularity of segments, whether UXD becomes the driving-force for G inv1 , and whether UXD becomes the driving-force for G inv2 . We did this, for each pair, only for the periods of blocks in which there was a correlation between the pair, because no meaningful relations between the two are expected for the per- <marker type="page" number="18"/><marker type="block"/> iods in which there was no correlation. Hence, 127 segments for the pair of UXD and G inv1 , and 177 segments for the pair of UXD and G inv2 , were the targets of this examination.<marker type="block"/> How did we examine this? We will explain it, taking as an example the examination of whether UXD becomes the driving-force for G inv1 . We classify the entire target segments, i.e. 127 segments, into the following four classes in terms of the occurrences of UXD;</region>
+          <outsider class="DoCO:TextBox" type="footer" id="156" page="17" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="157" page="17" column="1">555</outsider>
+          <region class="DoCO:TextChunk" id="160" confidence="possible" page="18" column="1">(1) class 1: segment which has no UXD but whose immediately previous segment had at least one UXD (we call this ‘next of but not together with UXD’), (2) class 2: segment whose immediately previous segment had no UXD but which has at least one UXD (‘together with but not next of UXD’), (3) class 3: segment which has at least one UXD and whose immediately previous segment also has at least one UXD (‘next of and together with UXD’), (4) class 4: the remaining segments.</region>
+          <region class="DoCO:TextChunk" id="178" page="18" column="1">If UXD does not necessarily become the driving-force for the occurrences of G inv1 , then the occurrences of G inv1 should be distributed to each of the four classes of segments in proportion to the ratio of the number of each class to the total. On the contrary, if UXD becomes the driving-force for G inv1 , more instances of G inv1 should be distributed unequally to particular classes of segments. <marker type="block"/>  <xref ref-type="table" rid="T5" id="162" class="deo:Reference">Table 5</xref> shows the number of segments belonging to each class and the occurrences of G inv1 at each class of segments. The difference from the expected occurrences at each class of segments, which is calculated from the ratio of the number of segments belonging to each class to the total number of segments, is also shown. According to the statistics, instances of G inv1 occurred more frequently at class 1 segments than an expected level. However, the distribution of instances of G inv1 over the four classes of segments is not unequal in a statistically significant manner, χ 2 (3) = 1.80 (P &gt; 0.5).<marker type="block"/> Then, we combined segments belonging to class 1 and class 3 into a single class, and segments belonging to class 2 and class 4 into another. The former is the class of segments whose immediately previous segment has at least one UXD, while the latter is the class of segments whose immediately previous segments does not have a UXD. The distribution of instances of G inv1 over the two new classes, however, is not unequal statistically, χ 2 (1)<marker type="page" number="19"/><marker type="block"/> = 1.19 (P &gt; 0.25); there is no such tendency that, when a UXD occurred at a segment, G inv1 is more likely to occur at the next segment. In any of the several ways of combination, we did not find an unequal distribution of G inv1 . These results suggest that UXD does not necessarily become the driving-force of G inv1 .<marker type="block"/>  <xref ref-type="table" rid="T6" id="170" class="deo:Reference">Table 6</xref> shows the statistics about the relationship from the occurrences of UXD to those of G inv2 . Instances of G inv2 occurred more frequently at class<marker type="page" number="20"/><marker type="block"/> 1 segments than an expected level, and slightly more at class 3 segments. The distribution of instances of G inv2 over the four classes of segments, however, is not unequal in a statistically significant manner, χ 2 (3) = 3.60 (P &gt; 0.25).<marker type="block"/> However, when we compare segments belonging to class 1 and class 3 with those belonging to class 2 and class 4, a different pattern appeared. <xref ref-type="table" rid="T7" id="177" class="deo:Reference">Table 7</xref> shows that instances of G inv2 were, in a statistically significant manner, more likely to occur in segments belonging to class 1 or class 3 that in those belonging to class 2 or class 4, although the tendency is not extremely strong, χ 2 (1) = 3.30 (P = 0.08). In other words, there is a relation that, when an unexpected discovery has occurred at a segment, an instance(s) of G inv2 is likely to occur at the next segment. Remember that this is the result of examination of the target 177 segments, 52% of the entire process. This indicates that, for this architect, unexpected discoveries became one of the driving forces for the occurrences of G inv2 .</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="165" page="18" column="1">556</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="166" page="18" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="DoCO:TableBox" id="T5">
+            <caption class="deo:Caption" id="167" page="19" column="1">Table 5. The occurrences of G inv1 in the four classes of segments categorized in relation to the occur-</caption>
+            <content>
+              <table class="DoCO:Table" number="5" page="19">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> rences of UXD, during periods of correlation</th>
+                    <th class="table"> between G inv1</th>
+                    <th class="table"> and</th>
+                    <th class="table"> UXD</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Classes of segments No.</td>
+                    <td class="table"> of segments</td>
+                    <td class="table"></td>
+                    <td class="table"> G inv1</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> No.</td>
+                    <td class="table"> of occurrences Difference from the expected value</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 1: next of but not together with</td>
+                    <td class="table"> 29</td>
+                    <td class="table"></td>
+                    <td class="table"> 12 + 3.4</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> UXD</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 2: together with but not next of</td>
+                    <td class="table"> 28</td>
+                    <td class="table"></td>
+                    <td class="table"> 8 0.4</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> UXD</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 3: next of and together with UXD</td>
+                    <td class="table"> 17</td>
+                    <td class="table"></td>
+                    <td class="table"> 5 0.1</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 4: other</td>
+                    <td class="table"> 53</td>
+                    <td class="table"></td>
+                    <td class="table"> 13 2.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Total</td>
+                    <td class="table"> 127</td>
+                    <td class="table"></td>
+                    <td class="table"> 38</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Statistical test of distribution</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> No (χ 2 (3) = 1.80, P &gt; 0.5)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="168" confidence="possible" page="19" column="1">rences of UXD, during periods of correlation between G inv1 and UXD Classes of segments No. of segments G inv1 No. of occurrences Difference from the expected value Class 1: next of but not together with 29 12 + 3.4 UXD Class 2: together with but not next of 28 8 0.4 UXD Class 3: next of and together with UXD 17 5 0.1 Class 4: other 53 13 2.9 Total 127 38 Statistical test of distribution No (χ 2 (3) = 1.80, P &gt; 0.5)</region>
+          </region>
+          <region class="DoCO:TableBox" id="T6">
+            <caption class="deo:Caption" id="172" page="19" column="1">Table 6. The occurrences of G inv2 in the four classes of segments categorized in relation to the occur-</caption>
+            <content>
+              <table class="DoCO:Table" number="6" page="19">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> rences of UXD, during periods of correlation</th>
+                    <th class="table"> between G inv2</th>
+                    <th class="table"> and</th>
+                    <th class="table"> UXD</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Classes of segments No.</td>
+                    <td class="table"> of segments</td>
+                    <td class="table"></td>
+                    <td class="table"> G inv2</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> No.</td>
+                    <td class="table"> of occurrences Difference from the expected value</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 1: next of but not together with</td>
+                    <td class="table"> 38</td>
+                    <td class="table"></td>
+                    <td class="table"> 13 + 4.6</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> UXD</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 2: together with but not next of</td>
+                    <td class="table"> 38</td>
+                    <td class="table"></td>
+                    <td class="table"> 7 1.6</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> UXD</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 3: next of and together with UXD</td>
+                    <td class="table"> 22</td>
+                    <td class="table"></td>
+                    <td class="table"> 6 + 1.0</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 4: other</td>
+                    <td class="table"> 79</td>
+                    <td class="table"></td>
+                    <td class="table"> 14 3.9</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Total</td>
+                    <td class="table"> 177</td>
+                    <td class="table"></td>
+                    <td class="table"> 40</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Statistical test of distribution</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> No (χ 2 (3) = 3.60, P &gt; 0.25)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="173" confidence="possible" page="19" column="1">rences of UXD, during periods of correlation between G inv2 and UXD Classes of segments No. of segments G inv2 No. of occurrences Difference from the expected value Class 1: next of but not together with 38 13 + 4.6 UXD Class 2: together with but not next of 38 7 1.6 UXD Class 3: next of and together with UXD 22 6 + 1.0 Class 4: other 79 14 3.9 Total 177 40 Statistical test of distribution No (χ 2 (3) = 3.60, P &gt; 0.25)</region>
+          </region>
+          <outsider class="DoCO:TextBox" type="footer" id="174" page="19" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="175" page="19" column="1">557</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="179" confidence="possible" page="20" column="1">3.</h2>
+          <region class="unknown" id="180" page="20" column="1">4 Do goals as inventions become the driving-force for unexpected discoveries?</region>
+          <region class="DoCO:TextChunk" id="197" page="20" column="1">Further, we have examined whether or not the occurrences of goals as inventions become the driving-force for those of unexpected discoveries? We investigated in a way similar to the examinations in the preceding section, for the pair of G inv1 and UXD, and for the pair of G inv2 and UXD. Tables 8 and 9 show the statistics for each pair, respectively. The target segments, i.e. 127 segments for the former pair and 177 for the latter, were classified into the four classes in terms of occurrences of G inv1 (or G inv2 ). <xref ref-type="table" rid="T8" id="181" class="deo:Reference">Table 8</xref> shows that UXDs occurred more frequently at class 1 segments, such segments whose immediately previous segment had at least one G inv1 but which do not have, than an expected level. Statistically, however, the<marker type="page" number="21"/><marker type="block"/> distribution of instances of UXDs over the four classes of segments is not unequal, χ 2 (3) = 3.76 (P &gt; 0.25). Further, no matter how we combined classes of segments, we did not find in a statistically significant way an unequal distribution of UXDs. These results suggest that G inv1 does not necessarily become the driving-force for UXD.<marker type="block"/> On the other hand, we found a meaningful relation from the occurrences of G inv2 to those of UXD. <xref ref-type="table" rid="T9" id="192" class="deo:Reference">Table 9</xref> shows that UXDs occurred more fre-<marker type="page" number="22"/><marker type="block"/> quently at class 1 segments and less at class 4 segments. The distribution of UXDs over the four classes of segments were unequal in a statistically significant way, χ 2 (3) = 8.31 (P 0.05). This effect appeared more salient, when we compare the combined classes of class 1, 2 and 3 with class 4. <xref ref-type="table" rid="T10" id="196" class="deo:Reference">Table 10</xref> shows a statistically strong relation that UXDs were likely to occur more frequently at a segment which has at least one G inv2, or at its immediately next segment, than at the other segments, χ 2 (1) = 6.59 (P = 0.01). In other words, the occurrences of G inv2 became a strong impetus for those of UXD.</region>
+          <region class="DoCO:TableBox" id="T7">
+            <caption class="deo:Caption" id="183" page="20" column="1">Table 7. The occurrences of G inv2 in the combined classes of segments categorized in relation to the</caption>
+            <content>
+              <h1 class="table"> occurrences of UXD, during periods of correlation between G inv2 and UXD</h1>
+              <table class="DoCO:Table" number="7" page="20">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Classes of</th>
+                    <th class="table"> segments No.</th>
+                    <th class="table"> of segments</th>
+                    <th class="table"> G inv2</th>
+                  </tr>
+                  <tr class="table">
+                    <th class="table"></th>
+                    <th class="table"></th>
+                    <th class="table"> No. of</th>
+                    <th class="table"> occurrences Difference from the expected value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Class 1 + +</td>
+                    <td class="table"> class 3: next of UXD</td>
+                    <td class="table"> 60</td>
+                    <td class="table"> 19 + 5.4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 2</td>
+                    <td class="table"> class 4: other</td>
+                    <td class="table"> 117</td>
+                    <td class="table"> 21 5.4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Total</td>
+                    <td class="table"></td>
+                    <td class="table"> 177</td>
+                    <td class="table"> 40</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Statistical</td>
+                    <td class="table"> test of distribution</td>
+                    <td class="table"></td>
+                    <td class="table"> Yes (χ 2 (1) = = 3.30, P 0.08)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="184" confidence="possible" page="20" column="1">occurrences of UXD, during periods of correlation between G inv2 and UXD Classes of segments No. of segments G inv2 No. of occurrences Difference from the expected value Class 1 + class 3: next of UXD 60 19 + 5.4 Class 2 + class 4: other 117 21 5.4 Total 177 40 Statistical test of distribution Yes (χ 2 (1) = 3.30, P = 0.08)</region>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="185" page="20" column="1">558</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="186" page="20" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="DoCO:TableBox" id="T8">
+            <caption class="deo:Caption" id="187" page="21" column="1">Table 8. The occurrences of UXD in the four classes of segments categorized in relation to the occurrences of G inv1 , during periods of correlation between G inv1 and UXD</caption>
+            <content>
+              <table class="DoCO:Table" number="9" page="21">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Classes of segments No.</th>
+                    <th class="table"> of segments</th>
+                    <th class="table"></th>
+                    <th class="table"> UXD</th>
+                    <th class="table"></th>
+                    <th class="table"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> No.</td>
+                    <td class="table.strange"> of occurrences</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Difference Difference</td>
+                    <td class="table.strange"> from</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> expected</td>
+                    <td class="table.strange"> value</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 1: next of but not together with</td>
+                    <td class="table"> 26</td>
+                    <td class="table"> 17</td>
+                    <td class="table"></td>
+                    <td class="table"> +</td>
+                    <td class="table"> 5.7</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> G inv1</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 2: together with but not next of</td>
+                    <td class="table"> 26</td>
+                    <td class="table"> 9</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> 2.3</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> G inv1</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 3: next of and together with G inv1</td>
+                    <td class="table"> 8</td>
+                    <td class="table"> 3</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> 0.4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Class 4: other</td>
+                    <td class="table"> 67</td>
+                    <td class="table"> 26</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> 3.0</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Total</td>
+                    <td class="table"> 127</td>
+                    <td class="table"> 55</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Statistical test of distribution</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> No</td>
+                    <td class="table"> (χ 2 (3)</td>
+                    <td class="table"> = 3.76,</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> P &gt;</td>
+                    <td class="table"> 0.25)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="188" confidence="possible" page="21" column="1">Classes of segments No. of segments UXD No. of occurrences Difference from the expected value Class 1: next of but not together with 26 17 + 5.7 G inv1 Class 2: together with but not next of 26 9 2.3 G inv1 Class 3: next of and together with G inv1 8 3 0.4 Class 4: other 67 26 3.0 Total 127 55 Statistical test of distribution No (χ 2 (3) = 3.76, P &gt; 0.25)</region>
+          </region>
+          <region class="DoCO:TableBox" id="T9">
+            <caption class="deo:Caption" id="189" page="21" column="1">Table 9. The occurrences of UXD in the four classes of segments categorized in relation to the occurrences of G inv2 , during periods of correlation between G inv2 and UXD</caption>
+          </region>
+          <region class="unknown" id="190" page="21" column="1">Classes of segments No. of segments UXD No. of occurrences Difference from the expected value Class 1: next of but not together with 31 22 + 8.5 G inv2 Class 2: together with but not next of 30 15 + 1.9 G inv2 Class 3: next of and together with G inv2 8 4 + 0.5 Class 4: other 108 36 11.0 Total 177 77 Statistical test of distribution Yes (χ 2 (3) = 8.31, P 0.05)</region>
+          <outsider class="DoCO:TextBox" type="footer" id="194" page="21" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="195" page="21" column="1">559</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="198" confidence="possible" page="22" column="1">4</h2>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="199" page="22" column="1">Interpretation</h1>
+        <region class="DoCO:TextChunk" id="213" page="22" column="1">How do we interpret these results? In about a half of the entire design process of our architect, i.e. 52%, we found meaningful relations between the occurrences of unexpected discoveries and goals as S-invention except knowledge-derived ones. The relationship was twofold: First, when at least one unexpected discovery has occurred at a segment, an instance of those goals is likely to occur at the next segment, although this tendency was not extremely strong. Secondly, when at least one instance of those goals has occurred at a segment, an unexpected discovery is likely to occur at the same or the next segment. <marker type="block"/> We interpret the first relation as follows; unexpected discoveries of visuo- spatial features provided this architect with clues for the invention of design issues or requirements. This provides empirical evidence for Goldschmidt’s conjecture which was discussed in the Introduction. We interpret the second relation as follows; when this architect invented design issues or requirements, the inventive ideas allowed him to re-inspect his<marker type="page" number="23"/><marker type="block"/> own sketches from new points of views, and thus enabled him to make new unexpected discoveries.<marker type="block"/> The interpretation of the second relation is corroborated by Howard- Jones’s 17 recent finding. He did an experiment in which subjects looked at a geometrical shape and generated as many interpretations of the shape as possible. Each subject, once he or she generated an interpretation, was supposed to throw it away to generate another interpretation. In order to do that, the subject should be able to defocus from visuo-spatial features which were salient to his or her perception, and thereby to look at the same shape from a different viewpoint. This act exactly corresponds to what we call UXDs. Howard-Jones divided subjects into two groups. In the experimental group, every time he or she generated an interpretation, the subject was presented with a nonsense sentence, and was told to select one word from the sentence and to generate a new interpretation of the shape in a way associated with the concept of the word. In the control group, the subject tried to generate a new interpretation without a presen- tation of a word. The finding was that the existence of the word contributed significantly to the increase in the production rate of new interpretations. We interpret that this happened because the existence of the word encouraged subjects to re-inspect the same shape from a new point of view, and thus enabled them to discover new visuo-spatial features that give clues for a new interpretation.<marker type="block"/> As opposed to our initial assumption that the S-invention of design issues or requirements consist of knowledge-derived goals (Type 1.2), goals extended from a previous one (Type 1.3), unsupported goals (Type 1.4) and goals to resolve problematic conflicts (Type 2), we found that G inv2 , not G inv1 , had significant relations to UXD; i.e. the inclusion of Type 1.2 goals obscured significant relations to and from unexpected discoveries. This means that while the last three types of goals occur in strong correlation with unexpected discoveries, Type 1.2 goals do not. Type 1.2 goals and the other three types of goals differ from each other: A Type 1.2 goal is set up to introduce a new function as the corresponding piece of explicit knowledge prescribes. In contrast, it is unknown what piece(s) of knowledge a designer has used to generate the particular extension in setting up a Type 1.3 goal, the particular new function which a Type 1.4 goal dictates, 17 Howard-Jones, P A ‘The and the particular solution which a Type 2 goal dictates. variation of ideational pro- ductivity over short timescales and the influence of an instruc- Taking this difference into consideration, we interpret our finding in the tional strategy to defocus atten- tion’ Proceedings of Twentieth following manner. There are at least two distinct ways in which this archi- Annual Meeting of the Cognitive tect invented design issues or requirements. One way is to retrieve explicit Science Society Erlbaum, Hillsdale, NJ (1998) pp 496–501 knowledge or past cases and generate issues or requirements as the knowl-<marker type="page" number="24"/><marker type="block"/> edge or the cases prescribe. The other way is to invent design issues or requirements by some justifications or reasons which are spontaneously constructed at the moment; those justifications or reasons are constructed on the fly by being mediated by a tacit component 18 of the designer’s knowledge. What is meant by the tacit component of a designer’s knowledge is an entire body of past experience of which the contents he or she cannot explicitly articulate. It includes the designs which the designer has engaged in or seen before, evaluations, judgements and reasonings which the designer has made associated with the designs, emotions and sensations which were evoked in the designer’s mind then, and encounters of other relevant events in the designer’s life.<marker type="block"/> Here, we should notice that Polanyi discussed two different aspects of the tacit component of knowledge. First, when a person is confronted with new events or concepts, the tacit component of his or her knowledge, what Polanyi called intellectual passion 18 , serves as the basis for judging whether those events or concepts are acceptable and/or for predicting whether they may pave the way for new discoveries. Secondly, when a person is engaged in a skillful performance, his or her actions consituting the performance have a tacit component 19 ; the person himself or herself is unable to be attentive to part of the actions. For example, when a person recognizes a face of someone else whom the person knows, the person usually can not articulate what features in the face the successful recognition is attributed to. Anderson made a similar claim in his theory of knowledge compi- lation 20 , stating that once a person had mastered an activity, intermediate actions constituting the activity become too automatic to be attended to by the performer himself.<marker type="block"/> We discuss the tacit component of knowledge in the fomer sense, in interpreting our finding that unexpected discoveries became the driving-force for the occurrences of Type 1.3, Type 1.4 and Type 2 goals. The architect’s encounter of unintended visuo-spatial features in his sketches somehow activated parts of the tacit component of his knowledge, and thus the resulting interaction between the parts of the tacit knowledge and the unintended visuo-spatial features led to the construction of justifications or reasons for an inventive idea.</region>
+        <region class="DoCO:TableBox" id="T10">
+          <caption class="deo:Caption" id="202" page="22" column="1">Table 10. The occurrences of UXD in the combined classes of segments categorized in relation to the occurrences of G inv2 , during periods of correlation between G inv2 and UXD</caption>
+          <content>
+            <table class="DoCO:Table" number="10" page="22">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Classes of segments</th>
+                  <th class="table"> No.</th>
+                  <th class="table"> of segments</th>
+                  <th class="table"> UXD</th>
+                  <th class="table"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> No.</td>
+                  <td class="table.strange"> of occurrences</td>
+                  <td class="table.strange"> Difference from</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> expected value</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Class 1 + class 2 + class 3: next of</td>
+                  <td class="table"> or</td>
+                  <td class="table"> 69</td>
+                  <td class="table"> 41</td>
+                  <td class="table"> + 11.0</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> together with G inv2</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Class 4: other</td>
+                  <td class="table"></td>
+                  <td class="table"> 108</td>
+                  <td class="table"> 36</td>
+                  <td class="table"> 11.0</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Total</td>
+                  <td class="table"></td>
+                  <td class="table"> 177</td>
+                  <td class="table"> 77</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Statistical test of distribution</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Yes</td>
+                  <td class="table.strange"> (χ 2 (1) = = 6.59,</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> P 0.01)</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="203" confidence="possible" page="22" column="1">Classes of segments No. of segments UXD No. of occurrences Difference from the expected value Class 1 + class 2 + class 3: next of or 69 41 + 11.0 together with G inv2 Class 4: other 108 36 11.0 Total 177 77 Statistical test of distribution Yes (χ 2 (1) = 6.59, P = 0.01)</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="204" page="22" column="1">560</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="205" page="22" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="209" page="23" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="210" page="23" column="1">561</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="214" page="24" column="1">Discussions and implications</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="215" confidence="possible" page="24" column="1">5 5.</h2>
+          <region class="unknown" id="216" page="24" column="1">1 Co-evolution of problem-space and solution-space</region>
+          <region class="unknown" id="217" page="24" column="1">18 Polanyi, M Personal knowledge: towards a post-critical philosophy The Univerity of Chicago Press, Chicago (1962) 19 Polanyi, M The tacit dimen- sion Smith, MA (1966) 20 Anderson, J R The architecture of cognition Harvard University Press, Cambridge, MA (1983)</region>
+          <region class="DoCO:TextChunk" id="224" page="24" column="1">As we discussed in the Introduction, the S-invention of design issues or requirements means to find important aspects of the given problem. At the outset of a design process, it is still unknown what problems and issues <marker type="page" number="25"/><marker type="block"/> the designer is going to come across and solve. Put differently, every time a designer invents a design issue or requirement, the design problem which he or she is working on becomes clearer than before the invention, and at the same time the problem-space which he or she is in expands.<marker type="block"/> On the other hand, the solution-space which the designer has established up to a certain time during the design process is determined by the entirety of the solutions that have been generated so far, especially what the designer has drawn in the series of his or her sketches. As the designer generates solutions and draws in sketches, the solution-space will develop.<marker type="block"/> Now, our finding in this paper is that unexpected discoveries of visuo- spatial features in sketches and S-inventions become the driving-force for the occurrences of each other. Considering that unexpected discoveries are the act of finding new aspects of the developing solution-space, and S- inventions are the act of expanding the problem-space, the present findings provide empirical evidence for the following anecdotal view; the problem- space and the solution-space evolve together as the design process goes on 21 . In other words, design problems and design solutions emerge together during a design process.<marker type="block"/> This clearly indicates the significance and indispensability of design sketches during a conceptual design process. Having perceptual interaction with one’s own sketches serves as an impetus for pushing forward the co- evolution of the solution-space and the problem-space.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="219" page="24" column="1">562</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="220" page="24" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="225" confidence="possible" page="25" column="1">5.</h2>
+          <region class="unknown" id="226" page="25" column="1">2 Designing is a situated act</region>
+          <region class="DoCO:TextChunk" id="233" page="25" column="1">In cognitive science, there has been a prevailing view that human cognition is a situated act. Clancey 22 discussed that physical performances, representing the world, perceiving and conceiving are dynamically coupled and they, as a whole, form a coordinated cognitive activity. The present findings in this paper provide empirical evidence for this statement in many ways, and therefore suggest that designing is a situated act. A similar view 21 Maher, M L and Poon, J has been presented in other design research 23 . ‘Modelling design exploration as co-evolution’ Microcomputers in Civil Engineering, Vol 11 No 3 First, our architect invented design issues or requirements not just by the (1996) pp 195–210 22 Clancey, W J Situated cog- use of explicit knowledge, but also by constructing justifications or reasons nition: on human knowledge and computer representations Cam- for them on the fly during the process. The construction of those justifi- bridge University Press, Cam- cations or reasons was dynamic in the sense that the architect did so bridge (1997) 23 Gero, J S ‘Conceptual through unexpected discoveries of unintended visuo-spatial features of the designing as a sequence of situated acts’ in Smith I (ed.) Arti- developing solution-space, i.e. design sketches. Making unexpected dis- ficial intelligence in structural coveries is seen as the act of re-representing the visual field in the sketch, engineering Springer, Berlin, pp 165–177 (1998) i.e. what Clancey called ‘perceptual re-categorization’. This way, the <marker type="page" number="26"/><marker type="block"/> emergence of conceptual ideas, i.e. design requirements in our case, is situated in the acts of representing and perceiving.<marker type="block"/> Secondly, unexpected discoveries of unintended visuo-spatial features are entirely dependent on what the designer has so far drawn in sketches, and thus on what kinds of configuration of drawn elements the designer sees in front of him or her at the moment. As a result of accumulation of drawing at different times during a process, a certain configuration is formed at a certain time and then perceived by the designer. This indicates that a designer’s perception per se, not to mention his or her conceptual ideas which emerge based on the perception, is situated in his or her physical performances, i.e. drawing on paper.<marker type="block"/> Third, our architect was likely to make unexpected discoveries just immediately after he had invented a design issue or requirement. As discussed in Section 4, the emergence of a conceptual idea enabled the architect to see his own sketches from a new point of view, and thus encouraged the generation of a new perception. This indicates that a designer’s perception is entirely dependent on, or coupled with, his conception.<marker type="block"/> All in all, the present findings indicate that drawing sketches, representing the visual filed in the sketches, perceiving visuo-spatial features in sketches, and conceiving of design issues or requirements are all dynamically coupled with each other. These activities as a whole form the act of designing.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="228" page="25" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="229" page="25" column="1">563</outsider>
+          <region class="unknown" id="234" page="26" column="1">3 Implications for design education</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="235" confidence="possible" page="26" column="1">5.</h2>
+          <region class="DoCO:TextChunk" id="239" page="26" column="1">There is an anecdotal view that the act of detecting important aspects of the problem during the process, i.e. S-inventions in our case, is one key to gaining creative outcomes in the end. Supporting evidence for this comes from the experiments in which ‘problem-finding’ behaviours of art students in a drawing task were studied 2 . They found that the more frequently students displayed ‘problem-finding’ behaviours during the task, the more creative their final drawings were rated. Further, there was a strong correlation between their ‘problem-finding’ tendency in the experimental task and the degree of success in later years as professional artists. Although pioneering in clarifying the correlation between ‘problem-finding’ behaviours and creativity, this study has left the following question in the pedagogical sense unanswered. How do students, whether in art or in design, acquire the ability to behave in a ‘problem-finding’ manner, i.e. in our terminology, to invent design issues and requirements during the process? How should educators encourage students to do so? The findings in this paper have laid a foundation for the answer. That is, the following advice <marker type="page" number="27"/><marker type="block"/> may work well for a student. ‘Let’s try to discover implicit visuo-spatial features in your sketches that you did not intend when you drew, and think of design issues or requirements associated with those features’. Because it clearly sets the goal for students, i.e. intentional search for unintended features in their sketches, this sort of instruction is more easily carried out and thus more practical than an abstract advice such as ‘just behave in a problem-finding manner’.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="237" page="26" column="1">564</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="238" page="26" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="240" confidence="possible" page="27" column="1">5.</h2>
+          <region class="unknown" id="241" page="27" column="1">4 Learning through experience</region>
+          <region class="DoCO:TextChunk" id="247" page="27" column="1">We often say, in talking about an excellent product of an outstanding designer, ‘his experience for many years in the design field is quite revealing in every aspect of the product’. What does ‘experience’ mean in this statement? What are we claiming he has accumulated and acquired through his activities in, and exposure to, the field for many years? Answer- ing this question clearly and satisfactorily is almost impossible, since the question covers, and is relevant to, a very broad set of issues about what learning is and how people learn; those have been the major issues in artificial intelligence and cognitive science for decades. Here, we will raise one aspect of designers’ learning through experience, and discuss how our finding in this paper is relevant to it. <marker type="block"/> In Section 4, we discussed that there are two ways in which designers invent design issues or requirements; one is through the use of explicitly articulatable set of knowledge, and the other is through mediation of the tacit component of knowledge. One aspect of learning that we raise here is the change over time of the boundary between the articulatable component of knowledge and the tacit component. Imagine a young architect who is practising architecture but has not much experience compared to that of an outstanding architect in the field. In the conceptual design process of a given design problem, he may invent many design issues or requirements, as our architect in this paper did. He may invent some issues or requirements using explicit pieces of knowledge available to him at that moment, and others through the mediation of the tacit component of his knowledge. For example, suppose that he invented a requirement that the arrangement of outdoor functions of a museum be in such a way that it enables attracting the attention of people who are just passing by near the site of the museum and thereby creating a future demand for visiting the museum. And suppose that he did this, being stimulated by the unexpected discovery, in his sketch, of a spatial relation, e.g. proximity, between a particular outdoor function he was about to arrange and the public road outside the site. If this requirement happened to become one of the dominant requirements determining the outcome of this particular design problem, he may generalize this requirement beyond the specific contexts of this problem, and<marker type="page" number="28"/><marker type="block"/> in future will be able to use it as a design strategy in designing a museum. This means that a conceptual idea which was dynamically constructed during a particular design process through mediation of the tacit component of knowledge becomes a part of the articulatable knowledge of the designer. Now his space of articulatable knowledge is expanded.<marker type="block"/> We conjecture that this is one important aspect of learning through experience; i.e. is, the expansion of the space of articulatable knowledge by generalization of conceptual ideas which were dynamically constructed during a particular design problem through mediation of the tacit component of knowledge. As a designer experiences the engagement in various design problems, the S-invention of design issues or requirements through mediation of the tacit component of knowledge does not just feed inventive ideas in that particular problem, but also becomes the potential source to build up articulatable knowledge that is available for future use. Importantly, having perceptual interaction with visuo-spatial features in sketches allow designers to learn through experience in this manner.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="244" page="27" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="245" page="27" column="1">565</outsider>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="248" page="28" column="1">Conclusion</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="249" confidence="possible" page="28" column="1">6</h2>
+          <region class="DoCO:TextChunk" id="251" page="28" column="1">The aim of this research was to verify the hypothesis that unexpected discoveries may become the impetus for the invention of design issues or requirements, seeking empirical evidence through protocol analysis. First, we defined unexpected discoveries as a class of perceptual actions; actions of attending to visuo-spatial features of previously drawn elements. Then, we assumed that four types of design goals are the instances of the S- invention of issues or requirements; goals derived from explicit knowledge, goals extended from a previous goal, unsupported goals, and goals to resolve problematic conflicts. <marker type="block"/> We analysed the cognitive processes of a practising architect in a design session. We identified the portions of the entire design process in which the occurrences of unexpected discoveries and those of goals as S-invention changed over time in correlation with each other. Then, for the periods of correlation identified, we more closely investigated how both occur in relation to each other. We obtained the following findings.</region>
+          <region class="DoCO:TextChunk" id="252" confidence="possible" page="28" column="1">(1) First, it was a composite of the three types of goals excluding ones derived by explicit knowledge that had significant relations with unexpected discoveries. This suggests that there are at least two distinct ways in which design issues or requirements are invented during the process: One is to retrieve explicit knowledge or past cases and thereby invent as this knowledge prescribes. The other is to generate an inventive idea without the use of explicit knowledge; we interpret</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="253" page="28" column="1">566</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="254" page="28" column="1">Design Studies Vol 21 No. 6 November 2000</outsider>
+          <region class="DoCO:TextChunk" id="255" confidence="possible" page="29" column="1">that our architect did this through mediation of the tacit component of his knowledge. Unexpected discoveries involve the latter way of invention. (2) Second, the periods of the significant relations between unexpected discoveries and S-inventions covered 52% of the entire process. This suggests that the relation between the occurrences of the two was a major phenomenon in the process of this architect. (3) Third, the relations were bi-directional. When an unexpected discovery has occurred at a segment, a goal for S-invention is more likely to occur at the next segment. When a goal for S-invention has occurred at a segment, an unexpected discovery is more likely to occur at the same or the next segment. Not only unexpected discoveries became the driving force for S-invention, but also the occurrences of S-invention, in turn, allowed the architect to see his sketches from new points of view and thus to make new unexpected discoveries.</region>
+          <region class="DoCO:TextChunk" id="256" page="29" column="1">These findings have provided empirical evidence for two anecdotal views of designing: first, the problem-space and the solution-space of a design problem evolve together as the design process goes on, and secondly, designing is a situated act. Besides, these findings have a pedagogical implication; encouraging design students to have the disposition of intentional search for unintended features in their own sketches might be a good basis for education toward creative outcomes. Further, these findings have shed light on an important aspect of learning through experience; that is, the expansion of the space of articulatable knowledge by generalization of conceptual ideas which are invented through mediation of the tacit component of knowledge during a particular design problem.</region>
+        </section>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="257" confidence="possible" page="29" column="1">Acknowledgements</h1>
+        <region class="DoCO:TextChunk" id="258" page="29" column="1">This research has been funded by the Australian Research Council, Grant Number A89601894. The concepts in this paper were initially presented at the Fourth International Conference on Computational Models of Creative Design. We are grateful to Gabriela Goldschmidt for insightful comments on the first manuscript of the present paper.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="259" page="29" column="1">Unexpected discoveries and S-invention of design requirements</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="260" page="29" column="1">567</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

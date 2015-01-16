@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>a9f4f6a87ccb498c249d2f71eb0ff25349c0298adeda0b67f00a05857954ecc5</job>
+    <base_name>62ku</base_name>
+    <doi>http://dx.doi.org/10.2139/ssrn.2226795</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62ku.page_001.image_01.png" thmb="62ku.page_001.image_01-thumb.png"/>
+      </region>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">MISRA: An Overview</article-title>
+      </title-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="3" page="1" column="1">By Paul Burden</h1>
+        <region class="DoCO:TextChunk" id="4" confidence="possible" page="1" column="1">December 2011 You don’t have to take much interest in the world of embedded software before you learn about coding standards and then become aware of MISRA-C. A little further in and you become aware that there is more to MISRA than just MISRA-C. This paper provides a quick overview of MISRA, coding standards and the role of static analysis tools in the development of high quality code.</region>
+        <region class="DoCO:FigureBox" id="Fx5">
+          <image class="DoCO:Figure" src="62ku.page_001.image_02.png" thmb="62ku.page_001.image_02-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="6" page="1" column="2">1</outsider>
+        <region class="DoCO:FigureBox" id="Fx7">
+          <image class="DoCO:Figure" src="62ku.page_002.image_03.png" thmb="62ku.page_002.image_03-thumb.png"/>
+        </region>
+        <region class="unknown" id="8" page="2" column="1">MISRA: An Overview</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="9" page="2" column="1">Introduction</h1>
+        <region class="DoCO:TextChunk" id="12" page="2" column="1">In the early 1990s it became obvious that electronics were becoming increasingly important in cars, and that software was becoming increasingly important in electronics. With this recognition came another understanding – that software reliability was an absolute imperative for both commercial and safety reasons. Today that challenge is even greater as the amount of software within a car can now extend to as much as 100 million lines of code. <marker type="block"/> MISRA (the Motor Industry Software Reliability Association) is a consortium formed from representatives of different companies working in the automotive industry. It was set up initially with some UK government backing, to look at the challenges posed by the increasing use of software in motor vehicles and to provide guidance on how embedded software should be developed. A steady stream of documents has been published addressing various aspects of software engineering. One of the first, produced in 1994, was entitled “Development Guidelines for Vehicle Based Software”, an automotive-specific interpretation of the then emerging IEC 61508 standard, “Functional Safety of Electrical / Electronic / Programmable Electronic Safety-related Systems”. This document was effectively superseded with the recent publication of the ISO 26262 standard, Road Vehicles, Functional Safety.<marker type="block"/> After the funded project ended, work continued on a number of fronts but perhaps most significantly in the development of coding standards. Working groups were established and, over the years, have published a series of documents containing guidelines to address some of the problems inherent in the C and C++ languages.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="13" page="2" column="1">C and C++</h1>
+        <region class="DoCO:TextChunk" id="16" page="2" column="1">C and C++ are by some distance the most widely used languages for embedded software development. (Recent research by VDC shows C being used by 70% of the embedded systems companies surveyed and its derivative, C++, in <marker type="column" number="2"/><marker type="block"/> * 42% .) C has been implemented for virtually every processor. It provides a wide range of resources and libraries, is supported by a wide range of tools, and there is a plentiful pool of developers.<marker type="block"/> C was designed as a small, high level language to replace assembler. It has since evolved to become an application language, but its suitability for use in safety-critical environments was never a primary consideration. A C program which compiles and conforms fully to the requirements of the ISO language standard may still include code which will exhibit completely unpredictable behaviour - this is clearly unacceptable in an application such as a car braking system! The dangers can be substantially reduced by applying restrictions to the way in which the language is used and this has been the essential aim of the MISRA coding guidelines.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="2" column="2">Coding Standards</h1>
+        <region class="DoCO:TextChunk" id="20" page="2" column="2">In their simplest form, coding standards are often created as a way of defining a set of consistent coding practices. Although uniformity of style can be a valuable discipline within a software project, such issues are frequently a matter of personal preference. They do not address the important attributes of software quality such as reliability, portability or maintainability. A more fundamental role of coding standards is to define a safer sub-set of the programming language by framing a set of rules which eliminate coding constructs known to be hazardous. <marker type="block"/> The C language allows the developer to do many things which are essentially incorrect. It is all too easy to write code which conforms to the requirements of the language standard but which will result in either program failure (i.e. a crash) or in undefined behaviour. Common examples might be code which results in accessing memory outside the bounds of an array or an arithmetic operation which results in integer overflow.<marker type="block"/> Clearly it is of paramount importance to identify such ‘bugs’. Some may be identified by a compiler although a dedicated static analysis tool will</region>
+        <region class="DoCO:TextChunk" id="21" confidence="possible" page="2" column="2">* See VDC Report. “The Increasing Value and Complexity Of Software Call For The Reevaluation Of Development and Testing Practices” April 2011</region>
+        <region class="DoCO:FigureBox" id="Fx22">
+          <image class="DoCO:Figure" src="62ku.page_002.image_04.png" thmb="62ku.page_002.image_04-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="23" page="2" column="2">2</outsider>
+        <region class="DoCO:FigureBox" id="Fx24">
+          <image class="DoCO:Figure" src="62ku.page_003.image_05.png" thmb="62ku.page_003.image_05-thumb.png"/>
+          <image class="DoCO:Figure" src="62ku.page_003.image_06.png" thmb="62ku.page_003.image_06-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="25" page="3" column="1">generally be far more effective. However the primary aim of coding rules is not generally the identification of such problems but prevention. Rules which admonish the developer not to make obvious ‘mistakes’ are usually unhelpful and may even provoke derision! The fundamental aim of a coding rule should be to restrict use of the language so as to prevent the developer from doing things which are either intrinsically ‘wrong’ or potentially dangerous. For example, it is possible in the C language to declare and define functions in two different ways. The ‘old’ (Kernighan and Ritchie) syntax which was a feature of early versions of the language is still supported but has now been superseded by ‘function prototype’ syntax. The use of K&amp;R syntax is prohibited in MISRA-C simply because it can so easily be misused and introduce bugs. Many software defects can be avoided simply by adopting some sensible restrictions on language use.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="26" page="3" column="1">The MISRA Coding Guidelines</h1>
+        <region class="DoCO:TextChunk" id="40" page="3" column="1">The MISRA coding guidelines are now accepted world-wide as the benchmarks for developing safety-critical software in C and C++. They have been widely accepted because they are concise and readable and because they focus on essential issues. <marker type="block"/> Each document contains a set of coding rules, but the rules are preceded by several chapters of background information that are just as important to anyone who would like to develop robust code. The guidelines emphasize that adherence to coding rules is just one ingredient in a successful software development process. Any programming project has to be integrated into a disciplined engineering environment, with a documented development process and the use of appropriate compilers and validation tools.<marker type="block"/> MISRA-C:1998 The first set of coding guidelines published by MISRA appeared in 1998. Two MISRA members, Ford and Rover, had asked PRQA to help them to create their own coding standards. This work formed the basis for what became the first edition of MISRA-C: “Guidelines for the Use of the C Language in Vehicle Based Software”. This version contained 127 coding rules and it made an immediate impact. Some 13 years later, it is still being used in the maintenance of many legacy systems.<marker type="column" number="2"/><marker type="block"/> MISRA-C:2004 As MISRA-C became widely adopted, areas were identified where it needed to be improved and clarified. A new version was published in 2004. It was structured rather differently and contained a few additional rules but preserved the essential flavour of the original version. Significantly, the modified title referred to “critical systems” rather than just “vehicle based software” - reflecting the fact that MISRA-C was now widely used outside the motor industry.<marker type="block"/> MISRA-C++:2008 While C remains the dominant programming language in safety critical systems, there has been a steady increase in the use of C++. In response to popular demand, a new working group was established and MISRA C++ appeared in 2008. C++ is a much more complex language than C and has a range of additional issues which require a larger set of 228 rules.<marker type="block"/> MISRA Autocode One of the growth areas in systems development is the use of modeling tools. Automatically generating code from a model is a process that is fast and flexible, especially when it comes to incorporating changes later in the product development cycle.<marker type="block"/> The application of coding guidelines in the context of automatically generated code can be a source of confusion. Rules developed for manual code development are not always appropriate for auto generated code. MISRA has therefore published additional guidelines which address the issue of how the MISRA-C:2004 rules should be applied in a code generation tool.<marker type="block"/> However, the quality of auto generated code is not the sole responsibility of the code generation tool. It may also reflect the design of the model from which the code has been generated, and so a number of documents have also been published which provide design and style guidelines in the application of modeling languages such as Simulink and Targetlink.<marker type="block"/> MISRA-C3 At the present time, MISRA-C is still based on conformance to the C90 language standard (ISO 9899:1990) rather than the later C99 standard (ISO/IEC 9899:1999). Compiler vendors have been slow to implement C99. There is a widespread view that not all extensions to the revised language standard were an improvement, particularly when reliability is a major concern. Even today, most embedded compilers do not provide comprehensive support for all of the additional features.<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> When MISRA-C:2004 was published, a decision was made to defer the issue of C99 to a later date. However MISRA’s C working group is now close to completing a third version of the guidelines which is designed to be a further improvement on the earlier<marker type="block"/> documents and also to address C99. A draft version of MISRA-C3 is expected to be available for public review early in 2012.</region>
+        <region class="DoCO:FigureBox" id="Fx36">
+          <image class="DoCO:Figure" src="62ku.page_003.image_07.png" thmb="62ku.page_003.image_07-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="37" page="3" column="2">3</outsider>
+        <region class="DoCO:FigureBox" id="Fx38">
+          <image class="DoCO:Figure" src="62ku.page_004.image_08.png" thmb="62ku.page_004.image_08-thumb.png"/>
+          <image class="DoCO:Figure" src="62ku.page_004.image_09.png" thmb="62ku.page_004.image_09-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="41" page="4" column="1">Static Analysis</h1>
+        <region class="DoCO:TextChunk" id="49" page="4" column="1">Unfortunately, the decision to adopt coding guidelines is frequently undermined by the practical difficulties inherent in enforcing such a policy. It has been observed that many companies invest considerable effort in compiling a set of coding guidelines only to find that the document subsequently gathers dust on a shelf. <marker type="block"/> The MISRA coding guidelines recognise the fact that effective enforcement of coding rules can rarely be achieved by manual code review. Traditional code inspections are hugely time consuming and not always reliable. However, most coding rules are amenable to automatic enforcement with a tool.<marker type="block"/> Some embedded compilers provide a certain level of rule enforcement. Dedicated static analysis tools usually go much further; as well as identifying specific rule violations they may also identify other coding problems, calculate source code metrics or conduct an in-depth dataflow analysis of code to identify subtle run-time errors.<marker type="block"/> Not every MISRA rule is automatically enforceable; there are a handful of rules which address issues of documentation or which are framed so as to require an element of subjective judgement which a tool cannot provide. However the vast majority of MISRA rules can be very effectively enforced automatically.<marker type="block"/> Static code analysis is a technology which is fast, powerful, reliable and repeatable. Being a tool that can be exercised on the desktop by an individual programmer, it also avoids the confrontation and embarrassment which can easily be a feature of manual code reviews.<marker type="block"/> Since publication of the first version of MISRA-C in 1998, MISRA has established a reputation as a world leader in developing coding standards for embedded software development.<marker type="column" number="2"/><marker type="block"/> C and C++ are not ideal languages for safety critical code; but it is now widely accepted that they can be used effectively to develop reliable software if a sub- set of the language is defined in a coding standard and if static analysis tools are used to provide consistent enforcement.</region>
+        <region class="unknown" id="47" page="4" column="1">Summary</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="50" page="4" column="2">About MISRA</h1>
+        <region class="DoCO:TextChunk" id="51" page="4" column="2">More information about MISRA can be found at www.misra.org.uk/</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="52" page="4" column="2">About PRQA</h1>
+        <region class="DoCO:TextChunk" id="54" page="4" column="2">PRQA’s relationship with MISRA stretches back some 20 years. Major elements of both the MISRA- C and MISRA-C++ guidelines have been derived from our own coding standards and our technical experts remain as key members of the MISRA-C and MISRA-C++ working groups. <marker type="block"/> PRQA static analysis tools, QA·C and QA·C++, are at the forefront in delivering MISRA-C and MISRA- C++ compliance checking as well as a host of other valuable analysis capabilities.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="55" page="4" column="2">About the Author</h1>
+        <region class="DoCO:TextChunk" id="56" page="4" column="2">Paul Burden is a senior member of the PRQA development team responsible for QA·C and has been a prominent member of the MISRA-C Working Group for more than 10 years.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="57" page="4" column="2">Contact Us</h1>
+        <region class="DoCO:TextChunk" id="58" page="4" column="2">PRQA has offices globally and offers worldwide customer support. Visit our website to find details of your local representative.</region>
+        <region class="DoCO:TextChunk" id="60" confidence="possible" page="4" column="2">Email: <email id="59">info@programmingresearch.com</email> Web: www.programmingresearch.com All products or brand names are trademarks or registered trademarks of their respective holders.</region>
+        <region class="DoCO:FigureBox" id="Fx61">
+          <image class="DoCO:Figure" src="62ku.page_004.image_10.png" thmb="62ku.page_004.image_10-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="62" page="4" column="2">4</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

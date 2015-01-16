@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>fc3530ddd285b0807706e84bef004febb447ad3707d6af5e124b53d20227b4aa</job>
+    <base_name>62gc</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.15373/22778179/oct2013/39">http://dx.doi.org/10.1109/tie.2013.2297296</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="2">350</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Tool for Automatic Discovery of Ambiguity in Requirements</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="4">Ayan Nigam</name><aff id="5">1</aff></contrib><contrib contrib-type="author"><name id="6">Neeraj Arya</name><aff id="7">2</aff></contrib><contrib contrib-type="author"><name id="8">Bhawna Nigam</name><aff id="9">3</aff></contrib><contrib contrib-type="author"><name id="10">Deepika Jain</name><aff id="11">4</aff></contrib><contrib contrib-type="author"><name id="19">Institute of Engineering</name></contrib><contrib contrib-type="author"><name id="20">Technology</name></contrib><contrib contrib-type="author"><name id="21">Devi Ahilya Vishwavidhyalaya Indore</name></contrib><contrib contrib-type="author"><name id="22">Madhya Pradesh</name></contrib><contrib contrib-type="author"><name id="23">India</name></contrib><contrib contrib-type="author"><name id="30">Institute of Engineering</name></contrib><contrib contrib-type="author"><name id="31">Technology</name></contrib><contrib contrib-type="author"><name id="32">Devi Ahilya Vishwavidhyalaya Indore</name></contrib><contrib contrib-type="author"><name id="33">Madhya Pradesh</name></contrib><contrib contrib-type="author"><name id="34">India</name></contrib><contrib contrib-type="author"><name id="41">Institute of Engineering</name></contrib><contrib contrib-type="author"><name id="42">Technology</name></contrib><contrib contrib-type="author"><name id="43">Devi Ahilya Vishwavidhyalaya Indore</name></contrib><contrib contrib-type="author"><name id="44">Madhya Pradesh</name></contrib><contrib contrib-type="author"><name id="45">India</name></contrib></contrib-group>
+      <footnote class="DoCO:Footnote" id="35">4</footnote>
+      <footnote class="DoCO:Footnote" id="24">3</footnote>
+      <footnote class="DoCO:Footnote" id="12">1 Quality and Process Lead, Ideavate Solutions Indore, Madhya Pradesh 452001, India</footnote>
+      <footnote class="DoCO:Footnote" id="13">2</footnote>
+      <abstract class="DoCO:Abstract" id="46">Requirements are the foundation for delivering quality software. Often it is found that the short development cycle lead teams to cut short the time they will spend on Requirement Analysis. In this work we developed a tool which can quickly review requirements by identifying ambiguous words and provide us the possible sources of wrong interpretation. Currently tool supports identification of Lexical, Syntactic and Syntax ambiguities. The tool will assist requirement analysis personnel while reviewing specifications, highlighting ambiguous words and providing graphical snapshot to gauge the correctness of documents.</abstract>
+      <region class="DoCO:TextChunk" id="47" confidence="possible">Keywords: Software Requirements Specification, Ambiguity, Requirement Engineering, Lexical Ambiguity, Syntactic Ambiguity, Syntax Ambiguity.</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="48" page="1" column="1">1. Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="85" page="1" column="1">One of the important phases of Software Development process is Requirement gathering. Requirements (functional as well as non functional) are managed in a document called as Software Requirement Specification (SRS), which is referred by development team to understand requirements. If there is short development cycle of project, then team members don’t spend more time on Requirement Analysis. Hence the outcome is an improper SRS document. Another reason for inappropriate SRS document is that, if requirements are frequently changing or incomplete requirements are provided from customer’s side, then document designer may use inexact <marker type="column" number="2"/><marker type="block"/> words or statements while preparing the SRS. When stakeholders refer such document, they can interpret the sentences of SRS in various ways which ultimately results in “Ambiguity” and affects the quality of the system to be built.<marker type="block"/> Researchers have already shown the importance of SRS and areas of SRS, which are responsible for success or failure of a software project. For e.g. Don Gause [<xref ref-type="bibr" rid="R11" id="51" class="deo:Reference">11</xref>] lists five most important sources, including SRS, that are responsible for failure of requirements. [<xref ref-type="bibr" rid="R24" id="52" class="deo:Reference">24</xref>] shows the roles of SRS document in large systems, and its importance in coordinating team of multiple persons to ensure that right system is going to be built. Bertrand Mayer [<xref ref-type="bibr" rid="R12" id="53" class="deo:Reference">12</xref>] shows areas of SRS document, where document writer is more likely to make mistakes. His study presented a thorough description of such mistakes by classifying them into seven distinct categories named as “seven sins”. All these sins deteriorate the quality of an SRS document. Here Ambiguity is presented as one of the sins.<marker type="block"/> Ambiguity in Requirement Specification causes numerous problems that affect the system to be built, because ambiguity becomes a bug if not found and resolved at early stages. Common types of bugs are Design Bug, Functional Bug, Logical Bug, Performance Bug, Requirement Bug and UI Bug [<xref ref-type="bibr" rid="R16" id="55" class="deo:Reference">16</xref>]. If these bugs or other types of bugs are not found until testing, then they are approximately fourteen times costlier to get fixed [<xref ref-type="bibr" rid="R3" id="56" class="deo:Reference">3</xref>]. For example, in early 1970’s, software for payroll system was designed that uses last two digits for representing a year rather than 4 digits so as to save memory space. But in Year 2000, Y2K bug arose, that threatened the major industries. Hundreds<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> of dollars were spent to upgrade this failure [<xref ref-type="bibr" rid="R15" id="62" class="deo:Reference">15</xref>]. If such types of bugs are detected in early phase of development, then it would be easier to fix it. <xref ref-type="fig" rid="F1" id="63" class="deo:Reference">Fig. 1</xref> shows that 56% of bugs were identified in requirement analysis phase. Analysis [<xref ref-type="bibr" rid="R3" id="64" class="deo:Reference">3</xref>] shows that if these issues are not settled at early stage then cost and development time will be affected. [<xref ref-type="bibr" rid="R4" id="65" class="deo:Reference">4</xref>] Shows that the cost of repairing a requirement error during other phases could cost 10 to 20 times more than that of repairing the error during requirement and early design phases. <xref ref-type="table" rid="T1" id="66" class="deo:Reference">Table 1</xref> shows that relative cost to fix an error is comparatively less in requirement phase [<xref ref-type="bibr" rid="R3" id="67" class="deo:Reference">3</xref>].<marker type="block"/> Therefore testing of requirements is very important task in Software Engineering. Requirement Testing means verification and validation of software requirements [<xref ref-type="bibr" rid="R1" id="72" class="deo:Reference">1</xref>]. The basic objective of verification and validation of software requirement is to identify and resolve the software problems and high-risk issues early in the software life cycle [<xref ref-type="bibr" rid="R2" id="73" class="deo:Reference">2</xref>].<marker type="block"/> For documentation of software requirement, Software Engineering Standard Committee of IEEE computer society presents a guideline using IEEE 830:1998 format [<xref ref-type="bibr" rid="R5" id="79" class="deo:Reference">5</xref>]. [<xref ref-type="bibr" rid="R6" id="80" class="deo:Reference">6</xref>] Proposed alpha-beta procedure to cut off the branches of requirement tree and reduce the complexity of tree traversal. Antonio Bertilino discusses different types of challenges and achievements in software testing [<xref ref-type="bibr" rid="R7" id="81" class="deo:Reference">7</xref>]. [<xref ref-type="bibr" rid="R8" id="82" class="deo:Reference">8</xref>]<marker type="column" number="2"/><marker type="block"/> Develops an algorithm to generate test cases that verify the requirement of developing a GUI.<marker type="block"/> The main objective of this paper is to describe a tool named “Ambiguity Detector” that will assist in finding the words or sentences, responsible for three types of ambiguities i.e. Lexical ambiguity, Syntactic ambiguity and Syntax ambiguity. For this purpose, Parts of Speech Tagger and Corpus of ambiguous words is used.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="58" page="1" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+      <region class="DoCO:FigureBox" id="Fx59">
+        <image class="DoCO:Figure" src="62gc.page_001.image_01.png" thmb="62gc.page_001.image_01-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="60" page="2" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="61" page="2" column="1">351</outsider>
+      <region class="DoCO:FigureBox" id="F1">
+        <image class="DoCO:Figure" src="62gc.page_002.image_02.png" thmb="62gc.page_002.image_02-thumb.png"/>
+        <caption class="deo:Caption" id="71" page="2" column="1">Fig 1: Distribution of bugs in different phases of development cycle [<xref ref-type="bibr" rid="R3" id="70" class="deo:Reference">3</xref>]</caption>
+      </region>
+      <region class="DoCO:TableBox" id="Tx75">
+        <content>
+          <h1 class="table"> Phase found in which error Cost Ratio</h1>
+          <table class="DoCO:Table" number="1" page="2">
+            <thead class="table"/>
+            <tbody>
+              <tr class="table">
+                <td class="table"> Requirements</td>
+                <td class="table"> 1</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Design</td>
+                <td class="table"> 3-6</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Coding</td>
+                <td class="table"> 10</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Unit/ Integration Testing</td>
+                <td class="table"> 15-40</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> System/ Testing Acceptance</td>
+                <td class="table"> 30-70</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Production</td>
+                <td class="table"> 40-1000</td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="76" confidence="possible" page="2" column="1">Phase in which error Cost Ratio found Requirements 1 Design 3-6 Coding 10 Unit/ Integration Testing 15-40 System/ Acceptance 30-70 Testing Production 40-1000</region>
+        <caption class="deo:Caption" id="78" page="2" column="1">Table 1: Relative cost to fix an error [<xref ref-type="bibr" rid="R3" id="77" class="deo:Reference">3</xref>]</caption>
+      </region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="86" page="2" column="2">2. Architecture of Ambiguity Detector</h1>
+        <region class="DoCO:TextChunk" id="88" page="2" column="2">The architecture of Ambiguity Detector is shown in <xref ref-type="fig" rid="F2" id="87" class="deo:Reference">fig. 2</xref>. This tool contains four main components i.e. SRS document, Algorithm for detecting Ambiguous Sentences, Corpus of different ambiguous words and Parts of Speech Tagger which are explained as below:</region>
+        <region class="DoCO:FigureBox" id="F2">
+          <image class="DoCO:Figure" src="62gc.page_002.image_03.png" thmb="62gc.page_002.image_03-thumb.png"/>
+          <caption class="deo:Caption" id="90" page="2" column="2">Fig 2: Architecture of Ambiguity Detector Tool</caption>
+        </region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="91" page="2" column="2">2.1 SRS Document</h2>
+          <region class="DoCO:TextChunk" id="99" page="2" column="2">The goal of requirement specification is to create a SRS document, describing what system is to be built. SRS captures the results of problem analysis and characterizes the set of acceptable solutions for the problem [ <xref ref-type="bibr" rid="R24" id="92" class="deo:Reference">24</xref>]. SRS can play many roles:-<marker type="block"/> 2.1.1 The SRS is primary vehicle for agreement between the developer and customer on exactly what is to be built. It is a document reviewed by the customer or his representative and often is the basis for judging fulfillment of contractual obligations. 2.1.2 The SRS records the result of problem analysis. Documenting the result of analysis allows question about the problem to be answered only once during development. 2.1.3 The SRS defines what properties the system must have and constraints on its design and implementation. It helps in ensuring that requirement decision is made explicitly during the requirement phase not implicitly during programming.<marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> 2.1.4 The SRS is basis for estimating cost and schedule. It is a primary management tool for tracking development progress and ascertaining what remains to be done. 2.1.5 The SRS is basis for test plan development. It is used like a testers tool for determining the acceptable behavior of software. 2.1.6 The SRS provide the standard definition of expected behavior for the system maintainers and is used to record engineering changes.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="95" page="2" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+          <region class="DoCO:FigureBox" id="Fx96">
+            <image class="DoCO:Figure" src="62gc.page_002.image_04.png" thmb="62gc.page_002.image_04-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="header" id="97" page="3" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="98" page="3" column="1">352</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="100" page="3" column="1">2.2 Corpus</h2>
+          <region class="DoCO:TextChunk" id="105" page="3" column="1">Corpus is the main component of ambiguity detector. Ambiguous words that result in misinterpreted requirements are analyzed and stored into the corpus. The major concern of this tool is to check and validate whether the data which is a part of SRS document is ambiguous or not. So SRS is matched with the vague words that are stored in corpus [ <xref ref-type="bibr" rid="R9" id="101" class="deo:Reference">9</xref>] [<xref ref-type="bibr" rid="R10" id="102" class="deo:Reference">10</xref>] [<xref ref-type="bibr" rid="R15" id="103" class="deo:Reference">15</xref>]. Some of the ambiguous words are introduced here:-<marker type="block"/> 2.2.1 Always, Every, None, Never: This word denotes something as certain or absolute, make sure that it is indeed, certain, find out these words and think of cases that violate them. 2.2.2 Certainly, Clearly, Therefore, Obviously: These words tend to persuade accepting something as given.</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="106" page="3" column="1">2.2.3 Good, Fast, Small, Cheap, Stable and Efficient:</h3>
+            <region class="DoCO:TextChunk" id="107" page="3" column="1">These are unquantifiable. If they appear in a specification, they must be further defined to explain exactly what they want.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="108" page="3" column="1">2.2.4 Some, Sometime, often, usually, Ordinarily,</h3>
+            <region class="DoCO:TextChunk" id="109" page="3" column="1">Customarily, Most, Mostly: These words are too vague. It’s impossible to test a feature that operates sometime.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="110" page="3" column="1">2.2.5 Handled, Processed, Rejected, Skipped,</h3>
+            <region class="DoCO:TextChunk" id="111" page="3" column="1">Eliminated: These terms can hide large amounts of functionality that need to be specified. 2.2.6 And So Forth, And So On, Such As: Lists that finish with words such as these aren’t testable. If they appear in a specification, they must further be defined to explain so that there’s no confusion as to how the series is generated and what appears next in the list. 2.2.7 It, They, That, Those: These words contain vague subjects that can refer to multiple things.</region>
+            <region class="DoCO:TextChunk" id="113" confidence="possible" page="3" column="1"> <xref ref-type="table" rid="T2" id="112" class="deo:Reference">Table 2</xref> shows some other ambiguous words. Accommodate Capability of Normal Adequate Capability to Not limited to And Easy Provide for As a minimum Effective Robust As applicable Etc. Sufficient As appropriate If practical Support</region>
+            <region class="DoCO:TableBox" id="Tx114">
+              <content>
+                <table class="DoCO:Table" number="2" page="3">
+                  <thead class="table"/>
+                  <tbody>
+                    <tr class="table">
+                      <td class="table"> Be able to</td>
+                      <td class="table"> Maximize</td>
+                      <td class="table"> These</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Be capable of</td>
+                      <td class="table"> May</td>
+                      <td class="table"> This</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Can</td>
+                      <td class="table"> Minimize</td>
+                      <td class="table"> When necessary</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </content>
+              <region class="TableInfo" id="115" confidence="possible" page="3" column="2">Be able to Maximize These Be capable of May This Can Minimize When necessary</region>
+              <caption class="deo:Caption" id="116" page="3" column="2">Table 2: Words/Phrases that result in misinterpretation</caption>
+            </region>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="117" page="3" column="2">2.3 Parts of Speech Tagger</h2>
+          <region class="DoCO:TextChunk" id="118" page="3" column="2">Part-of-speech (POS) Tagger is very important component of Ambiguity Detector. POS Tagger tags every word of a sentence with one of the predefined parts-of-speech. For example, the words of the sentence “Failure of any other physical unit puts the program into degraded mode” are marked in the following way: Failure/NN of/IN any/DT other/JJ/ physical/JJ unit/NN puts/VBZ the/DT program/NN IN/into degraded/VBN mode/NN. Here, NN means a noun, DT a determiner, JJ an adjective, VBZ a verb, and IN a preposition. With the help of tagger tool, ambiguity i.e. lexical/syntactic/syntax ambiguity is detected.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="119" page="3" column="2">2.4 Ambiguities in SRS</h2>
+          <region class="DoCO:TextChunk" id="125" page="3" column="2">Ambiguity is the possibility to interpret a phrase/word in several ways. It is one of the problems that occur in natural language texts. An empirical study by Kamsties et al [ <xref ref-type="bibr" rid="R12" id="120" class="deo:Reference">12</xref>] depicts that “Ambiguities are misinterpreted more often than other types of defects. Ambiguities, if noticed, require immediate clarification”. The Ambiguity Handbook [<xref ref-type="bibr" rid="R14" id="121" class="deo:Reference">14</xref>] lists several types of ambiguities, namely lexical, syntactic, syntax and semantic ambiguities. This tool detects first three types of ambiguities, which are explained below-<marker type="block"/> Lexical ambiguity: - Lexical ambiguity occurs when a word has several meanings. For example “green” means “of color green” or “immature”. Lexical ambiguity also occurs when two words of different origin come to the same spelling and pronunciation. For example “bank” means “river bank” or “bench”.<marker type="block"/> Syntactic ambiguity: - Syntactic ambiguity, also called structural ambiguity, occurs when a given sequence of word can be given more than one grammatical structure, and each has different meaning. For example when the sentence allow different parse trees, like “Small car factory” that can mean both “(small car) factory” and “small (car factory)”.<marker type="block"/> Syntax Ambiguity: - This ambiguity is particular to the tool developed. This error occurs if a sentence does not end with a period (.), second if user agent is not specified in the sentence, then it is regarded as syntax error.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="126" page="3" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+          <region class="DoCO:FigureBox" id="Fx127">
+            <image class="DoCO:Figure" src="62gc.page_003.image_05.png" thmb="62gc.page_003.image_05-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="header" id="128" page="4" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="129" page="4" column="1">353</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="130" page="4" column="1">2.5 Algorithm for Ambiguity Detection</h2>
+          <region class="DoCO:TextChunk" id="131" page="4" column="1">Ambiguity Detector works on following algorithm. This algorithm is used to classify the ambiguities as Lexical, Syntactic or Syntax ambiguity. The steps of algorithm are as follows:- Step-1: Read corpus of ambiguous words from a text file, and store it in data structure named as ‘i'. Step-2: Read the SRS document (that is to be tested) line by line. Step-3: For each line, match all words against the corpus. If word/words are matched then store the sentence in another data structure named as ‘j’. Continue this step for each line of SRS, till the end of SRS document is reached. Step-4: Match each entry of j with POS Tagger, which classifies the sentences into Lexical, Syntactic or Syntax ambiguities, depending upon the types of ambiguous words/phrases. Step-5: Count and store the total number of lexical, syntactic and syntax ambiguities. Step-6: Calculate the percentage of ambiguities.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="132" page="4" column="1">2.6 Ambiguity Detector</h2>
+          <region class="DoCO:TextChunk" id="144" page="4" column="1">Ambiguity detector tool is designed to find ambiguities in SRS document. <xref ref-type="fig" rid="F3" id="133" class="deo:Reference">Fig 3</xref> shows the interface of Ambiguity detector tool.<marker type="column" number="2"/><marker type="block"/> window specifies the ambiguities in the statements that are explicitly written by users where line number and related ambiguity of complete SRS is displayed in this window. <xref ref-type="fig" rid="F4" id="137" class="deo:Reference">Fig 4</xref> shows the ambiguity of sample sentence written in Editor Window. The sentence is “This system must be reusable”. The ambiguous word is “reusable” which is highlighted in Editor Window, whose description (Ambiguous Adjective) is displayed in error window along with line number (line no. 1).<marker type="block"/> For SRS document, different error window is designed, which will be displayed after clicking the error button. Third window is the “Result Window”, which shows the total ambiguities and count of individual ambiguities in the SRS document using bar graph. Same color schemes (green, red and blue) are used for graphical representation of ambiguities. An option is also given in the tool for Chart Analysis in which proportion of different ambiguities are shown in the form of pie chart in a separate window.<marker type="block"/> Example: Six ambiguous sentences (in bold) are taken from a sample SRS, which are already matched against corpus.<marker type="block"/> For finding ambiguities, all sentences are tagged one by one according to parts of speech, using Parts of speech</region>
+          <region class="DoCO:FigureBox" id="F3">
+            <image class="DoCO:Figure" src="62gc.page_004.image_07.png" thmb="62gc.page_004.image_07-thumb.png"/>
+            <caption class="deo:Caption" id="136" page="4" column="1">Fig 3: Interface of Ambiguity Detector Ambiguity detector mainly contains three windows - first is “Editor Window” where SRS is selected and processed line by line for ambiguity testing. In this window, different colors are used to highlight the ambiguities in selected SRS document (green for lexical ambiguity, red for syntactic ambiguity and blue for syntax ambiguity). Apart from SRS documents, sentences can directly be written for testing ambiguities. Second window is “Error Window”. This</caption>
+          </region>
+          <region class="DoCO:FigureBox" id="F4">
+            <image class="DoCO:Figure" src="62gc.page_004.image_06.png" thmb="62gc.page_004.image_06-thumb.png"/>
+            <caption class="deo:Caption" id="140" page="4" column="2">Fig 4: Snapshot of Sample statement and output ambiguity in Error Window</caption>
+          </region>
+          <region class="unknown" id="143" page="4" column="2">The System shall be easy as possible. Both should be documented. It must be reusable. The system should avoid errors normally. The system provides maximum output. System works until deadline.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="145" page="4" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+          <region class="DoCO:FigureBox" id="Fx146">
+            <image class="DoCO:Figure" src="62gc.page_004.image_08.png" thmb="62gc.page_004.image_08-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="header" id="147" page="5" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="148" page="5" column="1">354</outsider>
+          <region class="DoCO:TextChunk" id="149" confidence="possible" page="5" column="1">Tagger. After testing these six sentences, Ambiguity detector gives following types of results - 1. The system shall be easy as possible. 2. Both should be documented. 3. It must be reusable. 4. The system should avoid errors normally. 5. The system provides maximum output. 6. System works until deadline.</region>
+          <region class="DoCO:TextChunk" id="152" page="5" column="1">Lexical ambiguity (in green color) arises due to some unidentified references. For example in sixth line the word “until” has been reported as lexical ambiguity because “until” does not specify a particular time. Syntactic ambiguity (in red color) arises due to use of vague words. Adjectives and adverbs are considered as vague words, because the words are unclear i.e. these words can have different interpretations. So in the example, words like “reusable”, “normally” and “maximum” are reported as syntactic ambiguities. Syntax ambiguity (in blue color) arises due to some missing information. In above example, second line is marked as syntax ambiguity because of the word “both”. This sentence does not contain complete information. <marker type="block"/>  <xref ref-type="fig" rid="F5" id="151" class="deo:Reference">Fig. 5</xref> shows the percentage of ambiguities present in the example in form of pie chart. It shows that highest percentage of ambiguities present (67%) are syntactic ambiguities, where as only 16% Lexical and 16% Syntax errors are found in the example.</region>
+          <region class="DoCO:FigureBox" id="F5">
+            <image class="DoCO:Figure" src="62gc.page_005.image_10.png" thmb="62gc.page_005.image_10-thumb.png"/>
+            <caption class="deo:Caption" id="155" page="5" column="1">Fig 5: Result of Example in form of Pie Chart <xref ref-type="table" rid="T3" id="154" class="deo:Reference">Table 3</xref> shows the percentage of error reported in example.</caption>
+          </region>
+          <region class="unknown" id="156" page="5" column="1">Lexical Syntactic Syntax Ambiguity Ambiguity Ambiguity Percentage of 16 16 67 error</region>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="157" page="5" column="2">Table 3: Percentage of ambiguities in Example</caption>
+          </region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="158" page="5" column="2">3. Experimental Results</h1>
+        <region class="DoCO:TextChunk" id="181" page="5" column="2">In experimental work, four open source SRS documents were taken and analyzed. Number of lines and source of sample SRS documents is presented in <xref ref-type="table" rid="T4" id="159" class="deo:Reference">Table 4</xref>.<marker type="block"/> An SRS Document (in .txt format) is selected in the tool for ambiguity testing. <xref ref-type="fig" rid="F6" id="164" class="deo:Reference">Fig 6</xref> shows the snapshot of tool when SRS 2 is selected and tested.<marker type="block"/>  <xref ref-type="table" rid="T5" id="168" class="deo:Reference">Table 5</xref> shows the results of all the datasets. It shows the total ambiguities present in SRS documents and percentage of lexical, syntactic and syntax ambiguity for each SRS.<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> Pie Chart representation of ambiguities for SRS 2 is shown in <xref ref-type="fig" rid="F7" id="180" class="deo:Reference">Fig 7</xref>.</region>
+        <region class="DoCO:TableBox" id="Tx161">
+          <content>
+            <table class="DoCO:Table" number="4" page="5">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> SRS</th>
+                  <th class="table"> Number of Lines</th>
+                  <th class="table"> Source</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> 1.</td>
+                  <td class="table"> 165</td>
+                  <td class="table"> www.scribd.com</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2.</td>
+                  <td class="table"> 245</td>
+                  <td class="table"> www.scribd.com</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 3.</td>
+                  <td class="table"> 357</td>
+                  <td class="table"> www.scribd.com</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4.</td>
+                  <td class="table"> 487</td>
+                  <td class="table"> www.scribd.com</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="162" confidence="possible" page="5" column="2">SRS Number of Lines Source 1. 165 www.scribd.com 2. 245 www.scribd.com 3. 357 www.scribd.com 4. 487 www.scribd.com</region>
+          <caption class="deo:Caption" id="163" page="5" column="2">Table 4: Description of Datasets</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F6">
+          <image class="DoCO:Figure" src="62gc.page_005.image_09.png" thmb="62gc.page_005.image_09-thumb.png"/>
+          <caption class="deo:Caption" id="167" page="5" column="2">Fig 6: Snapshot of tool after selection of SRS 2</caption>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="170" page="5" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+        <region class="DoCO:FigureBox" id="Fx171">
+          <image class="DoCO:Figure" src="62gc.page_005.image_11.png" thmb="62gc.page_005.image_11-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="172" page="6" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="173" page="6" column="1">355</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="174" page="6" column="1">S</outsider>
+        <region class="unknown" id="175" page="6" column="1">Total Lexical Syntactic Syntax R Ambiguities Ambiguity Ambiguity Ambiguity</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="176" page="6" column="1">S 1 2 3 4</outsider>
+        <region class="DoCO:TableBox" id="Tx177">
+          <content>
+            <table class="DoCO:Table" number="5" page="6">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> 61</td>
+                  <td class="table"> 21%</td>
+                  <td class="table"> 53%</td>
+                  <td class="table"> 26%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 86</td>
+                  <td class="table"> 15%</td>
+                  <td class="table"> 53%</td>
+                  <td class="table"> 32%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 60</td>
+                  <td class="table"> 15%</td>
+                  <td class="table"> 11%</td>
+                  <td class="table"> 74%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 92</td>
+                  <td class="table"> 23%</td>
+                  <td class="table"> 35%</td>
+                  <td class="table"> 42%</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="178" confidence="possible" page="6" column="1">61 21% 53% 26% 86 15% 53% 32% 60 15% 11% 74% 92 23% 35% 42%</region>
+          <caption class="deo:Caption" id="179" page="6" column="1">Table 5: Results of Different ambiguities for Sample Datasets</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F7">
+          <image class="DoCO:Figure" src="62gc.page_006.image_12.png" thmb="62gc.page_006.image_12-thumb.png"/>
+          <caption class="deo:Caption" id="183" page="6" column="1">Fig 7: Snapshot for Result of SRS 2 (Chart Analysis)</caption>
+        </region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="184" page="6" column="1">4. Conclusion and Future Work</h1>
+        <region class="DoCO:TextChunk" id="187" page="6" column="1">One of the most important stages of software development is requirement gathering. Rest of the project depends upon this initial step i.e. how requirements are understood, gathered and specified. If requirements are not properly understood, or SRS is not properly designed, then the outcome will be ambiguous SRS document. Ambiguities in SRS introduces conflicts in the software project, as different interpretations can be drawn by team members while understanding requirements, which ultimately affect the quality of system to be built. One way to solve this problem is to detect and resolve ambiguities early, i.e. in the requirement analysis phase. So a tool named Ambiguity Detector is designed that detects three types of ambiguities in SRS document namely lexical, syntax and syntactic ambiguity. This tool also determines the ambiguities in percentage basis that helps analysts to identify which ambiguity is present in the highest percentage. For e.g. experimental results in <xref ref-type="table" rid="T5" id="185" class="deo:Reference">Table 5</xref> shows that in all the datasets, percentage of syntactic ambiguity is highest, so provision will be made to improve the SRS document accordingly. As ambiguities can easily be found out and resolved at early stage by communicating again with the customer, therefore this tool is very helpful in saving cost and time.<marker type="column" number="2"/><marker type="block"/> Till now, the tool is detecting Lexical, Syntactic and Syntax ambiguity. In future work, other types of ambiguities such as Semantic and Pragmatic ambiguity will also be considered. Also, detailed description of word/phrases responsible for ambiguity needs to be provided. And apart from communication with the customer, a suggestion module will be designed in the tool to resolve ambiguities. The suggestion module will recommend a replacement word for the current ambiguous word in order to provide better clarity to the statements of SRS document.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="188" page="6" column="2">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="189" page="6" column="2">[1]. Yonghua Li, Fengdi Shu, Guoqing Wu, Zhengping Liang “A Requirement Engineering for Embedded Real-Time Software-SREE,” Wuhan University Journal of Natural Science, Vol. 11, No. 3, 2006, pp. 533-538</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="190" page="6" column="2">[2]. Bary W. Boehm, TRW, “Verifying and Validating Software Requirements and Design Specification”, January 1984 IEEE.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="191" page="6" column="2">[3]. Gery Mogyorodi, Starbase Corporation, “Requirement-Based Testing: An overview”. 2001 IEEE. [4]. Weider D. Yu”Verifying Software Requirement: A Requirement Tracing Mathodology and It’s Software Tool- RADIX”, 1994 IEEE. [5]. Software engineering standard committee of IEEE</ref>
+          <ref class="deo:BibliographicReference" id="192" confidence="possible" page="6" column="2">Computer Society. IEEE Recommended practice for Software Requirement Specification, IEEE Inc. NY, USA, 1998 [6]. Gang Liu, Shaobin Huang, Xiufeng Piao, “Study on Requirement Testing Method Based On Alpha-Beta Cut- off Procedure” Collage of computer Science and Technology, Harbin Engineering University, Harbin,</ref>
+          <ref class="deo:BibliographicReference" id="193" confidence="possible" page="6" column="2">Heilongjiang, China, 2008 IEEE.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="194" page="6" column="2">[7]. Antonio Bertolino, “Software Testing Research: Achievements, Challenges, Dreams” Institute of Science and Information Technology, Pisa, Italy .Future of Software Engineering 2007 IEEE. [8]. Ravi Prakash Verma, Bal Gopal, Md. Rizwan Beg, ”Algorithm for Generating Test Case for Prerequisites of Software Requirement” Department of Computer Science and Engineering, Integral University. International Journal</ref>
+          <ref class="deo:BibliographicReference" id="195" confidence="possible" page="6" column="2">of Computer Application, September 2010 IEEE. [9]. Donald Firesmith “Specifying Good Requirements”, Software Engineering Institute, U.S.A., Journal of Object Technology, Vol.2, No. 4, July-August 2003. [10]. Ronald Kirk Kndt “Software Requirement Engineering: Practice and Techniques”, Jet Propulsion Laboratory, California Institute of Technology, November 7, 2003. [11]. Gause, D.C., “User DRIVEN Design—The Luxury</ref>
+          <ref class="deo:BibliographicReference" id="196" confidence="possible" page="6" column="2">that has Become a Necessity, A Workshop in Full Life-</ref>
+          <ref class="deo:BibliographicReference" id="201" page="7" column="1">Cycle Requirements Management”, ICRE 2000 Tutorial T7, Schaumberg, IL (23 June 2000). [12]. Meyer, B. (1985) “On Formalism in Specifications”. IEEE Software, 2(1), January 1985, 6–26.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="203" page="7" column="1">[13]. Kamsties, E., Knethen, A.V., Philipps, J., Sch ̈atz, B.: An empirical investigation of the defect detection capabilities of requirements specification languages. In: Proceedings of the Sixth CAiSE/IFIP8.1 International Workshop on Evaluation of Modelling Methods in Systems Analysis and Design (EMMSAD’01). (2001) 125–136 [14]. Berry, D.M., Kamsties, E., Krieger, M.M.: From contract drafting to software specification: Linguistic sources of ambiguity (2003) <ext-link ext-link-type="uri" href="http://se.uwaterloo.ca/" id="202">http://se.uwaterloo.ca/</ext-link> ̃dberry/handbook/ambiguityHandbo</ref>
+          <ref class="deo:BibliographicReference" id="204" confidence="possible" page="7" column="1">ok.pdf, accessed 27.12.2009. [15].Software Testing by Ron Patton, Sams Publishing, July 26, 2005. [16].Ayan Nigam, Bhawna Nigam, Chayan Bhaisare, Neeraj Arya : Classifying the Bugs Using Multi-Class Semi Supervised Support Vector Machine, Proceedings of the International Conference on Pattern Recognition, Informatics and Medical Engineering, March 21-23, 2012 [17]. Boehm, B. Tutorial: Software Risk Management(1989), IEEE Computer Society Press.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="205" page="7" column="1">[18].Rupp, C.: Requirements-Engineering und Management. Proceedings of the 42nd Annual Meeting on Association for Computational Linguistics, Morristown, NJ, USA, Association for Computational Linguistics (2004) . [19]. Sawyer, P., Rayson, P., Cosh, K.: Shallow knowledge as an aid to deep understanding in early phase requirements engineering. IEEE Trans. Softw. Eng. 31 (2005). [20]. Fuchs, N.E., Schwertel, U., Schwitter, R.: Attempto Controlled English (ACE) language manual, version 3.0. Technical Report 99.03, Department of Computer Science, University of Zurich (1999). [21]. Schiller, A., Teufel, S., St ̈ockert, C., Thielen, C.: Guidelines f ̈ur das Tagging deutscher Textcorpora mit STTS. Technical report, Institut fur maschinelle Sprachverarbeitung, Stuttgart (1999). [22]. Goldin, L., Berry, D.M.: AbstFinder, a prototype natural language text abstraction finder for use in requirements elicitation. Automated Software Eng. 4 (1997). [23]. Ronald Kirk Kndt “Software Requirement Engineering: Practice and Techniques”, Jet Propulsion Laboratory, California Institute of Technology, November 7, 2003.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="206" page="7" column="1">[24]. Stuat R. Faulk “Software Requirements: A Tutorial”, nd Software Requirement Engineering 2 Edition, R. Thayer. M. Dorfman, Eds., IEEE Computer Society press, 1997.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="footer" id="197" page="6" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+        <region class="DoCO:FigureBox" id="Fx198">
+          <image class="DoCO:Figure" src="62gc.page_006.image_13.png" thmb="62gc.page_006.image_13-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="199" page="7" column="1">IJCSI International Journal of Computer Science Issues, Vol. 9, Issue 5, No 2, September 2012 ISSN (Online): 1694-0814 www.IJCSI.org</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="200" page="7" column="1">356</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="207" page="7" column="2">Copyright (c) 2012 International Journal of Computer Science Issues. All Rights Reserved.</outsider>
+        <region class="DoCO:FigureBox" id="Fx208">
+          <image class="DoCO:Figure" src="62gc.page_007.image_14.png" thmb="62gc.page_007.image_14-thumb.png"/>
+        </region>
+      </section>
+    </body>
+  </article>
+</pdfx>

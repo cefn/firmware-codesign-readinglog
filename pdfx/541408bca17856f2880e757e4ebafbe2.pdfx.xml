@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>5c78248757c0d335e030b7dc6e6fbd9c821c71dda1ec5164c3c431d8fff2199b</job>
+    <base_name>62ji</base_name>
+    <doi>http://dx.doi.org/10.1145/2485760.2485854</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Demos</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">IDC 2013, New York, NY, USA</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Interaction Design and Physical Computing in the Era of Miniature Embedded Computers</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Arnan Sipitakiat</name>
+        </contrib>
+      </contrib-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="19">Paulo Blikstein</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="23" confidence="possible">learning. When integrated circuits and micro-controllers became ubiquitous in the late 1980s, a new generation of researchers developed the “programmable bricks” [<xref ref-type="bibr" rid="R3" id="22" class="deo:Reference">3</xref>] concept, which allowed children to easily program and create robotic behaviors. Now, the inevitable ubiquity of small single-board computers has led to new and exciting design possibilities. The following section provides a detailed discussion of the existing and new design models for robotics and physical computing.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="6" page="1" column="1">Department of Computer Engineering, Chiang Mai University 239 Huaykaew Rd Muang, Chiang Mai, Thailand, 50200 <email id="5">arnans@eng.cmu.ac.th</email> ABSTRACT ACM 978-1-4503-1918-8/13/06. This paper describes a new paradigm as well as a new platform which have been developed to demonstrate new robotics and physical computing programming models that are now possible as a result of miniature single-board computers. Here we investigate new design opportunities that bring with them the ability to embed an entire computer, such as the Raspberry Pi, within an interactive project. We call our new platform the “embedded computer” model, and we utilize the proposed Pi-Topping framework to demonstrate several cases in which the platform has already been employed. The new platform consists of a hardware add-on for the Raspberry Pi and, to drive and program the platform, a modified version of the Scratch programming environment. Smartphones are used as a portable screen that offers a touch sensitive input capacity. Case studies that demonstrate the new design possibilities are then described.</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="7" confidence="possible" page="1" column="1">Categories and Subject Descriptors</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="8" page="1" column="1">H.5.2 [Information Interfaces and Presentation]: User Interfaces. K.3.1 [Computers and Education]: Computer Uses in Education.</region>
+      <region class="DoCO:TextChunk" id="9" confidence="possible" page="1" column="1">Design, Human Factors, Experimentation.</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="10" confidence="possible" page="1" column="1">General Terms Keywords</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="11" confidence="possible" page="1" column="1">Interaction design, robotics, physical computing, embedded computers.</region>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="12" page="1" column="1">1. INTRODUCTION</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="14" page="1" column="1">How do interaction designers leverage the new possibilities made available by the introduction of miniature, low-powered, low-cost computers, such as the famed Raspberry Pi [<xref ref-type="bibr" rid="R1" id="13" class="deo:Reference">1</xref>]? Although still currently overshadowed by smartphones and low-cost tablets, the rise of single-board computers marks a new era for researchers in the area of robotics and interaction design for children. The focus of this work is to explore and demonstrate some of the new possibilities.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="15" page="1" column="1">2. ROBOT PROGRAMMING MODELS</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="24" page="1" column="2">2.1 The Autonomous Robot Model</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="27" page="1" column="2">2.2 The Tethered Robot Model</h2>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="30" page="1" column="2">2.2.1 I/O Expansion</h3>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="32" page="1" column="2">2.2.2 Remote Control</h3>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="40" page="2" column="2">2.3 The Embedded Computer Model</h2>
+          <region class="DoCO:TextChunk" id="42" page="2" column="2">The focus of the present study is the embedded computer model. As shown in <xref ref-type="fig" rid="F1" id="41" class="deo:Reference">figure 1</xref> (bottom panel), this model combines the robot and the program-authoring computer within a single portable unit. In a functional sense, this model is essentially the tethered approach, but one that places the computer on the robot. Although there have been numerous robotic constructs that carry a laptop computer, the main limitations of this approach are obviously its bulkiness, fragility, and the computer’s high power requirements.</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="43" page="2" column="2">2.3.1 Smartphones and Tablets</h3>
+            <region class="DoCO:TextChunk" id="45" page="2" column="2">In recent years, smartphones and tablet computers have been used to communicate with robotic tools through frameworks such as Android’s Accessory Development Kit (ADK). Bluetooth and other standard I/O channels have also been used for such purposes. Utilizing these communication channels, a number of researchers have demonstrated new programming environments that incorporate phones into the robot design process (See [<xref ref-type="bibr" rid="R4" id="44" class="deo:Reference">4</xref>] for an example). Though still in its infancy, smartphone-robot integration is likely to become an important platform for designers.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="46" page="2" column="2">2.3.2 Single-board Computers</h3>
+            <region class="DoCO:TextChunk" id="47" page="2" column="2">Although single-board computers usually share their internal computational architecture with that of smartphones, single-board computers are minimal, lacking screens and built-in input devices. Notwithstanding the absence of these features, the platform offers unique benefits: • Hardware configurability. Because the platform is barebone, devices can be added as required. For example, as distinct from a smartphone, numerous applications require neither screens nor touch-sensitive input. • Low-cost. The single-board computer on its own is at most one third the price of the least expensive smartphone. Therefore, even after adding all required peripherals, the completed device is still likely to be more affordable than a smartphone. • Low-power. The current generation of single-board computers consumes less than 5 Watts. Although still one to two orders of magnitude greater than the power consumption of a typical micro-controller, the present rate is low enough for practical use running on a small NiMH battery pack • Supports creative physical designs. Because of its small footprint and configurability, single-board computers can be embedded into a variety of cases and containers that give them a distinct look and feel, as well as a wide range of new functionalities. With the arrival of single-board technology, full-scale computing power is for the first time sufficiently affordable, small, low- power, and configurable for embedding within robotic and other forms of interactive projects.    </region>
+          </section>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="17" page="1" column="1">Research in designing robotic tools for learning with children began in the late 1960s. Papert’s floor turtle [<xref ref-type="bibr" rid="R2" id="16" class="deo:Reference">2</xref>] was an early example of the ability of robotics to open new approaches to</region>
+      <region class="unknown" id="18" page="1" column="1">Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of this work must be honored. For all other uses, contact the Owner/Author. Copyright is held by the owner/author(s). IDC '13, Jun 24-27 2013, New York, NY, USA ACM 978-1-4503-1918-8/13/06.</region>
+      <region class="unknown" id="21" page="1" column="2">School of Education and (by courtesy) Computer Science Stanford University 520 Galvez Mall Stanford, California, USA, 94305 <email id="20">paulob@stanford.edu</email></region>
+      <region class="DoCO:TextChunk" id="26" page="1" column="2">In what is perhaps the most common programming model, the user creates a program for a robot on a separate computer and then transfers the program to the robot. Once the program is in the robot, it executes the program independently. This process is illustrated in <xref ref-type="fig" rid="F1" id="25" class="deo:Reference">figure 1</xref> (top). This is the most common procedure employed by the programmable bricks family, which includes Lego Mindstorms®, as well as many micro-controller based devices for hackers such as the Arduino. The benefit of this model is that the robot can perform the desired task without a computer on board, an advantage which keeps the core components of the device low-cost, low-power, and small in its physical size.</region>
+      <region class="DoCO:TextChunk" id="29" page="1" column="2">In the case of a tethered model, such as the device shown in <xref ref-type="fig" rid="F1" id="28" class="deo:Reference">figure 1</xref> (central panel), the robot’s program is executed on a computer rather than onboard the robot. As the name suggests, tethering requires a constant communication between the robot and the controlling computer. Although this model is more prone to failure at longer distances due to communications errors and to slow response times, it offers the program creator greater flexibility because external computers typically have more resources than the small processors aboard robots. The tethered approach also makes available a richer set of debugging tools, including step-by-step execution. The tethered model has two common applications.</region>
+      <region class="DoCO:TextChunk" id="31" page="1" column="2">In the first case, the robot acts as an extension of the computer into the physical world, offering the programmer sensor inputs and the ability to control actuators. Sensor-enhanced gaming is a popular application of this model. For example, a boxing game running on a computer can be enhanced by adding accelerometers to a pair of gloves that allow the player to control punches using physical actions. Similarly, vibration motors can be attached to the player’s body to create the sensation of being struck by an opponent.</region>
+      <region class="DoCO:TextChunk" id="38" page="1" column="2">This approach focuses on the robot, with the computer serving as a remote brain that takes in the robot’s sensor data and outputs actuation commands. The applications of this approach are similar to those of the autonomous model, but are typically reserved for complex tasks that require extended computational power <marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> including those used in object detection, motion planning, and</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="34" page="1" column="2">515</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="35" page="2" column="1">Demos</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="36" page="2" column="1">IDC 2013, New York, NY, USA</outsider>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="37" page="2" column="1">Figure 1. The three programming models for robotics and physical computing</caption>
+        <image class="DoCO:Figure" src="62ji.page_002.image_01.png" thmb="62ji.page_002.image_01-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="39" confidence="possible" page="2" column="2">cooperative behavior.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="48" page="2" column="2">3. THE PI-TOPPING FRAMEWORK</h1>
+        <region class="DoCO:TextChunk" id="54" page="2" column="2">This project explores the design possibilities of single-board computers using the Raspberry Pi (RP). The RP is not the first miniature, low-cost platform. But it is certainly the first hugely <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> popular single-board computer. With a footprint about the size of a deck of cards, the RP contains everything required to operate as a full computer except for a keyboard, a mouse, and a screen. The design framework utilized in this study consists of the following components.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="50" page="2" column="2">516</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="51" page="3" column="1">Demos</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="52" page="3" column="1">IDC 2013, New York, NY, USA</outsider>
+        <region class="DoCO:FigureBox" id="F2">
+          <caption class="deo:Caption" id="53" page="3" column="1">Figure 2. The Pi-Topping physical computing “shield” snaps onto the Raspberry Pi and offers sensor and motor ports.</caption>
+          <image class="DoCO:Figure" src="62ji.page_003.image_02.png" thmb="62ji.page_003.image_02-thumb.png"/>
+        </region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="55" page="3" column="1">3.1 A Robotics Shield</h2>
+          <region class="DoCO:TextChunk" id="58" page="3" column="1">In order to read sensor values and control actuators, including lights and motors, a circuit board, known as the Pi-Topping, was designed to be snapped onto the RP (See <xref ref-type="fig" rid="F2" id="56" class="deo:Reference">figure 2</xref>). This type of add-on design is often referred to as a “shield,” a term popularized by the Arduino platform. The Pi-Topping’s design was based on the GoGo Board robotics kit [<xref ref-type="bibr" rid="R5" id="57" class="deo:Reference">5</xref>] because the GoGo Board could be controlled in tethered mode in many different programming environments, including Scratch, which is the main programming platform employed in the present study. The Pi-Topping is essentially a miniaturized version of the original GoGo Board with connectors and dimensions suitable for the RP; it offers eight sensor inputs and four bi-directional motor outputs (DC or Servo), as well as a 4-digit display and an Infrared remote receiver.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="59" page="3" column="1">3.2 A Graphical Programming Environment</h2>
+          <region class="DoCO:TextChunk" id="62" page="3" column="1">Scratch is a popular visual programming language designed especially for children, and for this reason the current work employs a version of the Scratch programming environment [<xref ref-type="bibr" rid="R6" id="60" class="deo:Reference">6</xref>] that has been adapted for the Pi-Topping. In order to make Scratch work with the Pi-Topping board, new command blocks were added to read sensor values and control output ports (see <xref ref-type="fig" rid="F3" id="61" class="deo:Reference">figure 3</xref>). Scratch was not chosen simply because of its visual programming ability, but also for the opportunities it offers to create rich media applications consisting of image, animation, video, and sound. These abilities were typically difficult to incorporate into a micro- controller based robot; thus the use of Scratch opens up new possibilities for the integration of robots and rich media.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="63" page="3" column="1">3.3 Remote Access via Smartphones</h2>
+          <region class="DoCO:TextChunk" id="66" page="3" column="1">In order to fully utilize the rich media aspects of the RP, a screen to display the program output must be available. Typical desktop or portable displays are cumbersome and usually require a power outlet. Smartphones, on the other hand, are portable and small. Therefore, a remote desktop approach utilizing the screens of <marker type="column" number="2"/><marker type="block"/> these devices was explored in order to display the rich media output of the program running on the RP. <xref ref-type="fig" rid="F4" id="65" class="deo:Reference">Figure 4</xref> shows an example of a Scratch program created on the RP and mirrored on a smartphone via a remote desktop.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="67" page="3" column="2">4. DESIGN CASE STUDIES</h1>
+        <region class="DoCO:TextChunk" id="68" confidence="possible" page="3" column="2">The following design scenarios are presented in this paper.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="69" page="3" column="2">4.1 Touch Sensitive Graphical User Interface</h2>
+          <region class="DoCO:TextChunk" id="70" page="3" column="2">Imagine that a child wishes to create a robotic pet that can display emotions on a screen. The pet would be happy when petted via a touchscreen or other touch sensitive sensors (Figure 5) and sad if left alone for too long. Traditional implementations of this idea involving the addition and programming of a graphical display on a robot would be quite complex undertakings. However, the endeavor becomes straightforward in the case of embedded- computer robots. In the present example, a simple Scratch program is created on the RP so that different facial expressions are displayed when different parts of the screen are touched (or clicked). During execution, the RP’s screen, keyboard, and mouse are removed. The Scratch program is displayed using a smartphone that remotely accesses the RP’s desktop over a Wi-Fi connection. The screen is mounted on the robot and immediately becomes part of the robot. It responds both by touching the smartphone screen and by activating other programmed physical sensors. This project is quite simple to execute and can be completed in a few minutes; it allows for playful iteration and experimentation on the interaction design.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="71" page="3" column="2">4.2 Sensing and Control Integration</h2>
+          <region class="DoCO:TextChunk" id="72" page="3" column="2">In the robotic pet example, it may be programmed to giggle when poked on its side, and a touch-sensitive sensor can be included to detect the poking action. Similarly, the robot can be programmed to move back and forth, simulating playfulness. A motor controlled tail can be programmed to wag as well. This is a typical use of sensors and motors in traditional robot applications. However, in this case, the RP communicates and controls the robotics board using a tethered remote. Because the RP is embedded within the robot itself, this configuration is more accurately described as a “hybrid autonomous tethering model,” although in the interest of brevity, this article addresses this concept simply as the “embedded computer model.”</region>
+          <region class="DoCO:FigureBox" id="F4">
+            <caption class="deo:Caption" id="73" page="3" column="2">Figure 4. Smartphones can be used as a touch sensitive</caption>
+            <image class="DoCO:Figure" src="62ji.page_003.image_03.png" thmb="62ji.page_003.image_03-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="74" page="3" column="2">517</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="75" page="4" column="1">Demos</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="76" page="4" column="1">IDC 2013, New York, NY, USA</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="77" page="4" column="1">4.3 Debugging</h2>
+          <region class="DoCO:TextChunk" id="79" page="4" column="1">As Papert and collaborators have shown, when children program and create projects, debugging is an essential aspect of the learning process [<xref ref-type="bibr" rid="R7" id="78" class="deo:Reference">7</xref>]. One significant benefit of the embedded computer model is that debugging becomes available as an inherent consequence of the platform. For example, Scratch programs can be executed step-by-step, allowing a user to slow down the process to figure out where things went wrong in the programming. Likewise, variable values can be tracked visually on the screen.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="80" page="4" column="1">4.4 Looking Ahead at Other Possibilities</h2>
+          <region class="DoCO:TextChunk" id="81" page="4" column="1">This project is a work-in-progress, and many design opportunities remain to be explored. Here are some examples.</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="82" page="4" column="1">4.4.1 Rich Media Integration</h3>
+            <region class="DoCO:TextChunk" id="83" page="4" column="1">Because the RP was designed to be a full capacity computer with standard interfaces, many existing peripherals, including speakers, microphones, webcams, and joysticks, were immediately available for designers. More importantly, the development environments able to use these peripherals have far more capacity on complete computers like the RP than is the case with traditional micro-controller systems. This expanded capacity will open up many new opportunities for designers and children to create portable interactive devices, such as interactive pets, art installations, body motion related games, and environmental sensing devices.</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="84" page="4" column="1">4.4.2 Web and Cloud Integration</h3>
+            <region class="DoCO:TextChunk" id="85" page="4" column="1">Access to web and cloud services is another capacity of embedded computers. Again, the important aspect of network integration is not simply that the network is available, but that the programming environment on a miniaturized full-scale computer places fewer technical demands upon the designers than did the earlier embedded systems. As a result, designers can easily create applications that, for example, interactively submit posts to Facebook, store data online using Google Drive, display data using web browsers, and serve many additional purposes.</region>
+          </section>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="86" page="4" column="1">5. CONCLUSIONS</h1>
+        <region class="DoCO:TextChunk" id="89" page="4" column="1">This article aims to show new design possibilities that have arrived with the era of embedded computers. The recently released Raspberry Pi is the first popular example of this promising platform. With the rapid technological advancements that will surely take place in the coming years, these devices will become increasingly capable. Therefore, it is important to conduct research and prepare for the new possibilities. Embedded computers remove a number of the key obstacles presented by traditional micro-controller systems. Along with the use of smartphones to provide rich, touch-sensitive screens as display and control devices, the ability of this platform to utilize low-cost, off-the-shelf peripherals will place the technology within the reach of many children. Further, the ability of this platform to utilize sensing and control devices contributes much to its appeal. However, the most significant advantage of the embedded computer may lie in the software that controls and drives the hardware components. Because embedded computers are miniaturized full-scale computers, the software environments used to develop programs for them are much more sophisticated and complex than those available for traditional robots. Consequently, it is possible for both children and designers to create interactive projects without needing to engage the considerable technical detail and complexity heretofore necessary. This study describes the Pi-Topping framework, investigates some of the new <marker type="column" number="2"/><marker type="block"/> possibilities that come with the new platform, and has examined and put into use a number of the new opportunities discussed here. A robotics add-on for the RP, the Pi-Topping, has been developed allowing the platform to utilize sensors and actuators common in traditional robotics. A programming environment together with a method of displaying rich-media were presented allowing children and designers to create new types of projects that would have been difficult if not impossible before. This study has been undertaken with the hope that the proposed framework and demonstrations be both useful and inspiring for other researchers who will enjoy the advantages of the new interaction design possibilities now available.</region>
+        <region class="DoCO:FigureBox" id="F5">
+          <caption class="deo:Caption" id="88" page="4" column="2">Figure 5. A robotic pet created with the Pi-Topping</caption>
+          <image class="DoCO:Figure" src="62ji.page_004.image_04.png" thmb="62ji.page_004.image_04-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="90" page="4" column="2">6. REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="92" page="4" column="2">[1] Raspberry Pi: An ARM GNU/Linux box for $25. <ext-link ext-link-type="uri" href="http://www.raspberrypi.org/." id="91">http://www.raspberrypi.org/.</ext-link></ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="93" page="4" column="2">[2] Perlman, R (1976). Using computer technology to provide a creative learning environment for preschool children. Logo memo no 24, MIT Artificial Intelligence Laboratory Publications 260, Cambridge, Massachusetts, USA.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="94" page="4" column="2">[3] Resnick, M., Martin, F., Sargent, R., &amp; Silverman, B. (1996). Programmable bricks: Toys to think with. IBM Systems journal, 35(3.4), 443-452.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="95" page="4" column="2">[4] Slany, W. (2012). Catroid: a mobile visual programming system for children. In Proceedings of the 11th International Conference on Interaction Design and Children (pp. 300- 303). ACM.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="96" page="4" column="2">[5] Sipitakiat, A., Blikstein, P. and Cavallo, D. (2004). GoGo Board: Augmenting Programmable Bricks for Economically Challenged Audiences. Proceedings of the International Conference of the Learning Sciences. Los Angeles, USA, pp. 481-488.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="97" page="4" column="2">[6] Resnick, M., Maloney, J., Monroy-Hernández, A., Rusk, N., Eastmond, E., Brennan, K., Millner, A., Rosenbaum, E., Silverman, B. and Kafai, Y. (2009). Scratch: programming for all. Communications of the ACM, 52(11), 60-67.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="98" page="4" column="2">[7] Papert, S. (1980). Mindstorms: Children, computers, and powerful ideas. Cambridge, MA: Basic Books.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="99" page="4" column="2">518</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

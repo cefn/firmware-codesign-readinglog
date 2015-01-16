@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>795d230068168dd99e8de4444340cc463fe0d19c62fc1ce77137918525e80140</job>
+    <base_name>62f7</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.1145/2212776.2212427</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Invited SIG - Participation and HCI: Why Involve People in Design?</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="2">John Vines</name></contrib><contrib contrib-type="author"><name id="4">Ole Sejer Iversen</name></contrib></contrib-group>
+      <abstract class="DoCO:Abstract" id="8"><marker type="block"/> Culture Lab, Department of Information &amp; School of Computing Science, Media Studies, Newcastle University, UK Aarhus University, <email id="6">john.vines@ncl.ac.uk</email> <email id="7">oiversen@cs.au.dk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="9">Rachel Clarke</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="12">Peter Wright Culture Lab, Culture Lab, School of Computing Science, School of Computing Science, Newcastle University, UK Newcastle University, UK <email id="10">r.clarke@ncl.ac.uk</email> <email id="11">p.c.wright@ncl.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="13">Tuck Wah Leong</name></contrib><contrib contrib-type="author"><name id="15">Patrick Olivier</name></contrib></contrib-group>
+      <abstract class="DoCO:Abstract" id="18">Culture Lab, Culture Lab, School of Computing Science, School of Computing Science, Newcastle University, UK Newcastle University, UK <email id="16">tuck.leong@ncl.ac.uk</email> <email id="17">p.l.olivier@ncl.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="19">John McCarthy</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="20" page="1" column="1">Participation is of high relevance to the CHI Design community. Participatory work has been performed with very different intentions: to democratize the design process; to better inform the design of new systems; to engage the public in the construction of their own futures; or simply to appease funding commitments. Whilst this increased attention has lead to a large amount of methodological innovation, very little effort has been spent reflecting on why various participatory approaches should, or should not be, used and how we can assess their impacts on the design process and products. This invited SIG will bring together invited experts who have explored participation to different degrees within their past work to provoke group and plenary audience discussion. The aim of this SIG is to provide an opportunity for discussion and reflection on how and why participative methods are used in HCI research and practice.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="21" page="1" column="1">Keywords</h1>
+      </section>
+      <region class="unknown" id="23" page="1" column="1">School of Applied Psychology University College Cork, Ireland <email id="22">john.mccarthy@ucc.ie</email></region>
+      <region class="DoCO:TextChunk" id="24" confidence="possible" page="1" column="1">Invited; Participation; Design; User Study Methods</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="25" page="1" column="1">ACM Classification Keywords</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="26" confidence="possible" page="1" column="1">H5.m. Information interfaces and presentation (e.g., HCI): Miscellaneous.</region>
+      <region class="unknown" id="27" page="1" column="1">Copyright is held by the author/owner(s). CHI’12, May 5–10, 2012, Austin, Texas, USA. ACM 978-1-4503-1016-1/12/05.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="28" page="2" column="1">2</outsider>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="29" page="2" column="1">Introduction</h1>
+        <region class="DoCO:TextChunk" id="44" page="2" column="1">The CHI community has been interested in the role of user participation for three decades, although this has grown exponentially in recent years. Scandinavian participatory design was a politically motivated movement that emphasized the voice of the worker in a period where computers were being introduced into workplaces [ <xref ref-type="bibr" rid="R5" id="30" class="deo:Reference">5</xref>]. Within past CHI work, user and stakeholder participation in the design process is viewed as beneficial to designing better systems for target groups [<xref ref-type="bibr" rid="R4" id="31" class="deo:Reference">4</xref>]. More recently, increased awareness of experience-centric approaches [<xref ref-type="bibr" rid="R19" id="32" class="deo:Reference">19</xref>] and cross- disciplinary work between computing, the arts and the humanities [<xref ref-type="bibr" rid="R13" id="33" class="deo:Reference">13</xref>] question the relationship between user participation and design innovation, and the concepts of a ‘user’ in HCI research.<marker type="block"/> The need for user and public participation in HCI research is often further emphasized by funding councils. For example, in the UK public engagement and social impact are a key criterion on which funding proposals are rated. Over the past two years Research Councils UK have funded 23 HCI related projects that focus on participation with users throughout [<xref ref-type="bibr" rid="R15" id="35" class="deo:Reference">15</xref>], whilst a recent project was also funded primarily with the experience of project participants as its focus [<xref ref-type="bibr" rid="R11" id="36" class="deo:Reference">11</xref>].<marker type="block"/> As interest in participation has grown, so has the methods and approaches used by researchers and practitioners. Traditional methods such as scenarios [<xref ref-type="bibr" rid="R7" id="38" class="deo:Reference">7</xref>], storyboards [4][<xref ref-type="bibr" rid="R5" id="39" class="deo:Reference">5</xref>] and context mapping [<xref ref-type="bibr" rid="R18" id="40" class="deo:Reference">18</xref>] have been supplemented by the use of film [<xref ref-type="bibr" rid="R12" id="41" class="deo:Reference">12</xref>], public and improvised performance [10][<xref ref-type="bibr" rid="R14" id="42" class="deo:Reference">14</xref>] and design games [<xref ref-type="bibr" rid="R1" id="43" class="deo:Reference">1</xref>], among others. Furthermore, engaging often- excluded user groups in the research process requires</region>
+        <region class="DoCO:TextChunk" id="47" confidence="possible" page="2" column="2">methodological innovation [8][<xref ref-type="bibr" rid="R17" id="45" class="deo:Reference">17</xref>], or questioning the role of the researcher and participant [<xref ref-type="bibr" rid="R9" id="46" class="deo:Reference">9</xref>].</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="48" page="2" column="2">The need for reflection and discussion</h1>
+        <region class="DoCO:TextChunk" id="53" page="2" column="2">The growth in awareness and application of participatory methods surrounding HCI poses a challenge to the CHI community. Although the methods and tools researchers are aware of are growing we still lack a clear understanding of when using specific methods is appropriate and why. As cuts to funding place pressure on HCI researchers, the role and quality of participation might become questioned. New methods might be created without fully understanding what has gone before, or methods drawn from other disciplines are used without acknowledging their epistemological and ethical roots. <marker type="block"/> There is a sense that we need to stop for a moment and reflect on the efficacy and ethics of the methods used in participatory research. A number of participatory design researchers are working on evaluating the long-term value of participatory work [<xref ref-type="bibr" rid="R2" id="50" class="deo:Reference">2</xref>]. There are also ongoing efforts to organize the varieties of methods available [<xref ref-type="bibr" rid="R16" id="51" class="deo:Reference">16</xref>], whilst others have others have argued for a return to the original values of PD [<xref ref-type="bibr" rid="R1" id="52" class="deo:Reference">1</xref>]. Whilst this is encouraging it is clear however that a discussion of participatory methods used in HCI would benefit from, and be beneficial to, the broader CHI community.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="54" page="2" column="2">Topics to discuss</h1>
+        <region class="DoCO:TextChunk" id="57" page="2" column="2">The main goal of this SIG is to explore the current state of the art in the methods, tools and techniques used in participative HCI research and why these are used in the first instance. This exploration will be provoked by brief position presentations from four invited experts, <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> each representing one of the following key areas of participation within the CHI community: 1) Participatory Design in the Scandinavian tradition; 2) Participation and collaborative design as it is practiced traditionally in North America; 3) Participation in diverse communities such as HCI4D; 4) Participation as it is influenced by the arts and humanities. We expect these position statements to encourage further discussion around topics such as: • The integration and cross-pollination of participatory methods across diverse disciplines and fields.  Review examples of projects that have compared and contrasted methods used within participatory HCI work and how such knowledge can be made applicable beyond individual projects.  Discuss what it is the CHI design community requires in order to understand the implications of certain participatory methods and processes prior to commencing a project.  Finally, whilst the prevailing theme is for increasing participation, are their contexts where participation is inappropriate?</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="56" page="3" column="1">3</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="58" page="3" column="1">SIG outcomes</h1>
+        <region class="DoCO:TextChunk" id="59" page="3" column="1">Through brief provocative presentations by the experts and facilitated discussions, we hope to provoke new ideas about reflection on and evaluation of participatory methods. We will be focusing our outcomes on:</region>
+        <region class="DoCO:TextChunk" id="60" confidence="possible" page="3" column="1"> Building a list of participatory methods and approaches used by researchers and practitioners within the CHI community.  Initiating a network of researchers and practitioners interested in reflecting on and evaluating</region>
+        <region class="DoCO:TextChunk" id="63" page="3" column="2">participatory methods used in HCI, design and the arts and humanities.  Identifying how the evaluation of diverse participatory methods may support ‘best practice’ in the Design and User Experience communities.  Using information gathered from this SIG to inform content for the Perspectives on Participation workshop at DIS 2012: <ext-link ext-link-type="uri" href="http://di.ncl.ac.uk/participation/dis2012." id="61">http://di.ncl.ac.uk/participation/dis2012.</ext-link> A website documenting the outcomes of the SIG and the subsequent direction of the research will be available at: <ext-link ext-link-type="uri" href="http://di.ncl.ac.uk/participation." id="62">http://di.ncl.ac.uk/participation.</ext-link></region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="64" page="3" column="2">SIG Audience</h1>
+        <region class="DoCO:TextChunk" id="65" page="3" column="2">As an invited SIG for the Design community, one of the goals is to identify and bring together researchers and practitioners who are interested in participatory design methods but come from different backgrounds and work in different contexts. Therefore we hope to bring together a cross-disciplinary audience of participants from the Design, User Experience and Digital Arts communities.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="66" page="3" column="2">SIG Activities and Organization</h1>
+        <region class="DoCO:TextChunk" id="67" page="3" column="2">The SIG will maximize audience participation through a mixture of facilitated group and plenary discussion. These discussions will be encouraged by the four short presentations from the invited experts, representing four key areas related to participation within the CHI design community.</region>
+        <region class="DoCO:TextChunk" id="68" confidence="possible" page="3" column="2"> Introduction to the SIG background and motivation. (5 minutes)  Each invited expert will be provided with 5-10 minutes present to the audience a position on the role of participation in design. (30 minutes)</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="69" page="4" column="1">4</outsider>
+        <region class="DoCO:TextChunk" id="70" confidence="possible" page="4" column="1"> The audience will be split into four smaller groups to maximize participation and discussion between audience participants, organizers and experts. These discussions will focus around the issues introduced by the position statements. The organizers will capture these discussions using visual material. (30 minutes)  Facilitated concluding discussion with audience on the reports back from the groups. (15 minutes)</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="71" page="4" column="1">Example Citations</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="72" confidence="possible" page="4" column="1"/>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="73" confidence="possible" page="4" column="1">[1] Bødker, S. A for Alternatives. Scandinavian Journal of Information Systems. 15, 1 (2003), 87-89.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="74" confidence="possible" page="4" column="1">[2] Bossen, C., Dindler, C., Iversen, O. User Gains and PD Aims: Assessment from a Participatory Design project. In: Proc. PDC’10, ACM (2010), 141-150.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="75" confidence="possible" page="4" column="1">[3] Brandt, E., and Grunnet, C. Evoking the Future: Drama and Props in User Centred Design. In: Proc. PDC 2000, (2000), 11-20.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="76" confidence="possible" page="4" column="1">[4] Caroll, J., and Rosson, M. Participatory Design in Community Informatics. Design Studies, 28, 2 (2007), 243-261.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="77" confidence="possible" page="4" column="1">[5] Davidoff, S., Lee, M, Dey, A., and Zimmerman, J. Rapidly exploring application design through speed dating. In: Proc. UbiComp ’07, Springer (2007), 429- 446.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="78" confidence="possible" page="4" column="1">[6] Ehn, P. Work oriented design of computer artefacts. Stockholm, Arbetslivscentrum, 1989.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="79" confidence="possible" page="4" column="1">[7] Ehn, P., and Kyng, M. Cardboard Computers: Mocking-it-up or Hands-on the Future. In: Design at Work. Lawrence Erlbaum (1992), 169-196.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="80" confidence="possible" page="4" column="1">[8] Frauenberger, C., Good, J., and Keay-Bright, W. Designing Technology for Children with Special Needs: Bridging perspectives through participatory design. Co- Design, 7, 1 (2011), 1-28.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="81" confidence="possible" page="4" column="1">[9] Gaver, W., Boucher, A., Bowers, J., Blythe, M., Jarvis, N., Cameron, D., Kerridge, T., Wilkie, A., Phillips, R., and Wright, P. The Photostroller:</ref>
+          <ref class="deo:BibliographicReference" id="82" confidence="possible" page="4" column="2">Supporting Diverse Care Home Residents in Engaging with the World. In: Proc. CHI ’11, ACM Press (2011), 1757-1766.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="83" confidence="possible" page="4" column="2">[10] Light, A. Democratising Technology: Inspiring Transformation with Design. In: Proc. CHI’11, ACM (2011), 2239-2242.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="84" confidence="possible" page="4" column="2">[11] Light, A., Wakeford, T., Egglestone, P., and Rogers, J. Research on an Equal Footing? A UK Collaborative Inquiry into Community and Academic Knowledge. In: Proc. IKTC ‘11, November 2011. Windhoek, Namibia.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="85" confidence="possible" page="4" column="2">[12] Mancini, C., Rogers, Y., Bandara, A., Coe, T., Jedrzejczyk, L., Joinson, A., Price, B., Thomas, K., and Nuseibeh, B. Contravision: Exploring users’ reactions to futuristic technology. In Proc. CHI ’10, ACM (2010), 153-162.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="86" confidence="possible" page="4" column="2">[13] Muller, L., and Loke, L. Take Part: Participatory Methods in Art and Design. In: Proc. PDC ’10, ACM Press (2010), 283-284.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="87" confidence="possible" page="4" column="2">[14] Newell, A., Carmichael, A., Morgan, M., and Dickinson, A. Methodologies for the use of theatre in requirements gathering and usability studies. Interacting with Computers, 18, 996-1011.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="89" confidence="possible" page="4" column="2">[15] EPSRC Grants on the Web. <ext-link ext-link-type="uri" href="http://gow.epsrc.ac.uk/NGBODefault.aspx" id="88">http://gow.epsrc.ac.uk/NGBODefault.aspx</ext-link></ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="90" confidence="possible" page="4" column="2">[16] Sanders, E., Brandt, E., and Binder, T. A Framework for Organizing the Tools and Techniques of Participatory Design. In: Proc. PDC ’10, ACM Press (2010), 195-198.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="91" confidence="possible" page="4" column="2">[17] Vines, J., Blythe, M., Lindsay, S., Dunphy, P., Monk, A., and Olivier, P. Questionable Concepts: Critique as a Resource for Designing with Eighty Somethings. In: Proc. CHI ’12, ACM (2012).</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="92" confidence="possible" page="4" column="2">[18] Visser, F., Stappers, P J, van der Lugt, R., and Sanders, E. Contextmapping: Experiences from practice. Co-Design, 1, 2 (2005), 119-149.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="93" confidence="possible" page="4" column="2">[19] Wright, P., and McCarthy, J. Experience-centered Design. Morgan &amp; Claypool, California, 2010.</ref>
+        </ref-list>
+      </section>
+    </body>
+  </article>
+</pdfx>

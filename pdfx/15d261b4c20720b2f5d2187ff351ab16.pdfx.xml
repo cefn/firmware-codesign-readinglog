@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>05f6619e4984ec0ce51c94d6058070b25030da1db976641ac5f183905a454aff</job>
+    <base_name>62s7</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1016/s0921-8009(04)00067-9">http://dx.doi.org/10.1007/978-3-662-33837-7</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Interaction Design and Model-Driven Development</article-title>
+      </title-group>
+      <abstract class="DoCO:Abstract" id="5">Throughout the evolution of software development and software engineering methods, human interaction and the interfaces that support it have been too often ignored or treated as secondary concerns. Most modern modeling languages and methods - UML and the unified process most definitely among them - have been devised with a highly focused concern for representing procedures, information, and software structures. The needs of interaction design and designers have been addressed, if at all, in afterthought. Instead of well-conceived no- tations and techniques, interaction designers have been given awkward adaptations of models conceived for completely different and largely in- compatible purposes. Instead of placing users and use at the center of developmental and methodological focus, the dominant modeling languages and methods have relegated them to the periphery. Despite noble calls for rapprochement and valiant attempts to build bridges, the gap between software engineering on the one side and human-computer interaction on the other remains stubbornly deep and wide, filled with misunderstanding and devoid of meaningful integration. Model-driven development, the latest in a long series of well-intentioned initiatives tracing all the way back to the first so-called auto-coders, is an approach that, like its antecedents, promises to eliminate or radically reduce the need for manual coding by automatically generating software from higher-level descriptions and models. Unfortunately, model-driven development may be on track to perpetuate many of the problems and shortcomings of its forerunners. This presentation will critically examine the place of users, usability, and user interfaces in modern model-based software development methods. It will argue that the user interfaces of software intended for human use are more than mere surface projections of underlying process and information models and that interaction design is more than mere spit-and-polish added onto that surface. It will consider both the promises and the problems in current thinking and will propose specific solutions and new directions grounded in models and techniques tailored to the core issues of interaction design but which are also well in- tegrated with established software engineering models. Outstanding problems and work-in-progress will also be reported.</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="6">A. Schürr</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">B. Selic (Eds.): MODELS</name>
+          <aff id="8">2009</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="9">LNCS</name>
+          <aff id="10">5795</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">p.</name>
+          <aff id="12">377</aff>
+          <aff id="13">2009</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="14">. c Springer-Verlag Berlin Heidelberg</name>
+          <aff id="15">2009</aff>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <outsider class="DoCO:TextBox" type="outsider" id="2" page="1" column="1">Larry L. Constantine</outsider>
+      <outsider class="DoCO:TextBox" type="outsider" id="4" page="1" column="1">University of Madeira, Portugal <email id="3">LConstantine@uma.pt</email></outsider>
+    </body>
+  </article>
+</pdfx>

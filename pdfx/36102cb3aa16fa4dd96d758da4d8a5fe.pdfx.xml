@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>e42ac6294bd7a73d2916da6da3b165a9f0cce8cd84d76859361245cc3f2cfb44</job>
+    <base_name>62ib</base_name>
+    <doi>10.1016/j.is.2011.04.003</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Information Systems 36 (2011) 992–1008</outsider>
+      <region class="unknown" id="2">Contents lists available at ScienceDirect Information Systems</region>
+      <region class="DoCO:FigureBox" id="Fx3">
+        <image class="DoCO:Figure" src="62ib.page_001.image_01.png" thmb="62ib.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="4" confidence="possible">journal homepage: www.elsevier.com/locate/infosys</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="5">The brave new world of design requirements</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="6">Matthias Jarke a</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Pericles Loucopoulos b</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">Kalle Lyytinen c</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="9">n</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="10">John Mylopoulos d</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">William Robinson e</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="12">a RWTH Aachen University, Germany b University of Loughborough, United Kingdom c Case Western Reserve University, United States d University of Trento, Italy e Georgia State University, United States a r t i c l e in f o</region>
+      <abstract class="DoCO:Abstract" id="14"><marker type="block"/> Available online 14 May 2011 Keywords: Requirements Requirements principles Requirements engineering Architectures Complexity Evolution Future of requirements engineering</abstract>
+      <region class="unknown" id="15">Despite its success over the last 30 years, the field of Requirements Engineering (RE) is still experiencing fundamental problems that indicate a need for a change of focus to better ground its research on issues underpinning current practices. We posit that these practices have changed significantly in recent years. To this end we explore changes in software system operational environments, targets, and the process of RE. Our explorations include a field study, as well as two workshops that brought together experts from academia and industry. We recognize that these changes influence the nature of central RE research questions. We identify four new principles that underlie contemporary requirements processes, namely: (1) intertwining of requirements with implementation and organizational contexts, (2) dynamic evolution of requirements, (3) emergence of architectures as a critical stabilizing force, and (4) need to recognize unprecedented levels of design complexity. We recommend a re-focus of RE research based on a review and analysis of these four principles, and identify several theoretical and practical implications that flow from this analysis. &amp; 2011 Published by Elsevier B.V.</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="16" page="1" column="1">1. Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="19" page="1" column="1">The genesis of Requirements Engineering (RE) research around the mid-1970s was motivated by practitioners, who noticed the urgent need for disciplined RE in software projects that had grown large and unmanageable [<xref ref-type="bibr" rid="R1" id="17" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="18" class="deo:Reference">2</xref>]. Much of RE research since then has focused on artifacts that maintain the intellectual discipline by</region>
+      <region class="DoCO:TextChunk" id="21" confidence="possible" page="1" column="1">$ This is an extended and improved version of the paper: Lyytinen, K., Jarke, M., Loucopoulos, P., Mylopoulos, J., Robinson, W., ‘‘The Brave New World of Design Requirements: Four Key Principles’’, 22nd International Conference on Advanced Information Systems Engineering (CAiSE’10), Hammamet Tunisia, June 2010. Authors are listed alphabe- tically to reflect equal contribution. n Corresponding author. E-mail address: <email id="20">kalle@case.edu</email> (K. Lyytinen). 0306-4379/$ - see front matter &amp; 2011 Published by Elsevier B.V. doi:10.1016/j.is.2011.04.003</region>
+      <region class="DoCO:FigureBox" id="Fx22">
+        <image class="DoCO:Figure" src="62ib.page_001.image_02.png" thmb="62ib.page_001.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="23" page="1" column="2">$</region>
+      <region class="DoCO:TextChunk" id="36" page="1" column="2">helping capture, share, represent, analyze, negotiate, and prioritize requirements as a basis for design decisions and interventions. This is evidenced by the volume and impact of a plethora of requirements-related papers published in top software engineering conferences and journals (for a survey see [ <xref ref-type="bibr" rid="R3" id="24" class="deo:Reference">3</xref>]. Due to its practical origins, it is not surprising that some of the findings of this research, such as the use of business and system modeling (e.g., entity-relationship and UML diagrams, use cases [<xref ref-type="bibr" rid="R4" id="25" class="deo:Reference">4</xref>, <xref ref-type="bibr" rid="R5" id="26" class="deo:Reference">5</xref>], risk-driven methodologies [<xref ref-type="bibr" rid="R6" id="27" class="deo:Reference">6</xref>], structured requirements documents, and requirements tracing [<xref ref-type="bibr" rid="R7" id="28" class="deo:Reference">7</xref>, <xref ref-type="bibr" rid="R8" id="29" class="deo:Reference">8</xref>], have found their way into design practice [<xref ref-type="bibr" rid="R9" id="30" class="deo:Reference">9</xref>]. Yet, the environment in which RE is practiced now has changed dramatically from the landscape of 35 years ago. Partly, this is due to advances in hardware and telecom- munications that has radically lowered computing cost and extended functionality. This has made software<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> ubiquitous in all walks-of-life. For example, for a large part of the population, smart phones and netbooks rather than workstations and PCs are becoming the computing device of choice; RFID tags and other sensors bring real- world measurements into the administrative world of Enterprise Resource Planning (ERP); and highly reduced communication cost moves high-performance computing and data services into ‘‘the cloud’’. Partly, this is due to changes in task and organizational environments where software is either produced or deployed. Therefore, the field’s focus and scope has shifted from engineering of individual systems and components towards the generation, adaptation and maintenance of software-intensive ecosystems consisting of software, hardware, human and organizational agents, business processes and more. For example, large infrastructure players such as IBM, SAP, Oracle, Microsoft, or Google are jockeying to dominate with their platforms by offering software development services that permit order-of-magnitude productivity increases at the expense of vendor lock-in. This happens, in part competing with, and, in part cooperating with the Open Source movement. Within user organizations, the rapid globalization and re-organization of industries widens the boundaries of organizational information systems to inter-organizational systems where connectiv- ity and semantic standardization become highly important. In contrast, many software products in the Web 2.0 sphere are in a perpetual state of running beta versions [<xref ref-type="bibr" rid="R10" id="34" class="deo:Reference">10</xref>], as time-to-market is more important than product quality. For all parties concerned, security has become a true concern for all ecologies. Accordingly, a term design requirements rather than software requirements as an inclusive term better characterizes all requirements issues within these ecosystems that need to be addressed at the crossroads of business development, software engineering, and industrial design. This shift has created a strong need to re-think the fundamentals of RE research and to re-align them with the new RE practices. In this quest, both academia and industry need to seek to understand more deeply issues that underlie current RE and address associated challenges. We posit that answers to this challenge cannot come just from doing more of the same—i.e., traditional RE research focusing primarily on notations, tools, and methods. The RE field needs to carefully evaluate some of its sacred assumptions and as a result its research scope may have to become more interdisciplinary. This essay aims to identify some of these challenges based on a review of current state of the art and a detailed field and content analysis of extensive expert discussions and feedback on current RE practices. As a result we put forward four key principles that characterize future requirements engineering efforts and discuss their differences to current practices. We also outline main elements of a research agenda that is needed to address future RE challenges The remainder of the paper is organized as follows. We first offer a short synopsis of the history and state-of-the- art of RE research. Section 3 clarifies the data collection and analysis and the nature of data that shaped discussions around new requirements challenges as reported<marker type="column" number="2"/><marker type="block"/> here. In Section 4, we discuss the changing nature of requirements condensed into nine issues as derived from empirical analysis. Section 5 forms the apex of our argument and proposes four new principles that underlie contemporary and future requirements processes. We conclude with a comparison with current RE practices (Section 6), and discuss implications of our deliberations for research and practice (Section 7).</region>
+      <outsider class="DoCO:TextBox" type="header" id="32" page="2" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="33" page="2" column="1">993</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="37" page="2" column="2">2. Requirements research—a brief overview</h1>
+        <region class="unknown" id="38" page="2" column="2">1</region>
+        <region class="DoCO:TextChunk" id="56" page="2" column="2">Over three decades ago researchers and practitioners alike recognized the critical role of the requirements contributing to the eventual success (or not) of software development [<xref ref-type="bibr" rid="R1" id="39" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="40" class="deo:Reference">2</xref>]. Requirements challenges were seen as inherent and risky elements for any successful system design effort, because of the complexity of the design task, the limits to human information processing, and the intricate interaction between designers and intended users [<xref ref-type="bibr" rid="R12" id="41" class="deo:Reference">12</xref>]. In addition, the RE activity was found to be sensitive to other forces that shape organizational life in that RE is unavoidably intertwined with the politics of resource allocation and the legitimacy of decision-making related to system development [<xref ref-type="bibr" rid="R13" id="42" class="deo:Reference">13</xref>]. In light of the myriad observed and important short- comings tied to requirements processes, RE research acquired soon a significant visibility in software and system development research. In order to address observed shortcoming in RE practices, RE research has also remained predominantly prescriptive (see e.g., [<xref ref-type="bibr" rid="R1" id="43" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="44" class="deo:Reference">2</xref>]. It is replete with analytical frameworks, standards for requirements quality, elicitation protocols, and modeling methodologies. A wide array of textbooks and reviews has been published on the most advisable (effective?) approaches to requirements engineering [<xref ref-type="bibr" rid="R14" id="45" class="deo:Reference">14</xref>, <xref ref-type="bibr" rid="R15" hidden="1" id="46" class="deo:Reference">15</xref>, <xref ref-type="bibr" rid="R16" hidden="1" id="47" class="deo:Reference">16</xref>, <xref ref-type="bibr" rid="R17" hidden="1" id="48" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R18" hidden="1" id="49" class="deo:Reference">18</xref>, <xref ref-type="bibr" rid="R19" hidden="1" id="50" class="deo:Reference">19</xref>, <xref ref-type="bibr" rid="R20" hidden="1" id="51" class="deo:Reference">20</xref>, <xref ref-type="bibr" rid="R21" id="52" class="deo:Reference">21</xref>]. More- over, these prescriptive methodologies have seldom been subjected to rigorous empirical scrutiny [<xref ref-type="bibr" rid="R22" id="53" class="deo:Reference">22</xref>]. By comparison, a relatively small percentage of the literature has focused on advancing a deeper theoretical or empirical understanding of the nature of system requirements; how design requirements are discovered, defined, negotiated, and managed within organizations; or why these processes are so difficult. It is important to note, however, that requirements processes are far from monolithic. Just as requirements represent one facet of a broader system development effort, so too requirements processes can be divided into a number of facets. Within the RE literature, multiple frameworks have been developed, positing anywhere from two to seven primary requirements tasks [<xref ref-type="bibr" rid="R23" id="54" class="deo:Reference">23</xref>]. For the current review, we adopt a widely employed and straightforward categorization of the requirements processes into three facets: (1) discovery, (2) specification, and (3) validation and verification [<xref ref-type="bibr" rid="R17" id="55" class="deo:Reference">17</xref>]. During discovery, designers develop an understanding of the application domain and infer specific design needs through</region>
+        <region class="DoCO:TextChunk" id="58" confidence="possible" page="2" column="2">1 This is a shortened version of a review found in Hansen, S., Berente, N., and Lyytinen, K. ’’Principles of Requirements Processes at the Dawn of 21st Century,’’ Inge  ́ nierie des Syst emes d’Information (13:1) Hansen et al. [<xref ref-type="bibr" rid="R11" id="57" class="deo:Reference">11</xref>], pp. 9–35.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="59" page="3" column="1">994</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="60" page="3" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <region class="DoCO:TextChunk" id="119" page="3" column="1">consultation with stakeholders and other sources [ <xref ref-type="bibr" rid="R18" id="61" class="deo:Reference">18</xref>]. Requirements specification is both a noun and a verb in RE parlance. As a noun, a specification is the document in which the requirements for a design effort are articulated thus representing an agreement between the stakeholders and the design team [<xref ref-type="bibr" rid="R16" id="62" class="deo:Reference">16</xref>, <xref ref-type="bibr" rid="R24" id="63" class="deo:Reference">24</xref>]. The verb suggests the process of developing and managing the specification document; it is the process by which the design team acquires, abstracts, and represents the requirements [<xref ref-type="bibr" rid="R17" id="64" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R22" id="65" class="deo:Reference">22</xref>]. Finally, during requirements validation and verification designers ensure that the requirements are (1) of high quality, (2) by addressing the users’ needs, (3) and being appropriate for the design effort, and (4) having no inconsistencies or defects [<xref ref-type="bibr" rid="R25" id="66" class="deo:Reference">25</xref>]. While this tripartite char- acterization appears to imply a linear progression, the three facets are normally employed iteratively while progressing to more detailed levels [<xref ref-type="bibr" rid="R23" id="67" class="deo:Reference">23</xref>]. Despite the strong interconnectedness of the facets, most requirements research has focused on only one at a time. Accordingly, a more detailed exploration of persistent and new challenges associated with each of these facets is warranted. Discovery: discovery is the first task of any design effort as the development team must determine what organizational or customer needs must be addressed by the design artifact [<xref ref-type="bibr" rid="R17" id="68" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R26" id="69" class="deo:Reference">26</xref>, <xref ref-type="bibr" rid="R27" id="70" class="deo:Reference">27</xref>]. Requirements researchers have also stated that requirements are properly concerned with what is to be achieved by a design artifact, without regard to how it will be designed and implemen- ted [<xref ref-type="bibr" rid="R14" id="71" class="deo:Reference">14</xref>]. This argument suggests that the bailiwick of the developers (i.e., the ‘‘how’’) is something distinct from the requirements themselves, and ‘‘leaves unresolved the question of whether or not it is possible or desirable to separate the ‘what’ from the ‘how’ in practice’’ [<xref ref-type="bibr" rid="R28" id="72" class="deo:Reference">28</xref>]. The discovery is also often referred to as requirements elicitation. This conveys a belief sometimes held widely in the RE community that requirements knowledge is banked in users or other stakeholder’s heads, and must just be ‘‘teased’’ out by the designer through some techniques. Through discovery designers can also gain knowledge of the relevant application domain. As Loucopoulos et al. [<xref ref-type="bibr" rid="R17" id="73" class="deo:Reference">17</xref>] note, understanding of the application domain ‘‘can- not easily be overestimated y when you have to solve somebody else’s problem the first thing you have to do is to find out more about it’’ (p. 21; emphasis in original). This illustrates the assumption that the designer is in most cases regarded as an outsider in the application domain, who is brought in for a limited period to resolve a problem that is of potential concern to other stakeholders. Traditional approaches to discovery cover a wide range of techniques [<xref ref-type="bibr" rid="R26" id="74" class="deo:Reference">26</xref>, <xref ref-type="bibr" rid="R29" id="75" class="deo:Reference">29</xref>]. Among the most widely ones are one-on-one interviews between a designer and a stakeholder, focus group discussions, and direct observations of business tasks [<xref ref-type="bibr" rid="R29" id="76" class="deo:Reference">29</xref>, <xref ref-type="bibr" rid="R30" id="77" class="deo:Reference">30</xref>]. A number of more intensive discovery techniques, such as protocol analysis [<xref ref-type="bibr" rid="R31" id="78" class="deo:Reference">31</xref>, <xref ref-type="bibr" rid="R32" id="79" class="deo:Reference">32</xref>] and the use of ethnography [<xref ref-type="bibr" rid="R26" id="80" class="deo:Reference">26</xref>, <xref ref-type="bibr" rid="R33" id="81" class="deo:Reference">33</xref>, <xref ref-type="bibr" rid="R34" id="82" class="deo:Reference">34</xref>], have been proposed to render explicit tacit user knowledge. Finally, prototyping has been widely deployed as a way to expand requirements elicitation activities with concrete user experience and learning [<xref ref-type="bibr" rid="R35" id="83" class="deo:Reference">35</xref>] and to establish a common understanding of the design idea [<xref ref-type="bibr" rid="R36" id="84" class="deo:Reference">36</xref>].<marker type="column" number="2"/><marker type="block"/> Specification: as stakeholder needs and understandings converge, they must be rendered in some representational scheme or model. This rendering is typically referred to as the specification process. Perhaps no single subject within the RE literature has received more attention than that of modeling [<xref ref-type="bibr" rid="R37" id="86" class="deo:Reference">37</xref>] to the extent that some argue that model development lies at the core of RE [<xref ref-type="bibr" rid="R38" id="87" class="deo:Reference">38</xref>]. There are several benefits that have been attributed to the use of formal specifications. By encapsulating large amounts of information, requirements models establish baseline of designers’ understanding of a complex system. In addition, they (may) facilitate communication between distinct stakeholder groups [<xref ref-type="bibr" rid="R38" id="88" class="deo:Reference">38</xref>]. Models also enable analysis to identify unstated requirements, predict behavior, determine inconsistencies, and check for requirements accuracy. Finally, models simplify and organize application domain knowledge by featuring its essential features through abstraction and decomposition. While each of the proposed benefits of modeling is sound in itself, these arguments also unpack widely held assumptions underlying modeling literature—an emphasis on designer’s perspective and the conjecture that the subject world will not change i.e., the model remains valid once established. Within the RE literature, the focus has been squarely placed on ways in which modeling can enhance designer’s work with less regard for the other stakeholder’s preferences. Yet, most other stakeholders prefer natural language to more formal specifications [<xref ref-type="bibr" rid="R39" id="89" class="deo:Reference">39</xref>] though researchers have long argued that the informal treatment of specifications leads to ambiguity, incompleteness, and inaccuracy [<xref ref-type="bibr" rid="R40" id="90" class="deo:Reference">40</xref>]. Most treatments within RE research address therefore ways to overcome limitations of natural language and have pursued attempts to automate the generation of formal models from natural language [<xref ref-type="bibr" rid="R41" id="91" class="deo:Reference">41</xref>, <xref ref-type="bibr" rid="R42" hidden="1" id="92" class="deo:Reference">42</xref>, <xref ref-type="bibr" rid="R43" id="93" class="deo:Reference">43</xref>]. Another stream has focused on ways to augment natural language representations with formal and semi- formal models of requirements [<xref ref-type="bibr" rid="R1" id="94" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="95" class="deo:Reference">2</xref>]. Although specifications are typically articulated at multiple levels of detail for example at e.g., enterprise, functional, and non-functional levels [<xref ref-type="bibr" rid="R17" id="96" class="deo:Reference">17</xref>], the bulk of the modeling literature focuses on modeling functional requirements at the system level by explicitly representing functional requirements about the design artifact itself by abstracting it from the environment and making it amenable to design. Over the last three decades a plethora of techniques has been advanced including the structured analysis and design techniques [<xref ref-type="bibr" rid="R2" id="97" class="deo:Reference">2</xref>, <xref ref-type="bibr" rid="R44" id="98" class="deo:Reference">44</xref>], state- charts [<xref ref-type="bibr" rid="R45" id="99" class="deo:Reference">45</xref>], Petri nets [<xref ref-type="bibr" rid="R46" id="100" class="deo:Reference">46</xref>], as well as object-oriented models [<xref ref-type="bibr" rid="R47" id="101" class="deo:Reference">47</xref>]. While most of these modeling methods were introduced as separate techniques for representing an application domain, recent trend has been toward integrating design knowledge across them [<xref ref-type="bibr" rid="R17" id="102" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R48" id="103" class="deo:Reference">48</xref>]. Recent work has also integrated enterprise level and non-functional requirements [<xref ref-type="bibr" rid="R17" id="104" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R48" id="105" class="deo:Reference">48</xref>]. Validation and verification: validation and verification (V&amp;V) addresses the question of whether or not the requirements processes have been conducted effectively and the degree to which the specification will support a productive development effort. There is an important nuance to note between the two V’s. Validation is the effort to ensure that requirements reflect accurately the<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> intentions of the stakeholders [<xref ref-type="bibr" rid="R49" id="109" class="deo:Reference">49</xref>]. Verification, in contrast, focuses on the degree to which requirements conform to technical or formal standards of requirements quality [<xref ref-type="bibr" rid="R25" id="110" class="deo:Reference">25</xref>, <xref ref-type="bibr" rid="R50" id="111" class="deo:Reference">50</xref>] captures this distinction succinctly by mimicking Drucker’s famous quote: validation addresses the question ‘‘Am I building the right product?’’; while verification asks ‘‘Am I building the product right?’’ ([<xref ref-type="bibr" rid="R50" id="112" class="deo:Reference">50</xref>], p. 75). V&amp;V is typically positioned in process descriptions of RE at the end of requirements process. In practice, V&amp;V begins almost simultaneously with discovery and continues through the specification activity. When a designer uses paraphrasing to check his or her understanding of a stakeholder’s statement, validation is already taking place. Indeed, one of the primary approaches to discovery – namely prototyping – is therefore also identified as a validation technique [<xref ref-type="bibr" rid="R17" id="113" class="deo:Reference">17</xref>]. In addition, V&amp;V embodies much of the negotiation activity involved in requirements effort as developers seek to identify and reconcile dis- agreements between individuals or stakeholder groups [<xref ref-type="bibr" rid="R37" id="114" class="deo:Reference">37</xref>, <xref ref-type="bibr" rid="R51" id="115" class="deo:Reference">51</xref>, <xref ref-type="bibr" rid="R52" hidden="1" id="116" class="deo:Reference">52</xref>, <xref ref-type="bibr" rid="R53" hidden="1" id="117" class="deo:Reference">53</xref>, <xref ref-type="bibr" rid="R54" id="118" class="deo:Reference">54</xref>]. The V&amp;V effort inherits several of the assumptions associated with discovery. Most notably, V&amp;V (and parti- cularly, validation) reflects the belief that requirements exist in some perfect form in Platonic world within the heads of the users or other stakeholders. In this sense, validation maps the documented requirements to their original source and seeks to minimize the gap between the two and the design team is perceived to be a disinterested observer of the correctness of this mapping. Indeed, this separation of interests is reflected in actions that pervade the V&amp;V process. Project sponsors and other stakeholders at expected sign-off on a design validated specification, and they will ultimately ‘‘own’’ the system created based on validated requirements. Although this is a cursory treatment of RE research necessitated by a concern to brevity, our review highlights some of the key assumptions reflected in the prevailing RE research paradigm. The research discourse has maintained a focus on processes for the development of a single system and conceived it in isolation from the broader socio-technical ecology within an organization. In addition, we observe a distinctly designer-centric prefer- ence for formal notation techniques to document a project’s functional requirements (with the consequent disparagement of natural language). Perhaps most fundamentally, we see that requirements have consistently been characterized as residing outside of the developers themselves and remain fixed for the development and evolution of the system. We will next investigate to what extent these assumptions are met with the current practice.</region>
+        <outsider class="DoCO:TextBox" type="header" id="107" page="4" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="108" page="4" column="1">995</outsider>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="120" page="4" column="1">3. Methodology</h1>
+        <region class="DoCO:TextChunk" id="127" page="4" column="1">RE practices and principles were investigated through a field study[ <xref ref-type="bibr" rid="R4" id="121" class="deo:Reference">4</xref>], as well as in two workshops bringing together experts from industry and academia [<xref ref-type="bibr" rid="R9" id="122" class="deo:Reference">9</xref>, <xref ref-type="bibr" rid="R55" id="123" class="deo:Reference">55</xref>]. We used a rigorous empirically grounded research methodology that involved intense data collection in the field followed by a solicitation and integration of expert opinions through workshops and focus groups. We first<marker type="column" number="2"/><marker type="block"/> conducted an extensive field study across a range of industrial and systems design settings to understand the perspectives of practitioners on successful requirements practices, anticipated developments, and new RE challenges [<xref ref-type="bibr" rid="R4" id="125" class="deo:Reference">4</xref>]. The study followed a similar approach as in [<xref ref-type="bibr" rid="R56" id="126" class="deo:Reference">56</xref>]. The study sought participation from senior technology leaders within a range of Fortune 500 organizations and leading software developers. The sampling approach reflected purposeful bias toward large, complex systems in an effort to focus on practices associated with the most challenging development contexts. The studied systems and their requirements included the following:</region>
+        <region class="DoCO:TextChunk" id="128" confidence="possible" page="4" column="2">Large, complex organizational information systems: these systems, often supporting inter-organizational information exchange; included transportation systems, distribution networks, and logistics in defense. Embedded systems: these systems were integrated with complex mechanical or physical artifacts including automotive components or aerospace design environments. eBusiness applications: these systems were intended for use within Web-based delivery channels included portals, e-commerce platforms, and other Internet- oriented services. Middleware systems: these software platforms typically supported the exchange of data (either control or application) between distinct applications through messaging pipes.</region>
+        <region class="DoCO:TextChunk" id="151" page="4" column="2">The systems development efforts poured into these systems ranged from tens to hundreds of man-years and the project time frames varied from 6 months to nearly 10 years. The development costs ranged from several million to hundreds of millions of dollars. Semi-structured interviews were conducted with 39 individuals on new challenges related to RE practices and design associated with these systems. The interviews ranged from 1 to 4 h in length. The interviews were recorded and transcribed to support subsequent formal content analysis of the data using technique recognized as grounded theory [ <xref ref-type="bibr" rid="R57" id="129" class="deo:Reference">57</xref>]. We used Atlas.ti software for coding and classification. Several cycles of coding resulted in a review of common requirements practices and nine requirements issues [<xref ref-type="bibr" rid="R4" id="130" class="deo:Reference">4</xref>]. Two workshops followed the field study and they used the field study report as one input in addition to position papers written by the participants. The workshops brought together diverse experts from industry and academia working on RE topics [<xref ref-type="bibr" rid="R9" id="131" class="deo:Reference">9</xref>, <xref ref-type="bibr" rid="R55" id="132" class="deo:Reference">55</xref>]. Each workshop focused on a select set of issues based on the evolution of the dialog and solicitation of key findings as the debate unfolded. The workshops were designed to accomplish three objectives: (1) engage separate research communities in a dialog on requirements challenges and effective practices, (2) strengthen design science principles, and (3) open new vistas for the research on design requirements. The focused discussions in the workshops were recorded in workshop Wikis (see e.g., <ext-link ext-link-type="uri" href="http://weatherhead.case.edu/" id="133">http://weatherhead.case.edu/</ext-link> requirements) and offered additional data set for further analysis.<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> The first workshop was held in the United States in June 2007 [<xref ref-type="bibr" rid="R9" id="137" class="deo:Reference">9</xref>], while the second workshop was held in October 2008 in Germany (<ext-link ext-link-type="uri" href="http://drops.dagstuhl.de/por" id="138">http://drops.dagstuhl.de/por</ext-link> tals/index.php?semnr=08412). In this workshop the participants were in particular asked to address or raise issues related to field study findings (as organized into nine issues shown in <xref ref-type="table" rid="T1" id="139" class="deo:Reference">Table 1</xref>), or point out omitted issues in the empirical findings or extant research. The following issues were selected for deeper exploration in focus groups:<marker type="block"/> 1. Analyses of contemporary practices in the form of case studies, field studies, and experience reports of successful or failed practices that would expand understanding of current practices. 2. Based on (1) identification of emerging critical issues in the design of complex software-intensive systems. 3. Based on (2) strengths and weaknesses of earlier requirements and design research in different disciplines. 4. Opportunities for intellectual cross-fertilization across disciplines in design and requirements based on (2) and (3). 5. Identification of new avenues in requirements research by mapping out a new landscape and emergent challenges based on (4). 6. Identification of new theories and research methodologies pertinent to the emerging challenges based on 5.<marker type="block"/> In particular, participants were asked to reflect on their research and practical experiences in a set of chosen issues and identify and rank areas that would deserve greater attention. As a result participants identified, presented and explored several new research themes which were then refined and solicited into a list of issues and questions. As a next step the organizers (authors of this paper) wrote using this workshop material as input a white paper on RE research challenges and principles [<xref ref-type="bibr" rid="R9" id="142" class="deo:Reference">9</xref>, <xref ref-type="bibr" rid="R55" id="143" class="deo:Reference">55</xref>, <xref ref-type="bibr" rid="R58" id="144" class="deo:Reference">58</xref>]. This ‘‘manifesto’’ was distributed to the participants of the second Workshop as a main input. As a<marker type="column" number="2"/><marker type="block"/> reflection to this input the second workshop identified new challenges and crafted principles discussed in the white paper in more depth. These included in particular:<marker type="block"/> 1. Continuous interlinking of multiple concepts of design, and its intertwining with requirements. 2. Evolution and management of requirements under growing complexity. 3. Architectural implications and platform strategies. 4. Identification of changing stakeholder roles and management challenges in handling stakeholder arguments around RE.<marker type="block"/> In consequence the second workshop identified new implications for research and practice such as the growing importance of the edge, new capability-based organization forms and the role of business semantics as discussed below. We will next probe the changing nature of requirement as observed through a field study and expert discussions.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="135" page="5" column="1">996</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="136" page="5" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="147" page="5" column="1">Table 1 Summary of critical design requirements issues (adopted from [<xref ref-type="bibr" rid="R4" id="146" class="deo:Reference">4</xref>]).</caption>
+        </region>
+        <region class="unknown" id="148" page="5" column="1">Critical requirements Brief description issues Target platform Business process focus Requirements focus simultaneously on business processes, and requirements for technological artifacts driven by these processes Systems transparency Requirements involve the demand for a seamless user experience across applications Integration focus Requirements focus on integrating applications, rather than development of new ones (i.e., less green-field development) Packaged software Purchase of COTS software rather than internal development. This has led to market-driven vendor-led requirements and knowledge brokering Development process Distributed In addition to increasingly diverse stakeholders, requirements processes are distributed globally across multiple requirements organizations, groups and social worlds Centrality of Architectural considerations and associated evolutionary paths take a central role and drive business, product and architecture application requirements Layers of Requirements need to be iteratively developed across multiple levels of abstraction, design focus, or temporal horizon requirements Interdependent While some forms of design complexity have been reduced (e.g., loosely coupled components), the overall interaction complexity complexity of the design ecology has risen enormously Fluidity of design Requirements processes must accommodate the need for continued evolution of problems and artifact solutions after initial implementation</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="152" page="5" column="2">4. The changing nature of requirements</h1>
+        <region class="DoCO:TextChunk" id="173" page="5" column="2">The ‘‘requirements mess’’ has remained a pernicious challenge and motivation over the last 30 years for RE scholars. In addition, it does not show any signs of disappearing [ <xref ref-type="bibr" rid="R59" id="153" class="deo:Reference">59</xref>]. RE researchers have been persistent to note that the leading sources of project difficulty – lack of user input, incomplete requirements, and changing specifications – are directly related to flaws in design requirements [<xref ref-type="bibr" rid="R37" id="154" class="deo:Reference">37</xref>, <xref ref-type="bibr" rid="R60" id="155" class="deo:Reference">60</xref>, <xref ref-type="bibr" rid="R61" hidden="1" id="156" class="deo:Reference">61</xref>, <xref ref-type="bibr" rid="R62" hidden="1" id="157" class="deo:Reference">62</xref>, <xref ref-type="bibr" rid="R63" id="158" class="deo:Reference">63</xref>]. Yet, as observed in the field study [<xref ref-type="bibr" rid="R9" id="159" class="deo:Reference">9</xref>] most large projects follow many of the accepted canons of good RE: requirements and design modeling, requirements reviews, and risk driven development. In this regard, it appears that effective management of design requirements demands now more. One reason is that the RE environment now involves elements and behaviors that were not present 30, or even 20 years ago [<xref ref-type="bibr" rid="R56" id="160" class="deo:Reference">56</xref>]. Its organizational environment, target technologies, processes,<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> and fundamental problems have undergone a tectonic shift. RE practices of today are therefore imbued with novel challenges and fresh opportunities [<xref ref-type="bibr" rid="R9" id="164" class="deo:Reference">9</xref>]. First, the economics of RE has changed. Large systems, such as ERP systems, need more rigorous return-on-invest- ment (ROI) analysis, but at the same time horizons for ROI have shrank to 18–20 months thanks to massive reuse and commercial-off-the-shelf (COTS) software deployment. Second, there is practically no green-field software development; RE acts more like the Roman god of gates – Janus – with one face looking at new business and technological challenges and opportunities, while another face is gazing at existing (technological, organizational, social, and political) environments and resources. Third, the scaling towards software-intensive ecosystems has resulted in exceedingly complex and non-linear dynamic dependencies between ecosystem elements—‘‘green IT’’ being just one of the latest buzzword that characterize this trend. Fourth, speed and agility, time to market, low-cost iterative, or even end-user development have become critical factors leading to search for new design trade-offs between efficiency, openness, and flexibility. These trends have been compounded by outsourcing and off-shoring, which demand disciplined evolution and management of explicit specifications as a basis for delegation and framing of design problems. Fifth, RE now cuts across industrial design (e.g., pervasive and ubiquitous computing), media design (e.g., e-commerce and media applications), interaction design (e.g., new modalities of interaction in mobile computing, telematics, etc.), business process design (e.g., open business platforms), enterprise architectures, and regulatory and juridical issues (e.g., corporate governance, intellectual property management). Overall, design requirements need to capture and coordinate increasingly diver- ging and dynamic needs of heterogeneous stakeholders during the evolution of software based product viewed often as a service, or a platform. What are the critical issues that emerge during RE in this brave new world? <xref ref-type="table" rid="T1" id="165" class="deo:Reference">Table 1</xref> shows nine critical issues that were solicited in the field study[<xref ref-type="bibr" rid="R4" id="166" class="deo:Reference">4</xref>]. These are divided further into the changing nature of the object of RE (target platform), and the process of RE (development process). Overall, these issues resonate well with the debate Simon engages in his design classic, The Sciences of the Artificial [<xref ref-type="bibr" rid="R64" id="167" class="deo:Reference">64</xref>]. On the one hand, software designs resemble increasingly continuous and dynamic searches for satisficing solutions—not an optimized and fixed solution at one time point conform- ing to fixed requirements as assumed in the past. On the other hand, they go beyond Simon’s original model in that they emphasize sense-making in shifting and complex environments [<xref ref-type="bibr" rid="R65" id="168" class="deo:Reference">65</xref>], and associated continuous problem framing over problem solving in a bounded context thus contesting the assumption that designer is an outsider or the subject world remains invariant. To wit, these changes are changing the three classic RE problems that underlie past RE research as follows: First, the design requirements problem succinctly pointed out by [<xref ref-type="bibr" rid="R1" id="169" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="170" class="deo:Reference">2</xref>] can now be stated as follows: what is the emergent behavior and dynamics of the software artifact and its environment in their evolutionary trajectory? Now users, designers and other stakeholders need to ask: will the<marker type="column" number="2"/><marker type="block"/> system continue to satisfy our emergent goals, and what those goals could be expected to be during the artifact’s lifetime; in contrast to the older problem: what are the (fixed) goals of the system and what is it expected to do? Second, the specification problem can be stated as follows: how can designers anticipate and represent the emergent behaviors of the system and its components and how does the resulting system behavior conform and relate to emerging environments and the notations used to represent and predict it? Accordingly, designers need to ask how they can represent, communicate and analyze increasingly complex and dynamic systems and their emergent requirements, and how this is possibly condi- tioned by the nature of presentations brought to bear in the design context in contrast to the older problem: how to faithfully represent the system components, their relationships and behaviors in ways that guarantee that these meet functional and non-functional requirements? Third, the predictability problem of designs can be stated as follows: how does the artifact and its behavior change the environment as to make our predictions of system behaviors faithful? In other words, now designers need to attend more closely to the continuous dynamic composition of the system and its environment, and how do they together differ from the environment in separation. Designers need to predict faithfully the impact of the system on the environment, and vice versa. This is a different problem from those faced earlier where the system was assumed to not affect the environment, or the environment the system, with rare exceptions (e.g., [<xref ref-type="bibr" rid="R65" id="172" class="deo:Reference">65</xref>].</region>
+        <outsider class="DoCO:TextBox" type="header" id="162" page="6" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="163" page="6" column="1">997</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="174" page="6" column="2">5. Four requirements principles</h1>
+        <region class="DoCO:TextChunk" id="182" page="6" column="2">As mentioned in Section 2 past RE research has been informed by several principles that served well addressing the classic requirements problems. These included: (1) separation of concerns (notably, the ‘what’ from the ‘why’ and the ‘how’), (2) information hiding, and (3) the principle of abstraction (see e.g., [ <xref ref-type="bibr" rid="R1" id="175" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R2" id="176" class="deo:Reference">2</xref>]). These principles reduced design complexity given the requirements and goals by localizing design decisions. They helped reduce the mutual interference of decisions and supported both the analysis and prediction of system behaviors and structure from specific viewpoints. This helped solve the design requirements, the specification and the predictability problems. What are the new key principles that will underlie successful design and RE in the ‘‘brave’’ new world of requirements? What new principles will help us address in the new context the design requirements problem, the specification problem, and the predictability problem? We propose four principles that were derived from our review of expert opinions and related discussions in the workshops, our ongoing discussions how to handle them and a review of broader literature in several field including architecture, complexity theory and economics dealing with design dynamism and complexity. These four principles are as follows:<marker type="block"/> 1. Intertwine requirements and contexts: the necessity to consider the relationship between requirements with<marker type="page" number="7"/><marker type="column" number="1"/><marker type="block"/> their organizational/business context, in addition to their relationship with their implementations. Rationale: this principle recognizes the design requirements problem and the demand for understanding evolutionary trajectories. 2. Evolve designs and ecologies: the necessity to view design and design processes as evolving elements in an ecology. Rationale: this principle recognizes the new design requirements and specification problems and the increasing demands they pose to analyze evolutionary principles of a set of heterogeneous elements comprising the requirements space. 3. Manage through architectures: the necessity to consider architectures as enablers and constraints in the continuous creation and shaping of design ecologies. Rationale: this principle recognizes the specification problem and the shifting focus towards ecologies where emphasis must be placed on antecedent ‘‘shaping’’ or ‘‘generative’’ factors that affect the organization and evolution of the ecology. 4. Recognize complexity: the necessity to consider the heightened interaction complexity of requirements processes which demands new ways to approach design problems and manage requirements. Rationale: this principle recognizes the predictability problems and that the new interaction complexity requires designers to heed on the external relationships of the software and their evolution as reflected in the requirements and related need to enhance adaptability and evolution of the software system.<marker type="block"/> We next describe each principle in more detail. We illustrate the content of each principle, the new research questions it sparks, and discuss some of the emerging research to address the principle.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="179" page="7" column="1">998</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="180" page="7" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="183" page="7" column="1">5.1. Intertwine requirements and contexts</h2>
+          <region class="DoCO:TextChunk" id="193" page="7" column="1">The debate about the role of requirements is as old as the field itself. While a rough consensus has been reached that requirement constitute a conceptual – but not necessarily temporal – prerequisite for downstream development, cap- turing the problem to which design and implementation constitute a solution. At the same time, there is a great deal of controversy on how problem and solution spaces interact during the evolution. One school of thought regards the influence of implementation on requirements as being harmful [ <xref ref-type="bibr" rid="R66" id="184" class="deo:Reference">66</xref>]. They argue that understanding the system’s context, such as its organizational and social factors and goals can provide a sufficient set of functional and non- functional requirements, which can then be mapped onto appropriate implementation models. This school regards requirements as the downward bridge between the subject and system worlds by claiming that there exists a high degree of stability on business, organizational, and community goals. An opposing view stresses the need for revisiting requirements as implementation progresses and emphasizes the dynamics and intertwining of these activities [<xref ref-type="bibr" rid="R67" id="185" class="deo:Reference">67</xref>]. The review of existing practice [<xref ref-type="bibr" rid="R4" id="186" class="deo:Reference">4</xref>] shows that implementation and its requirements specification are now<marker type="column" number="2"/><marker type="block"/> intrinsically intertwined. In fact, many requirements emerge from existing solution spaces. Accordingly, the concept needs to be extended to the whole system context. In addition, the salient factors shaping RE seem to be innovation and effective differentiation. The inter- play between the two worlds has thus become more intricate, complex, dynamic, and generative. In these innovation-driven settings, requirements become part of both the business solution and the system solution, and they constantly bridge new solutions to organizational and societal problems. The evolving designs need to reduce the distance between a problem and a solution through novel and dynamic thinking, acting, and innovat- ing. In such a design-thinking culture, design requirements become increasingly central and need to be understood as part of a multi-system, socio-technical ecology, which drives organizational innovation. Therefore, software requirements need to be dynamically situated between these spaces as they intertwine organizational and implementation considerations, providing leverage to influence both. The constant intertwining of some systems and their ecologies may face a practical world-model limit. While prior design efforts could rely on an adequate, stable, world-model as the basis for specifying nearly stable software designs, now, software must be agile—rapidly evolving to meet changing needs. The level of stability of the world assumptions is less limited in context-aware, customer-focused applications. The unavoidable intertwining between requirements and contexts will make designers constantly seek correspondence between the models within a system and its world context. Only systems embedding an adequate, flexible, and evolvable world-model are likely to survive. The idea of evolutionary systems and variability generation and selection principles aims to meet this need, in part. However, little attention has been given to the challenge of formulating evolutionary world models that form the basis for the necessarily simplifying, but evolving model assumptions in the system. Thus, designers must monitor and evolve their understandings of the world, and sustain an adequate correspondence between the world and its system models. Overall, RE processes face new kinds of uncertainty that goes beyond traditional RE uncertainty characterized by (1) requirements identity (knowing requirements), (2) requirements volatility, and (3) requirements complexity [<xref ref-type="bibr" rid="R68" id="188" class="deo:Reference">68</xref>]. In addition, two new kinds of uncertainty are now prominent: (1) requirements fidelity uncertainty, which denotes the uncertainty about the level of intertwining between the world and the software model. Examples of techniques that help mitigate fidelity uncertainty are exception and event-based analysis; software tailoring and user-based development, and case-based learning; and (2) requirement monitoring uncertainty, which denotes uncertainty of the level and mode of observation, and analysis necessary to assess the world, the model, the requirements, and their alignment. Examples of monitoring include ethnographic methods, business activity monitoring (BAM), and software instrumentation. These two new levels of uncertainty highlight the need for increased<marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> run-time monitoring to maintain the fidelity of the world- model intertwining with requirements, which again shows the intricate and dynamic intertwining of the problem and solution spaces [<xref ref-type="bibr" rid="R69" id="192" class="deo:Reference">69</xref>].</region>
+          <outsider class="DoCO:TextBox" type="header" id="190" page="8" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="191" page="8" column="1">999</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="194" page="8" column="1">5.2. Evolve designs and ecologies</h2>
+          <region class="DoCO:TextChunk" id="198" page="8" column="1">Meeting stakeholder needs is the fundamental axiom of any RE endeavor. As requirements increasingly intertwine with organizational and implementation concerns, they will constantly and non-linearly evolve as part of an ‘‘ecology’’. Traditionally, causes of software evolution have been classified into: (1) software-related, (2) doc- umentation-related, (3) properties of the software, and (4) customer-experienced functionality [<xref ref-type="bibr" rid="R70" id="195" class="deo:Reference">70</xref>]. Evolution has been studied mainly as a software design problem and it has been addressed by improving methodological support (e.g., how can development activities most effectively incorporate evolution?) and its management (e.g., how can one record and trace software releases, or link code to changing domain knowledge?). Now, we need to address the reality of an ever incomplete and evolving design by asking: what are the principles that guide developers evolve incomplete designs so that they remain functionally adequate, but offer flexibility-in-evolution? What are appropriate co-evolutionary design methods to achieve these goals? How does one determine the impact of co- evolutionary design change? Activities in open source development, such as inter- project merging and the creation of new software artifacts, for example, compound the need for new frameworks to cope with requirements evolution. Another example is agile methods and scenario-based modeling which offer a means to better cope with the fast paced evolution of requirements ecologies [<xref ref-type="bibr" rid="R71" id="196" class="deo:Reference">71</xref>]. Similarly, research into co- evolution and co-design [<xref ref-type="bibr" rid="R72" id="197" class="deo:Reference">72</xref>] has addressed drivers and interaction laws that deal with the intertwining of contexts and requirements. Yet, such studies are in their early stages, and agile methods only deal with micro-level evolution of local tasks, but ignore their recursive nature as the change propagates across higher-level architectures and systems. We need longitudinal studies of the dynamics of software ecologies and how different causes ranging from technological, user-level learning, organizational policies, market-based, and regulatory changes intertwine and generate new evolutionary paths and how such paths vary depending on the history of the system and its main structural elements.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="199" page="8" column="1">5.3. Managing through architectures</h2>
+          <region class="DoCO:TextChunk" id="207" page="8" column="1">Architectures are blueprints that connect high level organizational, business, or implementation elements and concerns with a long-term evolutionary perspective. Organizations now increasingly seek to conform to enterprise, business or information architectures that provide stability, scalability and control over their data, business processes, and decision procedures [ <xref ref-type="bibr" rid="R73" id="200" class="deo:Reference">73</xref>]. Designers have also relied on implementation architectures while evolving their designs. In its variety of forms, an architecture provides the stepping-stone necessary to understand and<marker type="column" number="2"/><marker type="block"/> evolve any system functionality across and within domains. Through release planning, requirements play a central role in system evolution, whereas architectures provide ‘‘nearly’’ fixed points of reference to moderate, constrain, and enable requirements evolution [<xref ref-type="bibr" rid="R64" id="202" class="deo:Reference">64</xref>]. Such dependence on architecture is inherent e.g., in Lehman’s law that ‘‘the incremental growth (growth rate trend) of evolutionary software systems is constrained by the need to maintain familiarity’’ [<xref ref-type="bibr" rid="R74" id="203" class="deo:Reference">74</xref>]. Architectural dependencies arise also in approaches such as IKIWISI- (I’ll Know It When I See It), and COTS-based software deployment [<xref ref-type="bibr" rid="R75" id="204" class="deo:Reference">75</xref>]. Although RE research has paid significant attention to software architectures, it offers limited insight into the role of architectures in the new RE terrains. Many of the past studies have focused on organizing sets of design elements and their components in the context of a single system. Accordingly, they view architectural design as akin to generating a blueprint for a single house. In the context of dynamic and more complex software ecologies as stated by three new requirements problems, such analog fails. In the brave new world, managing through architectures is mainly about simultaneously generating and evaluating multiple and multifaceted plans analogous to urban planning. Like urban planning blueprints, architectural models provide the key artifact for coordinating components, functionalities, and their evolution. As in urban planning, the architectures in RE may have alternative and overlaying variation points that influence the evolution of the software ecology. As in urban planning, architectures embody specific business models or design visions, and come in different forms in different design contexts. By doing so, they integrate the needs of multiple stakeholder groups with varying roles. Finally, like urban plans they involve a high degree of complexity and interdependencies. Therefore, in the new RE, we see an increasing need to understand the variation between types of architectural models and how they relate to specific system families, their ecologies, and evolution. Recent attempts to deal with architectural considerations include the transfer of industrial concepts, such as product lines to the software field [<xref ref-type="bibr" rid="R76" id="205" class="deo:Reference">76</xref>]. These help manage and cope with continuous and rapid change in software by defining the scale, scope, and direction of its variance, selection, and retention. Other architectural models such as business architectures [<xref ref-type="bibr" rid="R72" id="206" class="deo:Reference">72</xref>] help stakeholders to envision the impact of proposed changes on business by providing contextual information that allows for selecting variation points for requirements that help coordinate requirement sets across multiple stakeholders. Yet, many research challenges remain in exploiting the advantages of the notion of architecture: how do architectures influence the evolution of requirements and their identification? What is the nature of requirements discovery and elicitation under varying architectural principles? Is it possible or even desirable to construct a single common ontology of business, information, and technology architectures? How does one relate different architectural presentations and reason around them? How can architectures help in the dynamic composition of systems and ecologies?</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="208" page="9" column="1">1000</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="209" page="9" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="210" page="9" column="1">5.4. Recognize and mitigate against design complexity</h2>
+          <region class="DoCO:TextChunk" id="217" page="9" column="1">Complexity fundamentally arises from the existence of multiple uncertain futures that relate to software systems and their evolving ecologies [<xref ref-type="bibr" rid="R77" id="211" class="deo:Reference">77</xref>]. In this sense the complexity we face is common to the concerns of complexity that have been the center of organization and policy scientists since the 1960s [<xref ref-type="bibr" rid="R78" id="212" class="deo:Reference">78</xref>]. In short, the software design is changing of just being complicated to being inherently complex [<xref ref-type="bibr" rid="R79" id="213" class="deo:Reference">79</xref>]. In such systems, the behavior of the overall system is surprising and hard to predict (the predictability problem) because it is non-linear. A mix of human, social, political, economical, technological, and organizational factors and their constant interactions has a bearing on the level of complexity associated with RE making the behavior of the system and its environment non-linear. Overall, a new kind of interaction or systemic complexity 2 needs to be reckoned and managed, where design amounts to problem solving and framing with inherent uncertainties and feedback driven by partial unknowns [<xref ref-type="bibr" rid="R80" id="214" class="deo:Reference">80</xref>]. In such systems, intervening by adjusting one or two parameters related to requirements can drastically change the behavior of the whole system, and the whole is often very different from the sum of its parts. Dealing with such design complexity impacts two areas of RE: (1) strategic decision-making in generating and selecting requirements and how such a process can become self-organizing, as well as understanding its impact on the ecology; and (2) selecting tractable design-approaches that make complex system designs possible in which the rate of change is matched by the system designers and where the stability and the change are constantly ‘‘matched’’ [<xref ref-type="bibr" rid="R81" id="215" class="deo:Reference">81</xref>]. The former is concerned with how to relate and manage complexity with stakeholders within their subject world, whereas the latter influences behaviors within the development world. In the brave new world of RE, the implementation impacts not only the technical system, but also their organizational and social settings and often increases interaction complexity in unpredictable ways. In addition, the increased variety of requirements that emanate from diverse communities need to be negotiated, evaluated, and selected, thereby compounding complexity. Qualita- tive and often structural conceptual models, such as goal or business models, while rich and useful in representation and analysis for design are less helpful for stakeholder evaluation and understanding the interaction complexity [<xref ref-type="bibr" rid="R82" id="216" class="deo:Reference">82</xref>]. Due to its inherent complexity, it is also difficult for some stakeholders to visualize a design and infer from it a system’s behavior. For designers, it is tempting to think that stakeholders understand a design, when they do not really understand it at all. Therefore, many questions remain poorly understood concerning design complexity: what is the nature of design complexity and increased interaction complexity, and how can we identify, analyze and measure it?</region>
+          <region class="DoCO:TextChunk" id="218" confidence="possible" page="9" column="1">2 This should not be confused with computational complexity as defined by well-known complexity notions, such as NP hard problems.</region>
+          <region class="DoCO:TextChunk" id="225" page="9" column="2">One way of coping with design complexity is through simpler architectural designs and control that allow nearly decomposable system designs. This mitigates complexity by ensuring that interactions among components are weak, though not negligible and overall designs remain simpler while their interactions are capable of generating high levels of complexity [<xref ref-type="bibr" rid="R78" id="219" class="deo:Reference">78</xref>]. Thus, designing a nearly decomposable system in the face of uncertain requirements becomes a difficult satisficing problem. Perhaps, not surprisingly, a new look at design methodologies can play the central role here. Requirements methodologies need to be formulated based on simpler principles of self-organizing systems that enable rapid change by allowing constant and natural re-organization of the design space [<xref ref-type="bibr" rid="R78" id="220" class="deo:Reference">78</xref>, <xref ref-type="bibr" rid="R81" id="221" class="deo:Reference">81</xref>]. In this sense, an emergent design methodology that self-organizes will be an improvement over conventional a priori methodologies. For example, open source systems following nontradi- tional methodologies can evolve systems faster than traditional lifecycle and requirements-driven development approaches due to this constant process of self- organizing using simple rules of decomposability [<xref ref-type="bibr" rid="R83" id="222" class="deo:Reference">83</xref>]. The co-design and co-evolution of a system and its ecosystem plays a pivotal role in shaping the design complexity, as does the fact that ‘‘open source systems entail internal architectures with orthogonal features, sub-systems, or modules, as well as external system release architectures that span multiple deployment plat- forms’’ [<xref ref-type="bibr" rid="R83" id="223" class="deo:Reference">83</xref>]. Overall, a better grasp of complexity can be obtained, if system descriptions are tested against local concepts familiar to stakeholders, and multiple scenarios are played out by fixing key parameters as proposed by the architecture. Experimenting with different scenarios using feedback has proven a powerful means for disco- vering and refining requirements with heightened complexity [<xref ref-type="bibr" rid="R84" id="224" class="deo:Reference">84</xref>]. Still, we need to examine: what types of interdependencies influence and affect system change and create higher levels of design complexity? How can architectural models be exploited mitigate against design complexity, and to what extent they are a cause of it?</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="226" page="9" column="2">5.5. Our key design principles: summary</h2>
+          <region class="DoCO:TextChunk" id="236" page="9" column="2">The four principles are shown in <xref ref-type="table" rid="T2" id="227" class="deo:Reference">Table 2</xref> together with the rationale and motivations for deploying each principle. We do not claim that each principle applies in all contemporary design contexts. Still, a great deal of design problems can be characterized by a single system, smaller design and solution spaces, fixed goals and linear change. Here the received principles of separation of concerns, information hiding etc should still work. When designs become increasingly fluid, however, i.e., when goals and stakeholders start shift, when software designs integrate or embed with novel business processes, or when designs involve significant distribution of requirements across subject and development worlds we can expect the principle of intertwining of requirements and contexts to become pivotal. In other words, factors as those identified above can serve as threshold indicators suggesting that while abstraction still is<marker type="page" number="10"/><marker type="column" number="1"/><marker type="block"/> important, the variety, intensity and the number of dependencies within the software system and with its environment has crossed a certain threshold and new principles to mitigate systemic complexity are needed, which recognize the intertwining of requirements and the context. And, when a significant level of intertwining has kicked in the rest of the principles will follow. The four principles exhibit a high degree of causality (<xref ref-type="fig" rid="F1" id="233" class="deo:Reference">Fig. 1</xref>): intertwining increases the need for co-evolution; co-evolution leads to increasing need to manage the evolutionary process with appropriate architectures; this, in turn, increases the degree of intertwining. This causal loop suggests that interactions are non-linear that will inevitably drive up complexity, unless other mitigating factors intervene as discussed above. We can also ask whether these four principles are disjoint, and complete i.e., whether they overlap and whether there are additional principles. We have briefly addressed the question of disjointness by reviewing the distinct features and antecedents of each principle. This suggests that we cannot truly reduce the principles into a fewer number of principles. With regard to complexity we face the classical choice problem, which is often denoted as the model specification problem: do these principles account for the most new unaccounted ‘‘variance’’ in the way in which requirements are different from the past? Naturally, the time and constant falsifiability tests are the only sure way to address this problem. But based on the<marker type="column" number="2"/><marker type="block"/> debates in the workshops and constant tests of connect- ing the principles to the current issues of RE practice we remain convinced that they at least offer a minimum specification of the new principles.</region>
+          <outsider class="DoCO:TextBox" type="header" id="229" page="10" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="230" page="10" column="1">1001</outsider>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="231" page="10" column="1">Table 2 Four key requirements principles.</caption>
+            <content>
+              <table class="DoCO:Table" number="2" page="10">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Principle</th>
+                    <th class="table"> Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Intertwine</td>
+                    <td class="table.strange"> Requirements are interdependent with their social and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> requirements and</td>
+                    <td class="table"> technical contexts. As boundary objects in the intersection of</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> contexts</td>
+                    <td class="table"> technical and social domains, design requirements seek to</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> constantly resolve the gap between problems and solutions.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Specification and implementation intertwining is long</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> recognized, but the social context and specification</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> intertwining is growing in importance</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> RE Problem addressed: design requirements problem</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Evolve designs and</td>
+                    <td class="table"> Design ideas and artifacts evolve from stakeholder preferences</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> ecologies</td>
+                    <td class="table"> to implementations. Evolution needs to be managed through</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> selectively freezing some aspects while allowing increased</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> variation, dynamic selection and retention of structures and</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> behaviors in other aspects</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> RE Problem addressed: design requirements problem, specification</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> problem</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Manage through</td>
+                    <td class="table.strange"> Architecture is the least evolving and most widely referenced</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> architectures</td>
+                    <td class="table.strange"> anchor of any design, be it a business,, information, or</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> implementation architecture</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> RE Problem addressed: specification problem</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Recognize and</td>
+                    <td class="table.strange"> The necessity to consider simultaneously a large number of</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> mitigate against</td>
+                    <td class="table.strange"> issues and their non-linear interactions during design</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> design complexity</td>
+                    <td class="table.strange"> heightens design and requirements complexity</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> RE Problem addressed: predictability problem</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="232" confidence="possible" page="10" column="1">Principle Description Intertwine Requirements are interdependent with their social and requirements and technical contexts. As boundary objects in the intersection of contexts technical and social domains, design requirements seek to constantly resolve the gap between problems and solutions. Specification and implementation intertwining is long recognized, but the social context and specification intertwining is growing in importance RE Problem addressed: design requirements problem Evolve designs and Design ideas and artifacts evolve from stakeholder preferences ecologies to implementations. Evolution needs to be managed through selectively freezing some aspects while allowing increased variation, dynamic selection and retention of structures and behaviors in other aspects RE Problem addressed: design requirements problem, specification problem Manage through Architecture is the least evolving and most widely referenced architectures anchor of any design, be it a business,, information, or implementation architecture RE Problem addressed: specification problem Recognize and The necessity to consider simultaneously a large number of mitigate against issues and their non-linear interactions during design design complexity heightens design and requirements complexity RE Problem addressed: predictability problem</region>
+          </region>
+          <region class="unknown" id="235" page="10" column="2">Rationale Intertwining between business, organizational, community context and requirements is as important as its counterpart between requirements and implementation RE Issues driving the change : Fluidity of designs, , Business process focus; Integration focus, Distribution of requirements Everything evolves, but at different rates. Design capability needs to march with the rate of change in the requirements. Therefore, designs will expand requirements around relatively fixed evolutionary paths that allow for increased but controlled variation and effective selection, retention and diffusion RE issues driving the change : Fluidity of designs, Layers of requirements, Distribution of requirements, Packaged software If well-designed architecture evolves slowly but by doing so influences many and diverse requirements it needs architecture. We understand poorly, however, how architectures allow or constrain evolution. New RE issues : Interdependent complexity, business process focus, Centrality of architecture Historically, tools aided a small group in managing design decision-making. New methods need to enable self- organization and simple interactions to generate complex behaviors. Tools need to help monitor design evolution, highlighting its trajectory and helping negotiate requirements at the team and community level New RE issues: Interdependent Complexity, Fluidity of designs, Business process focus, Layers of requirements</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="237" page="10" column="2">6. Comparisons with conventional RE practices</h1>
+        <region class="DoCO:TextChunk" id="263" page="10" column="2">Conventional RE principles have been codified within established organizational and business models that underlie requirements practice. <xref ref-type="table" rid="T3" id="238" class="deo:Reference">Table 3</xref> shows one such model—CMMI requirements practices. ISO 9000 and IEEE Standard 830 contain similar, document-focused recom- mendations. Others have expanded these standards with guidelines for using specific requirements techniques (e.g., [<xref ref-type="bibr" rid="R18" id="239" class="deo:Reference">18</xref>]. Such practices form the basis for assessing an organization’s requirements maturity [<xref ref-type="bibr" rid="R85" id="240" class="deo:Reference">85</xref>]. Generally speaking, these practices are considered necessary, but perhaps not sufficient for effective RE practice [<xref ref-type="bibr" rid="R86" id="241" class="deo:Reference">86</xref>]. In their 1993 status report, Hsia et al. enumerate several barriers to success in requirements practice including: unrealistic schedules, hidden requirements, communication barriers, over-reliance on CASE tools, insufficient RE knowledge, requirements change, and ambiguous relationships between requirements and object-oriented designs [<xref ref-type="bibr" rid="R39" id="242" class="deo:Reference">39</xref>]. The last two are reflected in the new principles of intertwining and architecture. The idea of insufficient RE knowledge is reflected in the principle of complexity and co-evolution. The others seem<marker type="page" number="11"/><marker type="column" number="1"/><marker type="block"/> to be caused by the last three. Thus, we can argue that addressing and understanding the four new principles is paramount to building RE practices on a firm ground. Two subsequent roadmap articles in 2000 [<xref ref-type="bibr" rid="R37" id="249" class="deo:Reference">37</xref>, <xref ref-type="bibr" rid="R87" id="250" class="deo:Reference">87</xref>] summarize several common practices (such as [<xref ref-type="bibr" rid="R18" id="251" class="deo:Reference">18</xref>], but also raise important concerns that have not been success- fully addressed: (1) modeling must encompass social, environmental, and architectural descriptions, in addition to software modeling; (2) incomplete and inconsistent models are the norm—consequently, their evolution must be monitored and managed; and (3) reference models (of architectures, COTS applications, domains, requirements) should be applied to new projects. It is these very concerns are reflected in our new RE principles. The new RE principles espoused here augment conventional RE principles when the nature of requirements involves high levels of dynamism and complexity (Section 2). As introduced in Section 1, RE research has focused<marker type="column" number="2"/><marker type="block"/> primarily on notations and tools to manage internal complexity when the environment is relatively fixed, with less emphasis on software system ecologies. While addressing the ecology, the new RE principles focus more on software’s messy, real-world interface over time (principles 1 and 2 of <xref ref-type="table" rid="T2" id="253" class="deo:Reference">Table 2</xref>). With this expanded focus comes increased complexity, which calls for greater and different kinds of management effort than conventional RE (principles 3 and 4 of <xref ref-type="table" rid="T2" id="254" class="deo:Reference">Table 2</xref>). Thus, the new RE principles, should lead to new requirement management practices. To clarify the implications of the new RE principles, <xref ref-type="table" rid="T4" id="255" class="deo:Reference">Table 4</xref> summarizes new requirements practices in the style of CMMI practices. The presented practices illustrate how the new principles could be supported and enacted in real world settings. The list presented in the table is not claimed to be a complete nor the most effective set of practices. By analyzing conventional RE principles, as<marker type="page" number="12"/><marker type="column" number="1"/><marker type="block"/> codified within models of practice, we see that the four new RE principles are only indirectly recognized, if at all. As indicated in the references provided in the previous section many of them, however, have been applied in difference RE contexts. Next, we offer some clarifications for proposed entries of <xref ref-type="table" rid="T4" id="261" class="deo:Reference">Table 4</xref>: 1. Intertwine requirements and contexts: new RE considers the context within which requirements reside – the implementation, organizational, regulatory, etc. context – to be more influential and encompassing than past practices suggest. Thus, we highlight the new specific goal: SG 1—develop context requirements, with its practices of eliciting a context domain model, and developing context-product requirements and mappings. One can argue that such models are requirements thus contained in CMMI SG 1 and SG 2. A review of CMMI practices, however, reveals that the environment is a lesser concern. 3 The proposed practices reinforce the importance understanding the dynamic boundary between the system and its context [<xref ref-type="bibr" rid="R88" id="262" class="deo:Reference">88</xref>]. 2. Evolve designs and ecologies: new RE emphasizes the active role and importance of requirements evolution. Of course, CMMI explicitly addresses managing changing requirements (SP1.3). However, the new practices are not limited to documenting changes. Rather, in the new RE, monitoring requires active practices for observing changes in customer and context requirements, and customer satisfaction and seeking ways to instigate such change. These are summarized in SG 2. 3. Manage through architectures: new RE considers architectures to play a central role in generating, specifying, negotiation, and coordinating requirements and their evolution. The idea of architectures residing at multiple</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="244" page="11" column="1">1002</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="245" page="11" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="246" page="11" column="1">Fig. 1. Interactions between four principles.</caption>
+        </region>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="247" page="11" column="1">Table 3 Summary of conventional (CMMI) requirements practices.</caption>
+          <content>
+            <h1 class="table"> Requirements development Requirements management</h1>
+            <table class="DoCO:Table" number="3" page="11">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> SG 1—develop customer requirements</td>
+                  <td class="table"> SG 1 manage requirements</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> SP 1.1—elicit needs</td>
+                  <td class="table"> SP 1.1—obtain an understanding of requirements</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> SP 1.2—develop customer requirements</td>
+                  <td class="table"> SP 1.2—obtain commitment to requirements SP 1.3—manage requirements changes</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> SG 2—develop product requirements</td>
+                  <td class="table"> SP 1.4—maintain bidirectional traceability of requirements</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> SP 2.1—establish product and product component requirements</td>
+                  <td class="table"> SP 1.5—identify inconsistencies between project work and requirements</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 2.2—allocate product component requirements</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 2.3 identify interface Requirements</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SG 3—analyze and validate requirements</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 3.1—establish operational concepts and scenarios</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 3.2—establish a definition of required functionality</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 3.3—analyze requirements</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 3.4—analyze requirements to achieve balance</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> SP 3.5—validate requirements</td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="248" confidence="possible" page="11" column="1">Requirements development Requirements management SG 1—develop customer requirements SG 1 manage requirements SP 1.1—elicit needs SP 1.1—obtain an understanding of requirements SP 1.2—develop customer requirements SP 1.2—obtain commitment to requirements SP 1.3—manage requirements changes SG 2—develop product requirements SP 1.4—maintain bidirectional traceability of requirements SP 2.1—establish product and product component requirements SP 1.5—identify inconsistencies between project work and requirements SP 2.2—allocate product component requirements SP 2.3 identify interface Requirements SG 3—analyze and validate requirements SP 3.1—establish operational concepts and scenarios SP 3.2—establish a definition of required functionality SP 3.3—analyze requirements SP 3.4—analyze requirements to achieve balance SP 3.5—validate requirements</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="257" page="12" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="258" page="12" column="1">1003</outsider>
+        <region class="DoCO:TableBox" id="T4">
+          <caption class="deo:Caption" id="259" page="12" column="1">Table 4 Summary of new requirements practices, based on the new principles.</caption>
+        </region>
+        <region class="unknown" id="260" page="12" column="1">New RE principle Potential new practices Intertwine requirements and contexts SG 1—develop context requirements SP 1.1—elicit context domain model SP 1.2—develop context-product requirements Evolve designs and ecologies SG 2—manage requirements in context SP 2.1—monitor and evolve customer requirements SP 2.1—monitor and evolve context requirements SP 2.1—monitor product satisfaction of requirements (continuous validation) Manage through architectures SG 3—manage architectural requirements SP 3.1—specify architectural styles SP—3.2—specify product line requirements SP 3.3—analyze support of evolutionary in architectural requirements Recognize and mitigate against design SG 4—manage design complexity complexity SP 4.1—identify requirements that contribute to increased design complexity SP 4.2—analyze requirements to achieve a balance between design complexity and customer satisfaction</region>
+        <region class="DoCO:TextChunk" id="264" confidence="possible" page="12" column="1">3 CMMI SP 3.1 subpractice 2 is closely related, but its lack of development and nesting within the practices reveals it as a lesser consideration. SP 3.1 subpractice 2: ‘‘Define the environment in which the product or product component will operate, including boundaries and constraints.’’</region>
+        <region class="DoCO:TextChunk" id="268" page="12" column="2">levels and viewpoints both implies and limits requirements, which in turn can be used to coordinate and manage requirements evolution. In contract, CMMI SG 2 assumes no specific role for architectures within their waterfall model: ‘‘Customer requirements are refined and elaborated to develop product and product component requirements.’’ Thus, new RE practices explicitly consider the influence and importance of architectures on requirements and their evolution (SG 3 of <xref ref-type="table" rid="T4" id="265" class="deo:Reference">Table 4</xref>). 4. Recognize and mitigate against design complexity: New RE considers the design complexity to be inherent the requirements level due to the dynamism and interactions between the system and the environment. Traditionally, design complexity was part of effort estimation and project planning where a fixed level of complexity was assumed. In the new RE, design complexity rises to the level of other important requirements qualities, such as risk, which have a defined role in project management [<xref ref-type="bibr" rid="R89" id="266" class="deo:Reference">89</xref>]. Thus, the new RE practices explicitly identify and analyze design complexity and ways of mitigating against it. With recognition of the new RE principles will come new RE research directions in how to integrate these principles into effective RE approaches and practices, and how to improve RE methods and tools. In this regard, <xref ref-type="table" rid="T4" id="267" class="deo:Reference">Table 4</xref> hints at several fruitful new practices. We will next discuss the implications of these changes in broader context of RE research.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="269" page="12" column="2">7. Implications for research and practice</h1>
+        <region class="DoCO:TextChunk" id="290" page="12" column="2">Over its 30-year history, the idea of design requirements has changed from single, static and fixed-point statements of desirable system properties into dynamic and evolving rationales that mediate dynamic change between the business environments and the design and implementation worlds. As Fred Brooks noted in Dagstuhl workshop: ‘‘Design is not about solving fixed problems; it is constant framing of solution spaces’’. This evolution has now probably reached a new tipping point characterized <marker type="page" number="13"/><marker type="column" number="1"/><marker type="block"/> by unprecedented scale, complexity, and dynamism as reflected in the four requirements principles. This new brave RE world calls for fresh ways to think about requirements and their role. As in earlier turning points, such as the software crisis in the 1970s, the new world demands a resolute and careful intellectual response.<marker type="column" number="2"/><marker type="block"/> The four principles have numerous implications for research and shaping of the future RE research agenda. In the course of the empirical research and the two workshops, a large number of specific research questions were identified and debated which offer a useful glimpse to contours of relevant future research on RE. They are<marker type="page" number="15"/><marker type="column" number="1"/><marker type="block"/> offered here (in <xref ref-type="table" rid="T5" id="283" class="deo:Reference">Table 5</xref>) as starting point for a continued debate for future research on RE though due to concerns of brevity they cannot be discussed here in all detail. <xref ref-type="table" rid="T5" id="284" class="deo:Reference">Table 5</xref> provides a list of research themes and issues in need for additional research, organized according to the four principles. Starting from the complexity principle, they regard both the complexity of systems and the related complexity of stakeholder settings, leading to fundamental questions also concerning the basic conceptualizations of design we should pursue. In information systems arena, the intertwining of requirements and contexts is perhaps most virulent concerning the business context, even though other context aspects such as locality, user competencies, or device contexts are gaining in importance as people are using increasingly embedded systems on the move. This will also change the visualization, representation, and analysis tools we need in requirements engineering. One crucial aspect not only here is the fluidity of designs, one of the key aspects of evolution. Last not least, architectures are hoped to be the relatively stable element in this continuously evolving world, but significant research questions remain how exactly they need to look like, and by which tools and properties they should be supported. There are also multiple implications for RE practice: both at the management and at the engineering level. For the sake of brevity, we discuss below three closely related strategies that need to be pursued and are being exposed by the four principles. Importance of understanding the edge: the criticality of understanding and creating the edge—where the boundaries of the system and its functionality are ‘‘shifting’’ is becoming highly critical in RE. This is at the heart of managing the dynamics of the specification and predictability problem. Due to these dynamics many of the old ‘wisdoms’ are disappearing. For example, the distinction between users and developers is vanishing: the user networks and the developer networks are becoming increasingly fuzzy and intermingled. Many contributors to designs and even implementations are no longer located in the development kernel, but come from the shifting network edge. This situation generates greater diversity of system variants and system uses. Accordingly, web-based service networks (e.g., mashups) have proven to be the infrastructure of choice for such settings, offering quick and dirty design and validation of changes targeted at limited market portions. At the edge, design incentives now often go beyond monetary ones. In contrast, bricoleurs at the edge must be harnessed to contribute to usability and functionality through multiple related strategies and organization. This is broadening often design environments towards Open Innovation, which involve huge numbers of customers in RE organized in a growing social and technology network. For example, the success of Facebook as a leading social network is largely due to its strategic decisions to open up its APIs and their requirements evolution for third- party developers in 2007 [<xref ref-type="bibr" rid="R90" id="285" class="deo:Reference">90</xref>]. Thus, transparency, accountability, and maintenance of a core vision in soft- ware-induced ecologies have become highly important. Requirements traceability within such evolutionary<marker type="column" number="2"/><marker type="block"/> processes often involves runtime monitoring towards the requirements. Finally, new design goals enter often the stage. For example, industrial design ideals such as innovativeness or esthetics of the user experience play a larger role than just meeting sheer functionality. Capability-based evolution: for the past 20 years, the dominant trend has been business process modeling and optimization that go together within monolithic COTS systems, or software product lines with relatively closed sets of requirements. When the nature of design requirements problem and the specification problem are fundamentally changing this concept of optimization and fixing designs will not do. In contrast, we need to understand how creation of capabilities drives and constraints requirements evolution. We are therefore witnessing a move towards evolutionary platforms, which are defined by complex consumption and production lattices (and related enabling architectures). Such networks need to self-organize or find ways to organize in flexible and loosely coupled manner as to define their core capabilities, and seek opportunities (often initiated from the edge) to exploit for market or process innovations in a speedy and flexible manner. Capability-based evolution defines core capabilities that can be competitively delivered with and by the software induced networks. These platforms also hold the networks together. By fixing core requirements and the related architecture for the efficient core implementation, the ecology designer makes bets on the speed and variability of change related to alternative requirements sets, which need to be delivered with an evolving set of capabilities (and the network). For example, software platform strategies have become a critical success factor in the automotive industry. However, this advantage can also turn into a deadly trap, when the company must be split in a manner orthogonal to the car original platform, assumed requirements evolution, and related networks. Ideas of evolutionary platforms extend thus beyond the notion of product lines. In addition to managing variability evolution, they need to consider distinctions between core processes (supported in the platform) and context processes (around it) and their dynamism. These distinctions must be based on a careful analysis of market power and network strength, and anticipate evolution in the underlying technological standards and architectures. However, as evidenced by the success of platforms such as Amazon, Google or Facebook, a well designed platform offers numerous opportunities for new types of requirements engineering based on system monitoring, e.g., social network analysis. Managing business semantics and new task variety: due to predictability problem, the evolution of most systems must be aligned more closely with the change in the business process or system and its punctuations. Service oriented architectures, possibly combined with model- driven code and test generation, are now reasonably well established at the implementation level to do the job. The situation is quite different, however, at the level of business services, despite continued attempts for their standardization. The decomposition of monolithic business processes or product architectures (e.g., in cars) into more loosely configurable business services (or modules)<marker type="page" number="16"/><marker type="column" number="1"/><marker type="block"/> has turned out to be a far more complex task than anticipated due to the need to make semantics explicit that were hitherto hidden in the code, or people’s heads. This is, however, not only true for runtime service con- figurations, but also when outsourcing and especially when off-shoring. The design challenge is how to tackle the domain of (business) semantics, which is often culture dependent. Intercultural competencies often become necessary for requirements engineers operating in these new environments. Legal compliance is also forming an increasingly challenging aspect, not only in terms of how to protect my intellectual property (IP) embedded in code, or requirements (or whether even to protect it), but also in terms of protecting oneself against being sued due to imprecise contractual agreements or for example, not honoring open source licenses in some parts of code buried in the implementation. To summarize, the good news of our foray into the world of RE is that RE has never been more important and its criticality will continue to grow. The bad news is that RE is a different endeavor now. Accordingly, we need to approach RE in new ways where we intertwine requirements and contexts, evolve designs and ecologies, manage through architectures and learn to recognize and mitigate against design complexity. Consequently, we need to expand RE research into new directions – including complexity science, industrial design, organization design, and behavioral economics – and engage these fields in an intellectual exchange on why and how design requirements matter in the design of complex software within a living – and therefore evolving – world.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="271" page="13" column="1">1004</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="272" page="13" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <region class="DoCO:TableBox" id="T5">
+          <caption class="deo:Caption" id="274" page="13" column="1">Table 5 Research questions associated with the four principles.</caption>
+          <content>
+            <table class="DoCO:Table" number="5" page="13">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Topic</th>
+                  <th class="table"> Topic description</th>
+                  <th class="table"> Research questions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> 1. Intertwine requirements and</td>
+                  <td class="table.strange"> Business process or related user experience is</td>
+                  <td class="table.strange"> Can organization design anymore be separated</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> contexts: example business process</td>
+                  <td class="table"> the key unit of requirements analysis</td>
+                  <td class="table"> from infrastructure and information system</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> context</td>
+                  <td class="table"> Process design is becoming the cornerstone of</td>
+                  <td class="table"> design?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements discovery and a means to bound or</td>
+                  <td class="table"> How can we detect and deal with new types of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> enable design efforts</td>
+                  <td class="table"> indeterminism when dealing with a multitude of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Ways of making sense and representing business</td>
+                  <td class="table"> business rules?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> models affect process designs</td>
+                  <td class="table"> Issues traditionally embedded into operating</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Requirements are increasingly grounded on</td>
+                  <td class="table"> systems, gets on the organization level (scheduling,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> higher level business models and business</td>
+                  <td class="table"> etc.). The power of process modeling is in</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> process architectures including industry wide</td>
+                  <td class="table"> generating multiple models across an organization</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> generic process and data standards</td>
+                  <td class="table"> as to cross check them. How do you address the use and semantics of such models? How to look for the ’’meta-patterns’’ for business design and cull that from the user data? Business models are scaling up; there is no distinction between enterprise and business process level models. How can you address the higher level of granu-larity and change? How do you validate them? How to model, analyze, and align business models and associated software models like e.g., software platforms?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 1. Intertwine requirements and</td>
+                  <td class="table"> Visualization and information re-presentation</td>
+                  <td class="table"> What models and visualization schemes are</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> contexts: visualization,</td>
+                  <td class="table"> play a critical role in requirements processes.</td>
+                  <td class="table"> needed to represent and analyze complex model</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> representation and analysis of</td>
+                  <td class="table"> They shape requirements discovery,</td>
+                  <td class="table"> interactions or to locate and discover</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> requirements</td>
+                  <td class="table"> organization, validation and verification</td>
+                  <td class="table"> requirements?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> New requirements features necessitate powerful</td>
+                  <td class="table"> Design artifacts and their meanings are social.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> capabilities that allow visualization of</td>
+                  <td class="table"> What new representations we need to offer a</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements and systems across stakeholders</td>
+                  <td class="table"> means to negotiate meanings and sense-making</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> and design contexts</td>
+                  <td class="table"> across different groups? Today one user works with many computers, in distributed environments, which serve multiple people. How can we represent these communities and their growth in our theorizing and analysis?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2. Evolve designs and ecologies</td>
+                  <td class="table"> Requirements evolve constantly from the</td>
+                  <td class="table"> How do environments evolve designs as the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> perspective of design participants and other</td>
+                  <td class="table"> environments constantly and increasingly change?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> stakeholders</td>
+                  <td class="table"> What changes in requirements are due to the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Evolution implies fluidity of designs resulting in</td>
+                  <td class="table"> introduction of new technological capabilities?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> incompleteness in design requirements and</td>
+                  <td class="table"> What is the maximum scope and rate of change</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> highly adaptive systems</td>
+                  <td class="table"> that is sustainable?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Novel interactions between models and systems</td>
+                  <td class="table"> What types of new ‘‘informalisms’’ we need to</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> as enabled by run-time evolution</td>
+                  <td class="table"> identify and make sense of the change, in addition</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> The transience of requirements within design</td>
+                  <td class="table"> to old formalisms?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> affects designer and stakeholder learning</td>
+                  <td class="table"> What types of run time mechanisms we need to</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Drivers for requirements change will become</td>
+                  <td class="table"> monitor and evaluate satisfaction of the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> diverse and more powerful. This affects</td>
+                  <td class="table"> requirements?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements negotiation as designers need to</td>
+                  <td class="table"> How can we formulate and choose good design</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> recognize critical killer/non-negotiable</td>
+                  <td class="table"> metrics and create a ‘‘design dashboards’’ for fluid</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements</td>
+                  <td class="table"> designs’’? Requirements come now often after implementation. How can we make sense of emerging webs of discourse that negotiate and make sense what are the directions of change with these requirements? What are the consistent properties (constraints)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> i.e., the ‘‘design anchors’’ that help keep design</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> stable? What can become the decision basis of</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> sustainable incomplete designs?</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="275" confidence="possible" page="13" column="1">Topic Topic description Research questions 1. Intertwine requirements and Business process or related user experience is Can organization design anymore be separated contexts: example business process the key unit of requirements analysis from infrastructure and information system context Process design is becoming the cornerstone of design? requirements discovery and a means to bound or How can we detect and deal with new types of enable design efforts indeterminism when dealing with a multitude of Ways of making sense and representing business business rules? models affect process designs Issues traditionally embedded into operating Requirements are increasingly grounded on systems, gets on the organization level (scheduling, higher level business models and business etc.). The power of process modeling is in process architectures including industry wide generating multiple models across an organization generic process and data standards as to cross check them. How do you address the use and semantics of such models? How to look for the ’’meta-patterns’’ for business design and cull that from the user data? Business models are scaling up; there is no distinction between enterprise and business process level models. How can you address the higher level of granu-larity and change? How do you validate them? How to model, analyze, and align business models and associated software models like e.g., software platforms? 1. Intertwine requirements and Visualization and information re-presentation What models and visualization schemes are contexts: visualization, play a critical role in requirements processes. needed to represent and analyze complex model representation and analysis of They shape requirements discovery, interactions or to locate and discover requirements organization, validation and verification requirements? New requirements features necessitate powerful Design artifacts and their meanings are social. capabilities that allow visualization of What new representations we need to offer a requirements and systems across stakeholders means to negotiate meanings and sense-making and design contexts across different groups? Today one user works with many computers, in distributed environments, which serve multiple people. How can we represent these communities and their growth in our theorizing and analysis? 2. Evolve designs and ecologies Requirements evolve constantly from the How do environments evolve designs as the perspective of design participants and other environments constantly and increasingly change? stakeholders What changes in requirements are due to the Evolution implies fluidity of designs resulting in introduction of new technological capabilities? incompleteness in design requirements and What is the maximum scope and rate of change highly adaptive systems that is sustainable? Novel interactions between models and systems What types of new ‘‘informalisms’’ we need to as enabled by run-time evolution identify and make sense of the change, in addition The transience of requirements within design to old formalisms? affects designer and stakeholder learning What types of run time mechanisms we need to Drivers for requirements change will become monitor and evaluate satisfaction of the diverse and more powerful. This affects requirements? requirements negotiation as designers need to How can we formulate and choose good design recognize critical killer/non-negotiable metrics and create a ‘‘design dashboards’’ for fluid requirements designs’’? Requirements come now often after implementation. How can we make sense of emerging webs of discourse that negotiate and make sense what are the directions of change with these requirements? What are the consistent properties (constraints) i.e., the ‘‘design anchors’’ that help keep design stable? What can become the decision basis of sustainable incomplete designs?</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="277" page="14" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="278" page="14" column="1">1005</outsider>
+        <region class="DoCO:TableBox" id="T5">
+          <caption class="deo:Caption" id="279" page="14" column="1">Table 5 (continued )</caption>
+          <content>
+            <table class="DoCO:Table" number="5" page="14">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Topic</th>
+                  <th class="table"> Topic description</th>
+                  <th class="table"> Research questions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> How to integrate fixed and soft requirements and best effort designs based on evolving preferences? How to adapt to new requirements or satisfy existing requirements through software based monitoring and evaluation Can we analyze how requirements are learned and diffuse along with new technologies?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 3. Managing through architectures</td>
+                  <td class="table"> New technologies and architectures shape</td>
+                  <td class="table"> Architectural plans in enterprise wide systems</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> design spaces and influence the identification,</td>
+                  <td class="table"> allows for consolidation of computing services,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> documentation, and management of</td>
+                  <td class="table"> aggregation of financial services, etc. How does this</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements</td>
+                  <td class="table"> influence where and how requirements are</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> New interactions between legacy infrastructures</td>
+                  <td class="table"> coordinated, and managed and how does it</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> and emerging technologies including the</td>
+                  <td class="table"> influence the interaction between local and global</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> discovery and projection of new requirements</td>
+                  <td class="table"> requirements?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> from technological opportunities</td>
+                  <td class="table"> Higher level software abstraction mechanisms like model driven architectures (MDA) or software as service (SaaS) have emerged. How does one integrate these into requirements discovery and validation processes? How do they influence the scope and evolution of requirements and their discovery? How do emerging standard data and process architectures force conformity to requirement and related rules sets? Is this is good thing and under what circumstances? Tradeoff’s form an important element of design: how do you design for trade-offs when new technologies and anticipatory standards emerge? Can we understand how anticipatory standards shape and interact with requirements?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4. Recognize and mitigate against</td>
+                  <td class="table"> Systems increase in their complexity and designs</td>
+                  <td class="table"> How can we address questions of centralized</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> design complexity: systems</td>
+                  <td class="table"> involve increasingly management of</td>
+                  <td class="table"> control vs. distributed information requirements in</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> perspective</td>
+                  <td class="table"> interdependencies between elements. The</td>
+                  <td class="table"> new ways as the complexity increases?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> complexity is addressed by improved</td>
+                  <td class="table"> Requirements emerge often due to increased</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> modularity, but this increases system</td>
+                  <td class="table"> specialization. This allows on one hand for removal</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> interactions and scale and thus increases</td>
+                  <td class="table"> of complexity and its black-boxing. But, at the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> complexity.</td>
+                  <td class="table"> same time this requires understanding principles</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Design ambiguity and uncertainty has increased</td>
+                  <td class="table"> of modularity. How can we achieve balance</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> and they affect requirements discovery</td>
+                  <td class="table"> between modularity and specialization when the complexity and dynamism increases?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4. Recognize and mitigate against</td>
+                  <td class="table"> Stakeholder’s role in requirements efforts is</td>
+                  <td class="table"> How can requirements processes and stakeholder</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> design complexity: stakeholder</td>
+                  <td class="table"> changing and diversifying</td>
+                  <td class="table"> involvement embrace both technical and political</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> perspective</td>
+                  <td class="table"> Roles including end user based learning and</td>
+                  <td class="table"> considerations at the same time and address</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> need discovery</td>
+                  <td class="table"> simultaneously technical and political</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> New forms of engagement are emerging</td>
+                  <td class="table"> requirements?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> including: wide area user participation;</td>
+                  <td class="table"> How do we navigate through design spaces when</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> community driven requirements discovery; new</td>
+                  <td class="table"> different stakeholders have a different</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> participation roles and duties; changing</td>
+                  <td class="table"> understanding of terms and world assumptions?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> governance, new incentives, and varied forms of</td>
+                  <td class="table"> Can different design artifacts be used to make some</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> negotiation and conflict resolution</td>
+                  <td class="table"> stakeholder believe that they have more shared understanding than actually prevails?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4. Recognize and mitigate against</td>
+                  <td class="table"> Fundamentally new design concepts and</td>
+                  <td class="table"> How to put multiple owners of problems ‘‘in</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> design complexity:</td>
+                  <td class="table"> processes that enable design are emerging</td>
+                  <td class="table"> charge’’ of their problems?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> conceptualizations of design</td>
+                  <td class="table"> The role and function of requirements in</td>
+                  <td class="table"> How to explain or analyze adequately ill-defined</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> generating and assessing design are changing</td>
+                  <td class="table"> problems, and how does externalizing some of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Challenges and opportunities associated with</td>
+                  <td class="table"> them improve the design ability?</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> diverse design theories and their associated</td>
+                  <td class="table"> How to design an ecology instead of a bounded</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> requirements will drive design research</td>
+                  <td class="table"> system?</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> If requirements encompass the idea of an open, evolving system how can we design with an idea of a fixed and closed set of requirements? What do open requirements mean and how do we manage them effectively?</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="280" confidence="possible" page="14" column="1">Topic Topic description Research questions How to integrate fixed and soft requirements and best effort designs based on evolving preferences? How to adapt to new requirements or satisfy existing requirements through software based monitoring and evaluation Can we analyze how requirements are learned and diffuse along with new technologies? 3. Managing through architectures New technologies and architectures shape Architectural plans in enterprise wide systems design spaces and influence the identification, allows for consolidation of computing services, documentation, and management of aggregation of financial services, etc. How does this requirements influence where and how requirements are New interactions between legacy infrastructures coordinated, and managed and how does it and emerging technologies including the influence the interaction between local and global discovery and projection of new requirements requirements? from technological opportunities Higher level software abstraction mechanisms like model driven architectures (MDA) or software as service (SaaS) have emerged. How does one integrate these into requirements discovery and validation processes? How do they influence the scope and evolution of requirements and their discovery? How do emerging standard data and process architectures force conformity to requirement and related rules sets? Is this is good thing and under what circumstances? Tradeoff’s form an important element of design: how do you design for trade-offs when new technologies and anticipatory standards emerge? Can we understand how anticipatory standards shape and interact with requirements? 4. Recognize and mitigate against Systems increase in their complexity and designs How can we address questions of centralized design complexity: systems involve increasingly management of control vs. distributed information requirements in perspective interdependencies between elements. The new ways as the complexity increases? complexity is addressed by improved Requirements emerge often due to increased modularity, but this increases system specialization. This allows on one hand for removal interactions and scale and thus increases of complexity and its black-boxing. But, at the complexity. same time this requires understanding principles Design ambiguity and uncertainty has increased of modularity. How can we achieve balance and they affect requirements discovery between modularity and specialization when the complexity and dynamism increases? 4. Recognize and mitigate against Stakeholder’s role in requirements efforts is How can requirements processes and stakeholder design complexity: stakeholder changing and diversifying involvement embrace both technical and political perspective Roles including end user based learning and considerations at the same time and address need discovery simultaneously technical and political New forms of engagement are emerging requirements? including: wide area user participation; How do we navigate through design spaces when community driven requirements discovery; new different stakeholders have a different participation roles and duties; changing understanding of terms and world assumptions? governance, new incentives, and varied forms of Can different design artifacts be used to make some negotiation and conflict resolution stakeholder believe that they have more shared understanding than actually prevails? 4. Recognize and mitigate against Fundamentally new design concepts and How to put multiple owners of problems ‘‘in design complexity: processes that enable design are emerging charge’’ of their problems? conceptualizations of design The role and function of requirements in How to explain or analyze adequately ill-defined generating and assessing design are changing problems, and how does externalizing some of Challenges and opportunities associated with them improve the design ability? diverse design theories and their associated How to design an ecology instead of a bounded requirements will drive design research system? If requirements encompass the idea of an open, evolving system how can we design with an idea of a fixed and closed set of requirements? What do open requirements mean and how do we manage them effectively?</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="281" page="15" column="1">1006</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="282" page="15" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="288" page="16" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="289" page="16" column="1">1007</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="291" page="16" column="1">Acknowledgments</h1>
+        <region class="DoCO:TextChunk" id="292" page="16" column="1">We thank Barbara Pernici and three anonymous reviewers for constructive criticisms which lead to significant improvement in the papers argument and organization. We thank Sean Hansen, Nicholas Berente, Dominik Schmitz, and Anna Glukhova for helping to organize the workshops, and the workshop participants for inspiring discussions and Sol Greenspan for constructive comments on earlier drafts of the manuscript. This research was in part funded by National Science Founda- tion’s ‘‘Science of Design’’ initiative, Grant no. CCF0613606, by DFG projects CONTICI and the UMIC Excellence Cluster; also by the Natural Sciences and Engineering Research Council (NSERC) of Canada.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="293" page="16" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="294" page="16" column="1">[1] P. Frederick, J. Brooks, The Mythical Man-Month, Addison-Wesley, 1995.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="295" page="16" column="1">[2] D.T. Ross, K.E. Schoman Jr., Structured analysis for requirements definition, Transactions on Software Engineering SE-3 (1) (January 1977) 6–15.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="296" page="16" column="1">[3] B.H.C. Cheng, J.M. Atlee, Current and future research directions in requirements engineering, in: K. Lyytinen, P. Loucopoulos, J. Mylopoulos, W. Robinson (Eds.), Design Requirements Engineering—A Multi-Disciplinary Perspective for the Next Decade, Springer-Verlag, 2009.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="298" page="16" column="1">[4] S. Hansen, K. Lyytinen, N. Berente, Requirements in the 21st century: current practice and emerging trends, in: K. Lyytinen, <marker type="column" number="2"/><marker type="block"/> P. Loucopoulos, J. Mylopoulos, W. Robinson (Eds.), Design Requirements Engineering—A Multi-disciplinary Perspective for the Next Decade, Springer-Verlag, 2009.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="299" page="16" column="2">[5] I. Jacobsen, M. Christerson, P. Jonsson, G. O  ̈ vergaard, Object- oriented software engineering—a use case-driven approach, in: J. Carroll (Ed.), Scenario-Based Design, Wiley, 1997.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="300" page="16" column="2">[6] B.W. Boehm, A spiral model of software development and enhance- ment, Computer 21 (5) (May 1988) 61–72.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="301" page="16" column="2">[7] O.C.Z. Gotel, C.W. Finkelstein, An analysis of the requirements traceability problem, in: Proceedings of the First International Conference on Requirements Engineering, Colorado Springs, CO, USA, 1994, pp. 94–101.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="302" page="16" column="2">[8] B. Ramesh, M. Jarke, Toward reference models for requirements traceability, IEEE Transactions on Software Engineering 27 (1) (2001) 58–93.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="303" page="16" column="2">[9] K. Lyytinen, P. Loucopoulos, J. Mylopoulos, B. Robinson, Design Requirements Engineering: A Ten-Year Perspective, Design Requirements Workshop, Cleveland, OH, USA, June 3–6, 2007, Revised and Invited Papers, Springer-Verlag, Heidelberg, 2009, p. 495.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="304" page="16" column="2">[10] T. O’Reilly, What is web 2.0, Design patterns and business models for the next generation of software 30 (2005) 2005.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="305" page="16" column="2">[11] S. Hansen, N. Berente, K. Lyytinen, Principles of Requirements Processes at the Dawn of 21st Century, Inge  ́ nierie des Syst emes d’Information 13 (1) (2008) 9–35.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="306" page="16" column="2">[12] L. Scharer, Pinpointing requirements, Datamation 27 (4) (1981) 139–151.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="307" page="16" column="2">[13] M. Bergman, J. King, K. Lyytinen, Large-scale requirements analysis revisited: The need for understanding the political ecology of requirements engineering, Requirements Engineering 7 (3) (2002) 152–171.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="308" page="16" column="2">[14] A. Davis, Software Requirements: Objects, Functions, and States, Prentice-Hall, 1993.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="309" page="16" column="2">[15] E. Hull, K. Jackson, J. Dick, Requirements Engineering, Springer, 2005.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="310" page="16" column="2">[16] M.J. Jackson, Software requirements and Specifications: A Lexicon of Practice, Principles, and Prejudices, ACM Press; Addison-Wesley Pub. Co., New York, Wokingham, England; Reading, MA, 1995, pp. xvi, 228.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="311" page="16" column="2">[17] P. Loucopoulos, V. Karakostas, System Requirements Engineering, McGraw-Hill Book Co, London, New York, 1995, pp. x, 160.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="312" page="16" column="2">[18] I. Sommerville, P. Sawyer, Requirements Engineering: A Good Practice Guide, John Wiley &amp; Sons, Chichester, England; New York, 1997, p. 391.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="313" page="16" column="2">[19] K. Wiegers, Read my lips: No new models! Software, IEEE 15 (5) (2002) 10–13.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="314" page="16" column="2">[20] R. Wieringa, Requirements Engineering: Frameworks for Understanding, Wiley, Chichester, England; New York, 1996, pp. xvi, 453.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="315" page="16" column="2">[21] D. Windle, L. Abreo, Software Requirements Using the Unified Process: A Practical Approach, Prentice-Hall PTR, 2003.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="316" page="16" column="2">[22] I. Vessey, S. Conger, Requirements specification: learning object, process, and data methodologies, Communications of the ACM 37 (5) (1994) 102–113.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="317" page="16" column="2">[23] R.H. Thayer, M. Dorfman, Software Requirements Engineering, 2nd ed., IEEE Computer Society Press, Los Alamitos, California, 1997, pp. xvii, 483, [481] folded leaf of plates.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="318" page="16" column="2">[24] C. Ghezzi, M. Jazayeri, D. Mandrioli, Fundamentals of Software Engineering, Prentice-Hall PTR, Upper Saddle River, NJ, USA, 2002.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="319" page="16" column="2">[25] B. Boehm, Verifying and validating software requirements and design specifications, IEEE Software 1 (1) (1984) 75–88.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="320" page="16" column="2">[26] J. Goguen, C. Linde, Techniques for requirements elicitation, in: Proceedings of the IEEE International Symposium on Requirements Engineering, IEEE, San Diego, CA, USA, 1993, pp. 152–164.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="321" page="16" column="2">[27] G. Kotonya, I. Sommerville, Requirements Engineering: Processes and Techniques, John Wiley, New York, 1998.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="322" page="16" column="2">[28] J. Siddiqi, Challenging Universal Truths of Requirements Engineering, IEEE Software 11 (2) (1994) 19.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="323" page="16" column="2">[29] D. Zowghi, C. Coulin, Requirements elicitation: a survey of techniques, approaches, and tools, Engineering and Managing Software Requirements (2005) 19–46.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="324" page="16" column="2">[30] R. Agarwal, M. Tanniru, Knowledge acquisition using structured interviewing: an empirical investigation, Journal of Management Information Systems (1990) 123–140.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="325" page="16" column="2">[31] T. Byrd, K. Cossick, R. Zmud, A synthesis of research on requirements analysis and knowledge acquisition techniques, MIS Quar- terly 16 (1) (1992) 117–138.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="326" page="16" column="2">[32] G. Wright, P. Ayton, Eliciting and modelling expert knowledge* 1, Decision Support Systems 3 (1) (1987) 13–26.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="327" page="16" column="2">[33] H. Beyer, K. Holtzblatt, Apprenticing with the customer, Communications of the ACM 38 (5) (1995) 45–52.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="330" page="17" column="1">[34] S. Viller, I. Sommerville, Social analysis in the requirements engineering process: from ethnography to method, IEEE (2002) 6–13.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="331" page="17" column="1">[35] M. Alavi, An assessment of the prototyping approach to information systems development, Communications of the ACM 27 (6) (1984) 556–563.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="332" page="17" column="1">[36] P. Beynon-Davies, D. Tudhope, H. Mackay, Information systems prototyping in practice, Journal of Information Technology 14 (1) (1999) 107–120.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="333" page="17" column="1">[37] A. van Lamsweerde, Requirements Engineering in the year 00: a research perspective, in: Proceedings of the 22nd International Conference on Software Engineering (ICSE), IEEE, 2000.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="334" page="17" column="1">[38] A. Borgida, S. Greenspan, J. Mylopoulos, Knowledge representation as the basis for requirements specifications, Computer 18 (4) (1985) 82–91.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="335" page="17" column="1">[39] P. Hsia, A. Davis, D. Kung, Status report: requirements engineering, IEEE Software 10 (6) (1993) 75–79.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="336" page="17" column="1">[40] H.B. Reubenstein, R.C. Waters, The Requirements Apprentice: Automated Assistance for Requirements Acquisition, IEEE Transactions on Software Engineering 17 (3) (1991) 226–240.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="337" page="17" column="1">[41] V. Gervasi, B. Nuseibeh, Lightweight validation of natural language requirements: a case study, IEEE (2002) 140–148.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="338" page="17" column="1">[42] L. Goldin, D. Berry, AbstFinder, a prototype natural language text abstraction finder for use in requirements elicitation, Automated Software Engineering 4 (4) (1997) 375–412.</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="339" page="17" column="1">[43] K. Ryan, The role of natural language in requirements engineering, in: Proceedings of the IEEE International Symposium on Requirements Engineering, IEEE, San Diego, CA, USA, 1993, pp. 240–242.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="340" page="17" column="1">[44] D.T. Ross, Structured analysis (SA): a language for communicating ideas, Transactions on Software Engineering SE-3 (1) (January 1977) 16–34.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="341" page="17" column="1">[45] D. Harel, Statecharts: a visual formalism for complex systems, Science of Computer Programming 8 (3) (1987) 231–274.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="342" page="17" column="1">[46] J.L. Peterson, Petri nets, Computing Surveys 9 (3) (September 1977) 223–252.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="343" page="17" column="1">[47] J. Rumbaugh, I. Jacobson, G. Booch, The Unified Modeling Language Reference Manual, 1998.</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="344" page="17" column="1">[48] J. Miller, A. Sheth, K. Kochut, Perspectives in modeling: simulation, database, and workflow, Conceptual Modeling (1999) 154–167.</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="345" page="17" column="1">[49] K. Pohl, Requirement Engineering: An Overview. Encyclopedia of Computer Science and Technology, Marcel Dekker, New York, 1996.</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="346" page="17" column="1">[50] K. Wiegers, Software Requirements, Microsoft Press, Redmond, WA, USA, 2003.</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="347" page="17" column="1">[51] S. Easterbrook, Handling conflict between domain descriptions with computer-supported negotiation* 1,* 2, Knowledge Acquisition 3 (3) (1991) 255–289.</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="348" page="17" column="1">[52] P. Gr unbacher,  ̈ N. Seyff, Requirements negotiation, Engineering and Managing Software Requirements (2005) 143–162.</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="349" page="17" column="1">[53] W.N. Robinson, S. Volkov, Supporting the negotiation life-cycle, Communications of the ACM 41 (5) (May 1998) 95–102.</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="350" page="17" column="1">[54] W.N. Robinson, S. Volkov, S. Pawlowski, Requirements Interaction Management CIS-99-7, Georgia State University, Computer Information Systems Department, Atlanta, GA, 1999.</ref>
+          <ref rid="R55" class="deo:BibliographicReference" id="351" page="17" column="1">[55] M. Jarke, K. Lyytinen, J. Mylopoulos, Perspectives Workshop: Science of Design: High-Impact Requirements for Software-Intensive Systems, ISSN 1862-4405, Leibniz-Zentrum fur Informatik, 2008.</ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="352" page="17" column="1">[56] D. Schuler, A. Namioka, Participatory Design, Lawrence Erlbaum Assoc., Hillsdale, New Jersey, 1993.</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="353" page="17" column="1">[57] B. Glasser, A. Strauss, The Development of Grounded Theory, Alden, Chicago, IL, 1967.</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="354" page="17" column="1">[58] M. Jarke, P. Loucopoulos, K. Lyytinen, J. Mylopoulos, W. Robinson, High-impact requirements for software-intensive systems, Informatik Spektrum 32 (4) (2009) 352–353.</ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="355" page="17" column="1">[59] C. Lindquist, Fixing the Requirements Mess, vol. 15, CIO Magazine, 2005.</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="356" page="17" column="1">[60] A. Aurum, C. Wohlin, Requirements engineering: setting the context, Engineering and Managing Software Requirements (2005) 1–15.</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="357" page="17" column="1">[61] K. Crowston, E. Kammerer, Coordination and collective mind in software requirements development, IBM Systems Journal 37 (2) (1998) 227–245.</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="358" page="17" column="1">[62] A. Davis, A. Hickey, Requirements researchers: do we practice what we preach? Requirements Engineering 7 (2) (2002) 107–111</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="359" page="17" column="1">[63] D. Leffingwell, D. Widrig, Managing Software Requirements: A Unified Approach, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 1999.</ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="360" page="17" column="2">[64] H. Simon, The Sciences of the Artificial, Cambridge, MA, Third Edition, MIT Press, 1996.</ref>
+          <ref rid="R65" class="deo:BibliographicReference" id="361" page="17" column="2">[65] D. Schon, The Reflective Practitioner: How Professionals Think in Action, Basic Books, New York, 1983.</ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="362" page="17" column="2">[66] J.P. Bowen, M.G. Hinchey, Ten Commandments of Formal Methods (1995).</ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="363" page="17" column="2">[67] W. Swartout, R. Balzer, On the inevitable intertwining of specification and implementation, Communications of the ACM 25 (7) (1982) 438–440.</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="364" page="17" column="2">[68] L. Mathiassen, T. Saarinen, T. Tuunanen, M. Rossi, A contigency model for requirements development, Journal of the Association for Information Systems 8 (11) (2007) 569–597.</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="365" page="17" column="2">[69] W.N. Robinson, A roadmap for comprehensive requirements monitoring, IEEE Computer 43 (5) (May 2010) 64–72.</ref>
+          <ref rid="R70" class="deo:BibliographicReference" id="366" page="17" column="2">[70] N. Chapin, J.E. Hale, K.M. Khan, J.F. Ramil, W.G. Tan, Types of software evolution and software maintenance, Journal of Software Maintenance and Evolution Research and Practice 13 (1) (2001) 3–30.</ref>
+          <ref rid="R71" class="deo:BibliographicReference" id="367" page="17" column="2">[71] A. Cockburn, Agile Software Development, Addison-Wesley, 2002.</ref>
+          <ref rid="R72" class="deo:BibliographicReference" id="368" page="17" column="2">[72] C. Berger, F. Piller, A.G. Adidas Salomon, G. Herzogenaurach, Cus- tomers as co-designers, Manufacturing Engineer 82 (4) (2003) 42–45.</ref>
+          <ref rid="R73" class="deo:BibliographicReference" id="369" page="17" column="2">[73] J. Ross, P. Weill, D. Robertson, Enterprise Architecture as Strategy: Creating a Foundation for Business Execution, Harvard Business Press, 2006.</ref>
+          <ref rid="R74" class="deo:BibliographicReference" id="370" page="17" column="2">[74] M.M. Lehman, Software evolution, Encyclopedia of Software Engineering 2 (2002) 1507–1513.</ref>
+          <ref rid="R75" class="deo:BibliographicReference" id="371" page="17" column="2">[75] B. Nuseibeh, Weaving together requirements and architectures, Computer 34 (3) (2001) 115–119.</ref>
+          <ref rid="R76" class="deo:BibliographicReference" id="372" page="17" column="2">[76] K. Pohl, G. B ockle,  ̈ F.J.V.D. Linden, Software Product Line Engineering: Foundations, Principles and Techniques, Springer, Berlin, Heidelberg, 2005.</ref>
+          <ref rid="R77" class="deo:BibliographicReference" id="373" page="17" column="2">[77] M. Godet, Scenarios and Strategic Management, Butterworth- Heinemann, 1987.</ref>
+          <ref rid="R78" class="deo:BibliographicReference" id="374" page="17" column="2">[78] P. Anderson, Complexity theory and organization science, Organi- zation Science (1999) 216–232.</ref>
+          <ref rid="R79" class="deo:BibliographicReference" id="375" page="17" column="2">[79] P. Cilliers, Complexity and Postmodernism: Understanding Com- plex Systems, Routledge, 1998.</ref>
+          <ref rid="R80" class="deo:BibliographicReference" id="376" page="17" column="2">[80] J. Garfield, P. Loucopoulos, Requirements Elaboration for System Co-development, Ingenierie des Systemes d’information 14 (4) (2009) 77–98.</ref>
+          <ref rid="R81" class="deo:BibliographicReference" id="377" page="17" column="2">[81] R. Vidgen, X. Wang, Coevolving systems and the organization of agile software development, Information Systems Research 20 (3) (2009) 355–376.</ref>
+          <ref rid="R82" class="deo:BibliographicReference" id="378" page="17" column="2">[82] P. Loucopoulos, K. Zografos, N. Prekas, Requirements elicitation for the design of venue operations for the Athens 2004 Olympic games, in: Proceedings of the 11th IEEE International Conference on Requirements Engineering, Monterey Bay, California, 2003, pp. 223–232.</ref>
+          <ref rid="R83" class="deo:BibliographicReference" id="379" page="17" column="2">[83] W. Scacchi, Understanding Open Source Software Evolution, Software Evolution and Feedback, Theory and Practice, Wiley, NY, 2006.</ref>
+          <ref rid="R84" class="deo:BibliographicReference" id="380" page="17" column="2">[84] J.M. Carroll, Scenarios and design cognition, in: Proceedings of the IEEE Joint International Conference on Requirements Engineering, 2002, pp. 3–5.</ref>
+          <ref rid="R85" class="deo:BibliographicReference" id="381" page="17" column="2">[85] N. Napier, L. Mathiassen, R. Johnson, Combining perceptions and prescriptions in requirements engineering process assessment: an industrial case study, IEEE Transactions on Software Engineering (2009) 593–606.</ref>
+          <ref rid="R86" class="deo:BibliographicReference" id="382" page="17" column="2">[86] A. Davis, D. Zowghi, Good requirements practices are neither necessary nor sufficient, Requirements Engineering 11 (1) (2006) 1–3.</ref>
+          <ref rid="R87" class="deo:BibliographicReference" id="383" page="17" column="2">[87] B. Nuseibeh, S. Easterbrook, Requirements engineering: a roadmap, in: Proceedings of the Conference on the Future of Software Engineering, 2000, pp. 35–46.</ref>
+          <ref rid="R88" class="deo:BibliographicReference" id="384" page="17" column="2">[88] M. Jackson, The meaning of requirements, Annals of Software Engineering 3 (1997) 5–21.</ref>
+          <ref rid="R89" class="deo:BibliographicReference" id="385" page="17" column="2">[89] M. Glinz, A risk-based, value-oriented approach to quality requirements, Software, IEEE 25 (2) (2008) 34–41.</ref>
+          <ref rid="R90" class="deo:BibliographicReference" id="386" page="17" column="2">[90] G. Jung, B. Lee, Analysis on social network adoption according to the change of network topology—the impact of ’’Open API’’ on the adoption of Facebook, in: The 12th International Conference on Electronic Commerce (ICEC-2010), ACM, Honolulu, HI, USA, 2010, pp. 22–31.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="328" page="17" column="1">1008</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="329" page="17" column="1">M. Jarke et al. / Information Systems 36 (2011) 992–1008</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

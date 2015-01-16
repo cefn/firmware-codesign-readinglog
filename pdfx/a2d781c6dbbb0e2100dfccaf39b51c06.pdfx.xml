@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>e322d6dbd393ec924d0b6faab73b425c60f76ab0fbce7cd47103e6c9fa0215a3</job>
+    <base_name>62cc</base_name>
+    <doi>10.1080/15710882.2014.888183</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">This article was downloaded by: [Lancaster University Library] On: 12 November 2014, At: 05:48 Publisher: Taylor &amp; Francis Informa office:</outsider>
+      <region class="unknown" id="2">Ltd Registered in England and Wales Registered Number: 1072954 Registered Mortimer House, 37-41 Mortimer Street, London W1T 3JH, UK</region>
+      <region class="unknown" id="4">CoDesign: International Journal of CoCreation in Design and the Arts Publication details, including instructions for authors and subscription information: <ext-link ext-link-type="uri" href="http://www.tandfonline.com/loi/ncdn20" id="3">http://www.tandfonline.com/loi/ncdn20</ext-link></region>
+      <title-group>
+        <article-title class="DoCO:Title" id="5">Probes, toolkits and prototypes: three approaches to making in codesigning</article-title>
+      </title-group>
+      <region class="unknown" id="6">a</region>
+      <region class="DoCO:FigureBox" id="Fx7">
+        <image class="DoCO:Figure" src="62cc.page_001.image_01.png" thmb="62cc.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="unknown" id="8">b</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="9">a b Elizabeth B.-N. Sanders</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="10">Pieter Jan Stappers Department of Design</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">The Ohio State University</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="12">Hayes Hall</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="13">North Oval Mall</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="14">Columbus</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="15">OH</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="16">USA ID-StudioLab</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="17">Faculty of Industrial Design Engineering</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="18">Delft University of Technology</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="19">Landbergstraat</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="20">CE Delft</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="21">The Netherlands Published online: 06 Mar 2014.</name>
+        </contrib>
+      </contrib-group>
+      <outsider class="DoCO:TextBox" type="sidenote" id="22">To cite</outsider>
+      <region class="unknown" id="23">this article:</region>
+      <abstract class="DoCO:Abstract" id="25" confidence="possible">Elizabeth B.-N. Sanders &amp; Pieter Jan Stappers (2014) Probes, toolkits and prototypes: three approaches to making in codesigning, CoDesign: International Journal of CoCreation in Design and the Arts, 10:1, 5-14, DOI: 10.1080/15710882.2014.888183 <ext-link ext-link-type="uri" href="http://dx.doi.org/10.1080/15710882.2014.888183" id="24">http://dx.doi.org/10.1080/15710882.2014.888183</ext-link></abstract>
+      <outsider class="DoCO:TextBox" type="sidenote" id="26">To link to</outsider>
+      <region class="unknown" id="27">this article:</region>
+      <region class="unknown" id="28">SCROLL DOWN FOR ARTICLE</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="29">PLEASE Taylor &amp;</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="30">(the</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="31">as to</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="32">our the and and are should of</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="33">or</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="34">or arising This</outsider>
+      <region class="unknown" id="35">Francis makes every effort to ensure the accuracy of all the information “Content”) contained in the publications on our platform. However, Taylor &amp; Francis, agents, and our licensors make no representations or warranties whatsoever accuracy, completeness, or suitability for any purpose of the Content. Any opinions views expressed in this publication are the opinions and views of the authors, not the views of or endorsed by Taylor &amp; Francis. The accuracy of the Content not be relied upon and should be independently verified with primary sources information. Taylor and Francis shall not be liable for any losses, actions, claims, proceedings, demands, costs, expenses, damages, and other liabilities whatsoever howsoever caused arising directly or indirectly in connection with, in relation to out of the use of the Content. article may be used for research, teaching, and private study purposes. Any substantial or systematic reproduction, redistribution, reselling, loan, sub-licensing, systematic supply, or distribution in any form to anyone is expressly forbidden. Terms</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="36">&amp;</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="38">Conditions of access and use can be found at <ext-link ext-link-type="uri" href="http://www.tandfonline.com/page/terms-" id="37">http://www.tandfonline.com/page/terms-</ext-link> and-conditions</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="39">2014</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="41">CoDesign, Vol. 10, No. 1, 5–14, <ext-link ext-link-type="uri" href="http://dx.doi.org/10.1080/15710882.2014.888183" id="40">http://dx.doi.org/10.1080/15710882.2014.888183</ext-link></outsider>
+      <region class="DoCO:FigureBox" id="Fx42">
+        <image class="DoCO:Figure" src="62cc.page_003.image_02.png" thmb="62cc.page_003.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="43" confidence="possible">Probes, toolkits and prototypes: three approaches to making in codesigning Elizabeth B.-N. Sanders a * and Pieter Jan Stappers b</region>
+      <region class="unknown" id="44">a Department of Design, The Ohio State University, 105 Hayes Hall, 108 North Oval Mall, Columbus, OH 43210, USA; b ID-StudioLab, Faculty of Industrial Design Engineering, Delft University of Technology, Landbergstraat 15, 2628CE Delft, The Netherlands 20 December 2013; accepted 10 January 2014)</region>
+      <region class="unknown" id="45">making</region>
+      <region class="unknown" id="46">Keywords:</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="47" confidence="possible" page="3" column="1">(Received The role of making in the design process has been growing, taking on new forms and involving new players over the past 10 years. Where we once primarily saw designers using to give shape to the future, today we can see designers and non-designers working together, using making as a way to make sense of the future. In this paper, we describe the landscape of design research and practice at the end of 2013 with special attention to the role of making across these perspectives: approach (cultural probes, generative toolkits and design prototypes), mindset (designing for people and designing with people), focus in time (the world as it is, the near future and the speculative future) as well as variations in design intent (provoking, engaging and serving). design; codesign; making; cultural probes; prototypes; generative toolkits; service design; design fiction; future</h1>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="48" page="3" column="1">Introduction</h1>
+        <region class="DoCO:TextChunk" id="49" page="3" column="1">The past 10 years have shown a rapid adoption of methods of doing research into design processes. Only 5 years ago, we reviewed the emerging landscape of design research and practice and noted that a wide spectrum of approaches was emerging, varying on both the roles of users (sometime the objects of study and at other times becoming active codesigners), and the types of research methods involved (ranging from traditional scientific to designerly) (Sanders and Stappers 2008). Now, we can see that these methods are finding widespread use in academia and areas of industry (although different branches of industry are adopting them at different rates). Methods and tools for doing design research have found their way into introductory and advanced textbooks (e.g. Martin and Hanington 2012; Sanders and Stappers 2012) and practitioner-oriented guides (e.g. Kumar 2012; van Boeijen et al. 2013). And on the Internet we can see an explosion in collections of tools and methods aimed at both students and practitioners. Meanwhile, the codesign community has been sharing more and more of its methods. In 1999, the seminal papers on cultural probes (Gaver, Dunne, and Pacenti 1999) and generative toolkits (Sanders 1999) only sketched principles and examples. In 2005, the context mapping paper (Sleeswijk Visser et al. 2005), in the first volume of this journal,</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="51" confidence="possible" page="3" column="1">*Corresponding author. Email: <email id="50">sanders.82@osu.edu</email></h1>
+        <outsider class="DoCO:TextBox" type="footer" id="52" page="3" column="1">q 2014 Taylor &amp; Francis</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="53" page="4" column="1">6</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="54" page="4" column="1">E.B.-N. Sanders and P.J. Stappers</outsider>
+        <region class="DoCO:TextChunk" id="55" page="4" column="1">was written with the specific motivation to give an explicit and hands-on description of how this way of conducting design research can be done, so that researchers could compare methods. Since then, dozens of projects have been published, reporting on their methods and tools to varying degrees. One key ingredient of the designerly ways of doing research is that they involve creative acts of making: designers creating probe packages, respondents creating interpretations of its ambiguous questions and answering them, design researchers making generative toolkits, participants using these toolkits to make expressive artefacts and discussing those, and codesigners creating and evaluating prototypes, often in iterative cycles. The act of making here is not just a performative act of reproduction, but a creative act which involves construction and transformation of meaning, by any or all the people just mentioned, and in all those activities. The primary goal of this special issue of CoDesign is to consolidate our understanding of making as a part of methods and tools within practices of participation. Methods and tools for making give people – designers and non-designers – the ability to make ‘things’ that describe future objects, concerns or opportunities. They can also provide views on future experiences and future ways of living.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="56" page="4" column="1">The changing role of making in the design process</h1>
+        <region class="DoCO:TextChunk" id="57" page="4" column="1">In the traditional design process, designers usually engage in making after the design opportunity has already been identified. Over the last 10 years, we have seen the focus shift to more varied forms and formats of making in the front end of the process. Today making has become an activity that both designers and codesigners can engage in during all phases of the process. In the later phases making tends to take the form of a prototype that is built to test whether the concept(s) should be further pursued. Iterative prototyping can be viewed as ‘growing’ early conceptual designs through prototypes into mature products (or services, environments, experiences, etc.). Making is a particularly significant activity for designers. In making, people can bring their insights to the surface. In research through design, prototypes can play a number of roles (Stappers 2010). . Prototypes evoke a focused discussion in a team, because the phenomenon is ‘on the table’. . Prototypes allow testing of a hypothesis. . Prototypes confront theories, because instantiating one typically forces those involved to consider several overlapping perspectives/theories/frames. . Prototypes confront the world, because the theory is not hidden in abstraction. . A prototype can change the world, because in interventions it allows people to experience a situation that did not exist before. Earlier in the design process other types of visualisations (e.g. scenarios, storyboards) are made to allow us to experience, test, transform, develop and complete our early ideas. Both designers and other codesigners are involved in these forms of making. Here, the thing being made is not a forerunner of the future product, but a vehicle for observation, reflection, interpretation, discussion and expression. Finally, in the very earliest phase of the design process, the focus is on using making activities for making sense of the future. Here, making activities are used as vehicles for collectively (e.g. designers and codesigners together) exploring, expressing and testing hypotheses about future ways of living.</region>
+        <outsider class="DoCO:TextBox" type="header" id="58" page="5" column="1">CoDesign</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="59" page="5" column="1">7</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="60" page="5" column="1">Making is part of a practice for participation</h1>
+        <region class="DoCO:TextChunk" id="62" page="5" column="1">In the past years, codesign has grown in importance and in the range of methods and tools that are available. So many methods, tools and techniques have been introduced that it has become useful to provide frameworks for organising them. One such framework introduces making, telling and enacting as ‘toolboxes’ (Sanders, Brandt, and Binder 2010). More recently Brandt, Binder, and Sanders (2012) describe how practices of participation take place in iterative cycles of making, telling and enacting. <xref ref-type="fig" rid="F1" id="61" class="deo:Reference">Figure 1</xref> shows making as a part of a practice for participation that involves repeated moves between making, telling and enacting. The focus in this special issue will be on the practice of making. But as the framework reveals, we really cannot separate making from telling and enacting. We have seen in practice that people make artifacts and then readily share their stories about what they made or they naturally demonstrate how they would use the artefact (if it is intended to be a representation of something concrete). Taken in isolation, the artefact may say very little or remain highly ambiguous. In fact, this ambiguity is intentional, as it generates opportunities for creativity, expression and discussion. The meaning of the artefact is revealed through the stories told about it and the scenes in which it plays a role.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="63" page="5" column="1">Probes, toolkits and prototypes</h1>
+        <region class="DoCO:TextChunk" id="65" page="5" column="1">Probes and generative toolkits are two prominent approaches in the practice of codesigning. They are both design-led approaches as described by the landscape of design research and practice (Sanders and Stappers 2008), as reproduced in <xref ref-type="fig" rid="F2" id="64" class="deo:Reference">Figure 2</xref>. Probes originated in the design-led and expert-driven corner of the map whereas generative toolkits originated in the design-led and participatory corner of the map. The probes approach invites people to reflect on and express their experiences, feelings and attitudes in forms and formats that provide inspiration for designers (Gaver, Dunne, and Pacenti 1999). Generative toolkits describe a participatory design language that can be used by nondesigners (i.e. future users) in the front end of design so that they can imagine and express their own ideas about how they want to live, work and play in the future (Sanders 1999). Generative toolkits are typically used in facilitated collaborative activities, and their results (artefacts and descriptions or enactments of their use) can be analysed to find underlying patterns. Today the methods, tools and techniques used in the probes and the generative toolkits approaches overlap to a large extent. For example, Mattelm  ̈ki (2005) describes how design probes can serve as a means for dialogue with future users.</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <image class="DoCO:Figure" src="62cc.page_005.image_03.png" thmb="62cc.page_005.image_03-thumb.png"/>
+          <caption class="deo:Caption" id="67" page="5" column="1">Figure 1.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="68" confidence="possible" page="5" column="1">Making, telling, and enacting as complementary, connected activities in codesigning. Source: From Brandt, Binder and Sanders (2012).</region>
+        <outsider class="DoCO:TextBox" type="header" id="69" page="6" column="1">8</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="70" page="6" column="1">E.B.-N. Sanders and P.J. Stappers</outsider>
+        <region class="DoCO:FigureBox" id="F2">
+          <image class="DoCO:Figure" src="62cc.page_006.image_04.png" thmb="62cc.page_006.image_04-thumb.png"/>
+          <caption class="deo:Caption" id="72" page="6" column="1">Figure 2.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="73" confidence="possible" page="6" column="1">The map of design research, showing different approaches laid along two axes: role of the user (horizontal), and approach of the research (vertical). Source: From Sanders and Stappers (2008).</region>
+        <region class="DoCO:TextChunk" id="75" page="6" column="1">When comparing cultural probes to generative toolkits, the most important difference is at the level of mindset. Cultural probes are proclaimed (see Gaver, Dunne, and Pacenti 1999, Gaver et al. 2004) as artistic proposals to evoke inspiring responses from individual participants, with designers using the responses at their own discretion. Generative toolkits are used to follow a more deliberate and steered process of facilitation, participation, reflection, delving for deeper layers in the past, making understanding explicit, discussing these, and bridging visions, ideas and concepts [scenarios] for the future. The ‘path of expression’ (Sanders and Stappers 2012), which is based on psychological theory about memory and creativity, can be used to steer this process through the successive considering of present experiences, good and bad memories from the past, and hopes and dreams for the future. <xref ref-type="table" rid="T1" id="74" class="deo:Reference">Table 1</xref> compares generative toolkits, probes and prototypes across a number of descriptive dimensions.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="76" page="6" column="1">The call and its response</h1>
+        <region class="DoCO:TextChunk" id="78" page="6" column="1">In Spring 2012, the call for this issue went out, describing the three areas of probes, generative toolkits, and prototyping, and suggesting their places in the design process as shown in <xref ref-type="fig" rid="F3" id="77" class="deo:Reference">Figure 3</xref>. In the response to the call for papers, we found each of these types of making was represented by various authors and that they sometimes were connected. For example, probes found their way into prototypes in the paper by Hardy and colleagues. Moreover, different authors sometimes used key terms such as ‘probe’ or ‘prototype’ with very different meanings, and those meanings were often implicit. So we decided that we needed to define the terms we were going to use in the hope that together we could agree on a basic set. Finally, the contributions came from people who have a broad range of backgrounds and showed little overlap in cited literature. This was an indication of the state of the field, and reveals that the convergence we proposed in the call for papers is a developing one; for us CoDesign has been at the centre of this joining of fields.</region>
+        <outsider class="DoCO:TextBox" type="header" id="79" page="7" column="1">CoDesign</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="80" page="7" column="1">9</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="81" page="7" column="1">Table 1. A comparison of the three approaches to making.</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="7">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Probes</td>
+                  <td class="table"> Toolkits</td>
+                  <td class="table"> Prototypes</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> What is</td>
+                  <td class="table.strange"> Probes are materials that</td>
+                  <td class="table.strange"> Toolkits (made up of a</td>
+                  <td class="table.strange"> Prototypes are physical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> made?</td>
+                  <td class="table"> have been designed to</td>
+                  <td class="table"> variety of components) are</td>
+                  <td class="table"> manifestations of ideas</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> provoke or elicit</td>
+                  <td class="table"> specifically confirmed for</td>
+                  <td class="table"> or concepts. They range</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> response. For example, a</td>
+                  <td class="table"> each project/domain.</td>
+                  <td class="table"> from rough (giving the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> postcard without a</td>
+                  <td class="table"> People use the toolkit</td>
+                  <td class="table"> overall idea only) to</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> message.</td>
+                  <td class="table"> components to make</td>
+                  <td class="table"> finished (resembling the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> artefacts about or for the future.</td>
+                  <td class="table"> actual end result).</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Why?</td>
+                  <td class="table"> Designers find inspi-</td>
+                  <td class="table"> To give non-designers a</td>
+                  <td class="table"> To give form to an idea,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> ration in users’ reactions</td>
+                  <td class="table"> means with which to</td>
+                  <td class="table"> and to explore technical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> to their suggestions.</td>
+                  <td class="table"> participate as codesigners in the design process.</td>
+                  <td class="table"> and social feasibility.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> What is it</td>
+                  <td class="table"> Probes can take on a</td>
+                  <td class="table"> Toolkits are made of 2D or</td>
+                  <td class="table"> Prototypes can be made</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> made out of?</td>
+                  <td class="table"> wide variety of forms</td>
+                  <td class="table"> 3D components such as</td>
+                  <td class="table"> from a very wide array</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> such as diaries, work-</td>
+                  <td class="table"> pictures, words, phrases,</td>
+                  <td class="table"> of materials including</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> books, cameras with</td>
+                  <td class="table"> blocks, shapes, buttons,</td>
+                  <td class="table"> clay, foam, wood,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> instructions, games, etc.</td>
+                  <td class="table"> pipe cleaners, wires, etc.</td>
+                  <td class="table"> plastic, simple digital and electronic elements.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Who con-</td>
+                  <td class="table"> Designers create the</td>
+                  <td class="table"> Designers and researchers</td>
+                  <td class="table"> Codesigners create the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> ceives?</td>
+                  <td class="table"> probes and send them to</td>
+                  <td class="table"> make the toolkits and give</td>
+                  <td class="table"> prototypes to envision</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> end-users and other</td>
+                  <td class="table"> them to others to use to</td>
+                  <td class="table"> their ideas and to display</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> stakeholders, often with</td>
+                  <td class="table"> make artefacts. The</td>
+                  <td class="table"> and to get feedback on</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> little or no guidance of</td>
+                  <td class="table"> process is often facilitated</td>
+                  <td class="table"> these ideas from other</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> how the end-users</td>
+                  <td class="table"> or guided.</td>
+                  <td class="table"> stakeholders.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> should treat them.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Who uses?</td>
+                  <td class="table"> End-users and other sta-</td>
+                  <td class="table"> End-users and other sta-</td>
+                  <td class="table"> Designers use the proto-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> keholders individually</td>
+                  <td class="table"> keholders use them to</td>
+                  <td class="table"> types as design tools.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> complete the probes,</td>
+                  <td class="table"> make artefacts about or for</td>
+                  <td class="table"> End-users may use the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> returning them to the</td>
+                  <td class="table"> the future. Toolkits work</td>
+                  <td class="table"> prototypes during eval-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> person who sent them</td>
+                  <td class="table"> with both individuals and</td>
+                  <td class="table"> uative research events.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> out.</td>
+                  <td class="table"> small groups.</td>
+                  <td class="table"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="82" confidence="possible" page="7" column="1">Probes Toolkits Prototypes What is Probes are materials that Toolkits (made up of a Prototypes are physical made? have been designed to variety of components) are manifestations of ideas provoke or elicit specifically confirmed for or concepts. They range response. For example, a each project/domain. from rough (giving the postcard without a People use the toolkit overall idea only) to message. components to make finished (resembling the artefacts about or for the actual end result). future. Why? Designers find inspi- To give non-designers a To give form to an idea, ration in users’ reactions means with which to and to explore technical to their suggestions. participate as codesigners and social feasibility. in the design process. What is it Probes can take on a Toolkits are made of 2D or Prototypes can be made made out of? wide variety of forms 3D components such as from a very wide array such as diaries, work- pictures, words, phrases, of materials including books, cameras with blocks, shapes, buttons, clay, foam, wood, instructions, games, etc. pipe cleaners, wires, etc. plastic, simple digital and electronic elements. Who con- Designers create the Designers and researchers Codesigners create the ceives? probes and send them to make the toolkits and give prototypes to envision end-users and other them to others to use to their ideas and to display stakeholders, often with make artefacts. The and to get feedback on little or no guidance of process is often facilitated these ideas from other how the end-users or guided. stakeholders. should treat them. Who uses? End-users and other sta- End-users and other sta- Designers use the proto- keholders individually keholders use them to types as design tools. complete the probes, make artefacts about or for End-users may use the returning them to the the future. Toolkits work prototypes during eval- person who sent them with both individuals and uative research events. out. small groups.</region>
+        </region>
+        <region class="DoCO:FigureBox" id="F3">
+          <image class="DoCO:Figure" src="62cc.page_007.image_05.png" thmb="62cc.page_007.image_05-thumb.png"/>
+          <caption class="deo:Caption" id="84" page="7" column="1">Figure 3.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="85" confidence="possible" page="7" column="1">The original framework: Three approaches to making are located along a timeline of the design process.</region>
+        <outsider class="DoCO:TextBox" type="header" id="86" page="8" column="1">10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="87" page="8" column="1">E.B.-N. Sanders and P.J. Stappers</outsider>
+        <region class="DoCO:TextChunk" id="90" page="8" column="1">The diagram of <xref ref-type="fig" rid="F3" id="88" class="deo:Reference">Figure 3</xref> is the original framework that appeared in the call for papers. In this paper, we develop it further below and refine it based on the submitted proposals and the accepted papers as well as from our understanding of emerging trends in design and research today. The revised diagram is shown in <xref ref-type="fig" rid="F5" id="89" class="deo:Reference">Figure 5</xref> and will be discussed.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="91" page="8" column="1">The phases of making along the design process</h1>
+        <region class="DoCO:TextChunk" id="96" page="8" column="1">Today design encompasses many activities that traditionally were not considered part of designing. A traditional product design project would begin with a brief and a list of requirements (Make me a stool for toddlers, out of wood and for under $20). These days many additional activities are considered to be a part of design, e.g. activities to determine requirements (‘research’), to set general directions (‘strategy’), to evaluate design (‘usability testing’), and to observe in the field on earlier product usage situations or how a product is used after it has been released into the world. When laid out along a timeline, we see four main phases, as shown in <xref ref-type="fig" rid="F4" id="92" class="deo:Reference">Figure 4</xref>. The first black dot indicates the point at which the design opportunity has been established. The second black dot indicates the point at which the thing that is designed is put to use. Toolkits and probes are usually used in the early front end of the design process. Prototypes are usually put into action once the design opportunity has been established. The names of the phases which form the headings across the top of <xref ref-type="fig" rid="F4" id="93" class="deo:Reference">Figure 4</xref> also indicate the types of design research relevant at each phase. <xref ref-type="fig" rid="F4" id="94" class="deo:Reference">Figure 4</xref> introduces pre-design as research that occurs before the generative phase and post-design as research that takes place after the design is produced. Pre-design research focuses on the larger context of experience while post-design research looks at how people actually experience the product, service or space. Generative design research leads up to the design opportunity decision, and evaluative research takes place during the subsequent design development process. The latter is labelled evaluative since the main concept is known and the prototypes serve as instantiations which provide the means for evaluation and subsequent refinement. This process is iterative, with the tail end of the post-design phase leading to the front end of another design process. We felt it was important to extend the design process model to include experiences beyond the basic design process since several of the contributions to this special issue come from the Participatory Action Research perspective, where such iterations are fundamental to the unit of analysis. <xref ref-type="table" rid="T2" id="95" class="deo:Reference">Table 2</xref> compares pre-design, generative, evaluative and post-design research phases across a number of descriptive dimensions.</region>
+        <region class="DoCO:FigureBox" id="F4">
+          <image class="DoCO:Figure" src="62cc.page_008.image_06.png" thmb="62cc.page_008.image_06-thumb.png"/>
+          <caption class="deo:Caption" id="98" page="8" column="1">Figure 4.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="99" confidence="possible" page="8" column="1">Phases along a timeline of the design process; the first dot indicates the determination of the design opportunity and the second dot represents the finished ‘product’.</region>
+        <outsider class="DoCO:TextBox" type="header" id="100" page="9" column="1">CoDesign</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="101" page="9" column="1">11</outsider>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="102" page="9" column="1">Table 2. The research phases compared.</caption>
+        </region>
+        <region class="unknown" id="103" page="9" column="1">Design research Pre-design and post-design Generative Evaluative</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="104" confidence="possible" page="9" column="1">Purpose To understand people’s To produce ideas, To assess, formatively or experiences in the context of insights and concepts summatively, the effect their lives: past, present and that may then be or the effectiveness of future dreams designed and developed products, spaces, systems or services To prepare people to What will be useful? Is it useful? Usable? participate in codesigning Usable? Desirable? Desirable? Results Empathy with people Opportunities for Identification of problems future scenarios of use Creative codesigners Exploration of the Measurement of design space effectiveness Orientation Past, present and future Future Present and near future</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="105" page="9" column="1">The revised framework</h1>
+        <region class="DoCO:TextChunk" id="108" page="9" column="1">The revised framework of <xref ref-type="fig" rid="F5" id="106" class="deo:Reference">Figure 5</xref> is more explicit about the relationship between probes, toolkits and prototypes within the design process. It also introduces two distinct mindsets: designing for and designing with. These correspond, respectively, to the ‘user as subject’ and ‘user as partner’ perspectives that are shown in <xref ref-type="fig" rid="F2" id="107" class="deo:Reference">Figure 2</xref>. Here we can see that probes, emanating from an expert-driven mindset, exemplify a designing for approach and cover both pre-design and generative components. Generative toolkits come from a participatory mindset and use the designing with approach primarily in the generative phase. Prototyping, on the other hand, can be conducted from either a designing for or a designing with mindset as some of the papers in this special issue will show. The areas of overlap between probes, toolkits and prototypes have been carefully placed to reflect our perspective on the current state of the approaches to making. It is likely that the areas of overlap will become even bigger in the future as new methods and tools are continually being explored.</region>
+        <region class="DoCO:FigureBox" id="F5">
+          <image class="DoCO:Figure" src="62cc.page_009.image_07.png" thmb="62cc.page_009.image_07-thumb.png"/>
+          <caption class="deo:Caption" id="110" page="9" column="1">Figure 5.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="111" confidence="possible" page="9" column="1">The revised framework: three approaches to making are positioned relative to the mindsets and phases in the design process.</region>
+        <outsider class="DoCO:TextBox" type="header" id="112" page="10" column="1">12</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="113" page="10" column="1">E.B.-N. Sanders and P.J. Stappers</outsider>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="114" page="10" column="1">Table 3. The three approaches to making are expanding across different time frames.</caption>
+          <content>
+            <table class="DoCO:Table" number="3" page="10">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Probes</td>
+                  <td class="table"> Toolkits</td>
+                  <td class="table"> Prototypes</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> The world as</td>
+                  <td class="table.strange"> Cultural probes (Gaver,</td>
+                  <td class="table.strange"> Toolkits for understanding</td>
+                  <td class="table.strange"> Usability testing of an</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> it is</td>
+                  <td class="table"> Dunne, and Pacenti 1999)</td>
+                  <td class="table"> experience: a day-in-the-</td>
+                  <td class="table"> incrementally improved</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> life exercise</td>
+                  <td class="table"> redesign</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Design probes</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> (Mattelm  ̈ki 2005)</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> The near future</td>
+                  <td class="table"> Design Noir (Dunne</td>
+                  <td class="table"> Toolkits for exploring</td>
+                  <td class="table"> Usability/field testing of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> and Raby 2001)</td>
+                  <td class="table"> future experience: my-ideal-future-product exercise</td>
+                  <td class="table"> a radical new product</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> The speculative</td>
+                  <td class="table"> Diegetic prototypes</td>
+                  <td class="table"> Toolkits for experiment-</td>
+                  <td class="table"> Research through</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> future</td>
+                  <td class="table"> (Kirby 2011)</td>
+                  <td class="table"> ing with experience:</td>
+                  <td class="table"> Design prototypes</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> make-believe role-playing with co-constructed artefacts</td>
+                  <td class="table"> (Keller et al. 2009)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Artefacts from the future</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> (WIRED magazine)</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="115" confidence="possible" page="10" column="1">Probes Toolkits Prototypes The world as Cultural probes (Gaver, Toolkits for understanding Usability testing of an it is Dunne, and Pacenti 1999) experience: a day-in-the- incrementally improved life exercise redesign Design probes (Mattelm  ̈ki 2005) The near future Design Noir (Dunne Toolkits for exploring Usability/field testing of and Raby 2001) future experience: a radical new product my-ideal-future-product exercise The speculative Diegetic prototypes Toolkits for experiment- Research through future (Kirby 2011) ing with experience: Design prototypes make-believe role-playing (Keller et al. 2009) with co-constructed artefacts Artefacts from the future (WIRED magazine)</region>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="116" page="10" column="1">Approaches to making in different time frames</h1>
+        <region class="DoCO:TextChunk" id="118" page="10" column="1">New approaches to making can be seen all along the phases of the design process. The emerging landscape of design research and practice has also revealed that additional approaches to design and making are emerging depending on the time frame under consideration. Some approaches focus on the world as it is, others focus on the near future (e.g. the next generation) and still others are aiming at longer-term, speculative futures. <xref ref-type="table" rid="T3" id="117" class="deo:Reference">Table 3</xref> gives examples of the approaches to making from these three distinct time frames. Let us take a closer look at two developing design contexts: service design and design fiction. Service design, with its focus on the services provided by organisations and enterprises, is concerned with the world as it is and the near future. Design fiction, on the other hand, is concerned with speculative futures. Service design is a vocal upcoming movement that proposes a holistic design method, focusing on touch points or moments of use. Service design is being applied today in industries such as banking, insurance, healthcare and travel where it often explores interactions with multiple products and/or systems that together enable a service ecosystem. The interest in and growth of service design has been instrumental in expanding the types, and purposes, of making in the earlier stages of the design process. Service design tends to advocate intensive user participation or sometimes codesigning. It has also added greatly to our repertoire of ways to explore, express and evaluate views on current experiences and near future ways of living. Another important contribution of the service design trend has been the visualisations (often referred to as service blueprints) that reveal the complex interdependencies that must be considered in the design of service systems. Design fiction is a more recent phenomenon (see Resnick 2011) that describes a form of codesigning through making. Design fiction lies at the intersection of future studies and design where the time frame of the future is much longer than what we see in business today. Its practitioners/theorists call it ‘materialization of the speculative’. The term was originally coined by Julian Bleecker (2009) who explains that</region>
+        <outsider class="DoCO:TextBox" type="header" id="119" page="11" column="1">CoDesign</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="120" page="11" column="1">13</outsider>
+        <region class="DoCO:FigureBox" id="F6">
+          <image class="DoCO:Figure" src="62cc.page_011.image_08.png" thmb="62cc.page_011.image_08-thumb.png"/>
+          <caption class="deo:Caption" id="122" page="11" column="1">Figure 6.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="123" confidence="possible" page="11" column="1">Movements of design are emerging across time scales: the world as it is (inner ring), the near future (middle ring) and the speculative future (outer ring).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="124" confidence="possible" page="11" column="1">. . . design fiction is a hybrid, hands-on practice that operates in a murky middle ground between ideas and their materialization, and between science fact and science fiction. It is a way of probing, sketching, and exploring ideas. Through this practice, one bridges imagination and materialization by modeling, crafting things, telling stories through objects, which are now effectively conversation pieces in a very real sense.</h1>
+        <region class="DoCO:TextChunk" id="127" page="11" column="1">Sterling (2013) provides a formal definition; ‘Design fiction is the deliberate use of diegetic prototypes to suspend disbelief about change’. Thus, design fiction serves to enlarge, enrich and activate our capacity for making sense of future ways of living before we actually get there. Service design and design fiction are just two of the newly emerging areas for design research and practice that are receiving attention currently. <xref ref-type="fig" rid="F6" id="125" class="deo:Reference">Figure 6</xref> positions a number of the new approaches relative to each other and across the different frames of time. Note that the diagram is radial and positions the designing-with mindset on the right side and the designing-for mindset to the left side. The diagram shows where service design and design fiction sit in relation to the other trends and approaches. At the centre of the diagram is the traditional core of designing. The three time frames emanate outward from the core. The first layer around the core refers to the world as it is, the second layer to the near future and the third layer to the speculative future. In the segment to the right, service design and social design are usually seen as manifestations of the intent to serve people. In the middle, user experience and embodied interaction aim to engage people. In the segment to the left, design interventions and critical design intend to provoke or stir people. Design fiction sits mid-way between engaging and provoking on the outside layer of the speculative future. What will sit between serving and engaging in the speculative future? It is easy to see that there are many places to explore making when we look across the layers of time and the slices of intent shown in <xref ref-type="fig" rid="F6" id="126" class="deo:Reference">Figure 6</xref>. And when we consider the potential impact of new information technologies together with social networks on these new spaces of design, the future looks very bright. We just need to learn how to collectively make sense (e.g. Kolko 2010) of it before it arrives.</region>
+        <outsider class="DoCO:TextBox" type="header" id="128" page="12" column="1">14</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="129" page="12" column="1">E.B.-N. Sanders and P.J. Stappers</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="130" page="12" column="1">Acknowledgements We would like to thank the contributors to this special issue for engaging in a dialogue about codesigning through making, which allowed us to benefit from their views on the matter, and to our colleagues and students who gave feedback on earlier drafts of this paper. We would also like to thank Janet McDonnell for her encouragement and timely feedback on this special issue.</h1>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="131" page="12" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref class="deo:BibliographicReference" id="140" page="12" column="1">Participatory Design – A Reference Book, Design Noir: The Secret Life of Electonic Objects. ACM Interactions ACM Interactions <marker type="block"/> Design Studies Lab Coats in Hollywood: Science, Scientists and Cinema. Design Issues 101 Design Methods: A Structured Approach for Driving Innovation in Your Organization. Universal Methods of Design: 100 Ways to Research Complex Problems, Develop Innovative Ideas and Design Effective Solutions.<marker type="block"/> CoDesign<marker type="block"/> Proceedings of Useful and<marker type="block"/> Critical: The Position of Research in Design,<marker type="block"/> CoDesign<marker type="block"/> Convivial Toolbox. CoDesign<marker type="block"/> Wired Magazine,<marker type="block"/> Delft Design Guide.</ref>
+        </ref-list>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="141" confidence="possible" page="12" column="1">Bleecker, J. 2009. “Design Fiction: A Short Essay on Design, Science, Fact and Fiction.” http:// www.nearfuturelaboratory.com/2009/03/17/design-fiction-a-short-essay-on-design-science- fact-and-fiction Brandt, E., T. Binder, and E. B.-N. Sanders. 2012. “Tools and Techniques: Ways to Engage Telling, Making and Enacting. Routledge International Handbook of Participatory Design. Routledge International Handbooks.” In edited by J. Simonsen, and T. Robertson, 145– 181. New York, NY: Routledge. Dunne, A., and F. Raby. 2001. Berlin: Birkh  ̈user. Gaver, W., A. Boucher, S. Pennington, and B. Walker. 2004. “Cultural Probes and the Value of Uncertainty.” 11: 53– 56. Gaver, W., T. Dunne, and E. Pacenti. 1999. “Cultural Probes.” 6: 21 – 29. Keller, A. I., F. Sleeswijk Visser, R. Lugt, and P. J. van der Stappers. 2009. “Collecting with Cabinet: Or How Designers Collect Visual Material, Researched Through an Experiential Prototype.” 30 (1): 69 – 86. Kirby, D. A. 2011. “The Future Is Now: Diegetic Prototypes and the Role of Popular Films in Generating Real-World Technological Development.” In Cambridge, MA: The MIT Press. Kolko, J. 2010. “Abductive Thinking and Sensemaking: The Drivers of Design Synthesis.” 26 (1): 15 – 28. Kumar, V. J. 2012. New York, NY: Wiley. Martin, B., and B. Hanington. 2012. Beverly, MA: Rockport Publishers. Mattelm  ̈ki, T. 2005. “Applying Probes – From Inspirational Notes to Collaborative Insights.” 1 (2): 83 – 102. Resnick, J. 2011. “Materialization of the Speculative in Foresight and Design.” MDes diss., OCAD University, Toronto, Canada. Sanders, E. B.-N. 1999. “Postdesign and Participatory Culture.” In 87 – 92. Helsinki: University of Art and Design. Sanders, E. B.-N., E. Brandt, and T. Binder. 2010. “A Framework for Organizing the Tools and Techniques of Participatory Design.” Proceedings of the Participatory Design Conference 2010, Sydney, Australia. Sanders, E. B.-N., and P. J. Stappers. 2008. “Co-creation and the New Landscapes of Design.” 4 (1): 5 – 18. Sanders, E. B.-N., and P. J. Stappers. 2012. Amsterdam: BIS Publishers. Sleeswijk Visser, F., P. J. Stappers, R. van der Lugt, and E. B.-N Sanders. 2005. “Contextmapping: Experiences from Practice.” 1 (2): 119– 149. Stappers, P. J. 2010, 2014. “Prototypes as Central Vein for Knowledge Development.” Paper presented at Proto:type 2010, Dundee, UK (to be published 2014). Sterling, B. 2013. “Patently Untrue: Fleshy Defribrillators and Synchronized Baseball Are Changing the Future.” October. Van Boeijen, A., J Daalhuizen, R van der Schoor, and J. Zijlstra. 2013. Amsterdam: BIS Publishers.</h1>
+      </section>
+    </body>
+  </article>
+</pdfx>

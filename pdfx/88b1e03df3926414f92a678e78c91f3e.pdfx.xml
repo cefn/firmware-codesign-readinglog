@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>f76e7f9b80faecd25cd18278b717da0d04b08ec3a7c4adfd09067f81c24e329e</job>
+    <base_name>62f3</base_name>
+    <doi>http://dx.doi.org/10.1260/175722209787951224</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="page_nr" id="1">29</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">Democratizing Innovation: The Evolving Phenomenon of User Innovation 1</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Eric von Hippel</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="5">MIT Sloan School of Management, Cambridge, MA, USA <email id="4">evhippel@mit.edu</email></region>
+      <abstract class="DoCO:Abstract" id="6">Almost 30 years ago, researchers began a systematic study of innovation by end users and user firms. At that time, the phenomenon was generally regarded as a minor oddity. Today, it is clear that user-centered innovation is a very powerful and general phenomenon. It is rapidly growing due to continuing advances in computing and communication technologies. It is becoming both an important rival to and an important feedstock for manufacturer- centered innovation in many fields. In this article, I provide an overview of what the international research community now understands about user-centered innovation. When researchers say that innovation is being democratized, we mean that users of products and services—both firms and individual consumers—are increasingly able to innovate for themselves. User-centered innovation processes offer great advantages over the manufacturer-centric innovation development systems that have been the mainstay of commerce for hundreds of years. Users that innovate can develop exactly what they want, rather than relying on manufacturers to act as their (often very imperfect) agents. Moreover, individual users do not have to develop everything they need on their own: they can benefit from innovations developed and freely shared by others. User-centered innovation processes are very different from the traditional, manufacturer-centric model, in which products and services are developed by manufacturers in a closed way, with the manufacturers using patents, copyrights, and other protections to prevent imitators from free riding on their innovation investments. In the manufacturer-centric model, a user’s only role is to have needs, which manufacturers then identify and fill by designing and producing new products. This traditional model does fit some fields and conditions. However, a growing body of empirical work shows that users are the first to develop many and perhaps most new industrial and consumer products. Further, there is good reason to believe that the importance of product and service development by users is increasing over time. The trend toward democratization of innovation applies to information products such as software and also to physical products, and is being driven by two related technical trends: (1) the steadily improving design capabilities (innovation toolkits) that advances in computer hardware and software make possible for users; (2) the steadily improving ability of individual users to combine and coordinate their innovation-related efforts via new communication media such as the Internet. The ongoing shift of innovation to users has some very attractive qualities. It is becoming progressively easier for many users to get precisely what they want by designing it for themselves. Innovation by users also provides a very necessary complement to and feedstock for manufacturer innovation. And innovation by users appears to increase social welfare. At the same time, the ongoing shift of product-development activities from manufacturers to users is painful and difficult for many manufacturers. Open, distributed innovation is “attacking” a major structure of the social division of labor. Many firms and industries must make fundamental changes to long-held business models in order to adapt. Further, governmental policy and legislation sometimes preferentially supports innovation by manufacturers. Considerations of social welfare suggest that this must change. The workings of the intellectual property system are of special concern. But despite the difficulties, a democratized and user-centric system of innovation appears well worth striving for. Today a number of innovation process researchers are working to develop our understanding of user- centered innovation processes. In this paper, I offer a review of some collective learnings on this important topic to date.</abstract>
+      <region class="DoCO:TextChunk" id="8" confidence="possible">1 An overview of Eric von Hippel’s book, Democratizing Innovation, MIT Press, April, 2005. Overview published in Journal für Betriebswirtschaft (2005). (A complete download of Democratizing Innovation is available cost-free under a Creative Commons license from <ext-link ext-link-type="uri" href="http://mit.edu/" id="7">http://mit.edu/</ext-link> evhippel/www/democ.htm)</region>
+      <outsider class="DoCO:TextBox" type="footer" id="9">Volume 1 · Number 1 · 2009</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10">30</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="11">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="12" confidence="possible" page="2" column="1">IMPORTANCE OF INNOVATION BY USERS</h1>
+        <region class="DoCO:TextChunk" id="40" page="2" column="1">Users, as I use the term, are firms or individual consumers that expect to benefit from using a product or a service. In contrast, manufacturers expect to benefit from selling a product or a service. A firm or an individual can have different relationships to different products or innovations. For example, Boeing is a manufacturer of airplanes, but it is also a user of machine tools. If one were examining innovations developed by Boeing for the airplanes it sells, Boeing would be a manufacturer-innovator in those cases. But if one were considering innovations in metal-forming machinery developed by Boeing for in-house use in building airplanes, those would be categorized as user-developed innovations and Boeing would be a user-innovator in those cases. Innovation user and innovation manufacturer are the two general “functional” relationships between innovator and innovation. Users are unique in that they alone benefit directly from innovations. All others (here lumped under the term “manufacturers”) must sell innovation-related products or services to users, indirectly or directly, in order to profit from innovations. Thus, in order to profit, inventors must sell or license knowledge related to innovations, and manufacturers must sell products or services incorporating innovations. Similarly, suppliers of innovation-related materials or services—unless they have direct use for the innovations—must sell the materials or services in order to profit from the innovations. The user and manufacturer categorization of relationships between innovator and innovation can be extended to specific function, attributes, or features of products and services. When this is done, it may turn out that different parties are associated with different attributes of a particular product or service. For example, householders are the users of the switching attribute of a household electric light switch— they use it to turn lights on and off. However, switches also have other attributes, such as “easy wiring” qualities, that may be used only by the electricians who install them. Therefore, if an electrician were to develop an improvement to the installation attributes of a switch, it would be considered a user- developed innovation. Both qualitative observations and quantitative research in a number of fields clearly document the important role users play as first developers of products and services later sold by manufacturing firms. Adam Smith (1776) was an early observer of the phenomenon, pointing out the importance of “the invention of a great number of machines which facilitate and abridge labor, and enable one man to do the work of many.” Smith went on to note that “a great part of the machines made use of in those manufactures in which labor is most subdivided, were originally the invention of common workmen, who, being each of them employed in some very simple operation, naturally turned their thoughts towards finding out easier and readier methods of performing it.” Rosenberg (1976) explored the matter in terms of innovation by user firms rather than individual workers. He studied the history of the US machine tool industry, finding that important and basic machine types like lathes and milling machines were first developed and built by user firms having a strong need for them. Textile manufacturing firms, gun manufacturers and sewing machine manufacturers were important early user-developers of machine tools. Quantitative studies of user innovation document that many of the most important and novel products and processes in a range of fields have been developed by user firms and by individual users. Thus, Enos (1962) reported that nearly all the most important innovations in oil refining were developed by user firms. Freeman (1968) found that the most widely licensed chemical production processes were developed by user firms. Von <xref ref-type="bibr" rid="R38" id="13" class="deo:Reference">Hippel (1988)</xref> found that users were the developers of about 80 percent of the most important scientific instrument innovations, and also the developers of most of the major innovations in semiconductor processing. <xref ref-type="bibr" rid="R30" id="14" class="deo:Reference">Pavitt (1984)</xref> found that a considerable fraction of invention by British firms was for in-house use. <xref ref-type="bibr" rid="R34" id="15" class="deo:Reference">Shah (2000)</xref> found that the most commercially important equipment innovations in four sporting fields tended to be developed by individual users. Empirical studies also show that many users—from 10 percent to nearly 40 percent—engage in developing or modifying products (<xref ref-type="table" rid="T1" id="16" class="deo:Reference">Table 1</xref>). About half of these studies do not determine representative innovation frequencies; they were designed for other purposes. Nonetheless, when taken together, the findings make it very clear that users are doing a lot of product modification and product development in many fields. Studies of innovating users (both individuals and firms) show them to have the characteristics of “lead users” (<xref ref-type="bibr" rid="R38" id="17" class="deo:Reference">Urban &amp; von Hippel 1988</xref>, <xref ref-type="bibr" rid="R13" id="18" class="deo:Reference">Herstatt and von Hippel 1992</xref>, <xref ref-type="bibr" rid="R29" id="19" class="deo:Reference">Olson and Bakke 2001</xref>, Lilien et al. 2002). That is, they are ahead of the majority of users in their populations with respect to an<marker type="page" number="3"/><marker type="block"/> important market trend, and they expect to gain relatively high benefits from a solution to the needs they have encountered there. The correlations found between innovation by users and lead user status are highly significant, and the effects are very large (<xref ref-type="bibr" rid="R5" id="34" class="deo:Reference">Franke &amp; Shah 2003</xref>, <xref ref-type="bibr" rid="R24" id="35" class="deo:Reference">Lüthje et al. 2002</xref> and <xref ref-type="bibr" rid="R26" id="36" class="deo:Reference">Morrison et al. 2000</xref>). Since lead users are at the leading edge of the market with respect to important market trends, one can guess that many of the novel products they develop for their own use will appeal to other users too and so might provide the basis for products manufacturers would wish to commercialize. This turns out to be the case. A number of studies have shown that many of the innovations reported by lead users are judged to be commercially attractive and/or have actually been commercialized by manufacturers. Research provides a firm grounding for these empirical findings. The two defining characteristics of lead users and the likelihood that they will develop new or modified products have been found to be highly correlated (<xref ref-type="bibr" rid="R25" id="37" class="deo:Reference">Morrison et al. 2004</xref>). In addition, it has been found that the higher the intensity of lead user characteristics displayed by an innovator, the greater the commercial attractiveness of the innovation that that lead user develops (<xref ref-type="bibr" rid="R5" id="38" class="deo:Reference">Franke and von Hippel 2003a</xref>). In <xref ref-type="fig" rid="F1" id="39" class="deo:Reference">Figure 1</xref>, the increased concentration of innovations toward the right indicates that the likelihood of innovating is higher for users having higher lead user index values. The rise in average innovation attractiveness as one moves from left to right indicates that innovations developed by lead users tend to be more commercially attractive. (Innovation attractiveness is the sum of the novelty of the innovation and the expected future generality of market demand.)</region>
+        <outsider class="DoCO:TextBox" type="footer" id="21" page="2" column="1">International Journal of Innovation Science</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="22" page="3" column="1">Eric von Hippel</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="23" page="3" column="1">31</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="24" page="3" column="1">Table 1: Studies of User Innovation Frequency</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="3">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Number and type of %</th>
+                  <th class="table"> developing and building</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> Innovation area</td>
+                  <td class="table.strange"> users sampled</td>
+                  <td class="table.strange"> product for own use</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Industrial products</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 1. Printed Circuit CAD</td>
+                  <td class="table"> 136 user firm attendees at a PC-CAD</td>
+                  <td class="table"> 24.3%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Software (a)</td>
+                  <td class="table"> conference</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2. Pipe Hanger</td>
+                  <td class="table"> Employees in 74 pipe hanger</td>
+                  <td class="table"> 36%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Hardware (b)</td>
+                  <td class="table"> installation firms</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 3. Library Information</td>
+                  <td class="table"> Employees in 102 Australian libraries</td>
+                  <td class="table"> 26%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Systems (c)</td>
+                  <td class="table"> using computerized OPAC library</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> information systems</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4. Medical Surgery</td>
+                  <td class="table"> 261 surgeons working in university</td>
+                  <td class="table"> 22%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Equipment (d)</td>
+                  <td class="table"> clinics in Germany</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 5. Apache OS server</td>
+                  <td class="table"> 131 technically sophisticated Apache</td>
+                  <td class="table"> 19.1%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> software security</td>
+                  <td class="table"> users (webmasters)</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> features (e)</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Consumer products</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 6. Outdoor consumer</td>
+                  <td class="table"> 153 recipients of mail order catalogs</td>
+                  <td class="table"> 9.8%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> products (f)</td>
+                  <td class="table"> for outdoor activity products for</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> consumers</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 7. “Extreme” sporting</td>
+                  <td class="table"> 197 members of 4 specialized sporting</td>
+                  <td class="table"> 37.8%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> equipment (g)</td>
+                  <td class="table"> clubs in 4 “extreme” sports</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 8. Mountain biking</td>
+                  <td class="table"> 291 mountain bikers in a geographic</td>
+                  <td class="table"> 19.2%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> equipment (h)</td>
+                  <td class="table"> region known to be an “innovation</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> hot spot.”</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Sources of Data: (a) Urban and</td>
+                  <td class="table.strange"> von Hippel (1988); (b) Herstatt and von Hippel (1992); (c)</td>
+                  <td class="table.strange"> Morrison et al. (2000); (d)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> (2003); (e) Franke and von Hippel</td>
+                  <td class="table.strange"> (2003); (f) Lüthje (2004); (g) Franke and Shah (2003); (h)</td>
+                  <td class="table.strange"> Lüthje et al. (2002).</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="33" confidence="possible" page="3" column="1">Number and type of % developing and building Innovation area users sampled product for own use Industrial products 1. Printed Circuit CAD 136 user firm attendees at a PC-CAD 24.3% Software (a) conference 2. Pipe Hanger Employees in 74 pipe hanger 36% Hardware (b) installation firms 3. Library Information Employees in 102 Australian libraries 26% Systems (c) using computerized OPAC library information systems 4. Medical Surgery 261 surgeons working in university 22% Equipment (d) clinics in Germany 5. Apache OS server 131 technically sophisticated Apache 19.1% software security users (webmasters) features (e) Consumer products 6. Outdoor consumer 153 recipients of mail order catalogs 9.8% products (f) for outdoor activity products for consumers 7. “Extreme” sporting 197 members of 4 specialized sporting 37.8% equipment (g) clubs in 4 “extreme” sports 8. Mountain biking 291 mountain bikers in a geographic 19.2% equipment (h) region known to be an “innovation hot spot.” Sources of Data: (a) <xref ref-type="bibr" rid="R38" id="25" class="deo:Reference">Urban and von Hippel (1988)</xref>; (b) <xref ref-type="bibr" rid="R13" id="26" class="deo:Reference">Herstatt and von Hippel (1992)</xref>; (c) <xref ref-type="bibr" rid="R26" id="27" class="deo:Reference">Morrison et al. (2000)</xref>; (d) <xref ref-type="bibr" rid="R22" id="28" class="deo:Reference">Lüthje (2003)</xref>; (e) <xref ref-type="bibr" rid="R5" id="29" class="deo:Reference">Franke and von Hippel (2003)</xref>; (f) <xref ref-type="bibr" rid="R23" id="30" class="deo:Reference">Lüthje (2004)</xref>; (g) <xref ref-type="bibr" rid="R5" id="31" class="deo:Reference">Franke and Shah (2003)</xref>; (h) <xref ref-type="bibr" rid="R24" id="32" class="deo:Reference">Lüthje et al. (2002)</xref>.</region>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="41" confidence="possible" page="3" column="1">WHY MANY USERS WANT CUSTOM PRODUCTS</h1>
+        <region class="DoCO:TextChunk" id="50" page="3" column="1">Why do so many users develop or modify products for their own use? Users may innovate if and as they want something that is not available on the market and are able and willing to pay for its development. It is likely that many users do not find what they want on the market. Meta-analysis of market-segmentation studies suggests that users’ needs for products are highly heterogeneous in many fields ( <xref ref-type="bibr" rid="R5" id="42" class="deo:Reference">Franke and Reisinger 2003</xref>).<marker type="page" number="4"/><marker type="block"/> Mass manufacturers tend to follow a strategy of developing products that are designed to meet the needs of a large market segment well enough to induce purchase from and capture significant profits from a large number of customers. When users’ needs are heterogeneous, this strategy of “a few sizes fit all” will leave many users somewhat dissatisfied with the commercial products on offer and probably will leave some users seriously dissatisfied. In a study of a sample of users of the security features of Apache web server software, <xref ref-type="bibr" rid="R5" id="49" class="deo:Reference">Franke and von Hippel (2003b)</xref> found that users had a very high heterogeneity of need, and that many had a high willingness to pay to get precisely what they wanted. Nineteen percent of the users sampled actually innovated to tailor Apache more closely to their needs. Those who did were found to be significantly more satisfied.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="44" page="3" column="1">Volume 1 · Number 1 · 2009</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="45" page="4" column="1">32</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="46" page="4" column="1">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+        <region class="unknown" id="47" page="4" column="1">Estimated OLS function: Y = 2.06 + 0.57x Innovation With Y = attractiveness of innovation [2:14] X = lead user-ness of respondent in sample [2:14] Innovations 10 Estimated OLS curve of Attractiveness 5 0 2 3 4 5 6 7 8 9 10 11 12 13 14 Lead User-ness of Users</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="48" page="4" column="1">Figure 1: User-innovators with stronger “lead user” characteristics develop innovations having higher appeal in the general marketplace. (Data Source: Franke and von Hippel. 2003)</caption>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="51" confidence="possible" page="4" column="1">USERS’ INNOVATE-OR-BUY DECISIONS</h1>
+        <region class="DoCO:TextChunk" id="60" page="4" column="1">Even if many users want “exactly right products” and are willing and able to pay for their development, we must understand why users often do this for themselves rather than hire a custom manufacturer to develop a special just-right product for them. After all, custom manufacturers specialize in developing products for one or a few users. Since these firms are specialists, it is possible that they could design and build custom products for individual users or user firms faster, better, or cheaper than users could do this for themselves. Despite this possibility, several factors can drive users to innovate rather than buy. Both in the case of user firms and in the case of individual user-innovators, agency costs play a major role. In the case of individual user-innovators, enjoyment of the innovation process can also be important. With respect to agency costs, consider that when a user develops its own custom product that user can be trusted to act in its own best interests. When a user hires a manufacturer to develop a custom product, the situation is more complex. The user is then a principal that has hired the custom manufacturer to act as its agent. If the interests of the principal and the agent are not the same, there will be agency costs. In general terms, agency costs are (1) costs incurred to monitor the agent to ensure that it (or he or she) follows the interests of the principal, (2) the cost incurred by the agent to commit itself not to act against the principal’s interest (the “bonding cost”), and (3) costs associated with an outcome that does not fully serve the interests of the principal ( <xref ref-type="bibr" rid="R16" id="52" class="deo:Reference">Jensen and Meckling 1976</xref>). In the specific instance of product and service development, a major divergence of interests between user and custom manufacturer does exist: the user wants to get precisely what it needs, to the extent that it can afford to do so. In contrast, the custom manufacturer wants to lower its development costs by incorporating solution elements it already has or that it predicts others will want in the future—even if by doing so it does not serve its present client’s needs as well as it could.<marker type="page" number="5"/><marker type="block"/> A user wants to preserve its need specification because that specification is chosen to make that user’s overall solution quality as high as possible at the desired price. For example, an individual user may specify a mountain-climbing boot that will precisely fit his unique climbing technique and allow him to climb Everest more easily. Any deviations in boot design will require compensating modifications in the climber’s carefully practiced and deeply ingrained climbing technique—a much more costly solution from the user’s point of view. A custom boot manufacturer, in contrast, will have a strong incentive to incorporate the materials and processes it has in stock and expects to use in future even if this produces a boot that is not precisely right for the present customer. For example, the manufacturer will not want to learn a new way to bond boot components together even if that would produce the best custom result for one client. The net result is that when one or a few users want something special they will often get the best result by innovating for themselves. A model of the innovate-or-buy decision (von <xref ref-type="bibr" rid="R12" id="57" class="deo:Reference">Hippel 2005</xref>) shows in a quantitative way that user firms with unique needs (in other words, a market of one) will always be better off developing new products for themselves. It also shows that development by manufacturers can be the most economical option when n or more user firms want the same thing. However, when the number of user firms wanting the same thing lies between 1 and n, manufacturers may not find it profitable to develop a new product for just a few users. In that case, more than one user may invest in developing the same thing independently, owing to market failure. This results in a waste of resources from the point of view of social welfare. The problem can be addressed by new institutional forms, such as the user innovation communities that will be mentioned later. It is important to note that an additional incentive can drive individual user-innovators to innovate rather than buy: they may value the process of innovating because of the enjoyment or learning that it brings them. It might seem strange that user-innovators can enjoy product development enough to want to do it themselves—after all, manufacturers pay their product developers to do such work! On the other hand, it is also clear that enjoyment of problem solving is a motivator for many individual problem solvers in at least some fields. Consider for example the millions of crossword-puzzle aficionados. Clearly, for these individuals enjoyment of the problem-solving process rather than the solution is the goal. One can easily test this by attempting to offer a puzzle solver a completed puzzle— the very output he or she is working so hard to create. One will very likely be rejected with the rebuke that one should not spoil the fun. Pleasure as a motivator can apply to the development of commercially useful innovations as well. Studies of the motivations of volunteer contributors of code to widely used software products have shown that these individuals too are often strongly motivated to innovate by the joy and learning they find in this work (<xref ref-type="bibr" rid="R14" id="58" class="deo:Reference">Hertel et al. 2003</xref>; <xref ref-type="bibr" rid="R18" id="59" class="deo:Reference">Lakhani and Wolf 2005</xref>).</region>
+        <outsider class="DoCO:TextBox" type="footer" id="54" page="4" column="1">International Journal of Innovation Science</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="55" page="5" column="1">Eric von Hippel</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="56" page="5" column="1">33</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="61" confidence="possible" page="5" column="1">USERS’ LOW-COST INNOVATION NICHES</h1>
+        <region class="DoCO:TextChunk" id="73" page="5" column="1">An exploration of the basic processes of product and service development show that users and manufacturers tend to develop different types of innovations. This is due in part to information asymmetries: users and manufacturers tend to know different things. Product developers need two types of information in order to succeed at their work: need and context-of-use information (generated by users) and generic solution information (often initially generated by manufacturers specializing in a particular type of solution). Bringing these two types of information together is not easy. Both need information and solution information are often very “sticky”—that is, costly to move from the site where the information was generated to other sites (von <xref ref-type="bibr" rid="R32" id="62" class="deo:Reference">Hippel 1994</xref>, <xref ref-type="bibr" rid="R28" id="63" class="deo:Reference">Ogawa 1998</xref>). As a result, users generally have a more accurate and more detailed model of their needs than manufacturers have, while manufacturers have a better model of the solution approach in which they specialize than the user has. When information is sticky, innovators tend to rely largely on information they already have in stock. One consequence of the information asymmetry between users and manufacturers is that users tend to develop innovations that are functionally novel, requiring a great deal of user-need information and use-context information for their development. In contrast, manufacturers tend to develop innovations that are improvements on well-known needs and that require a rich understanding of solution information for their development. This sticky information effect is visible in studies of innovation. <xref ref-type="bibr" rid="R32" id="64" class="deo:Reference">Riggs and von Hippel (1994)</xref> studied the types of innovations made by users and manufacturers that improved the functioning of two major types of scientific instruments. They found that users tended to develop innovations that enabled the instruments to do qualitatively new types of things for the first time. In contrast, manufacturers tended to develop innovations that enabled users to do the same things they had been doing, but to do<marker type="page" number="6"/><marker type="block"/> them more conveniently or reliably (<xref ref-type="table" rid="T2" id="72" class="deo:Reference">Table 2</xref>). For example, users were the first to modify the instruments to enable them to image and analyze magnetic domains at sub-microscopic dimensions. In contrast, manufacturers were the first to computerize instrument adjustments to improve ease of operation. Sensitivity, resolution, and accuracy improvements fall somewhere in the middle, as the data show. These types of improvements can be driven by users seeking to do specific new things, or by manufacturers applying their technical expertise to improve the products along known general dimensions of merit, such as accuracy. If we extend the information-asymmetry argument one step further, we see that information stickiness implies that information on hand will also differ among individual users and manufacturers. The information assets of some particular user (or some particular manufacturer) will be closest to what is required to develop a particular innovation, and so the cost of developing that innovation will be relatively low for that user or manufacturer. The net result is that user innovation activities will be distributed across many users according to their information endowments. With respect to innovation, one user is by no means a perfect substitute for another.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="66" page="5" column="1">Volume 1 · Number 1 · 2009</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="67" page="6" column="1">34</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="68" page="6" column="1">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="69" page="6" column="1">Table 2: Source of Innovations by Nature of Improvement Effected</caption>
+          <content>
+            <table class="DoCO:Table" number="2" page="6">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Type of improvement</th>
+                  <th class="table"></th>
+                  <th class="table"> Innovation</th>
+                  <th class="table"> developed by:</th>
+                  <th class="table"></th>
+                </tr>
+                <tr class="table">
+                  <th class="table"> provided by innovation</th>
+                  <th class="table"> %User</th>
+                  <th class="table"> User</th>
+                  <th class="table"> Mfr</th>
+                  <th class="table"> Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> (1) New functional capability</td>
+                  <td class="table"> 82%</td>
+                  <td class="table"> 14</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 17</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (2) Sensitivity, resolution</td>
+                  <td class="table"> 48%</td>
+                  <td class="table"> 11</td>
+                  <td class="table"> 12</td>
+                  <td class="table"> 23</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> or accuracy improvement</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (3) Convenience or reliability</td>
+                  <td class="table"> 13%</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 21</td>
+                  <td class="table"> 24</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> improvement</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Total</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> 64</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Source: Riggs and von Hippel (1994).</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="71" confidence="possible" page="6" column="1">Type of improvement Innovation developed by: provided by innovation %User User Mfr Total (1) New functional capability 82% 14 3 17 (2) Sensitivity, resolution 48% 11 12 23 or accuracy improvement (3) Convenience or reliability 13% 3 21 24 improvement Total 64 Source: <xref ref-type="bibr" rid="R32" id="70" class="deo:Reference">Riggs and von Hippel (1994)</xref>.</region>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="74" confidence="possible" page="6" column="1">WHY USERS OFTEN FREELY REVEAL THEIR INNOVATIONS</h1>
+        <region class="DoCO:TextChunk" id="90" page="6" column="1">The social efficiency of a system in which individual innovations are developed by individual users is increased if users somehow diffuse what they have developed to others. Manufacturer-innovators partially achieve this when they sell a product or a service on the open market (partially because they diffuse the product incorporating the innovation, but often not all the information that others would need to fully understand and replicate it). If user-innovators do not somehow also diffuse what they have done, multiple users with very similar needs will have to independently develop very similar innovations—a poor use of resources from the viewpoint of social welfare. Empirical research shows that users often do achieve widespread diffusion by an unexpected means: they often “freely reveal” what they have developed. When we say that an innovator freely reveals information about a product or service it has developed, we mean that all intellectual property rights to that information are voluntarily given up by the innovator, and all interested parties are given access to it—the information becomes a public good ( <xref ref-type="bibr" rid="R10" id="75" class="deo:Reference">Harhoff et al., 2003</xref>). The empirical finding that users often freely reveal their innovations has been a major surprise to innovation researchers. On the face of it, if a user-innovator’s proprietary information has value to others, one would think that the user would strive to prevent free diffusion rather than help others to free ride on what it has developed at private cost. Nonetheless, it is now very clear that individual users and user firms—and sometimes manufacturers—often freely reveal detailed information about their innovations. The practices visible in “open source” software development were important in bringing this phenomenon to general awareness. In these projects it was clear policy that project contributors would routinely and systematically freely reveal code they had developed at private expense (<xref ref-type="bibr" rid="R31" id="76" class="deo:Reference">Raymond 1999</xref>). However, free revealing of product innovations has a history that began long before the advent of open source software. <xref ref-type="bibr" rid="R1" id="77" class="deo:Reference">Allen, in his 1983</xref> study of the eighteenth-century iron industry, was probably the first to consider the phenomenon systematically. Later, <xref ref-type="bibr" rid="R27" id="78" class="deo:Reference">Nuvolari (2004)</xref> discussed free revealing in the early history of mine pumping engines. Contemporary free revealing by users has been documented by von <xref ref-type="bibr" rid="R40" id="79" class="deo:Reference">Hippel and Finkelstein (1979)</xref> for medical equipment, by <xref ref-type="bibr" rid="R21" id="80" class="deo:Reference">Lim (2000)</xref> for semiconductor process equipment, by <xref ref-type="bibr" rid="R26" id="81" class="deo:Reference">Morrison, Roberts, and von Hippel (2000)</xref> for library information systems, and by<marker type="page" number="7"/><marker type="block"/>  <xref ref-type="bibr" rid="R5" id="86" class="deo:Reference">Franke and Shah (2003)</xref> for sporting equipment. <xref ref-type="bibr" rid="R10" id="87" class="deo:Reference">Henkel (2003)</xref> has documented free revealing among manufacturers in the case of embedded Linux software. Innovators often freely reveal because it is often the best or the only practical option available to them. Hiding an innovation as a trade secret is unlikely to be successful for long: too many generally know similar things, and some holders of the “secret” information stand to lose little or nothing by freely revealing what they know. Studies find that innovators in many fields view patents as having only limited value (<xref ref-type="bibr" rid="R10" id="88" class="deo:Reference">Harhoff et al., 2003</xref>). Copyright protection and copyright licensing are applicable only to “writings,” such as books, graphic images, and computer software. Active efforts by innovators to freely reveal—as opposed to sullen acceptance—are explicable because free revealing can provide innovators with significant private benefits as well as losses or risks of loss. Users who freely reveal what they have done often find that others then improve or suggest improvements to the innovation, to mutual benefit (<xref ref-type="bibr" rid="R31" id="89" class="deo:Reference">Raymond 1999</xref>). Freely revealing users also may benefit from enhancement of reputation, from positive network effects due to increased diffusion of their innovation, and from other factors. Being the first to freely reveal a particular innovation can also enhance the benefits received, and so there can actually be a rush to reveal, much as scientists rush to publish in order to gain the benefits associated with being the first to have made a particular advancement.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="83" page="6" column="1">International Journal of Innovation Science</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="84" page="7" column="1">Eric von Hippel</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="85" page="7" column="1">35</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="91" confidence="possible" page="7" column="1">INNOVATION COMMUNITIES</h1>
+        <region class="DoCO:TextChunk" id="105" page="7" column="1">Innovation by users tends to be widely distributed rather than concentrated among just a very few very innovative users ( <xref ref-type="table" rid="T3" id="92" class="deo:Reference">Table 3</xref>). As a result, it is important for user-innovators to find ways to combine and leverage their efforts. Users achieve this by engaging in many forms of cooperation. Direct, informal user-to-user cooperation (assisting others to innovate, answering questions, and so on) is common. Organized cooperation is also common, with users joining together in networks and communities that provide useful structures and tools for their interactions and for the distribution of innovations. Innovation communities can increase the speed and effectiveness with which users and also manufacturers can develop and test and diffuse their innovations. They also can greatly increase the ease with which innovators can build larger systems from interlinkable modules created by community participants. Free and open source software projects are a relatively well-developed and very successful form of Internet-based innovation community. However, innovation communities are by no means restricted to software or even to information products, and they can play a major role in the development of physical products. <xref ref-type="bibr" rid="R5" id="93" class="deo:Reference">Franke and Shah (2003)</xref> have documented the value that user innovation communities can provide to user-innovators developing physical products in the field of sporting equipment. The analogy to open source innovation communities is clear. The collective or community effort to provide a public good—which is what freely revealed innovations are—has traditionally been explored in the literature on “collective action.” However, behaviors seen in extant innovation communities fail to correspond to that literature at major points. In essence, innovation communities appear to be more robust with respect to recruiting and rewarding members than the literature would predict. The reason for this appears to be that innovation contributors<marker type="page" number="8"/><marker type="block"/> obtain some private rewards that are not shared equally by free riders (those who take without contributing). For example, a product that a user-innovator develops and freely reveals might be perfectly suited to that user-innovator’s requirements but less well suited to the requirements of free riders. Innovation communities thus illustrate a “private-collective” model of innovation incentive (von <xref ref-type="bibr" rid="R10" id="104" class="deo:Reference">Hippel and von Krogh 2003</xref>).</region>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="95" page="7" column="1">Table 3: User Innovation is Widely Distributed: Few Users Developed more than One Major Commercialized Innovation</caption>
+          <content>
+            <h1 class="table"> Number of innovations each user developed:</h1>
+            <table class="DoCO:Table" number="3" page="7">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> User samples</th>
+                  <th class="table"> 1</th>
+                  <th class="table"> 2</th>
+                  <th class="table"> 3</th>
+                  <th class="table"> 6</th>
+                  <th class="table"> na</th>
+                  <th class="table"> sample (n)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Scientific Instrument users*</td>
+                  <td class="table"> 28</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 32</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Scientific Instrument users**</td>
+                  <td class="table"> 20</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 28</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Process equipment users***</td>
+                  <td class="table"> 19</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 29</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Sports equipment users****</td>
+                  <td class="table"> 7</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 7</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Table Source: von Hippel (2005), Table</td>
+                  <td class="table.strange"> 7-1.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Data Sources:</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> *von Hippel 1988, Appendix: GC, TEM,</td>
+                  <td class="table.strange"> NMR Innovations.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> **Riggs and von Hippel, Esca and AES.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ***von Hippel 1988, Appendix: Semiconductor</td>
+                  <td class="table.strange"> and</td>
+                  <td class="table.strange"> pultrusion process</td>
+                  <td class="table.strange"> equipment</td>
+                  <td class="table.strange"> innovations.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ****Shah 2000, Appendix A: skateboarding,</td>
+                  <td class="table.strange"> snowboarding</td>
+                  <td class="table.strange"> and</td>
+                  <td class="table.strange"> windsurfing</td>
+                  <td class="table.strange"> innovations</td>
+                  <td class="table.strange"> developed by users.</td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="100" confidence="possible" page="7" column="1">Number of innovations each user developed: User samples 1 2 3 6 na sample (n) Scientific Instrument users* 28 0 1 0 1 32 Scientific Instrument users** 20 1 0 1 0 28 Process equipment users*** 19 1 0 0 8 29 Sports equipment users**** 7 0 0 0 0 7 Table Source: von <xref ref-type="bibr" rid="R12" id="96" class="deo:Reference">Hippel (2005)</xref>, Table 7-1. Data Sources: *von <xref ref-type="bibr" rid="R38" id="97" class="deo:Reference">Hippel 1988</xref>, Appendix: GC, TEM, NMR Innovations. **Riggs and von Hippel, Esca and AES. ***von <xref ref-type="bibr" rid="R38" id="98" class="deo:Reference">Hippel 1988</xref>, Appendix: Semiconductor and pultrusion process equipment innovations. ****<xref ref-type="bibr" rid="R34" id="99" class="deo:Reference">Shah 2000</xref>, Appendix A: skateboarding, snowboarding and windsurfing innovations developed by users.</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="101" page="7" column="1">Volume 1 · Number 1 · 2009</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="102" page="8" column="1">36</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="103" page="8" column="1">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="106" confidence="possible" page="8" column="1">ADAPTING POLICY TO USER INNOVATION</h1>
+        <region class="DoCO:TextChunk" id="115" page="8" column="1">Is innovation by users a “good thing?” Welfare economists answer such a question by studying how a phenomenon or a change affects social welfare. <xref ref-type="bibr" rid="R12" id="107" class="deo:Reference">Henkel and von Hippel (2005)</xref> explored the social welfare implications of user innovation. They found that, relative to a world in which only manufacturers innovate, social welfare is very probably increased by the presence of innovations freely revealed by users. This finding implies that policy making should support user innovation, or at least should ensure that legislation and regulations do not favor manufacturers at the expense of user-innovators. The transitions required of policy making to achieve neutrality with respect to user innovation vs. manufacturer innovation are significant. Consider the impact on open and distributed innovation of past and current policy decisions. Research done in the past 30 years has convinced many academics that intellectual property law is sometimes or often not having its intended effect. Intellectual property law was intended to increase the amount of innovation investment. Instead, it now appears that there are economies of scope in both patenting and copyright that allow firms to use these forms of intellectual property law in ways that are directly opposed to the intent of policy makers and to the public welfare (<xref ref-type="bibr" rid="R4" id="108" class="deo:Reference">Foray 2004</xref>). Major firms can invest to develop large portfolios of patents. They can then use these to create “patent thickets”—dense networks of patent claims that give them plausible grounds for threatening to sue across a wide range of intellectual property. They may do this to prevent others from introducing a superior innovation and/or to demand licenses from weaker competitors on favorable terms (<xref ref-type="bibr" rid="R36" id="109" class="deo:Reference">Shapiro 2001</xref>, <xref ref-type="bibr" rid="R3" id="110" class="deo:Reference">Bessen 2003</xref>). Movie, publishing, and software firms can use large collections of copyrighted work to a similar purpose (<xref ref-type="bibr" rid="R2" id="111" class="deo:Reference">Benkler 2002</xref>). In view of the distributed nature of innovation by users, with each tending to create a relatively small amount of intellectual property, users are likely to be disadvantaged by such strategies. It is also important to note that users (and manufacturers) tend to build prototypes of their innovations economically by modifying products already available on the market to serve a new purpose. Laws such as the (U.S.) Digital Millennium Copyright Act, intended to prevent consumers from illegally copying protected works, also can have the unintended side effect of preventing users from modifying products that they purchase (<xref ref-type="bibr" rid="R39" id="112" class="deo:Reference">Varian 2002</xref>). Both fairness and social welfare considerations suggest that innovation- related policies should be made neutral with respect to the sources of innovation. It may be that current impediments to user innovation will be solved by legislation or by policy making. However, beneficiaries of existing law and policy will predictably resist change. Fortunately, a way to get around some of these problems is in the hands of innovators themselves. Suppose many innovators in a particular field decide to freely reveal what they have developed, as they often have reason to do. In that case, users can collectively create an information commons (a collection of information freely available to all) containing substitutes for some or a great deal of information now held as private intellectual property. Then user-innovators can work around the strictures of intellectual property law by simply using these freely revealed substitutes (<xref ref-type="bibr" rid="R19" id="113" class="deo:Reference">Lessig 2001</xref>). This is essentially what is happening in the field of software. For many problems, user-innovators in that field now have a choice between proprietary, closed software provided by Microsoft and other firms and open source software that they can legally download from the Internet and legally modify as they wish to serve their own specific needs. Policy making that levels the playing field between users and manufacturers will force more rapid change onto manufacturers but will by no means destroy them. Experience in fields where open and distributed innovation processes are far advanced show how manufacturers can and do adapt. Some, for example, learn to supply proprietary platform products that offer user-innovators a framework upon which to develop and use their improvements (<xref ref-type="bibr" rid="R17" id="114" class="deo:Reference">Jeppesen 2004</xref>).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="116" confidence="possible" page="8" column="1">DIFFUSION OF USER-DEVELOPED INNOVATIONS</h1>
+        <region class="DoCO:TextChunk" id="133" page="8" column="1">Products, services, and processes developed by users become more valuable to society if they are somehow diffused to others that can also benefit from them. If user innovations are not diffused, multiple users with very similar needs will have to invest to (re)develop very similar innovations which, <marker type="page" number="9"/><marker type="block"/> as was noted earlier, would be a poor use of resources from the social welfare point of view. In the case of information products, users have the possibility of largely or completely doing without the services of manufacturers. Open source software projects are object lessons that teach us that users can create, produce, diffuse, provide user field support for, update, and use complex products by and for themselves in the context of user innovation communities. In physical product fields, the situation is different. Users can develop products. However, the economies of scale associated with manufacturing and distributing physical products give manufacturers an advantage over “do-it-yourself” users in those activities. How can or should user innovations of general interest be transferred to manufacturers for large-scale diffusion? We propose that there are three general methods for accomplishing this. First, manufacturers can actively seek innovations developed by lead users that can form the basis for a profitable commercial product. Second, manufacturers can draw innovating users into joint design interactions by providing them with “toolkits for user innovation.” Third, users can become manufacturers in order to widely diffuse their innovations. We discuss each of these possibilities in turn. To systematically find user-developed innovations, manufacturers must redesign their product development processes. Currently, almost all manufacturers think that their job is to find a need and fill it rather than to sometimes find and commercialize an innovation that lead users have already developed. Accordingly, manufacturers have set up market-research departments to explore the needs of users in the target market, product-development groups to think up suitable products to address those needs, and so forth. In this type of product development system, the needs and prototype solutions of lead users—if encountered at all—are typically rejected as outliers of no interest. Indeed, when lead users’ innovations do enter a firm’s product line they typically arrive with a lag and by an unconventional and unsystematic route. For example, a manufacturer may “discover” a lead user innovation only when the innovating user firm contacts the manufacturer with a proposal to produce its design in volume to supply its own in-house needs. Or sales or service people employed by a manufacturer may spot a promising prototype during a visit to a customer’s site. Modification of firms’ innovation processes to systematically search for and further develop innovations created by lead users can provide manufacturers with a better interface to the innovation process as it actually works, and so provide better performance. A natural experiment conducted at 3M illustrates this possibility. Annual sales of lead user product ideas generated by the average lead user project at 3M were conservatively forecast by management to be more than 8 times the sales forecast for new products developed in the traditional manner—$146 million versus $18 million per year. In addition, lead user projects were found to generate ideas for new product lines, while traditional market-research methods were found to produce ideas for incremental improvements to existing product lines. As a consequence, 3M divisions funding lead user project ideas experienced their highest rate of major product line generation in the past 50 years (Lilien et al. 2002). Toolkits for user innovation custom design involve partitioning product-development and service- development projects into solution-information-intensive subtasks and need-information-intensive subtasks. Need-intensive subtasks are then assigned to users along with a kit of tools that enable them to effectively execute the tasks assigned to them. In the case of physical products, the designs that users create using a toolkit are then transferred to manufacturers for production (von <xref ref-type="bibr" rid="R24" id="121" class="deo:Reference">Hippel and Katz 2002</xref>). Toolkits make innovation cheaper for users and also lead to higher customer value. Thus, <xref ref-type="bibr" rid="R7" id="122" class="deo:Reference">Franke and Piller (2004)</xref> in a study of a consumer wrist watches, found the willingness to pay for a self-designed products was 200% of the willingness to pay for the best-selling commercial product of the same technical quality. This increased willingness to pay was due to both the increased value provided by the self-developed product and the value of the toolkit process for consumers engaging in it. (<xref ref-type="bibr" rid="R33" id="123" class="deo:Reference">Schreier and Franke 2004</xref>). Manufacturers that offer toolkits to their customers can attract innovating users into a relationship with their firm and so get an advantage with respect to producing what the users develop. The custom semiconductor industry was an early adopter of toolkits. In 2003, more than $15 billion worth of semiconductors were produced that had been designed using this approach. (<xref ref-type="bibr" rid="R37" id="124" class="deo:Reference">Thomke and von Hippel 2002</xref>). Innovations developed by users sometimes achieve widespread diffusion when those users become manufacturers - setting up a firm to produce their innovative product(s) for sale. <xref ref-type="bibr" rid="R34" id="125" class="deo:Reference">Shah (2000)</xref> showed this pattern in sporting goods fields. In the medical field, <xref ref-type="bibr" rid="R20" id="126" class="deo:Reference">Lettl et al. (2004)</xref> have shown a pattern in which innovating users take on many of the entrepreneurial functions needed to commercialize the new<marker type="page" number="10"/><marker type="block"/> medical products they have developed, but do not themselves abandon their user roles. New work in this field is exploring the conditions under which users will become entrepreneurs rather than transfer their innovations to established firms (<xref ref-type="bibr" rid="R15" id="131" class="deo:Reference">Hienerth 2004</xref>, <xref ref-type="bibr" rid="R35" id="132" class="deo:Reference">Shah and Tripsas 2004</xref>).</region>
+        <outsider class="DoCO:TextBox" type="footer" id="118" page="8" column="1">International Journal of Innovation Science</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="119" page="9" column="1">Eric von Hippel</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="120" page="9" column="1">37</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="128" page="9" column="1">Volume 1 · Number 1 · 2009</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="129" page="10" column="1">38</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="130" page="10" column="1">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="134" confidence="possible" page="10" column="1">DEMOCRATIZING INNOVATION</h1>
+        <region class="DoCO:TextChunk" id="135" page="10" column="1">I summarize this overview article by again saying that users’ ability to innovate is improving radically and rapidly as a result of the steadily improving quality of computer software and hardware, improved access to easy-to-use tools and components for innovation, and access to a steadily richer innovation commons. Today, user firms and even individual hobbyists have access to sophisticated programming tools for software and sophisticated CAD design tools for hardware and electronics. These information- based tools can be run on a personal computer, and they are rapidly coming down in price. As a consequence, innovation by users will continue to grow even if the degree of heterogeneity of need and willingness to invest in obtaining a precisely right product remains constant. Equivalents of the innovation resources described above have long been available within corporations to a few. Senior designers at firms have long been supplied with engineers and designers under their direct control, and with the resources needed to quickly construct and test prototype designs. The same is true in other fields, including automotive design and clothing design: just think of the staffs of engineers and model makers supplied so that top auto designers can quickly realize and test their designs. But if, as we have seen, the information needed to innovate in important ways is widely distributed, the traditional pattern of concentrating innovation-support resources on a few individuals is hugely inefficient. High-cost resources for innovation support cannot efficiently be allocated to “the right people with the right information:” it is very difficult to know who these people may be before they develop an innovation that turns out to have general value. When the cost of high-quality resources for design and prototyping becomes very low (the trend we have described), these resources can be diffused very widely, and the allocation problem diminishes in significance. The net result is a pattern of increasing democratization of product and service innovation – a pattern that will involve significant changes for both users and manufacturers.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="136" confidence="possible" page="10" column="1">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="137" page="10" column="1">Allen, R. C. (1983). “Collective Invention.” Journal of Economic Behavior and Organization 4(1): 1–24.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="138" page="10" column="1">Benkler, Y. (2002). “Intellectual Property and the Organization of Information Production.” International Review of Law and Economics 22(1): 81–107.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="139" page="10" column="1">Bessen, J. (2003). “Patent Thickets: Strategic Patenting of Complex Technologies.” Research on Innovation and Boston University School of Law. Working Paper.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="140" confidence="possible" page="10" column="1">Foray, D. (2004). Economics of Knowledge. Cambridge, MA: MIT Press.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="141" page="10" column="1">Franke, N. and H. Reisinger (2003). “Remaining Within Cluster Variance: A Meta Analysis of the “Dark” Side of Cluster Analysis.” Vienna Business University. Working Paper.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="142" page="10" column="1">Franke, N. and S. Shah (2003). “How Communities Support Innovative Activities: An Exploration of Assistance and Sharing Among End-Users.” Research Policy 32(1): 157–178.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="143" page="10" column="1">Franke, N. and F. Piller (2004). “Value Creation by Toolkits for User Innovation and Design: The Case of the Watch Market. Journal of Product Innovation Management, 21 (6): 401–415.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="144" page="10" column="1">Franke, N. and E. von Hippel (2003a). “Finding Commercially Attractive User Innovations.” MIT Sloan School of Management. Working Paper No. 4402-03.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="145" page="10" column="1">Franke, N. and E. von Hippel (2003b). “Satisfying Heterogeneous User Needs via Innovation Toolkits: The Case of Apache Security Software.” Research Policy 32(7): 1199–1215.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="146" page="10" column="1">Harhoff, D., J. Henkel and E. von Hippel (2003). “Profiting from Voluntary Information Spillovers: How Users Benefit by Freely Revealing their Innovations.” Research Policy 32(10): 1753–1769.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="147" page="10" column="1">Henkel, J. (2003). “Software Development in Embedded Linux – Informal Collaboration of Competing Firms.” In: W. Uhr, W. Esswein, and E. Schoop (eds.), Proceedings der 6. Internationalen Tagung Wirtschaftsinformatik 2003, Vol. 2: 81–99. Heidelberg: Physica.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="148" page="10" column="1">Henkel, J. and E. von Hippel (2005). “Welfare Implications of User Innovation.” Journal of Technology Transfer, forthcoming.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="152" page="11" column="1">Herstatt, C. and E. von Hippel (1992). “From Experience: Developing New Product Concepts Via the Lead User Method: A Case Study in a “Low Tech” Field.” Journal of Product Innovation Management 9(3): 213–222.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="153" page="11" column="1">Hertel, G., S. Niedner and S. Herrmann (2003). “Motivation of Software Developers in Open Source Projects: an Internet-Based Survey of Contributors to the Linux Kernel.” Research Policy 32(7): 1159–1177.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="154" page="11" column="1">Hienerth, Christoph (2004) “The commercialization of user innovations: Sixteen cases in an extreme sporting industry.” Vienna University of Economics and Business Administration Working Paper</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="155" page="11" column="1">Jensen, M. C. and W. H. Meckling (1976). “Theory of the Firm: Managerial Behavior, Agency Costs, and Ownership Structure.” Journal of Financial Economics 3(4): 305–360.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="156" page="11" column="1">Jeppesen, L. B. (2004). “Profiting from Innovative User Communities: How Firms Organize the Production of User Modifications in the Computer Games Industry.” Department of Industrial Economics and Strategy, Copenhagen Business School, Copenhagen, Denmark. Working paper WP-04.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="157" page="11" column="1">Lakhani, K. R. and B. Wolf (2005). “Why Hackers Do What They Do: Understanding Motivation and Effort in Free/Open Source Software Projects.” In: J. Feller, B. Fitzgerald, S. Hissam, and K.R. Lakhani (eds.), Perspectives on Free and Open Source Software. Cambridge, MA: MIT Press.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="158" page="11" column="1">Lessig, L. (2001). The Future of Ideas: The Fate of the Commons in a Connected World. New York: Random House.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="159" page="11" column="1">Lettl, C., C. Herstatt and H. Gemünden (2004). “The Entrepreneurial Role of Innovative Users: Evidence from Radical Innovations in the Field of Medical Technology.” Technical University Berlin. Working Paper.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="160" page="11" column="1">Lim, K. (2000). “The Many Faces of Absorptive Capacity: Spillovers of Copper Interconnect Technology for Semiconductor Chips.” MIT Sloan School of Management. Working paper #4110.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="161" page="11" column="1">Lüthje, C. (2003). “Customers as Co-Inventors: An Empirical Analysis of the Antecedents of Customer- Driven Innovations in the Field of Medical Equipment.” Proceedings from the 32th EMAC Conference 2003, Glasgow.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="162" page="11" column="1">Lüthje, C. (2004). “Characteristics of Innovating Users in a Consumer Goods Field: An Empirical Study of Sport-Related Product Consumers.” Technovation, forthcoming.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="163" page="11" column="1">Lüthje, C., C. Herstatt and E. von Hippel (2002). “The Dominant Role of Local Information in User Innovation: The Case of Mountain Biking.” MIT Sloan School. Working Paper #4377-02.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="164" page="11" column="1">Morrison, P. D., J. H. Roberts and D. F. Midgley (2004). “The Nature of Lead Users and Measurement of Leading Edge Status.” Research Policy 33(2): 351–362.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="165" page="11" column="1">Morrison, P. D., J. H. Roberts and E. von Hippel (2000). “Determinants of User Innovation and Innovation Sharing in a Local Market.” Management Science 46(12): 1513–1527.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="166" page="11" column="1">Nuvolari, A. (2004). “Collective Invention during the British Industrial Revolution: The Case of the Cornish Pumping Engine.” Cambridge Journal of Economics 28(3): 347–363.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="167" page="11" column="1">Ogawa, S. (1998). “Does Sticky Information Affect the Locus of Innovation? Evidence from the Japanese Convenience-Store Industry.” Research Policy 26(7–8): 777–790.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="168" page="11" column="1">Olson, Erik L and Geir Bakke (2001), “Implementing the Lead User Method in a High Technology Firm: A Longitudinal Study of Intentions versus Actions,” Journal of Product Innovation Management, Vol 18, No 2, (November) pp 388–395.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="169" page="11" column="1">Pavitt, K. (1984). Sectoral Patterns of Technical Change: Towards a Taxonomy and a Theory. Research Policy 13(6): 343–373.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="170" page="11" column="1">Raymond, E. (1999). The Cathedral and the Bazaar: Musings on Linux and Open Source by an accidental revolutionary. Sebastopol, CA.: O’Reilly.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="171" page="11" column="1">Riggs, William and Eric von Hippel (1994), “The Impact of Scientific and Commercial Values on the Sources of Scientific Instrument Innovation,” Research Policy 23 (July): 459–469.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="176" page="11" column="1">Schreier, M. and N. Franke (2004): “Tom Sawyer’s great law in action: Why users are willing to pay to design their own products via toolkits for user innovation and design,” Working Paper Vienna University of Economics and Business Administration. <marker type="page" number="12"/><marker type="block"/> Shah, S. (2000). “Sources and Patterns of Innovation in a Consumer Products Field: Innovations in Sporting Equipment.” MIT Sloan School of Management. Working paper #4105.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="177" page="12" column="1">Shah, S. and M. Tripsas (2004). When Do User-Innovators Start Firms? Towards A Theory of User Entrepreneurship. University of Illinois Working Paper #04-0106.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="178" page="12" column="1">Shapiro, C. (2001). “Navigating the Patent Thicket: Cross Licenses, Patent Pools, and Standard Setting.” In: A. Jaffe, J. Lerner, and S. Stern (eds.), Innovation Policy and the Economy, Vol. 1: 119–150. Cambridge, MA: MIT Press.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="179" page="12" column="1">Thomke, S. H. and E. von Hippel (2002). “Customers as Innovators: A New Way to Create Value.” Harvard Business Review 80(4): 74–81.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="180" page="12" column="1">Urban, G. L. and E. von Hippel (1988). “Lead User Analyses for the Development of New Industrial Products.” Management Science 34(5): 569–82.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="181" page="12" column="1">Varian, H. R. (2002). “New Chips Can Keep a Tight Rein on Consumers.” New York Times, July 4.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="182" page="12" column="1">von Hippel, E. and S. N. Finkelstein (1979). “Analysis of Innovation in Automated Clinical Chemistry Analyzers.” Science &amp; Public Policy 6(1): 24–37.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="183" page="12" column="1">von Hippel, E. (1994). “Sticky Information and the Locus of Problem Solving: Implications for Innovation.” Management Science 40(4): 429–439.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="184" page="12" column="1">von Hippel, E. and G. von Krogh (2003). “Open Source Software and the “Private-Collective” Innovation Model: Issues for Organization Science.” Organization Science 14(2): 209–223.</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="185" page="12" column="1">von Hippel, Eric (2005). Democratizing Innovation, MIT Press, Cambridge MA.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="186" page="12" column="1">von Hippel, E. and R. Katz (2002). “Shifting Innovation to Users Via Toolkits.” Management Science 48(7): 821–833.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="footer" id="149" page="10" column="1">International Journal of Innovation Science</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="150" page="11" column="1">Eric von Hippel</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="151" page="11" column="1">39</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="173" page="11" column="1">Volume 1 · Number 1 · 2009</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="174" page="12" column="1">40</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="175" page="12" column="1">Democratizing Innovation: The Evolving Phenomenon of User Innovation</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="187" confidence="possible" page="12" column="1">ERIC VON HIPPEL</h1>
+        <region class="DoCO:FigureBox" id="Fx188">
+          <image class="DoCO:Figure" src="62f3.page_012.image_01.png" thmb="62f3.page_012.image_01-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="190" page="12" column="1">Eric von Hippel is T Wilson Professor of Management and also Professor of Engineering Systems at MIT. Von Hippel is known for his research into the sources of and economics of innovation. He and his colleagues find that product development is rapidly shifting away from product manufacturers to product “lead users“ and to user collaborations in the Internet Age. The rapid growth of user- centered innovation requires major changes in company business models and government policymaking. For example, it has been shown that user innovation is most effectively built upon an information "commons" model rather than upon a model of proprietary intellectual property. Von Hippel’s latest book, “Democratizing Innovation” (2005), explains user- centered innovation processes and policies. This book is available free on the web at <ext-link ext-link-type="uri" href="http://mit.edu/evhippel/www/books.htm" id="189">http://mit.edu/evhippel/www/books.htm</ext-link></region>
+        <outsider class="DoCO:TextBox" type="footer" id="191" page="12" column="1">International Journal of Innovation Science</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

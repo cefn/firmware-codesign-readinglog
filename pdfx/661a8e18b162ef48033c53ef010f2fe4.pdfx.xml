@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>3f72787dd1bd4303f75150b18f1c1791c9f8c937ae74dcbd6dbc15eaf5f335a4</job>
+    <base_name>62be</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1108/eb040447">http://dx.doi.org/10.1046/j.1469-8137.1998.00941.x</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Prototyping Screenless Media Experiences</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Jasmine Cox Cefn Hoile BBC R&amp;D Lancaster University Dock House</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">MediaCityUK HighWire DTC</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">The LICA building Salford</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">M50 2LH</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">UK Lancaster</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">LA1 4YW</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="9"> <email id="8">jasmine.cox@bbc.co.uk</email></region>
+      <abstract class="DoCO:Abstract" id="10" confidence="possible">Humans love to tell stories. They make use of gesture, voice and manipulation of physical artefacts to express themselves and to convey rich narratives. Broadcasters can be dextrous storytellers too by building new physical ways of accessing, controlling, and experiencing media that are responsive to, and respectful of, the relationships between qualities of objects, spaces, and people. The rapid acceleration of available new consumer devices with Internet capability, matched with their increased sensory features and range, is an attempt to satiate consumer appetite for fresh content and more immediate, personal, or immersive experiences. Screenless interactive experiences with media, documents the investigation into technologies and methods of prototyping networked systems for novel and physical control of media content, and ultimately delivering alternatives for absorbing storytelling.</abstract>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="11" confidence="possible" page="1" column="1">Keywords:</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="12" confidence="possible">User Interface Design. HCI. Internet of Things. Media. Physical Internet. Affordances. Sensors. Product Design.</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="13" page="1" column="1">1. INTRODUCTION</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="15" page="1" column="1">One sector of The Internet of Things (IoT) concerns embedding digital behaviour into everyday objects, and giving them networking technology and a digital presence. A goal of our research is to simplify interaction with data. In much in the same way as a key gives you tangible control of an access mechanism (a lock), sophisticated IoT objects (which can appear almost as analogue ones) will soon be simple tools to allow you control of digital mechanisms and quick navigational routes through to media content. <marker type="block"/> This short paper documents some of the design strategies and technologies we utilised to prototype for one use-case, a single-touch and single-function networked button for in-car radio listeners. It also presents concepts and technology systems for further and future deployments of screenless media objects.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="16" page="1" column="1">2. DEVICES WITHOUT SCREENS</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="17" page="1" column="1">We interact automatically with objects we encounter. Humans have a natural appreciation for material affordances of texture, weight, delicacy and temperature. Sensory receptors on our fingertips are continually feeding-back this data, and informing the way we perceive and interact with objects. Transversely new devices and technologies that have popped-up in consumer products within our lifetimes present a challenge. Non-natural gestures to manipulate pixel data have arisen and present a new language of interaction to learn. There is often a cognitive disconnect between the media and the actions or tools we use to access it. Ambient information (data) display devices present glanceable or skimmable interactions to a user. An ambient device might be selective on the frequency of notifications it offers up, or may show only subtle changes in state, which are either a pre-set interpretable signals, or highly personal or personalised for the user.</region>
+      <region class="unknown" id="19" page="1" column="2"> <email id="18">cefn@cefn.com</email></region>
+      <region class="DoCO:TextChunk" id="21" confidence="possible" page="1" column="2">“Interface design [is] about finding the appropriate representation - visual, audible, physical - that inspires user input and guides system output. It’s about finding the right affordances so that users know what a device can do and how to make a device do it.” [<xref ref-type="bibr" rid="R1" id="20" class="deo:Reference">1</xref>]</region>
+      <region class="DoCO:TextChunk" id="22" page="1" column="2">Designing objects with these ambient qualities combined with real-touch interactions builds devices that may bring more specialised, effective and meaningful interactions with stories.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="23" page="1" column="2">2.1 A CONNECTED FOB</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="28" page="1" column="2">Manufacturing new hardware is not business as usual for broadcasters. But in an increasingly connected world media is being consumed faster and in greater quantities than before. Audiences crave better-linked media experiences that are more personal and are served at an appropriate contextual level, and this is unachievable in a mass produced multi-functional device such as a smartphone. To explore The Internet of Things we need to understand media devices without screens in, and begin to predict how people might want to use them. In this space of simple interfaces, an iterative prototyping process was used to develop a connected fob for saving and sharing moments of broadcast. [ <xref ref-type="bibr" rid="R2" id="24" class="deo:Reference">2</xref>]<marker type="block"/> Radio has an implicitly active audience. It has natural advantages in that it’s live, personal and mobile, with strengths in the live experience, connectivity and topicality. However experiences with radio whilst driving are exclusively a one-way deal, 21 million people each week listen to the BBC in their vehicles, but can’t easily interact with their favourite station. [<xref ref-type="bibr" rid="R3" id="26" class="deo:Reference">3</xref>]<marker type="block"/> The concept of the fob was a very simple networked host, which has a pre-ordained singular function. It is a demonstration of a simple one-squeeze interaction that triggers a series of web-based tagging events to populate a bookmark-list of tagged moments for radio. At the very moment you want to identify a track and save it</region>
+      <region class="DoCO:TextChunk" id="29" confidence="possible" page="1" column="2">©</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="30" page="1" column="2">1</outsider>
+      <region class="DoCO:FigureBox" id="Fx31">
+        <image class="DoCO:Figure" src="62be.page_001.image_01.png" thmb="62be.page_001.image_01-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="32" page="2" column="1">Prototyping Screenless Media Experiences Jasmine Cox ● Cefn Hoile</outsider>
+      <region class="DoCO:TextChunk" id="34" page="2" column="1">for later, you have an immediate skimmable or ‘eyes- free’ interaction at your fingertips. <marker type="block"/> In prototyping the tangible interaction with a physical device it is necessary to consider how we integrate new devices and behaviours into the in-car space. There are many combinations of location, time, task, and company that build situations where it is difficult or near impossible to interact with technology at present. There is a necessity to have solely fleeting interactions with media, which could be facilitated by single-touch standalone IoT objects or interfaces. Challenging situations could be those where you have one or a set of primary focus points that don’t allow lengthy distraction, or perhaps require discrete technology, such as:</region>
+      <region class="DoCO:TextChunk" id="35" confidence="possible" page="2" column="1">• A restrictive space and limited zones of reach. • Occupied hands, and split attention. • Socially constrained situations. • Specific access needs of some users.</region>
+      <region class="DoCO:TextChunk" id="36" page="2" column="1">Broadcasts and media IoT devices have to be adaptive, as audiences are rarely in a position to give their full attention. Analysis of touch capability meant the fob was designed such that it could be grabbed and squeezed in any orientation to minimise the effect on completion of other tasks, predominantly driving.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="37" page="2" column="1">2.2 TECHNOLOGY</h1>
+        <region class="DoCO:TextChunk" id="43" page="2" column="1">The fob was built using a very small microcontroller circuit that is compatible with the popular prototyping platform – Arduino. [ <xref ref-type="bibr" rid="R4" id="38" class="deo:Reference">4</xref>] With sensors/ actuators including tactile buttons, a vibration motor and a Bluetooth module. When squeezed, the fob communicates ‘tag’ actions over the Bluetooth serial link to a native Android application. The fob gives instant haptic feedback to the user, and confirms a successful communication with the app by changing the sequence and colour of an RGB LED.<marker type="block"/> Currently, ‘tags’ are time-stamped and posted via twitter to RadioTagBot (a prototype based on RadioTAG, a protocol that allows you to share what you’re listening to with the broadcaster). In most cases RadioTagBot replies to the tweet with a track name or programme title and a link to the moment of audio once it is available for playback through iPlayer radio. The user can then navigate to this content quickly when they aren’t driving.<marker type="block"/> In designing a portable IoT experience there are two main stumbling blocks; non-standardised connectivity protocols and power. Power consumption becomes critical when using battery cells in mobile devices. To minimise demand, we've experimented with protocol schemes to initialise a low power mode whenever possible. A still more radical approach, is to have the device entirely de-powered, and negotiate a new connection with an Android hosted Bluetooth service on demand.<marker type="block"/> The connected fob’s potential for deployment as a consumer device or as a dedicated giveaway for live events would be to develop its role as a physical interface onto BBC online services like iPlayer. In<marker type="column" number="2"/><marker type="block"/> development we explored alternate technologies that have both app and fob as customisable elements that can be mixed in different ways to achieve highly personalised user experiences. For example the fob would contain or facilitate interchangeable hardware, allowing you to define application-specific serial protocol to control sensors and actuators without the need to write Arduino code. This would also mean that the app portion of the service would be completely configurable by the user. In specifying an input and an output we can describe a customised functionality relationship, which links to one of a number of ‘user defined’ web services.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="44" page="2" column="2">3 FUTURE SCREENLESS INTERACTIONS</h1>
+        <region class="DoCO:TextChunk" id="45" page="2" column="2">The example of the connected fob is one which joins a previously unconnected audience to radio media in a new way. It could be described as an assistive device as it allows a user to achieve a complex navigational task at the simple touch of a button. Alternative future screenless experiences with media could perhaps cover these areas:</region>
+        <region class="DoCO:TextChunk" id="46" confidence="possible" page="2" column="2">• A call to action, a network campaign can request contributions from audience members. This might include voting, or mapping based on listeners’ preference or location. • A recommender or avoider which allows users to navigate to local or complementary live content when radio signal dips or the user dislikes the current content. • A limpet button, which retrofits onto FM, DAB or Internet radios to extend the built-in functionality of these devices. • A device which travels with you everywhere, or one that you transfer from device to device (car- radio, kitchen radio, TV, desk) • A device that is distinctly about a two-way conversation with the audience. Physical inputs and physical or visual outputs. • A docking station that has differing output functionalities when in different contexts/ locations.</region>
+        <region class="DoCO:TextChunk" id="47" page="2" column="2">Our continued research into the development of some of these concepts, plus analysis and exploration of expected/ desired destinations of tagged media, will determine the form and function of new physical digital control mechanisms. Expressing real-time linked media and tailored storytelling in new ways.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="48" page="2" column="2">4 REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="49" page="2" column="2">[1] Saffer, D. (2007) Designing for Interaction, Creating Smart Applications &amp; Clever Devices. New Riders, Berkeley, CA.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="50" page="2" column="2">[2] Cox, J. (2013) A Connected Fob for Radio: Human Scale IoT Objects. BBC R&amp;D Blog Found at:</ref>
+          <ref class="deo:BibliographicReference" id="52" confidence="possible" page="2" column="2"> <ext-link ext-link-type="uri" href="http://www.bbc.co.uk/rd/blog/2013/06/radiotag-fob-" id="51">http://www.bbc.co.uk/rd/blog/2013/06/radiotag-fob-</ext-link> human-scale-connected-objects</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="54" page="2" column="2">[3] RAJAR (2013) Q1. Found at: <ext-link ext-link-type="uri" href="http://www.rajar.co.uk/" id="53">http://www.rajar.co.uk/</ext-link> listening/quarterly_listening.php</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="56" page="2" column="2">[4] Arduino Platform &amp; IDE. <ext-link ext-link-type="uri" href="http://www.arduino.cc/" id="55">http://www.arduino.cc/</ext-link></ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="57" page="2" column="2">2</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

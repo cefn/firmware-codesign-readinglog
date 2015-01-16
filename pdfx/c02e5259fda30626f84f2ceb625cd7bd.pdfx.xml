@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>13569395f506c2c2b03e500bcb807b0b8b6a6e19dea6cbdaa702fe6631b5dc10</job>
+    <base_name>62p7</base_name>
+    <doi>http://dx.doi.org/10.1287/mnsc.48.7.821.2817</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Shifting innovation to users via toolkits</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Eric von Hippel; Ralph Katz Management Science; Jul 2002;</name>
+          <aff id="3">2002</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">; ABI/INFORM Global pg.</name>
+          <aff id="5">48</aff>
+          <aff id="6">7</aff>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="19" page="1" column="1">Reproduced with permission of the copyright owner. Further reproduction prohibited without permission. <marker type="page" number="2"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="3"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="4"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="5"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="6"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="7"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="8"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="9"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="10"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="11"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="12"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="13"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</region>
+    </body>
+  </article>
+</pdfx>

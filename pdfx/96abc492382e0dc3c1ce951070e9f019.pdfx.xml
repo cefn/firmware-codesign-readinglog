@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>a8f4a8efd6d91e7c9836cf5c5b2af0143ac4fe87b37c520f86fde98a4c772286</job>
+    <base_name>62cz</base_name>
+    <doi confidence="possible">10.1145/2163.358100</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Composing letters with a simulated listening typewriter</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">RESEARCH</outsider>
+      <region class="unknown" id="3">CONTRIBUTIONS !J~: !//i i  ̧ ̧ ~'/' i~i~ ,ii~ i: '! ~/i ~~ ~ili ~ !~i ~ i~,~iiii~, !ii ~i Composing Letters with :: ~ : ~ ii ̧ ̧: i !i  ̧ ̧ /~iiii~i~~ ~~i~i ~ ~i a Simulated Listening Typewriter JOHND. GOULD,JOHNCONTI,and TODDHOVANYECZ IBM</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">John D. Gould is an experimental psychologist likes to apply experimental</name>
+        </contrib>
+      </contrib-group>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="5" confidence="possible" page="1" column="1">specific</h2>
+      </section>
+      <region class="unknown" id="6">who psychology to interesting problemsin the use of computers.Todd Hovanyecz received his BA in Mathematics and Physicsfrom Manhattanville College in 1981 and is now working as a systemsengineer. John Contiis now a programmer. Authors' Present Addresses: John D. Gould,IBM Research Center, Box 218, Yorktown Heights, New York 10598; Todd Hovanyecz,IBM, 590 MadisonAve, New York, New York; John Conti, TouchstoneAppliedScience Associates, Inc., 150 Clearbrook Rd, Elmsford, NY. Permissionto copy without fee all or part of this material is granted providedthat the copies are not made or distributedfor direct commercialadvantage,the ACM copyright noticeand the title of the publication and its date appear, and notice is giventhat copyingis by permissionof the Associationfor Computing Machinery.To copy otherwise, or to republish, requires a fee and/or permission.© 1983/ACM001- 0782/83/0400-0295 75¢.</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="10" confidence="possible" page="1" column="2">Research Center</h2>
+      </section>
+      <abstract class="DoCO:Abstract" id="12">ABSTRACT: With a listening typewriter, what an author says would be automatically recognized and displayed in front of him or her. However, speech recognition is not yet advanced enough to provide people with a reliable listening typewriter. A n aim of our experiments was to determine if an imperfect listening typewriter would be useful for composing letters. Participants dictated letters, either in isolated words or in consecutive word speech. They did this with simula- tions of listening typewriters that recognized either a limited vocabulary (1000 or 5000 words) or an unlimited vocabulary. Results sug- gest that some versions, even upon first using them, could be at least as good as traditional methods of handwriting and dic- taring. Isolated word speech with large vocabularies may provide the basis for ~r useful listening typewriter.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">INTRODUCTION A "listening typewriter" is a potentially valuable aid in composing letters, memos, and documents. Indeed, it might be a revolutionary office tool, just as the typewriter, telephone, and computer have been. With a listening typewriter, an author could dictate a letter, memo, or report. What he or she says would be automatically recognized and displayed in front of him or her. A listening typewriter would combine the best features of dictating (e.g., rapid h u m a n output) and the best features of writing (e.g., visual record, easy editing). No h u m a n typist would be required, and no delay would occur between the time an author creates a letter and when he or she gets it back in typed form. This might lead to faster and better initial composition by the author, psychological closure because of no wait for (and uncertainty about) a typed copy, quicker and better communication, and displaceable typing and organizational costs. The state of the art in automatic speech recognition today, however, is not advanced enough to make a reliable listening typewriter (see summaries in [<xref ref-type="bibr" rid="R9" id="7" class="deo:Reference">9</xref>, <xref ref-type="bibr" rid="R14" id="8" class="deo:Reference">14</xref>]). A n increasingly i m p o r t a n t - - a n d a v a i l a b l e - - h u m a n factors tool is simulation of user interfaces before the interfaces are ever built. Such studies can guide and impact the development of technology when the most flexibility for change and improvement exists. The present experiments make use of simulation in studying the value of composing letters with a listening typewriter (since a real listening typewriter does not exist today). This study compared people's performance on and feelings about a listening typewriter with their performance on and feelings about traditional methods of composing (writing and dictating). Of particular interest was whether an imperfect listening typewriter would be useful in composing letters. Perhaps the most difficult technical problehl for automatic speech recognition today is the problem of word segmentation. The boundary cues marking the end of one word and the beginning of the next word, although good enough for h u m a n perception, are generally not clear enough for automatic speech recognition. That is w h y most speech recognition devices commercially available</region>
+      <region class="unknown" id="11" page="1" column="2">is</region>
+      <outsider class="DoCO:TextBox" type="footer" id="13" page="1" column="2">April 1983 Valume 26 Numlx;r 4</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="14" page="1" column="2">Communications of the A CM</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="15" page="1" column="2">295</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="16" page="2" column="1">RESEARCHCONTRIBUTIONS</outsider>
+      <region class="DoCO:TextChunk" id="27" page="2" column="1">today require the user to speak in isolated words, that is, to put a clear pause of 100 msec. or longer between each word. Thus, one variable studied was speech mode. Participants composed some letters by speaking in isolated words and some letters with consecutive word speech. Would the necessity to pause between each word bother people, significantly interrupt their thought processes, or otherwise affect their composition behavior? If people compose letters with isolated words as well as they compose with consecutive w o r d speech, then a useful listening typewriter would be much easier to make. A second variable studied was the size of the vocabulary that the listening typewriter could recognize. Reviews of commercially available isolated word systems report that in actual applications they can recognize only about 10-30 words (at any w o r d choice position) with an accuracy of 97-98 percent [ <xref ref-type="bibr" rid="R2" id="17" class="deo:Reference">2</xref>, <xref ref-type="bibr" rid="R12" id="18" class="deo:Reference">12</xref>]. Much better performance is reported in laboratory settings [<xref ref-type="bibr" rid="R14" id="19" class="deo:Reference">14</xref>]; some of this gain in vocabulary size seems to be occurring now in applications. For example, Poock [<xref ref-type="bibr" rid="R13" id="20" class="deo:Reference">13</xref>] recently showed (using a Threshold Technology T600 recognition system) that vocabularies of up to 240 words are recognized with 97-98 percent accuracy. Nippon Electric C o m p a n y reports they are able to recognize a vocabulary size of 120 continu- ously spoken words, and estimates they can recognize 1000 isolated words [<xref ref-type="bibr" rid="R10" id="21" class="deo:Reference">10</xref>]. Thus, progress is being made t o w a r d successful recognition of larger vocabulary sizes. Clearly, the particular words that comprise the set of words to be recognized significantly affect recognition accuracy. In practice, speech recognition devices attempt to recognize whatever utterance is said within a time win- dow of a second or two, regardless of w h e t h e r the utterance is a single w o r d or short phrase. Thus, single isolated words could be considered as a special case of isolated phrase recognition. In the present study, vocabulary sizes of 1000, 5000, and an unlimited number of words were used. Again, if people perform as well with a relatively small vocabulary as with the (theoretically unrealizable) unlimited one, then a useful listening typewriter could probably be designed sooner and the resulting system would be less costly. Two additional variables, composition strategy and whether participants had experience at dictating, were also studied. In Experiment 1 participants composed half their letters using a draft strategy (as explained below) and half their letters using a first time final strategy. Pilot data suggested these strategies interacted with the system parameters, and therefore needed to be studied sepa- rately. In Experiment 1 participants had no experience at dictating, whereas in Experiment 2 participants were experienced dictators. W e had several hypotheses: 1. Participants would compose written letters somewhat faster than they would compose letters with the listening typewriter because of their relative unfamiliarity with the latter and because of the lack of easy editing with the listening t y p e w r i t e r simulated here. 2. Participants would compose letters in consecutive w o r d speech faster than in isolated words because of the required pauses in the latter. 3. Quality of letters would be the same with all methods, based upon earlier findings about lack of quality differences among methods of composing [<xref ref-type="bibr" rid="R5" id="22" class="deo:Reference">5</xref>, <xref ref-type="bibr" rid="R6" hidden="1" id="23" class="deo:Reference">6</xref>, <xref ref-type="bibr" rid="R7" id="24" class="deo:Reference">7</xref>]. 4. In the subsequent proofediting stage, there would be more changes made and more time spent on letters<marker type="column" number="2"/><marker type="block"/> composed with the listening typewriter than on letters composed with writing because of the limited editing capability provided with the former. Also, in this proofediting stage, there would be more changes made and more time spent on letters composed with a first time final strategy because in the latter some of this work was done while composing. Finally, there would be more changes made and more time spent on letters composed with consecutive word speech than on letters composed with isolated words because in the latter the pauses would serve to allow the author to be more careful about sentence construction and w o r d selection.</region>
+      <region class="DoCO:FigureBox" id="Fx26">
+        <image class="DoCO:Figure" src="62cz.page_002.image_02.png" thmb="62cz.page_002.image_02-thumb.png"/>
+      </region>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="28" page="2" column="2">GENERAL METHOD</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="29" confidence="possible" page="2" column="2">General Procedure</h2>
+          <region class="DoCO:TextChunk" id="31" page="2" column="2">Participants learned to use a listening t y p e w r i t e r by watching a 20 minute videotape that showed another author using it. The videotape m a d e reference to one page of editing instructions that participants had in front of them (Appendix A). Participants then practiced composing t w o - f o u r letters with different versions of the listening typewriter. No mistakes in using the listening t y p e w r i t e r were ever made after two letters. The formal experiment then started. Participants were given the description of a letter to compose and the method to use to compose it. In each letter, participants tried to convince a recipient of something. These included trying to win a bid for paper supplies and recommending a favorite teacher for an annual award. Participants were allowed to make written notes if they chose. While composing, they were allowed to make any changes they wanted. After composing a letter, participants were given a typed version of it about 20 minutes later and allowed to proofedit it. This was called the Proofediting stage. There was only one redo, or proofediting, of the printed version. While composing, participants were videotaped. The amount of time they actually talked was automatically recorded [<xref ref-type="bibr" rid="R6" id="30" class="deo:Reference">6</xref>]. W h e n participants finished, they were briefly interviewed about their feelings for that method and they formally rated it.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="32" confidence="possible" page="2" column="2">Simulation of Listening Typewriter</h2>
+          <region class="DoCO:TextChunk" id="34" confidence="possible" page="2" column="2"> <xref ref-type="fig" rid="F1" id="33" class="deo:Reference">Figure 1</xref> depicts the simulation method. A typist, located in another room, listened to a participant dictate via a closed-circuit TV system and typed w h a t was said. The</region>
+          <region class="DoCO:FigureBox" id="F1">
+            <caption class="deo:Caption" id="35" page="2" column="2">FIGURE 1. Schematic of the Experimental Setup.</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="36" page="2" column="2">296</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="37" page="2" column="2">Communi(:cllions ~fflh~; ACM</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="38" page="2" column="2">April 1983 Volume 26 Nu m b er 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="39" page="3" column="1">RESEARCHCONTRIBUTIONS</outsider>
+          <region class="DoCO:TextChunk" id="41" page="3" column="1">information typed was not only displayed on the typist's computer-controlled cathode-ray tube (CRT) display terminal (IBM 3277), but also appeared on the participant's terminal (IBM 3277), which was yoked to the typist's through the IBM full screen support system. Specifically, the typist heard a word, typed it, and then hit the "Enter" key on the terminal. The computer then checked w h e t h e r the word was in the dictionary being simulated. The dic- tionaries were taken from Kucera and Francis' norms [<xref ref-type="bibr" rid="R11" id="40" class="deo:Reference">11</xref>] of the most frequently used English words, and were stored in the computer (IBM 168V). If the word was not in the dictionary, XXXX's were displayed on the participant's screen. If it was in the dictionary, the computer then checked whether it was a h o m o p h o n e (or homonym, as such words are usually referred to in the literature). If it was, then the most frequent version of the homophone was displayed, regardless of the version that had been typed. This was done because we w a n t e d to simulate an "unintelligent" recognition system. These data could then be used as a baseline for comparison with recognition systems of various amounts of "intelligence." In simulation of isolated word versions of the listening typewriter, the typist hit the "Enter" key after each word. Participants were instructed not to say the next word until the previous word had been displayed to them. A beep sounded when the word was displayed, so that participants did not always have to look at the screen. There was almost a two-second delay from the time participants began to say a word until they could begin to say the next ward. This estimated delay was the sum of the following approximate values: (a) 0.3 sec for a participant to say the word; (b) 1.0 sec for the typist to type the word and press the Enter key; (c) 0.1 sec for the computer to process and display the word; (d) 0.2 sec reaction time for the participant to say the next word. Thus this isolated word simulator could achieve rates of about 30 wpm. If a participant said the next word too quickly, an elec- tronic monitoring device detected this and prevented the typist from hearing the next word. In practice this was not necessary, as it almost never happened. In consecutive word speech, participants could talk as fast as they wanted. They did not have to wait between words. (One participant had to be told to slow down, however, because the typist could not keep up with him.) If a participant was speaking rapidly, the typist would type several words before hitting the Enter key. This had little or no effect on the computer processing time, allowed the typist to get up to speed, and thus allowed the simulator to keep up better with a participant. Presum- ably, the typist was typing these w o r d strings at about 80 wpm. Thus, the consecutive word speech simulator could achieve rates of 50-60 wpm.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="42" confidence="possible" page="3" column="1">Participants' Editing Commands</h2>
+          <region class="DoCO:TextChunk" id="45" page="3" column="1">Participants spoke each editing or formatting command. The typist typed an abbreviation of it, and its effect was shown on the p a r t i c i p a n t s ' screen. Participants could use editing commands offering function equivalent to that contained in ordinary dictating equipment. W e provided this limited function rather than a more elaborate facility because this was standard, easily describable, required less training of participants, less programming of the simulator, and did not force us to invent an editor for a composing method that did not exist anyway. In addition, the results could serve as a baseline against which to measure editors having more power. <marker type="column" number="2"/><marker type="block"/> The only w a y a participant could change w h a t he or she had already said was, in effect, to record over the word. A participant would say "NUTS," which erased the last word shown, and then say another word. If a participant w a n t e d to change the fifth to last word, he would say "NUTS 5," which erased the last five words, and then say the new word and the last four words over. If the wrong homophone (e.g., "in" rather than "inn") was displayed, a participant could say "NUTS" and repeat the homophone, which caused a different version of it to appear (regardless of which version the typist typed). Participants could spell unrecognized words by saying "SPELLMODE," spelling the word, and then saying "ENDSPELLMODE." They could capitalize the first letter of a word ("CAPIT") or capitalize all letters of a word ("CAPALL"). They could cause numerals to be displayed ( " N U M M O D E " . . . "ENDNUMMODE") rather than the spelled out version of them. T h e y could cause modifica- tions in the formatting of a letter with four commands: " N E W P A R A G R A P H , " "NEWLINE," "INDENT N(spaces)," and "SPACE N(spaces)." (The simulator automatically started a new line once the previous line was filled; the NEWLINE c o m m a n d started a new line without the previous line being filled.) The inside address and return address were supplied for participants on their CRT prior to the beginning of each letter. The CRT could display 20 lines at one time. Once participants had composed a longer letter than this, they could scroll through parts of their letter not displayed by saying "SCROLL-TOWARD-BEGINNING" and "SCROLL-TOWARD-END."</region>
+          <region class="DoCO:FigureBox" id="Fx44">
+            <image class="DoCO:Figure" src="62cz.page_003.image_03.png" thmb="62cz.page_003.image_03-thumb.png"/>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="46" confidence="possible" page="3" column="2">The Typist</h2>
+          <region class="DoCO:TextChunk" id="47" page="3" column="2">The typist played a critical role in the success of these experiments. Our typist was selected because she typed 80 wpm, was excellent at following the rules of simulation, remained cool, did not provide a participant with any help, and was available for several months. In addition, she was a practicing stenotypist, which gave her experience with transcribing oral material in real time. She also knew shorthand, which was useful in Experiment 2. She practiced with the simulator for t w o - t h r e e weeks prior to the experiments. During this time, several h u m a n factors improvements were introduced to lighten her burden, speed overall performance, and make the simulation more compelling. She was particularly accu- rate at typing exactly what the participant said, including exclamations and parenthetical comments which a participant made to himself. She seemed effective in typing what she heard, even when context suggested that the participant had said a different word. However, she did misspell words occasionally.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="48" page="3" column="2">EXPERIMENT 1</h1>
+        <region class="unknown" id="49" page="3" column="2">Participants.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="50" confidence="possible" page="3" column="2">Method</h2>
+          <region class="DoCO:TextChunk" id="51" page="3" column="2">Ten people with characteristics similar to m a n y professional, managerial, and technical office work- ers, spent two days each composing letters. T h e y ranged in age from about 25 to 70. Most had at least a bachelor's degree, four worked for IBM, four were female. The IBMers were volunteers, and the non-IBMers were obtained from a local t e m p o r a r y employment agency.</region>
+          <region class="unknown" id="52" page="3" column="2">Letter-tasks.</region>
+          <region class="DoCO:TextChunk" id="53" confidence="possible" page="3" column="2">There were ten letter-tasks, or composing assignments. In each a participant composed a letter to</region>
+          <outsider class="DoCO:TextBox" type="footer" id="54" page="3" column="2">April 1983 Volume 26 Numl~;r 4</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="55" page="3" column="2">Communications of the ACM</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="56" page="3" column="2">29?</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="57" page="4" column="1">t RESEARCHCONTRIBUTIONS</outsider>
+          <region class="DoCO:TextChunk" id="59" page="4" column="1">convince a recipient of something. Tasks included applying for a job, applying for a grant of money for a favorite project, and recommending a relocation site for one's office. <marker type="block"/> Composing Methods and Design. Eight composing methods used the listening typewriter. These corre- sponded to the eight combinations of three variables: speech mode [isolated word (I) vs. consecutive word speech (C)], vocabulary size [1,000 words (1) vs. unlimited (U)], and composing strategy [draft (D) vs. first time final (F)]. Sometimes a method will be referred to by its initials, for example, C I D stands for a letter composed in consecutive word speech with the 1000 word vocabulary with the author using a Draft strategy. With a Draft strategy, participants were instructed to make a quick draft. They were told they could leave unrecognized words on the screen, and make any changes they wished in the subsequent proofediting stage. With a Final strategy, participants were instructed to make the listening typewriter version of their letter as close as possible to the final version of their letter. They were told to remove all unrecognized words by spelling them. They were told they could, however, make any changes they wanted to in the subsequent proofediting stage. For control or comparison purposes, participants wrote two letters, one w h e n they arrived for the experiment and the other later on during the experiment. Each participant wrote his/her first letter on a different letter-task. The order of the remaining nine composing methods, the order of the letter-tasks, and the combination of the composing methods and letter-tasks were varied from participant to participant, with a 9 x 9 greco-latin square. The tenth participant received another row from a different 9 x 9 square. The use of ten participants let each letter-task be completely balanced with the two written letters and the other eight composing methods.</region>
+          <region class="DoCO:TextChunk" id="60" confidence="possible" page="4" column="1">Performance l~valuatlon. Participants were told their performance would be evaluated on the time to compose their letters and the resulting effectiveness of them, and that these two factors would be weighted equally. Composition time was measured from when the participant</region>
+          <region class="unknown" id="61" page="4" column="1">29.1 (2.0)</region>
+          <region class="unknown" id="62" page="4" column="1">28.6 (2.2)</region>
+          <region class="unknown" id="63" page="4" column="1">27.5 (2.4)</region>
+          <region class="unknown" id="64" page="4" column="1">28.1 (2.3)</region>
+          <region class="unknown" id="65" page="4" column="1">30.4 29.8 29.5 28.9 (1.9) (2.4) (2.5) (2.3) -- -- 5 6</region>
+          <region class="unknown" id="66" page="4" column="1">Composition time + Effectiveness (St. Error) Total time + Effectiveness (St. Error) Preference Rating re Writing (on 7-pt scale)</region>
+          <region class="DoCO:FigureBox" id="Fx67">
+            <image class="DoCO:Figure" src="62cz.page_004.image_04.png" thmb="62cz.page_004.image_04-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="70" page="4" column="2">began reading about a letter-task until he or she was finished composing. Effectiveness was rated by three judges (one experimenter and two English teachers) who compared all ten letters written on a particular topic and rank ordered the best three. Since all letters were essentially requests or recommendations, a judge rated the letters' effectiveness according to how likely he or she would be to grant the request or follow the recommendation. The three judges worked independently. A letter was assigned an effectiveness score of 10 if it received a first place vote from a judge (i.e., it was the best of 10 letters), 9 if it received a second place vote, and 8 if it received a third place vote. A score of 4 was assigned if it received no vote (4 is the average score if the remaining seven letters had been rank-ordered). The scores for each letter were summed over the three judges, and ranged from 30 for a letter with the three first place votes to 12 for a letter with no votes. We attempted to weight effectiveness and time equally by transforming the effectiveness scores to have the same mean, same variance, and same range as the time scores, and to go in the same direction as the time scores (i.e., smaller values reflect better performance). We could not achieve all these goals with a single linear transformation. As a compromise, we transformed the effectiveness scores linearly to decrease with greater effectiveness, to have the same mean as the time scores, and to have the same interquartile range as the time scores. The effectiveness scores were calculated with (64 - .5F[), where/~ is the sum of the ratings of the three judges, which varied from 12 to 30. <marker type="block"/> Preference Scale. After using a version of the listening typewriter, each participant compared it to writing using a seven-point scale, where 1 = significantly worse than writing, 3 = a little worse than writing, 4 = same as writing, 5 = a little better than writing, and 7 = significantly better than writing.</region>
+          <region class="unknown" id="69" page="4" column="2">Rating</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="71" confidence="possible" page="4" column="2">Results</h2>
+          <region class="DoCO:TextChunk" id="73" page="4" column="2">Time and Effectiveness of Letters. <xref ref-type="table" rid="TI" id="72" class="deo:Reference">Table I</xref> shows detailed results for the eight versions of the listening typewriter studied. As shown by the standard errors of the means,</region>
+          <region class="unknown" id="74" page="4" column="2">24.7 26.5 27.7 27.0 24.8 25.0</region>
+          <disp-formula class="DoCO:FormulaBox" id="F1.5">
+            <label class="DoCO:Label" id="75">1.5</label>
+            <content class="DoCO:Formula" id="76" page="4" column="2">(2.0) (2.6) (2.6) (1.6) (1.1)</content>
+          </disp-formula>
+          <region class="unknown" id="77" page="4" column="2">26.6 27.5 29.9 27.9 26.6 26.0</region>
+          <disp-formula class="DoCO:FormulaBox" id="F2.1">
+            <label class="DoCO:Label" id="78">2.1</label>
+            <content class="DoCO:Formula" id="79" page="4" column="2">(2.0) (2.6) (2.7) (2.1) (1.1)</content>
+          </disp-formula>
+          <region class="unknown" id="80" page="4" column="2">5 6 5 4 6 6</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="81" page="4" column="2">298</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="82" page="4" column="2">Conununi(:(dions (ff lhe ACM</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="83" page="4" column="2">April 1983 Volume 26 Nu m b er 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="84" page="5" column="1">RESEARCH CONTRIBUTIONS</outsider>
+          <region class="unknown" id="85" page="5" column="1">FINAL STRATEGY</region>
+          <region class="DoCO:TextChunk" id="86" confidence="possible" page="5" column="1">I=IŚ OLATED W Ó R D S P E E C H</region>
+          <region class="unknown" id="87" page="5" column="1">DRAFT STRATEGY 32, ' 30 - C=CONIINUOUS WORDSPEECH W=WRITING 28</region>
+          <region class="DoCO:TextChunk" id="88" confidence="possible" page="5" column="1">S</region>
+          <region class="unknown" id="89" page="5" column="1">26 . . . . . . . . . . . W. . . . . . . . . . .</region>
+          <region class="unknown" id="90" page="5" column="1">;)4</region>
+          <region class="unknown" id="91" page="5" column="1">_g</region>
+          <region class="unknown" id="92" page="5" column="1">a. §</region>
+          <region class="DoCO:TextChunk" id="93" confidence="possible" page="5" column="1">C</region>
+          <region class="DoCO:TextChunk" id="94" confidence="possible" page="5" column="1">2O 18</region>
+          <region class="unknown" id="95" page="5" column="1">16</region>
+          <region class="DoCO:TextChunk" id="96" confidence="possible" page="5" column="1">14</region>
+          <region class="DoCO:FigureBox" id="F2">
+            <caption class="deo:Caption" id="97" page="5" column="1">FIGURE 2.</caption>
+          </region>
+          <region class="unknown" id="98" page="5" column="1">iO00 i UNLIMITE i I0~O0 I UNL IMI I TED NO. VOCABULARY WORDS NO, VOCABULARYWORDS Mean Composition Times for the Composing Methods in Experiment 1.</region>
+          <region class="DoCO:TextChunk" id="114" page="5" column="1">composition times and total times were highly variable. Some of this was due to the letter-tasks themselves, which accounted for as much variance as did composition methods. Most individual time scores or effectiveness means in any one row in <xref ref-type="table" rid="TI" id="99" class="deo:Reference">Table I</xref> were not significantly different from each other. <xref ref-type="fig" rid="F2" id="100" class="deo:Reference">Figure 2</xref> shows that composition times for letters composed with the listening typewriter under Draft instructions tend to be faster than composition times for written letters, whereas letters composed with the listening typewriter under Final instructions were closer to the times for Written letters. This is consistent with the fact that participants were instructed to compose Written letters with a first time final strategy. With the listening typewriter, letters composed under Draft instructions were faster than letters composed under first time final instructions [analysis of variance; F(1,9) = 9.28; p &lt; .05]. ~ Letters composed in consecutive word speech were somewhat faster than letters composed in isolated word speech [(F(<xref ref-type="bibr" rid="R1" id="101" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R9" id="102" class="deo:Reference">9</xref>) = 3.99; p &lt; .10]. Letters composed with an unlimited vocabulary were somewhat faster than letters composed with the 1,000 word vocabulary [F(<xref ref-type="bibr" rid="R1" id="103" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R9" id="104" class="deo:Reference">9</xref>) = 4.69; p &lt; .10]. W h e n proofediting time was added to composition time, these trends remained about the same (<xref ref-type="fig" rid="F3" id="105" class="deo:Reference">Figure 3</xref>). As shown in <xref ref-type="table" rid="TI" id="106" class="deo:Reference">Table I</xref>, letters composed with a Final strategy were more effective (28.6) than letters composed with a Draft strategy [33.1; F(1,9) = 5.23; p &lt; .05]. Effectiveness was not influenced by speech mode or vocabulary size [analyses of variances; p &gt; .10]. Interjudge relia- bility on effectiveness of these letters was low. <xref ref-type="fig" rid="F4" id="107" class="deo:Reference">Figure 4</xref> shows combined performance scores, based upon equal weighting of effectiveness and total time. Combining time scores and effectiveness measures may seem curious since this is a little like mixing apples and oranges and secondly, they have the opposite polarity (until effectiveness scores are transformed, as explained in the Methods section). However, their combination gives a more complete picture of composing efficiency,<marker type="column" number="2"/><marker type="block"/> and that is why we report the combined scores. Lower scores mean better performance. Although the trends are similar to those for time scores alone, none of the differences shown in <xref ref-type="fig" rid="F4" id="111" class="deo:Reference">Figure 4</xref> are significant [analyses of variance; all p &gt; .10]. The rank-order correlation, grouped across participants, between the effectiveness of a method and total time spent with that method was not significant (R = -.54; p &gt; .10). (There was a significant negative rank-order correlation between effectiveness and composition time, however; R = -.81; p &lt; .01, that is, methods which led to faster composition times also led to less effective letters.)<marker type="block"/> Composition Rate. The mean n u m b e r of words in a letter did not differ significantly from method to method (<xref ref-type="table" rid="TII" id="113" class="deo:Reference">Table II</xref>; mean = 179 words; analysis of variance; p &gt; .10). (These word counts do not include the 30-word return address and inside address which were supplied to participants.) This implies that differences in composition rate (words/composition time) are mainly due to differences</region>
+          <region class="unknown" id="109" page="5" column="1">i For the reader unfamiliar with statistical tests of significance, the p values given following the result of an F-test or a R-analysis estimate the probability that the difference reported is due to chance. For example, a p &lt; .05 provides an estimate that the difference among the scores tested could occur by chance less than 1 out of 20 times.</region>
+          <region class="DoCO:FigureBox" id="Fx110">
+            <image class="DoCO:Figure" src="62cz.page_005.image_05.png" thmb="62cz.page_005.image_05-thumb.png"/>
+          </region>
+          <region class="unknown" id="115" page="5" column="2">32|</region>
+          <region class="unknown" id="116" page="5" column="2">DRAFT STRATEGY , , ,</region>
+          <region class="unknown" id="117" page="5" column="2">FINAL STRATEGY , , ,</region>
+          <region class="unknown" id="118" page="5" column="2">28 . . . . . . . . . . W . . . . . . . . . . . . . . . .</region>
+          <region class="DoCO:TextChunk" id="119" confidence="possible" page="5" column="2">~ 26</region>
+          <region class="unknown" id="120" page="5" column="2">o 24</region>
+          <region class="DoCO:TextChunk" id="121" confidence="possible" page="5" column="2">22</region>
+          <region class="unknown" id="122" page="5" column="2">~_ 20</region>
+          <region class="unknown" id="123" page="5" column="2">C</region>
+          <region class="unknown" id="124" page="5" column="2">16 I=ISOLATED WORD SPEECH C=CONTINUOUSWORDSPEECH 14 - W=WRITINC</region>
+          <region class="DoCO:FigureBox" id="F3">
+            <caption class="deo:Caption" id="125" page="5" column="2">FIGURE 3.</caption>
+          </region>
+          <region class="unknown" id="126" page="5" column="2">£ I I I lolo0 UNLIMITED IOiO0 UNLINITE, NO I VOCABULARY WORDS NO. VOCABULARY WORDS Mean Total Time (composition time plus proofediting time) for the Composing Methods in Experiment 1.</region>
+          <region class="unknown" id="127" page="5" column="2">DRAFT STRATEGY</region>
+          <region class="unknown" id="128" page="5" column="2">F[NAL STRATEGY</region>
+          <region class="DoCO:TextChunk" id="129" confidence="possible" page="5" column="2">32 J i w</region>
+          <region class="unknown" id="130" page="5" column="2">i i i</region>
+          <region class="unknown" id="131" page="5" column="2">. . . . . . . . . . . . W . . . . . . . . . .</region>
+          <region class="unknown" id="132" page="5" column="2">. I=ISOLATEO WORD SEECH 31 C=CONTINLC¢~ WORD SPEECH 30 . W=WRITING ~. 29 .......... W ........... m 28 ÷</region>
+          <region class="DoCO:TextChunk" id="133" confidence="possible" page="5" column="2">_~ 27</region>
+          <region class="unknown" id="134" page="5" column="2">~ 26 _g</region>
+          <region class="DoCO:TextChunk" id="135" confidence="possible" page="5" column="2">"- 25</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="136" confidence="possible" page="5" column="2">23</h2>
+          <region class="DoCO:FigureBox" id="F4">
+            <caption class="deo:Caption" id="137" page="5" column="2">FIGURE 4.</caption>
+          </region>
+          <region class="unknown" id="138" page="5" column="2">10 0 z UNLIMITED ~ 10~00 ' UNLIMITED NO. VOCABULARY WORDS NO. VOCABULARY WORDS Mean Performance Scores, Based Upon Equal Weighting of Composition Time and Effectiveness for each Letter, for the Composing Methods of Experiment 1. The effectiveness scores have been transformed so that, like the time scores, smaller values are better.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="139" page="5" column="2">April 1.9KI Volum~ 2tl Numlx~r 4</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="140" page="5" column="2">Communicalions of the ACM</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="141" page="5" column="2">299</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="142" page="6" column="1">RESEARCHCONTRIBUTIONS</outsider>
+          <region class="DoCO:TextChunk" id="155" page="6" column="1">in composition time only. Composition rate was faster for unlimited vocabulary than for limited vocabulary (11.5 vs. 7.1 wpm; F(1,9) = 46.0; p &lt; .001). Composition rate was also faster for Draft strategy than for Final strategy (10.6 vs. 8.0 wpm; F(1,9) = 5.13; p &lt; .05), but was only somewhat faster for consecutive word speech than for isolated word speech (10.3 vs. 8.3 wpm; F(1,9) = 4.49; p &lt; .10). <marker type="block"/> Differences among Participants. The range of participants' composition time scores was 10.8-39.8 min. After adding proofediting times to these, the range was 12.2- 44.2 min. The variance among participants' total time scores was about seven times greater than the variance among the ten composition methods. There was a significant negative rank-order correlation between the time a participant spent composing letters and the resulting effectiveness of them (B, -- -.79; p &lt; .01), and between a p a r t i c p a n r s total time and the resulting effectiveness of his or her letters(R = - .75; p &lt; .01). Participants, for example, who took relatively long to compose letters had more effective letters than did participants who were faster.<marker type="block"/> Proofediting. In the proofediting stage, participants were given a printout of their letter about 20 minutes after they had composed it. T h e y spent 2.8 min. proofediting. The quality of their proofediting was poor. Forty-five of 100 letters were left with at least one spelling error. The average was about two spelling errors in these 45 letters. In addition, participants left h o m o p h o n e spelling errors that would rarely occur in more traditional forms of composition (e.g., " . . . body and sole"). Almost no major changes were made. As shown in <xref ref-type="table" rid="TIII" id="145" class="deo:Reference">Table III</xref>, only a few changes were made in each letter, except in I I D and C I D where participants spelled out over 20 XXXX's per letter. Most changes were minor rewordings, punctuation, and capitalization. We expected that there would be more changes to Draft letters than to Final letters. This was not the case, however, as there were fewer changes m a d e in each of nine categories in <xref ref-type="table" rid="TIII" id="146" class="deo:Reference">Table III</xref> with the Draft strategy! This m a y explain w h y Final letters were judged more effective than D letters. Letters composed with C I D and CUD were proofread especially poorly, and letters composed with these two methods were rated as least effective. In Written letters, participants made fewer punctuation and capitalization changes, and more minor rewordings, than with the listening typewriter.<marker type="column" number="2"/><marker type="block"/> Participants' Opinions. Participants compared each method with Writing, on a seven-point scale. Participants varied considerably among themselves on how well they liked individual versions of the listening typewriter. Four participants gave (almost) all versions a rating of 6 ("Better than writing") or 7 ("Significantly better than writing"). Two participants rated most versions less fa- vorably than writing. The remaining participants differen- tiated more broadly among the methods. As shown in <xref ref-type="table" rid="TI" id="151" class="deo:Reference">Table I</xref>, the median rating of all versions was either 4 ("Same as writing"), 5 ("A little better than writing"), or 6 ("Better than writing").<marker type="block"/> Observations. Participants m a d e few notes. T h e y easily learned how to use the listening typewriter. None of them quit the experiment. They had no difficulty giving verbal c o m m a n d s to the simulator while composing. They made almost no mistakes in using it after their first practice letter. They reported feeling no pressure to t a l k - - u n l i k e novices upon first learning to use traditional dictating equipment (see [<xref ref-type="bibr" rid="R3" id="154" class="deo:Reference">3</xref>]). T h e y did not view this as dictating. Rather they said they could "see their writing." No one reported being frightened of the microphone.</region>
+          <region class="DoCO:TableBox" id="TII">
+            <caption class="deo:Caption" id="148" confidence="possible" page="6" column="1">TABLE II.</caption>
+          </region>
+          <region class="unknown" id="149" page="6" column="1">Word Analyses Based upon Means of each Method in Experiment 1. (Wl : first written letter;, W2 : second written letter;, I : isolated word speech; C -- connected word speech; 1 - 1000 word vocabulary; U -- unlimited word vocabulary; D - draft strategy; F - first time final strategy.) Wl W2 IID IIF IUD IUF ClD ClF CUD CUF Number of words in letter 155 200 162 152 174 198 157 186 204 201 Number unrecognized words (41) (54) 39 39 (44) (54) 32 43 (51) (48) Number XXXX's left for proofed. . . . . . . 22.2 . . . . . . . . . 25.7 . . . . . . . . . iting Percent words in 1000 vocabu- (74) (73) 76 74 (75) (73) 80 77 (75) (76) lary Percent words if 5000 vocabu- (91) (91) (90) (91) (92) (89) (93) (91) (91) (92) lary Composition rate (words per 7.2 8.5 7.2 5.6 12.2 8.4 9.3 6.5 13.9 11.5 min.) N , h ' . 'rh(~ m m d ) . r s i]~ i);iriHlihl~(~ itl lin,~ " and 4 indi(:ah: the words fllal 'would have bl!~!ll affe(:le(] if the 1000 w o r d vo(:al)ularv l i m i l a t i o n had been al)l)li~d Io those (:onljlo~JlhH1 rlll!ihll(l~;. ']1hit IItill)[)(!l'S III jl~ri!lllJle:-;l!~; in IJlll! 5 Jll(]ic~]t(! Ihe p(!r(:ent of v.'ords IhHi wouJ(] h;ix.'(! b(!(!II aJ]'e(:led i[ tile .~000 w o r d V()(:~lbLl]~lr~.' ]in]Jt~ili()n LIS(!(J it1 j'~Xl)l!l'i1111!llt -~ jl;l(] h(!~'ll ~tl)i)lil!lt h ) i l l | tlmse Colllpl)~iljon nlelhods.</region>
+          <region class="DoCO:FigureBox" id="Fx150">
+            <image class="DoCO:Figure" src="62cz.page_006.image_06.png" thmb="62cz.page_006.image_06-thumb.png"/>
+          </region>
+          <region class="unknown" id="153" page="6" column="2">General</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="156" confidence="possible" page="6" column="2">Observations on Methods of Composition</h2>
+          <region class="DoCO:TextChunk" id="157" page="6" column="2">Writing. Participants volunteered that editing, or making changes, was much easier with writing than with a listening typewriter.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="158" confidence="possible" page="6" column="2">Isolated Word Speech/1000 Word Vocabulary.</h2>
+          <region class="DoCO:TextChunk" id="160" page="6" column="2">Behaviorally, participants had little trouble speaking in isolated words. Typically, they would say a w o r d while looking at the screen, wait for it to be displayed, and then say another word. T h e y almost never spoke the next word too soon. Indeed, there often was a pause between when a participant could speak the next w o r d and w h e n he or she actually did speak it. Participants usually looked at the screen while composing, although they could look a w a y and listen for a beep that signalled w h e n they could say the next word. Participants' comments were mainly negative, with more centering on the limited vocabulary size than on the restriction to speak in isolated words. T w e n t y - f o u r percent of the words participants used were not recognized (<xref ref-type="table" rid="TII" id="159" class="deo:Reference">Table II</xref>), and XXXX's were therefore displayed. W h e n using a Final strategy, participants became aggravated at having to spell out about one of every four words. Use of SPELLMODE " . . . adds time," " . . . requires more concen-</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="161" page="6" column="2">300</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="162" page="6" column="2">C()mmuni(:(lfions of the ACM</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="163" page="6" column="2">Apri11983 Volume 26 Number 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="164" page="7" column="1">RESEARCH CONTRIBUTIONS</outsider>
+          <region class="unknown" id="165" page="7" column="1">TABLE ill. Total Number of Changes Made in the Proofediting Stage of the Ten Letters Composed with each Method in Experiment 1. (Wf = first written letter; W2 - second written letter; I - isolated word speech; C - connected word speech; 1 - 1000 word vocabulary; U - unlimited word vocabulary; D -- draft strategy; F - first time final strategy.) W1 W2 I1D I U F C 1 D C1F CUF Formatting;spacing 6 4 3 1 5 2 4 1 7 2 Spelling 1 4 4 0 0 3 2 1 7 0 Punctuation 2 4 3 3 6 1 2 5 10 6 Minor rewording 29 24 14 6 17 15 19 15 41 11 Major rewording 1 0 2 0 6 1 1 0 4 2 Defining XXXX's 0 0 196 0 0 0 249 0 0 0 Capitalizing 0 4 8 7 36 8 19 0 11 7 Homophones 2 1 4 0 2 1 4 2 7 3 Typos madeby the sim- 3 4 1 0 2 1 0 1 1 0 ulator System problems 0 1 2 0 0 2 0 3 6 1</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="166" confidence="possible" page="7" column="1">the</h2>
+          <region class="DoCO:TextChunk" id="170" page="7" column="1">tration," and " . . . is distracting." The limited vocabulary required spelling the more difficult words, and "I'm a poor speller," said one participant. W i t h a Draft strategy, participants were often uncertain about how to handle XXXX's. They could either spell them or leave them to the proofediting stage. Some participants found that if they waited they forgot w h a t a particular XXXX stood for. This was frustrating, as much of the meaning was in these words ("meat words," said one participant). On average, 22.2 XXXX's were left in these Draft letters, which was about half of the 40 unrecognized words per letter with this version ( <xref ref-type="table" rid="TII" id="167" class="deo:Reference">Table II</xref>).<marker type="block"/> Isolated Word~Unlimited Vocabulary. Participants preferred this method to the 1,000 word vocabulary because there were no XXXX's to handle. Some participants criti- cized the isolated word restriction, saying that it was " . . . hard to wait for the beep," it " . . . interrupts flow," " . . . interrupts plans," " . . . doesn't allow cohesive thought." Others said it provided a "nice pace." I " . . . can choose m y words," and " . . . don't have to think as fast." The simulator, displaying one word at a time, could handle dictating rates of about 30 wpm. Participants dictated much slower than this (<xref ref-type="table" rid="TII" id="169" class="deo:Reference">Table II</xref>) and did not complain about delays (although, as will be seen, participants in Experiment 2 did complain).</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="171" confidence="possible" page="7" column="1">Consecutive Word Speech/I,000 Word Vocabulary. A</h2>
+          <region class="DoCO:TextChunk" id="173" page="7" column="1">significant finding was that participants were, in effect, compelled to dictate in isolated words when using this consecutive speech method with a Final strategy. In order to change a word participants had to erase all words said after the one to be changed. Thus, they typically would say a word, wait to see whether it was recognized, and go on to say the next word if it was. If it was not, they would spell the word before saying the next word. Participants commented mainly on the disadvantages of the 1,000 word vocabulary. W i t h a Draft strategy, they left 25.7 XXXX's, or 70 percent of the words that were not recognized (<xref ref-type="table" rid="TIf" id="172" class="deo:Reference">Table If</xref>). "XXXX's are more annoying in consecutive speech," said one participant. "You get ahead," said another, "then you must go back and spell." "I forgot a lot of phrases because of the need to spell," said another. "It's disconcerting not to know the 1,000 words." "It's no good with adjectives," and " . . . anything technical." "I have to look at the screen constantly to fill in words."</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="174" confidence="possible" page="7" column="1">Consecutive Word Speech/Unlimited Vocabulary.</h2>
+          <region class="DoCO:TextChunk" id="175" confidence="possible" page="7" column="1">This</region>
+          <region class="DoCO:FigureBox" id="Fx176">
+            <image class="DoCO:Figure" src="62cz.page_007.image_07.png" thmb="62cz.page_007.image_07-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="179" page="7" column="2">is the unachievable ultimate in speech recognition. Typically a participant said a phrase, read it, possibly edited it, paused, said another phrase, etc. Editing was very local, probably influenced by the primitive editing facilities. Participants dictated substantially faster with this version of the listening typewriter than with the others (<xref ref-type="table" rid="TII" id="177" class="deo:Reference">Table II</xref>, mean = 12.7 wpm). T h e y did not, however, dictate as fast as the simulator could go with this method (about 50-60 wpm), or as fast as the rates of 17-25 w p m found with standard dictating equipment [<xref ref-type="bibr" rid="R4" id="178" class="deo:Reference">4</xref>]. Unlike with the other three versions, participants' comments centered on composing, not on the listening typewriter itself. "Final strategy is hard work," and "I must think more." "With Draft (as opposed to Final) I get m y thoughts down quickly," " . . . could concentrate on con- tent," and " . . . can talk without looking at screen." On the other hand, one participant said, "I didn't notice much difference between Draft and first time Final strategies." Participants mentioned that spelling out XXXX's was compelling even with Draft, that waiting for the machine was disconcerting, and that the conversational tone was more h u m a n than they imagined working with computers would be. They said that they were able to visualize their work better than with traditional Writing.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="180" page="7" column="2">EXPERIMENT 2</h1>
+        <region class="DoCO:TextChunk" id="195" page="7" column="2">This experiment evaluated the use of a listening typewriter by experienced dictators. It c o m p a r e d their performance and attitudes on listening typewriters with their performance and attitudes on dictating to a machine ( D M A C H ) and dictating to a secretary taking shorthand (DSEC). W e hypothesized that their performance would be at least as good with the more efficient versions of the listening typewriter as with D M A C H . This was based upon the finding that experienced dictators are 25 percent faster at dictating than at writing [ <xref ref-type="bibr" rid="R4" id="181" class="deo:Reference">4</xref>], and the finding that letters composed with several of the listening typewriters studied in Experiment 1 were composed more than 25 percent faster than were Written letters. W e also hypothesized that they would like at least some listening typewriters better than D M A C H and D S E C because they could see what they had said. The importance of studying experienced dictators was to learn whether they displayed differential performance and attitudes, compared to nondictators, on various versions of the listening typewriter. For example, experience at dictating might enhance performance with a listening<marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> typewriter. Also, dictation experience might lead to more positive attitudes about using listening typewriters. We were particularly interested in carefully assessing the opinions of these participants about different versions of the listening typewriter. We did this in three ways. Participants compared each version of the listening typewriter, just after using it, with their favorite method of composition. Second, after having used all versions of the listening typewriter, participants rank-ordered each version according to which one they would most likely use in real life. Third, at the end of the experiment, participants composed a letter of their own and had to choose a method of composition with which to do it. We reduced the n u m b e r of conditions studied because we thought that this might have contributed to the large variance in Experiment 1. Five listening typewriter versions were studied. Four of these were the same as in Experiment 1. Isolated word speech/1000 word vocabulary (11000) was chosen because it was a minimal version, and consecutive word speech/unlimited word vocabulary (CU) was chosen as the ultimate, although unachievable, speech recognition system. The trade-off between vocabulary size and speech mode was assessed by studying C1000, 15000, and IU. Had a 5000 word vocabulary been used in Experiment 1, about 91 percent of words would have been recognized (<xref ref-type="table" rid="TII" id="187" class="deo:Reference">Table II</xref>), which is what the Kucera and Francis [<xref ref-type="bibr" rid="R11" id="188" class="deo:Reference">11</xref>] norms predict also.<marker type="block"/> Eight IBM executives, all with considerable experience with dictation, spent one day composing eight letters. Most participants were in their thirties, and they ranged in age from 33-52. All had at least a bachelor's degree. They were professionals in marketing require- ments for office products.<marker type="block"/> M e t h o d s . Each participant composed a different letter with seven different methods: 11000, 15000, IU, C1000, CU, dictating to an IBM 6:5 dictating machine (DMACH), and dictating to a secretary taking shorthand (DSEC). Participants were allowed to use either a Draft or first time Final strategy.<marker type="block"/> L e t t e r - t a s k s . Seven of the ten letter-tasks used in Experiment 1 were used here.<marker type="block"/> D e s i g n . The order of the seven composing methods, the order of the seven letter-tasks, and the combination of the composing methods and letter-tasks were varied, from participant to participant, with a 7 x 7 greco-latin square. We were able to obtain an eighth participant, and he received a row from a different 7 × 7 square.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="183" page="7" column="2">April 1983 Volume 26 Numl~;r 4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="184" page="7" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="185" page="7" column="2">301</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="186" page="8" column="1">RESEARCHCONTRIBUTIONS</outsider>
+        <region class="unknown" id="190" page="8" column="1">Method Participants.</region>
+        <region class="unknown" id="192" page="8" column="1">Composing</region>
+        <region class="DoCO:TextChunk" id="196" confidence="possible" page="8" column="1">Performance Evaluation. Performance was evaluated just as in Experiment 1.</region>
+        <region class="DoCO:TextChunk" id="207" page="8" column="1">P r e f e r e n c e R a t i n g S c a l e . Prior to the experiment participants told us their favorite method of composing. Five preferred DMACH (oftentimes after writing an outline) and three preferred Writing. After using a version of the listening typewriter, each participant compared it to his or her favorite method of composing on a seven-point scale, where 1 = significantly worse than my favorite method, 3 = a little worse than my favorite method, 4 = same as my favorite method, 5 = a little better than my favorite method, and 7 = significantly better than my favorite method. <marker type="column" number="2"/><marker type="block"/> T i m e a n d o f Letters. <xref ref-type="fig" rid="F5" id="200" class="deo:Reference">Figure 5</xref> shows that time scores for DMACH and DSEC were faster than several versions of the listening typewriter. They were significantly faster than all three isolated word versions [<xref ref-type="table" rid="TIV" id="201" class="deo:Reference">Table IV</xref>; F(6,42) -- 19.34; p &lt; .001; Duncan range test; p &lt; .05]. 11000 was significantly slower than all methods (Duncan range test; p &lt; .05). <xref ref-type="fig" rid="F5" id="202" class="deo:Reference">Figure 5</xref> shows that C1000 was relatively faster in this experiment than in the previous one. This was due, at least in part, to participants speaking fast, not spelling a large proportion of XXXX's (<xref ref-type="table" rid="TVI" id="203" class="deo:Reference">Table VI</xref>), and leaving them until the proofediting stage (see <xref ref-type="table" rid="TIX" id="204" class="deo:Reference">Table IX</xref>). Also, letters composed with C1000 were the least effective (<xref ref-type="table" rid="TIV" id="205" class="deo:Reference">Table IV</xref>). As shown in the right panel of <xref ref-type="fig" rid="F5" id="206" class="deo:Reference">Figure 5</xref>, proofediting time partially compensated for some of the differences in composition times among the methods. The result was that total times (composition time plus proof time) were</region>
+        <region class="DoCO:FigureBox" id="Fx198">
+          <image class="DoCO:Figure" src="62cz.page_008.image_08.png" thmb="62cz.page_008.image_08-thumb.png"/>
+        </region>
+        <region class="unknown" id="199" page="8" column="2">Results Effectiveness</region>
+        <region class="unknown" id="208" page="8" column="2">c=</region>
+        <region class="unknown" id="209" page="8" column="2">I=ISOLkTED ~ SPEECH 33 - C=CONTINUOUS VORO SPEECH : ON=DICTATING TO NACHINE 30 'DS4)ICTATING TO SEOIET~Y 27</region>
+        <region class="DoCO:TextChunk" id="210" confidence="possible" page="8" column="2">21</region>
+        <region class="unknown" id="211" page="8" column="2">÷</region>
+        <region class="DoCO:TextChunk" id="212" confidence="possible" page="8" column="2">15</region>
+        <region class="unknown" id="213" page="8" column="2">..................... ~ ...........</region>
+        <region class="DoCO:TextChunk" id="214" confidence="possible" page="8" column="2">12 ........... --ON- ......</region>
+        <region class="DoCO:TextChunk" id="215" confidence="possible" page="8" column="2">U N L N T E D</region>
+        <region class="unknown" id="217" page="8" column="2">,o'oo o'oo ' io~o0 5o'oo UNLINIT~ J NO. V ~ I I _ ~ ~DS NO, W]CAIIA.~Y <xref ref-type="fig" rid="F5" id="216" class="deo:Reference">FIGURE 5</xref>. M e a n Composition Times (left panel) and M e a n Total Time (composition time plus proofediting time) for the C o m p o s i n g M e t h o d s in Experiment 2.</region>
+        <region class="DoCO:TextChunk" id="227" page="8" column="2">about the same on four of the listening typewriter versions as on DMACH ( <xref ref-type="table" rid="TIV" id="218" class="deo:Reference">Table IV</xref>). Only 11000 differed significantly from both controls, as well as from all listening typewriter versions. There were no significant differences in the effectiveness of letters composed with different methods of composition (<xref ref-type="table" rid="TIV" id="219" class="deo:Reference">Table IV</xref>), and (unlike in Experiment 1) there was no significant rank-order correlation between composition time and effectiveness (<xref ref-type="table" rid="TIV" id="220" class="deo:Reference">Table IV</xref>; p &gt; .10). <xref ref-type="fig" rid="F6" id="221" class="deo:Reference">Figure 6</xref> shows the combined score for total time and effectiveness. Effectiveness was calculated by (34.4 - 1.5R), where R varied from 12 for letters receiving no votes to 23 for a letter receiving two first place votes and one second place vote. The trends in <xref ref-type="fig" rid="F6" id="222" class="deo:Reference">Figure 6</xref> for the various listening typewriter versions are similar to those of Experiment 1. 11000, 15000, and C1000 all had significantly poorer scores than did DMACH and DSEC (see <xref ref-type="table" rid="TIV" id="223" class="deo:Reference">Table IV</xref> for Duncan range results). 15000 was not significantly different from any listening typewriter version.<marker type="block"/> shows how participants spent their time while composing with the listening typewriter. Two-thirds of their time was spent planning (range = 58 to 78 percent, depending upon method). Planning time was divided into three sub- times (<xref ref-type="table" rid="TV" id="226" class="deo:Reference">Table V</xref>). Prior to actually dictating a letter, partici-</region>
+        <region class="unknown" id="225" page="8" column="2">Composing With T h e Listening Typewriter. Table V</region>
+        <outsider class="DoCO:TextBox" type="footer" id="228" page="8" column="2">/</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="229" page="8" column="2">302</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="230" page="8" column="2">Communi(:calJons ()f lhe ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="231" page="8" column="2">A'pri11983 Volume 26 Number 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="232" page="9" column="1">RESEARCH CONTRIBUTIONS</outsider>
+        <region class="DoCO:TableBox" id="TIV">
+          <caption class="deo:Caption" id="233" page="9" column="1">TABLE IV. Participants' Mean Composing Times (min.) and Mean Effectiveness (arbitrary units) in Experiment 2. (I = isolated word speech; C = connected word speech; 1 = 1000 word vocabulary; 5 = 5000 word vocabulary; U = unlimited word vocabulary;</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="235" confidence="possible" page="9" column="1">pants typically spent about three m i n u t e s reading o v e r the description of the letter to be c o m p o s e d , thinking about w h a t t h e y w o u l d say, and m a k i n g notes. W h i l e composing, the four participants w h o m a d e notes spent at least one m i n u t e referring to them. T h e third subtime, o t h e r pauses, a c c o u n t e d for the m a j o r i t y of p l a n n i n g time (<xref ref-type="table" rid="TV" id="234" class="deo:Reference">Table V</xref>). Participants spent 10-18 p e r c e n t of their c o m p o s i t i o n times actually generating (dictating) their letters. This is a slight o v e r e s t i m a t e b e c a u s e it includes key w o r d s for the editor, for example, " P E R I O D , " " C O M M A . " Participants did not a p p e a r in the v i d e o t a p e s to s p e n d m u c h time r e v i e w i n g w h a t t h e y had a l r e a d y said (i.e., reading the screen). T h e s e r e v i e w times m a y be an u n d e r e s t i m a t e , as w e did not include times in this category unless w e w e r e certain about them.</region>
+        <region class="unknown" id="236" page="9" column="1">i i i I=ISOLATEDWORD SPEECH 26 - C=CONTINUOUS WORD SPEECH" DN=DICI^TING TO MACHINE 24 "DS:DICTATINGTO SECRETARY" 22</region>
+        <region class="unknown" id="237" page="9" column="1">,=uJ</region>
+        <region class="unknown" id="238" page="9" column="1">i.--</region>
+        <region class="DoCO:TextChunk" id="239" confidence="possible" page="9" column="1">OS-</region>
+        <region class="unknown" id="240" page="9" column="1">18 ¢:= 1 tg w 11 . . . . . . . . . . . --OH-. . . . . i.-- ...................... ........... DS" ............... cL.</region>
+        <region class="DoCO:TextChunk" id="241" confidence="possible" page="9" column="1">12 . . . . . . . . . . . . --D~r" . . . . . lO ..................</region>
+        <region class="DoCO:FigureBox" id="F6">
+          <caption class="deo:Caption" id="242" page="9" column="1">FIGURE 6.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="243" confidence="possible" page="9" column="1">I ~o~o solo UNLIMITED ' logo so'oo UNUMITEO NO, VOCABULARY WORDS NO. VOCABULARY WORDS Mean Performance Scores, Based Upon Equal Weighting of Time and Effectiveness for each Letter, for the Composing Methods of Experiment 2. The effectiveness scores have been transformed so that, like the time scores, smaller values are better.</region>
+        <region class="DoCO:FigureBox" id="Fx244">
+          <image class="DoCO:Figure" src="62cz.page_009.image_09.png" thmb="62cz.page_009.image_09-thumb.png"/>
+        </region>
+        <region class="DoCO:TableBox" id="Tx245">
+          <content>
+            <table class="DoCO:Table" number="V" page="9">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> DMACH = dictated with</th>
+                  <th class="table"> dictating equipment; DSEC =</th>
+                  <th class="table"> dictated to a</th>
+                  <th class="table"> secretary.)</th>
+                  <th class="table"></th>
+                  <th class="table"></th>
+                  <th class="table"></th>
+                  <th class="table"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> 11000</td>
+                  <td class="table"> 15000</td>
+                  <td class="table"> C1000</td>
+                  <td class="table"> CU</td>
+                  <td class="table"> IU</td>
+                  <td class="table"> DMACH</td>
+                  <td class="table"> DSEC</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Composition time</td>
+                  <td class="table"> 26.0</td>
+                  <td class="table"> 18.8</td>
+                  <td class="table"> 13.3</td>
+                  <td class="table"> 15.2</td>
+                  <td class="table"> 15.7</td>
+                  <td class="table"> 12.2</td>
+                  <td class="table"> 9.2</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (5.2)</td>
+                  <td class="table"> (2.6)</td>
+                  <td class="table"> (2.9)</td>
+                  <td class="table"> (4.6)</td>
+                  <td class="table"> (2.6)</td>
+                  <td class="table"> (2.7)</td>
+                  <td class="table"> (2.5)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Proofedit time</td>
+                  <td class="table"> 2.9</td>
+                  <td class="table"> 1.9</td>
+                  <td class="table"> 4.4</td>
+                  <td class="table"> 2.5</td>
+                  <td class="table"> 1.8</td>
+                  <td class="table"> 3.8</td>
+                  <td class="table"> 3.0</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (0.9)</td>
+                  <td class="table"> (0.7)</td>
+                  <td class="table"> (0.7)</td>
+                  <td class="table"> (0.4)</td>
+                  <td class="table"> (0.4)</td>
+                  <td class="table"> (1.0)</td>
+                  <td class="table"> (0.7)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> TOTAL TIME</td>
+                  <td class="table"> 28.9</td>
+                  <td class="table"> 20.7</td>
+                  <td class="table"> 17.7</td>
+                  <td class="table"> 17.7</td>
+                  <td class="table"> 17.5</td>
+                  <td class="table"> 16.0</td>
+                  <td class="table"> 12.2</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (4.8)</td>
+                  <td class="table"> (2.7)</td>
+                  <td class="table"> (2.5)</td>
+                  <td class="table"> (5.2)</td>
+                  <td class="table"> (2.9)</td>
+                  <td class="table"> (3.2)</td>
+                  <td class="table"> (3.1)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Effectiveness</td>
+                  <td class="table"> 14.8</td>
+                  <td class="table"> 16.1</td>
+                  <td class="table"> 16.7</td>
+                  <td class="table"> 13.6</td>
+                  <td class="table"> 13.1</td>
+                  <td class="table"> 10.2</td>
+                  <td class="table"> 11.7</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (1.9)</td>
+                  <td class="table"> (2.0)</td>
+                  <td class="table"> (1.4)</td>
+                  <td class="table"> (2.2)</td>
+                  <td class="table"> (2.9)</td>
+                  <td class="table"> (2.2)</td>
+                  <td class="table"> (2.4)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Composition time +</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Effectiveness</td>
+                  <td class="table"> 20.4</td>
+                  <td class="table"> 17.5</td>
+                  <td class="table"> 15.0</td>
+                  <td class="table"> 14.4</td>
+                  <td class="table"> 14.4</td>
+                  <td class="table"> 11.2</td>
+                  <td class="table"> 10.4</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (2.0)</td>
+                  <td class="table"> (0.9)</td>
+                  <td class="table"> (1.6)</td>
+                  <td class="table"> (2.1)</td>
+                  <td class="table"> (1.2)</td>
+                  <td class="table"> (1.3)</td>
+                  <td class="table"> (1.0)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Total time +</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Effectiveness</td>
+                  <td class="table"> 21.8</td>
+                  <td class="table"> 18.4</td>
+                  <td class="table"> 17.2</td>
+                  <td class="table"> 15.7</td>
+                  <td class="table"> 15.3</td>
+                  <td class="table"> 13.0</td>
+                  <td class="table"> 11.9</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> (St. Error)</td>
+                  <td class="table"> (1.9)</td>
+                  <td class="table"> (0.9)</td>
+                  <td class="table"> (1.5)</td>
+                  <td class="table"> (2.3)</td>
+                  <td class="table"> (1.3)</td>
+                  <td class="table"> (1.4)</td>
+                  <td class="table"> (1.2)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Note. significantly Means different underlined from by</td>
+                  <td class="table.strange"> each the same other line at the in the 0.05 same significance row</td>
+                  <td class="table.strange"> are level, not significantlydifferent as</td>
+                  <td class="table.strange"> significantlydifferent measured with</td>
+                  <td class="table.strange"> Duncan's from each range other. test.</td>
+                  <td class="table.strange"> Means not</td>
+                  <td class="table.strange"> underlined by the same</td>
+                  <td class="table.strange"> in the same row are</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="246" confidence="possible" page="9" column="2">DMACH = dictated with dictating equipment; DSEC = dictated to a secretary.) 11000 15000 C1000 Composition time 26.0 18.8 13.3 (St. Error) (5.2) (2.6) (2.9)</region>
+          <region class="TableInfo" id="247" confidence="possible" page="9" column="2">CU 15.2 (4.6)</region>
+          <region class="TableInfo" id="248" confidence="possible" page="9" column="2">IU 15.7 (2.6)</region>
+          <region class="TableInfo" id="249" confidence="possible" page="9" column="2">DMACH 12.2 (2.7)</region>
+          <region class="TableInfo" id="250" confidence="possible" page="9" column="2">DSEC 9.2 (2.5)</region>
+          <region class="TableInfo" id="251" confidence="possible" page="9" column="2">Proofedit time (St. Error) TOTAL TIME (St. Error)</region>
+          <region class="TableInfo" id="252" confidence="possible" page="9" column="2">2.9 (0.9) 28.9 (4.8)</region>
+          <region class="TableInfo" id="253" confidence="possible" page="9" column="2">1.9 (0.7) 20.7 (2.7)</region>
+          <region class="TableInfo" id="254" confidence="possible" page="9" column="2">4.4 (0.7) 17.7 (2.5)</region>
+          <region class="TableInfo" id="255" confidence="possible" page="9" column="2">2.5 (0.4) 17.7 (5.2)</region>
+          <region class="TableInfo" id="256" confidence="possible" page="9" column="2">1.8 (0.4) 17.5 (2.9)</region>
+          <region class="TableInfo" id="257" confidence="possible" page="9" column="2">3.8 (1.0) 16.0 (3.2)</region>
+          <region class="TableInfo" id="258" confidence="possible" page="9" column="2">3.0 (0.7) 12.2 (3.1)</region>
+          <region class="TableInfo" id="259" confidence="possible" page="9" column="2">14.8 (1.9)</region>
+          <region class="TableInfo" id="260" confidence="possible" page="9" column="2">16.1 (2.0)</region>
+          <region class="TableInfo" id="261" confidence="possible" page="9" column="2">16.7 (1.4)</region>
+          <region class="TableInfo" id="262" confidence="possible" page="9" column="2">13.6 (2.2)</region>
+          <region class="TableInfo" id="263" confidence="possible" page="9" column="2">13.1 (2.9)</region>
+          <region class="TableInfo" id="264" confidence="possible" page="9" column="2">10.2 (2.2)</region>
+          <region class="TableInfo" id="265" confidence="possible" page="9" column="2">11.7 (2.4)</region>
+          <region class="TableInfo" id="266" confidence="possible" page="9" column="2">Effectiveness (St. Error) Composition time + Effectiveness (St. Error)</region>
+          <region class="TableInfo" id="267" confidence="possible" page="9" column="2">20.4 (2.0)</region>
+          <region class="TableInfo" id="268" confidence="possible" page="9" column="2">17.5 (0.9)</region>
+          <region class="TableInfo" id="269" confidence="possible" page="9" column="2">15.0 (1.6)</region>
+          <region class="TableInfo" id="270" confidence="possible" page="9" column="2">14.4 (2.1)</region>
+          <region class="TableInfo" id="271" confidence="possible" page="9" column="2">14.4 (1.2)</region>
+          <region class="TableInfo" id="272" confidence="possible" page="9" column="2">11.2 (1.3)</region>
+          <region class="TableInfo" id="273" confidence="possible" page="9" column="2">10.4 (1.0)</region>
+          <region class="TableInfo" id="274" confidence="possible" page="9" column="2">Total time + Effectiveness (St. Error)</region>
+          <region class="TableInfo" id="275" confidence="possible" page="9" column="2">21.8 (1.9)</region>
+          <region class="TableInfo" id="276" confidence="possible" page="9" column="2">18.4 (0.9)</region>
+          <region class="TableInfo" id="277" confidence="possible" page="9" column="2">17.2 (1.5)</region>
+          <region class="TableInfo" id="278" confidence="possible" page="9" column="2">15.7 (2.3)</region>
+          <region class="TableInfo" id="279" confidence="possible" page="9" column="2">15.3 (1.3)</region>
+          <region class="TableInfo" id="280" confidence="possible" page="9" column="2">13.0 (1.4)</region>
+          <region class="TableInfo" id="281" confidence="possible" page="9" column="2">11.9 (1.2)</region>
+          <region class="TableInfo" id="282" confidence="possible" page="9" column="2">Note. Means underlined by the same line in the same row are not significantlydifferent from each other. Means not underlined by the same line in the same row are significantly different from each other at the 0.05 significance level, as measured with Duncan's range test.</region>
+          <caption class="deo:Caption" id="283" page="9" column="2">TABLE V.</caption>
+        </region>
+        <region class="unknown" id="284" page="9" column="2">Mean Component Times (min.) in Experiment 2. (I -" isolated word speech; C = connected word speech; 1 = 1000 word vocabulary; 5 = 5000 word vocabulary; U = unlimited word vocabulary.) 11000 15000 IU C1000 CU Planning Getting started 3.1 3.7 3.1 2.1 2.4 Looking at notes 1.0 0.9 1.1 0.8 0.8 Pausing 12.0 6,4 8.0 4.1 7.7 Generating 3.3 3.4 1.6 2.1 1,5 Reviewing 0.8 0.4 0.4 0.4 0.4 Editing Looking at Editing Instr. 0.1 0.1 0.1 0.1 0.1 Modifying 5.7 3.9 1.4 3.7 2.3 COMPOSITION TIME 26.0 18.8 15.7 13.3 15.2</region>
+        <region class="DoCO:TextChunk" id="288" confidence="possible" page="9" column="2">T h e r e m a i n i n g c o m p o n e n t t i m e identified in <xref ref-type="table" rid="TV" id="285" class="deo:Reference">Table V</xref> is editing or revising time. Editing time is the time taken to revise w h a t has a l r e a d y been said. It is the time f r o m w h e n a participant began saying an editing c o m m a n d until the effect of that c o m m a n d was displayed, for example, " N U T S " ; or until the participant was d o n e w i t h that c o m m a n d , for e x a m p l e , " S P E L L M O D E . . . . E N D S P E L L M O D E . " A b o u t 21-28 p e r c e n t of the time w a s spent editing w i t h the limited v o c a b u l a r y methods, and about half that w a s spent editing w i t h the u n l i m i t e d vocabulary. Editing, as m e a s u r e d here, is a b e h a v i o r a l activity and does not include the time for m u c h of the cogni- tive activity ( p r e s u m a b l y i n c l u d e d in p l a n n i n g time) during w h i c h a decision is r e a c h e d w h e t h e r and h o w to revise. T h e most f r e q u e n t editing c o m m a n d w a s " N U T S , " as s h o w n in <xref ref-type="table" rid="TVI" id="286" class="deo:Reference">Table VI</xref>. M o r e editing w a s d o n e w i t h limited v o c a b u l a r y letters t h a n w i t h u n l i m i t e d v o c a b u l a r y letters (<xref ref-type="table" rid="TVI" id="287" class="deo:Reference">Table VI</xref>), w h i c h is consistent w i t h the fact that about t w i c e as m u c h time w a s spent in editing limited vocabulary letters as u n l i m i t e d v o c a b u l a r y letters. Most of the " N U T S " c o m m a n d s w e r e used to erase XXXX's, so that a participant could t h e n spell an u n r e c o g n i z e d word. T h e r e m a i n d e r w e r e used prior to m a k i n g w o r d substitutions.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="289" page="9" column="2">April 198"~ V()hanc 26 Nutnlx;r 4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="290" page="9" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="291" page="9" column="2">303</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="292" page="10" column="1">RESEARCH CONTRIBUTIONS</outsider>
+        <region class="DoCO:TableBox" id="TVl">
+          <caption class="deo:Caption" id="293" confidence="possible" page="10" column="1">TABLE Vl.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="294" confidence="possible" page="10" column="1">Total Frequency of Use of Editing Commands in the 8 Letters Composed with each Method in Experiment 2. (I - isolated word speech; C - connected word speech; 1 - 1000 word vocabulary; 5 -- S000 word vocabulary; U - unlimited word vocabulary.) I1~ Is00o c100o C u NUTS 289 87 77 144 54 NUTS2 9 3 7 13 11 NUTS 3+ 10 6 5 22 16</region>
+        <region class="DoCO:TableBox" id="Tx295">
+          <content>
+            <table class="DoCO:Table" number="Vl" page="10">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> SPELLMODE</td>
+                  <td class="table"> 194</td>
+                  <td class="table"> 69</td>
+                  <td class="table"> 17</td>
+                  <td class="table"> 108</td>
+                  <td class="table"> 16</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> NUMMODE</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 2</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 4</td>
+                  <td class="table"> 1</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> CAPIT</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 5</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> --</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="296" confidence="possible" page="10" column="1">SPELLMODE NUMMODE CAPIT</region>
+          <region class="TableInfo" id="297" confidence="possible" page="10" column="1">194 8 8</region>
+          <region class="TableInfo" id="298" confidence="possible" page="10" column="1">69 2 1</region>
+          <region class="TableInfo" id="299" confidence="possible" page="10" column="1">17 3 5</region>
+          <region class="TableInfo" id="300" confidence="possible" page="10" column="1">108 4 1</region>
+          <region class="TableInfo" id="301" confidence="possible" page="10" column="1">16 1 --</region>
+        </region>
+        <region class="DoCO:TextChunk" id="365" page="10" column="1">Most often participants erased just one prewous word, but occasionally they erased two or more previous words with a single NUTS c o m m a n d ( <xref ref-type="table" rid="TVI" id="302" class="deo:Reference">Table VI</xref>). There was more erasing with the limited vocabulary methods than with the unlimited methods because participants would erase XXXX's and then spell the word. W h e n participants used SPELLMODE to spell a word, they usually did so after that w o r d was not recognized and they had erased it with the NUTS command. Sometimes, however, they anticipated that a w o r d would not be recognized, and spelled it in advance. Besides the editing c o m m a n d s shown in <xref ref-type="table" rid="TVI" id="303" class="deo:Reference">Table VI</xref>, participants also used the punctuation c o m m a n d s (period, comma, etc.) and formatting c o m m a n d s (INDENT, NEWLINE, N E W P A R A G R A P H , etc.).<marker type="block"/> As shown in <xref ref-type="table" rid="TVII" id="306" class="deo:Reference">Table VII</xref>, letters composed with the listening t y p e w r i t e r tended to have fewer words in them than letters composed with traditional dictation methods, particularly with DMACH [F(6,42)=3.84; p &lt; .01; Duncan range test, p &lt; .05]. The difference between DSEC and listening typewriters was not statisti- cally significant. Composition rates with DMACH and D S E C were t w o - f o u r times faster than composition rates with the listening t y p e w r i t e r [<xref ref-type="table" rid="TVII" id="307" class="deo:Reference">Table VII</xref>; E(6,42)--16.4; p &lt; .001]. As shown in <xref ref-type="table" rid="TVII" id="308" class="deo:Reference">Table VII</xref>, the :15 w p m composition rates for CU and CI000 were about twice as fast as the 8 w p m composition rates for 11000 and 15000. Composition rate for D M A C H was about that found in earlier experiments on dictation (25.2 wpm) [<xref ref-type="bibr" rid="R4" id="309" class="deo:Reference">4</xref>].<marker type="block"/> Opinions. After using each method, participants c o m p a r e d that method with their favorite method of composition (specified before the experiment). <xref ref-type="table" rid="TVIII" id="312" class="deo:Reference">Table VIII</xref> shows that CU was rated higher than participants' favorite method, whereas 11000 and C1000 were rated lower. Participants said they did not like these two<marker type="column" number="2"/><marker type="block"/> methods because they were slow and distracting. IU and 15000 were rated equivalent to their favorite method. Although these ratings were favorable for three of the five listening typewriter versions, participants' remarks after rating each one were generally not e n t h u s i a s t i c - even for CU which received a rating of 6. The gist of most remarks was to point out weaknesses. Their views seemed stronger, more assured, and more authoritative than did those of the participants in Experiment 1. T w o negative opinions were voiced strongly by nearly every participant: the discomfort in dealing with XXXX's and the perceived slowness of composing with listening typewriters, c o m p a r e d to D M A C H . This a p p a r e n t slowness was perceived to be affected by both (a) speaking in isolated words and (b) use of a limited vocabulary, which introduced uncertainty about w h e t h e r a w o r d would be recognized and sometimes required spelling it out. Participants reported that these problems sometimes led to los- ing their train of thought. Thus, these experienced dictators were more critical of the listening typewriters than were the inexperienced dictators. The most frequently cited advantages of the listening typewriter were seeing w h a t one said and lack of need to spell (recognized words) as one must with traditional handwriting. Some participants volunteered that they had for years secretly worried about spelling w o r d s correctly and a listening t y p e w r i t e r relieved them of this concern. No mention was m a d e about a n y lack of realism in the experimental environment, simulation, or letters. Although no reference was made directly to a slow response time computer, participants did say that the listening typewriters themselves were slow. After the experiment, participants rank-ordered the five listening typewriter versions with respect to which "one you would most often use if it were conveniently available to you." <xref ref-type="table" rid="TVIII" id="317" class="deo:Reference">Table VIII</xref> shows that, based upon the median ranks, the methods were ordered, from most likely to be used to least likely, CU, IU, 15000, C1000, and 11000. Four participants gave exactly this ranking, and three of the other four ranked the first three exactly this way. Afterwards, when asked to compose a letter that they needed in their business or personal life, five participants chose to compose with CU, one chose IU, one chose D M A C H , and the remaining participant did not have time to do this task. She indicated she would have chosen W, however.<marker type="block"/> The variance among individual participants' time scores was about half that of Experiment 1. It was 2.5 times the variance among the seven methods of composition. The range of composition time scores was 6.6-34.1 min., and the range of the total<marker type="page" number="11"/><marker type="column" number="1"/><marker type="block"/> time scores was 9.6-38.0 min. As in Experiment 1, participants who took longer to compose their letters had more effective letters (Spearman rho rank-order correlation ffi -.90; p &lt; .01). There was a similar negative rank-order correlation (rho -- -.86; p &lt; .01) between total time and effectiveness.<marker type="block"/> Proofedlting. Participants spent 2.9 min. proofediting. They made few major changes. They detected fewer than half of the misspellings, leaving spelling errors in 22 of the 56 letters. In letters composed with the limited vocabulary listening typewriters, they had to define 24 XXXX's in C1000, 16 in 11000, and 5 in 15000 (<xref ref-type="table" rid="TIX" id="329" class="deo:Reference">Table IX</xref>) in the Proofediting stage. Aside from this, they made about seven minor changes (punctuation, capitalization, formatting, homophones, minor rewordings) per letter composed with the listening typewriter, and about 10 per letter composed with DMACH and DSEC (<xref ref-type="table" rid="TIX" id="330" class="deo:Reference">Table IX</xref>).<marker type="block"/> DISCUSSION In Experiment 1 participants' performance (combined time and effectiveness) with all versions of the listening typewriter was at least as good as with Writing (<xref ref-type="fig" rid="F4" id="332" class="deo:Reference">Figure 4</xref>). This was true even though participants (a) had no experience at using the listening typewriter; (b) had only primitive editing tools; and (c) had never dictated a letter before. In Experiment 2, the performance of experienced dictators was better (but not significantly so) than the performance of the inexperienced dictators in Experiment 1. The experienced dictators performed as well with some versions of the listening typewriter as with traditional dictation methods. The picture that emerges, then, is that all versions of the listening typewriter tested lie, for first- time users, somewhere between the traditional methods of writing and dictating.<marker type="column" number="2"/><marker type="block"/> W h y was this so? A main reason that several versions of the listening typewriter were faster than Written letters was because participants used a Draft strategy with them and used a Final strategy with Written letters (<xref ref-type="fig" rid="F2" id="335" class="deo:Reference">Figure 2</xref>). Two reasons w h y some versions of the listening type~ writer were slower than DMACH and DSEC was because participants often waited with the slower versions of the listening typewriter and spent more time changing what they had already said. Measured in several different ways, participants preferred most versions of the listening typewriter, particularly those with unlimited vocabulary, to traditional methods of composing. The gap between Written letter times in Experiment 1 (25.3 min.) and DMACH times in Experiment 2 (12.2 min.) was greater than expected on the basis of earlier work [<xref ref-type="bibr" rid="R4" id="336" class="deo:Reference">4</xref>]. That study showed, for experienced dictators, that DMACH required about 80 percent of the time that Written letters did (rather than 50 percent as found here). W h y this larger than expected gap? One possibility is that the present study is correct in showing that DMACH is twice as fast as W - - a t least for letters of this type. This is certainly understandable given the 500 percent difference in potential output rates (see [<xref ref-type="bibr" rid="R4" id="337" class="deo:Reference">4</xref>]). Consistent with this notion is that DMACH letters were even longer than Written letters. A second possibility is that the gap between Written and DMACH letters is n a r r o w e r than w h a t the present experiments showed. Perhaps participants in Experiment 1 were simply slower composers than participants in Experiment 2. Consistent with this is that participants in Experiment 1 (mean=22.0 min.) were s o m e w h a t slower, on the average, at composing than were participants in Experiment 2 (mean=17.6 min.) on the four versions of the listening typewriter that both groups used in common, although this difference was not significant [F(1,16)--1.02;<marker type="page" number="12"/><marker type="column" number="1"/><marker type="block"/> p&gt;.10]. A similar difference was found for w p m (Tables II and IV). In the earlier work a "within subject" design was used which prevented intergroup differences from arising. If the gap is, in fact, narrower, then either Written letter composition time is overestimated, D M A C H time is underestimated, or both. Written letter times m a y be overestimated here since w p m for Written letters (7.9) were less than those found previously for written letters of this type (12.8 w p m in [<xref ref-type="bibr" rid="R6" id="343" class="deo:Reference">6</xref>]; and 13.0 w p m in [<xref ref-type="bibr" rid="R7" id="344" class="deo:Reference">7</xref>]). It is also possible, but less likely, that D M A C H composition time is underestimated here. Participants in the earlier experiments [<xref ref-type="bibr" rid="R4" id="345" class="deo:Reference">4</xref>] used a Final strategy with both Written and D M A C H letters. Here they used a Final strategy with Written letters (as instructed), but a p p a r e n t l y used a Draft strategy with D M A C H (where they had a choice of strategies). This is supported from their comments and from the fact that they m a d e about 10 changes per letter in the Proofediting stage with D M A C H letters (<xref ref-type="table" rid="TIX" id="346" class="deo:Reference">Table IX</xref>), which is more than in the earlier experiments on D M A C H letters [<xref ref-type="bibr" rid="R4" id="347" class="deo:Reference">4</xref>]. However, this argument of explaining some of the gap between Written and D M A C H letters in terms of different strategies is w e a k e n e d by the fact that the composition rate for D M A C H letters (24.8 wpm) is not much higher than that found previously for DMACH letters when participants were using a Final strategy [<xref ref-type="bibr" rid="R4" id="348" class="deo:Reference">4</xref>]. At any rate, these speculations are s o m e w h a t idle because we are talking about composition method means that have large standard e r r o r s - - m u c h greater than in our previous studies of writing, dictating, speaking, and text- editing. Knowing how to dictate did not enhance performance with the listening typewriter. We found no qualitative differences in the performances of the two groups of participants on the versions of the listening t y p e w r i t e r which they used in common, and their composing times did not differ significantly [F(1,16)=1.02; p &gt; .10]. The experienced dictators were much more a w a r e of and concerned about sometimes being slowed down, however. W p m composition rate was affected by all three variables studied. S u m m e d over results in both experiments, composition rate was 40 percent faster for unlimited vocabulary than for limited vocabularies (12.0 vs. 8.4 wpm) primarily because participants had to spell 25 percent of the words in the former. It was also faster for consecutive word speech than for isolated w o r d speech (11.8 vs. 8.5 wpm) primarily because participants had to wait between words with the latter. It was also faster for Draft than for Final (Experiment 1; 10.7 vs 8.0 wpm) because participants could leave unspelled words in Draft letters and because they spent less time planning (presumably) their word selection. The finding that letters composed with a Final strategy take more time than letters composed with a Draft strategy suggests that more time is spent planning them, which is exactly what occurred in Experiment 1. Further, participants spelled all unrecognized words when composing letters with a Final strategy but spelled only some of them when composing letters with a Draft strategy. In addition, the proofedited versions of the letters composed with a Final strategy were judged to be more effective than the proofediting versions of letters composed with a Draft strategy. The lack of differences in the percent of recognized words with the limited vocabulary listening typewriter, compared to W, DMACH, DSEC, and the unlimited vocabulary listening typewriters (Tables II, V), suggests participants did not (successfully) use a different vocabulary<marker type="column" number="2"/><marker type="block"/> to avoid X X X X ' s - - e v e n though some suggested they were trying to do so. One might think that people's performance would im- prove with additional experience in using the listening typewriter and with additional editing capability. Perhaps the limited editing capability had more serious conse- quences for the versions of the listening t y p e w r i t e r which fared relatively poorly than for those which fared better, since the letters composed with the latter p r o b a b l y required less editing. Of theoretical interest, this experiment demonstrates w h a t we found in earlier studies of dictation, namely, that people can rapidly learn to use oral language (required in using a listening typewriter) to mimic their written language (produced to be read). This finding shows the adaptability of h u m a n language, and indicates that differences between written and oral language are differences in practice and not in principle.<marker type="block"/> The experienced dictators, who in real life have responsi- bility for recommending the characteristics that office products should have, were more critical of the listening typewriter than were the other participants. T h e y felt strongly about the need for a faster system, whereas participants in Experiment 2 said little about this. Both groups disliked the XXXX's. In addition, the experienced dictators viewed using a listening t y p e w r i t e r as dictating, whereas the nondictators of Experiment 1 thought of it as being able to see their writing.<marker type="block"/> This simulation was extremely compelling. Once participants began the experiment, they seemed to think about and refer to w h a t they were working with as a real system. No references were ever m a d e to a typist, but rather to "it," or "the system," or "the computer." M i d w a y through the experiment we reminded participants about the simulation and, in case they had not already sur- mised, revealed the facts about a h u m a n typist being in- volved. Most were surprised; some even tried to explain w h y this could not be the case. The fact that the typist and the computer program followed consistent rules, especially with the use of homophones, contributed to this feeling. W e have simulated user interfaces prior to their being built before (e.g., [<xref ref-type="bibr" rid="R8" id="355" class="deo:Reference">8</xref>, <xref ref-type="bibr" rid="R15" id="356" class="deo:Reference">15</xref>]). W h e n done while a language or a technology is still evolving, such h u m a n factors efforts can be supportive to and guide the direction of development. T h e y can provide critical contributions, perhaps gained no other way, to the design of tools for people that will be useful and usable.<marker type="block"/> The present simulation serves to organize and structure the h u m a n factors issues for speech recognition research aimed at developing a listening typewriter. People will probably be able to compose letters with listening typewriters at least as efficiently as with traditional methods. Even with the little editing capability used here, they are preferred to traditional methods. A listening t y p e w r i t e r can lead to productivity increases in the office with a clear displaceable cost because no typing m a y be required. In addition, it would lead to productivity increases in the organization because faster distribution of documents is possible, due to the document being in machine readable form immediately upon creation. Further, there is undoubtedly some value to an author in having a final<marker type="page" number="13"/><marker type="column" number="1"/><marker type="block"/> typed version as soon as he or she is done composing. Participants felt CU and IU were the versions they would most like to have themselves. But unlimited vocabulary is theoretically impossible in a real system. Participants were clear in their dislike for 11000 and C1000 for composing letters. Participants felt vocabulary size was more important than speech mode. They felt that 15000 would be a better system to compose with than C1000. The implications of the present experiments, in the ab- sence of data on C5000, is that an 15000 listening typewriter, which participants rate as almost equivalent to their favorite composing method today, would be a good target system to try to build. However, as participants clearly stated, they should be able to dictate more rapidly than they could with the isolated word speech system stimulated in this study. A note of caution is necessary here. There was a lack of enthusiasm in participants' comments in Experiment 2 about using a listening typewriter. Similarly, while the experiments were going on, no one familiar with them tried to convince us to let them use the system to compose letters of their own. Thus, the evidence presented here should not be taken as convincing that a 15000 system would be in high demand if it were available. Work needs to be done to determine if a faster 15000 system would be more in demand. It appeared from experienced dictators' comments that they saw a major difference between a hit rate of 91 percent and a hit rate of 100 percent. A n increase in system speed might reduce some of this attitudinal difference, since speed was a big concern of these experienced dictators. Perhaps the vocabulary could be customized to reduce unrecognized words. Or, perhaps an author's spoken version of each unrecognized word could be stored and replayed upon demand, which would eliminate participants concern about not remembering what they had said. Welch (as cited by [<xref ref-type="bibr" rid="R1" id="364" class="deo:Reference">1</xref>]) is evaluating image inter- preters using a combination of speech recognition and typing (unrecognized words) for vocabularies of up to 1000 words. We suspect that an improved editing system would not have helped participants' performance much, but would have made them feel even more positive to- ward a listening typewriter. Some limitations of these experiments are that it was possibly a slow system, had limited editing capability, and studied only one type of letter. Participants did not compose letters in the course of their own work, and we were unable to assess the value to them of having a typed (or final) copy when they completed composing. This simulation differed in several ways from what a potential listening typewriter might likely be. The required pauses in isolated word speech were longer, by perhaps a factor of 5 or 10, than what they may have to be. In isolated word speech, each word was displayed just after it was said, whereas some possible language models might want to postpone deciding upon what the word just said is until the speaker says a few more words. There were no "false recognitions" (except for typos and for homophones). A word was either "recognized" and printed correctly or XXXXs were displayed. The "processing delay" (the typing time in this simulation) might be different. Editing capability will almost certainly be more powerful with an actual listening typewriter.</region>
+        <region class="unknown" id="305" page="10" column="1">Composition Rate.</region>
+        <region class="unknown" id="311" page="10" column="1">Participants'</region>
+        <region class="DoCO:TableBox" id="TVII">
+          <caption class="deo:Caption" id="314" confidence="possible" page="10" column="1">TABLE VII.</caption>
+        </region>
+        <region class="unknown" id="315" page="10" column="1">Word Analyses Based upon Means of each Method in Exporiment 2. (I -- isolated word speech; C : connected word speech; 1 : 1000 word vocabulary; 5 "- 5000 word vocabulary; U - unlimited word vocabulary; DMACH - dictated with dictating equipment; DSEC - dictated to a secretary.) 11000 15000 C1000 CU IU DMACH DSEC Numberof words in letter 155 146 143 168 152 250 206 Numberunrecognizedwords 39 34 32 (41) (38) (63) (52) NumberXXXX's left for proofediting 15.8 4,8 4.8 . . . . . . . . . . . . Percent words in 1000 vocabulary 74 (76) 77 (75) (75) (75) (75) Percent words in 5000 vocabulary (90) 91 (92) (90) (92) (91) (91) CompositionRate(words per rain.) 7.5 8.4 14.1 15.8 10.2 24.8 30.1 Nor.. "l'}u~numlmrs in )arenlhi!sq!s in lines 2 and 4 indit:ah~ the words Ihat wouhl have been affecled if the 1000 word vocabulary limitation had been a ) ~lied to tllose I:OUll)osilioll Im!lhl)ds. 'l'hl~ lUllUbl~rs in I)arenlheses in lilu~ 5 iudicale H~e percenl of words that would have been affected if the 5000 word vocabulary imitation ha( })e4!u al)l)lil!(] tl) all Ihose (:lmll)osiliou methods.</region>
+        <region class="DoCO:FigureBox" id="Fx316">
+          <image class="DoCO:Figure" src="62cz.page_010.image_10.png" thmb="62cz.page_010.image_10-thumb.png"/>
+        </region>
+        <region class="unknown" id="319" page="10" column="2">Differences Among Participants.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="321" page="10" column="2">April 1983 Volume 26 Number 4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="322" page="10" column="2">304 Comnmnic(dions of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="323" page="11" column="1">RESEARCH CONTRIBUTIONS</outsider>
+        <region class="DoCO:TableBox" id="Tx324">
+          <content>
+            <table class="DoCO:Table" number="IX" page="11">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Rating re previous favorite</th>
+                  <th class="table"> 2.0 3.5 2.5 6.0 4.0</th>
+                  <th class="table"> 4.0</th>
+                  <th class="table"> 3.5</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> method</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Median Rank</td>
+                  <td class="table"> 5th 3rd 4th 1st 2nd</td>
+                  <td class="table"> . . . . . .</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> No. participants choosing t h i s</td>
+                  <td class="table"> . . . . . . . . . 5 1</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> • •.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> method</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> ,\" II'. I . ! '!. ! ' " 'A ~' S~ I I</td>
+                  <td class="table"> " 1)~ S (c) II )~lri ,- (~a~:h m ~ ! t h o ( I wilh Ih(~ir I~rl~vious l avoril~: (:oml)osin,~ ml~lhod o n 5] 7-</td>
+                  <td class="table"> ) o i l ] I sc:a]l!, w h ( ! r ( ! 1 =</td>
+                  <td class="table"> si,~iliii(:antJy</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> '~'~'r~ I I'~'~ilVlll'Jtq! llll!I}lll(] ~Irl(I 7"=</td>
+                  <td class="table"> si~ll'iJi(:~InI]',: l)(~Itt~r Ill;Illlll'k" f;l',.'()ril(! nl(!iil(l(L~(!V(!ll ]arli(:i)~lnt.'.i conll)OS(!(J ~i I(!Iter~.vith a</td>
+                  <td class="table"> nli!Jhod ()J I]l(!iro:vn</td>
+                  <td class="table"> (:hoi(:(~.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> /%'h(!rI!iIP; ()ll(~ did II{)t hiik'A~ t i l l l q ! t() (Lo 1}li~.</td>
+                  <td class="table.strange"> ,~]11! i l l ( t i ( : i ] l ( ! ( I t h a t ~}1(! ',~'()tlId h;l~.'(! w r J t l i ! n her ](!tl(!r, however</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="325" confidence="possible" page="11" column="1">Rating re previous favorite 2.0 3.5 2.5 6.0 4.0 4.0 3.5 method Median Rank 5th 3rd 4th 1st 2nd . . . . . . No. participants choosing t h i s . . . . . . . . . 5 1 1 • •. method ,\" II'. I . ! '!. ! ' " 'A ~' S~ I I " 1)~ S (c) II )~lri ,- (~a~:h m ~ ! t h o ( I wilh Ih(~ir I~rl~vious l avoril~: (:oml)osin,~ ml~lhod o n 5] 7- ) o i l ] I sc:a]l!, w h ( ! r ( ! 1 = si,~iliii(:antJy '~'~'r~ I I'~'~ilVlll'Jtq! llll!I}lll(] ~Irl(I 7"= si~ll'iJi(:~InI]',: l)(~Itt~r Ill;Illlll'k" f;l',.'()ril(! nl(!iil(l(L~(!V(!ll ]arli(:i)~lnt.'.i conll)OS(!(J ~i I(!Iter~.vith a nli!Jhod ()J I]l(!iro:vn (:hoi(:(~. /%'h(!rI!iIP; ()ll(~ did II{)t hiik'A~ t i l l l q ! t() (Lo 1}li~. ,~]11! i l l ( t i ( : i ] l ( ! ( I t h a t ~}1(! ',~'()tlId h;l~.'(! w r J t l i ! n her ](!tl(!r, however</region>
+          <caption class="deo:Caption" id="326" confidence="possible" page="11" column="1">TABLE IX.</caption>
+        </region>
+        <region class="unknown" id="327" page="11" column="1">Total Number of Changes Made During Proofediting Stage in Experiment 2 to the 8 Letters Composed with each Method. (I -- isolated word speech; C "- connected word speech; I -- 1000 word vocabulary; 5 - S000 word vocabulary; U -- unlimited word vocabulary; DMACH dictated with dictating equipment; DSEC - dictated to a secretary.) 11000 15000 C1000 CU iU DSEC Formatting; spacing 0 1 1 4 0 6 3 Spelling 2 0 0 2 1 1 0 Punctuation 4 5 5 8 9 22 13 Minor rewording 17 7 28 18 17 44 33 Major rewording 0 1 1 2 1 2 5 Defining XXXX's 127 39 180 0 0 0 0 Capitalizing 2 8 19 31 22 12 9 Homophones 2 0 1 9 4 1 0 Typos made by the simula- 0 0 0 7 1' 0 0 tor System problems 0 0 0 0 0 0 0</region>
+        <region class="DoCO:FigureBox" id="Fx334">
+          <image class="DoCO:Figure" src="62cz.page_011.image_11.png" thmb="62cz.page_011.image_11-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="339" page="11" column="2">April 1983VohH~l(;26 Numlx;r 4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="340" page="11" column="2">Communications oJ the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="341" page="11" column="2">305</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="342" page="12" column="1">RESEARCH CONTRIBUTIONS</outsider>
+        <region class="DoCO:FigureBox" id="Fx350">
+          <image class="DoCO:Figure" src="62cz.page_012.image_12.png" thmb="62cz.page_012.image_12-thumb.png"/>
+        </region>
+        <region class="unknown" id="352" page="12" column="2">Differences Between The Two Groups of Participants</region>
+        <region class="unknown" id="354" page="12" column="2">Observations About This Simulation Technique</region>
+        <region class="unknown" id="358" page="12" column="2">Implications for Speech Recognition Systems</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="360" page="12" column="2">306</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="361" page="12" column="2">(]onmmnic(llions ~)flhe ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="362" page="12" column="2">April 1983 Volume 26 Number 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="363" page="13" column="1">RESEARCHCONTRIBUTIONS</outsider>
+        <region class="unknown" id="366" page="13" column="1">CONCLUSIONS</region>
+        <region class="DoCO:TextChunk" id="367" confidence="possible" page="13" column="1">Isolated word speech with large vocabularies may be nearly as good as connected speech systems for a listen-</region>
+        <region class="DoCO:FigureBox" id="Fx368">
+          <image class="DoCO:Figure" src="62cz.page_013.image_13.png" thmb="62cz.page_013.image_13-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="371" page="13" column="2">ins typewriter. A n imperfect listening typewriter is a potentially useful composition tool. With respect to the hy- pothesis stated in the Introduction, participants did not compose written letters faster than they composed letters with most versions of the listening typewriter. Participants generally composed letters faster with connected speech than with isolated word speech, and this difference was accounted for mainly by the pauses required with isolated word speech. Quality of the letters were generally the same with all letters, except that letters composed with a first time final strategy were of somewhat higher quality than those composed with a draft strategy. The participants were careless proofediting, regardless of composing method. There were only a few changes in each letter during proofediting except in those letters which contained words that were not recognized during composition. Years of experience at dictating did not lead to significantly faster composition with the listening typewriter, in part perhaps because the experienced dictators sometimes reported being frustrated by being slowed down by listening typewriters. <marker type="block"/> Some of the concepts for simulating a listening typewriter were arrived at in conversations with Evon Greanias. Eric Goldwasser's enthusiasm for studying the value of a listening typewriter and his dem- onstration of the feasibility of doing simulation experiments on an IBM VM168 computer using the full screen support system influenced our work. He allowed us to borrow freely from his computer simulation program. The work benefited from conversations with Clayton Lewis, and this manuscript is improved over earlier versions because he and Bob Mack provided us with helpful comments. Susan Wandzilak served as typist, displaying much more charm and warmth to us than we could ex- pect from a real system. Jennifer Stolarz assisted with some tedious videotape analyses.</region>
+        <region class="unknown" id="370" page="13" column="2">Acknowledgments.</region>
+        <region class="unknown" id="372" page="13" column="2">APPENDIX. INSTRUCTIONS FOR USING A LISTENING TYPEWRITER</region>
+        <region class="DoCO:TextChunk" id="373" confidence="possible" page="13" column="2">I. How do I start?</region>
+        <region class="unknown" id="374" page="13" column="2">S A Y "START" AND BEGIN TALKING</region>
+        <region class="DoCO:TextChunk" id="375" confidence="possible" page="13" column="2">II. How do I change what I said?</region>
+        <region class="unknown" id="376" page="13" column="2">ERASE and DICTATE</region>
+        <region class="DoCO:TextChunk" id="377" page="13" column="2">Say: "Nuts 3" to erase last three words on the screen Re:dictate III. How do I punctuate? USE PUNCTUATION KEYWORDS Apostrophe Quotation Mark Hyphen Period Question Mark Number Sign Comma Right Parentheses Percent Sign Semicolon Left Parentheses Dollar Sign Colon Exclamation Point IV. What if the word I say is not recognized? ERASE and SPELL THE WORD Say: "Nuts" to erase that word Say: "Spellmode" to enter spelling mode Say: The characters you want, for example, "i" "n" "k" for "ink" (You do not need to pause between letters when you spell.) Say: "Endspellmode" to leave spelling mode V. What if the sound I say is shown by the wrong spelling? (for example, "sell" rather than "cell") ERASE and SAY THE WORD A G A I N Say: "Nuts" to erase that word Say: The same sound again</region>
+        <outsider class="DoCO:TextBox" type="footer" id="378" page="13" column="2">April 1983 Volmne 26 Numlx'.r 4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="379" page="13" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="380" page="13" column="2">307</outsider>
+        <region class="DoCO:TextChunk" id="381" confidence="possible" page="14" column="1">VI. H o w do I capitalize?</region>
+        <region class="unknown" id="382" page="14" column="1">USE C A P I T A N D S A Y T H E W O R D</region>
+        <region class="DoCO:TextChunk" id="383" confidence="possible" page="14" column="1">Say: "Capit" To capitalize the next w o r d Say: The w o r d you w i s h capitalized or Say: "Capall" to capitalize the entire w o r d VII. H o w do I format? USE F O R M A T T I N G K E Y W O R D S N e w Paragraph Begin a n e w p a r a g r a p h Newline n Begin a n e w line n lines d o w n Indent n Indent n spaces f r o m the left Space n Leave n spaces (plus normal spacing) VIII. W h a t if I w a n t n u m b e r s ? USE N U M B E R MODE Say: " N u m m o d e " to enter n u m b e r mode Say: The n u m b e r you want, for example, "1" "." "9" "5" for 1.95" Say: " E n d n u m m o d e " to leave the n u m b e r mode IX. W h a t if I w a n t to review part of m y letter not s h o w n on the screen? S A Y " S C R O L L - T O W A R D - B E G I N N I N G " or "SCROLL-</region>
+        <region class="unknown" id="384" page="14" column="1">TOWARD-END"</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="385" confidence="possible" page="14" column="1">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="386" confidence="possible" page="14" column="1">1. Beck, B., Cupples, Ferrante, J., Nelson, [., Woodard, J., and Vonusa, R. Trends and application of automatic speech technology. In Harris, S. (Ed.) Proceedings of Symposium on Voice-Interactive Systems: Applications and Payoffs. Dallas, Texas, 1980, 63-72.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="387" confidence="possible" page="14" column="1">2. Doddington, G. R. and Schalk, T. B. Speech recognition: Turning the- ory to practice. IEEE Spectrum, 18, 9 (Sept. 1981) 26-32,</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="388" confidence="possible" page="14" column="1">3. Gould, J. D. An experimental study of writing, dictating, and speaking. In Requin, J (Ed.) Attention and Performance VII. Lawrence Erlbaum Associates, Hillsdale, New Jersey, 1978, 299-319,</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="389" confidence="possible" page="14" column="1">4. Gould, J. D. How experts dictate. Journal of Experimental Psychology: Human Perception and Performance. 4, 4 (1978) 648-661.</ref>
+          <ref class="deo:BibliographicReference" id="391" confidence="possible" page="14" column="1">Journal of the ACM April l b u W m of the f ~ m : h P ~ w m a n c e of Coalesced ~ s h i n g Jeffrey Scott Vitter An analysis is presented of the coalesced hashing method, in which a portion of memory (called the address region) serves as the range of the hash function while the rest of memory (called the cellar) is devoted solely to storing records that collide when inserted. If the cellar should get full, subsequent colliders must be stored in empty slots in the address region and thus may cause later collisions. Varying the relative size of the cellar affects search performance. The main result of this paper expresses the average search times as a function of the number of records and the cellar size, solving a long-standing open problem. These formulas are used to pick the cellar size that leads to optimum search performance, and it is shown that this "tuned" method outper- forms several well-known hashing schemes. A discussion of past work on coalesced hashing and a generalization of the method to nonuniform hash functions conclude the paper. For Correspondence: I. S. Vitter, Dept. of Computer Science, Brown University, Providence, RI 02912,</ref>
+          <ref class="deo:BibliographicReference" id="392" confidence="possible" page="14" column="1">The Complexity of LAIR(k) Testing Seppa Sippu, Elias Snisolon-Soininen, and Esko Ukkonen The problem of testing whether or not a context-free grammar possesses the LALR(k) property is studied. For each fixed integer k -- 1 (i.e., only the subject grammar is a problem parameter) the problem is shown to be complete for polynomial space (PSPACE). For free k (i.e., both the grammar and the integer k</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="394" confidence="possible" page="14" column="2">8. Gould, ]. D. Experiments on composing letters: Some facts, some myths, and some observations. In Gregg, L. and Steinberg, I. (Eds.) Cognitive Processes in Writing. Erlbaum and Associates, Hillsdale, N.J., 1980, 98-127.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="395" confidence="possible" page="14" column="2">6. Gould, J. D. Writing and speaking letters and messages. International Journal Man-Machine Studies. 16, (1982), 147-171.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="396" confidence="possible" page="14" column="2">7. Gould, J. D. Composing letters with computer-based text editors. Human Factors. 23, (1981) 593-606.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="397" confidence="possible" page="14" column="2">8, Gould, J. D. and Boles, S. ]. Human factors challenges in creating a principal support office system--The speech filing system approach. IBM Research Report, RC-9768, 1982.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="398" confidence="possible" page="14" column="2">9. Harris, S. (Ed.) Proceedings of Symposium on Voice-lnteractive Systems: Applications and Payoffs. Dallas, Texas, 1980.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="399" confidence="possible" page="14" column="2">10. Kato, Y. NEC connected speech recognition system. Unpublished manuscript, 1980.</ref>
+          <ref class="deo:BibliographicReference" id="400" confidence="possible" page="14" column="2">U. Kucera, H. and Francis, W. N. Computational Analysis of Present-Day American English. Brown University Press, Providence, Rhode Island, 1967.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="401" confidence="possible" page="14" column="2">12. Moshier, S. L., Osborn, R. R., Baker, J. M. and Baker, J. K. Dialog Systems automatic speech recognition capabilities--Present and fu- ture. In Harris, S. (Ed.) Proceedings of Symposium on Voice-lnterac- tire Systems: Applications and Payoffs. Dallas, Texas, 1980, 163-187.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="402" confidence="possible" page="14" column="2">13. Poock, G. K. A longitudinal study of computer voice recognition performance and vocabulary size. Naval Postgraduate School Report NPS55-81-013, Monterey, California 93940, 1981.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="403" confidence="possible" page="14" column="2">14. Robinson, A. L. More people are talking to computers as speech recognition enters the real world. Science, 203, 1979, 634-638,</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="404" confidence="possible" page="14" column="2">15. Thomas, J. C. and Gould, J. D. A psychological study of query-by- example. IBM Research Report, RC-5124, 1974. CR Categories and Subject Descriptors: H.1.2 [Models and Principles]:</ref>
+          <ref class="deo:BibliographicReference" id="405" confidence="possible" page="14" column="2">User/Machine Systems--human factors; H. 4. 1 [Information Systems Applications]: Office Automation; I. 2. 7 [Artificial Intelligence]: Natural Lan- guage Processing--speech recognition and understanding General Terms: Human factors Additional Key Words and Phrases: listening typewriter</ref>
+          <ref class="deo:BibliographicReference" id="407" confidence="possible" page="14" column="2">are problem parameters) the problem is shown to be PSPACE-complete when k is expressed in unary and complete for nondeterministic one-level exponential time (NE) when k is expressed in binary. The PSPACE-hardness results are obtained by a reduction from the finite automaton nonuniversality problem, whereas the upper bound results are obtained by an economic nondeterministic algorithm that uses only linear space when k is fixed and quadratic space when k is in unary. The lower bound result for fixed k -~ 1 is in contrast with the complexity of testing the membership in several other easily parsed classes of grammars, such as LR(k), SLR(k), LC(k), LL(k), and strong LL(k) grammars, for which determin- istic polynomial-time tests are known. The upper-bound results for free k in turn demonstrate how the complexity of the membership testing problems is dominated by k: for k in unary LALR(k) testing is no harder (with respect to polynomial-time reductions) than LALR(1) testing, and for k in binary no harder than, for example, strong LL(k) testing (which is known to be NE-complete). For Correspondence: S. Sippu, Dept. of Computer Science, University of Helsinki, Tukholmankatu 2, SF-00250 Helsinki 25, Finland, Computable Enor Bounds for Aggregated Markov Chains G. W. Stewart A method is described for computing the steady-state probability vector of a nearly completely decomposable Markov chain. The method is closely related to one proposed by Simon and Ando and developed by Courtois, However, the method described here does not require the determination of a completely decomposable stochastic approximation to the transition matrix, and hence it is</ref>
+        </ref-list>
+        <region class="DoCO:TextChunk" id="390" confidence="possible" page="14" column="1">Abstractsfrom OtherACM Publications</region>
+        <region class="DoCO:FigureBox" id="Fx393">
+          <image class="DoCO:Figure" src="62cz.page_014.image_14.png" thmb="62cz.page_014.image_14-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="406" confidence="possible" page="14" column="2">Received 3/82; revised and accepted 12/82</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="408" page="14" column="2">308</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="409" page="14" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="410" page="14" column="2">April 1983 Volume 26 Number 4</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

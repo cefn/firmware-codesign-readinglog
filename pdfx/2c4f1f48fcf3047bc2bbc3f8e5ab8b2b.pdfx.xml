@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>9b133f013480a3f0e7f7658f544273f9240bd1b93fd7b489a96f43f0658bfc1b</job>
+    <base_name>62gy</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.1109/iccaie.2010.5735091</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="outsider" id="1">Roughand ReadyPrototypes:Lessonsfrom GraphicDesign</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Yin Yin Wong Human Interface Group/ATG</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">Apple Computer</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Inc.</name>
+        </contrib>
+      </contrib-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="5">Cupertino, California</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="6" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="8" page="1" column="1">This paper argues that interface design can be made more effective by borrowing techniques from graphic design. User interface designers often explore interface ideas through coded prototypes, which do not facilitate quick turnaround and require a complete interface definition. This method of prototyping is too detailed and laborious to appropriately facilitate early design decisions, such as brainstorming about the task the interface will support. In contrast, graphic designers use a wide range of prototyping strategies to communicate ideas to others for discussion and feedback. For example, prototypes constructed early in the graphic design process rely on different techniques and rendering styles from those produced in the final stages. In this paper, I will first describe how graphic designers use prototyping techniques that are appropriate to making early design decisions. I will then describe how, as a visual interface designer on an interdisciplinary team, I have applied these lessons to produce prototypes that address the appropriate issues at a given phase in the design. I will describe my use of tools such as Apple's Hypercard TM and MacroMind's Director TM to produce these interactive simulations. By describing what I do, I will demonstrate that any interface designer, and not just graphic designers, can use this method to examine interface issues. Examples of graphic design prototyplng techniques The initial phase of design requires prototypes that are lightweight and fast to create. The intent is to identify issues and encouraage discussion. Prototypes are discarded once they've sewed their purpose of pushing the design to the next phase. Graphic designers make apparent the ideas and the issues they want a prototype (in graphic design terms, a 'comp' or 'dummy') to address by the way it is rendered. Initially, a designer working on a brochure may want to address high level issues, such as layout. This requires setting up a structure which communicates the information effectively. Since the actual content is not necessary, grey text blocks and illustration placeholders are used to indicate how the layout supports different levels of information (<xref ref-type="fig" rid="F1" id="7" class="deo:Reference">figure 1</xref>). In general, real text is avoided because at this level font type, text size, text flow, etc. are unnecessary details.</region>
+      <region class="DoCO:TextChunk" id="9" confidence="possible" page="1" column="1">~i~:i¢~~:~i:i:~: ~'~':"~":' I :~±:,~,:..:.:*: .:.:.:.:.:.:,:..x N ,~:"~:~.":~::~: ~dii~i~i!~!!i~: I ~i~!~:~!~~:~!!~!~!~iiii~ ::~:::::: ~ : ::~i~i I~N~iii~; ~i!~ii!!!i~</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="11" confidence="possible" page="1" column="1"> ~.::k:<email id="10">:;</email>::</h1>
+      </section>
+      <region class="unknown" id="12" page="1" column="1">.~:.:~}~!~!!l ::::::::::::::::::::::</region>
+      <region class="DoCO:TextChunk" id="13" confidence="possible" page="1" column="1">&gt;&amp;~::::::::::: ~.'.::::::: .:: iF:iF:::::</region>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="14" page="1" column="1">Figure 1: A ¢omp using text Necks to emphasize layout structure.</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="41" page="1" column="2">Alternatively, a designer can choose to selectively highlight an issue by rendering it at higher resolution while de-emphasizing the rest visually. For example, a designer may want to focus on the issue of choosing the appropriate paper for a brochure. Once the choices are narrowed down to a few candidates, the paper is cut to size and comp brochures are created. Often, a designer will only add enough information to convey a sense of the layout design without detracting from the paper question. Issues not for discussion are often represented in a low resolution form, for instance, the interior text layout may only be represented by a loose sketch ( <xref ref-type="fig" rid="F2" id="15" class="deo:Reference">figure 2</xref>). The level to which this comp is created is enough to give the designer a sense of the paper texture, the width/height proportions, how it might feel, and the contrast in weight between the cover and the inside pages. This method allows the critique to focus on the paper quality.<marker type="block"/> A range of graphic design techniques exist which interface designers can apply to their prototypes. The above examples illustrate lessons that are especially applicable to early prototypes. Low resolution representations can encourage discussion on high level issues and selective emphasis can help target specific issues. Interface prototyping technique utilizing similar strategies My role is to translate interface ideas into a visible form to help an interdisciplinary team identify and raise issues. In early design meetings, one technique Iuse for generating discussion involves animating roughly drawn sketches to simulate interaction sequences. First, I digitize hand-drawn sketches of interface elements. These elements are drawn using a fat marker in order to discourage details. Then I utilize simple animation capabilities provided by Director to dynamically show an interaction (see <xref ref-type="fig" rid="F3" id="18" class="deo:Reference">figure 3</xref>). Certain animations, such as moving an item or zooming in and out, are simple to create using the "inbetweening" feature. This technique makes ideas quickly visible and helps the team identify potential interaction issues not revealed in static storyboards. The temporal dimension helps to convey the "story" of the interaction; dynamic datatypes a r e dynamic-- a movie can 'move' and audio can be heard as part of the simulation. This provides a richer environment than reading a description written beneath a key frame as in a storyboard.<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> Interface elements rendered in rough sketch form are some- times more appropriate than visuals that appear 'finished'. It may be too early to commit to a visual 'look' because the interface task is not fully determined. Rough drawings help avoid talking about low level issues as did the use of text blocks in graphic design prototypes. If I were to present the 'Update' button as shown in <xref ref-type="fig" rid="F4a" id="27" class="deo:Reference">figure 4a</xref>, the discussion might degenerate into low level questions: Do we want a 3-D looking button? Am I attempting a left lighting model or should it really be a center lighting model? I have learned that people cannot avoid critiquing the 'look' if the representation they are viewing is a definite visual statement. The sketched "Update" button in <xref ref-type="fig" rid="F4b" id="28" class="deo:Reference">figure 4b</xref> helps the team focus on issues of functionality. What does it mean to press this button? Which data will it update? How long will this process take? What will a user expect?<marker type="block"/> I've also discovered the benefits of not showing a questionable interface soludon at all. Leaving out details can encourage the team to consider alternative designs. For example, a triangle graphic, indicating the ability to get more information by clicking on it, was added to the window bar in <xref ref-type="fig" rid="F5" id="32" class="deo:Reference">figure 5</xref> before a team discussion. Again, conversation was less innovative and revolved around whether a triangle was the best representation. Later, when<marker type="column" number="2"/><marker type="block"/> I created a prototype that showed retrieving additional information, but left out 'how' it happened, the discussion became interesting and creative: the team realized that users' control over the amount of information they see may be an element that can be generalized throughout the system. Potential ideas were proposed at this point: perhaps the interaction should involve a gesture, perhaps pressure on the input device can indicate the level of complexity the user wants to see, etc. By leaving out a mediocre solution, the team was free to brainstorm on new ideas and not focus the critique on visual placeholders that were obviously weak. As a designer creating the prototypes, working rough in early stages is beneficial. It is important to remain flexible toward change and avoid commitment to ~a' design. This technique avoid spending too much time tweaking pixels and adding unnecessary details. Often, a designer may feel attached to an idea ff too much time and effort is spent creating it. The idea becomes precious and the designer will often be less responsive to critical feedback and less willing to change it.<marker type="block"/> This paper describes a prototyping technique for interface design that uses strategies learned from graphic design. Since refined drawings are not necessary or desired, it is a methodology any interface designer can use. Often, a refined appearance may mislead designers into believing the design is near closure when it is only an initial draft. Low resolution graphics help team members visualize interface concepts and focus discussion on high level issues. Observing graphic designers in the design process may provide other valuable lessons that could be applied to interface design.</region>
+      <region class="DoCO:FigureBox" id="F2">
+        <caption class="deo:Caption" id="17" page="1" column="2">Figure 2: A comp can help focus cntique on specific issues, such as paper choice, by emphasizing those parts. Note that the contents of the pages (represented by marker drawn lines) is de-emphasized.</caption>
+      </region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="20" page="1" column="2">83</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="21" page="1" column="2">CHI '92 Short talk Submission</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="22" page="2" column="1">| ii time</outsider>
+      <region class="unknown" id="23" page="2" column="1">~nl~lntnul T M m,ud~mr~n ~</region>
+      <region class="unknown" id="25" page="2" column="1">-, :.............:.... ,..:::::<email id="24">~:;</email>::</region>
+      <region class="DoCO:FigureBox" id="F3">
+        <caption class="deo:Caption" id="26" confidence="possible" page="2" column="1">Figure 3: The sequanca shows (albeit in a static form) how a user might interact with a proposed system. The user drags a movie (box with the 'M' in it) to a group of diverse documents, while controlling the resolution of the movie by zooming it up or down. This rough sketch avoids details, and allows designers to focus on issues such as: Will users want this capability? Is this collection a group? How should the user specify moving an individual item versus the whole group? What does it moan to zoom a movie up and down? Should the movie play as it is moved or zoomed? etc...</caption>
+      </region>
+      <region class="DoCO:FigureBox" id="F4">
+        <caption class="deo:Caption" id="30" page="2" column="1">Figure 4: Initially, creating detailed graphics (a) may distract the team</caption>
+      </region>
+      <region class="unknown" id="31" page="2" column="1">Irom fundamental questions, and cause them to dwell on details, such as the lighting model applied. (b) allows designers to address higher level issues, such as the action pressing this button will cause.</region>
+      <region class="unknown" id="34" page="2" column="1">,..x.i~.,~:, .~,</region>
+      <region class="unknown" id="35" page="2" column="1">:i " f</region>
+      <region class="unknown" id="36" page="2" column="1">il t. % A / ....... L. .~::!~q~:!:':~:~':~: ?~ ............ .... :......:.-T... : +.. ,.~..........~.......... .:.</region>
+      <region class="DoCO:FigureBox" id="F5">
+        <caption class="deo:Caption" id="37" page="2" column="1">Figure 5: Including questionable details, such as the tnangle button shown here, may lock designers into one line of thought and keep them from considenng alternatives.</caption>
+        <image class="DoCO:Figure" src="62gy.page_002.image_02.png" thmb="62gy.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="38" page="2" column="2">I. ~:</region>
+      <region class="unknown" id="40" page="2" column="2">Conclusion</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="42" confidence="possible" page="2" column="2">References:</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="43" confidence="possible" page="2" column="2">S a l m o n , Gitta. (1990). How the Look Affecu the Feel: Visual Design</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="44" confidence="possible" page="2" column="2">and the Creation of an In.formation Kiosk. Human Factors Society 34th Annual Meeting Proceedings 1990. New York: ACM, 277-281.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="45" confidence="possible" page="2" column="2">SIGCHI Bulletin 1989. New York: ACM, 21 (2), 57--61.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="46" confidence="possible" page="2" column="2">Vertelney, Laurie. (1989). Using Video to Prototype User Interfaces.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="47" confidence="possible" page="2" column="2">Davis, Susan E. (1989). 59 M o ~ Studio Sccreu for the Graphic ArtisL Cincinafi, O~o: North Light Books</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="48" confidence="possible" page="2" column="2">Wulff, W., Evenson, S., and Rheinfrank, J. (1990). Animating Interfaces. ACM CSCW '90 Proceedings. New York: ACM, 241-254.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="49" page="2" column="2">84</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="50" page="2" column="2">CHI '92 Short talk Submission</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

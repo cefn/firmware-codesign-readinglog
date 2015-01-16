@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>92f8aa138a001a27e9334842b5e87925e3035a832bc6c0b6f3c10378aaaa3c8f</job>
+    <base_name>62os</base_name>
+    <doi>http://dx.doi.org/10.1145/1013115.1013148</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Development and Evaluation of Emerging Design Patterns for Ubiquitous Computing</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Eric S. Chung</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">Jason I. Hong</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">James Lin</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Madhu K. Prabaker</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">James A. Landay</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Alan L. Liu</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="9">1 Group for User Interface Research Computer Science Division University of California Berkeley, CA 94720 USA {jasonh, <email id="8">jimlin}@cs.berkeley.edu</email></region>
+      <abstract class="DoCO:Abstract" id="10">Design patterns are a format for capturing and sharing design knowledge. In this paper, we look at a new domain for design patterns, namely ubiquitous computing. The overall goal of this work is to aid practice by speeding up the diffusion of new interaction techniques and evaluation results from researchers, presenting the information in a form more usable to practicing designers. Towards this end, we have developed an initial and emerging pattern language for ubiquitous computing, consisting of 45 pre-patterns describing application genres, physical-virtual spaces, interaction and systems techniques for managing privacy, and techniques for fluid interactions. We evaluated the effectiveness of our pre-patterns with 16 pairs of designers in helping them design location-enhanced applications. We observed that our pre-patterns helped new and experienced designers unfamiliar with ubiquitous computing in generating and communicating ideas, and in avoiding design problems early in the design process.</abstract>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="11" confidence="possible" page="1" column="1">Author Keywords</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="12" confidence="possible">Design, Design patterns, Ubiquitous computing</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="13" page="1" column="1">ACM</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="14" confidence="possible" page="1" column="1">Classification Keywords</h2>
+          <region class="DoCO:TextChunk" id="15" confidence="possible" page="1" column="1">H.5.2 [Information Interfaces and Presentation]: User Interfaces—Theory and methods, Style guides, Evaluation/methodology</region>
+        </section>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="16" page="1" column="1">INTRODUCTION</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="38" page="1" column="1">Design patterns have been proposed in many domains as a format for capturing and sharing design knowledge between practitioners (e.g., [2- <xref ref-type="bibr" rid="R5" id="17" class="deo:Reference">5</xref>, <xref ref-type="bibr" rid="R9" id="18" class="deo:Reference">9</xref>, <xref ref-type="bibr" rid="R21" id="19" class="deo:Reference">21</xref>, <xref ref-type="bibr" rid="R2" id="20" class="deo:Reference">2</xref>, <xref ref-type="bibr" rid="R3" hidden="1" id="21" class="deo:Reference">3</xref>, <xref ref-type="bibr" rid="R4" hidden="1" id="22" class="deo:Reference">4</xref>]). Patterns communicate insights into design problems, capturing the essence of recurring problems and their solutions in a compact form. They describe the problem in depth, the rationale for the solution, how to apply the solution, and some of the tradeoffs in applying the solution. A set of interlinked patterns for a specific domain is known as a pattern language .<marker type="column" number="2"/><marker type="block"/> Patterns differ from other formats for capturing design knowledge, such as guidelines and heuristics, in three ways. First, patterns offer solutions to specific problems rather than providing high-level and sometimes abstract suggestions. Second, patterns are generative, helping designers create new solutions by showing many examples of actual designs. Third, patterns are linked to one another hierarchically, helping designers address high-level problems as well as low-level ones. Patterns are not intended to replace guidelines and heuristics but rather complement them. Patterns are simply another tool for helping designers create high-quality solutions. Pattern languages started in the field of architecture [<xref ref-type="bibr" rid="R2" id="27" class="deo:Reference">2</xref>], and have been emerging for UI design (e.g., [<xref ref-type="bibr" rid="R4" id="28" class="deo:Reference">4</xref>, <xref ref-type="bibr" rid="R7" id="29" class="deo:Reference">7</xref>, <xref ref-type="bibr" rid="R19" id="30" class="deo:Reference">19</xref>, <xref ref-type="bibr" rid="R22" id="31" class="deo:Reference">22</xref>]) as well as for web design (e.g., [<xref ref-type="bibr" rid="R10" id="32" class="deo:Reference">10</xref>, <xref ref-type="bibr" rid="R21" id="33" class="deo:Reference">21</xref>, <xref ref-type="bibr" rid="R23" id="34" class="deo:Reference">23</xref>]). Patterns have seen their greatest success in the area of software design as exhibited by the success of the Gang of Four book Design Patterns [<xref ref-type="bibr" rid="R9" id="35" class="deo:Reference">9</xref>], as well as by the widespread usage of their pattern names within the software development community. This last point represents another important contribution of design patterns, which is providing a common, shared vocabulary that lets designers communicate more easily. Here, we extend on the idea [<xref ref-type="bibr" rid="R12" id="36" class="deo:Reference">12</xref>] of using design patterns as a format for assisting designers developing applications for ubiquitous computing (ubicomp), systems that make use of sensors, computing devices in a variety of form factors, and wireless networking to assist us in all kinds of tasks [<xref ref-type="bibr" rid="R25" id="37" class="deo:Reference">25</xref>]. Although ubicomp is still in its nascent stages, there are many potential benefits in developing a pattern language now. First, we can speed up the diffusion of new interaction techniques and evaluation results by presenting it in a form more usable to designers. Second, a pattern language for ubicomp can help us more clearly see links between ideas, as well as what issues remain to be addressed. Third, we can positively influence the design of emerging applications by helping designers find good solutions and avoid adopting poor standards, such as inadequate privacy protection and blue web links 1 . As an analogy, when the</region>
+      <region class="unknown" id="24" page="1" column="1">Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Conference DIS’04, Aug 1–4, 2004, Boston, MA, USA. Copyright 2004 ACM 1-58113-787-7/04/0008...$5.00.</region>
+      <region class="unknown" id="26" page="1" column="2">2 DUB Group Computer Science and Engineering University of Washington Seattle, WA 98195 USA <email id="25">landay@cs.washington.edu</email></region>
+      <region class="DoCO:TextChunk" id="41" confidence="possible" page="1" column="2">1 As noted by several designers (e.g., [<xref ref-type="bibr" rid="R14" id="39" class="deo:Reference">14</xref>, <xref ref-type="bibr" rid="R18" id="40" class="deo:Reference">18</xref>]), blue is one of the worst colors for unvisited links because of the structure of the human eye. However, since so many web pages use blue for unvisited links and so many people have learned this meaning, blue links have become a de facto standard.</region>
+      <region class="DoCO:TextChunk" id="42" page="2" column="1">periodic table was initially developed, Mendeleyev did not force the known elements to fit in. Instead, he left holes that helped others make predictions about unknown elements that eventually led to their discovery. Towards this end, we introduce an initial pattern language for ubicomp. This language has 45 pre-patterns addressing application genres, physical-virtual spaces, interaction and systems techniques for managing privacy, and techniques for fluid interactions. We call these pre-patterns because they are still emerging and are not in common use yet by the design community and end-users. However, we have found the format of patterns to be useful in communicating design knowledge, even if that knowledge is not set in stone. We expect the pre-patterns to evolve over time, with some being replaced by new patterns. We have also conducted what is, to the best of our knowledge, the first controlled study of patterns with designers. In our first round of evaluation, we had nine pairs of designers create an initial design for a location- enhanced application, four of which had access to our pre- patterns and five that did not. In our second round, we modified the patterns based on feedback in the first round, and had six pairs of designers use our patterns and one not. This let us compare six pairs of designers in each of the two conditions in the second round. In the first evaluation round, there were no statistically significant differences in quality, completeness, or creativity between the designs of pairs that used patterns and pairs that did not. In the second round, there were some statistically significant differences with respect to factors such as accomplishing tasks more quickly and usefulness, although most of the differences were between expert and novice designers, rather than between pairs that used patterns and those that did not. However, our qualitative observations in both rounds suggest that patterns helped novice designers generate designs, helped experienced designers new to ubicomp learn about the domain, helped designers communicate ideas, and helped designers avoid potential design problems earlier in the design process. Surprisingly, although we had an entire group of patterns devoted to privacy, our patterns did not help with that issue. Generally, designers found our pre-patterns useful.</region>
+      <section class="deo:RelatedWork">
+        <h1 class="DoCO:SectionTitle" id="43" page="2" column="1">RELATED WORK</h1>
+        <region class="DoCO:TextChunk" id="55" page="2" column="1">Design patterns were first developed by Christopher Alexander and his colleagues [ <xref ref-type="bibr" rid="R2" id="44" class="deo:Reference">2</xref>]. Alexander believed that patterns could empower both architects and their clients by providing a living and shared language for design. He and his colleagues developed 253 patterns for building and planning towns, neighborhoods, houses, gardens, and rooms. The emphasis here was on an entire language for design, since the usefulness of patterns was not only in providing solutions to common problems, but also in seeing how they intertwined and affected one another. [<xref ref-type="bibr" rid="R14" id="45" class="deo:Reference">14</xref>, <xref ref-type="bibr" rid="R18" id="46" class="deo:Reference">18</xref>] Our pattern language for ubiquitous computing uses the definition generated at INTERACT ’99: “The goals of an HCI<marker type="column" number="2"/><marker type="block"/> pattern language are to share successful HCI design solutions among HCI professionals...” [<xref ref-type="bibr" rid="R4" id="48" class="deo:Reference">4</xref>]. An alternative and somewhat complementary perspective is to have a pattern language that is a “lingua franca” for all design stakeholders [<xref ref-type="bibr" rid="R6" id="49" class="deo:Reference">6</xref>, <xref ref-type="bibr" rid="R8" id="50" class="deo:Reference">8</xref>]. While this latter approach has potential for participatory design, it is not one we focused on in the development and evaluation of our design patterns. Typically, patterns are evaluated through peer review, often in pattern writing workshops [<xref ref-type="bibr" rid="R1" id="51" class="deo:Reference">1</xref>, <xref ref-type="bibr" rid="R13" id="52" class="deo:Reference">13</xref>]. Although the idea of design patterns has been around for quite a while, only recently has there been work on evaluating patterns. For example, Borchers developed and evaluated a pattern language for interactive music exhibits, by having the patterns peer-reviewed at a pattern workshop, by using those patterns in developing two interactive music exhibits, and by surveying undergraduate students that had used some patterns for usefulness and memorability [<xref ref-type="bibr" rid="R4" id="53" class="deo:Reference">4</xref>]. Dearden et al evaluated a set of patterns for developing airline and rail travel sites with potential users of the system rather than with designers. They investigated whether the patterns empowered users to participate in participatory design and could help users generate designs [<xref ref-type="bibr" rid="R6" id="54" class="deo:Reference">6</xref>]. However, to the best of our knowledge, there has not been a study evaluating the effect of patterns on how designers communicate and design with one another. We take a first step towards this, looking at how several pairs of designers used our patterns, in terms of learning about a new domain, communicating with one another, evaluating existing designs, and generating designs.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="56" page="2" column="2">A LANGUAGE OF PRE-PATTERNS FOR UBICOMP</h1>
+        <region class="DoCO:TextChunk" id="57" page="2" column="2">In this section, we give an overview of the method we used to create our pattern language for ubiquitous computing, as well as a description of the pre-patterns themselves.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="58" confidence="possible" page="2" column="2">Developing the Language</h2>
+          <region class="DoCO:TextChunk" id="65" page="2" column="2">Developing the pattern language was an iterative process lasting several months. We started by brainstorming pattern candidates based on a review of the existing literature. We initially tried to create high-level patterns, ones that are fairly abstract and describe whole applications, as opposed to single screens, for example. This proved to be difficult to do, as it meant trying to create a hierarchy of patterns as well as the patterns themselves at the same time. It turned out to be far easier to work bottom-up, identifying relatively low-level and medium-level individual patterns, and then later drawing themes from those to connect them together. We generated rough cuts of about 80 fairly broad pattern candidates, which looked at a range of interaction and infrastructural issues in ubicomp. There was also a strong focus on patterns for location-based computing, since a sizeable number of this type of application are emerging in the market, and thus has a clearer path to widespread deployment than other areas of ubiquitous computing [ <xref ref-type="bibr" rid="R15" id="59" class="deo:Reference">15</xref>]. We later dropped the infrastructural patterns, instead concentrating on interaction issues because we wanted to focus on helping interaction designers.<marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> Some of these pre-patterns dealt with high-level fundamental issues cutting across all areas of ubicomp (e.g., privacy), while others were relatively low-level interaction techniques (e.g., pick and drop [<xref ref-type="bibr" rid="R16" id="61" class="deo:Reference">16</xref>]). We tried to find at least two examples for each pattern, and generally preferred commercial implementations since that indicated that the pattern was more likely to find widespread usage. We then did a card sort [<xref ref-type="bibr" rid="R20" id="62" class="deo:Reference">20</xref>] among ourselves to organize the pattern candidates into different pattern groups, where each group is a set of patterns with a common theme. After this, we created the main content for each pattern, describing the problem and solution, providing several examples, and establishing links to related patterns. Each pattern was written and edited by at least three of the authors, and was limited to two pages to make it more digestible for the designer. We removed weaker pattern candidates and added new ones where it made sense. We then solicited feedback from four other researchers familiar with ubiquitous computing. The researchers were first given the name of a pattern and asked to guess what kind of content the pattern would contain. Then, they were shown the full pattern, and asked to rate the quality of the pattern name and to comment on the actual content. We revised the patterns based on this feedback. At the end, we had 45 patterns in four groups (see <xref ref-type="fig" rid="F1" id="63" class="deo:Reference">Fig 1</xref>): • Ubiquitous Computing Genres describes broad classes of ubicomp applications. • Physical-Virtual Spaces looks at how physical objects and spaces can be merged with the virtual. • Developing Successful Privacy describes policies and mechanisms for managing end-user privacy. • Designing Fluid Interactions details interaction techniques with sensors and devices. All of the pre-patterns used for both rounds of evaluations are at <ext-link ext-link-type="uri" href="http://guir.berkeley.edu/projects/patterns" id="64">http://guir.berkeley.edu/projects/patterns</ext-link></region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="66" confidence="possible" page="3" column="1">Format of Patterns</h2>
+          <region class="DoCO:TextChunk" id="74" page="3" column="1">The format of our patterns is similar to those in The Design of Sites [ <xref ref-type="bibr" rid="R21" id="67" class="deo:Reference">21</xref>] and A Pattern Language [<xref ref-type="bibr" rid="R2" id="68" class="deo:Reference">2</xref>]. Figures 2 and 3 (located at end of this paper) show the first page of several of our pre-patterns. Each pre-pattern consists of: • A name and a letter-number pair, where the letter indicates which group the pattern belongs to. For example, “A3” means the third pattern in pattern group A – Ubiquitous Computing Genres. • The pattern’s background, which provides the context and scope of the pattern, and describes any other patterns that lead to this pattern. • The problem that the pattern is addressing. • The solution (or solutions) to the pattern’s problem, as well as pointers to other lower-level patterns that help solve the problem. • References of work related to the pattern.<marker type="column" number="2"/><marker type="block"/> We also created what we call “bus maps.” Each map shows the core patterns in a pattern group and the relationship of the patterns within that group (see <xref ref-type="fig" rid="F4" id="72" class="deo:Reference">Figure 4</xref>). Our patterns tended to be more prescriptive than descriptive, mostly because there are few ubicomp applications in practice. Our patterns also tended to focus on high-level issues, such as user needs, versus specific user interfaces and interaction techniques. This is because many of these high-level issues are better understood than the low-level techniques for implementing them. For example, many people have outlined what needs smart homes can address (e.g., [<xref ref-type="bibr" rid="R11" id="73" class="deo:Reference">11</xref>]), but there have been few widespread successes in specific interactions in that area.</region>
+          <region class="DoCO:FigureBox" id="F4">
+            <image class="DoCO:Figure" src="62os.page_003.image_01.png" thmb="62os.page_003.image_01-thumb.png"/>
+            <caption class="deo:Caption" id="71" page="3" column="2">Figure 4. “Bus maps” show how patterns within a pattern group are related. Here, there are four core patterns that are fundamental in designing applications (A1 through A4), as well as several patterns specific to application genres.</caption>
+          </region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="75" page="3" column="2">FIRST EVALUATION OF PRE-PATTERNS</h1>
+        <region class="DoCO:TextChunk" id="76" page="3" column="2">We evaluated the effectiveness of our design patterns by having designers use them in evaluating and designing location-enhanced applications. In this section, we describe our first round of evaluation.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="77" confidence="possible" page="3" column="2">Participants</h2>
+          <region class="DoCO:TextChunk" id="79" page="3" column="2">Nine pairs of designers (18 designers total) participated in the first round. Four pairs were professionals, and the other five pairs were graduate students in the School of Information Management and Systems at UC Berkeley. These professional pairs had an average of 81⁄2 person-years of experience combined (ranging from 6 to 10 combined), while the student design pairs each had an average of 41⁄2 person-years of combined experience (with one pair having 8, the others having at most 3). The pairs were divided into two categories based on experience. High-experience pairs had at least 6 person- years of combined experience, and low-experience pairs had at most 3. They were also divided into two conditions, 4 with patterns and 5 without (see <xref ref-type="table" rid="T1" id="78" class="deo:Reference">Table 1</xref>). We emailed our design patterns to the groups in the patterns condition two days beforehand so that they could familiarize themselves with the patterns. Designers in this</region>
+          <region class="DoCO:TextChunk" id="80" confidence="possible" page="4" column="1">A – Ubiquitous Computing B – Physical-Virtual Genres Spaces Describes broad classes of Associating physical objects and emerging applications, providing spaces with information and many examples and ideas meaning; location-based services; helping users navigate such spaces Upfront Value Proposition (A1) Active Map (B1) Personal Ubiquitous Computing Topical Information (B2) Successful Experience Capture Ubiquitous Computing for Groups</region>
+          <disp-formula class="DoCO:FormulaBox" id="FA3">
+            <label class="DoCO:Label" id="81">A3</label>
+            <content class="DoCO:Formula" id="82" confidence="possible" page="4" column="1">User-Created Content (B4) Ubiquitous Computing for Places Find a Place (B5) Find a Friend (B6) Guides for Exploration and Navigation (A5) Notifier (B7) Enhanced Emergency Response Personal Memory Aids (A7) Smart Homes (A8) Enhanced Educational Experiences (A9) Augmented Reality Games (A10) Streamlining Business Operations Enabling Mobile Commerce (A12)</content>
+          </disp-formula>
+          <region class="DoCO:FigureBox" id="F1">
+            <caption class="deo:Caption" id="83" confidence="possible" page="4" column="1">Figure 1. The overall table of our design pre-patterns for ubiquitous computing. These design patterns are organized into four pattern groups, sets of patterns that are related by a common theme. Generally speaking, lower-numbered patterns are higher-level, more abstract, and applicable in more cases than higher-numbered patterns. For example, Upfront Value Proposition (A1) is a high-level pattern that can be applied to a wide- range of applications, while Enabling Mobile Commerce (A12) is a pattern specific to that domain.</caption>
+          </region>
+          <region class="unknown" id="84" page="4" column="2">C – Developing Successful Privacy</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="85" page="4" column="2">D – Designing Fluid Interactions</outsider>
+          <region class="DoCO:TextChunk" id="86" confidence="possible" page="4" column="2">Policy, systems, and interaction issues in designing privacy- sensitive systems</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="87" page="4" column="2">How to design for interactions involving dozens or even hundreds of sensors and devices while making users feel like they are in control Scale of Interaction (D1) Sensemaking of Services and Devices (D2) Streamlining Repetitive Tasks (D3) Keeping Users in Control (D4) Serendipity in Exploration (D5) Context-Sensitive I/O (D6) Active Teaching (D7) Resolving Ambiguity (D8) Ambient Displays (D9) Follow-me Displays (D10) Pick and Drop (D11)</outsider>
+          <region class="DoCO:TextChunk" id="88" confidence="possible" page="4" column="2">Fair Information Practices (C1) Respecting Social Organizations (C2) Building Trust and Credibility (C3) Reasonable Level of Control (C4) Appropriate Privacy Feedback (C5) Privacy-Sensitive Architectures (C6) Partial Identification (C7) Physical Privacy Zones (C8) Blurred Personal Data (C9) Limited Access to Personal Data (C10) Invisible Mode (C11) Limited Data Retention (C12) Notification on Access of Personal Data (C13) Privacy Mirrors (C14) Keeping Personal Data on Personal Devices (C15)</region>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62os.page_005.image_02.png" thmb="62os.page_005.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="90" confidence="possible" page="5" column="1">Figure 2. Each pre-pattern has a number (e.g., A12), name (“Enabling Mobile Commerce”), sensitizing image, background that relates this pattern to other patterns, problem statement, solution, and references.</caption>
+          </region>
+          <region class="DoCO:FigureBox" id="F3">
+            <image class="DoCO:Figure" src="62os.page_006.image_03.png" thmb="62os.page_006.image_03-thumb.png"/>
+            <caption class="deo:Caption" id="92" confidence="possible" page="6" column="1">Figure 3. Some more examples of our pre-patterns for ubiquitous computing.</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="93" confidence="possible" page="7" column="1">High experience Low experience Patterns 4, 9 5, 6 No Patterns 1, 2, 7 3, 8</region>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="94" page="7" column="1">Table 1. Design pairs by condition for our first round of evaluation. For example, design pairs 4 and 9 had high levels of experience and were in the patterns condition.</caption>
+            <content>
+              <table class="DoCO:Table" number="3" page="7">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"></th>
+                    <th class="table"> Patterns useful</th>
+                    <th class="table"> Patterns useful</th>
+                    <th class="table"> Patterns useful</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> for Evaluation</td>
+                    <td class="table.strange"> for Design</td>
+                    <td class="table.strange"> for Other</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Task</td>
+                    <td class="table"> Task</td>
+                    <td class="table"> Projects</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 4-1</td>
+                    <td class="table"> 2</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 4-2</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 5-1</td>
+                    <td class="table"> 2</td>
+                    <td class="table"> 5</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 5-2</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 3</td>
+                    <td class="table"> 3</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 6-1</td>
+                    <td class="table"> 3</td>
+                    <td class="table"> 2</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 6-2</td>
+                    <td class="table"> 1</td>
+                    <td class="table"> 2</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 9-1</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 4</td>
+                    <td class="table"> 4</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> 9-2</td>
+                    <td class="table"> 5</td>
+                    <td class="table"> 5</td>
+                    <td class="table"> 5</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Avg</td>
+                    <td class="table"> 3.1</td>
+                    <td class="table"> 3.6</td>
+                    <td class="table"> 3.8</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Stdev</td>
+                    <td class="table"> 1.4</td>
+                    <td class="table"> 1.2</td>
+                    <td class="table"> 0.7</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Table</td>
+                    <td class="table.strange"> 2. Feedback</td>
+                    <td class="table.strange"> about our</td>
+                    <td class="table.strange"> patterns from</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> participants</td>
+                    <td class="table.strange"> in the patterns</td>
+                    <td class="table.strange"> condition (1–5,</td>
+                    <td class="table.strange"> 5=high)</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Condition</td>
+                    <td class="table.strange"> Creativity</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Quality</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> All</td>
+                    <td class="table.strange"> pairs</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Patterns</td>
+                    <td class="table.strange"> μ δ = 5.08</td>
+                    <td class="table.strange"> μ δ = 5.42</td>
+                    <td class="table.strange"> μ δ = 4.67</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> = 1.24</td>
+                    <td class="table.strange"> = 1.00</td>
+                    <td class="table.strange"> = 1.07</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> No</td>
+                    <td class="table.strange"> μ δ = 4.00</td>
+                    <td class="table.strange"> μ δ = 4.67</td>
+                    <td class="table.strange"> μ δ = 4.53</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> patterns</td>
+                    <td class="table.strange"> = 1.31</td>
+                    <td class="table.strange"> = 1.40</td>
+                    <td class="table.strange"> = 1.51</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Pairs</td>
+                    <td class="table.strange"> with low experience</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> μ = 5.17</td>
+                    <td class="table.strange"> μ = 5.50</td>
+                    <td class="table.strange"> μ = 4.83</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Patterns</td>
+                    <td class="table.strange"> δ = 0.75</td>
+                    <td class="table.strange"> δ = 1.22</td>
+                    <td class="table.strange"> δ = 1.17</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> No</td>
+                    <td class="table.strange"> μ δ = 3.83</td>
+                    <td class="table.strange"> μ δ = 4.00</td>
+                    <td class="table.strange"> μ δ = 4.00</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> patterns</td>
+                    <td class="table.strange"> = 1.17</td>
+                    <td class="table.strange"> = 1.79</td>
+                    <td class="table.strange"> = 1.79</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Pairs</td>
+                    <td class="table.strange"> with high experience</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Patterns</td>
+                    <td class="table.strange"> μ δ = 5.00</td>
+                    <td class="table.strange"> μ δ = 5.33</td>
+                    <td class="table.strange"> μ δ = 4.50</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> = 1.67</td>
+                    <td class="table.strange"> = 0.82</td>
+                    <td class="table.strange"> = 1.05</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> No</td>
+                    <td class="table.strange"> μ = 4.11</td>
+                    <td class="table.strange"> μ = 5.11</td>
+                    <td class="table.strange"> μ = 4.89</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> patterns</td>
+                    <td class="table.strange"> δ = 1.45</td>
+                    <td class="table.strange"> δ = 0.93</td>
+                    <td class="table.strange"> δ = 1.27</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="96" confidence="possible" page="7" column="1">Patterns useful Patterns useful Patterns useful for Evaluation for Design for Other Task Task Projects 4-1 2 4 3 4-2 4 4 3 5-1 2 5 4 5-2 4 3 3 6-1 3 2 4 6-2 1 2 4 9-1 4 4 4 9-2 5 5 5 Avg 3.1 3.6 3.8 Stdev 1.4 1.2 0.7 <xref ref-type="table" rid="T2" id="95" class="deo:Reference">Table 2</xref>. Feedback about our design patterns from participants in the patterns condition (1–5, 5=high) Condition Creativity Completeness Quality All pairs μ = 5.08 μ = 5.42 μ = 4.67 Patterns δ = 1.24 δ = 1.00 δ = 1.07 No μ = 4.00 μ = 4.67 μ = 4.53 patterns δ = 1.31 δ = 1.40 δ = 1.51 Pairs with low experience μ = 5.17 μ = 5.50 μ = 4.83 Patterns δ = 0.75 δ = 1.22 δ = 1.17 No μ = 3.83 μ = 4.00 μ = 4.00 patterns δ = 1.17 δ = 1.79 δ = 1.79 Pairs with high experience μ = 5.00 μ = 5.33 μ = 4.50 Patterns δ = 1.67 δ = 0.82 δ = 1.05 No μ = 4.11 μ = 5.11 μ = 4.89 patterns δ = 1.45 δ = 0.93 δ = 1.27</region>
+          </region>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="97" page="7" column="1">Table 3. An analysis of the judges’ ratings of the designs, on a scale of 1–7 (7=high). The judges on average rated the pairs who had patterns higher than those who did not, in creativity and completeness, and in quality except for pairs with high experience.</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="98" page="7" column="1">condition were also provided paper copies of the patterns during the session and given a few minutes at the start of the evaluation to look them over.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="99" confidence="possible" page="7" column="1">Method</h2>
+          <region class="DoCO:TextChunk" id="101" page="7" column="1">The evaluation consisted of two tasks. The first task explored to what degree patterns assisted designers in evaluating an existing design. The designers performed a heuristic evaluation for 30 minutes on a design for a location-enhanced bus locator. The design consisted of textual descriptions of what a user can do with the service and storyboards that illustrated how the user could interact <marker type="column" number="2"/><marker type="block"/> with it. The design pairs were asked to go through these mockups, circling any problems they found and rating the severity of the problem. Later, we compared the heuristic evaluations between the two conditions to see if there were any significant differences in the types of errors found. The second task was to design a location-enhanced service to help customers in a shopping mall. The designers were given a description of what services the mall would like, and could design other complementary services if desired. They were told they could make any assumptions they thought were reasonable, and could use any technologies they thought would be available within the next few years. They were given 80 minutes to create a design, using pens, paper, post-it notes, or a whiteboard. Afterwards, they had another 10 minutes to present their designs to us as if we were their client. We videotaped the design and presentation sessions and later reviewed the tapes to see how the design patterns affected the design process. Specifically, we looked for evidence of the following: • Are patterns useful for introducing designers to ubicomp? • Are patterns useful for communicating between designers? For example, do designers adopt the pattern language vocabulary as they talk about a design? • Are patterns useful for creating designs? • Are patterns useful for creating higher-quality designs?</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="102" confidence="possible" page="7" column="2">Participant Feedback</h2>
+          <region class="DoCO:TextChunk" id="104" page="7" column="2">After finishing both tasks, the designers filled out a questionnaire asking for basic demographic information, what type of design background they had, and whether they had designed a location-based service before. All of the design pairs had GUI and web design experience. Three of the nine pairs had designed location-based services before. The design pairs in the patterns condition were also asked whether they had used design patterns before, and to rate the usefulness of our design patterns for the evaluation task (task 1), the design task (task 2), and other projects they might do in the future. This was done on a five-point scale (1=low and 5=high). The results are summarized in <xref ref-type="table" rid="T2" id="103" class="deo:Reference">Table 2</xref>. Overall, the 4 design pairs that used our patterns rated them 3.6 of 5 for usefulness in the design task. 5 out of the 8 participants gave a 4 or 5 rating. The other 3 gave a 2 or 3 rating. Two of these said there was not enough time to absorb the patterns, and one said that they were a little hard to understand because English was his second language. There was no consensus on the usefulness of patterns for evaluation, with ratings fairly evenly distributed. We observed that the pairs only used patterns minimally during the evaluation. Finally, the participants thought overall the design patterns would be useful for future projects (3.75 out of 5, no one ranked below 3).</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="105" confidence="possible" page="7" column="2">Judging</h2>
+          <region class="DoCO:TextChunk" id="108" page="7" column="2">We also wanted to know if patterns are useful for creating higher-quality designs. To do this, we recruited three HCI <marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> graduate students familiar with ubiquitous computing to judge the designs. For each design pair, the judges rated the design on creativity, completeness, and quality on a seven- point scale (1=low and 7=high). The judges watched each of the ten-minute presentations, without knowing which pairs were in which condition. The videos were shown in a different order to each judge to minimize bias. We then averaged the scores for each question across the judges. Although the results are not statistically significant, possibly due to the low number of judges and low number of participants, the judges on average rated the pairs who had patterns higher than those who did not, in creativity and completeness. They also rated them higher in quality, except for pairs with high experience. See <xref ref-type="table" rid="T3" id="107" class="deo:Reference">Table 3</xref>.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="109" confidence="possible" page="8" column="1">First Evaluation Observations</h2>
+          <region class="DoCO:TextChunk" id="110" confidence="possible" page="8" column="1">During the design tasks, we observed several themes.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="111" confidence="possible" page="8" column="1">Patterns Helped Novice Designers</h2>
+          <region class="DoCO:TextChunk" id="112" page="8" column="1">Unsurprisingly, pairs with the least number of years of design experience struggled the most with understanding how to apply new technologies in solving problems. For example, design pairs 3 and 8 (both in the no-patterns condition and having little design experience) had difficulty with understanding the capabilities and limitations of devices, how a location-enhanced application might work, and what kinds of features such an application might offer. However, design pairs 5 and 6, who were in the patterns condition, had a comparable number of years of design experience to design pairs 3 and 8, but did not face these same difficulties. Pair 5 had no experience in designing a location-based service, but extensively used the patterns in generating ideas and finding solutions. Pair 6 did have some experience in creating location-enhanced applications and had some knowledge of ubiquitous computing research, but still found the patterns useful in coming up with new ideas and in explaining ideas to one another.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="113" confidence="possible" page="8" column="1">Patterns Helped Designers with Unfamiliar Domain</h2>
+          <region class="DoCO:TextChunk" id="114" page="8" column="1">We also observed that design pairs could quickly make use of our patterns for a domain that they were unfamiliar with. For example, neither of design pairs 4 and 5 had ever designed a location-enhanced application before, but both pairs made extensive use of the patterns to generate new ideas and to communicate with one another. It was common to see one person leafing through the patterns and skimming through the names and pictures to come up with ideas. It was also common to see one designer show the other a pattern to help explain a particular concept. Design pairs 6 and 9 only made modest use of the design patterns, but also did not encounter any difficulties using them.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="115" confidence="possible" page="8" column="1">Patterns Helped Designers Communicate Ideas</h2>
+          <region class="DoCO:TextChunk" id="117" page="8" column="1">We expected designers to use the names of the patterns when they were communicating with one another, but it turns out that very few of these names were actually said out loud. More often, designers used the patterns to communicate ideas by pointing at a particular picture. We <marker type="column" number="2"/><marker type="block"/> believe that this is because location-enhanced applications are a new domain with few well-established terms. A pattern language could help foster the adoption of such terms, but in retrospect it was unrealistic to expect designers to adopt these terms in a short design session. However, one interesting observation is that all of the design pairs used familiar web metaphors in describing their ideas, such as “pages”, “cookies”, and “bookmarks”, as well as the hierarchical organization found in Yahoo and shopping options found on Amazon. Designers in both conditions were implicitly using design patterns that they had direct experience in actually using or had previous experience in designing. This common grounding helped designers express ideas quickly and concisely.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="118" confidence="possible" page="8" column="2">Patterns Helped Designers Avoid Some Design Problems</h2>
+          <region class="DoCO:TextChunk" id="119" page="8" column="2">We also observed that some design pairs in the non-patterns condition often struggled to find solutions, spending a lot of time on cases that we had patterns for. For example, design pair 3 spent a large amount of time coming up with what should be displayed on an Active Map (a map that displays the user’s current location and nearby points of interest) and how it would actually work. Active Map (B1) is one of the patterns in our pattern language, and was one that was used by all of the design pairs in the patterns condition. Design pair 7, also in the no-patterns condition, faced a related problem. As professionals, their design was quite extensive and had many interesting ideas for optimizing shopping time and creating wish lists while at the mall. However, midway through, one of the designers started disliking the amount of control the application had, saying, “This is really cool and efficient, but I kind of just want to wander around.” This was an issue that we actually addressed in the pattern Serendipity in Exploration (D5). These two examples point to a deeper issue about patterns. Many of the designers actually came up with the same ideas, such as using a map to show a person’s current location and having comparison shopping. However, one difference is that design pairs in the no-patterns condition had to revisit and sometimes fix design decisions more often than design pairs in the patterns condition. For example, design pairs 3 and 8, both in the non-patterns condition, both came up with a kiosk design that they changed midway through the design task, before changing to a PDA design that was better suited for the task. We believe this is because our patterns represent solutions that others have thought through. Our patterns encapsulated knowledge about how a solution could be used on a particular device, how it might work, and how it could be presented to end-users. In contrast, designers in the no- patterns condition often had to come up with solutions from scratch, and sometimes overlooked important tradeoffs.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="120" confidence="possible" page="8" column="2">Patterns Did Not Help With Privacy</h2>
+          <region class="DoCO:TextChunk" id="124" page="8" column="2">As expected, nearly all of the design pairs identified privacy as a design issue. In all of these cases, the design pairs <marker type="page" number="9"/><marker type="column" number="1"/><marker type="block"/> struggled with this issue for a while and then set the issue aside to work on the main functionality. In all cases, privacy was treated as a secondary issue. In many respects, this matches the evolution of web design. Very few early web sites addressed privacy in any meaningful way. Unfortunately, none of the design pairs managed to use our privacy patterns in any meaningful way. We believe this happened for three reasons. First, we did not emphasize privacy sufficiently in the higher-level patterns. Second, the privacy design patterns are relatively abstract and do not lend themselves well to visual representations. As noted earlier, our participants typically leafed through the patterns to generate ideas, and hence visual representations of actual solutions worked best. Third, privacy is an abstract concept that can only be made concrete in the context of an actual task [<xref ref-type="bibr" rid="R17" id="122" class="deo:Reference">17</xref>]. It does not make sense to talk about privacy itself, but rather how a specific design supports or inhibits privacy. Our patterns discuss privacy in an abstract manner, making it harder to find direct solutions to problems. This last point also underscores a subtle issue here with respect to privacy, which is that customers are unlikely to judge an application based on its privacy merits alone. As noted by Whitten and Tygar, security is a secondary feature that people expect in the context of a task [<xref ref-type="bibr" rid="R26" id="123" class="deo:Reference">26</xref>]. The same is true for privacy. Thus, it makes sense that designers would focus first on functionality and second on privacy.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="125" confidence="possible" page="9" column="1">Designers Generally Liked the Patterns</h2>
+          <region class="DoCO:TextChunk" id="126" page="9" column="1">In general, designers who were in the design patterns condition did like the patterns. One designer said, “Good idea to identify design patterns for ubicomp.” However, one problem was that there were “too many patterns to digest”. This designer summarized his perspective on our patterns by saying, “If we had more time, I’m sure that we would be able to use these patterns to tailor them to our own ideas.”</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="127" page="9" column="1">SECOND EVALUATION OF PRE-PATTERNS</h1>
+        <region class="DoCO:TextChunk" id="128" page="9" column="1">Based on the first round of evaluations, we edited their content to make them easier to learn and reduced the number of pre-patterns to 30 for the second round. We recruited seven pairs of designers for this round. Three pairs were professionals, and the other four pairs were graduate students from local universities. All but one pair had access to our pre-patterns (along with the 5 pairs in the non-pattern condition from the first round, this results in 6 pairs in each condition for this evaluation). All of the professionals had a high experience level, and all of the students were novices. We also modified the methodology, removing the heuristic evaluation, adding 15 minutes before the design task to read the patterns, and adding a short 10-minute quiz to ensure that the designers were familiar with the patterns. This approach made it easier for the design pairs to familiarize themselves with the patterns before doing the design task.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="129" confidence="possible" page="9" column="1">Participant Feedback</h2>
+          <region class="DoCO:TextChunk" id="131" page="9" column="1">9 out of 12 designers in the pattern condition felt that the design patterns helped with the design task, and 11 out of 12 felt that the design patterns would help with their future <marker type="column" number="2"/><marker type="block"/> work. We also received stronger positive feedback regarding the patterns. One designer said, “These patterns are almost like a checklist. You can cover all of your bases.” Nearly all of the designers at the end of the study expressed interest in our patterns.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="132" confidence="possible" page="9" column="2">Judging</h2>
+          <region class="DoCO:TextChunk" id="138" page="9" column="2">To judge the designs in the second round, we recruited a student who was a teaching assistant for an undergraduate HCI class, and two researchers familiar with ubicomp. For each pair, the judges rated the design on how much they agreed with ten statements, such as “Using this device would enable me to accomplish tasks more quickly,” and “I would find this device useful at the mall,” on a seven-point scale (1=low and 7=high). The judges watched each of the ten-minute presentations, without knowing which pairs were in which condition. We then averaged the scores for each question across the judges. Although most of the results are not statistically significant, the judges overall rated novice pairs who had patterns lower than those who did not in 7 out of 10 questions. However, they rated expert pairs who had patterns equal or higher than those who did not in 9 out of 10 questions. They also rated expert pairs without patterns higher than novice pairs with patterns in all 10 questions. One possible interpretation is that having experience is more important than using patterns, but expert designers know how to apply patterns better than novices and therefore get more benefit from them. The few statistically significant results, some of <marker type="page" number="10"/><marker type="column" number="1"/><marker type="block"/> which are shown in <xref ref-type="table" rid="T4" id="137" class="deo:Reference">Table 4</xref>, also lend themselves to this interpretation.</region>
+          <region class="DoCO:TableBox" id="Tx134">
+            <content>
+              <table class="DoCO:Table" number="4" page="9">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"></th>
+                    <th class="table"> Accomplish</th>
+                    <th class="table"> Privacy</th>
+                    <th class="table"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> tasks more</td>
+                    <td class="table.strange"> would not be</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Condition</td>
+                    <td class="table"> quickly</td>
+                    <td class="table"> compromised</td>
+                    <td class="table"> Useful</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> All pairs</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> High</td>
+                    <td class="table"> μ δ = 5.50</td>
+                    <td class="table"> μ = 4.28</td>
+                    <td class="table"> μ = 5.17</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> experience</td>
+                    <td class="table"> = 0.55</td>
+                    <td class="table"> δ = 1.18</td>
+                    <td class="table"> δ = 0.51</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Low</td>
+                    <td class="table"> μ δ = 4.22</td>
+                    <td class="table"> μ δ = 4.44</td>
+                    <td class="table"> μ δ = 4.06</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> experience</td>
+                    <td class="table"> = 0.78</td>
+                    <td class="table"> = 0.75</td>
+                    <td class="table"> = 0.93</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> All pairs</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> μ δ = 5.11</td>
+                    <td class="table"> μ = 4.22</td>
+                    <td class="table"> μ = 4.67</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Patterns</td>
+                    <td class="table"> = 1.07</td>
+                    <td class="table"> δ = 0.96</td>
+                    <td class="table"> δ = 1.26</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> μ δ = 4.61</td>
+                    <td class="table"> μ = 4.50</td>
+                    <td class="table"> μ = 4.56</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> No patterns</td>
+                    <td class="table"> = 0.77</td>
+                    <td class="table"> δ = 1.01</td>
+                    <td class="table"> δ = 0.50</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Pairs with low</td>
+                    <td class="table.strange"> experience</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> μ δ = 4.33</td>
+                    <td class="table"> μ = 4.78</td>
+                    <td class="table"> μ = 3.78</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Patterns</td>
+                    <td class="table"> = 0.88</td>
+                    <td class="table"> δ = 0.77</td>
+                    <td class="table"> δ = 1.26</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> No patterns</td>
+                    <td class="table"> μ δ = 4.11</td>
+                    <td class="table"> μ δ = 4.11</td>
+                    <td class="table"> μ δ = 4.33</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> = 0.84</td>
+                    <td class="table"> = 0.69</td>
+                    <td class="table"> = 0.58</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Pairs with</td>
+                    <td class="table.strange"> high experience</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> μ = 5.89</td>
+                    <td class="table"> μ = 3.67</td>
+                    <td class="table"> μ δ = 5.56</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Patterns</td>
+                    <td class="table"> δ = 0.51</td>
+                    <td class="table"> δ = 0.88</td>
+                    <td class="table"> = 0.19</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> μ = 5.11</td>
+                    <td class="table"> μ = 4.89</td>
+                    <td class="table"> μ = 4.78</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> No patterns</td>
+                    <td class="table"> δ = 0.19</td>
+                    <td class="table"> δ = 1.26</td>
+                    <td class="table"> δ = 0.38</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="135" confidence="possible" page="9" column="2">Accomplish Privacy tasks more would not be Condition quickly compromised Useful All pairs High μ = 5.50 μ = 4.28 μ = 5.17 experience δ = 0.55 δ = 1.18 δ = 0.51 Low μ = 4.22 μ = 4.44 μ = 4.06 experience δ = 0.78 δ = 0.75 δ = 0.93 All pairs μ = 5.11 μ = 4.22 μ = 4.67 Patterns δ = 1.07 δ = 0.96 δ = 1.26 μ = 4.61 μ = 4.50 μ = 4.56 No patterns δ = 0.77 δ = 1.01 δ = 0.50 Pairs with low experience μ = 4.33 μ = 4.78 μ = 3.78 Patterns δ = 0.88 δ = 0.77 δ = 1.26 μ = 4.11 μ = 4.11 μ = 4.33 No patterns δ = 0.84 δ = 0.69 δ = 0.58 Pairs with high experience μ = 5.89 μ = 3.67 μ = 5.56 Patterns δ = 0.51 δ = 0.88 δ = 0.19 μ = 5.11 μ = 4.89 μ = 4.78 No patterns δ = 0.19 δ = 1.26 δ = 0.38</region>
+            <caption class="deo:Caption" id="136" page="9" column="2">Table 4. A subset of an analysis of the judges’ ratings of the designs, on a scale of 1–7 (7=high). Bold pairs of cells show significant differences (paired t-test, p &lt; 0.1).</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="139" confidence="possible" page="10" column="1">Second Evaluation Observations</h2>
+          <region class="DoCO:TextChunk" id="140" page="10" column="1">We had several interesting qualitative observations on the effects of the pre-patterns on design. More design pairs adopted the language of the patterns verbally than in the first round. Also, the design pairs often communicated their ideas through physical exchange of the patterns and by pointing to examples more readily than in the first round. One pair mentioned that they used the pattern groups as “a way to organize their ideas.” Another pair drew inspiration from the Serendipity in Exploration (D5) pattern, stating that the location-based service they were designing “should not be a pushy salesperson but allow for free roaming.” A third pair used the patterns in an unanticipated way. Instead of simply culling ideas from the patterns, they annotated their designs with particular pattern references (e.g., writing “A1: Active Map” next to their sketched UI). One of the designers in the pair said, “It’s interesting because these [patterns] all sort of lay out the problem and the solution on a page, so just by saying that C2 is this one—it’s actually a quicker way of going through this whole procedure.” However, the participants still failed to take advantage of the privacy patterns. 4 out of 6 pattern groups talked about privacy, but only one group actually used any of the privacy patterns directly, using three privacy patterns.</region>
+        </section>
+      </section>
+      <section class="deo:FutureWork">
+        <h1 class="DoCO:SectionTitle" id="141" page="10" column="1">FUTURE WORK</h1>
+        <region class="DoCO:TextChunk" id="142" page="10" column="1">In the future we will use feedback from the designers to make another iteration on our pattern language. We are especially interested in how to make the privacy patterns easier to understand and use. We will also continue our evaluations to further our understanding of how design patterns can help designers.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="143" page="10" column="1">CONCLUSION</h1>
+        <region class="DoCO:TextChunk" id="144" page="10" column="1">In this paper, we introduced the first pattern language for ubiquitous computing, consisting of 45 pre-patterns organized into four pattern groups. These pre-patterns discuss application genres, physical-virtual spaces, interaction and systems techniques for managing privacy, and techniques for fluid interactions. We also discuss what we believe is the first controlled study of design patterns with designers. We asked sixteen pairs of designers to design a location-enhanced application. We observed that patterns helped new and experienced designers unfamiliar with ubiquitous computing, in generating and communicating ideas, and in avoiding design problems early in the design process.</region>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="145" page="10" column="1">ACKNOWLEDGMENTS</h1>
+        <region class="DoCO:TextChunk" id="146" page="10" column="1">We thank Quan Tran, Chris Beckmann, Jeff Heer, Alan Newberger, Ed de Guzman, Tara Matthews, and the rest of GUIR for their early feedback on our design patterns. This research has been funded by NSF (IIS-0205644).</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="147" page="10" column="2">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="149" page="10" column="2">1. Third European Conference on Pattern Languages of Programming and Computing. <ext-link ext-link-type="uri" href="http://www.coldewey.com/europlop98/cfp.htm" id="148">http://www.coldewey.com/europlop98/cfp.htm</ext-link></ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="150" page="10" column="2">2. Alexander, C., et al, A Pattern Language: Towns, Buildings, Construction: Oxford University Press, 1977.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="151" page="10" column="2">3. Bayle, E., et al., Putting it all together: towards a pattern language for interaction design, SIGCHI Bulletin, vol. 30(1): pp. 17-23, 1998.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="153" page="10" column="2">4. Borchers, J., A Pattern Approach to Interaction Design: John Wiley and Sons, 2001. <ext-link ext-link-type="uri" href="http://hcipatterns.org" id="152">http://hcipatterns.org</ext-link></ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="154" page="10" column="2">5. Casaday, G. Notes on a Pattern Language for Interactive Usability. In Proc. of Human Factors in Computing Systems: CHI 1997. Atlanta, GA. pp. 289-290, 1997.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="155" page="10" column="2">6. Dearden, A., J. Finlay, L. Allgar, and B. McManus. Evaluating Pattern Languages in Participatory Design. In Proc. of Human Factors in Computing Systems: CHI 2002 (Extended Abstracts). Minneapolis, MN. pp. 664-665, 2002.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="157" page="10" column="2">7. Erickson, T., The Interaction Design Patterns Page. <ext-link ext-link-type="uri" href="http://www.pliant.org/personal/Tom_Erickson/InteractionPatterns.html" id="156">http://www.pliant.org/personal/Tom_Erickson/InteractionPatterns.html</ext-link></ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="158" page="10" column="2">8. Erickson, T. Lingua Francas for Design: Sacred Places and Pattern Languages. In Proc. of Symposium on Designing Interactive Systems 2000 (DIS2000). New York, NY. pp. 357-368, 2000.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="159" page="10" column="2">9. Gamma, E., R. Helm, R. Johnson, and J. Vlissides, Design Patterns: Addison-Wesley, 1995.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="160" page="10" column="2">10. Graham, I., A Pattern Language for Web Usability. Reading, MA: Addison-Wesley, 2003.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="162" page="10" column="2">11. Kidd, C.D., et al. The Aware Home: A Living Laboratory for Ubiquitous Computing Research. In Proc. The Second International Workshop on Cooperative Buildings - CoBuild'99, 1999. <ext-link ext-link-type="uri" href="http://www.awarehome.gatech.edu/publications/cobuild99_final.PDF" id="161">http://www.awarehome.gatech.edu/publications/cobuild99_final.PDF</ext-link></ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="163" page="10" column="2">12. Landay, J.A. and G. Borriello, Design Patterns for Ubiquitous Computing, Computer, 36(8): pp. 93-95, 2003.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="165" page="10" column="2">13. Meszaros, G., A Pattern Language for Pattern Writing. 2000. <ext-link ext-link-type="uri" href="http://hillside.net/patterns/writing/patternwritingpaper.htm" id="164">http://hillside.net/patterns/writing/patternwritingpaper.htm</ext-link></ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="167" page="10" column="2">14. Nielsen, J., When Bad Design Elements Become the Standard. 1999. <ext-link ext-link-type="uri" href="http://www.useit.com/alertbox/991114.html" id="166">http://www.useit.com/alertbox/991114.html</ext-link></ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="168" page="10" column="2">15. Pfeiffer, E.W., WhereWare. MIT Technology Review, 2003: pp. 46-52.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="169" page="10" column="2">16. Rekimoto, J. Pick-and-Drop: A Direct Manipulation Technique for Multiple Computer Environments. In Proc. of 10th ACM Symposiusm on User Interface and Software Technology (UIST'97). Banff, Canada. pp. 31-39, 1997.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="170" page="10" column="2">17. Schwartz, B., The Social Psychology of Privacy. American Journal of Sociology, 1968. 73(6): pp. 741-752.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="172" page="10" column="2">18. Siegel, D., Set Your Link Colors Ergonomically. 1996. <ext-link ext-link-type="uri" href="http://www.dsiegel.com/tips/wonk3/links.html" id="171">http://www.dsiegel.com/tips/wonk3/links.html</ext-link></ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="174" page="10" column="2">19. Tidwell, J., Common Ground: A Pattern Language for Human- Computer Interface Design. 1999. <ext-link ext-link-type="uri" href="http://www.mit.edu/" id="173">http://www.mit.edu/</ext-link>~jtidwell/common_ground.html</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="176" page="10" column="2">20. UsabilityNet, Card Sorting. <ext-link ext-link-type="uri" href="http://www.hostserver150.com/usabilit/tools/cardsorting.htm" id="175">http://www.hostserver150.com/usabilit/tools/cardsorting.htm</ext-link></ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="178" page="10" column="2">21. van Duyne, D.K., J.A. Landay, and J.I. Hong, The Design of Sites: Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience. Reading, MA: Addison-Wesley, 2003. <ext-link ext-link-type="uri" href="http://designofsites.com" id="177">http://designofsites.com</ext-link></ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="180" page="10" column="2">22. van Welie, M., GUI Design Patterns. 2003. <ext-link ext-link-type="uri" href="http://www.welie.com/patterns/gui/" id="179">http://www.welie.com/patterns/gui/</ext-link></ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="182" page="10" column="2">23. van Welie, M., Web Design Patterns. 2001. <ext-link ext-link-type="uri" href="http://www.welie.com/patterns" id="181">http://www.welie.com/patterns</ext-link></ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="184" page="10" column="2">24. van Welie, M., K. Mullet, and P. McInerney. Patterns in Practice: A Workshop for UI Designers. In Proc. of Human Factors in Computing Systems: CHI 2002. pp. 908-909, 2002. <ext-link ext-link-type="uri" href="http://www.welie.com/patterns/chi2002-workshop/" id="183">http://www.welie.com/patterns/chi2002-workshop/</ext-link></ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="185" page="10" column="2">25. Weiser, M., The Computer for the 21st Century. Scientific American, 1991. 265(3): pp. 94-104.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="186" page="10" column="2">26. Whitten, A. and J.D. Tygar. Why Johnny Can't Encrypt: A Usability Evaluation of PGP 5.0. In Proc. of 8th USENIX Security Symposium, pp. 169–184, Aug. 23–26, 1999.</ref>
+        </ref-list>
+      </section>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>646130e5dbc3729986018ae025614c0e945569c67c21bb936bcad4099489381b</job>
+    <base_name>62g8</base_name>
+    <doi>10.1145/1962438.1962439</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">WELCOMEParticipation, technology and interaction design</article-title>
+      </title-group>
+      <region class="DoCO:FigureBox" id="Fx2">
+        <image class="DoCO:Figure" src="62g8.page_001.image_01.png" thmb="62g8.page_001.image_01-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="outsider" id="3">Participation, Technology and Interaction Design</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="7">— Ron Wakkary</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">Erik Stolterman eic@interactions.acm.org</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="6" page="1" column="1">As a reader of this magazine, you are probably involved in some new forms of social participatory work made possible by the Internet and interactive technology. Many of us are working to achieve some com- mon goal by using technology that helps us conquer distance and time. It seems as if an increasing part of our daily communication is done through technology in some form. This development challenges many traditional assumptions about how to communicate and collaborate, but maybe even more interesting, it challenges our way of understanding processes of discovery, creativity, and development. In this issue’s cover story, Gerhard Fischer examines this new reality by discussing the con- cept of cultures of participation. Technology plays a central role in our field, not only as a means to manifest designs but also as a precondition that shapes our way of thinking about what is or is not possible to design. Sometimes <marker type="column" number="2"/><marker type="block"/> ideas of what is possible might lead to unrealistic expectations from clients and users, as dis- cussed in the article “How High Can Expectations Go?” by Pedro Campos, Miguel Campos, and Joaquim Jorge. Technological inventions and developments open up new design spaces, changing fundamental preconditions for design. So the question becomes: How should or can interaction design as a field relate to technology? To what extent should our field be involved in technology development? And do you really need to know technology to be an interaction designer? As editors- in-chief, we are looking for more articles that take on issues of technology and technology development and how they relate to HCI and interaction design. Is the field handling this well today? Are there other directions to explore? In this issue we are also pleased to introduce a new forum, Health Matters, with Elizabeth Mynatt<marker type="column" number="3"/><marker type="block"/> as editor. We also reintroduce and rename a forum on sustain- ability—Sustainability in (Inter) Action—now with Elaine Huang as editor. We are slowly making changes to the magazine based on our overall vision, but we need your help. Write to us about the magazine, what you miss, what you find exciting, and whom you would like to read. There will be an opportunity to discuss the status and future of ACM interactions with us and several of our regular contributors at a SIG meeting at CHI this year. We welcome all of you to come to the ACM interactions SIG meeting on Wednesday, May 11, at 11 a.m. More details will follow.</region>
+      <region class="unknown" id="9" page="1" column="3">DoI: 10.1145/1962438.1962439 © 2011 aCM 1072-5220/11/05 $10.00</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10" page="1" column="3">5</outsider>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>f6fa70dc68c3e234194ed5758c4ecb7f95ee032ea0ec938226bdbc26d9f283c5</job>
+    <base_name>62j2</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1049/ep.1982.0264">http://dx.doi.org/10.1111/j.1601-1546.2006.00219.x</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Make a bike light</article-title>
+      </title-group>
+      <region class="unknown" id="2">First Author</region>
+      <abstract class="DoCO:Abstract" id="3">Abstract</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Paul Smith Glasgow School of Art Glasgow</name>
+          <aff id="5">3</aff>
+          <aff id="6">6</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">UK</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">G3 6RQ p.smith@gsa.ac.uk</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="9">Second Author</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="10">Fergus Fullarton Pegg Glasgow School of Art Glasgow</name>
+          <aff id="11">3</aff>
+          <aff id="12">6</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="13">UK</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="14">G3 6RQ f.fullartonpegg@gsa.ac.uk</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="15">Third Author</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="16">Roy Shearer Glasgow School of Art Glasgow</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="17">UK</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="18">G3 6RQ r.shearer@gsa.ac.uk</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="19">Many of the components required to make simple electronic devices are readily and affordably available to purchase almost anywhere in the world. The proliferation of accessible computer programming interfaces that make the programming of devices easier than ever before, and the near ubiquitous digital fabrication technologies such as laser cutting and 3d printing allow for the self-fabrication of sophisticated electronic devices. Self-fabrication servers a reliance on existing supply chain models of acquiring products and offers an opportunity to learn something as well as to make something “...if people were encouraged to build a table with their own hands...they would be able to understand the thinking behind it.” 1 This workshop explains how to fabricate a simple product using accessible digital fabrication technology and off the shelf components. It teaches the principles of PCB design (the basics of electronics engineering circuit board design), computer programming and some digital fabrication technologies.</abstract>
+      <region class="unknown" id="20">1 Mari, E., Autoprogettazione?, Mantova : Corraini, 2013</region>
+      <region class="DoCO:TextChunk" id="21" confidence="possible">Author Keywords Arduino, laser cutting, programming, circuit design A description of the scope of the workshop, who is expected to participate, main topics covered, and expected workshop outcomes.</region>
+      <region class="DoCO:TextChunk" id="28">The workshop will teach participants how to make a basic bike light using accessible digital technologies and off the shelf components. It will use paper prototyping of pseudo code; underlay templates of printed circuit boards to sketch PCB designs; actual PCB’s and components to fabricate working lights; the Arduino programming interface to add control to the lights; pre laser cut components and pre made 3d printed components to house the lights. Participants will design a bike light with some basic controls, they will add components to semi-populated PCB’s, they will write computer code to control the circuit components, they will construct a housing from pre-fabricated parts and assemble the components to make the finished bike light. During the workshop there will be time for participants to assemble components onto semi- populated PCBs, making some decisions about the basic functions of the light, and to construct a housing using pre fabricated components. <marker type="block"/> The workshop is an ongoing open source project belonging to the authors; it has been trialed but will be run as a public workshop for the first time at the conference.<marker type="block"/> The aim of the workshop is to introduce people to basic programming, design of simple circuit boards, laser cutting and 3d printing digital fabrication technologies. On completion participants will understand the function of some basic circuit board components and be able to design a simple circuit, they will be able to write pseudo code to control components on a simple PCB and translate this into programming language, they will be able to control an LED light with basic functions,<marker type="column" number="2"/><marker type="block"/> they will be able to design a simple housing using computer aided design technology and be able to export designs to a digital fabrication technology. The workshop has been designed to give learning outcomes to all abilities. At even a basic level the participants will learn how to paper prototype circuits and write pseudo code. They will learn the principles of both PCB fabrication and computer programming. They will learn about PCB components and how to control them and learn the principles of laser cutting and 3D printing. The workshop will cover circuit design, pseudo code, programming, computer aided design, laser cutting, 3d printing, design, open design &amp; self-fabrication.<marker type="block"/> It is expected that anyone with an interest in self – fabrication will participate. Software designers who are interested in circuit design, designing and making products would participate. Hardware designers who are interested in programming and / or PCB design would participate. Educators who are interested in any of the topics covered would participate. The workshop has been designed to appeal and be accessible to people of all ages and abilities.<marker type="block"/> The workshop demonstrates a variety of digital fabrication technologies, it teaches some key principles of programming and circuit design and digital fabrication. We will be demonstrating an open source paper prototyping tool for writing pseudo code developed by a project partner. The tool can be used along with the Arduino interface to develop electronic prototypes. Contributions to the workshop will be added to an open source hardware project.</region>
+      <region class="unknown" id="27">An explanation of the importance of your submission to the digital fabrication/makers/hands-on learning communities</region>
+      <region class="DoCO:TextChunk" id="29" confidence="possible">Logistical details: maximum number of participants and all your technology/space needs. We could provide for 6 participants at each workshop session, more if participants were wiling to work in pairs on a single light. We would require power for 3 laptops, 3 desk lamps and 3 soldering irons. We would need desktop workspace for 6 people measuring approximately 8 feet by 8 feet, and a separate desk space for 3 laptops and spare equipment measuring approximately 8 feet by 4 feet.</region>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>

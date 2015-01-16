@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>9256554497183a6a07c3b2013cb55b10e3166c475556fdd36d4f351b246fe95c</job>
+    <base_name>62qt</base_name>
+    <doi>http://dx.doi.org/10.1145/1753846.1754103</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">April 14–15, 2010, Atlanta, GA, USA</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Using Obstructed Theatre with Child Designers to Convey Requirements</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Janet C Read</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="7"><marker type="block"/> The ChiCI Group University of Central Lancashire Preston UK PR1 2HE <email id="6">jcread@uclan.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="8">Daniel Fitton</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="10">The ChiCI Group University of Central Lancashire Preston UK PR1 2HE <email id="9">dbfitton@uclan.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="11">Emanuela Mazzone</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="13">The ChiCI Group University of Central Lancashire Preston UK PR1 2HE <email id="12">emazzone@uclan.ac.uk</email></abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="14" page="1" column="1">This paper describes the use of obstructed theatre as a novel design method for the elicitation of ideas from children for the design of a new mobile product. Obstructed theatre has previously been used, in this same context with adults, but this is the first paper that outlines its use with children. The paper describes the initial ideas for the script for the theatre and evaluates its use. It is shown that the method can be useful and it specifically conveyed the idea of portability and mobility but was less effective at conveying the more complex interactive ideas. Specifically the paper outlines the origins of the method, presents some reflection on the usefulness of the method and suggests how it can be used with other contexts.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="15" page="1" column="1">Keywords</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="16" confidence="possible" page="1" column="1">Music interfaces, Mobile Interfaces, Children, Participatory Design</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="1" column="1">ACM Classification Keywords</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="18" confidence="possible" page="1" column="1">H5.m. Information interfaces and presentation (e.g., HCI): Miscellaneous.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="19" page="1" column="1">General Terms</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="20" confidence="possible" page="1" column="1">Design, Human Factors</region>
+      <region class="unknown" id="21" page="1" column="1">Copyright is held by the author/owner(s). CHI 2010, April 10–15, 2010, Atlanta, Georgia, USA. ACM 978-1-60558-930-5/10/04.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="22" page="1" column="2">4063</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="23" page="2" column="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="24" page="2" column="1">April 14–15, 2010, Atlanta, GA, USA</outsider>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="25" page="2" column="1">Introduction</h1>
+        <region class="DoCO:TextChunk" id="31" page="2" column="1">Designing interfaces for children is known to be difficult. For good design it is necessary to enter into the child’s world to ensure that the resulting products provide a good experience for the children whilst also maintaining usability. There are several methods for designing products for children; one commonly used method is to involve the children in the design process as participants [ <xref ref-type="bibr" rid="R2" id="26" class="deo:Reference">2</xref>], [<xref ref-type="bibr" rid="R3" id="27" class="deo:Reference">3</xref>]. In these types of studies, the children are often involved early in the design lifecycle and typically engage in the creation of low tech prototypes from which developers can gather ideas and insights.<marker type="block"/> In our own studies we have engaged with children in this way in several different situations. In most of these design sessions we have been interested in gathering requirements for products that we have later on made for real use [<xref ref-type="bibr" rid="R4" id="29" class="deo:Reference">4</xref>], but we have also been interested in discovering the general value of design sessions with children whilst also evaluating and trying out different methods [<xref ref-type="bibr" rid="R6" id="30" class="deo:Reference">6</xref>]. One observation, over time, has been that children are easily influenced by the way the product under discussion is presented to them at the start of the design session; thus, if we talk about wallets and demonstrate a range of wallets or purses as design prompts – the children design devices that resemble these physical wallets, if the design is for a writing tool, as soon as we demonstrate writing, the children focus on pens. This is unsurprising but, in some situations, it is good to encourage a more innovative train of thought – one situation is in the design of mobile technology where any prop like a mobile phone or small games console will significantly influence the design ideas. It has been our experience</region>
+        <region class="DoCO:TextChunk" id="32" confidence="possible" page="2" column="2">that the narrower the line of thought, the less innovative the solutions tend to be.</region>
+        <region class="DoCO:TextChunk" id="35" page="2" column="2">In 2008, the authors of this paper were introduced to the work of [ <xref ref-type="bibr" rid="R1" id="33" class="deo:Reference">1</xref>]. In this innovative approach to design, albeit with adults, the research team used a slightly humorous video clip in which one actor described some of the functionality of an interactive device in a conversation with another actor whilst referring to, but not showing, the off screen interactive device in question. As the video progressed, the actors revealed more and more of the functionality of a device that was referred to but not seen. The specific attraction of this method for design of interactive technology is that the technology is not physically described as it is assumed, in the enactment and the discussion, that both actors can see the device. This separation from the physical device allows discussion of functionality without giving ‘too much’ away.<marker type="block"/> Our interest in using this method was two fold. Firstly we wanted to see if we could use children as actors and secondly we wanted to see if children as designers would benefit from the method or whether it would perhaps be too abstract for them. In the remainder of this paper we refer to the method as obstructed theatre. This is used to describe the enactment of the scenario in which, in our case, two boys interacted with a real physical product for the purposes of shooting the film but the physical product they used, as a prop, was not seen in the video clip as it was hidden from view by a strategically positioned obstruction.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="36" page="2" column="2">The Study</h1>
+        <region class="DoCO:TextChunk" id="47" page="2" column="2">The context of this work is a recently begun EU project called UMSIC. UMSIC stands for ‘Usability of Music for <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> Social Inclusion of Children’. The goal of UMSIC is to use a mobile device (the JamMo) and develop the software for that device to promote learning and social inclusion with children aged between 4 and 15. In the UMSIC project, we will build four scenarios: for stand-alone, ad- hoc, networked and public usage. Each of these scenarios has different mobile contexts that have to be taken account of.<marker type="block"/> One of our aims is to design for these contexts by having pre-settings that will contain mobile context attributes such as social theory related (e.g. community-related), psychological (e.g. motivation), spatial (time, place, space), information, mobility (includes service), scenario and task-dependant attributes. The scenarios will have transition attributes between (pedagogical) tasks.<marker type="block"/> The preliminary plans for the applications on the mobile device have already been defined in the UMSIC project plan. However, the UMSIC project team is committed to gathering design ideas from children and it was with this aim that the present study was conducted. The requirement gathering phase of the UMSIC project was intended to dictate the scenarios and their mobile contexts but also build scenarios of enhanced user experience, by not just focusing on usability issues but by considering user experience as an important facet. As [<xref ref-type="bibr" rid="R7" id="43" class="deo:Reference">7</xref>] says, “Usability is the ability to use the thing to carry out task successfully. User experience looks users’ entire interaction with the thing as well as thoughts, feelings and perceptions that result from interaction”.<marker type="block"/> With this as a backdrop – the study aimed to see if the method used in [<xref ref-type="bibr" rid="R1" id="45" class="deo:Reference">1</xref>] could be used to gather user and user experience ideas and requirements from children for the UMSIC device. The method that was used in referred<marker type="column" number="2"/><marker type="block"/> to in this paper as ‘obstructed theatre’. The work fell into three stages: stage one – the creation of the video, stage two – the use of the video, and stage three – the evaluation of the method.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="38" page="2" column="2">4064</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="39" page="3" column="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="40" page="3" column="1">April 14–15, 2010, Atlanta, GA, USA</outsider>
+        <region class="DoCO:TextChunk" id="48" confidence="possible" page="3" column="2">Creating the Video of Obstructed Theatre The first requirement was to determine the essential aspects of the ultimate product and ensure that these characteristics were included in the video. These characteristics were deemed to be:</region>
+        <region class="DoCO:TextChunk" id="59" page="3" column="2">1. Portable 2. A music making device 3. Able to be used to create music 4. Able to be used to play already created music 5. Able to be used for singing along with music 6. Able to be useful for sharing music between friends These characteristics were embedded in a script and the script was then used with two boys aged 12 who were filmed. The intention was to use the film in two versions – short and long – in the same way that the original authors of the method used it in [ <xref ref-type="bibr" rid="R1" id="49" class="deo:Reference">1</xref>] and so the characteristics were embedded in a specific order so that items 1,2,and 3 were seen in the beginning of the film and items 4,5 and 6, were seen later.<marker type="block"/> The first part of the film shows one boy entering a room and telling his mate that he has a cool new device. It is implied that he has the device with him (hence it is portable (1)) and this is confirmed when he sits down and starts describing it, and using it, so his friend can see what it does. During this first stage it is apparent<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> that the device can be used to compose simple tunes (2, 3).<marker type="block"/> Presently (the second part of the video), he passes the device to his friend and lets him play with it – at this stage in the video the functionalities of karaoke and playing already stored music (4, 5) are demonstrated and, as the first boy talks to the second, the potential for shared music making, and hence, connectivity, is mentioned (6).<marker type="block"/> Using the Video The film was then taken to a local school and used as a starter for four design sessions with children aged 9/10 (Yr5) and 6/7 (Yr 2) (details shown in <xref ref-type="table" rid="T1" id="57" class="deo:Reference">table 1</xref>). In two of the design sessions the film was cut short so children had only scant information about the technology being proposed (a method used in the original study with adults) and in the other two sessions the film was shown in its entirety. Specifically – these first two groups were not given the information about the connectivity / sharing, nor the idea of karaoke.<marker type="block"/> The film was shown to the children and then they worked in groups to design the mobile device. They used paper, card, and other low tech materials to construct their ideas and at the end of the session the designs were photographed and the children made small video cameos in which they described their ideas. To determine the children’s opinions of the obstructed theatre method, a short questionnaire was used.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="52" page="3" column="2">4065</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="53" page="4" column="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="54" page="4" column="1">April 14–15, 2010, Atlanta, GA, USA</outsider>
+        <region class="DoCO:TextChunk" id="60" confidence="possible" page="4" column="1">Evaluating the Method To evaluate the method, two aspects were considered; the outputs from the design session (assumed to in some way consider how the video conveyed the</region>
+        <region class="DoCO:TextChunk" id="71" page="4" column="2">requirements for the eventual product) and the opinions of the children (to see if they had found it useful or not). <marker type="block"/> C ONVEYING R EQUIREMENTS Every child / group of children designed a product that was portable; it cannot be assumed that this was directly associated with the video clip as it is highly possible that the children would have made portable devices in any case but from other design sessions where we have not used the video clip it has seemed that sometimes the children have made larger objects. The children clearly made music making devices and in most cases the designs they made showed that they could be used to create music – some examples can be seen in figures 1, and 2. Some children created models of juke box style devices with radios and earphones and such like (see <xref ref-type="fig" rid="F1" id="62" class="deo:Reference">Figure 1</xref>). The video did not have earphones in it but it was apparent that the children could hear the music. Many children created instruments rather than devices, for example the flute shown in <xref ref-type="fig" rid="F1" id="63" class="deo:Reference">Figure 1</xref> and instrument shown in <xref ref-type="fig" rid="F2" id="64" class="deo:Reference">Figure 2</xref>. What the children did not specifically include was any detail as to the functionality of the karaoke – for example the writing that goes with a karaoke machine.<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> In most cases, connectivity was not seen, however, one child added antennae which did suggest some idea of connectivity but could have been related to the notion of radio transmission rather than connections between two players.</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <image class="DoCO:Figure" src="62qt.page_004.image_01.png" thmb="62qt.page_004.image_01-thumb.png"/>
+          <caption class="deo:Caption" id="67" page="4" column="2">figure 1. A Device for Music figure 2. An Instrument and Listening a Device rolled into one</caption>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="68" page="4" column="2">4066</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="69" page="5" column="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="70" page="5" column="1">April 14–15, 2010, Atlanta, GA, USA</outsider>
+        <region class="DoCO:TextChunk" id="72" confidence="possible" page="5" column="1">Overall, in looking at the designs, it seemed that the children did gather enough information from the video to design artifacts that matched the general requirements. It was also evident that the children were possibly less able to capture some of the more abstract ideas, like the karaoke and the connectivity</region>
+        <region class="DoCO:TextChunk" id="78" page="5" column="1">T HE C HILDREN ’ S O PINIONS As regards the opinions of the children, in general, as shown in <xref ref-type="table" rid="T1" id="73" class="deo:Reference">Table 1</xref>, most of the children were positive about the use of the video with most of them reporting that it had helped. The long video seemed to be more helpful than the short video but clearly, these responses are very subjective.<marker type="block"/> From the 24 children of the groups who saw the shortened version, 58% found it helpful, 38% found it not helpful and only 1 child (4%) was unclear or undecided. From the other groups that saw the film in its entirety, 71% of the children found it helpful, 24%</region>
+        <region class="DoCO:TableBox" id="Tx75">
+          <content>
+            <table class="DoCO:Table" number="1" page="5">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Short</th>
+                  <th class="table"> video</th>
+                  <th class="table"> Long</th>
+                  <th class="table"> video</th>
+                  <th class="table"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Helped helped</td>
+                  <td class="table.strange"> Not n/a</td>
+                  <td class="table.strange"> Helped</td>
+                  <td class="table.strange"> helped Not</td>
+                  <td class="table.strange"> n/a</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Yr2</td>
+                  <td class="table"> 6</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 7</td>
+                  <td class="table"> 3</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Yr5</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 6 1</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 2</td>
+                  <td class="table"> 1</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="table">
+                  <th class="table"> total</th>
+                  <th class="table"> 14</th>
+                  <th class="table"> 9 1</th>
+                  <th class="table"> 15</th>
+                  <th class="table"> 5</th>
+                  <th class="table"> 1 45</th>
+                </tr>
+              </tfoot>
+            </table>
+          </content>
+          <region class="TableInfo" id="76" confidence="possible" page="5" column="1">Short video Long video Helped helped Not n/a Helped helped Not n/a Yr2 6 3 7 3 Yr5 8 6 1 8 2 1 total 14 9 1 15 5 1 45</region>
+          <caption class="deo:Caption" id="77" page="5" column="1">table 1. Children’s Reponses to post session questionnaire.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="79" confidence="possible" page="5" column="2">found it not helpful and again only 1 child (5%) was unclear or undecided in the responses.</region>
+        <region class="DoCO:TextChunk" id="82" page="5" column="2">It is sometimes rather misleading to report simply the responses of children as they are often unsure how to answer questions [ <xref ref-type="bibr" rid="R5" id="80" class="deo:Reference">5</xref>]. To get more useful information about these results, we looked at the reasons the children gave for their answers. From their responses, it seems that most of the children who found the video helpful said it was because it gave them ideas on what to design, while some others liked to hear the music/noise and it gave them a positive feeling. Amongst the ones who did not find the video helpful, most of the comments referred to the fact that the film did not show the object and they could not see what it was! As it was always our intention to hide the device from the children, to some extent we can consider this type of response as a false negative, as the actual intent behind the use of the movie was not to give the children the answer on what to design but just give them a flavour of what it was to be.<marker type="block"/> We did consider that in some of the answers the children were somehow rating the video as an artifact rather than considering its usefulness in the design task. This was probably due to the fact that the questionnaires were handed at the end of each group’s session and not all the children had the chance to have all the questions clarified directly with the researchers.</region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="83" page="5" column="2">Discussion</h1>
+        <region class="DoCO:TextChunk" id="90" page="5" column="2">Having used this obstructed theatre design method with children, we can see that it has possibilities for other design spaces, especially those where the technology is not desktop based. Creating the video was possible and the use of older children (older than the target age <marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> but still seen as children) was possible. Specific problems that we did encounter were in the filming of the scenario. The boys doing the filming were not professionals and so several takes were needed and there were several missed lines even though they were given a script. For realism we let the boys insert their own words as long as the essential information remained.<marker type="block"/> We consider the method to be helpful in the specification of devices, especially when used in a long form. It is worth noting that the younger children had more difficulty with the method than the older children and so the method may be more suited to older children than younger ones. We have recently used the method in Finland where there were obvious difficulties with the language and the dialect of the young actors and this may have been a challenge even for the younger UK children. A specific advantage of the method is that it maintains some research validity in that, if the video is used to introduce design sessions over several different events, the researcher can be sure that all the children were given the same information. This can then enable manipulation of other aspects of the design session without having to be too concerned about how a design idea is introduced.<marker type="block"/> Further possibilities for the design of the JamMo mobile device may be to extend into the filming of use and in the elicitation of scenarios of use. Currently we are</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="85" page="5" column="2">4067</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="86" page="6" column="1">CHI 2010: Work-in-Progress (Spotlight on Posters Days 3 &amp; 4)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="87" page="6" column="1">April 14–15, 2010, Atlanta, GA, USA</outsider>
+        <region class="DoCO:TextChunk" id="91" confidence="possible" page="6" column="2">making a version of the video in another language so we can test its usefulness in different contexts.</region>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="92" page="6" column="2">Acknowledgments</h1>
+        <region class="DoCO:TextChunk" id="93" confidence="possible" page="6" column="2">We thank the children and schools who participated in this work.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="94" page="6" column="2">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="95" page="6" column="2">[1] Briggs, P., Olivier, P., and Kitson, J. 2009. Film as invisible design: the example of the biometric daemon. In Proc CHI 2009 ACM Press.(2009),</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="96" page="6" column="2">[2] Druin, A., Bederson, B., Boltman, A., Miura, A., Knotts-Callaghan, D., and Platt, M., Children as our technology design partners, in The Design of Children's technology, Druin, A., Editor. 1999, Morgan Kaufmann: San Francisco, CA. p. 51 - 72.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="97" page="6" column="2">[3] Kafai, Y., Ching, C.C., and Marshall, S., Children as Designers of Educational Multimedia Software. Computers Education, 29,2/3(1997). 117 - 126.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="98" page="6" column="2">[4] Kelly, S. R., Mazzone, E., Horton, M. and J. C. Read (2006) Bluebells: A Design Method for Child- Centred Product Development. Proceedings of the Fourth Nordic Conference on Human Computer Interaction – NordiChi 2006</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="99" page="6" column="2">[5] Read, J.C., Validating the Fun Toolkit: an instrument for measuring children’s opinions of technology. Cognition Technology and Work, 2007).</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="100" page="6" column="2">[6] Read, J. C. 2009. Warp speed design: a rapid design method for use with children. In Proc CHI 2009 Extended Abstracts. ACM Press.(2009), 4681- 4686.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="101" page="6" column="2">[7] Tullis, T. and Albert, B., Measuring the User Experience. 2008: Morgan Kaufmann.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="102" page="6" column="2">4068</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

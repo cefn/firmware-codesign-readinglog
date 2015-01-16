@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>c9251f64e116b8a3ee8aaa806648a33f4fb6d248af66b515be4883d5c7f8a28f</job>
+    <base_name>62rp</base_name>
+    <doi>http://dx.doi.org/10.1145/1159733</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="2" confidence="possible">Proceedings of the 2003 International Symposium on Empirical Software Engineering (ISESE’03) 0-7695-2002-2/03 $ 17.00 © 2003 IEEE</article-title>
+      </title-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="1" page="1" column="1">Proceedings of the 2003 International Symposium on Empirical Software Engineering (ISESE’03) 0-7695-2002-2/03 $ 17.00 © 2003 IEEE</region>
+      <region class="DoCO:FigureBox" id="Fx3">
+        <image class="DoCO:Figure" src="62rp.page_001.image_01.png" thmb="62rp.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="8" page="2" column="1">Proceedings of the 2003 International Symposium on Empirical Software Engineering (ISESE’03) 0-7695-2002-2/03 $ 17.00 © 2003 IEEE <marker type="page" number="3"/><marker type="block"/> Proceedings of the 2003 International Symposium on Empirical Software Engineering (ISESE’03) 0-7695-2002-2/03 $ 17.00 © 2003 IEEE<marker type="page" number="4"/><marker type="block"/> Proceedings of the 2003 International Symposium on Empirical Software Engineering (ISESE’03) 0-7695-2002-2/03 $ 17.00 © 2003 IEEE</region>
+      <region class="DoCO:FigureBox" id="Fx5">
+        <image class="DoCO:Figure" src="62rp.page_002.image_02.png" thmb="62rp.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="Fx7">
+        <image class="DoCO:Figure" src="62rp.page_003.image_03.png" thmb="62rp.page_003.image_03-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="Fx9">
+        <image class="DoCO:Figure" src="62rp.page_004.image_04.png" thmb="62rp.page_004.image_04-thumb.png"/>
+      </region>
+    </body>
+  </article>
+</pdfx>

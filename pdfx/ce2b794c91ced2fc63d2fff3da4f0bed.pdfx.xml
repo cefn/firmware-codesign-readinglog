@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>2cbc8a4d9e3025e163bf1f0526e43a53270b3d395268ecf8cd705a9417fcbd57</job>
+    <base_name>62i9</base_name>
+    <doi confidence="possible">10.1145/96267.96290</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Inside RISKS: risks in medical electronics</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">RISKS IN MEDICAL</outsider>
+      <outsider class="DoCO:TextBox" type="outsider" id="3">ELECTRONICS</outsider>
+      <abstract class="DoCO:Abstract" id="5" confidence="possible">the accidents) or system design error (e.g., omission of hardware interlocks that might have protected patients form software failures). One con- tributor questioned whether these in- cidents were really deserving of so much more attention than other accidents (not computer related); do computers really introduce worse risks? (In fact, this particular accelerator was much more hazardous than others, even from the same ven- dor.) Several contributors discussed whether computer-controlled devices require a substantially different ap- proach to testing and validation than Background traditional devices. Some regarded Investigators at the Food and Drug the accidents as evidence of the need Administration estimate that almost for certification of programmers, or all devices produced by the $ll- products, or vendors. billion-per-year medical electronics industry now include embedded Conclusions micro- or minicomputers. During After four years, the Therac ac- the 1980s the FDA monitored scores cidents remain the best-known ex- of computer-related product recalls. amples in the public record of Although many potential hazards computer-related deaths and in- were identified, no actual mishaps juries. Fortunately, they proved not to were reported-until 1986. be harbingers of a whole series of systems in 1985. Another serious software-related accidents in medi- overdose occurred in Washington cine. Conservative use of computers State early in 1987. All three patients in safety-related functions, better had to discontinue treatment and software development practices, and two subsequently died. regulatory attention have appar- ently had an effect. Nevertheless, Response continuing computer-related medi- The accidents were widely reported cine product recalls (e.g., as reported in the popular press, including People by B.J. Herbison in RISKS) are evi- magazine and the television pro- dence that difficulties remain. (3 gram “20120.” Many people were surprised to learn that the FDA had no requirements, and performed no reviews regarding software development practices or software quality in medical devices. In September 1987 the FDA announced that it would begin reviewing embedded control software in some classes of devices.</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="13">Jonathan Jacky is a research assistant professor n the Department of Radaton Oncoloq at the Uni- versity of Washington School of Medcne n Seat- tle</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="14">Washington.</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="4" page="1" column="1">The RISKS Forum has had many accounts of annoying errors, expen- sive breakdowns, privacy abuses, security breaches, and potential safety hazards. However, postings describing documented serious in- juries or deaths that scan be unequi- vocally attributed to deficiencies in the design or implementation of computer-controlled systems are very rare. A tragic e.xception was a series of accidents which occurred between 1985 and 1987 involving a computer-controlled radiation therapy machine.</region>
+      <region class="DoCO:TextChunk" id="7" page="1" column="1">Fatal Accidents In Tyler, Texas in March 1986, a patient receiving radiation therapy from a medical linear accelerator -a Therac-25 produced by Atomic Energy of Canada Limited (AECL) -felt a burning sensation during the normally painless treatment. Clinic staff suspected an electrical shock, but since specialists were unable to locate any hazard, the machine was kept in use. The same malfunction recurred with a different patient less than a month later. Both patients died that summer. Investigations revealed that the accidents were caused by the programs controlling the Therac-25. If the machine’s operator entered an unusual but nonetheless possible se- quence of commands, the computer controls would place the machine’s internals into an erro:neous and very hazardous state, subjecting the patient to a massive overdose. As news of the accidents spread, other reports surfaced: a patient in Ontario, Canada and another in Georgia had been seriously injured by Therac-25 <marker type="column" number="2"/><marker type="block"/> Reactions in RISKS Numerous contributors posted por- tions of the story as it emerged. There has been a persistent misun- derstanding that a major factor in the accidents was “operator error” or poor user interface design. Opinions differ regarding whether the accidents were attributable to software error (clearly the proximate cause of</region>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="8" confidence="possible" page="1" column="3">References</h1>
+      </section>
+      <ref-list class="DoCO:BiblioGraphicReferenceList">
+        <ref rid="R1" class="deo:BibliographicReference" id="9" confidence="possible" page="1" column="3">1. Bassen, H., Silberberg, J., Houston, F., Knight, W., Christman, C., and Greber- man, M. Computerized medical devices: Usage trends, problems, and safety tech- nology. In Proceedings of the Seventh Annual Conference of IEEE Engine&amp;g n Medcne and Biology So&amp;e@ (Sept. 27-30, 1985, Chicago, Ill.), pp. 180-185.</ref>
+        <ref rid="R2" class="deo:BibliographicReference" id="10" confidence="possible" page="1" column="3">2. Joyce, E. American Medcal New-series beginning on Oct. 3, 1986.</ref>
+        <ref rid="R3" class="deo:BibliographicReference" id="11" confidence="possible" page="1" column="3">3. Moreno, M. Product Recalls. The Boston Globe, April 10, 1989, p. 14.</ref>
+        <ref rid="R4" class="deo:BibliographicReference" id="12" confidence="possible" page="1" column="3">4. Young, F. Validation of medical software: Present policy of the Food and Drug Administration. AnnaL- of Internal Medcne 160, 4 (Apr. 1987), 628-629.</ref>
+      </ref-list>
+      <outsider class="DoCO:TextBox" type="page_nr" id="15" page="1" column="3">138</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="16" page="1" column="3">Dccemher</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="17" page="1" column="3">19!lO/Vd.33,</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="18" page="1" column="3">Nu.IZ/COUUUWICATIOWSOFI”S</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="19" page="1" column="3">ACM</outsider>
+    </body>
+  </article>
+</pdfx>

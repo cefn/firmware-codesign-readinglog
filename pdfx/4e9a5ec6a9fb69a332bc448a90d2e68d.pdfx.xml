@@ -1,0 +1,511 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>1f71d2114b8a70e2c02ab1df2bbd36d4f4c30c1f6b4eab4a604907e4b551550d</job>
+    <base_name>62ii</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.2307/1511899</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62ii.page_001.image_01.png" thmb="62ii.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="unknown" id="2">.</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="4">Contents and Structure in Design Reasoning Author(s): Gabriela Goldschmidt and Maya Weil Source: Design Issues, Vol. 14, No. 3 (Autumn, 1998), pp. 85-100 Published by: The MIT Press Stable URL: <ext-link ext-link-type="uri" href="http://www.jstor.org/stable/1511899" id="3">http://www.jstor.org/stable/1511899</ext-link> Accessed: 17/01/2014 07:45</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="sidenote" id="5">Your use of the JSTOR archive</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="6">at .</outsider>
+      <region class="unknown" id="8">indicates your acceptance of the Terms &amp; Conditions of Use, available <ext-link ext-link-type="uri" href="http://www.jstor.org/page/info/about/policies/terms.jsp" id="7">http://www.jstor.org/page/info/about/policies/terms.jsp</ext-link></region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="9">upon a wide range of and facilitate new forms</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="10">. JSTOR is a not-for-profit content in a trusted digital of scholarship. For more</outsider>
+      <region class="unknown" id="12">service that helps scholars, researchers, and students discover, use, and build archive. We use information technology and tools to increase productivity information about JSTOR, please contact <email id="11">support@jstor.org</email>.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="13">.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="14">The MIT Press is collaborating with JSTOR to digitize, preserve and extend access to Design Issues.</outsider>
+      <region class="DoCO:FigureBox" id="Fx15">
+        <image class="DoCO:Figure" src="62ii.page_001.image_02.png" thmb="62ii.page_001.image_02-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="17"> <ext-link ext-link-type="uri" href="http://www.jstor.org" id="16">http://www.jstor.org</ext-link></outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="18">This content downloaded from 148.88.67.24 on Fri</name>
+          <aff id="19">148</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="20">Jan 2014 07:45:02 AM All use subject to JSTOR Terms</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="21">Conditions</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="22">Contents and Structure in DesignReasoning Gabriela Goldschmidt and Maya Weil</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="23">1 From leaflet for"Design Odyssey 2010"-25thjubilee international symposium, Industrial Design Center, Indian Institute of Technology, Bombay, December 1994.</outsider>
+      <region class="DoCO:TextChunk" id="32">1 Introduction: Design thinking and reasoning "Design is based on acquiring skills, practice and, experience. Now, it is understood as an outcome of thinking processes."' This state- ment reflects a growing interest in gaining a better understanding of the ways in which designers think, on the part of both the design community and the cognitive science community. Different investi- gators have different objectives and different motivations in pursu- ing design thinking research. Some of the objectives and motivations are practical-the wish to develop design support systems, computational for the most part, that would hopefully be useful in early phases of conceptual design. Existing tools have, hitherto, offered little assistance in early design phases, and it is hoped that a better understanding of the ways in which the human mind functions with regard to design may afford a technological breakthrough. Other research orientations are more theoretical, and aim at explicating various aspects of human cognition-in this case design cognition, which is regarded as a prime example of creative thinking and problem solving. Our research belongs to the second type. The present study focuses on design reasoning at the early, "front edge" phase of designing in which a solution to a design problem is sought at a preliminary, sketchy level. In this phase, designers are engaged in a search in which many ideas and possibilities are typically raised and examined, often to be discarded later. This is done by reasoning about bits of information and knowledge, in an attempt to construct a coherent rationale for a design idea, and later, a design proposal. We classify design problems as "ill-defined," by which we mean that there are no algorithms for their solution. This is what makes them so fascinating, and their solutions potentially creative, or at least innovative. At the same time, it makes it difficult to model the cognitive processes involved. The present study investigates the relationship-assuming there is one-between contentsand structure in design reasoning. By contents,we mean the context-bound subject matters that are being considered, such as rooms and walls in the case of architectural design, or metal tubes and plastic casings in the case of industrial design. By structure, we mean consistent internal relationships and patterns that can be detected in the cognitive operations involved in design thinking. In order to examine a postu- lated relationship between the two, we must establish a common <marker type="page" number="3"/><marker type="block"/> base that enables such an examination. We propose an investigation of online records of design behavior, parsed into individual design moves. Moves and relationships among them can be categorized in ways that pertain to both structure and content, making it possible to detect relationships and even to quantify them. After briefly describing the experimental case on which we base our analyses in this study, we discuss our methodology, which is frequently used for design thinking research, namely verbal report (think-aloud or conversation) protocol analysis. We then present a particular analytical tool that is used in this study, linkography. Next, we report the results of the analytic work and, finally, we discuss our findings in terms of our topic: the relationship between contents and structure in design reasoning.<marker type="block"/> 2 The design episode The protocol used in this study records a design session in which a team of three industrial designers worked on the conceptual design of a bicycle carrier for a backpack.2 The work lasted for two hours. The designers inspected the bicycle and the backpack in question, and were provided with technical drawings and other relevant information. They used a whiteboard for writing, and made sketches on four sheets of paper. The printed protocol includes this graphic output in addition to the transcript of their oral discourse. The current study focuses on a portion of the protocol, lasting 21 minutes (from 1 hour 17 minutes to 1 hour 38 minutes). This portion of the protocol was previously analyzed by Goldschmidt,3 using linkography (see section 4). In the present study, we use data collected for that study (although the purposes of the current and the previous studies are entirely different). The selected portion of the protocol is divided into five units (out of 45 units in the entire protocol), comprising 298 moves. The design phase under investigation is marked by intensive design activities. At this point, the team had already developed design criteria and listed a number of alternative concepts for the design of the carrier.It decides on a leading concept-the tray-and develops it and its implications for a comprehensive solution. The five design units deal with the following issues: Unit 32: Tray and fastening devices Unit 33: Tray features Units 34/35: Mounting (human factors), and mounting- points Unit 36: Features of (braze-on) joining Unit 37: Complete rack and joints<marker type="block"/> The advantage of choosing this portion lies in the fact that it is a "middle of the road" phase that is neither concerned with preliminary concepts only, nor is it dedicated entirely to detailing and the refinement of concepts.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="25">( Copyright 1998 Massachusetts Institute ofTechnology Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="26">85</outsider>
+      <region class="DoCO:FigureBox" id="Fx27">
+        <image class="DoCO:Figure" src="62ii.page_002.image_03.png" thmb="62ii.page_002.image_03-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="28">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="31">2 Theprotocol was generated by the faculty of Industrial Design Engineering, Delft University of Technology, for a workshop on Analyzing Design Activity heldinDelft in September 1994. The papers presented in theworkshop are assembled in Cross et al.(1996). A selec- tionofthesepapers was published in Design Studies 16:2 (1995). 3 G.Goldschmidt, "The Designer as a Team of One," in N.Cross, H. Christiaans, and K.Dorst, eds., Analysing Design Activity (Chichester: John Wiley, 1996), 65-91. First published in Design Studies 16:2 (1995): 189-210 (abridged).</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="33">86</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="34">DesignIssues: Volume14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx35">
+        <image class="DoCO:Figure" src="62ii.page_003.image_04.png" thmb="62ii.page_003.image_04-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="36">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="37" confidence="possible">3</region>
+      <region class="DoCO:TextChunk" id="38" confidence="possible">Protocol analysis as a design thinking research methodology</region>
+      <region class="unknown" id="39">The publication of ProtocolAnalysis: VerbalReportsas Data by</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="40">4 K.A. Ericsson andH.A. Simon, Protocol Analysis: Verbal Reports as Data (Cambridge, MA: MIT Press, 1984/1993), 198; 204-5; 206-7. 5 C.M. Eastman, "On theAnalysis of Intuitive Design Processes," in G.T. Moore, ed., Emerging Methods in Environmental Design andPlanning (Cambridge, MA: MIT Press, 1970), 21-37. 6 N.Cross, H. Christiaans, and K.Dorst, "Introduction: The Delft Protocols Workshop" in N.Cross, H. Christiaans andK.Dorst, eds., Analysing Design Activity. (Chichester: John Wiley, 1996), 1. 7 0. Akin, Psychology of Architectural Design (London: Pion, 1986). 8 P.Lloyd and P.Scott, "Discovering the Design Problem," Design Studies 15: 2 (1994): 125-140. 9 Ericsson and Simon, ProtocolAnalysis, 206-207. 10 N.L. Web, "An Exploration of Mathematical Problem-solving Processes" (Doctoral dissertation, Stanford University, 1975). Dissertation Abstracts International, 36, 2689A (University Microfilms No.75-25625). 11 A.T. Purcell, J.S.Gero, H.M. Edwards, andT.McNeill, "The Data in Design Protocols: The Issue of Data Coding," in N.Cross, H. Christiaans, and K.Dorst, eds.,Analysing Design Activity (Chichester: John Wiley, 1996), 225-252. 12 J.S.Gero and T.McNeill, "An Approach to theAnalysis of Design Protocols," Design Studies 19:1(1998): 21-61. 13 Cross, Christiaans and Dorst, "Introduction."</outsider>
+      <region class="DoCO:TextChunk" id="41">Ericsson and Simon4marked a general approval of protocol analysis as a research methodology for the study of cognitive processes in many areas. Starting with work by Eastman,5 a growing number of students of design thinking and behavior used protocol analysis as a means to get as close as possible to what actually takes place in the mind while designing. A concise review of the history of protocol analysis in design can be found in Cross, Christiaans, and Dorst,6 who stress that "of all the empirical, observational research methods for the analysis of design activity, protocol analysis is the one that has received the most use and attention in recent years. It has become regarded as the most likely method (perhaps the only method) to bring out into the open the somewhat mysterious cognitive abilities of designers." In design as in other fields, most protocol analysis studies are based on "think aloud" experiments in which individuals engage in the investigated activity while they continuously verbal- ize their thoughts. Protocols of these verbalizations are then parsed into small units and encoded using a category scheme that reflects the research objectives. Ordinarily parsing is straightforward. This is particularly true when the experiment involves more than one individual, in which case the protocol consists of natural conversation (as is the case in our example). Parsing often is carried out simply on the basis of time-units (for example, 3-minute units), but other parsing principles also have been used: for example, coherent arguments,7 or simply natural utterances.8 The coding scheme, on the other hand, may raise serious problems. Of importance are both the nature of the categories and their number. Ericsson and Simon,9 referring to a study by Web,10 comment: "An initial coding scheme, using a large number of different categories, was rejected because it made coding too difficult and unreliable. A second and much simpler scheme differentiated between three types of problem solving activities: preparation, production, and evaluation." Developing and fine-tuning an appropriate coding scheme is no trivial matter, as cogently pointed out by Purcell et al."1 and by Gero and McNeill.2 Coding schemes often are domain-specific and goal oriented; they depend on the objectives of the study and on the desired grain of analysis (see note 22 below). As we shall see, the question of coding is central to the topic of the present study. Despite the recognized potential of protocol analysis to help in unveiling the "somewhat mysterious cognitive abilities of design- ers,"'3it is met by some critics with much skepticism. It is not our intention to evaluate protocol analysis or to take issue with those who reject the methodology as such. Rather, we shall briefly present major criticisms and explain why we insist, nonetheless, on the benefits of using protocol analysis when appropriate:</region>
+      <outsider class="DoCO:TextBox" type="footer" id="42">Design Issues: Volume14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="43">87</outsider>
+      <region class="DoCO:FigureBox" id="Fx44">
+        <image class="DoCO:Figure" src="62ii.page_004.image_05.png" thmb="62ii.page_004.image_05-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="45">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="46" confidence="possible">1</region>
+      <region class="unknown" id="47">Thinking aloud altersregular cognitive processes, which are, therefore, not faithfully mirrored in think-aloud recordings.</region>
+      <region class="DoCO:TextChunk" id="56">This point is debated in the literature, with pro and con evidence. There appear to be considerable individual differences among subjects, and protocols should only be analyzed if subjects do not report serious interference with their habitual processes. <marker type="block"/> Whereas this is definitely true at least to some extent, concurrent verbalization comes as close to reflecting cognitive processes as we can possibly hope for at present, given available monitoring technologies. In design and related fields, an additional difficulty is caused by the fact that problem solvers also produce nonverbal output such as sketches and to date, no method has been proposed for their analysis under the same paradigm as verbal output. Accepting these limitations, one can still infer a wealth of information that is not accessible otherwise through the use of protocol analysis.<marker type="block"/> This is a valid criticism and the methodology should, therefore, be used for studies of parameters that come to play in short stretches of time.<marker type="block"/> This, too, is a valid criticism, and it can be answered, as in the previous point, by suggesting that the methodology be used only for cases where large databases are not required. Where it is desirable to analyze larger bodies of data, or where protocol-analy- sis techniques offer no clear advantage, other methods should be used. For example, replicationprotocolanalysis, developed by Galle and Kovacs 14 for the purpose of studying decision justification, elic- itation of knowledge, and evolution in design.<marker type="block"/> This difficulty may be related to the category scheme used, as pointed out by Ericsson and Simon,"5or it may be the result of differences in the perception of raters who do not share the same microculture, and have not had extensive training."6Experimental psychology is well familiar with this problem, which is by no means exclusive to protocol analysis. It is, sometimes, solved by easing requirements regarding the number of raters (this has been our atti- tude in this study; see note 33). To summarize, it is fair to say that protocol analysis is a methodology with clear limitations. However, no research methodology is "universal" in the sense that it is suitable for every purpose</region>
+      <region class="unknown" id="49">2 Cognitive operations cannot bereflected in verbal utterances because of differences in modality and speed.</region>
+      <region class="unknown" id="51">3 It is onlypractical to record relatively short durations of work(a few hoursat most).Designingis a process that evolves slowly overperiods of timethatmaybequitelong.Therefore, the process of designing cannot becaptured using protocol analysis.</region>
+      <region class="unknown" id="53">4 Protocol analysis is a labor-intensive research methodology and, therefore, it is notsuitablefor large quantities of data.Any results thatareobtained are, therefore, not generalizable.</region>
+      <region class="unknown" id="55">5 Iter-rater reliability concerning coding is typically low.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="57">14 P.Galle and L.B. Kovacs, "Replication Protocol Analysis: A Method for the Study of Real-World Design Thinking," Design Studies 17:2 (1996): 181-200. 15 Ericsson and Simon, Protocol Analysis. 16 Lloyd and Scott, "Discovering the Design Problem." 88</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="58">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx59">
+        <image class="DoCO:Figure" src="62ii.page_005.image_06.png" thmb="62ii.page_005.image_06-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="60">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="61">and under all circumstances. We hope to demonstratein the present study that for specific, limited purposes, protocol analysis is not only an acceptabletool, but one that has considerableadvantagesif judiciouslyutilized.</region>
+      <region class="DoCO:TextChunk" id="62" confidence="possible">Cross,22</region>
+      <region class="unknown" id="63">4 Linkography As mentioned above, parsing and coding of protocolsare of major importanceto fruitfulanalyses.Parsingthat is based on time-units, as is often the case (e.g., Eckersley; 17 Gunther,Frankenberger, and Auer; 18 Lloyd and Scott;19 Mazijoglou,Scrivener,and Clark; 20 and Radcliffe 21) provides a rough division into phases of the investigated process. This is most useful when we are interested in the sequence of activitiesor topics addressed.Forexample,an account of instancesin which shifts in activitiesor topics occurmay teachus a lot aboutdesign behavior.A case in point is an analysisby who was interested in capturing "the creative leap" in a design episode. He showed that differentanalyses of the protocol of that episode which areparsedinto time units rangingfromten to twenty minutes, all reflectthe instanceof the "creative leap": they do so by recording a sharp shift in the activities, work loci, or discourse production,all category-setsthat were used in coding the protocol segments in the differentanalyses. Whileit is useful to look at time-dependencies of sets of variables, we believe that, by changing the base of parsing, protocols may be analyzed in additional ways, yielding rich and potentially illuminatinginformation.Linkography is a system that parsesproto- cols into individual designmoves,independent of any time units.23 Having established moves, the system recordslinks among them. On the basis of patterns of links, it is possible to make inferences regardingdifferentaspects of design reasoningand, throughthem, also assess design productivity. An introduction and detailed discussion of linkography and its utilization in assessing design productivityis undertakenelsewhere. 24, 25,26</region>
+      <region class="unknown" id="64">4.1 Links based on common sense Linkography calls for the division of a protocol into units (by subjectmatter),which arethen parsed into design moves. Typically, a unit comprisesbetween twenty and one hundredmoves. A move can be comprehended as follows: "The meaning of "move" in designingis akin to its meaningin chess:a design move is a step, an act, an operation,which transformsthe design situationrelativeto the state in which it was prior to that move. Moves are normally small steps, and it is not always easy to delimit a move in the think- aloud protocolof a single designer...[a] team's protocolis easier to parse, and each utteranceby one of the designers is defined as one move. Within each unit of the design process, the moves are numbered</region>
+      <region class="DoCO:TextChunk" id="65" confidence="possible">chronologically..."27</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="66">17 M.Eckersley, "The Form of Design Processes: A Protocol Analysis Study," Design Studies 9:2 (1988): 86-94. 18 J. Gunther, E. Frankenberger, and P.Auer, "Investigation of Individual and Team Design Processes" in N.Cross, H. Christiaans, and K.Dorst, eds., Analysing Design Activity(Chichester: John Wiley, 1996), 117-132. 19 Lloyd and Scott, "Discovering The Design Problem." 20 M.Mazijoglou, S. Scrivener, and S. Clark, "Representing Design Workspace Activity," in N.Cross, H. Christiaans, and K.Dorst, eds., Analysing Design Activity (Chichester: John Wiley, 1996), 389-416. 21 D.F. Radcliffe, "Concurrency of Actions, Ideas and Knowledge Displays Within a Design Team," inN.Cross, H. Christiaans, and K.Dorst, eds., Analysing Design Activity(Chichester: John Wiley, 1996), 343-364. 22 N.Cross, "Creativity inDesign: Analyzing andModeling the Creative Leap," Leonardo 30: 4 (1997): 311-317. 23 Intheprotocol segment we usedinthis study, 298 moves were made in 21 minutes. The average duration of a move is,therefore, 4.3 seconds. Consequently, thegrain of ananalysis based onmoves is of a totally different order of magni- tudethaninananalysis based ontime units lasting 20, 10,oreven3 minutes. 24 G.Goldschmidt, "Linkography: Assessing Design Productivity," inR. Trappl, ed., Cybemetics and Systems '90 (Singapore: World Scientific, 1990), 291-298. 25 G.Goldschmidt, "Criteria forDesign Evaluation: A Process Oriented Paradigm" inYE. Kalay, ed., Evaluating andPredicting Design Performance (Chichester: John Wiley, 1992), 67-79. 26 Goldschmidt, "The Designer as a Team of One." 27 lbid, 72.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="67">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="68">89</outsider>
+      <region class="DoCO:FigureBox" id="Fx69">
+        <image class="DoCO:Figure" src="62ii.page_006.image_07.png" thmb="62ii.page_006.image_07-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="70">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="74">We focus our attention on the links that moves form among themselves, because we postulate that they are the key to the understanding of design reasoning. We are led to this conclusion by the great importance that we attach to the difference between well- structured and ill-structured problems. The former are solved using algorithms of one kind or another, but the latter cannot rely on algorithms. Therefore, a search is necessary, and in this search (which we shall not dwell on here) information is evoked and generated such that a rationale for a solution is produced. A solution and its rationale are constructed of many small fragments of information (their size is a matter of definition, relative to the grain of the investiga- tor's analysis) that must be in agreement with one another. Moves are the representations of information made during the search and, in linking them to one another, the designer tests whether they are in agreement, thus reasoning about them. Bearing in mind how little we know about this ill-structured process, we believe that a study of the characteristics of links among design moves is essential to the understanding of design reasoning. Links are determined solely on the basis of common sense, in a non-categorical manner: neither moves nor links are encoded. We understand common sense to mean "good sound ordinary sense" <marker type="block"/> two moves is established when the two moves pertain to the same, or closely related, subject matter(s), such as a particular component of the designed entity, its properties and functions, a concept or a design strategy, and so on. The linkography technique has each move, in chronological order, inspected for the existence or lack of existence of a link between it and any one of the previous moves (within a particular unit). It is, therefore, a binary system in which only "yes" and "no" answers are given to the question: is there a link between move n and move n-k. These links are called backlinks (notated &lt;), because they go back in time. When the recording of backlinks in a given unit has been completed, we also can establish, after the fact, forelinks (notated &gt;) that moves form: those are the links a move makes to subsequent moves. To illustrate the concepts of move and link (backwards and forwards), let us look at an example. We choose one move ( move 26 in unit 32), which is given in <xref ref-type="table" rid="T1" id="73" class="deo:Reference">Table 1</xref> together with four moves it links back to, and two moves to which it has forelinks, within the same unit (please ignore the columns "C.S.1"and "C.S.2"for the time being). Move 26 addresses straps which are one of the options for connecting the given backpack to the bicycle rack that is being designed. All linked moves also deal with straps and with the functions they fulfill. We note that linked moves are not necessarily adjacent-a move may link to another move that is chronologically quite remote.</region>
+      <region class="unknown" id="72">(Webster's Third International Dictionary). In practice,a link between</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="75">90</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="76">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx77">
+        <image class="DoCO:Figure" src="62ii.page_007.image_08.png" thmb="62ii.page_007.image_08-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="78">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="80"> <xref ref-type="table" rid="T1" id="79" class="deo:Reference">Table 1</xref> Common sense linksandmovecategorizations (move 26, unit32)</region>
+      <region class="unknown" id="81">Links Move Protocol C.S.1 C.S.2 26 wellwe sorta have thatinthestraps A3 II Backlinks 25 that's good forcinching down theload yeah A3 II 20 straps with snaps B IlIl 18 compression straps thatalsosnap Al IlIl 16 costhenyoucould cinch your backpack Al, A3 II down too youknow nice compression straps Forelinks 27 so dothestraps Al IlIl 52 so we Ithink the issuethatwe're talking 0 III, 0 about is straps so we'lljustkeep that one ontheburner</region>
+      <region class="DoCO:TextChunk" id="82" confidence="possible">Links are indicative of design productivity: the higher the links-per-moves ratio (called Link Index), the higher the productivity in a given unit, or design episode. Using a graphic notation system, we observe that links, by virtue of their quantity and "loca- tion" (regulated by the "distance" between each pair of linked moves), generate a pattern. This pattern is suggestive of certain reasoning characteristics of the process that is being investigated. ,829 For example, we observe "chunks" of links (a large number of links formed among a relatively small number of successive moves) at instances of increased design activity. Important moves tend to be situated at the beginning or the end of a sequence of moves that form chunks (we shall articulate shortly how important moves are identified). For our purpose here, the point we wish to stress is that the link-pattern reveals the structure of reasoning, whereas the links, themselves, because they are determined by common sense, are largely based on the contents of the moves that they associate.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="83">28 Goldschmidt, "Linkography." 29 Goldschmidt,, "Criteria forDesign Evaluation." 30 Cross, "Creativity inDesign."</outsider>
+      <region class="DoCO:TextChunk" id="84" confidence="possible">4.2 Critical Moves The number of links that moves form is not invariable: some moves generate more links than others. We can count the links that each move makes, both backwards and forwards (back links can be counted as the analysis of the protocol progresses; forelinks can be summed up only when the analysis has been completed). Moves that generate a notably high number of links are of particular interest: we call them critical moves (CMs) and we postulate that they are more important than other moves in terms of advancing the design process, i.e., its productivity. Cross30 has shown that critical moves, as determined by linkography, do indeed identify moves that, with hindsight, can be shown to be "breakthrough" moves in terms of concept-formation. For the purpose of analysis, we determine a threshold level of links per move: to be critical, a move must have at least the number of links indicated by the threshold level, either backwards or forwards. This level is flexible, and is fixed according to the grain of analysis and the purpose of the study. In the present investigation, this level is 6, implying that each critical move has 6</region>
+      <outsider class="DoCO:TextBox" type="footer" id="85">DesignIssues: Volume14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="86">91</outsider>
+      <region class="DoCO:FigureBox" id="Fx87">
+        <image class="DoCO:Figure" src="62ii.page_008.image_09.png" thmb="62ii.page_008.image_09-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="88">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="89" confidence="possible">or more backlinksor forelinks(CM6). In addition,it may have links in the other direction;in fact, most moves generate links in both directions(see the example in Table1). In rarecases, moves generate 6 or more links in both the backwarddirectionand the forward direction. We differentiate among moves that are criticaldue to a large numberof backlinks(&lt;CM),a large numberof forelinks(CM&gt;),or a large number of links in both directions (&lt;CM&gt;).Goldschmidt 31 has suggested that CM's&gt; represent the creativity component of design productivity,but for creativityto manifest itself the design processmust build, in equal proportion,on &lt;CMS,which represent knowledge-basedgroundingof ideas. However,we must remember that, by and large, all criticalmoves form links in both directions, although they are classified accordingto where the largernumber of links is to be found. Table2 presentsthe distributionof back and fore links of CM6sin the design episode under scrutiny.It shows that on the average,73.2% of the links formedby a criticalmove are in the directionof its classification, and the rest of its links arein the opposite direction.</region>
+      <region class="unknown" id="91"> <xref ref-type="table" rid="T2" id="90" class="deo:Reference">Table 2</xref> BackandForeLinks Formed By&lt;CMs and CMs&gt;</region>
+      <region class="unknown" id="92">Unit &lt;CM Quantity &lt; Links &gt;</region>
+      <region class="unknown" id="93">CM&gt; Quantity &lt; Links &gt;</region>
+      <region class="unknown" id="94">27 102 1 13 34 81 32 57 23 61 117 314 27.2% 72.8%</region>
+      <region class="unknown" id="95">32 8 69 16 11 33 0 0 0 2 34/5 10 68 31 12 36 10 69 32 9 37 7 47 12 7 Total 35 253 91 41 % 73.5% 26.5% Note: &lt;CMs&gt; arecounted twice.</region>
+      <region class="DoCO:TextChunk" id="96" confidence="possible">In the sections that follow, we shall concentrateon critical moves. They were determined by virtue of the links they form, based on their content:contentleads to a common sense judgment regardingthe existence of a link or its absence. The moves themselves were not encoded, and no system of categorieswas imposed on them. Our next task is to establishcategoryschemes and encode the moves, disregarding their links. If the category schemes we apply pertainto structural propertiesof design activities,we should be able to correlatedata regarding structurewith data regarding contents,as reflectedby analysesbased on linkography.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="97">31 Goldschmidt,"The Designer as a Team of One." 92</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="98">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx99">
+        <image class="DoCO:Figure" src="62ii.page_009.image_10.png" thmb="62ii.page_009.image_10-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="100">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="101">5 Structural analyses We return to our parsed protocol now, this time attempting to encode the design moves for the purpose of further analysis. Our first task is to establish one or more coding schemes: there are no standard coding schemes, and researchers develop them ad hoc to fit their needs. We already commented on difficulties that may be caused by too large a number of categories in a coding scheme, or by lack of universality as a result of categories that are too problem (or at least too domain) specific. To overcome these problems, Purcell et al.32 applied three different classifications (They analyzed the same design protocol that we are concerned with here. However, the unit of analysis in their study was not the design move). Two of the classification schemes pertain to what they call "problem domain," and center around the problem that is being solved: the first classification is called "level of abstraction," and the second is called "function, structure, and behavior." As we shall see shortly, we have adopted the first classification in the present study, under a slightly different title. The third classification is of a different kind: it is called "strategy," and it describes the designer's activities. We used a similar classification in our analysis. Purcell et al.33developed their coding schemes for the purpose of describing and modeling the design process. Our study is more specific: it looks at a hypothetical correlation between parameters of contents and parameters of structure in front-edge design reasoning. Based on contents alone, we have established critical moves in our protocol, using linkography. For an analysis based on structure, we have developed two coding schemes: one using categories of designer activity, and the other categories pertaining to the level of description of the designed entity. The first scheme is context and problem independent; it is akin to the third classification of Purcell et al. The second scheme is directly adopted from Purcell et al., (where it is called level of abstraction) and is not entirely context and problem-independent.</region>
+      <region class="DoCO:TextChunk" id="102" confidence="possible">5.1 Coding Scheme 1: Designer activity Coding Scheme 1 (C.S.1) comprises three major categories: A-</region>
+      <region class="unknown" id="103">search and development, B-reinforcement and 0-remarks. These are</region>
+      <region class="DoCO:TextChunk" id="104" confidence="possible">divided into subcategories as follows: Al Proposaldealing with function or performance A2 Clarificationof functional aspects A3 Analysis (of function or performance) A4 Explanation(of function or performance) A5 Assessment or evaluation (of function or performance) B Supportof / reference to previously expressed idea(s) 0 Remarks(agenda; jokes; miscellaneous)</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="105">32 Purcell et al.,Analysing Design Activity. 33 Ibid.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="106">Design Issues: Volume14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="107">93</outsider>
+      <region class="DoCO:FigureBox" id="Fx108">
+        <image class="DoCO:Figure" src="62ii.page_010.image_11.png" thmb="62ii.page_010.image_11-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="109">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="135">We consider these categories as structural because they are independent of variables pertaining to subject matter, task definition and scope, working style, etc. In our design episode, the functional performance of the entity that is being designed (bicycle carrier) is predominant in the design process, but the categories hold for cases in which other factors might be of greater importance. For example, appearance and aesthetic considerations may be overriding in graphic design assignments. We could argue that, in such cases, it is the function of the designed product (poster, say) to attract attention. Therefore, we see the above categories as a generic structuralcoding system for design moves. <xref ref-type="table" rid="T1" id="110" class="deo:Reference">Table 1</xref> lists the coding of the moves it includes in the column C.S.l. Moves 16, 18 and 27 are examples of coding into category Al; moves 16, 25 and 26 are examples of coding into category A3 (note that double-codes are accepted, as in move 16, which pertains to categories Al and A3). Category B is assigned to move 20, and move 52 belongs to category 0. Using these structural categories, we coded the moves in units 32-37 of our protocol.4 Each move was coded once, sometimes twice (av.=1.06), according to the categories it reflects. Categories A2-A4 were grouped together for the sake of a clearer analysis (a more detailed analysis which was attempted obscured the results, as in the case criticized by Ericsson and Simon). Table 3 presents the results for critical moves (as derived from the linkographic analysis) only.<marker type="page" number="12"/><marker type="block"/> The categories in Coding Scheme 2 (C.S.2) differentiate between levels at which the designed entity is being considered, by compre- hensiveness, as follows: I System level the entire designed entity and/or its context (bicycle, backpack, and carrier) 11 Subsystemlevel part of the designed entity and/or its context (bicycle or carrier, or backpack) III Details (joints and the like) 0 Remarks(agenda; jokes; miscellaneous)<marker type="block"/> These categories are, at least partially, structural because they are independent of variables pertaining to subject matter (of the designed entity). However, they are not necessarily entirely independent of task definition and scope, design phase, and working style. It is easy to conceive of stretches of time in which designers deal with minute detailing only, and during such phases, we are not likely to find moves that pertain to categories I and II. Likewise, the nature of the task or the phase of designing may call for global considerations only, in which category III may be all but entirely absent. <xref ref-type="table" rid="T1" id="121" class="deo:Reference">Table 1</xref> lists the coding of the moves it includes in column C.S.2. Moves 16, 25 and 26 are examples of coding into category II; moves 18, 20, 27 and 52 are examples of coding into category III. Move 52 also belongs to category 0. Using these structural and semi-structural categories, we coded moves in units 32-37 of our protocol (see note 33). Each move was coded once, sometimes twice, according to the categories it reflects (av.=1.04). Table 4 presents the results for critical moves only (as derived from the linkographic analysis).<marker type="page" number="13"/><marker type="block"/> 5.3 Hypotheses The categories in C.S.1 and in C.S.2 are perpendicular to one another. Therefore, we can formulate two different sets of hypotheses, each pertaining to one category scheme. The hypotheses are based on the assumption that there is a relationship, indeed a correlation, between properties of structure and properties of contents in design reasoning, and that these properties are reflected in the protocol. Two sets of hypotheses pertaining to critical moves define the correlation that we expect to find:<marker type="block"/> Hypothesis lc.s.l: The coding of &lt;CMs tends to pertain to one or more of the categories A2-A5, B and 0. &lt;CMs do not tend to pertain to category Al. Hypothesis 2c.s.l: The coding of CMs&gt; tends to pertain to one or more of the categories Al-A4 and 0. CMs&gt; do not tend to pertain to categories A5 and B.<marker type="block"/> Hypothesis lc.s.2: The coding of &lt;CMs tends to pertain to the categories II, III and 0. &lt;CMs do not tend to pertain to category I. Hypothesis 2c.s.2: The coding of CMs&gt; tends to pertain to category I, II and 0. CMs&gt; do not tend to pertain to category III.<marker type="block"/> It follows from these hypotheses that forelinking critical moves and backlinking critical moves have equal tendencies to pertain to categories A2-A4 and to category 0 in C.S.1. Likewise, they have equal tendencies to pertain to category II and to category O in C.S.2. We propose that the hypotheses related to C.S.1 are stronger than those related to C.S.2 because, as noted above, the categories used in C.S.2 are not entirely context independent.<marker type="block"/> 5.4 Method Each CM was coded for C.S.1 and C.S.2. For each hypothesis, every critical move was marked [+] if it confirmed the hypothesis and [-] if it did not confirm the hypothesis. A &lt;CM&gt; received a double mark. Critical moves with a double coding were marked [+] or [-] if both instances either confirmed or disconfirmed the hypothesis; if one coding confirmed the hypothesis and the other did not, it was marked [+/-]. In a final count, all [+/-] marks were discarded. The final count is given in Table 5 for C.S.1, and in Table 6 for C.S.2. The counting method explains the differences between the figures in Table 3 and Table 5, and between Table 4 and Table 6.</region>
+      <region class="DoCO:TableBox" id="T3">
+        <caption class="deo:Caption" id="112">Table 3</caption>
+        <content>
+          <table class="DoCO:Table" number="3" page="11">
+            <thead class="table"/>
+            <tbody>
+              <tr class="table">
+                <td class="table"> Category Distribution per CM, Coding Sequence 1</td>
+                <td class="table"></td>
+                <td class="table"></td>
+                <td class="table"></td>
+                <td class="table"></td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Unit 32 33 34/5</td>
+                <td class="table.strange"> 36</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"> 37</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Cat.\CM &lt;8 11&gt; &lt;0 2&gt; &lt;10 12&gt; &lt;10</td>
+                <td class="table"> 9&gt;</td>
+                <td class="table"> &lt;7</td>
+                <td class="table"> 7&gt;</td>
+                <td class="table"> &lt;35</td>
+                <td class="table"> 41&gt;</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Al 2 7 0 0 1 2 4</td>
+                <td class="table"> 5</td>
+                <td class="table"> 1</td>
+                <td class="table"> 6</td>
+                <td class="table"> 8</td>
+                <td class="table"> 20</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> A2-A4 5 3 0 0 6 5 4</td>
+                <td class="table"> 2</td>
+                <td class="table"> 4</td>
+                <td class="table"> 1</td>
+                <td class="table"> 19</td>
+                <td class="table"> 11</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> A5 1 0 0 0 0 1 0</td>
+                <td class="table"> 0</td>
+                <td class="table"> 1</td>
+                <td class="table"> 0</td>
+                <td class="table"> 2</td>
+                <td class="table"> 1</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> B 1 5 0 1 2 1 2</td>
+                <td class="table"> 1</td>
+                <td class="table"> 1</td>
+                <td class="table"> 3</td>
+                <td class="table"> 6</td>
+                <td class="table"> 11</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> C 0 0 0 1 0 4 1</td>
+                <td class="table"> 2</td>
+                <td class="table"> 0</td>
+                <td class="table"> 0</td>
+                <td class="table"> 1</td>
+                <td class="table"> 7</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Total 9 15 0 2 9 13 11</td>
+                <td class="table"> 10</td>
+                <td class="table"> 7</td>
+                <td class="table"> 10</td>
+                <td class="table"> 36</td>
+                <td class="table"> 50</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Notes:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 1 &lt;CMs&gt; are counted twice.</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 2 Thediscrepancy between thetotalnumber of nominal</td>
+                <td class="table.strange"> CMs</td>
+                <td class="table.strange"> andcategorized</td>
+                <td class="table.strange"> andcategorized andcategorized</td>
+                <td class="table.strange"> CMs is</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> thefactthatsomemoves have a double coding</td>
+                <td class="table.strange"> andare,therefore, andare,therefore,</td>
+                <td class="table.strange"> andare,therefore,</td>
+                <td class="table.strange"> counted counted</td>
+                <td class="table.strange"> twice.</td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="113" confidence="possible">Category Distribution per CM, Coding Sequence 1 Unit 32 33 34/5 36 37 Total Cat.\CM &lt;8 11&gt; &lt;0 2&gt; &lt;10 12&gt; &lt;10 9&gt; &lt;7 7&gt; &lt;35 41&gt; Al 2 7 0 0 1 2 4 5 1 6 8 20 A2-A4 5 3 0 0 6 5 4 2 4 1 19 11 A5 1 0 0 0 0 1 0 0 1 0 2 1 B 1 5 0 1 2 1 2 1 1 3 6 11 C 0 0 0 1 0 4 1 2 0 0 1 7 Total 9 15 0 2 9 13 11 10 7 10 36 50 Notes: 1 &lt;CMs&gt; are counted twice. 2 Thediscrepancy between thetotalnumber of nominal CMs andcategorized CMs is dueto thefactthatsomemoves have a double coding andare,therefore, counted twice.</region>
+      </region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="114">34 Coding was undertaken by three judges. Two judges reached full agreement, while the third was notinagreement withtheir results onmost counts. Therefore, we discarded his judgment andusedthecoding of theother two judges.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="115">94</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="116">DesignIssues: Volume14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx117">
+        <image class="DoCO:Figure" src="62ii.page_011.image_12.png" thmb="62ii.page_011.image_12-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="118">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="119">5.2 Coding Scheme 2: Level of description</region>
+      <region class="unknown" id="123">Table 4 Category Distribution per CM, Coding Scheme2</region>
+      <region class="unknown" id="124">Unit 32 33 34/5 36 37 Total Cat. \CM &lt;8 11&gt; &lt;0 2&gt; &lt;10 12&gt; &lt;10 9&gt; &lt;7 7&gt; &lt;35 41&gt; I 1 1 0 0 2 4 1 2 0 1 4 8 11 7 9 0 2 4 4 1 1 2 2 14 18 III 2 5 0 0 4 4 8 7 5 5 19 21 0 00 0 0 0 0 1 0 0 0 1 0 Total 10 15 0 2 10 12 11 10 7 8 38 47 Notes: 1 &lt;CMs&gt; are counted twice. 2 The discrepancy between thetotalnumber of nominal CMs andcategorized CMs is dueto thefactthatsomemoves have a double coding andare,therefore, counted twice.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="125">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="126">95</outsider>
+      <region class="DoCO:FigureBox" id="Fx127">
+        <image class="DoCO:Figure" src="62ii.page_012.image_13.png" thmb="62ii.page_012.image_13-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="128">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="130">Hypotheses related to Coding Scheme 1</region>
+      <region class="unknown" id="132">Hypotheses related to Coding Scheme 2</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="136">96</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="137">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx138">
+        <image class="DoCO:Figure" src="62ii.page_013.image_14.png" thmb="62ii.page_013.image_14-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="139">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TableBox" id="Tx140">
+        <content>
+          <h1 class="table"> Table 5 Hypotheses-CodingScheme1</h1>
+          <table class="DoCO:Table" number="4" page="14">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"></th>
+                <th class="table"> 32</th>
+                <th class="table"> 33</th>
+                <th class="table"> 34/35</th>
+                <th class="table"> 36</th>
+                <th class="table"> 37</th>
+                <th class="table"> Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table">
+                <td class="table"> Hyp. 1c.s.1 +</td>
+                <td class="table"> 5</td>
+                <td class="table"> 0</td>
+                <td class="table"> 8</td>
+                <td class="table"> 7</td>
+                <td class="table"> 6</td>
+                <td class="table"> 26</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Hyp. 1c.s.1-</td>
+                <td class="table"> 2</td>
+                <td class="table"> 0</td>
+                <td class="table"> 2</td>
+                <td class="table"> 3</td>
+                <td class="table"> 1</td>
+                <td class="table"> 8</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Hyp.2c.s.1+</td>
+                <td class="table"> 7</td>
+                <td class="table"> 1</td>
+                <td class="table"> 10</td>
+                <td class="table"> 7</td>
+                <td class="table"> 4</td>
+                <td class="table"> 28</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Hyp. 2c.s.1 -</td>
+                <td class="table"> 4</td>
+                <td class="table"> 1</td>
+                <td class="table"> 1</td>
+                <td class="table"> 1</td>
+                <td class="table"> 1</td>
+                <td class="table"> 8</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Notes:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 1 &lt;CMs&gt; are</td>
+                <td class="table.strange"> counted</td>
+                <td class="table.strange"> twice.</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 2 Thediscrepancy</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"> between</td>
+                <td class="table.strange"> thetotalnumber of</td>
+                <td class="table.strange"> nominal CMs</td>
+                <td class="table.strange"> andcategorized andcategorized</td>
+                <td class="table.strange"> CMs is</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> thefactthatsomemoves thefactthatsomemoves</td>
+                <td class="table.strange"> have a</td>
+                <td class="table.strange"> double coding</td>
+                <td class="table.strange"> andare,therefore, andare,therefore,</td>
+                <td class="table.strange"> counted</td>
+                <td class="table.strange"> twice.</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Table 6</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> Hypotheses-CodingScheme2 Hypotheses-CodingScheme2</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> 32</td>
+                <td class="table.strange"> 33</td>
+                <td class="table.strange"> 34/35</td>
+                <td class="table.strange"> 36</td>
+                <td class="table.strange"> 37</td>
+                <td class="table.strange"> Total</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Hyp.lc.s.2+</td>
+                <td class="table.strange"> 7</td>
+                <td class="table.strange"> 0</td>
+                <td class="table.strange"> 8</td>
+                <td class="table.strange"> 9</td>
+                <td class="table.strange"> 7</td>
+                <td class="table.strange"> 31</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Hyp. 1c.s.2-</td>
+                <td class="table.strange"> 1</td>
+                <td class="table.strange"> 0</td>
+                <td class="table.strange"> 2</td>
+                <td class="table.strange"> 1</td>
+                <td class="table.strange"> 0</td>
+                <td class="table.strange"> 4</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Hyp. 2c.s.2 +</td>
+                <td class="table.strange"> 6</td>
+                <td class="table.strange"> 2</td>
+                <td class="table.strange"> 8</td>
+                <td class="table.strange"> 2</td>
+                <td class="table.strange"> 2</td>
+                <td class="table.strange"> 20</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Hyp. 2c.s.2-</td>
+                <td class="table.strange"> 1</td>
+                <td class="table.strange"> 0</td>
+                <td class="table.strange"> 4</td>
+                <td class="table.strange"> 6</td>
+                <td class="table.strange"> 4</td>
+                <td class="table.strange"> 15</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Notes:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 1 &lt;CMs&gt; are</td>
+                <td class="table.strange"> counted</td>
+                <td class="table.strange"> twice.</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> 2 Thediscrepancy</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"> between</td>
+                <td class="table.strange"> thetotalnumber of</td>
+                <td class="table.strange"> nominal CMs</td>
+                <td class="table.strange"> andcategorized andcategorized</td>
+                <td class="table.strange"> CMs is</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> thefactthatsomemoves thefactthatsomemoves</td>
+                <td class="table.strange"> have a</td>
+                <td class="table.strange"> double coding</td>
+                <td class="table.strange"> andare,therefore, andare,therefore,</td>
+                <td class="table.strange"> counted</td>
+                <td class="table.strange"> twice.</td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="141" confidence="possible">Table 5 Hypotheses-CodingScheme1</region>
+        <region class="TableInfo" id="142" confidence="possible">32 33 34/35 36 37 Total Hyp. 1c.s.1 + 5 0 8 7 6 26 Hyp. 1c.s.1- 2 0 2 3 1 8 Hyp.2c.s.1+ 7 1 10 7 4 28 Hyp. 2c.s.1 - 4 1 1 1 1 8 Notes: 1 &lt;CMs&gt; are counted twice. 2 Thediscrepancy between thetotalnumber of nominal CMs andcategorized CMs is dueto thefactthatsomemoves have a double coding andare,therefore, counted twice.</region>
+        <region class="TableInfo" id="143" confidence="possible">Table 6 Hypotheses-CodingScheme2</region>
+        <region class="TableInfo" id="144" confidence="possible">32 33 34/35 36 37 Total Hyp.lc.s.2+ 7 0 8 9 7 31 Hyp. 1c.s.2- 1 0 2 1 0 4 Hyp. 2c.s.2 + 6 2 8 2 2 20 Hyp. 2c.s.2- 1 0 4 6 4 15 Notes: 1 &lt;CMs&gt; are counted twice. 2 Thediscrepancy between thetotalnumber of nominal CMs andcategorized CMs is dueto thefactthatsomemoves have a double coding andare,therefore, counted twice.</region>
+        <caption class="deo:Caption" id="145">Table 4: 35 (note</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="146" confidence="possible">5.5 Results For each hypothesis, we have to test whether the coding of each CM tends to pertain to specified categories and does not tend to pertain to others. If the overall tendency reaches a percentage above chance level (50%), the hypothesis is confirmed. If it reaches a percentage below chance level, the hypothesis is not confirmed. For each test, we calculate the percentage by dividing the total number of CMs that support the hypothesis and, therefore, have received a [+] mark (as shown in Table 5 and Table 6) by the total number of backlinking or forelinking CMs, as given in Table 3 and that this is the nominal number of critical moves, and not the number of encoded moves, which is slightly different because of double counting and omissions due to incompatible coding. See notes to Tables 3 to 6). The calculation is repeated for CMs that do not support the hypothesis and, therefore, received a I mark. These calculations yield the following results:</region>
+      <region class="unknown" id="147">Hypotheses related to Coding Scheme 1 (seeTables 3 and5)</region>
+      <region class="DoCO:TextChunk" id="148" confidence="possible">Hypothesis lc.s.1: The number of CMs that support the hypothesis: 26 The number of CMs that do not support the hypothesis: 8 The number of &lt;CMs: 35 Hypothesis supported: (26/35) x 100% = 74.3 Hypothesis not supported: (8/35) x 100% = 22.9%</region>
+      <outsider class="DoCO:TextBox" type="footer" id="149">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="150">97</outsider>
+      <region class="DoCO:FigureBox" id="Fx151">
+        <image class="DoCO:Figure" src="62ii.page_014.image_15.png" thmb="62ii.page_014.image_15-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="152">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="153" confidence="possible">Hypothesis 2c.s.1: The number of CMs that support the hypothesis: 28 The number of CMs that do not support the hypothesis: 8 The number of &lt;CMs: 41 Hypothesis supported: (28/41) x 100% = 68.3% Hypothesis not supported: (8/41) x 100% = 19.5%</region>
+      <region class="DoCO:TextChunk" id="154">Note: The percentage of supporting and non-supporting CM's for both hypotheses does not add up to 100 percent. The difference is due to the fact that "ambivalent" CMs with the double coding [+] and [-] were discarded in the support-count. We conclude that hypothesis 1c.s.1 and hypothesis 2c.s.1 are both supported beyond the chance level (p&lt;0.05).</region>
+      <region class="unknown" id="155">Hypotheses related to Coding Scheme 2 (seeTables 4 and6)</region>
+      <region class="DoCO:TextChunk" id="156" confidence="possible">Hypothesis lc.s.2: The number of CMs that support the hypothesis: 31 The number of CMs that do not support the hypothesis: 4 The number of &lt;CMs: 35 Hypothesis supported: (31/35) x 100% = 88.6% Hypothesis not supported: (4/35) x 100% = 11.4%</region>
+      <region class="DoCO:TextChunk" id="157" confidence="possible">Hypothesis 2c.s.2: The number of CMs that support the hypothesis: 20 The number of CMs that do not support the hypothesis: 15 The number of &lt;CMs: 41 Hypothesis supported: (20/41) x 100% = 48.8% Hypothesis not supported: (15/41) x 100% = 36.6%</region>
+      <region class="unknown" id="158">[+1</region>
+      <region class="DoCO:TextChunk" id="173">Note: The percentage of supporting and non-supporting CMs for hypothesis 2 does not add up to 100%. The difference is due to the fact that "ambivalent" CMs with the double coding and [-] were discarded in the support-count. We conclude that hypothesis lc.s.2 is supported beyond chance, whereas hypothesis lc.s.2 is not supported by the data (p&lt;0.05). If we average the four results that pertain to support of the hypotheses for both Coding Schemes (three that confirm the hypotheses and one that does not), we find that, on the average, our hypotheses are supported at a level of 70% (71.3% for Coding Scheme 1 and 68.7% for Coding Scheme 2). <marker type="block"/> 6 Discussion: Contents and structure The confirmation of most of our hypotheses indicates that in design reasoning, structure, and contents are, indeed, correlated. One might argue that this is a trivial finding, since we obviously expect an evaluative move to deal with previous, not with future<marker type="page" number="16"/><marker type="block"/> moves; whereas a new proposal has less to do with past moves and would, in all likelihood, be dealt with in subsequent design acts. However, as linkographic studies show, design reasoning is not that simplistic. We should remember that our definition of "move" pertains to a very small design output unit (its average duration is 4.3 seconds) that, on the basis of contents, makes a large number of links. Every critical move generates an average of 10 links, but only part of them are in the "designated" direction (see <xref ref-type="table" rid="T2" id="165" class="deo:Reference">Table 2</xref>). Because "contents" is determined by common sense, intricate backlinks and forelinks may be expected at what may be called a "semantic level": it is sufficient for any common element to be present in two moves to potentially establish a link among them. Therefore, a move's cate- gory/link-direction relationship is by no means obvious. In addition, the correlation we have established results from contents and structure analyses that are perpendicular to one another and, therefore, no circular or causal relationships exist between structure and contents as defined here. It is interesting to inspect the results we have obtained for the hypotheses related to Coding Scheme 2, which were only partially confirmed. C.S.2 deals with the level of description, distin- guishing among three levels in a hierarchically descending order (system, subsystem, and details). We have noted that these categories are not entirely independent of task definition, scope, design phase, and working style (see section 5.2). In the bicycle carrier task, for example, each design phase tends to focus primarily on one level of description, from the system level at the beginning of the process, through subsystems, and on to details in the last phase. Our protocol is taken from the middle of the second half of the design process, in which the system level is seldom evoked. Therefore, it is hardly likely for any design moves to pertain to this level of description (category I) in that phase of the process. Hypothesis 2c.s.2, which was not confirmed, anticipates that the coding of CMs&gt; would tend to pertain to category I, among others. But since category I is underrepresented in this phase, it is hardly surprising that the hypothesis was not confirmed. We conclude that, in terms of correlating contents with structure in design reasoning, there is a significant difference between a coding scheme that is "purely" structural and one that is only partially structural. Context-dependency influences correlation values in particular ways that are specific to the task conditions. In our case, only hypothesis 2c.s.2 was effected for the reasons explained above; whereas hypothesis 2c.s.1, with which the context did not interfere, was not effected. For future reference, it is, therefore, important to take special care to avoid context-dependent coding schemes when issues concerning the structure of reasoning are at stake. It is particularly illuminating to look at the correlation values we obtained: an overall average of 70%, and 71.3% for Coding<marker type="page" number="17"/><marker type="block"/> Scheme 1 (Coding Scheme 2 is of less interest for reasons we dwelt on in the previous paragraphs). These values are compatible with the proportion of links made by critical moves in their designated direction (backwards or forwards) which averages 73.2% (see <xref ref-type="table" rid="T2" id="171" class="deo:Reference">Table 2</xref>). These results suggest that the intricate process of design reasoning is nonlinear, in the sense that, at least as far as significant (critical) design moves are concerned, every step is double speared: it moves forward but also makes sure that it is congruous with what has already been achieved, and it validates what has been done thus far with an eye on ways to proceed from that point. Three quarters of the effort is devoted to the "major" immediate goal, and the remaining one quarter is reserved for the "minor," companion goal. We propose that this pattern represents a cognitive strategy that ensures the efficiency and effectiveness of reasoning in designing: it ensures continuity while also guaranteeing that progress is made, and it serves the need of sustaining a solid and comprehensive design rationale for the entity that is being designed. The success of this strategy hinges on an equilibrated relationship between structure and contents, such as we found to be inherent in design reasoning. Piaget35and other structuralists, who were dedicated to the discovery and explication of structure in thought and matter, were highly aware of the complex relationship between structure, often equated with form in their writings, and contents. Structuralism endeavored to reintegrate content with form, and Piaget's version of this proposed integration theorizes, that in a system, contents and form (structure) are nested hierarchically, with "each element being 'content' relative to some prior element and 'form' for some poste- rior element." - This notion assumes a transformational relationship between structure and contents. We believe that in reasoning, the relationship between the two is not hierarchical; rather, contents and structure concurrently describe the state of a system at any given point and, in effective reasoning, they are apparently extremely well coordinated. We hope to have demonstrated that, at least in design reasoning, this is indeed the case.<marker type="block"/> Acknowledgments We wish to thank Kees Dorst, Nigel Cross and Henri Christiaans, who organized the Delft Protocol Workshop and the design experiment on which it was based. We are likewise indebted to the three anonymous designers who participated in the experiment, and to Xerox PARC and Stanford University's EDRC for their help and support in arranging the design session and in taping the protocols. The writing of this paper was partially supported by a grant to Gabriela Goldschmidt from the Fund for the Promotion of Research at the Technion.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="161">98</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="162">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx163">
+        <image class="DoCO:Figure" src="62ii.page_015.image_16.png" thmb="62ii.page_015.image_16-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="164">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="167">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="168">99</outsider>
+      <region class="DoCO:FigureBox" id="Fx169">
+        <image class="DoCO:Figure" src="62ii.page_016.image_17.png" thmb="62ii.page_016.image_17-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="170">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="174">35 J. Piaget, Structuralism (NY: Harper Torchbooks, 1971). 36 Ibid., 29.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="175">100</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="176">Design Issues: Volume 14, Number 3 Autumn 1998</outsider>
+      <region class="DoCO:FigureBox" id="Fx177">
+        <image class="DoCO:Figure" src="62ii.page_017.image_18.png" thmb="62ii.page_017.image_18-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="178">This content downloaded from 148.88.67.24 on Fri, 17 Jan 2014 07:45:02 AM All use subject to JSTOR Terms and Conditions</outsider>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>

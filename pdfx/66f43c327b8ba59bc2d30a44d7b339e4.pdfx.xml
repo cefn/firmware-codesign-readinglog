@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>84b09cdd07f743be13d87bbd783a85c079d151a9a7898bfe769008eea41ecdf3</job>
+    <base_name>62je</base_name>
+    <doi>http://dx.doi.org/10.1145/2383276.2383286</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">An Overview of the Knowledge Discovery Meta-Model</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Kestutis Normantas</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Sergejus Sosunovas</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Olegas Vasilecas</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="6">Abstract: Modernization of existing software systems is expensive and not always successive process that involves many challenging activities. In order to support these activities, the Object Management Group within the Architecture-Driven Modernization initiative proposes a number of standard representations of views on existing software systems. The Knowledge Discovery Meta-model plays the fundamental role in this set of representations as it defines common concepts of software assets and their operational environments. This paper addresses issues related to the extraction of knowledge from the software assets and the representation according to the Knowledge Discovery Meta-model in order to abstract the business logic implemented in the system. It observes that although this meta-model minimizes the effort required to obtain representation, it has several drawbacks that limits its capability to express domain specific knowledge. It is believed that this paper will enable researchers and practitioners to get a better understanding of this kind of representation, prepare for the modernization activities, and provide a basis for the further research. Key words: Knowledge Discovery Meta-Model, Architecture-Driven Modernization, Model-Driven Reverse Engineering</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="7" page="1" column="1">INTRODUCTION</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="20" page="1" column="1">Software modernization is more challenging than most software engineers suspect [ <xref ref-type="bibr" rid="R9" id="8" class="deo:Reference">9</xref>]. The Standish Group study [<xref ref-type="bibr" rid="R10" id="9" class="deo:Reference">10</xref>] shows that 44% of projects were acknowledged as being late, over budget, with less than the required features and functions, while 24% were cancelled before completion. Only 32% of all projects are being delivered on time, on budged, and with required functionality. Recently, the Object Management Group (OMG), within the Architecture-Driven Modernization (ADM) Task Force initiative [<xref ref-type="bibr" rid="R7" id="10" class="deo:Reference">7</xref>], provides a number of standards [<xref ref-type="bibr" rid="R6" id="11" class="deo:Reference">6</xref>] for representation and analysis of existing software systems in order to support modernization activities. The Knowledge Discovery Meta-model (KDM) [<xref ref-type="bibr" rid="R8" id="12" class="deo:Reference">8</xref>] is the fundamental meta-model in this set of representations as it defines representation of all aspects of the software system and enables interoperability for tools that captures and analysis information about the existing system. A number of modernization projects reports significant cost savings by applying architecture-driven approaches in the modernization of large scale information systems [<xref ref-type="bibr" rid="R13" id="13" class="deo:Reference">13</xref>]. For example, the case study on modernization project at Department of Navy shows that using knowledge extraction, analysis and transformation tools and techniques, the modernization project ROI can be at least 2.47 times greater than by using the manual alternative. The case study at Italian ministry of Instruction, University and Research reports cost reduction by the factor of 27%. At the same time, these modernization projects reveal that numerous issues arise during project execution: which views of modernizing systems to create; how to represent these views in order to comprehend the business logic implemented in the system; what knowledge extraction methods and techniques to employ; and finally, how to properly evaluate and validate resulting assets. In order to achieve desired effort reduction and success in project execution, these issues must be adequately addressed in each modernization project. In this paper we address these issues and present our observations from the on-going research, initially presented at [<xref ref-type="bibr" rid="R14" id="14" class="deo:Reference">14</xref>], that aims at improving the business knowledge extraction from the existing software systems for the purpose of software modernization.<marker type="page" number="2"/><marker type="block"/> We refer to the software modernization as the process of understanding and evolving existing software assets in order to: maintain, integrate, refactor, reuse, migrate, or replace. We also believe that our findings presented in this paper would provide a reference for the researchers and practitioners that are interested in using the KDM for the purpose of modernization, and would establish a basis for the further research. The rest of this paper is organized as follows. The next section will give an overview on representation of existing software systems using KDM. Then a discussion on methods and techniques that may be employed for obtaining particular representations with KDM will provided. Finally, possibilities to extend the KDM for introduction of domain specific details will be overviewed, and conclusions and insights for further research will be given.</region>
+      <region class="unknown" id="16" page="1" column="1">Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. CompSysTech'12, June 22-23, 2012, Ruse, Bulgaria.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="17" page="1" column="1">Copyright ©2012 ACM 978-1-4503-1193-9/12/06...$10.00.</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="18" page="1" column="1">52</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="19" page="2" column="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="21" page="2" column="1">REPRESENTING EXISTING SOFTWARE SYSTEMS WITH KDM MODELS</h1>
+        <region class="DoCO:TextChunk" id="22" page="2" column="1">KDM provides an intermediate representation of knowledge about existing software systems. The representation consists of several architectural viewpoints that are defined at different abstraction layers. Each viewpoint is conveyed over a set of architectural views – KDM models representing different perspectives of knowledge about the artefacts of existing software system. The models are created automatically, semi-automatically, or manually by applying various knowledge extraction, analysis, and transformation techniques. In addition to standard tree view, every model can be visualized using appropriate type of diagram, table, or graph, to reduce the time required to comprehend particular aspect of the system.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="23" confidence="possible" page="2" column="1">source abstraction implementation source implementation source</h2>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="24" confidence="possible" page="2" column="1">implementation abstraction</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="25" confidence="possible" page="2" column="1">source source</h2>
+          <region class="unknown" id="26" page="2" column="1">Existing Software’s Architecture KDM Infrastructure Layer Program Elements Layer Runtime Resources Abstractions Layer representation Layer InventoryModel Implementation/ CodeModel: UIImplementation UIModel: Dialogs ConceptualModel: Business source relationship Rules Presentation Tier structural Rule TermUnit: relationship UI definitions (HTML, Unit MinBalance Control flow WinForms, etc.) FactUnit: Rule Balance is less Data flow CodeModel:UIPresentation PlatformModel: MFC Unit than MinBalance Presentation Logic Tier/ CodeItem Proxy Tier ScenarioUnit UI controlling source code (MVC – BehaviorUnit: ActionElement CreateOrder Swing, MFC, ASP.NET; JavaScript, BehaviorUnit: VBScript) CodeModel: Program PlatformModel: ProcessOrder ResourceElement Interface implementation code/ AppResources interface definitions StructureModel: Enterprise Software System InventoryElement (SOAP,CORBA,RMI,DCOM) System</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="27" confidence="possible" page="2" column="1">implementation implementation abstraction source source</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="28" confidence="possible" page="2" column="1">implementation</h1>
+        <region class="unknown" id="29" page="2" column="1">EventModel: Lifecycles</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="30" confidence="possible" page="2" column="1">abstraction</h2>
+          <region class="unknown" id="31" page="2" column="1">CRM ERP</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="32" confidence="possible" page="2" column="1">source</h2>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="33" confidence="possible" page="2" column="1">implementation</h1>
+        <region class="unknown" id="34" page="2" column="1">PlatformModel: DB API CodeModel: DBAPI</region>
+        <region class="unknown" id="35" page="2" column="1">Production Customers Planning Service Service Management Integration Service Reporting Service</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="36" confidence="possible" page="2" column="1">source</h2>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="37" confidence="possible" page="2" column="1">implementation abstraction</h1>
+        <region class="unknown" id="38" page="2" column="1">Processing Logic Tier Information processing components source code (.NET,JAVA), interface definitions Data Access Tier Database connectors, data access interface definitions</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="39" confidence="possible" page="2" column="1">implementation</h1>
+        <region class="unknown" id="40" page="2" column="1">BuildModel: B Deployment</region>
+        <region class="unknown" id="41" page="2" column="1">CodeModel:DBProcedures</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="42" confidence="possible" page="2" column="1">implementation</h1>
+        <region class="unknown" id="43" page="2" column="1">DataModel: DBStructure Tool</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="44" confidence="possible" page="2" column="1">source</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="45" confidence="possible" page="2" column="1">abstraction</h2>
+          <region class="unknown" id="46" page="2" column="1">persist sec</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="47" confidence="possible" page="2" column="1">source source</h2>
+          <region class="unknown" id="48" page="2" column="1">dlgs ctrls</region>
+          <region class="unknown" id="49" page="2" column="1">Data Tier Database schema, XML repositories, platform specific repositories</region>
+          <region class="DoCO:FigureBox" id="F1">
+            <caption class="deo:Caption" id="51" page="2" column="1">Figure 1: The projection of multi-tier enterprise software architecture [<xref ref-type="bibr" rid="R17" id="50" class="deo:Reference">17</xref>] to the representation with KDM.</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="56" page="2" column="1">Consider, for example, the multi-tier software architecture ( <xref ref-type="fig" rid="F1" id="52" class="deo:Reference">Figure 1</xref>). It involves a number of levels one upon the other, each consisting of heterogeneous components that serve distinct and separate tasks. The Data tier defines particular kinds of data stores: hierarchical, relational or object-oriented databases; platform specific repositories; or collections of data files, structured in some text processing format (e.g. XML, CVS, DAT). The interfaces to the data, such as database connectivity components (e.g. ODBC, JDBC)<marker type="page" number="3"/><marker type="block"/> or specific file content managers, are coped within the Data Access tier. The Processing Logic tier consists of components that implement the business logic. The Presentation Logic tier consists of components that interact with UI components (i.e. implements server- client or model-view-controller pattern). In contrast to the Presentation Logic tier, the Proxy tier defines the interaction with external systems over some instances of high level communication protocols, for example SOAP, DCOM, CORBA, JNI, or RMI. Finally, the Presentation tier is responsible for producing and controlling user interface components, such as forms, web pages, or reports. The KDM representation of the software system starts by the Inventory model that represents software artefacts and keeps traceability to the original source. A snippet of artefact content (e.g. code line or configuration section) may be included in a particular element of KDM model as aggregated source reference element. A set of Code models represents the structure (association, composition, aggregation, and inheritance relationships) and behaviour (data and control flow) of the source code. The Data, Platform, Event, and UI models represent the structure and behaviour of the run-time resources of the system. These models are directly obtained from the resource definitions, abstracted from the Code models, or manually created by the modernization engineer. Traceability from abstracted element to the element it is abstracted from is kept by the property named implementation. The abstraction property of resource element adds behaviour parts that represent logic of the resource operation, including the flow of data and control. The Conceptual, Structure, and Build models represent highest level abstractions obtained from the models of lower level of abstractions, the data processed by the system, and different kinds of software’s documentation. Our findings reveal that, though documentation of software often is obsolete, the definitions of domain concept included in it typically do not change in the course of time. However, the representation of latter source of knowledge currently is not supported by the KDM; therefore, light-weight extension mechanism provided by the KDM could be employed in order to represent it. The following table summarizes our findings: techniques used to obtain different types of KDM models from the input sources and kinds of visualization that may be produced by applying transformation from the KDM to a particular modelling language (i.e. UML), tabular or textual notation.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="54" page="2" column="1">53</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="55" page="3" column="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="57" confidence="possible" page="3" column="1">Table 1: Overview of KDM models, sources and techniques used to derive models from the sources.</caption>
+            <content>
+              <table class="DoCO:Table" number="1" page="3">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> KDM Layers</th>
+                    <th class="table"> KDM Models</th>
+                    <th class="table"> Input Sources</th>
+                    <th class="table"> Techniques</th>
+                    <th class="table"> Model</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> visualizations</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Infrastructure</td>
+                    <td class="table"> Inventory Model</td>
+                    <td class="table"> Software application</td>
+                    <td class="table"> File systems or</td>
+                    <td class="table"> Annotated tree views</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> -represents physical artefacts of</td>
+                    <td class="table"> files repository</td>
+                    <td class="table"> repositories</td>
+                    <td class="table"> of inventory model</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Layer -defines the set of core</td>
+                    <td class="table"> an existing software system:</td>
+                    <td class="table"></td>
+                    <td class="table"> traversal</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> KDM elements, the KDM</td>
+                    <td class="table"> their binary, types configuration, (e.g. executable, etc); their</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> framework concepts,</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> and the elements used</td>
+                    <td class="table"> organization environments within and/or software distribution</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> to represent the</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> environment of the</td>
+                    <td class="table"> over organizational network (e.g.</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> software system.</td>
+                    <td class="table"> projects, relationships directories); between them (e.g.</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> dependency).</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Program Elements</td>
+                    <td class="table"> Code Model</td>
+                    <td class="table"> Source code</td>
+                    <td class="table"> Parsing to AST and</td>
+                    <td class="table"> Abstract syntax tree</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Layer</td>
+                    <td class="table"> - describes structural and</td>
+                    <td class="table"> API definitions</td>
+                    <td class="table"> transformation</td>
+                    <td class="table"> views</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> -defines the set of</td>
+                    <td class="table"> behavioural source code aspects the composition of the</td>
+                    <td class="table"> Reflected decompiled or binaries</td>
+                    <td class="table"> Patterns matching</td>
+                    <td class="table"> Class diagrams</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> elements for</td>
+                    <td class="table"> of code modules – or data types</td>
+                    <td class="table"> and executables</td>
+                    <td class="table"></td>
+                    <td class="table"> Control flow graphs</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> representing constructs supported the by</td>
+                    <td class="table"> (e.g. modules/classes,</td>
+                    <td class="table"> Database schemas</td>
+                    <td class="table"></td>
+                    <td class="table"> System dependence</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> common programming</td>
+                    <td class="table"> functions/operations,</td>
+                    <td class="table"> Resource definitions</td>
+                    <td class="table"></td>
+                    <td class="table"> graphs</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> languages.</td>
+                    <td class="table"> variables/properties, the data and control flows etc.) and (e.g.</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Activity diagrams</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> statements and expressions).</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Sequence diagrams</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="58" confidence="possible" page="3" column="1">KDM Layers KDM Models Input Sources Techniques Model visualizations Infrastructure Inventory Model Software application File systems or Annotated tree views Layer -represents physical artefacts of files repository repositories of inventory model -defines the set of core an existing software system: traversal KDM elements, the KDM their types (e.g. executable, framework concepts, binary, configuration, etc); their and the elements used organization within software to represent the environments and/or distribution environment of the over organizational network (e.g. software system. projects, directories); relationships between them (e.g. dependency). Program Elements Code Model Source code Parsing to AST and Abstract syntax tree Layer - describes structural and API definitions transformation views -defines the set of behavioural aspects of the Reflected or Patterns matching Class diagrams representing elements for the source of code code modules – the or composition data types and decompiled executables binaries Control flow graphs constructs supported by (e.g. modules/classes, Database schemas System dependence common programming functions/operations, Resource definitions graphs languages. variables/properties, etc.) and Activity diagrams the data and control flows (e.g. Sequence diagrams statements and expressions).</region>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="59" page="3" column="1">54</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="60" page="4" column="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+          <region class="unknown" id="61" page="4" column="1">KDM Layers KDM Models Input Sources Techniques Model visualizations Run-Time Platform Model Inventory model Parsing to AST and Component diagrams Resources Layer -represents resources used by Code model transformation Class diagrams -defines elements representing the for set particular of the including composition software control and system, flow behaviour, their initiated by Configuration Resource definitions files Patterns Concept analysis matching lattice dependence System resources graphs aspect of software the platform. Dependency resources and defines analysis how these resources are Clustering related with each other. Data Model Database schemas Parsing to AST and Data structure tree -represents the structure of Resource definitions transforming views persistent data elements of the Patterns matching Class diagrams software system (e.g. table, view, column), the information model supported by the system (e.g. object, property), the data flow involving persistent data, and the control flow initiated by the events that are triggered due to modification of the data. UI Model Resource definitions Parsing and Tree views of UI -represents the composition of Inventory model transformation models UI facets and controls, their Code Model Analysis and Dependency graphs layout, the control flow initiated manual creation by them, and the data flow originated from or terminated at them. Event Model Resource definitions Patterns matching State-transition tables -represents the behaviour Configuration files Transformation State machine aspect of software system Code model Analysis and diagrams resources over event-driven state transitions model, which Data model manual creation Actor-event mapping tables includes particular actions Platform model performed in a given state. UI Model Abstractions Structure Model Inventory model Concept lattice Tree views of Layer -represents the composition of Code model analysis structure models -defines the set of architecture components of the Data model Dependency Component diagrams elements representing for software, relationships software system between and them, Platform model analysis Clustering Class diagrams information, or business including aggregation to UI Model level abstractions subsystems and grouping to architecture views or layers. Conceptual Model Inventory model Patterns matching Class diagrams -represents behaviour and Code model Model Activity diagrams scenario flows, business terms, Data model transformation Sequence diagrams facts and rules implemented by the system. Platform model Dependence graph Use Case diagrams UI Model slicing SBVR Templates Configuration data Manual definition BPMN Diagrams Database data Decision trees Documentation Decision tables Build Model Inventory model Inventory items and Build graphs -represents the facts about the their property Build reports software build process: analysis input/output; tools used to build Manual definition source code; build workflows.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="62" page="4" column="1">TECHNIQUES FOR OBTAINING KDM REPRESENTATION</h1>
+        <region class="DoCO:TextChunk" id="72" page="4" column="1">Numerous techniques exist for the extraction and comprehension of knowledge about software architecture in the field of reverse engineering. Apart from the straightforward techniques that incorporate parsing the content of software artefacts and direct transformation to elements of KDM in order to produce “as-is” representation of the software, the clustering-based, patterns-based, and model slicing-based techniques may be employed to derive higher level abstractions in automatic or semiautomatic way. <marker type="page" number="5"/><marker type="block"/> Clustering-based techniques allow identifying architectural components by analysing relationships between software elements. Proximity metrics calculation techniques may be applied to elements of KDM instance [4],[12],[<xref ref-type="bibr" rid="R15" id="66" class="deo:Reference">15</xref>] to group into the cohesive components; formal concepts analysis may be employed to aggregate the groups of maximally related model elements, arranged in the neighbouring nodes of a concept lattice [<xref ref-type="bibr" rid="R1" id="67" class="deo:Reference">1</xref>]; hierarchical clustering would arrange software components in dependence graphs [<xref ref-type="bibr" rid="R5" id="68" class="deo:Reference">5</xref>]. Pattern-based techniques use approximate matching of patterns in models by evaluating the probability that particular part of model may correspond to the abstract or concrete pattern [2][<xref ref-type="bibr" rid="R16" id="69" class="deo:Reference">16</xref>]. For this reason similarity measures of matching parts of model must be evaluated in order to establish architectural components of the system. Since the KDM supports representation of the control and data flow of the system, the system dependence graph may be obtained using data flow computations [<xref ref-type="bibr" rid="R3" id="70" class="deo:Reference">3</xref>] and sliced according a set of domain elements using forward or backward slicing methods [<xref ref-type="bibr" rid="R11" id="71" class="deo:Reference">11</xref>]. The former kind of methods would produce scenario flows (e.g. workflows) of the system, while the latter would allow identifying computations of particular domain elements (e.g. facts and business rules).</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="64" page="4" column="1">55</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="65" page="5" column="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="73" page="5" column="1">EXTENDING KDM TO SUPPORT REPRESENTATION OF ADDITIONAL DOMAIN SPECIFIC KNOWLEDGE</h1>
+        <region class="DoCO:TextChunk" id="74" page="5" column="1">Though the KDM provides a large number of meta-model elements to represent the software system from different perspectives, with the desired level of granularity and at different abstraction layers, it is not always sufficient for representing specific aspects software system or its domain. For this reason, the KDM introduces light-weight extension mechanism as a standard way of adding new elements to KDM. The light-weight extension mechanism provides capability to: define of stereotypes that may extend either concrete or abstract meta-model elements; define tags associated with stereotypes and add values (in a form of string or reference to some modelling element) to them; group stereotypes into stereotype families; use one or more stereotypes within extended meta-model element. However, KDM light-weight extension mechanism does not support multiplicity of tags, constraints on tags, relationships between tags or stereotypes ( e.g. association or inheritance), thus limiting the expressiveness of the representation and disabling the ability to define domain specific representation.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="75" page="5" column="1">CONCLUSIONS AND FUTURE WORK</h1>
+        <region class="DoCO:TextChunk" id="76" page="5" column="1">In this paper we have analysed the architecture-driven modernization of existing software systems using the Knowledge Discovery Meta-model. We have observed that KDM lowers the effort required for definition of existing software representation, and that the knowledge extraction and analysis techniques may be also employed for automatic or semiautomatic obtainment of particular KDM models. Moreover, higher-level representations may be incorporated to facilitate the analysis of existing software systems. Though the KDM refers to as “knowledge discovery” meta-model, it is restricted to represent the knowledge only from the software assets, and there is no standard way to include representation of knowledge from other resources, such as the software specification or other kind of documentation. We also have established that existing extension mechanism limits the expressiveness of the representation as it does not support any kind of relationship between stereotypes used to extend meta-model elements, thus aggravating introduction of precise domain or platform specific representations. In the future work we will present architecture-driven approach for business knowledge extraction from existing software systems that considers the findings presented in this paper.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="77" page="5" column="1">56</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="78" page="6" column="1">International Conference on Computer Systems and Technologies - CompSysTech’12</outsider>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="79" page="6" column="1">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="80" page="6" column="1">[1] Arévalo, G., Ducasse, S. &amp; Nierstrasz, O. Lessons learned in applying formal concept analysis to reverse engineering. Proceedings of the Third international conference on Formal Concept Analysis. Springer-Verlag, 2005, pp. 95-112</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="81" page="6" column="1">[2] Flores, N. &amp; Aguiar, A. Reverse engineering of framework design using a meta- patterns-based approach. Proceedings of the ACS/IEEE 2005 International Conference on Computer Systems and Applications. IEEE Computer Society, 2005, pp. 941-946</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="82" page="6" column="1">[3] Khedker, U., Sanyal, A. &amp; Karkare, B. Data Flow Analysis: Theory and Practice. CRC Press, Inc., 2009</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="83" page="6" column="1">[4] Lakhotia, A. &amp; Gravley, J.M. Toward experimental evaluation of subsystem classification recovery techniques. Proceedings of the Second Working Conference on Reverse Engineering. IEEE Computer Society, 1995</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="84" page="6" column="1">[5] Maqbool, O. &amp; Babri, H. Hierarchical Clustering for Software Architecture Recovery. IEEE Trans. Softw. Eng., IEEE Press, 2007, Vol. 33(11), pp. 759-780</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="86" page="6" column="1">[6] OMG. Architecture driven modernization standards roadmap. 2009, <ext-link ext-link-type="uri" href="http://adm.omg.org/ADMTF" id="85">http://adm.omg.org/ADMTF</ext-link> Roadmap.pdf</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="88" page="6" column="1">[7] OMG. Architecture Driven Modernization Task Force. <ext-link ext-link-type="uri" href="http://adm.omg.org" id="87">http://adm.omg.org</ext-link>, 2012</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="90" page="6" column="1">[8] OMG. Knowledge Discovery Meta-model Specification Version 1.3. , 2011 <ext-link ext-link-type="uri" href="http://www.omg.org/spec/KDM/1.3/PDF/" id="89">http://www.omg.org/spec/KDM/1.3/PDF/</ext-link></ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="91" page="6" column="1">[9] Seacord, R.C., Plakosh, D. &amp; Lewis, G.A. Modernizing Legacy Systems: Software Technologies, Engineering Process and Business Practices. Addison-Wesley, Longman Publishing Co., Inc., 2003</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="92" page="6" column="1">[10] The Standish Group, Chaos Summary for 2009, 2009</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="93" page="6" column="1">[11] Tip, F. A. Survey of Program Slicing Techniques. Journal of Programming Languages, 1995, Vol. 3, pp. 121-189</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="94" page="6" column="1">[12] Tzerpos, V. &amp; Holt, R.C. Software Botryology, Automatic Clustering of Software Systems. Proceedings of the 9th International Workshop on Database and Expert Systems Applications. IEEE Computer Society, 1998</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="95" page="6" column="1">[13] Ulrich, W.M. &amp; Newcomb, P. Information Systems Transformation: Architecture- Driven Modernization Case Studies. Morgan Kaufmann Publishers Inc., 2010</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="96" page="6" column="1">[14] Vasilecas, O. &amp; Normantas, K. Deriving business rules from the models of existing information systems. Proceedings of the 11th International Conference on Computer Systems and Technologies. ACM, 2011, pp. 95-100</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="97" page="6" column="1">[15] Wiggerts, T.A. Using Clustering Algorithms in Legacy Systems Remodularization. Proceedings of the Fourth Working Conference on Reverse Engineering (WCRE '97). IEEE Computer Society, 1997</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="98" page="6" column="1">[16] Sartipi, K. Pattern-based Software Architecture Recovery. In Proc. of the Second ASERC Workshop on Software Architecture 2003</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="100" page="6" column="1">[17] Exforsys, Application development, What is N-Tier, 2007, <ext-link ext-link-type="uri" href="http://www.exforsys.com/tutorials/application-development/what-is-n-tier.html" id="99">http://www.exforsys.com/tutorials/application-development/what-is-n-tier.html</ext-link></ref>
+        </ref-list>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="101" page="6" column="1">ABOUT THE AUTHORS</h1>
+        <region class="DoCO:TextChunk" id="102" page="6" column="1">Kestutis Normantas, PhD student, junior research assistant at Information Systems Research Laboratory, Vilnius Gediminas Technical University, Phone +37052744860 Sergejus Sosunovas, PhD, researcher at Information Systems Research Laboratory, Vilnius Gediminas Technical University, Phone +37052744860 Prof. Olegas Vasilecas, PhD, head of Information Systems Research Laboratory, Vilnius Gediminas Technical University, Phone +37052744859</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="103" page="6" column="1">57</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

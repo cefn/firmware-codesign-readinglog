@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>c2b45c13cf5359c73e84231bce881393529d1d5ac21983c67662a8d65b61ab33</job>
+    <base_name>62dc</base_name>
+    <doi>http://dx.doi.org/10.1145/1499949.1499995</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">PDL—A tool for software design</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">STEPHEN H. CAINE</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">E. K E N T GORDON</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="4">by Caine, Farber &amp; Gordon, Inc. Pasadena, California</region>
+      <region class="DoCO:TextChunk" id="5" confidence="possible">INTRODUCTION</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">During the past several years, industry has seen an explo- sion in the cost of software production coupled with a de- cline in the quality and reliability of the results. A realiza- tion that structured programming, top-down design, and other changes in techniques can help has alerted the field to the importance of applying advanced design and 1,2 programming methods to software production. For the past four years, Caine, Farber &amp; Gordon, Inc. has used such advanced techniques as structured programming, top-down design and system implementation, centralized program production libraries, and egoless 38 programming teams for all of its programming. With these techniques we have achieved a level of productivity comparable to that recently reported by others employing similar techniques. However, within the last year, we greatly refined these techniques, applying them to design as well as to programming. This has resulted in increased productivity, greatly decreased debugging effort, and clearly superior products. On recent complex projects we have achieved production rates, over the full development cycle, of 60-65 lines of finished code per man-day and computer utilization of less than 0.25 CPU hours per thousand lines of finished code. For comparison, these production rates are approximately half again better than our best efforts using just structured programming techniques and 4-6 times better than average industrial experience using classical techniques. C o m p u t e r usage was four t i m e s s m a l l e r t h a n our experience with just structured programming techniques and more than 10 times smaller than classical industrial averages. As an example, consider the two CFG projects shown in Table 1. Project "A" is a major component of a seismic d a t a processing system for oil exploration. I t was produced using "classical" structured programming techniques and production rates compare favorably to other 3 projects which used similar techniques. Project " B " is a system for the automatic restructuring of Fortran pro- 9 grams. It was developed using the latest CFG methods. Production rates were 50 percent better than for project "A" and the amount of computer time used in development was approximately one quarter of that used for the first project. In each case, a "line" of code was taken to be one 80-column source card with common data definitions <marker type="column" number="2"/><marker type="block"/> counted only once. Both projects were developed using an IBM 370/158. In order to achieve the results that we are currently experiencing, we have developed a c o m p r e h e n s i v e software production methodology which places its greatest emphasis on design. Before any code is written, a complete design is produced which contains:<marker type="block"/> • all external and internal interface definitions • definitions of all error situations • identification of all procedures • identification of all procedure calls • definition of all global data • definition of all control blocks • specification of the processing algorithms of all procedures The design is produced and presented top-down and is oriented toward understandability by people. While in no sense is our design process automated, it is supported by a series of tools—both computerized and procedural. This paper is not intended to present our complete design and implementation methodology. Rather, it dis- cusses one of the design tools—the "Program Design Language" (PDL) and its computerized processor. Both of these have been in extensive use since the autumn of 1973.<marker type="block"/> THE PURPOSE OF P D L P D L is designed for the production of structured designs in a top-down manner. It is a "pidgin" language in that it uses the vocabulary of one language (i.e., English) and the overall syntax of another (i.e., a structured programming language). In a sense, it can be thought of as "structured English." While the use of pidgin languages is also advocated by others, we have taken the additional steps of imposing a degree of formalism on the language and supplying a processor for it. Input to the processor consists of control information plus designs for procedures (called "segments" in PDL). The output is a working design document which can, if desired, be photo-reduced and included in a project development workbook. The output of the processor completely replaces flowcharts since PDL designs are easier to produce, easier to change, and easier to read than are designs presented in flowchart form.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10" page="2" column="1">272</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="11" page="2" column="1">National Computer Conference, 1975</outsider>
+      <region class="unknown" id="12" page="2" column="1">TABLE 1—Production Comparisons</region>
+      <region class="unknown" id="13" page="2" column="1">DEVELOPMENT METHOD PROGRAMMING LANGUAGE SIZE OF PROGRAM (LINES) SIZE OF TEAM ELAPSED TIME (MONTHS) LINES PER MAN-DAY CPU HOURS PER 1000 LINES (IBM 370/158)</region>
+      <region class="unknown" id="14" page="2" column="1">CLASSICAL STRUCTURED PL/I DIALECT 32,000 3-6 9 40 0.90</region>
+      <region class="DoCO:TextChunk" id="15" confidence="possible" page="2" column="1">DESIGNING FOR PEOPLE IN P D L</region>
+      <region class="DoCO:TextChunk" id="16" page="2" column="1">Like a flowchart, and unlike a program, PDL can be written with whatever level of detail is appropriate to the problem at hand. A designer can start with a few pages giving the general structure of his system and finish, if necessary, with even more precision than would exist in the corresponding program. In our experience, the purpose of a design is to com- municate the designer's idea to other people—not to a computer. Figure 1 shows a sample design "segment" for a simple exchange sort. Note that we are not attempting to illustrate efficient sorting methods. Rather, having de- cided to use this particular sorting method, we wish to present the algorithm in a way that it can be easily comprehended. Given that the "DO U N T I L " construct represents a loop whose completion test occurs at the end of the loop, the operation of the algorithm is apparent. It is clearly better, from the viewpoint of understandability, than either the flowchart of Figure 2 or the translation of the algorithm into P L / 1 as shown in Figure 3. A virtue of P D L is that a rough outline of an entire problem solution can be quickly constructed. This level of design can be easily understood by people other than the designer. Thus, criticisms, suggestions, and modifications can be quickly incorporated into the design, possibly resulting in complete rewrites of major sections. When the design has stabilized at this level, more detail can be add- ed in successive passes through the design with decisions at each point affecting smaller and smaller areas.</region>
+      <region class="unknown" id="17" page="2" column="1">SORT (TABLE, SIZE OF TABLE)</region>
+      <region class="unknown" id="18" page="2" column="1">IF SIZE OF TABLE &gt; 1 DO UNTIL NO ITEMS WERE INTERCHANGED DO FOR EACH PAIR OF ITEMS IN TABLE (1-2, 2- 3, 3-4, ETC.) IF FIRST ITEM OF PAIR &gt; SECOND ITEM OF PAIR INTERCHANGE THE TWO ITEMS ENDIF ENDDO ENDDO ENDIF</region>
+      <region class="unknown" id="19" page="2" column="1">Figure 1—PDL design of a simple sorting algorithm</region>
+      <region class="DoCO:FigureBox" id="Fx20">
+        <image class="DoCO:Figure" src="62dc.page_002.image_02.png" thmb="62dc.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="21" page="2" column="2">PROJECT "A"</region>
+      <region class="unknown" id="22" page="2" column="2">r PROJECT "B</region>
+      <region class="unknown" id="23" page="2" column="2">LATEST CFG PL/I 27,000 3-5 6 65 0.16</region>
+      <region class="DoCO:TextChunk" id="24" confidence="possible" page="2" column="2">THE FORM OF A DESIGN IN P D L</region>
+      <region class="DoCO:TextChunk" id="25" page="2" column="2">A design produced in P D L consists of a number of "flow segments," each corresponding roughly to a procedure in the final implementation. A sample of a high-level flow segment from a large design is shown in Figure 4. If a statement in a segment references another flow segment,</region>
+      <region class="unknown" id="26" page="2" column="2">fSTART J</region>
+      <region class="unknown" id="27" page="2" column="2">INTERCHANGED &lt;r FAi-SE</region>
+      <region class="DoCO:TextChunk" id="28" confidence="possible" page="2" column="2">I *- 1</region>
+      <region class="unknown" id="29" page="2" column="2">PACSE</region>
+      <region class="unknown" id="30" page="2" column="2">f RETI4RH J</region>
+      <region class="unknown" id="31" page="2" column="2">IMTERCtfAN&amp;ED *-TRuE</region>
+      <region class="unknown" id="32" page="2" column="2">T£MP&lt;- TAffLEfl) TABLE ( l ) &lt; - T A B U a + l ) T A B U C I + i ) « - TEMP</region>
+      <region class="unknown" id="33" page="2" column="2">I 4- 1*1</region>
+      <region class="unknown" id="34" page="2" column="2">Figure 2—Flowchart for sorting algorithm of Figure 1</region>
+      <outsider class="DoCO:TextBox" type="header" id="35" page="3" column="1">PDL—A Tool for Software Design</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="36" page="3" column="1">273</outsider>
+      <region class="unknown" id="37" page="3" column="1">SORT: PROCEDURE(TABLE); DECLARE TABLED FIXED BIN; DECLARE INTERCHANGED BIT(l); DECLARE TEMP FIXED BIN; IF DIM(TABLE,1) &gt; 1 THEN DO; INTERCHANGED = &lt;1'B; DO WHILE (INTERCHANGED); INTERCHANGED = 'O'B; DO I=LBOUND(TABLE,l) TO HBOUND(TABLE,l)-l; IF TABLE(I)&gt;TABLE(I + 1) THEN DO; INTERCHANGED = '1'B; TEMP = TABLE(I); TABLE(I)=TABLE(I + 1); TABLE(I + 1)=TEMP; END; END; END; END; END SORT;</region>
+      <region class="unknown" id="38" page="3" column="1">Figure 3—PL/1 procedure for sorting algorithm</region>
+      <region class="DoCO:TextChunk" id="39" page="3" column="1">the page number of the referenced segment is shown to the left of the referencing statement. A sample low-level segment is shown in Figure 5. The statements which compose a flow segment are entered in free form. The P D L processor automatically underlines keywords, indents statements to correspond to structure nesting levels, and provides automatic continua- tion from line to line. Design information may also be entered in "text seg-</region>
+      <region class="unknown" id="40" page="3" column="1">CFG, INC. AIL DEVELOPMENT WORKBCCK (14.901 EXPRESSION ANO REFERENCE PROCESSING</region>
+      <region class="unknown" id="41" page="3" column="1">PROCESS EXPRESSION</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="42" page="3" column="1">PAGE</h1>
+        <region class="unknown" id="43" page="3" column="1">REF ****************************************************************** * 1 PUSh "SCE" (START CF EXPRESSION) CNTC OPERATOR STACK * 40 * 2 PROCESS OPERANC * * 3 QQ WHILE NEXT TOKEN IS AN OPERATOR * * 4 £Q WHILE OPERATOR IS NOT SAME AS OPERATOR ON TCP CF OPERATOR STACK AND ITS PRECEDENCE IS LESS /* * THAN OR ECUAL TO PRECEDENCE CF OPERATOR ON THE TOP OF THE OPERATOR STACK * 42 * 5 BUILD TOP NODE * * 6 POP OPERATOR STACK * * / fHQQCJ * * 8 It NEW OPERATOR IS SAME AS TCP OPERATOR CN OPERATOR STACK * * 9 INCREMENT OPERAND CCINT IN TCP CF CPEPATCP STACK EY ONE * * 10 £L££ * * 11 PUSH NEW OPERATOR AND OPERAND COUNT CF 2 CNTC OPERATOR STACK * * 12 £UDlt * 40 * 13 PROCESS OPERAND * * 14 fflDJlQ. * * 15 QQ WHILE TCP OF OPERATOR STACK IS NCT "SCE" * 42 * 16 BUILD TOP NODE * * 17 POP OPERATOR STACK * * 18 EUQQQ * * 19 POP OPERATOR STACK * * 20 (TCP OF OPERANC STACK CONTAINS TCP NCCE IN EXPRESSION) * * * * * * * * * * * * * * * * l f * * t * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *</region>
+        <region class="unknown" id="44" page="3" column="1">Figure 4—Sample of a high-level PDL flow segment</region>
+        <region class="DoCO:FigureBox" id="Fx45">
+          <image class="DoCO:Figure" src="62dc.page_003.image_03.png" thmb="62dc.page_003.image_03-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="46" page="3" column="2">ments." These contain purely textual information such as commentary, data formats, assumptions, and constraints. The document output by the P D L processor is in a form ready for photo-reduction and publication. It contains:</region>
+        <region class="DoCO:TextChunk" id="47" confidence="possible" page="3" column="2">• a cover page giving t h e design title, data, and processor identification • a table of contents (Figure 6) • the body of the design, consisting of flow segments and text segments • a "reference tree" showing how segment references are nested (Figure 7) • a cross-reference listing showing the page and line number at which each segment is referenced (Figure 8)</region>
+        <region class="DoCO:TextChunk" id="48" confidence="possible" page="3" column="2">DESIGN CONSTRUCTS</region>
+        <region class="DoCO:TextChunk" id="51" page="3" column="2">What goes into a design segment is generally at the dis- cretion of the designer. In choosing the form of presenta- tion, he is guided by a compendium of style which has been developed through extensive experience. However, the language and the processor have been defined to en- courage and support design constructs which relate directly to the constructs of structured coding. The two primary constructs are the IF and the DO. <marker type="block"/> The IF construct provides the means for indicating con- ditional execution. It corresponds to t h e classical 10 IF . . . THEN . . . ELSE construct of Algol-60 and P L / 1 ,</region>
+        <region class="unknown" id="50" page="3" column="2">The IF construct</region>
+        <region class="unknown" id="52" page="3" column="2">06 JUL 74 PAGE 39</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="53" page="4" column="1">274</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="54" page="4" column="1">National Computer Conference, 1975</outsider>
+        <region class="unknown" id="55" page="4" column="1">CFG, INC. LOCOMOTOR DATA REDUCTION DATA COMPRESSION</region>
+        <region class="unknown" id="56" page="4" column="1">AVERAGE OVER POINTS (RADIUS)</region>
+        <region class="unknown" id="57" page="4" column="1">REF PAGE ********************************************************************* * * * * * *************************************** * * * 1 29 * 2 It DEBUGGING * 28 * 3 START LINE (CURRENT CYCLE) * * 4 PRINT POINTS IN BUFFER (CURRENT BUFFER) * £NDJLE * * 5 POINTS &lt;- 0 * * 6 SX &lt; - 0 ' * * 7 SY &lt; - 0 . * * 8 BUFFER &lt;- PREVIOUS OF PREVIOUS BUFFER * * 9 QQ FOR 5 BUFFERS * 22 * 10 MOVE GOOD POINTS TO WORK BUFFER (BUFFER,RADIUS) * * 11 It DEBUGGING * 28 * 12 PRINT POINTS IN BUFFER (WORK BUFFER) * * 13 EJtfQIF. * * 14 It POINT COUNT OF WORK BUFFER &gt; 0 * * 15 QQ FOR POINTS IN WORK BUFFER * * 16 ADD X TO SX * * 17 ADD Y TO SY * * 18 E1U2Q * * 19 ADO POINT COUNT OF WO»K BUFFER TO POINTS * * 20 EBQiE. * * 21 * 22 BUFFER &lt; - NEXT BUFFER * * 23 E.UD.Q * * 24 It POINTS &gt; 0 * * 25 AX &lt; - S X / P O I N T S * * 26 AY &lt; - S Y / P O I N T S * * 27 t L i £ (NO.DATA FOR P O I N T ) * * 28 AX &lt; - NEGATIVE * * 29 AY &lt; - 0 * EMUE *</region>
+        <region class="DoCO:TextChunk" id="58" confidence="possible" page="4" column="1">*</region>
+        <region class="unknown" id="59" page="4" column="1">**************************** ******************************************************************************** Figure 5—Sample low-level PDL flow segment</region>
+        <region class="unknown" id="60" page="4" column="1">11</region>
+        <region class="DoCO:TextChunk" id="61" confidence="possible" page="4" column="1">augmented by the ELSEIF of languages such as Algol-68. The latter is used to prevent excessive indentation levels when cascaded tests are used. The general form of the construct is shown in Figure 9. Any number (including zero) ELSEIF's are allowed and at most one ELSE is allowed.</region>
+        <region class="unknown" id="62" page="4" column="1">The DO construct</region>
+        <region class="DoCO:TextChunk" id="63" confidence="possible" page="4" column="1">This construct is used to indicate repeated execution and for case selection. The reasons for the dual use of this construct are historic in nature and closely map several of the in-house implementation languages we frequently use. It may be effectively argued that a separate construct for case selection would be better. The iterative DO is indicated by: DO iteration criteria one or more statements ENDDO The "iteration criteria" can be chosen to suit the problem. As always, bias toward human understandability is pre- ferred. Statements such as:</region>
+        <region class="DoCO:TextChunk" id="64" confidence="possible" page="4" column="1">DO WHILE THERE ARE INPUT RECORDS DO UNTIL "END" STATEMENT HAS BEEN</region>
+        <region class="DoCO:FigureBox" id="Fx65">
+          <image class="DoCO:Figure" src="62dc.page_004.image_04.png" thmb="62dc.page_004.image_04-thumb.png"/>
+        </region>
+        <region class="unknown" id="66" page="4" column="2">15 UCT 74</region>
+        <region class="DoCO:TextChunk" id="67" confidence="possible" page="4" column="2">*</region>
+        <region class="unknown" id="68" page="4" column="2">PROCESSED DO FOR EACH ITEM IN THE LIST EXCEPT THE LAST ONE</region>
+        <region class="DoCO:TextChunk" id="69" confidence="possible" page="4" column="2">occur frequently in actual designs. 7 Our experience, and that of others, has shown that a provision for premature exit from a loop and premature repetition of a loop are frequently useful. To accomplish this, we take the statement</region>
+        <region class="DoCO:TextChunk" id="70" confidence="possible" page="4" column="2">UNDO</region>
+        <region class="DoCO:TextChunk" id="71" confidence="possible" page="4" column="2">to mean that control is to pass to the point following the ENDDO of the loop. Likewise,</region>
+        <region class="DoCO:TextChunk" id="72" confidence="possible" page="4" column="2">CYCLE</region>
+        <region class="DoCO:TextChunk" id="73" confidence="possible" page="4" column="2">is taken to mean that control is to pass to the loop termi- nation test. Since we may wish that an UNDO or CYCLE apply to an outer loop in a nest of loops, any DO may be labelled and the label may be placed after the UNDO or CYCLE. Case selection is indicated by</region>
+        <region class="DoCO:TextChunk" id="74" confidence="possible" page="4" column="2">DO CASE selection criteria</region>
+        <region class="DoCO:TextChunk" id="75" confidence="possible" page="4" column="2">Again, we advocate the use of understandable selection cri-</region>
+        <outsider class="DoCO:TextBox" type="header" id="76" page="5" column="1">PDL—A Tool for Software Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="77" page="5" column="1">275</outsider>
+        <region class="DoCO:TextChunk" id="78" confidence="possible" page="5" column="1">teria such as</region>
+        <region class="DoCO:TextChunk" id="79" confidence="possible" page="5" column="1">DO CASE OF TRANSACTION TYPE DO CASE OPERATOR TYPE DO CASE OF CONTROL CARD VERB</region>
+        <region class="DoCO:TextChunk" id="80" page="5" column="1">Generally, we use labels in the body of the DO to indicate where control passes for each case. This is illustrated in Figure 10.</region>
+        <region class="DoCO:TextChunk" id="81" confidence="possible" page="5" column="1">F U T U R E DIRECTIONS</region>
+        <region class="DoCO:TextChunk" id="82" page="5" column="1">The results we have achieved with P D L have exceeded our original expectations. However, it is clear that further development is both possible and desirable. The areas which we are currently exploring include:</region>
+        <region class="DoCO:TextChunk" id="83" confidence="possible" page="5" column="1">• handling of data: The current P D L presents a procedural design—a design of control flow and processing actions. It would be very desirable to have a similar mechanism for the design of data structures and data flow. A method for integrating the data and procedural designs and performing mutual cross-referenc- ing would be very powerful, indeed. • interactive versions: the current P D L processor is</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="84" page="5" column="1">TABLE OF CONTENTS</h1>
+        <region class="unknown" id="85" page="5" column="1">2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="86" page="5" column="1">INTRODUCTION PJRPQSE OF SECTION DICTIONARY ALGORITHMS FIND DICTIONARY ENTRY SEARCH CNE BLOCK SEE IF MATCH TOKEN SCANNING . . . . . BACK UP SCANNER SCAN CNE TCKEN SKIP BLANKS . SKIP COMMENT SCAN IDENTIFIER SCAN SPECIAL CHARACTER GET NEXT CHARACTER SOURCE INPUT READ NEXT SOURCE CARD LIST SCURCE CARG MAIN PROCESSING LCCP CAIN LOOP PROCESS ONE STATEMENT SETUP STATEMENT VERIFY STATEMENT PLACEMENT PROCESS IF STATEMENT PROCESS PROCEDURE STATEMENT PROCESS 00 STATEMENT PROCESS END STATEMENT PROCESS END UF STATEMENT DECLARATION PROCESSING PROCESS DECLARATION LIST SCAN DECLARATION LIST SCAN (DECLARATION ITEM SCAN ATTRIBUTES 33 INSTALL CECLARATICN ITEMS .... 34 INSTALL BASIC ENTRY 35 INSTALL STRUCTURE ENTRIES 36 INSTALL CECLARATICN ATTRIBUTES 37 EXPRESSION AND REFERENCE PROCESSING 38 PROCESS EXPRESSION 39 PROCESS OPERAND 40 BUILD UNARY NODE 41 BUILD TOP NOOE 42 PROCESS REFERENCE 43 PROCESS BASIC REFERENCE 44 FORM POSSIBLE &lt;SR&gt; NOOE 45 PROCESS SINGLE REFERENCE 46</h1>
+        <region class="unknown" id="87" page="5" column="1">Figure 6—Sample table of contents from a PDL design</region>
+        <region class="DoCO:FigureBox" id="Fx88">
+          <image class="DoCO:Figure" src="62dc.page_005.image_05.png" thmb="62dc.page_005.image_05-thumb.png"/>
+        </region>
+        <region class="unknown" id="89" page="5" column="2">t</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="90" page="5" column="2">&gt; STUM SET DEFAULTS . FINO STARTING SECTOR . WRITE ON TAPE I CONVERT TO TANK 10 I BUILD PROCESSED DATA ARRAY INITIALIZE INPUT BUFFERS L GET POINTS K GET BATCH &gt; REAO DISK ! MOVE AND COUNT POINTS &gt; MOVE TO BUFFER ) PROCESS A POINT AVERAGE OVER POINTS I START LINE I PRINT POINTS IN BUFFER ! MOVE GOOD POINTS TO WORK BUFFER ) - PRINT POINTS IN BUFFER &gt; ADVANCE INPUT BUFFERS I GET POINTS , GET BATCH &gt; REAO DISK : MOVE AND COUNT POINTS &gt; MOVE TO BUFFER</h1>
+        <region class="unknown" id="91" page="5" column="2">i ;</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="92" confidence="possible" page="5" column="2">r BUILD COMPRESSED DATA ARRAY &gt; DISPLAY COMPRESSEO POINTS &gt; EXECUTE A COMMAND i WRITE ON TAPE CONVERT TO TANK ID &gt; BUILO PROCESSED DATA ARRAY , INITIALIZE INPUT BUFFERS L GET POINTS &gt; GET BATCH &gt; REAO DISK ! MOVE ANO COUNT POINTS &gt; MOVE TO BUFFER ) PROCESS A POINT L AVERAGE OVER POINTS &gt; START LINE ) PRINT POINTS IN BUFFER &gt; MOVE GOOD POINTS TO WORK BUFFER 1 PRINT POINTS IN BUFFER i ADVANCE INPUT BUFFERS L GET POINTS GET BATCH i , REAO DISK ! MOVE AND COUNT POINTS i MOVE TO BUFFER</h2>
+          <region class="unknown" id="93" page="5" column="2">Figure 7—Sample of a segment reference tree</region>
+          <region class="DoCO:TextChunk" id="94" confidence="possible" page="5" column="2">batch oriented. The ability to compose and, more im- portantly, to modify a design on-line in a manner specifically planned for interactive use would be of great assistance. This would be particularly advanta- geous during the early stages of a project when design changes are often frequent and extensive. • total design system: an integrated computer system for software design, such as the DES system of 12 Professor R. M. Graham, is a natural outgrowth of our work with P D L . Such a system would act as an information management system maintaining a data base of designs. Designs could be entered and modified; questions about a design and the inter-rela- tions of its parts could be asked and answered; reports on design status and completeness could be prepared. Provision for simulation of a design for performance estimation and a mechanism for transi- tion from design to code are also important.</region>
+          <region class="DoCO:TextChunk" id="123" page="5" column="2">CONCLUSIONS In the autumn of 1973, we integrated the use of P D L and its processor into our software design and implementation methodology. Since then, it has been used on a number of <marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> projects of varying sizes. The results have been comparable to those discussed earlier. P D L is not a "panacea" and it is certainly possible to produce bad designs using it. However, we have found that our designers and programmers quickly learn to use P D L effectively. Its emphasis on designing for people provides a high degree of confidence in the correctness of the design. In our experience, it is almost impossible to "wave your hands" in PDL. If a designer doesn't really yet see how to solve a particular problem, he can't just gloss over it<marker type="column" number="2"/><marker type="block"/> without the resulting design gap being readily apparent to a reader of the design. This, plus the basic readability of a P D L design, means that clients, management, and team members can both understand the proposed solution and gauge its degree of completeness. We have also found that P D L works equally well for large and small projects. Because it is so easy to use, persons starting to work on even a "quick and dirty" utility will first sketch out a solution in PDL. In the past, such programs were usually written with little or no design preceding the actual coding.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="96" page="6" column="1">276</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="97" page="6" column="1">National Computer Conference, 1975</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="98" page="6" column="1">CF^, INC. AIL DEVELuPMc.Ml WORKBOOK (20.901 INOfcX TJ GROUPS AND SEGMENTS</outsider>
+          <region class="unknown" id="99" page="6" column="1">GP MAIN PHASE FLOW</region>
+          <region class="unknown" id="100" page="6" column="1">8 SG MAKE SUCCESSOR EDGE 7:06 7:11 7:19</region>
+          <region class="unknown" id="101" page="6" column="1">31 SG MARK LUCiP ENTRY BLOCKS 3J:02</region>
+          <region class="unknown" id="102" page="6" column="1">39</region>
+          <region class="unknown" id="103" page="6" column="1">SG MARK LOOP MEMttcRSMP 37:13</region>
+          <region class="unknown" id="104" page="6" column="1">SG OPTIMIZE 54 SG PERFORM BACKWARD MOVEMENT 37:17 45 SG PERFORM LOCAL CSE ELIMINATION 44:01</region>
+          <region class="unknown" id="105" page="6" column="1">36 SG PERFORM TRANSFORMATIONS 4:06</region>
+          <region class="unknown" id="106" page="6" column="1">47 SG PROCESS ASSIGNMENT FOR CSE 4 5 : 0 7 5 1 : 1 0 52:16</region>
+          <region class="unknown" id="107" page="6" column="1">48 SG PROCESS CALL FOR CSE 45:09 51:12 52:18</region>
+          <region class="unknown" id="108" page="6" column="1">17 SG PROCESS FETCH INFORMATION 1 6 : 0 5 1 6 : 0 8 16:10 16:12 16:13</region>
+          <region class="unknown" id="109" page="6" column="1">16:15 16:18</region>
+          <region class="unknown" id="110" page="6" column="1">18 SG PROCESS STORE INFORMATION lo:06</region>
+          <region class="unknown" id="111" page="6" column="1">65 SG REDUCE STRENGTH OF ONE TRIPLE 56:07</region>
+          <region class="unknown" id="112" page="6" column="1">27 SG RESOLVE TENTATIVE BACK 0OM1NATORS 25:09</region>
+          <region class="unknown" id="113" page="6" column="1">55 GP STRENGTH REDUCTION PART OF TRANSFORMATIONS SUBPHASE</region>
+          <region class="unknown" id="114" page="6" column="1">23 SG TRACE ONE NOOE</region>
+          <region class="unknown" id="115" page="6" column="1">Figure 8—Part of an index to a design</region>
+          <region class="unknown" id="117" page="6" column="1">IF condition one or more statements ELSEIF condition one or more statements</region>
+          <region class="unknown" id="118" page="6" column="1">ELSEIF condition one or more statements ELSE one or more statements ENDIF</region>
+          <region class="unknown" id="119" page="6" column="1">Figure 9—General form of IF construct</region>
+          <region class="DoCO:FigureBox" id="Fx120">
+            <image class="DoCO:Figure" src="62dc.page_006.image_06.png" thmb="62dc.page_006.image_06-thumb.png"/>
+          </region>
+          <region class="unknown" id="121" page="6" column="2">DO CASE OF TRANSACTION TYPE ADD: CREATE INITIAL RECORD DELETE: IF DELETION IS AUTHORIZED CREATE DELETION RECORD ELSE ISSUE ERROR MESSAGE ENDIF CHANGE: INCREMENT CHANGE COUNT CREATE DELETION RECORD "OTHER": ISSUE ERROR MESSAGE ENDO</region>
+          <region class="unknown" id="122" page="6" column="2">Figure 10—Example of DO CASE construct</region>
+        </section>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="124" confidence="possible" page="6" column="2">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="125" confidence="possible" page="6" column="2">1. Boehm, B. W., "Software and its Impact: A Quantitative Assess- ment," Datamation, May 1973, pp. 48-59.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="126" confidence="possible" page="6" column="2">2. Goldberg, J., (editor), Proceedings of a Symposium on the High Cost of Software, Stanford Research Institute, 1973.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="127" confidence="possible" page="6" column="2">3. Baker, F. T., "Chief Programmer Team Management of Production Programming," IBM Sys. J., Vol. 11, No. 1, 1972, pp. 56-73.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="128" confidence="possible" page="6" column="2">4. Bohm, C. and G. Jacopini, "Flow Diagrams, Turing Machines and Languages With Only Two Formation Rules," Comm. ACM, May 1966, pp. 366-371.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="129" confidence="possible" page="6" column="2">5. Dijkstra, E., "GO TO Statements Considered Harmful," Comm. ACM, March 1968, pp. 147-148.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="130" confidence="possible" page="6" column="2">6. Mills, Harlan D., "On the Development of Large Reliable Programs," IEEE Symp. Computer Software Reliability, 1973, pp. 155- 159.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="131" confidence="possible" page="6" column="2">7. Peterson, W. W., T. Kasami and N. Tokura, "On the Capabilities of WHILE, REPEAT and EXIT Statements," Comm. ACM, August 1973, pp. 503-512.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="132" confidence="possible" page="6" column="2">8. Stevens, W. P., G. J. Myers and L. L. Constantine, "Structured Design," IBM Sys. J., Vol. 13, No. 2, 1974, pp. 115-139.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="133" confidence="possible" page="6" column="2">9. De Balbine, G., Better Manpower Utilization Using Automatic Restructuring Caine, Farber &amp; Gordon, Inc., 1974 (in publication).</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="134" confidence="possible" page="6" column="2">10. Naur, P. et al., "Report on the Algorithmic Language ALGOL 60," Comm. ACM, May 1960, pp. 299-314.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="135" confidence="possible" page="6" column="2">11. Van Wijngaarden, A. et al., "Report on the Algorithmic Language ALGOL 68"," Numerische Mathematik, 14, 1969, pp. 79-218.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="136" confidence="possible" page="6" column="2">12. Graham, R. M., G. J. Clancy and D. B. Devaney, "A Software Design and Evaluation System," Comm. ACM, February 1973, pp. 110-116.</ref>
+        </ref-list>
+      </section>
+    </body>
+  </article>
+</pdfx>

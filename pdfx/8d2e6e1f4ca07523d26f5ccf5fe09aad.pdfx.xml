@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>5c094fbebc8a0b807e886d15645e6a4c66e40c1d25fde04f2685d6000e5a47d7</job>
+    <base_name>62m0</base_name>
+    <doi>http://dx.doi.org/10.1145/1235000.1235042</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">An Artifact-centric Framework for Software Development Skills</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Jack Downey</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="3">University of Limerick Castletroy Co. Limerick, Ireland +353 61 213072 jack.downey at ul.ie</region>
+      <abstract class="DoCO:Abstract" id="4">While the specific knowledge, skills and abilities needed to develop software can be determined, it is much more difficult to decide what skill set is required for any given software development role. This paper suggests that progress may be made if, instead of trying to relate knowledge, skills or abilities to individual roles, efforts are made to understand what knowledge, skills and abilities are required to create and use the artifacts associated with software development. To this end, a framework incorporating two relationships is presented: The first relates software development artifacts to organizational functions, while the second relates knowledge, skills and abilities to different phases of an artifact’s lifecycle. This framework leads to a new taxonomy of skills.</abstract>
+      <region class="DoCO:TextChunk" id="5" confidence="possible">K.7.1 [Occupations]:</region>
+      <region class="DoCO:TextChunk" id="6" confidence="possible">Human Factors, Theory</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="7" confidence="possible" page="1" column="1">Categories and Subject Descriptors General Terms Keywords</h2>
+      </section>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="12">Norah Power</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="8" page="1" column="1">Irish Telecommunications Software, Knowledge, Skills, Abilities, Software Artifacts, Grounded Theory</region>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="9" page="1" column="1">1. INTRODUCTION</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="25" confidence="possible" page="2" column="1">2. Research Approach</h2>
+          <region class="DoCO:TextChunk" id="32" page="2" column="1">This research study set out to investigate the skills required to develop software in the telecommunications domain. The research design is fully described in Downey [ <xref ref-type="bibr" rid="R9" id="26" class="deo:Reference">9</xref>] and is only briefly summarized here. Individual members of project teams in four different telecommunications software companies were interviewed and the resulting data were analyzed qualitatively using a grounded theory approach. As a result, it was found that software development roles differ widely between companies (even between projects) and they also overlap significantly with other roles. It was concluded that software development roles cannot be defined in a generally applicable manner. Further analysis of the data showed that the activities and the artifacts of the software development process were largely the same across each of the companies studied. Because the companies follow variations of the familiar ‘V’ model [<xref ref-type="bibr" rid="R10" id="27" class="deo:Reference">10</xref>], it was clear that the study of project phases would simply explore well covered territory. However, changing the focus to the artifacts associated with the development process proved to be much more informative, leading to a conceptual framework where artifacts are central. Artifacts have been studied in the software literature before. For instance, Cluts [<xref ref-type="bibr" rid="R11" id="28" class="deo:Reference">11</xref>] describes artifacts as the means of relating people and activity systems. Artifacts also hold the history of those relationships within them. Maurizio, Stamelos and Tsoukias [<xref ref-type="bibr" rid="R12" id="29" class="deo:Reference">12</xref>] are concerned with the attributes of software artifacts, arguing that these can be measured and these measurements used to support the decision-making process. A particular type of artifact, called a ‘boundary object’ is the focus for Mambrey and Robinson’s [<xref ref-type="bibr" rid="R13" id="30" class="deo:Reference">13</xref>] study. Such objects “inhabit several intersecting social worlds and satisfy the informational requirements of each” (p.119). As will be seen, most of the artifacts identified in this study are boundary objects, providing interfaces between the development team and other departments within the organization, or between the organization and external entities. Artifacts are used throughout a development project to embody stakeholder knowledge and contribute to the development process. No one member of the development team is involved in the creation of all the artifacts. Some are produced by other team members; some originate in other departments within the<marker type="column" number="2"/><marker type="block"/> company and more are externally sourced – customer requests, for instance.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="33" confidence="possible" page="2" column="2">3. Artifacts used in telecommunications software development</h2>
+          <region class="DoCO:TextChunk" id="34" page="2" column="2">Appendix 1 shows the full set of artifacts identified in this study of telecommunication projects and how they relate to one another. While that diagram is complex and extremely detailed, when the work is looked at from an organizational point of view, four distinct phases of work can be identified:</region>
+          <region class="DoCO:TextChunk" id="35" confidence="possible" page="2" column="2">1. Definition. At the beginning of the project, much work is done to identify what exactly is being demanded by the marketplace. The culmination of this work is what is being termed here the engineering requirements document. This specifies the requirements in a testable and measurable format. 2. Selection. The products being developed by these companies can evolve in a variety of ways. Decisions must be made to choose the features that yield maximum revenue and provide the most customer satisfaction. As well as being commercially feasible, they must also be technically possible. All the factors influencing these decisions appear in feasibility reports. These reports contain input from sales and marketing people as well as technical contributions from the programming team. Once a feature is deemed feasible, it is placed on a product roadmap and scheduled to be developed as part of a release. 3. Management. Once a project release has been defined and the approval given to develop a set of features, the construction of the project is guided by the project plan. This consists of a schedule and a work breakdown structure. Some companies include mitigation and contingency plans to cope with identified risks. It should be noted that the definition and selection activities are carried out before the project officially exists.</region>
+          <region class="DoCO:TextChunk" id="41" page="2" column="2">4. Construction. The remainder of the project artifacts relate to the task of producing and installing the finished product. It must be emphasised that a commercial software product involves user manuals and training materials as well as working software. Having identified four phases to development, a more abstract picture of the artifacts and their interaction is possible. <xref ref-type="fig" rid="F1" id="36" class="deo:Reference">Figure 1</xref> outlines how the four principal artifacts relate to one another. The engineering requirements document is the result of the Definition phase; the feasibility report is the result of the selection phase; the project plan is the principal Management artifact and the installed product is the main outcome of the Construction phase.<marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> A noticeable feature of these key artifacts is the way so many different roles are associated with them. The project plan, for instance, is created by the project manager and receives input – such as time and headcount estimates - from architects, programmers, testers, technical writers and customer support personnel. It is also reviewed by the product manager. In effect, the artifact acts as a communications medium, allowing collaboration between parties, as well as supporting the decision- making process. In other words, the artifact functions as a boundary object, marking the interface between different organizational functions.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="38" page="2" column="2">187</outsider>
+          <region class="DoCO:FigureBox" id="F1">
+            <image class="DoCO:Figure" src="62m0.page_003.image_01.png" thmb="62m0.page_003.image_01-thumb.png"/>
+            <caption class="deo:Caption" id="40" page="3" column="1">Figure 1. The Principal Artifacts</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="42" confidence="possible" page="3" column="1">3.1 Artifact Dynamics</h2>
+          <region class="DoCO:TextChunk" id="55" page="3" column="1">Artifacts represent milestones achieved during the project. However, they need to be created in a particular order. For instance, in the development projects described during the interviews, the feasibility study cannot take place until the requirements are understood and the construction effort cannot proceed without a project plan. Thus one major artifact depends on its predecessors, suggesting that development proceeds in a linear fashion. However, for each artifact, a cycle of activity needs to take place: <marker type="column" number="2"/><marker type="block"/> 1. A trigger event occurs. This could be an external stimulus or the review of another artifact. 2. The goals for the triggered artifact must be defined. This process involves gathering the necessary information – other artifacts, for instance – and may trigger the creation of intermediate artifacts (such as prototype systems) to assist in the definition process. 3. The concept to be contained in the new artifact must be synthesized. 4. This concept must be articulated by producing an artifact. This cycle resembles Kurt Lewin’s experiential learning model [<xref ref-type="bibr" rid="R14" id="44" class="deo:Reference">14</xref>]. The steps taken to learn something new from experience where learning is defined “as a change in cognitive structure (knowledge)” [15, p.66] - involve having an experience, reflecting upon that experience, devising a course of action based on these reflections and then testing this course of action. The result of this experiment is analyzed in order to refine understanding, i.e. it triggers another learning cycle.<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> Similarly, the construction of an artifact involves some initial trigger; say a request from a customer for a new feature. Reflecting on the request, the practitioner may notice that several other customers have asked for similar functionality. S/he may also notice that the request is already on the product roadmap. In this case, the marketing requirements artifact already exists, so the course of action is to forward the requirements to the customer. If the customer finds these requirements lacking in some way, this triggers a possible revision of the marketing requirements. Alternatively, if the request has not been seen before, analysis of the request can result in a variety of actions. If the request is clearly understood, then the practitioner will be able to design a new marketing requirements artifact by paraphrasing the original request. If the request is obviously unacceptable – i.e. it goes against the product strategy – a response to its originator must be framed, ideally pointing out how the product strategy will solve the problem in a different manner. If the overall request looks interesting, but contains ambiguous elements, this will trigger a series of clarifying actions, such as producing a prototype and presenting it to the customer for feedback: In terms of KSAs then, this cycle requires practitioners to: • Evaluate the trigger event. This could involve simply recognising a trigger, such as a news story that in some way affects the company, or a scheduled review of a planned artifact, such as a design document. • Gather information and build up the knowledge necessary to understand what is required of the target<marker type="column" number="2"/><marker type="block"/> artifact. Sufficient information may be available from existing artifacts, but it might be necessary to create intermediate artifacts - such as prototypes - to obtain clarification. • Design the artifact. This requires the creative, high-level skills needed to devise new concepts. Also required here are the decision-making and negotiation skills mainly associated with management but are required when investigating alternative courses of action. For instance, detailed analysis of a particular requirement may show that the initial estimates were too optimistic. In this case, the design part of the cycle will have to conceive a solution to satisfy the requirements as well as calculating revised schedule estimates. The update to the project plan is triggered by a report from the programmer. • Produce the artifact. These KSAs supplement the creative skills and include technical writing, prototyping, coding, testing, proof-reading, presentation and reporting. Another way of looking at the lifecycle of an artifact is to consider it in terms of knowledge management. Demarest [<xref ref-type="bibr" rid="R16" id="50" class="deo:Reference">16</xref>] proposes a process where knowledge is embodied in the form of an artifact and disseminated throughout the organization. Although this process is not cyclical like the previous models, it is suggested that the use of an artifact will generate new knowledge that, in turn, needs to be organized and embodied into a new sort of artifact.<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> Thus the trigger event is the dissemination of some sort of knowledge and this is used to analyze the problem of creating the next artifact. The analysis and design of the new artifact is termed construction, which is defined by Demarest as “the process of discovering or structuring a kind of knowledge: how to sell a particular product to a particular market, for example, or how to diagnose a particular kind of customer problem” (p.376). The actual creation of the artifact maps onto embodiment. <xref ref-type="table" rid="T1" id="53" class="deo:Reference">Table 1</xref>. Relating the Models Knowledge Learning Cycle Management Artifact Dynamics (Lewin) (Demarest) Concrete Dissemination Trigger Event Experience Use Observations and Problem Analysis Reflections Construction Abstract Artifact Design Conceptualization Active Embodiment Artifact Creation Experimentation<marker type="block"/> To summarize, these models illustrate the dynamic nature of artifacts. They begin after a trigger event, which may well be the dissemination of a previous artifact. The goals of the new artifact must be tied down and all necessary information gathered before it can be designed. The design is conceived and then articulated, or embodied, in the form of a tangible artifact. This artifact, in turn, must be disseminated and used to make decisions or base further artifacts on. Thus, from a knowledge, skills and abilities perspective, an artifact should not be considered merely in terms of the skills needed to design it, but also in terms of the knowledge and the other artifacts that must be acquired before any sensible synthesis can take place. Having created, or embodied, the artifact, it must be made available to others on the project team and reviewed by them. Therefore, a single artifact draws on research, analysis, design, implementation and evaluation skills.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="46" page="3" column="2">188</outsider>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62m0.page_004.image_02.png" thmb="62m0.page_004.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="48" page="4" column="1">Figure 2. Artifact Dynamics</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="52" page="4" column="2">189</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="56" confidence="possible" page="5" column="1">3.2 Relating Artifacts to Organizational Functions</h2>
+          <region class="DoCO:TextChunk" id="59" page="5" column="1">The practitioner interviews have shown that it is the organization and the individuals concerned who dictate which person works on what artifacts. Although it is not possible to formulate rules relating artifacts to individuals, a level of understanding is possible if attention is given to the organizational functions that are related via artifacts. Judging by the interview data, it is useful to consider the corporate structure as a set of overlapping functions. It is also clear from these data that the overlap between functions is accommodated by means of artifacts. Indeed, the interface between the company and its external customers is also facilitated through artifacts. This suggests that the bulk of the artifacts reside in overlapping areas, signifying that the software development process is truly a multi-functional team effort. The term ‘organizational function’ has been chosen deliberately rather than department, as each company may have different <marker type="column" number="2"/><marker type="block"/> departmental structures. Thus, for the purposes of this study, the organizational functions will be defined as: 1. Management. This includes project management and senior management. It also covers the finance and legal departments. Essentially, it is where the major decision- making activities take place. 2. Front-end customer interface. Here we find the product managers and the sales and marketing personnel. These people interact directly with the customer and with the marketplace. 3. Back-end customer interface. This is where the product is installed in the customer site. The installation and the subsequent maintenance of the product are under the control of the customer-support function. 4. Development. This area includes all personnel who contribute directly to the creation of the delivered product. That is: programmers, testers, technical writers and trainers. Locating artifacts within the organization is achieved by studying the interview data and determining which actors are involved with each artifact. A person may be associated with a particular artifact if s/he designs and creates it, contributes data to it, reviews it or makes use of it to create another artifact or to make a decision. To illustrate the process, the four principal artifacts identified in <xref ref-type="fig" rid="F1" id="58" class="deo:Reference">Figure 1</xref> are analyzed: • Engineering Requirements. This artifact is the responsibility of the systems architect, who is part of the development function. S/he is assisted by programmers, who are also in this function. The trigger for the engineering requirements is the marketing requirements document, which is produced by a product manager. This establishes an overlap between development and the front-end customer interface. Because the engineering requirements document informs the project plan, the management function is involved. Finally, because the requirements might contain aspects that affect the external interfaces of the product, the customer-support personnel need to review the document. This creates an overlap with the back-end customer interface. These relationships place the engineering requirements artifact firmly in the intersection of all the organizational functions. • Feasibility Report. As this is the responsibility of product management, it involves the front-end customer interface function. As time and headcount estimates and technical feasibility input come from the architects and programmers, it overlaps with the development function. Its purpose is to provide the basis for the go/no-go decision, made by the management function. There is no evidence in this study that the back-end customer interface is involved. • Project Plan. This is the responsibility of the project manager in the management function. It depends for its time and headcount estimates and details of the work breakdown structure on both the development and back- end functions. It is also of concern to product managers,</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="60" page="5" column="2">190</outsider>
+          <region class="DoCO:TextChunk" id="61" confidence="possible" page="6" column="1">who need to be able to relay to potential customers what features are currently under development and when they are likely to become available. These overlaps place the project plan in the center of all organizational functions. • Installed Product. The installed product relates the back-end customer interface function with the customers themselves, providing a boundary with the outside world. It seems surprising that the development function is not involved with this artifact, as programmers and testers often accompany the installation team. However, the installed product is literally that which is installed in the customer site. It is the end product of the development lifecycle and is being used by the customer. If there are problems with the product, the bug report/code update mechanism is employed.</region>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="62" page="6" column="1">Table 2. Locating the Principal Artifacts</caption>
+            <content>
+              <table class="DoCO:Table" number="2" page="6">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Feasibility</td>
+                    <td class="table"> Engineering</td>
+                    <td class="table"> Project</td>
+                    <td class="table"> Installed</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Report</td>
+                    <td class="table.strange"> Reqs</td>
+                    <td class="table.strange"> Plan</td>
+                    <td class="table.strange"> Product</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Front-End</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Management</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Development</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Back-End</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Outside World</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="63" confidence="possible" page="6" column="1">Feasibility Engineering Project Installed Report Reqs Plan Product Front-End x x x Management x x x Development x x x Back-End x x x x Outside x World</region>
+          </region>
+          <region class="DoCO:TextChunk" id="65" page="6" column="1">As can be seen from <xref ref-type="table" rid="T2" id="64" class="deo:Reference">Table 2</xref>, the principal artifacts are all boundary objects. Study of the principal artifacts also shows how some of them contain data that is needed for decisions – such as the go/no-go decision – to be made. If knowledge, skills and abilities are now considered in terms of artifacts, it is likely that each artifact will require certain communications, collaboration and decision-support skills. However, before exploring this possibility, the concept of an artifact needs to be examined further.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="66" confidence="possible" page="6" column="1">4. Relating KSAs to artifacts</h2>
+          <region class="DoCO:TextChunk" id="69" page="6" column="1">Considering KSAs in terms of the four phases of an artifact’s lifecycle brings the team into focus. This is a useful development as the three factors influencing team performance are: the task, the team and the individual [<xref ref-type="bibr" rid="R17" id="67" class="deo:Reference">17</xref>, <xref ref-type="bibr" rid="R18" id="68" class="deo:Reference">18</xref>]. Team focus is achieved by</region>
+          <region class="DoCO:TextChunk" id="70" confidence="possible" page="6" column="2">highlighting the communication, collaboration and decision support skills intrinsic in the lifecycle of an artifact. 1. Communication. Obviously, information is conveyed via artifacts. This is particularly the case when the parties involved are not co-located. It should be noted that not all artifacts are produced by the development team. These artifacts may be produced by other organizations (such as industry regulators) or by other divisions within the same company (such as the finance and purchasing departments). 2. Collaboration. An artifact is not something that is created by a project stakeholder and never seen by anyone else. At its simplest, it is created by one party and acted upon by another. For more sophisticated artifacts, a myriad of people, from many different organizational functions, may be involved in its creation. Their product is then reviewed by interested parties and the insights from the review go to generating an improved version of the artifact.</region>
+          <region class="DoCO:TextChunk" id="72" page="6" column="2">3. Decision Support. The management team needs to decide on what courses of action to take. They must decide what features are worth investigating further, what features should comprise a release and what actions to take if a project is running behind schedule. Each of these decisions is informed by artifacts – feasibility studies and progress reports in these examples. It should be noted that technical skills are still required and make up a fourth category in this new taxonomy. Each of these categories plays a critical role in particular phases. Because each artifact has a similar lifecycle, it is not surprising that each of the interviewees has a broadly similar skill set. While specific technical skills are role specific, the communication, collaboration and decision-support skills are required to deal with any artifact in a team environment. <xref ref-type="table" rid="T3" id="71" class="deo:Reference">Table 3</xref> highlights the way the collaboration and decision-support skills are so important for dealing with trigger events and the gathering of data in the analysis stage. For instance, a noticeable feature of the interviews is the way teams are formed on an ad- hoc basis, often for the sole purpose of creating a single artifact, such as a feasibility report. The technical skills, those cited by the senior programmers and the systems architects as the most rewarding, are really only called for to synthesize and embody solutions. This suggests that the emphasis that is currently placed on technology-based skills is not equipping team members with the range of knowledge and skills/abilities to deal with the entire artifact lifecycle.</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="73" page="6" column="2">191</outsider>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="74" page="7" column="1">Table 3. Relating KSAs to Artifact Phases</caption>
+            <content>
+              <table class="DoCO:Table" number="3" page="7">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Artifact Trigger</td>
+                    <td class="table"> Artifact Analysis</td>
+                    <td class="table"> Artifact Design</td>
+                    <td class="table"> Artifact Creation</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Communication</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Reading</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Listening</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Comprehension</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Writing</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Presentation</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Reporting</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Collaboration</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Evaluation</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Document Review</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Code Inspection</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Problem Analysis</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Management</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Coordination</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Teamwork</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Team Leading</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Negotiation</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Decision Support</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Management</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Decision Making</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Coping with Ambiguity</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Prioritization</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Risk Identification</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Planning</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Risk Management</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Business</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Estimation</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Budgeting</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Purchasing</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Logistics</td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Technical</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Prototyping</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Coding</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Testing</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> x</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="75" confidence="possible" page="7" column="1">Artifact Trigger Artifact Analysis Artifact Design Artifact Creation Communication Reading x x Listening x x Comprehension x x Writing x Presentation x x Reporting x Collaboration Evaluation Document Review x Code Inspection x Problem Analysis x Management Coordination x x x x Teamwork x x x x Team Leading x x x x Negotiation x x x x Decision Support Management Decision Making x x x x Coping with Ambiguity x x Prioritization x x Risk Identification x x Planning x x x Risk Management x x Business Estimation x Budgeting x Purchasing x Logistics x Technical Design x Prototyping x Coding x Testing x</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="76" confidence="possible" page="7" column="2">5. Conclusion</h2>
+          <region class="DoCO:TextChunk" id="77" page="7" column="2">The analysis in this paper is motivated by the difficulties encountered in defining individual roles. To create a framework that addresses the problem, two relationships need to be considered: how artifacts are located in the organizational context and how knowledge, skills and abilities (KSAs) are related to phases of the artifacts’ lifecycles. While this arrangement does not allow KSAs to be mapped to roles, it does provide a means of identifying the KSAs needed to develop software and the organizational functions that are involved in the effort.</region>
+          <region class="DoCO:FigureBox" id="F3">
+            <image class="DoCO:Figure" src="62m0.page_007.image_03.png" thmb="62m0.page_007.image_03-thumb.png"/>
+            <caption class="deo:Caption" id="79" page="7" column="2">Figure 3. The Artifact-centric Framework</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="85" confidence="possible" page="7" column="2">The lifecycle of an artifact is central to this framework. Artifacts are triggered; their goals are set and relevant data gathered; their contents are designed and embodied in artifact form. It is not surprising that most of the artifacts identified in this study are boundary objects, facilitating communication and collaboration between organizational functions and between the organization and the outside world. They also serve to support the decision- making process. These communications, collaboration and decision-support skills are generic to artifacts while the technical skills are more artifact-specific. The framework caters for this difference by allowing each artifact to be considered in turn. The artifact-centric framework has produced a new taxonomy of knowledge and skills/abilities. MIS skills surveys [<xref ref-type="bibr" rid="R19" id="80" class="deo:Reference">19</xref>, <xref ref-type="bibr" rid="R20" hidden="1" id="81" class="deo:Reference">20</xref>, <xref ref-type="bibr" rid="R21" hidden="1" id="82" class="deo:Reference">21</xref>, <xref ref-type="bibr" rid="R22" hidden="1" id="83" class="deo:Reference">22</xref>, <xref ref-type="bibr" rid="R23" id="84" class="deo:Reference">23</xref>] classify KSAs as technical, business, inter-personal and the</region>
+          <outsider class="DoCO:TextBox" type="footer" id="86" page="7" column="2">Proof-reading</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="87" page="7" column="2">x</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="88" page="7" column="2">192</outsider>
+          <region class="DoCO:TextChunk" id="89" confidence="possible" page="8" column="1">application of technology to business. The artifact-centric taxonomy instead incorporates communication, collaboration, decision-support and technical skills, along with the different types of knowledge – technical, product, domain, market, political and commercial. This new taxonomy appears to place its emphasis on team-working skills. However, while being able to inter-work well with other team members is important, the inter-working skills serve as conduits for the technical skills each member brings to the team. Without technical skills, a person would not be able to contribute to the project. The question of what knowledge, skills and abilities (KSAs) are needed to develop software is an important one for many stakeholders, particularly in the context of globally distributed software development: Educators need to know what skills their graduates will need. Employers need to assess the skills of the people they recruit, and managers need to assess the skills required for new projects. Practitioners are interested in gaining and improving necessary, sought after skills. Professional bodies will want to develop their members’ careers so that they tailor their skills to the areas in most demand. Government agencies want to draw attention to the skills available in their respective countries, in order to attract inward investment. The artifact-centric framework is a theory grounded in the experiences of four Irish telecommunications software teams. It is a descriptive theory in that it seeks to describe what KSAs are actually needed to develop software. Further research is needed, applying the framework in different development contexts, for example, in different application domains, such as automotive software development or using different development methods, such as the Rational Unified Process (RUP), which is based on a specific set of artifact types, or agile development which relies on fewer and less formal artifacts.</region>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="10" page="1" column="1">The question of what knowledge, skills and abilities (KSAs) are needed to develop software is an important one and the answer is not simple. Because professional software development is a complex task, many different skills are needed, skills that are not necessarily possessed by a single individual. Because of its inherent complexity, software development is an activity that is normally carried out by teams of workers who are assigned to different roles in the team, such as analyst, architect,</region>
+      <region class="unknown" id="11" page="1" column="1">Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. SIGMIS-CPR’07, April 19–21, 2007, St. Louis, Missouri, USA. Copyright 2007 ACM 978-1-59593-641-7/07/0004...$5.00.</region>
+      <region class="unknown" id="13" page="1" column="2">University of Limerick Castletroy Co. Limerick, Ireland +353 61 202769 norah.power at ul.ie</region>
+      <region class="DoCO:TextChunk" id="24" page="1" column="2">programmer, or tester [ <xref ref-type="bibr" rid="R1" id="14" class="deo:Reference">1</xref>]. Employers engaged in software development generally recruit and hire personnel to fill specific software development roles and expect them to have the skills needed to fill those roles. But this is problematic for a number of reasons. Role-names differ from one organization to another, making it hard to identify similarities and differences. Role fragmentation has led to considerable overlap between roles, so the same skill may belong to different roles, and roles are not necessarily distinguishable by their associated skills. In general, it is not easy to determine which set of skills is needed to fulfill any particular software development role. Researchers have tried to focus on specific roles in tackling this problem, but this approach has highlighted the gap between research and practice in software development. For example, the term 'requirements engineer' occurs repeatedly in the research literature of software requirements engineering [<xref ref-type="bibr" rid="R2" id="15" class="deo:Reference">2</xref>], yet few if any software development organizations employ anyone called a requirements engineer. Instead, the skills associated with requirements engineering may be found in various roles such as systems analyst, business analyst, system architect, product manager or analyst/programmer. In many organizations, requirements engineering is done by systems analysts. Downey [<xref ref-type="bibr" rid="R3" id="16" class="deo:Reference">3</xref>] analyzed the difference between the roles of the systems architect and the systems analyst and found many similarities. The assignment of role names seems to depend more on the industry than on the responsibilities of the role or the skills employed. Previous efforts to identify software-related skills have tended to avoid rather than deal with problems with role identification. For instance, the British Office for National Statistics places team leaders, systems architects, software developers and testers under the same heading – standard occupational classification code 2132 [<xref ref-type="bibr" rid="R4" id="17" class="deo:Reference">4</xref>]. Similarly, Irish studies (that make use of the British codes) offer recommendations for the Information and Communications Technology (ICT) sector as a whole [<xref ref-type="bibr" rid="R5" id="18" class="deo:Reference">5</xref>, <xref ref-type="bibr" rid="R6" id="19" class="deo:Reference">6</xref>]. Professional bodies have also avoided role distinctions. The Irish Computer Society [<xref ref-type="bibr" rid="R7" id="20" class="deo:Reference">7</xref>] is promoting the use of the Skills Framework for an Information Age [<xref ref-type="bibr" rid="R8" id="21" class="deo:Reference">8</xref>]. This framework provides a list of seventy-eight skills and asks practitioners to assess themselves on each one. They can then plan their development by improving existing skills or by gaining new ones. However, what<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> constitutes an ideal skills profile for a particular role is not discussed. This paper presents an alternative approach, based on the idea that software development is concerned with the production of various artifacts, including the software itself. The remainder of the paper is organized as follows: Section 2 describes the research that led to the development of this framework. Section 3 summarizes the types of artifacts that are used. Section 4 deals with artifact dynamics. Section 5 relates artifacts to development functions and then Section 6 relates artifacts to knowledge, skills and abilities. Finally Section 7 summarizes the artifact-centric framework.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="23" page="1" column="2">186</outsider>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="90" page="8" column="1">6. REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="91" page="8" column="1">[1] P. Kruchten, "Rational Unified Process - An Introduction," Addison-Wesley, Boston, 1999.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="92" page="8" column="1">[2] M. Jarke and K. Pohl, Software Engineering Journal, 9, 257 - 266 (1994)</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="93" page="8" column="1">[3] J. Downey, Systems Architect and Systems Analyst: Are These Comparible Roles?, K. Kaiser and T. Ryan, Eds., 2006 ACM SIGMIS CPR Conference, Claremont, California, ACM Press, 2006, p. 213-220</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="94" page="8" column="1">[4] Office for National Statistics, "Standard Occupational Classification - Volume 2," The Publishing House, London, ed. v6, 2000b.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="95" page="8" column="1">[5] Forfas (2003) Responding to Ireland's Skills Needs, The Fourth Report of the Expert Group on Future Skills Needs. Dublin, Forfas, pp. 24-33, 86-94.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="96" page="8" column="1">[6] Enterprise Strategy Group (2004) Ahead of the Curve: Ireland's Place in the Global Economy. Dublin, Forfas.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="98" page="8" column="2">[7] Irish Computer Society (2006) Irish Computer Society Website, vol. 2006, pp. <ext-link ext-link-type="uri" href="http://www.ics.ie" id="97">http://www.ics.ie</ext-link>.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="100" page="8" column="2">[8] SFIA Foundation (2006) Skills Framework for an Information Age, vol. 2006, pp. <ext-link ext-link-type="uri" href="http://www.sfia.org.uk" id="99">http://www.sfia.org.uk</ext-link>.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="101" page="8" column="2">[9] J. Downey, A Framework to Elicit the Skills Needed for Software Development, J. E. Moore and S. E. Yager, Eds., 2005 ACM SIGMIS CPR Conference, Atlanta, Georgia, ACM Press, 2005, p. 122-127</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="102" page="8" column="2">[10] M. Norris and P. Rigby, "Software Engineering Explained," John Wiley &amp; Sons, Chichester, England, 1992.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="103" page="8" column="2">[11] M. M. Cluts, The Evolution of Artifacts in Cooperative Work: Constructing Meaning Through Activity, ACM SIGGROUP 2003, Florida, USA, ACM Press, 2003, p. 144-152</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="104" page="8" column="2">[12] M. Morisio, I. Stamelos and A. Tsoukias, A New Method to Evaluate Software Artifacts Against Predefined Profiles, ACM SIGSSEKE, Ischia, Italy, ACM Press, 2002, p. 811- 818</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="105" page="8" column="2">[13] P. Mambrey and M. Robinson, Understanding the Role of Documents in a Hierarchical Flow of Work, ACM SIGGROUP 1997, Phoenix, Arizona, ACM Press, 1997, p. 119-127</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="106" page="8" column="2">[14] D. A. Kolb, "Experiential Learning: Experience as the Source of Learning and Development," Prentice Hall, Englewood Cliffs, New Jersey, 1984.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="107" page="8" column="2">[15] K. Lewin, "Field Theory in Social Science: Selected Theoretical Papers," Tavistock Publications, New York, 1952.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="108" page="8" column="2">[16] M. Demarest, Journal of Long Range Planning, 30, 374- 384 (1997)</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="109" page="8" column="2">[17] J. Adair, "The Inspirational Leader: How to Motivate, Encourage and Achieve Success," Kogan Page Ltd, London, 2003.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="110" page="8" column="2">[18] J. Adair, "The John Adair Handbook of Management and Leadership," Thorogood Publishing Ltd, London, 2004.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="111" page="8" column="2">[19] D. M. S. Lee, E. M. Trauth and D. Farwell, MIS Quarterly, 17, 313-340 (1995)</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="112" page="8" column="2">[20] S. Sawyer, K. R. Eschenfelder, A. Diekema and C. R. McClure, ACM SIGCPR Computer Personnel, 19, 27-41 (1998)</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="113" page="8" column="2">[21] N. Shi and D. Bennett, ACM SIGCPR Computer Personnel, 19, 3-19 (1998)</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="114" page="8" column="2">[22] E. M. Trauth, D. W. Farwell and D. Lee, MIS Quarterly, 17, 293-307 (1993)</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="115" page="8" column="2">[23] C. L. Noll and M. Wilkins, Journal of Information Technology Education, 1, 143-154 (2002)</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="116" page="8" column="2">193</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="117" confidence="possible" page="9" column="1">7. Appendix 1: All Identified Artifacts</h2>
+          <region class="DoCO:FigureBox" id="Fx118">
+            <image class="DoCO:Figure" src="62m0.page_009.image_04.png" thmb="62m0.page_009.image_04-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="119" page="9" column="2">194</outsider>
+          <region class="DoCO:FigureBox" id="Fx120">
+            <image class="DoCO:Figure" src="62m0.page_010.image_05.png" thmb="62m0.page_010.image_05-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="121" page="10" column="2">195</outsider>
+        </section>
+      </section>
+    </body>
+  </article>
+</pdfx>

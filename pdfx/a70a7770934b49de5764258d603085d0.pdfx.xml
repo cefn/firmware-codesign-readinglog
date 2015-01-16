@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>0d2480987ee26d72e534ee393901b48d64b8eb29f40ff4f01c6c885651af0a9f</job>
+    <base_name>62p2</base_name>
+    <doi>http://dx.doi.org/10.1002/(sici)1097-0266(199901)20:1&lt;49::aid-smj20&gt;3.3.co;2-u</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Value co-production: Intellectual origins and implications for practice and ...</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">Strategic Management Journal;</outsider>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="3">Jan 1999;</name><aff id="4">1999</aff></contrib><contrib contrib-type="author"><name id="5">; ABI/INFORM Global</name><aff id="6">20</aff><aff id="7">1</aff></contrib><contrib contrib-type="author"><name id="10">Rafael Ramirez pg.</name></contrib></contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="27" page="1" column="1">Reproduced with permission of the copyright owner. Further reproduction prohibited without permission. <marker type="page" number="2"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="3"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="4"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="5"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="6"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="7"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="8"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="9"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="10"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="11"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="12"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="13"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="14"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="15"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="16"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="17"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</region>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>cd08320f95103037ae2e85c46223ba3bbbc29091bbc8b7398d3275f1bba84b1a</job>
+    <base_name>62el</base_name>
+    <doi>10.1007/s00163-005-0058-z</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Research in Engineering Design (2005) 16: 17–26 DOI 10.1007/s00163-005-0058-z</outsider>
+      <region class="DoCO:TextChunk" id="2" confidence="possible">O R I GI N A L P A P E R</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Kees Dorst Æ Pieter E. Vermaas</name>
+        </contrib>
+      </contrib-group>
+      <title-group>
+        <article-title class="DoCO:Title" id="4">John Gero’s Function-Behaviour-Structure model of designing: a critical analysis</article-title>
+      </title-group>
+      <abstract class="DoCO:Abstract" id="7">Over the last 12 years, the design research group at the Key Centre for Computing at the University of Sydney has been developing an extensive model of designing, looking at designing as a process in which the concepts of function, behaviour and structure of artefacts play a central role. In this paper, we critically analyse this model of designing, focussing on its internal clarity and external empirical validation. We review the model and present the definitions of the key concepts function, behaviour and structure. In doing so we show that one can distinguish at least two different versions of the model. Finally, we raise fundamental questions about the precise location of the transition between structural and intentional descriptions of artefacts in these versions, and about the empirical status of the model as a whole.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="5" confidence="possible" page="1" column="1">Received: 10 February 2003 / Revised: 29 April 2004 / Accepted: 29 April 2004 / Published online: 8 April 2005 Springer-Verlag London Limited 2005</h1>
+        <region class="unknown" id="6" page="1" column="1">Ó</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="8" page="1" column="1">1 Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">This paper is a critical review of the Function-Behaviour-Structure (FBS) model of designing. This model and its accompanying conceptual framework have been developed over the last 12 years at the Key Centre for Computing at the University of Sydney, Australia, under the direction of Prof. John Gero. Our interest in the work of this group is motivated by the sheer width and ambition of their undertaking. On the one hand, they try to remain close to ‘hard‘ cognitive sciences: the model of</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="12" confidence="possible" page="1" column="1">K. Dorst (&amp;) Department of Industrial Design, Eindhoven University of Technology, P.O. Box 513, 5600 MB, Eindhoven, The Netherlands E-mail: <email id="10">c.h.dorst@tue.nl</email> Tel.: +31402475562 P. E. Vermaas Department of Philosophy, Delft University of Technology, Jaffalaan 5, 2628 BX, Delft, The Netherlands E-mail: <email id="11">p.e.vermaas@tbm.tudelft.nl</email></h1>
+      </section>
+      <region class="DoCO:TextChunk" id="13" page="1" column="2">designing is quite unique by including an explicit model of the cognitive processes of designing, and by accom- modating design strategies, design knowledge and design prototypes. On the other hand, the group tries to link up with the actual practice of designing and proposes the model both as a description of designing as designers do it in real life and as a means to develop tools to assist designers in real life. Empirical studies of designing are thus also a part of their programme. And across this whole range of issues and levels they endeavour to offer a coherent view of designing. In this paper, we set out to analyse the FBS model of designing and its accompanying conceptual framework formed by the concepts function, behaviour and structure of artefacts. We concentrate on exploring the theoretical clarity of the FBS model and we look at the protocol studies that the group has produced to check its empirical validity. The analysis is actually done twice, because the FBS model of designing has developed gradually over the last 12 years. Out of the prodigious output of the Gero group, we have isolated three papers (from 1990, 1998 and from 2002) that seem to summa- rise well the development in their thinking. Our analysis is a detailed one, sticking closely to the text of these papers, and trying to trace some of the fundamental problems in model designing. We use the other papers that this group has published as a background in the case of ambiguity or confusion. One of our tools of analysis is the distinction between structural and intentional descriptions of artefacts. In designing typically a transition occurs between these two types of description: functions or purposes, which may be seen as intentional descriptions of the artefact to be designed, are transformed in structural or physical descriptions of this artefacts. We show that in the two versions of the FBS model that can be distinguished, this transition is located at different places. We hope that our own backgrounds as a designer/ design methodologist and a philosopher, will serve to provide a rich picture of the FBS model, fostering both clarity and criticism on various levels.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="14" page="2" column="1">18</outsider>
+      <region class="DoCO:TableBox" id="T1">
+        <caption class="deo:Caption" id="15" page="2" column="1">Table 1 The eight steps of the FBS model.</caption>
+        <content>
+          <table class="DoCO:Table" number="1" page="2">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Step</th>
+                <th class="table"> 1:</th>
+                <th class="table"> formulation</th>
+                <th class="table"> F fi B e</th>
+              </tr>
+              <tr class="table">
+                <th class="table"> Step</th>
+                <th class="table"> 2:</th>
+                <th class="table"> synthesis</th>
+                <th class="table"> B e fi S</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 3:</td>
+                <td class="table"> analysis</td>
+                <td class="table"> S fi B s</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 4:</td>
+                <td class="table"> evaluation</td>
+                <td class="table"> B s M B e</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 5:</td>
+                <td class="table"> documentation</td>
+                <td class="table"> S fi D</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 6:</td>
+                <td class="table"> reformulation 1</td>
+                <td class="table"> S fi S¢</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 7:</td>
+                <td class="table"> reformulation 2</td>
+                <td class="table"> S fi B e ¢</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Step</td>
+                <td class="table"> 8:</td>
+                <td class="table"> reformulation 3</td>
+                <td class="table"> S fi F¢</td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="16" confidence="possible" page="2" column="1">Step 1: formulation F fi B e Step 2: synthesis B e fi S Step 3: analysis S fi B s Step 4: evaluation B s M B e Step 5: documentation S fi D Step 6: reformulation 1 S fi S¢ Step 7: reformulation 2 S fi B e ¢ Step 8: reformulation 3 S fi F¢</region>
+      </region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="2" column="1">2 Overview of the FBS model</h1>
+        <region class="DoCO:TextChunk" id="18" page="2" column="1">John Gero presented his Function-Behaviour-Structure model of designing in his seminal 1990 paper. Gero took designing as a process in which designers transform posited functions into a design description of an artefact that can perform these functions. Designers do not make this transformation directly but employ instead a number of intermediate steps in which also the behaviour and the structure of artefacts play key roles. In this section, we start by presenting the FBS model. We introduce the steps that make up the model and we consider its accompanying conceptual framework by reviewing the way in which the key notions of function, behaviour and structure are defined.</region>
+        <region class="DoCO:TextChunk" id="19" confidence="possible" page="2" column="1">2.1 The eight steps of designing</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="20" page="2" column="1">2.1 The eight steps of designing</h2>
+          <region class="DoCO:TextChunk" id="22" page="2" column="1">Gero and his collaborators distinguish eight different steps by which designers transform the posited functions F into a design description D of an artefact. Five of these steps form a series that designers follow sequentially. In this sequence, designers start by transforming the posited functions F to a description of behaviour B e (of the artefact to be designed) that is expected to enable this function. Then, secondly, the designers transform this expected behaviour B e into a structure S (for the artefact to be designed) that is intended to exhibit this behaviour, and derive, thirdly, the actual behaviour B s of this chosen structure. Fourthly, designers evaluate this actual behaviour by comparing it with the expected behaviour, and if this evaluation is satisfactory, then, finally, a design description D is produced for manu- facturing the artefact with the chosen structure. If, on the other hand, the evaluation is not satisfactory, the designers return to earlier steps in the sequence of five, and these loops are defined by the remaining three steps distinguished in the FBS model. 1 These loop-back steps thus turn designing into a recursive procedure. The eight steps are listed in <xref ref-type="table" rid="T1" id="21" class="deo:Reference">table 1</xref>.</region>
+          <region class="unknown" id="23" page="2" column="1">1</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="25" confidence="possible" page="2" column="1">In the earlier writing of Gero and his collaborators, the three loop- back steps were not that well distinguished. The definitions of these steps as given in <xref ref-type="table" rid="T1" id="24" class="deo:Reference">table 1</xref> originate in Gero and Kannengiesser (2002).</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="26" confidence="possible" page="2" column="2">transformation of the posited functions into behaviours that are expected to enable these functions. transformation of these expected behaviours into a structure that is intended to exhibit these behaviours. derivation of the actual behaviours of the structure. comparison of the actual and expected behaviours. production of the design description. choice of a new structure. choice of new expected behaviours. choice of new functions.</h1>
+        <region class="DoCO:TextChunk" id="27" page="2" column="2">The knowledge designers use to make these steps is by Gero (1990) characterised as knowledge by experience, collected by designers during earlier (alike) design tasks. This design knowledge is brought together in what Gero calls design prototypes.</region>
+        <region class="DoCO:TextChunk" id="28" confidence="possible" page="2" column="2">2.2 Definitions of function, behaviour and structure</region>
+        <region class="DoCO:TextChunk" id="34" page="2" column="2">An advantage of the FBS model is its explicitness in the description of the designing process. It clearly delineates and defines the eight steps designing process consists of and it describes the nature of these steps. This advantage is weakened, however, by the colloquial way in which the model’s key concepts—the notions of function, behaviour and structure—are defined. These definitions together with the examples given by Gero and his collaborators give a reasonable understanding of what is meant by functions, behaviours and structure. But the definitions lack precision when analysed in detail and allow for some latitude in their interpretation. This latitude is also present in further work on the FBS model by Gero and his collaborators. For instance, in a paper by Rosenman and Gero (1998) that explicitly introduced a clarification of the concepts of function, behaviour and structure, definitions were given that differed consider- ably from the original ones. This lack of precision reflects back at the definitions of the eight steps by which the FBS model describes designing, since these steps are ultimately defined in terms of functions, behaviours and structure. We start our review of the definitions by sketching in section 2.2.1 what Gero initially had in mind when speaking about functions, behaviour and structure of artefacts. Then we consider in section 2.2.2 the proposal for more precise definitions by Rosenman and Gero (1998). Finally, in section 2.2.3, we briefly discuss the present definitions as exemplified by Gero (2002) and Gero and Kannengiesser (2002). We show that the changes over time in the definitions of functions, behaviour and structure, affect fundamentally the way the FBS model should be understood. As a tool to demonstrate this, we use the philosophical distinction between a structural and an intentional description of an artefact. In philosophy it is generally accepted that there is a distinction between, on one hand, the description of the properties of material objects such as particles, mole- <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> cules, physical fields, chemical reactions and biological organisms, geological processes and astrophysical objects, and, on the other hand, the description of the acts and mental states of conscious beings such as beliefs, desires, intentions, aims, historical developments. The first type is called the structural description and physics and chemistry are the prime examples of sources for such descriptions. The second is called the intentional description and here our everyday description of others and our own motives (folk psychology) are the best examples. The intentional description may be discerned from the structural description in which it describes the intentionality of conscious organisms such as humans, whereas the structural description does not. Intentionality refers here, to the capacity of these organisms to be directed at objects and state of affairs in the world: conscious organisms can form mental representations that about something in the world, they can have beliefs that something is the case, they desire objects and they aim at achieving states of affairs. But it is fair to note that there is till now no clear-cut or generally accepted characterisation of these two types of descriptions (Crane 1998). 2 We here will leave the question of how to precisely demarcate structural and intentional descriptions to the philosophers; we here merely accept that these two descriptions exist and are perceived to be different to one another. Bridging the gap between the structural and intentional way of describing the world should be seen as an essential characteristic of designing. Designing starts— also by Gero’s description, as we will see—with a purpose (an intentional concept) and ends with a structural description of an artefact (Kroes and Meijers 2002). We now analyse the FBS model and the way it is affected by the different definitions of function, behaviour and structure, by determining in which of the eight steps this transition can be located.<marker type="block"/> The definitions of function, behaviour and structure that Gero and his collaborators (Gero, Tham and Lee 1992) originally proposed are listed in <xref ref-type="table" rid="T2" id="33" class="deo:Reference">table 2</xref>. In addition to these definitions, Gero and his collaborators gave general rules about the relations between functions, behaviour and structure as well as a number of examples. First of all, they state that in general, the functions F of artefacts cannot be derived from their structure S, and vice versa. 3 Secondly, the actual behaviours B s of an artefact can be derived by means of qualitative physics (Bobrow, 1984) from the artefact’s structure S. 4 Thirdly, the set of actual</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="30" page="3" column="1">19</outsider>
+        <region class="unknown" id="32" page="3" column="1">2.2.1 The original definitions</region>
+        <region class="unknown" id="35" page="3" column="1">2</region>
+        <region class="unknown" id="36" page="3" column="1">3 4</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="37" confidence="possible" page="3" column="1">The described characterisation of intentionality as the capacity of organisms to be directed at objects and state of affairs in the world has as a consequence that the intentional description does not cover all mental states: ‘pain’ is the standard example of a mental state that need not be directed at something in the world. E.g., Gero (1990, p. 31). E.g., Gero (1990, p. 28), Tham, Lee and Gero (1990, p. 513), and Gero, et al. (1992, p. 196).</h1>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="38" page="3" column="2">Table 2 The FBS definitions by Gero et al. (1992, p. 193).</caption>
+          <content>
+            <h1 class="table"> Function: the design intentions or purposes.</h1>
+            <table class="DoCO:Table" number="2" page="3">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Behaviour:</td>
+                  <td class="table"> how the structure of an</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> artefact achieves its functions.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Structure:</td>
+                  <td class="table"> the components which make up an</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> artefact and their relationships.</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="39" confidence="possible" page="3" column="2">Function: the design intentions or purposes. Behaviour: how the structure of an artefact achieves its functions. Structure: the components which make up an artefact and their relationships.</region>
+        </region>
+        <region class="DoCO:TextChunk" id="40" page="3" column="2">behaviours B s of an artefact is a superset of the behaviours B e that are expected to enable the functions F of the artefact. 5 Finally, Gero and his collaborators assume that there exists a body of knowledge, called teleological knowledge, that associates functions F with expected behaviour B e . 6 The first remark is that the definitions of structure and function together with the provided examples are rather straightforward. By the structure of an artefact is meant the materials its components consist of, the dimensions of these materials and components, and the way these materials and components are related geo- metrically. This is confirmed by, for instance, an often- mentioned example of a window: 7 the structure of a window consists of two components, the glazing and the frame, and these components have certain dimensions. With the functions of an artefact are meant the purposes for which the artefact is designed; purposes of the window, for instance, are the provision of daylight and the control of ventilation. The second remark is that the definition of behaviour is less explicit about what kind of entity behaviour is. This definition does not give a positive description of behaviour, but merely states its role: behaviours of an artefact are those features of the structure of the artefact by which the artefact achieves its functions. The third remark is that this definition of behaviour seems to be more of a definition of expected behaviour B e than of actual behaviour B s . According to the above mentioned general rules about the relations between functions, behaviours and structure, only the expected behaviours B e of an artefact are associated with the functions of the artefact, and these expected behaviours B e are only a subset of the actual behaviours B s of the artefact. A definition of actual behaviours B s is thus missing. The general rules about the relations between functions, behaviour and structure provide, fourthly, for a more explicit description of behaviour of an artefact. The actual behaviours, for instance, are entities that can be derived from the structure by means of qualitative physics. Bobrow (1984, p. 1) describes behaviour as derived by qualitative physics as ‘the time course of observable changes of state of the components and the system as a whole’. The examples of Gero and his collaborators of behaviour do not fully cohere with this</region>
+        <region class="unknown" id="41" page="3" column="2">5 6 7</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="42" confidence="possible" page="3" column="2">E.g., Tham, et al. (1990, p. 513). E.g., Gero, et al. (1992, p. 198). Gero (1990, pp. 30–32), Tham, et al. (1990, p. 512), and Gero, et al. (1992, pp. 213–215) all give the prototype for window design that describes this structure.</h1>
+        <outsider class="DoCO:TextBox" type="page_nr" id="43" page="4" column="1">20</outsider>
+        <region class="DoCO:TextChunk" id="45" page="4" column="1">description. In the often-mentioned window example, for instance, light transmission and ventilation restric- tion are presented as behaviours of windows. But from the description Gero and his collaborators give for that example, it follows that these behaviours depend also on properties that do not count as properties of the window, such as the average sky illuminance and the external wind pressure, respectively. 8 So, possibly, behaviour should be understood more broadly as the time course of observed changes of state of the artefact derivable from the structure of the artefact and of its context. In terms of the distinction between the structural and intentional description, the following picture of designing emerges with the FBS model. Designing is all in all a transformation of functions F to structure S. 9 Functions F refer to intentions and purposes and are thus intentional descriptions of the artefact (a purpose is an intentional term because it is referring to a state of affairs a conscious being wants to achieve; this being is, in this way directed at this state of affairs). And structure S is clearly a structural concept. One may expect that behaviour B is also a structural concept because it is derived by means of a physical theory from the structure S of an artefact and possibly some properties of the context of that artefact. However, an example provided by Gero and Rosenman (1990, p. 68) shows that behaviour may also be, partly, intentional. In this example, construction cost of a door is taken as a vari- able describing the behaviour of that door. Construction cost is partly an intentional description because prices refer to the worth people attach to objects and materials, and this worth refers to social phenomena that can be related to intentionality of those people, 10 rather than to only the physics of those objects and materials. 11 Hence, designing is all in all a transformation from an intentional description of an artefact in term of functions F to a structural description in terms of structure S, via behaviour B which is a hybrid description. By means of qualitative physics one can determine from the structure S of an artefact the set of actual behaviours B s of the artefact. And by means this physics (but now reasoning backwards, i.e. by abduction) expected behaviours B e can be transformed into structure S. By means of teleological knowledge one can relate the functions F of an artefact with expected behaviours B e of the artefact. If the artefact is properly designed, these expected behaviours are a subset of the actual behaviours B s (see <xref ref-type="fig" rid="F1" id="44" class="deo:Reference">figure 1</xref>).</region>
+        <region class="unknown" id="46" page="4" column="1">8 9</region>
+        <region class="unknown" id="47" page="4" column="1">10 11</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="49" confidence="possible" page="4" column="1">See, for instance, Gero (1990, <xref ref-type="fig" rid="F4c" id="48" class="deo:Reference">figure 4c</xref>) We take the documentation step as a step in which some of the properties of the structure S of the artefact relevant to its manu- facturing are recorded. Searle (1995). The fact that construction costs of an artefact may be objective determined given certain prices of materials (and labour) is not turning this concept into a structural one. Intentional descriptions may be to a large extent objective as is exemplified by, for instance, the intentional description that John desired an electrical train.</h1>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="50" page="4" column="2">Fig. 1 The original FBS model</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="58" page="4" column="2">Given this picture the transition from an intentional description of the artefact to a structural description is not located in one step in particular but divided over both the formulation step F fi B e and the synthesis step B e fi S. <marker type="block"/> Gero and his collaborators produced since the inception of the FBS model numerous papers in which it has been elaborated. In one of these papers—Rosenman and Gero (1998)—a new set of definitions of function, behaviour and structure is presented, and these definitions are more precise than the original ones. These definitions, however, also differ from those original ones. A first indication for this is that Rosenman and Gero differentiate between the functions of artefacts and their purposes. This differentiation led also to a change in the model itself, for now steps that transform purposes into functions and vice versa, have to be included. The general outlook on designing that Rosenman and Gero (1998) sketch is that humans exist in a natural- physical environment and operate in a socio-cultural environment. This latter environment prescribes values and goals and establishes together with the former environment needs of humans. In order to satisfy these needs humans intentionally create artefacts. In this view, designing becomes a process in which designers transforms purposes that originate from clients into a design description of an artefact with which those purposes can be achieved. In order to accommodate these purposes, Rosenman and Gero adjust the descriptions of the steps that make up the FBS model. Firstly, the formulation step is extended to a step P fi F e fi B e in which required purposes P that originate from clients, are transformed into functions F e that are expected to enable these purposes P, and then into behaviours B e that are expected to result in these functions F e . Secondly, the analysis step is accordingly extended to a step S fi B s fi F s in which the actual behaviours B s and functions F s of the structure S chosen after the synthesis step are determined. Thirdly, a realisation step F s fi P s is added that determines the actual purposes P s enabled<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> by those actual functions F s . Finally, the evaluation step is extended to a step P s , F s , B s M P,F e ,B e in which the actual purposes, functions and behaviours are compared with the required purposes and expected functions and behaviours. 12 Rosenman and Gero define the purposes of an artefact as the answers to the question of ‘why the artefact does what it does’, or ‘what it is for’. That is, the purposes of an artefact are the needs of humans that can be achieved with it. The definitions of functions, behaviours and structure by Rosenman and Gero are as given in <xref ref-type="table" rid="T3" id="57" class="deo:Reference">table 3</xref>. These definitions are more precise than the original ones. The definition of structure seems close to the original, but emphasises the structural nature of this notion by adding the physical term ‘material arrangement’. The definition of behaviour is explicitly describing what behaviours are: actions and processes of the artefact. Also the definition is now applicable to the actual behaviours B s of artefacts, and not merely to the subset of expected behaviours B e . This definition of behaviour can also be taken as a more precise version of the original definition of behaviour. This is, however, not the case for the definition of function. Originally functions were defined as intentions and purposes, but Rosenman and Gero tie function closely to behaviours, and drop the connection to intentions and purposes. Purpose is clearly an intentional concept and structure is a structural one. Hence, designing is still a transformation from an intentional description of an artefact to a structural description. A characterisation of behaviour and function relative to the intentional– structural divide is less straightforward. By its new definition, one can take behaviour as a structural concept. Behaviour is defined as the actions or processes an artefact exhibits given circumstances of the natural environment. And since Rosenman and Gero (1998) often refer to this environment as the natural physical environment, this seems to imply that the behaviours of an artefact consist of those actions or processes an artefact exhibits given circumstances of its physical environment. This clearly would make behaviour a</region>
+        <region class="unknown" id="52" page="4" column="2">2.2.2 The definitions of Rosenman and Gero</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="54" page="5" column="1">21</outsider>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="55" page="5" column="1">Table 3 The FBS definitions by Rosenman and Gero (1998).</caption>
+        </region>
+        <region class="unknown" id="56" page="5" column="1">Function: the results of the artefact’s behaviours. Behaviour: the artefact’s actions or processes in given circumstances of the natural environment. Structure: the elements of the artefact, the material arrangement of these elements and their connectivity.</region>
+        <region class="unknown" id="59" page="5" column="1">12</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="60" confidence="possible" page="5" column="1">The terminology used in Rosenman and Gero (1998) differs slightly from Gero’s earlier and later terminology. Rosenman and Gero (1998) speak about required instead of expected purposes, functions and behaviours. And their term for actual purpose is ‘utility’. We have changed this terminology in order to stress the continuity in (the development in) the work of Gero and his collaborators.</h1>
+        <region class="DoCO:TextChunk" id="62" page="5" column="2">structural concept. A consequence of this is that one should also take function as a structural concept, since a function is according to its new definition merely a result of the actions and processes an artefact exhibits, i.e. of the artefacts its behaviour. This latter conclusion is supported by one example, namely that ‘providing stable support for utensils’ is a function of a tabletop. 13 Another example that ‘providing an ambience’ may also be a function 14 rejects, however, this conclusion because the concept of ‘an ambience’ has only meaning relative to the desires of people. By this example one should alternatively take function as a mixed concept in the sense it can be structural as well as intentional. And behaviour is consequently also a mixed concept in the mentioned sense. Rosenman and Gero (1998) do not explicitly mention qualitative physics anymore as the theory that provides the means to derive behaviour from structure. Instead they characterise the reasoning from structure S to actual behaviours B s and from expected behaviours B e to structure S as causal reasoning. The reasoning from purpose P to expected functions F e and from actual functions F s to actual purpose P s is characterised as teleological reasoning. The reasoning involved in transitions between behaviour and function are not that univocally characterised. At one place it seems that Rosenman and Gero take the reasoning from expected functions F e to expected behaviours B e and from actual behaviours B s to actual functions F s as consisting of both causal and teleological reasoning. 15 At another place they write that at least the reasoning from expected functions to expected behaviours is teleological reasoning. 16 It can be noted, however, that from their definitions of function and behaviour it follows that only logic is needed to derive actual functions F s from actual behaviours B s : the functions of an artefact are the results of its behaviours thus if one knows the actual behaviours B s , one can simply infer the actual functions F s by focussing on only the results of these behaviours. And causal reasoning seems enough to derive expected behaviours B e from expected functions F e : if one knows an artefact’s expected function F e , one knows the result of the expected behaviour; knowledge of what kinds of behaviours can exist causally, then may provide the means to select a behaviour that exhibits this result. A new general picture emerges as depicted in <xref ref-type="fig" rid="F2" id="61" class="deo:Reference">figure 2</xref>. Given this new picture the transition from an intentional description of the artefact to a structural description is either located in the formulation step from purpose P to expected functions F e or, alternatively, divided over both this step P fi F e and the one from expected functions F e to expected behaviour B e .</region>
+        <region class="unknown" id="63" page="5" column="2">13 14 15 16</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="65" confidence="possible" page="5" column="2">Rosenman and Gero (1998, p. 168). Rosenman and Gero (1998, p. 170). Rosenman and Gero (1998, <xref ref-type="fig" rid="F3" id="64" class="deo:Reference">figure 3</xref>). Rosenman and Gero (1998,§ 3.1).</h1>
+        <outsider class="DoCO:TextBox" type="page_nr" id="66" page="6" column="1">22</outsider>
+        <region class="DoCO:FigureBox" id="F2">
+          <caption class="deo:Caption" id="67" page="6" column="1">Fig. 2 The FBS model by Rosenman and Gero (1998)</caption>
+        </region>
+        <region class="unknown" id="68" page="6" column="1">2.2.3 The present definitions</region>
+        <region class="DoCO:TextChunk" id="72" page="6" column="1">In a paper by Gero and Kannengiesser (2002) the FBS model of designing is extended in an yet another way by introducing the notions of ‘situatedness’ and ‘construc- tive memory’. This results in a model where the function, behaviour and structure that a designer uses are repre- sented in three ‘worlds’: the external world, the inter- preted world and the expected world. The eight steps that are originally linked function, behaviour and structure, as described earlier, can now be specified further, and this amount to a model of designing that counts twenty steps. In this more detailed model (which we will not present in order to spare the reader) the definitions of function, behaviour and structure are as in <xref ref-type="table" rid="T4" id="69" class="deo:Reference">table 4</xref>: These definitions, which may be taken as the ones that are presently in use by Gero and his collaborators, 17 is a move away from the 1998 definitions of Rosenman and Gero (<xref ref-type="table" rid="T3" id="70" class="deo:Reference">table 3</xref>), and partly back towards the original set of definitions (<xref ref-type="table" rid="T2" id="71" class="deo:Reference">table 2</xref>). Hence, they should not be seen as elaborations of those 1998 definitions. Function is now, as it was originally, tightly connected to the purposes of the artefact to be designed. Behaviour, on the other hand, is still firmly linked to the structure of the artefact. This puts the transition from the intentional to the structural at the steps from functions to behaviour.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="73" page="6" column="1">3 The internal clarity of the FBS model</h1>
+        <region class="DoCO:TextChunk" id="74" page="6" column="1">The discussion in the previous section has shown that the precise understanding of the steps that make up designing according to the FBS model, depends on the way function, behaviour and structure are defined. And since Gero and his collaborators have formulated different sets of definitions, some precise, some more colloquial, the understanding of the FBS model is ambiguous. The problems seem to focus on the notion of behaviour and on the precise location in designing of the transition from an intentional description of an artefact to a structural one. Let’s return to the original definitions discussed in section 2.2.1. As we already mentioned there, it can be challenged that the actual behaviours B s of an artefact can be derived from the structure S of that artefact. The</region>
+        <region class="unknown" id="75" page="6" column="1">17</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="76" confidence="possible" page="6" column="1">Kannengiesser (private communication, 2002).</h1>
+        <region class="DoCO:TableBox" id="T4">
+          <caption class="deo:Caption" id="77" page="6" column="2">Table 4 The FBS definitions by Gero (2002).</caption>
+          <content>
+            <table class="DoCO:Table" number="4" page="6">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Functions:</td>
+                  <td class="table"> the purposes of the design being</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> designed, i.e., its teleology.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Behaviours:</td>
+                  <td class="table"> attributes derivable from structure or</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> expected of structure.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Structure:</td>
+                  <td class="table"> the elements of an artefact and</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> their relationships.</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="78" confidence="possible" page="6" column="2">Functions: the purposes of the design being designed, i.e., its teleology. Behaviours: attributes derivable from structure or expected of structure. Structure: the elements of an artefact and their relationships.</region>
+        </region>
+        <region class="DoCO:TextChunk" id="79" page="6" column="2">window example of Gero and his collaborators support this challenge: light transmission is taken as a behaviour of a window, whereas this transmission is assumed to depend on the structure of the window as well as on the average sky illuminance. Examples given by Gero and Rosenman (1990) lend further support. In that paper, the ‘average time for erection must be less that T min is taken as a behaviour of a portable shelter, and so are ‘the construction costs’ in the case of a door. 18 It seems obvious that these behaviours do not depend solely on the structure of portable shelters or doors; the average skills of the shelter erectors and the prices of building materials, respectively, also determine these behaviours. From the perspective of the gap between the structural and intentional conceptual schemes, one can analyse this lack of precision as follows. Gero and his collaborators are certain that designing is a transformation of an intentional description of an artefact into a structural description: by all sets of definitions proposed, designing is a process that transforms purposes into structure. They are also certain about that behaviour is a kind of linking pin concept by which designers reason from those purposes to structure. But Gero and his collaborators are uncertain about where to place the notions of behaviour and function with respect to the structural–intentional divide. Originally and presently they take functions to be similar to purposes, which turns function into an intentional concept. And behaviour is taken as a concept that is partly intentional and partly structural. Rosenman and Gero (1998) separate the notions of function and purpose and shift functions from their original intentional place close to the hybrid place occupied by behaviour. Function becomes then a concept that is partly intentional and partly structural. This uncertainty about especially the definition of function reappears at the description of the types of reasoning designers employ. The type of reasoning em-</region>
+        <region class="unknown" id="80" page="6" column="2">18</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="81" confidence="possible" page="6" column="2">Gero and Rosenman (1990, p. 68).</h1>
+        <outsider class="DoCO:TextBox" type="page_nr" id="82" page="7" column="1">23</outsider>
+        <region class="DoCO:TableBox" id="T5">
+          <caption class="deo:Caption" id="83" page="7" column="1">Table 5 The design strategies as listed in Purcell et al. (1996).</caption>
+          <content>
+            <h1 class="table"> Analysis of the problem</h1>
+            <table class="DoCO:Table" number="5" page="7">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Analysing the Problem</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Consulting information</td>
+                  <td class="table"> the Problem</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Evaluating the Problem</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Postponing the Analysis</td>
+                  <td class="table"> the Problem</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Synthesising</td>
+                  <td class="table"> a Solution</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Proposing a Solution</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Clarifying a Solution</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Retracting a Previous</td>
+                  <td class="table"> Decision</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Making a Design</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Consulting External</td>
+                  <td class="table"> for Ideas</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Postponing a Design</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Looking Ahead</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Looking Back</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Evaluating a</td>
+                  <td class="table"> Solution</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Justifying a Proposed</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Analysing a Proposed</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Postponing an Analysis</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Performing Calculations</td>
+                  <td class="table"> Analyse</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> a Proposed Solution</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Evaluating a Proposed</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Explicit</td>
+                  <td class="table.strange"> Strategies</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Explicitly Referring to</td>
+                  <td class="table"> Knowledge</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Explicitly Referring to</td>
+                  <td class="table"> Knowledge</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Explicitly Referring to</td>
+                  <td class="table"> Strategy</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="84" confidence="possible" page="7" column="1">Analysis of the problem Analysing the Problem Consulting information about the Problem Evaluating the Problem Postponing the Analysis of the Problem Synthesising a Solution Proposing a Solution Clarifying a Solution Retracting a Previous Design Decision Making a Design Decision Consulting External Information for Ideas Postponing a Design Action Looking Ahead Looking Back Evaluating a Solution Justifying a Proposed Solution Analysing a Proposed Solution Postponing an Analysis Action Performing Calculations to Analyse a Proposed Solution Evaluating a Proposed Solution Explicit Strategies Explicitly Referring to Application Knowledge Explicitly Referring to Domain Knowledge Explicitly Referring to Design Strategy</region>
+        </region>
+        <region class="DoCO:TextChunk" id="85" page="7" column="1">ployed to relate functions with behaviour was originally characterised as mainly teleological reasoning. This made sense because function was an intentional concept and a concept truly different to behaviour. Rosenman and Gero (1998), however, closely link functions to behaviours and although they still seem to maintain that teleological and physical reasoning is needed to relate functions to behaviours, one can argue that due to the close link logical reasoning should be sufficient.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="86" page="7" column="1">4 The external validation of the FBS model</h1>
+        <region class="DoCO:TextChunk" id="87" page="7" column="1">In addition to developing the FBS model as a description of the steps that make up designing, the Key Centre for Computing has engaged in the analysis of empirical studies of designing for validating the model. In this section, we review some of the empirical work done at the Key Centre, to see if it indeed establishes the external validity of the FBS model of designing. Our review of the empirical work associated with the FBS model is mainly based on two papers in which Gero and his collaborators analyse the Delft Protocol Workshop data: 19 Purcell, Gero, Edwards and McNeill (1996) and Gero and McNeill (1998). This set of thinking aloud protocol data, that was gathered by the Delft design methodology group in close cooperation with colleagues from Stanford and Xerox PARC, was analysed by twenty design research groups. The core data set con- sisted of a thinking aloud protocol of one expert designer, and a transcript of an experienced design team at work. The stated aim of the FBS papers that dealt with this data is worded by Purcell et al. (1996) as a ‘report of</region>
+        <region class="unknown" id="88" page="7" column="1">19</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="89" confidence="possible" page="7" column="1">Cross, Christiaans and Dorst (1996).</h1>
+        <region class="DoCO:TextChunk" id="91" page="7" column="2">the process of development of our coding scheme and represents a number of examples of the application of this scheme [...]’. Here, we do want to use the papers in a slightly different way, namely to reflect upon the core of the FBS model. Both papers considered here are set up to see whether a set of a priori theoretical categories can be used to process the data. These categories include ‘function’, ‘behaviour’ and ‘structure’, accompanied by a rather straightforward categorisation of the level of abstraction (‘system’, ‘subsystem’, ‘detail’) and an extensive list of detailed design strategies (see <xref ref-type="table" rid="T5" id="90" class="deo:Reference">table 5</xref>). The origin of these design strategies is a bit mysteri- ous, but Purcell et al. (1996) state that they have gen- erated data. Reading through the various empirical papers that this research group has produced over the years, one sees a gradual development towards an ever more detailed list of design strategies. Some of the strategies found in earlier papers are dropped in later ones, as is the categorisation of strategies into ‘micro’ and ‘macro’ strategies. The early theoretical categorisation of synthesis-methods (into combination, mutation, analogy, first principles and emergence) is not applied to this data. Here we concentrate on the core theoretical notions of function, behaviour and structure. Purcell et al. (1996) report that the use of these by designers can be observed in the protocol data. And they report that function, behaviour and structure can be scored with a reasonable amount of inter-rater agreement. These reports suggest that the analysis of the Delft Protocol Workshop data has been set up to verify in some way the ‘empirical validity’ of the notions of function, behaviour and structure. This possibility actually touches upon a diffi- cult point in Gero’s modelling of design, for it is unclear what the relationship between FBS model and the empirical data should be. Gero and his collaborators could have several goals in mind for their FBS model: for instance, it could be that they aim to provide a better understanding of the way in which designers actually design, but it could also be their goal to provide the right means to system developers for building computer tools to aid designers and to even automate some of the design tasks. 20 These widely different goals lead to completely different criteria for the ‘quality’ of the FBS model, and to different roles of empirical data in the ‘validation’ of the model. If the FBS model is to provide a better understanding of the way in which designers actually design, it should properly reproduce the data of empirical studies of designing. But if it is to provide the right means to system developers to develop computer tools for designing, compliance to empirical data may become less important. The FBS model may then be validated if it meets the quality criterion of elegance or usefulness of the algorithms that it suggests to the developers of the tools—the model could also be validated if it provides</region>
+        <region class="unknown" id="92" page="7" column="2">20</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="93" confidence="possible" page="7" column="2">Gero (1990, p. 27).</h1>
+        <outsider class="DoCO:TextBox" type="page_nr" id="94" page="8" column="1">24</outsider>
+        <region class="DoCO:TextChunk" id="96" page="8" column="1">general categories for design statements that allow system developers to place well-categorised design statements in some framework where a computer might perform specific transformations upon them. In this case the FBS model need not necessarily reproduce the data of empirical studies of designing; a comparison of the model with empirical studies of real world designers becomes merely a check whether the algorithms or categories for design statements suggested by the model have been removed (too) far from design practice or not. Finally, it could also be that both of the above op- tions are wrong, and that we should see the use of this empirical study as a step to informally match some as- pects of the FBS model to design practice, as a step in the process of developing a comprehensive theory about design. This would point to the use of the empirical data in the context of an exploration that is common within a ‘grounded theory’ type approach. But this, too, is speculation. The fundamental unclarity in the papers we studied about the goals of the FBS model itself and its empirical validation in the end makes it hard to analyse and criticise the use of empirical data within the context of the FBS programme. A second remark is that it may be questioned whether the concepts of function and behaviour are defined clearly enough to be observable. Our analysis given in section 2 and 3, showed that, for instance, function can both be taken as the purposes of artefacts or as the results of the behaviour of artefacts. There may now be a reasonable amount of inter-rater agreement in the observation of functions, but this still does not tell us what is observed: purposes or results of behaviour? But let’s put these points aside and look at the analysis of the Delft Protocol Workshop data by Purcell et al. (1996) According to the FBS model ‘behaviour is the bat- tleground’ of designing, as Gero says. Designers derive a picture of expected behaviour from the functional description of the design problem. This expected behaviour is then the basis for a synthesis step resulting in a structure and this structure is analysed as having a specific actual behaviour. Designing progresses then by comparing this actual and expected behaviour, and modifying the structure in response to possible mis- matches between the two. Hence, from the FBS model one can draw the hypothesis that designers often use the concept behaviour. In figure 11.7 (Purcell et al. 1996, p. 247) we can see that a lot of design reasoning seems indeed to be connected to the behaviour of the artefact-to-be. The design process starts with an episode in which the function is considered, and after about 1/4 of the protocol thinking about structure starts up, becoming dominant towards the very end of the protocol. Structure and behaviour seem to alternate around the 50% level throughout the second half of the protocol. If we compare this to their figure 11.8, showing the graphs of the ‘analysis’, ‘syn- thesis’ and ‘evaluation’ activities against time, we can see that in the beginning of the process, behaviour must be associated with analysis-activity, while later on it prob- <marker type="column" number="2"/><marker type="block"/> ably correlates with analysis, synthesis and evaluation. So this would suggest a number of different uses of the ‘behaviour’ statements in that part of the design project. And this supports the hypothesis. This, however, does not provide evidence for the further claim that the basic steps that Gero associates with behaviour are sufficient in describing the design activity in the latter part of the design process. The data they provide is not detailed enough to see whether behaviour really is the central notion that Gero postulates. Thus the claim that the transition from function to structure can only be made through the arena of behaviour is not supported by the analysis of the Delft Protocol Workshop data. Another problem associated with the FBS model in all its guises is that of granularity. It is not clear at which level of detail the FBS model should be considered. The steps between function, behaviour and structure are described at a micro level, the level of subsequent actions by the designer. It is unclear whether the patterns of these operations are similar to the patterns one finds at the level of design strategies or complete design processes. The design process has many levels that may have a matching pattern. This seems to be assumed in a lot of design methodology literature (for instance, Roozenburg and Eekels (1995) report a ‘basic design cycle’ that recurs at several levels in a design project), but there are bound to be differences too. This problem of scale sur- faces in the empirical studies. The graphs with overviews of design processes that the analysis results in, just show a gradual transition from reasoning in terms of functions to behaviour to structure. That is far removed from the actual design decisions that are modelled by the eight or even twenty steps that link function, behaviour and structure in the FBS model.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="97" page="8" column="2">5 Conclusions and discussion</h1>
+        <region class="DoCO:TextChunk" id="104" page="8" column="2">In this critical study, we considered the internal clarity of the FBS model of designing as well as its external empirical validity. With respect to the internal clarity we have focused on the definitions of the concepts function, behaviour and structure of artefacts. These three concepts are the key concepts in terms of which the eight different designing steps of FBS model are defined, and can thus be taken as forming the conceptual framework of the model. We have argued that the definitions of function, behaviour and structure have changed over the last 12 years and that these changes defined at least two different versions of the FBS model. The first version is the originally one proposed in Gero (1990) and is based on the definitions of function, behaviour and structure listed in <xref ref-type="table" rid="T2" id="98" class="deo:Reference">table 2</xref>. The second version of the FBS model is the one considered in Rosenman and Gero (1998) and is based on the definitions listed in <xref ref-type="table" rid="T3" id="99" class="deo:Reference">table 3</xref>. The definitions presently advanced by Gero (2002), and listed in <xref ref-type="table" rid="T4" id="100" class="deo:Reference">table 4</xref>, give rise to a version of the FBS model of designing that seems similar to the original version. The differences between these versions were illustrated by locating the<marker type="page" number="9"/><marker type="column" number="1"/><marker type="block"/> transition of the intentional description of artefacts to the structural description of those artefacts in the versions. In the original version this transition is divided over both the formulation step F fi B e from function to expected behaviour and the synthesis step B e fi S from expected behaviour to structure. In the second Rosenman and Gero 1998-version, it is located either in the formulation step P fi F e from purpose to expected function, or divided over this step P fi F e and a second formulation step F e fi B e from expected functions to expected behaviour. And in the present situation, it seems located in the steps that transform expected functions to expected behaviour. In our view, the lack of precision in the definitions of especially function and behaviour is related to an uncertainty of Gero and his collaborators where to place especially the concept of function and behaviour with respect to the intentional– structural divide. With respect to the external empirical validity of the FBS model we have not achieved a satisfactory conclusion. The analysis of the Delft protocols does not support the FBS model if we take it as a (factual) description of design. The model could, of course, be a valuable starting point for the possible purposes we have listed in section 4 (theory development, tool development, etc). We close by highlighting some points of interest and concern. An innovation of the FBS model is its introduction of the notion of behaviour in the description of designing. But that notion is still problematic: it could be just a level of detail in talking about the design problem and solution, more than a definable concept. The very fact that it is connected or connectable to both function and structure by fairly weakly defined steps gives it a vague, ambiguous nature. It could be that the ‘behaviour’ we talk about in connection with functions (as a reformulation of functions in terms of the capacities the artefact- to-be has to have in order to exhibit these functions) cannot be equated to the ‘behaviour’ we talk about in connection with the structure of the artefact-to-be (which is the result of an analysis of that structure). These two kinds of ‘behaviour’ statements may look alike, in the sense that they are linguistically close together in form. But that does not mean that they are epistemically close, or can be logically linked or equated to one another. This possible difference between the two kinds of behaviour hinges on the context in which they are used. If the two kinds are used in completely separate contexts, then they may have to be distinguished from one another. One could, for instance, imagine that the ‘behaviour’ we talk about in connection with functions, refers to the capacities artefacts have in relation to specific use by skilled or less skilled users. And that the ‘behaviour’ we talk about in connection with the structure of artefacts, refers to the physical properties and dispositions artefacts exhibit. The two kinds of behaviour would then certainly be different: the average time for erection a portable shelter is in this case a behaviour<marker type="column" number="2"/><marker type="block"/> related to functions, but not one related to structure; and the average time of incineration of the shelter is a behaviour related to the structure but not one related to functions. This possibility raises immediately new questions about the transition between the intentional and the structural. Still, the idea of having one or more notions that serve as an ‘intermediary’ between intentional and structural thinking is an interesting one, and well worth developing. However, Gero may have oversimplified his description of the designing process by assuming that there exists just one single intermediary. In real-world design at least, all kinds of transitions are possible that do not adhere to the ‘clean’ Gero-type design steps from function via behaviour to structure. These transitions can partly be attributed to the many different and often deliberately ambiguous ways in which language is used in design activities. For instance, the need to bring a liquid from one place to the other (function) can give rise to the use of the word ‘pumping’ (still a function) which immediately suggests the use of a pump (structure). This is an opportunistic but valid step, made without explicitly considering the desired or actual behaviour of this pump (this may actually be a fundamental problem in modelling design thinking. Designing is an activity that is situated in practice, and consequently, everything is more or less allowed, as long as it leads to a satisfactory design). Gero and his collabora- tions know and recognise this, apparently, by identifying the knowledge designers use when they design as by their experience collected during earlier (alike) design tasks. Experiential knowledge is, of course, very rich and broad and its general nature (in the shape of extremely rich ‘design prototypes’) allows such steps from function directly to structure. This seems to present us with a dilemma: either Gero incorporates (accepts) all experiential knowledge and a wide use of design prototypes, and has to allow for different routes which bypass his eight or twenty steps of designing, or he has to extend the model by defining and incorporating the different bypasses. This brings us back to a point we grappled with earlier in this paper: it is, in the end, not sufficiently clear what the precise goals of FBS model are. If the model is meant to describe real world designing, then surely actions like the ‘jump’ from function to structure have to be incoporated in the FBS model. If the model would sereve other purposes, like theory development or tool development, then the incorporation of these ‘bypasses’ might be unwise. In the end, we need a clear statement statement about the goals of the FBS model before we can really formulate statements about its quality, as a function of its ability to reach these goals.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="102" page="9" column="1">25</outsider>
+        <region class="unknown" id="105" page="9" column="2">Acknowledgements</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="106" confidence="possible" page="9" column="2">The authors wish to thank Larry Bucciarelli and Jeroen de Ridder for their participation in the discussions that led to this paper. Research by Pieter Vermaas was part of the program ‘The Dual Nature of Technical Artefacts’, which is supported by the Netherlands Organisation of Scientific Research (NWO) and research efforts by the group.</h1>
+        <region class="unknown" id="107" page="9" column="2">Techne`</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="108" page="10" column="1">26</outsider>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="109" page="10" column="1">References</h1>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="110" confidence="possible" page="10" column="1">Bobrow DG (1984) (ed) Qualitative Reasoning about Physical Systems. Elsevier: Amsterdam. Reprinted from (1984) Artificial Intelligence 24 Crane T (1998) Intentionality. In: Craig, E. (Ed.) Routledge Encyclopedia of Philosophy, Volume 4. Routledge: London, pp 816–821 Cross NG, Christiaans HHCM, Dorst K (eds) (1996) Analysing Design Activity. John Wiley, Chichester Dorst CH (1997) Describing Design - A Comparison of Paradigms. PhD. thesis, Delft University of Technology Gero JS (1990) Design Prototypes: A Knowledge Representation Schema for Design. AI Magazine 11(4): 26–36 Gero JS (2002) Categorising Technological Knowledge From a Design Methodological Perspective. Paper presented at the conference ‘Technological Knowledge: Philosophical Reflec- tions’, Boxmeer, The Netherlands, June 13–15 Gero JS, Kannengiesser U (2002) The Situated Function-Behaviour-Structure Framework. In: Gero JS (ed) Artificial Intelligence in Design ‘02. Kluwer, Dordrecht, pp 89–104 Gero JS, McNeill T (1998) An Approach to the Analysis of Design Protocols. Design Studies 19:21–61 Gero JS, Rosenman MA (1990) A Conceptual Framework for Knowledge-Based Design Research at Sydney University’s</h1>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="112" confidence="possible" page="10" column="2">Design Computing Unit. Artificial Intelligence in Engineering 5(2):65–77 Gero JS, Tham KW, Lee HS (1992) Behaviour: A Link Between Function and Structure in Design. In: Brown DC, Waldron MB, Yoshikawa H (eds) Intelligent Computer Aided Design. Elsevier, Amsterdam, pp 193–225 Kroes PA, Meijers AWM (2002) The Dual Nature of Technical Artifacts: Presentation of a New Research Program. Techne 6(2), <ext-link ext-link-type="uri" href="http://scholar.lib.vt.edu/ejournals/SPT/v6n2/kroes.html" id="111">http://scholar.lib.vt.edu/ejournals/SPT/v6n2/kroes.html</ext-link> Purcell AT, Gero JS, Edwards H, McNeill T (1996) The Data in Design Protocols: The Issue of Data Coding, Data Analysis in the Development of Models of the Design Process. In: Cross NG, Christiaans HHCM, Dorst K (eds) Analysing Design Activity, Wiley, Chichester, pp 225–252 Roozenburg NFM, Eekels J (1995) Product Design: Fundamentals and Methods. Wiley, Chichester Rosenman MA, Gero JS (1998) Purpose and Function in Design: From the Socio-Cultural to the Techno-Physical. Design Studies 19:161–186 Searle JR (1995) The Construction of Social Reality. Free Press, New York Tham KW, Lee HS, Gero JS (1990) Building Envelope Design Using Design Prototypes. ASHRAE Transactions 96:508–520</h1>
+      </section>
+    </body>
+  </article>
+</pdfx>

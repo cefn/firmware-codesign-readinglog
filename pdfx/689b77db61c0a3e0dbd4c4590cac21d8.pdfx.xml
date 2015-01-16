@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>aac0c7e3dec784cc4fd0c241d714dd5ee9556ad564edcf80cf71ddaf3c3836aa</job>
+    <base_name>62jz</base_name>
+    <doi>10.1080/09544820903158835</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Journal of Engineering Design Vol. 20, No. 5, October 2009, 449–465</outsider>
+      <region class="DoCO:FigureBox" id="Fx2">
+        <image class="DoCO:Figure" src="62jz.page_001.image_01.png" thmb="62jz.page_001.image_01-thumb.png"/>
+      </region>
+      <region class="unknown" id="3">RESEARCH NOTE</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="4">Capturing users’ perceptions of valuable experience and meaning</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="5">Piia Nurkka</name>
+          <aff id="6">*</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Sari Kujala</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">Kirsi Kemppainen</name>
+        </contrib>
+      </contrib-group>
+      <footnote class="DoCO:Footnote" id="18" page="1" column="1">*Corresponding author. Email: <email id="17">piia.nurkka@tut.fi</email></footnote>
+      <region class="DoCO:TextChunk" id="9" confidence="possible">Department of Software Systems, Human-Centered Technology (IHTE), Tampere University of Technology, Tampere, Finland (Received 4 May 2008; final version received 17 March 2009 )</region>
+      <abstract class="DoCO:Abstract" id="10" confidence="possible">In this article, we argue that more ‘fit-to-user’ products can be designed by understanding the underlying influential factors of user experience. Those factors go beyond the functional needs of the user, and thus, more ‘fit-to-user’ products can be designed. This is especially important as technology becomes more and more ubiquitous and its usage is only task- and work-related. Usability-related goals of design for devices to be used in leisure and fun activities are not enough to evoke positive emotions and satisfaction. The relevant literature is reviewed to gather an understanding of the notion of the user’s impractical needs and aspirations, such as social, hedonistic, and emotional values and the meanings users attach to a product in a certain context. In addition, existing methods with similar aims are reviewed. This article reports a case study of the development of a tool to elicit user values and meanings. The tool is based on a projective psychological technique and it is recommended for use at the beginning of the design process to gather user data. Empirical experience of the usage of the tool is reported with implications for the design process. Keywords: user experience; user values; meaning; projective technique; product development</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="11" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="53" page="1" column="1">The notion of design can be understood as giving value to people using matter and form. Consequently, from the product development point of view, product value could be interpreted as an enduring quality of an object that can literally be increased through design ( <xref ref-type="bibr" rid="R7" id="12" class="deo:Reference">Cagan and Vogel 2002</xref>, <xref ref-type="bibr" rid="R43" id="13" class="deo:Reference">Shove et al. 2005</xref>). For that reason, designers have a place in the construction of value by styling and designing the appearance, function, and performance of the product. Therefore, understanding what is important for users – their needs, wants, and values – is fundamental in the definition of a new product. For example, <xref ref-type="bibr" rid="R7" id="14" class="deo:Reference">Cagan and Vogel (2002)</xref> point out that technological innovativeness or standard manufacturing will not help the product to succeed in the market if it does not connect with the values of users. The traditional usability paradigm in human–computer interaction (HCI) design has focused on task- and work-related issues (<xref ref-type="bibr" rid="R22" id="15" class="deo:Reference">Hassenzahl and Tractinsky 2006</xref>). The aim has been to understand human information processing and cognition in order to fulfil the needs of the user in<marker type="page" number="2"/><marker type="block"/> task completion to reach some specific goals. With task-related goals, it has been self-evident to emphasise the user’s utility values, such as achievement and efficiency, in design. However, it is increasingly clear that the uses of computing technology are reaching far beyond produc- tive tools to support work to other aspects of human life. Aspects such as providing rewarding social interactions and addressing the concerns of society as a whole are regarded as important (<xref ref-type="bibr" rid="R26" id="23" class="deo:Reference">Karat et al. 2004</xref>, <xref ref-type="bibr" rid="R41" id="24" class="deo:Reference">Sengers et al. 2005</xref>). In addition, it is considered advantageous to bring other aspects such as joy, excitement, pleasure, fun, and beauty into people’s lives with design as several authors suggest (e.g. <xref ref-type="bibr" rid="R16" id="25" class="deo:Reference">Frohlich 2004</xref>, <xref ref-type="bibr" rid="R18" id="26" class="deo:Reference">Gaver et al. 2004</xref>, <xref ref-type="bibr" rid="R22" id="27" class="deo:Reference">Hassenzahl and Tractinsky 2006</xref>, <xref ref-type="bibr" rid="R12" id="28" class="deo:Reference">Desmet and Hekkert 2007</xref>). Thus, to have an understanding about the human emotions is important in design. <xref ref-type="bibr" rid="R32" id="29" class="deo:Reference">Norman (2004)</xref>, for example, argues that the emotional side of design may be more critical to a product’s success than its practical elements. Objects in our lives are more than mere material possessions because of the meaning they bring to our lives. According to <xref ref-type="bibr" rid="R32" id="30" class="deo:Reference">Norman (2004)</xref>, a favourite object can have many different and intangible but important functions: it can be a symbol setting up a positive frame of mind, a reminder of pleasant memories, or sometimes an expression of one’s self. Such objects have some specific quality, like personal story or a set of memories, that ties us personally to this particular object. Since usability was found to be only one facet in the realisation of satisfaction and quality in human–product interaction, a broader design approach has been introduced. The concept of user experience was launched to introduce a holistic perspective on HCI and to initiate a design approach to satisfy human needs beyond the instrumental (<xref ref-type="bibr" rid="R22" id="31" class="deo:Reference">Hassenzahl and Tractinsky 2006</xref>). Several definitions and frameworks of user experience have since been presented to explain the concept and to illustrate the relevant elements in understanding what it consists of (e.g. <xref ref-type="bibr" rid="R15" id="32" class="deo:Reference">Forlizzi and Ford 2000</xref>, <xref ref-type="bibr" rid="R4" id="33" class="deo:Reference">Arhippainen and Tähti 2003</xref>, <xref ref-type="bibr" rid="R21" id="34" class="deo:Reference">Hassenzahl 2005</xref>, <xref ref-type="bibr" rid="R22" id="35" class="deo:Reference">Hassenzahl and Tractinsky 2006</xref>, <xref ref-type="bibr" rid="R12" id="36" class="deo:Reference">Desmet and Hekkert 2007</xref>). Basically, user experience refers to the experience a person gets when he/she interacts with a product in particular conditions. The key components presented in user experience models are the user, the product, and the context in which the interaction occurs. A user brings to the moment of interaction all his/her prior experiences and expectations, as well as, for example, his/her emotions and feelings, values, and physical characteristics (<xref ref-type="bibr" rid="R15" id="37" class="deo:Reference">Forlizzi and Ford 2000</xref>, <xref ref-type="bibr" rid="R4" id="38" class="deo:Reference">Arhippainen and Tähti 2003</xref>). The product influences the experience by means of factors, such as features, form, aesthetic characteristics, and usefulness. The context of use implies the various social and cultural settings in which the interaction occurs. However, although the main building blocks for designing for user experience are known, important questions still remain unanswered. The most important question from the design point of view is how to design for a user experience of good quality. To find the answer to that question, a number of other questions need to be explored: what kind of experiences involving technology people value, not just whether they find it useful; why a user feels that owning and using a certain technology product is important and motivating; what makes a user feel attached to a product, and on what grounds a user chooses a product (<xref ref-type="bibr" rid="R26" id="39" class="deo:Reference">Karat et al. 2004</xref>, <xref ref-type="bibr" rid="R38" id="40" class="deo:Reference">Sava s 2004</xref>, <xref ref-type="bibr" rid="R37" id="41" class="deo:Reference">Russo and Hekkert 2007</xref>). To set the stage for design, <xref ref-type="bibr" rid="R26" id="42" class="deo:Reference">Karat et al. (2004)</xref> suggest that a closer examination of people and what they value in life can lead to a better sense of how to address their needs regarding an increasingly varied use of technology. The emphasis should be on examination of the aspects that contribute to their quality of life. In fact, the utilitarian values of the user may be overridden by other values the design succeeds to support (<xref ref-type="bibr" rid="R18" id="43" class="deo:Reference">Gaver et al. 2004</xref>). <xref ref-type="bibr" rid="R9" id="44" class="deo:Reference">Cockton (2006)</xref>, for instance, emphasises user motivation in product usage. He presents the term worth to define the factors that motivate a user to use a certain product. The aim of the term is to set an umbrella term for the words ‘needs’ and ‘wants’, which are typically used to indicate people’s motivation. Besides human motivators, the term includes product motivators such as ‘quality’ as well. Furthermore, the concept of values has been widely used by researchers in marketing to explain the behaviour of consumers and segmenting consumers according to their values has been seen an important tool<marker type="page" number="3"/><marker type="block"/> in the strategic kit of marketing managers. For example, in the study of <xref ref-type="bibr" rid="R10" id="48" class="deo:Reference">Daghfous et al. (1999)</xref>, the impact of values on the adoption of innovations was researched. The study focused on a particular area of personal values because, to a certain extent, an individual’s inclination to adopt a new product reflects his/her level of attachment to or rejection of a system of values. The results of the study suggest that individual values have a significant impact on consumers’ inclinations to adopt new products. In addition, <xref ref-type="bibr" rid="R2" id="49" class="deo:Reference">Allen and Ng (1999)</xref> explored the influence of values on product ownership. The study results suggest that values affect product choice in two different ways, depending on the individual’s preference for either the product’s utilitarian or symbolic meaning. The first route is indirect, and the individual judges the product attribute by attribute and makes a piecemeal judgement. In this route, values have an effect on the evaluation of an individual tangible attribute. However, when the symbolic meaning is more important to the individual than the attributes, the judgement is affective in nature, and human values have a direct influence on product choice. In summary, there are several intangible aspects of products to be considered in design, which is not a straightforward task. A major challenge is to understand how user experience evolves and can be supported by design. The value of the product depends on users’ subjective evaluation. Thus, developers need tools for understanding users’ perceptions of valuable experience and meaning. These user perceptions are affected not only by users’ needs, but also their values, as <xref ref-type="bibr" rid="R1" id="50" class="deo:Reference">Allen (2000)</xref>, <xref ref-type="bibr" rid="R2" id="51" class="deo:Reference">Allen and Ng (1999)</xref>, and <xref ref-type="bibr" rid="R3" id="52" class="deo:Reference">Allen et al. (2002)</xref> have shown. In this article, we first review the literature to clarify the nature of user experience. The aim is to understand what kinds of concepts are important or related to user experience and need to be taken into account in designing for user experience. Next, we introduce a tool for eliciting what is meaningful and important for the user in relation to products; user values and meanings. This article serves a twofold purpose: (1) to increase the theoretical understanding of the construct of user values and meaning in relation to interactional products by unfolding the concept of user experience and (2) to introduce a tentative tool for user research and product development to help in designing products that are holistically fit for the user and cater to needs beyond the functional.</region>
+      <region class="unknown" id="20" page="1" column="1">ISSN 0954-4828 print/ISSN 1466-1837 online © 2009 Taylor &amp; Francis DOI: 10.1080/09544820903158835 <ext-link ext-link-type="uri" href="http://www.informaworld.com" id="19">http://www.informaworld.com</ext-link></region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="21" page="2" column="1">450</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="22" page="2" column="1">P. Nurkka et al.</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="46" page="3" column="1">Journal of Engineering Design</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="47" page="3" column="1">451</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="54" page="3" column="1">The concept of user experience</h1>
+        <region class="DoCO:TextChunk" id="91" page="3" column="1"> <xref ref-type="bibr" rid="R22" id="55" class="deo:Reference">Hassenzahl and Tractinsky (2006)</xref> have defined user experience as a consequence of a user’s internal state, the characteristics of the system, and the context in which the interaction takes place. User experience has been viewed from three different perspectives in the literature (<xref ref-type="bibr" rid="R22" id="56" class="deo:Reference">Hassenzahl and Tractinsky 2006</xref>). These perspectives are: human needs beyond the instrumental, the nature of experience, and emotion and affect. The first perspective focuses on holistic, aesthetic, and hedonic aspects of technology and links product attributes with human needs and values. The second perspective focuses on the situatedness and temporality of the use of technology. The last perspective, emotion and affect, focuses on the role of affect as an antecedent, a consequence, and a mediator of the use of technology and on positive emotional outcomes such as joy, fun, and pride. According to <xref ref-type="bibr" rid="R22" id="57" class="deo:Reference">Hassenzahl and Tractinsky (2006)</xref>, these three dimensions are depen- dent on each other and together they provide a holistic view of user experience. Technology needs to fulfil non-instrumental needs in a subjective, situated, complex, and dynamic usage situation. Therefore, the emphasis should be on asking what kind of experiences involving technology people value and why the user chooses to use the product. What motivates the user to use the technology beyond the functional reason and on what terms can he/she evaluate the experience? Next, we aim to seek answers to these questions by examining the factors affecting user–product relationships that in turn influence user experience.<marker type="page" number="4"/><marker type="block"/> To understand experience, it is useful to look at how the user’s long-lasting relationships with products are explained. In Sava s’s (2004) study, the product attachment is characterised by a strong wish on the part of the user to keep the product for a long time. This wish is born of a variety of reasons, including both instrumental and symbolic aspects. The latter can be explained in terms of the appropriateness of the product to the self-definition of individuals. Moreover, according to <xref ref-type="bibr" rid="R38" id="62" class="deo:Reference">Sava s (2004)</xref>, individuals have the tendency to associate their relationships with products with their past or present lives, interests, goals, social roles, and so forth. Moreover, in Wehmeyer’s (2007) study of users’ attachment to their mobile devices, the user-device attachment is reflected in the dimensions of perceived aesthetics (perceptions of the device’s beauty and aesthetics), perceived symbolism (meanings attached to and portrayed with the device), and perceived necessity (the device is considered necessary for communicating and socialising). <xref ref-type="bibr" rid="R37" id="63" class="deo:Reference">Russo and Hekkert (2007)</xref> identified five principles that trigger the experience of love in the user–product interaction. These principles were identified through an analysis of the reasons why people experience love when interacting with products. The first principle states that people love to use products that interact fluently. By fluent interaction <xref ref-type="bibr" rid="R37" id="64" class="deo:Reference">Russo and Hekkert (2007)</xref> refer to an optimal experience, a mental (cognitive) state of operation in which the person is fully immersed in an activity that involves processes such as interpretation, memory retrieval, and associations (‘flow’). Second, people love to use products that hold affective memories and act as reminders of these memories. These objects are carefully looked after and cherished. The third principle, symbolic (social) meaning, is not very different from the previous one, since objects that bring back memories do comprise symbolic meanings. However, the focus in the case of symbolic (social) meaning is on meanings that can be exposed to and/or perceived by others in a social environment. The fourth principle is the sharing of moral values; people love to use products through which they can share moral and ethical values. It is about a match between the product’s and users’ ethical and moral beliefs; it is a sense of being good to other people and to themselves. In addition, it enhances people’s personal values. The last principle refers to the product’s ability to gratify our senses; people love to interact with products that are physically pleasant. To summarise, the user–product relationship has an individual and subjective foundation. The existing research suggests some underlying influential factors that encourage the user’s attachment to a product. The most prominent are: the congruency between the user values and the user’s perception of product values; the user’s ability to express self-identity by meaning and associations evoked by the product, and the ability of the product to evoke affective responses by, for instance, an aesthetically pleasant appearance.<marker type="block"/> Values are, according to <xref ref-type="bibr" rid="R36" id="67" class="deo:Reference">Rokeach (1973)</xref>, enduring beliefs that certain processes (specific modes of conduct) or goals (end-state of existence) are better than others. In Schwartz’s (1994) words, values motivate people’s behaviour to strive to attain a desirable goal; they serve as a standard or criterion to guide them in their selection or evaluation of actions or things. Therefore, values can be seen as guiding principles in people’s lives, influencing user behaviour to help in reaching the things that really matter to the user (<xref ref-type="bibr" rid="R39" id="68" class="deo:Reference">Schwartz 1994</xref>). Values are not equal to a person, but they vary in relative importance, composing an ordered system of values. Their personal value preferences characterise people as individuals. While Rokeach and Schwartz talk about general human values, Kujala and Väänänen-Vainio- <xref ref-type="bibr" rid="R27" id="69" class="deo:Reference">Mattila (2009)</xref> identified categories of user values that give a conception of those values that can be involved in perceiving products. Examples of these are social and hedonistic values. Because of social values, people are motivated to share their favourite music through web 2.0 services to<marker type="page" number="5"/><marker type="block"/> feel relatedness with friends, whereas hedonistic values make people use products that give them pleasure and enjoyment. <xref ref-type="bibr" rid="R2" id="73" class="deo:Reference">Allen and Ng (1999)</xref> suggest that values shape users’ evaluation of products in two ways. First, users are evaluating a product’s utilitarian meaning and making a piecemeal, attribute-by-attribute judgement. Second, users are evaluating a product’s symbolic meaning with an affective, intuitive and holistic judgement. The latter type of judgement (based on the product’s symbolic meaning) is directly influenced by the values the individual holds, unfiltered by the matter of product features. Individuals who value a comfortable life may seek out and in turn have positive attitudes towards objects that bring about a comfortable life. Or individuals who want to be identified with a certain group associated with certain values important for the individual choose products that are associated with the group. Through the symbolic meaning of the product, the individual is able to achieve the desired goal (values the individual sets great store by).<marker type="block"/>  <xref ref-type="bibr" rid="R8" id="76" class="deo:Reference">Chapman (2005)</xref> states that users acquire meanings and not objects per se; objects simply provide a way of perceiving the meaning. Therefore, the user’s experience of the meaning can determine the value the product provides for the user (<xref ref-type="bibr" rid="R23" id="77" class="deo:Reference">Heskett 2002</xref>, <xref ref-type="bibr" rid="R6" id="78" class="deo:Reference">Boztepe 2007</xref>). According to <xref ref-type="bibr" rid="R13" id="79" class="deo:Reference">Dewey (1934)</xref>, every person as an individual responds to different aspects of an artwork and experiences it differently; they also give it a meaning in different ways. In a similar vein, we can assume that every user experiences products differently. In addition, <xref ref-type="bibr" rid="R8" id="80" class="deo:Reference">Chapman (2005)</xref> claims that designed objects and experiences provide a tangible means for us to engage with the world on an existential level, and the potency of objects in symbolically designating our particular being cannot be overstated. In other words, products are used not only as tools to perform a task, but also as tools to manifest self-identity and/or belonging to some cultural or social group. According to <xref ref-type="bibr" rid="R28" id="81" class="deo:Reference">LaSalle and Britton (2003)</xref>, people use both objective and subjective criteria to assign value. The term ‘objective criteria’relates to the essential nature of a product or the offering’s inherent value, e.g. the product’s material value, which is tangible and measurable. Subjective criteria are based on the symbolic or associative value of a product. Desmet and Hekkert (2007, p. 60) consolidate that by postulating:<marker type="block"/> According to <xref ref-type="bibr" rid="R13" id="84" class="deo:Reference">Dewey (1934)</xref>, emotion is the moving and cementing force when two things are interacting. Emotions select what is congruous (<xref ref-type="bibr" rid="R13" id="85" class="deo:Reference">Dewey 1934</xref>), changes the way we think, and serves as a constant guide to appropriate behaviour, steering us away from the bad and guiding us towards the good (<xref ref-type="bibr" rid="R32" id="86" class="deo:Reference">Norman 2004</xref>). According to <xref ref-type="bibr" rid="R32" id="87" class="deo:Reference">Norman (2004)</xref>, emotions are inseparable from and a necessary part of cognition, although much of it is subconscious. Many things in the environment have already been judged and determined as good or bad by the affective system before they reach consciousness; then the cognitive system interprets and makes sense of the world. <xref ref-type="bibr" rid="R32" id="88" class="deo:Reference">Norman (2004)</xref> postulates that in emotional reactions surface appearance and behavioural utility play relatively minor roles, but what matters is the history of interaction, the associations people have with the objects, and the memories they evoke. Emotions reflect our personal experiences, associations, and memories (<xref ref-type="bibr" rid="R32" id="89" class="deo:Reference">Norman 2004</xref>). In addition, they may provide attachment to a product or cause detachment from it (<xref ref-type="bibr" rid="R38" id="90" class="deo:Reference">Sava s 2004</xref>).</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="59" page="4" column="1">452</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="60" page="4" column="1">P. Nurkka et al.</outsider>
+        <region class="unknown" id="61" page="4" column="1">User–product relationship</region>
+        <region class="unknown" id="66" page="4" column="1">Conception of values</region>
+        <outsider class="DoCO:TextBox" type="header" id="71" page="5" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="72" page="5" column="1">453</outsider>
+        <region class="unknown" id="75" page="5" column="1">Meaning</region>
+        <region class="unknown" id="83" page="5" column="1">Through cognitive processes, like interpretation, memory retrieval, and associations, we are able to recognize metaphors, assign personality or other expressive characteristics, and assess the personal or symbolic significance of products. Affective state and emotion</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="92" page="6" column="1">454</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="93" page="6" column="1">P. Nurkka et al.</outsider>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="94" page="6" column="1">Developing a method for identifying values</h1>
+        <region class="DoCO:TextChunk" id="138" page="6" column="1">Designing for user experience is not a straightforward task. Values, perceived meaning, and affect seem to be important aspects in the constitution of user experience. Grounded in an analysis of the literature presented above, a need for a cost-efficient tool for eliciting a user’s perception of valuable experience and meaning in a certain context was recognised. The aim of the tool is to identify the underlying reasons affecting user behaviour and experience in the interaction. The goal is to develop a cost-efficient tool for identifying user values and needs regarding product usage. An additional aim is eliciting the meanings users attach to a certain product in a context. Next, we introduce existing methods with related aims. Then, we explain the process of the development of the tool, and finally, we report a case study to present the usage of the tool. <marker type="block"/> There are several existing methods for identifying the reasons for human behaviour and to elicit the needs and wants of people. Most of the methods explaining human behaviour are surveys that originate from psychology and sociology but have been developed further for marketing purposes. In design, different types of projective techniques have been used to find out what is important for users. The personal values perspective on the marketing of consumer products uses a survey research methodology combined with a classification scheme to categorise respondents into predetermined groups of social entities according to their dominant values (<xref ref-type="bibr" rid="R34" id="97" class="deo:Reference">Reynolds 1985</xref>). Examples of questionnaires with a social psychology background are the Rokeach Value Survey (RVS) (<xref ref-type="bibr" rid="R36" id="98" class="deo:Reference">Rokeach 1973</xref>) and Schwartz Value Survey (SVS) (<xref ref-type="bibr" rid="R39" id="99" class="deo:Reference">Schwartz 1994</xref>). In addition, the List of Values (LOV) (<xref ref-type="bibr" rid="R30" id="100" class="deo:Reference">Mowen and Minor 1998</xref>) and VALS (originally named Values and Lifestyles) methodology of the Stanford Research Institute (<xref ref-type="bibr" rid="R44" id="101" class="deo:Reference">SRI Consulting Business Intelligence 2006</xref>) are used to understand motivations that stimulate consumer behaviour. The RVS questionnaire asks respondents about the importance they attach to two sets of instrumental and terminal values. The questionnaire is standardised and all the respondents answer the same set of items. That enables the identification of the most important values to a given group of consumers (<xref ref-type="bibr" rid="R30" id="102" class="deo:Reference">Mowen and Minor 1998</xref>). SVS and LOV have been further developed from RVS. SVS is a questionnaire designed to identify the value orientation of 10 motivational value types of a respondent. The values used in the survey are formed on the basis of human needs and therefore they can be categorised on the basis of which needs they fulfil. The goal of the LOV questionnaire is to assess the respondent’s dominant values from the available nine and consider adaptation to various roles through value fulfilment. The questions asked are grouped to focus on different aspects: values that are internal in nature, values that focus on the external world, and values that measure respondents’ interpersonal orientations (<xref ref-type="bibr" rid="R30" id="103" class="deo:Reference">Mowen and Minor 1998</xref>). VALS is a questionnaire to segment consumers into eight segments, each of which has a unique combination of psychological attributes and demographics that underlie consumer decision-making. The classifications of consumers enable products or services to be positioned for a group of people who share general human values, i.e. overall value orientation (<xref ref-type="bibr" rid="R31" id="104" class="deo:Reference">Ng et al. 2007</xref>). However, that is only a part of the information on how values relate to individual products and their purchase decisions. The linkages between the product and its attributes and the personally relevant role it has in the life of a consumer also need to be understood (<xref ref-type="bibr" rid="R20" id="105" class="deo:Reference">Gutman 1997</xref>, <xref ref-type="bibr" rid="R35" id="106" class="deo:Reference">Reynolds and Gutman 2001</xref>). The means-end approach allows the researcher to ‘dig’ below the consumers’ surface knowledge about the product attributes and the functional consequences to their deeper beliefs and meanings about the psychosocial consequences and the value satisfaction the product creates (<xref ref-type="bibr" rid="R20" id="107" class="deo:Reference">Gutman 1997</xref>, <xref ref-type="bibr" rid="R33" id="108" class="deo:Reference">Peter and Olson 2005</xref>). The means-end theory proposes that product attributes are<marker type="page" number="7"/><marker type="block"/> a means for consumers to obtain desired ends, namely values through the consequences of those attributes and provides a useful framework to better understand how consumers perceive value. To reveal means-end chains, a semi-structured in-depth interviewing technique called ‘laddering’ has been developed. In the interview, respondents are asked to describe why something is important to them; then researchers elicit linkages between the key perceptual elements across the range of product attributes, consequences, and values by asking questions that probe the answers (<xref ref-type="bibr" rid="R20" id="112" class="deo:Reference">Gutman 1997</xref>, <xref ref-type="bibr" rid="R35" id="113" class="deo:Reference">Reynolds and Gutman 2001</xref>). In summary, there are several different techniques in use to identify values in marketing research. The psychological surveys aim to identify general psychological values that are not so easy to utilise in product development. The consumer value inventories segment people according to their beliefs. However, as <xref ref-type="bibr" rid="R6" id="114" class="deo:Reference">Boztepe (2007)</xref> points out, while these segment groupings can help in the general positioning of a product, they fall short in helping designers to identify details necessary to design user interactions and experience of using the product in a particular context. In addition, for example, the laddering technique requires people to verbalise values that are not necessarily easy to articulate. Moreover, the values may be an issue that is too personal and sensitive to talk about aloud in an interview situation.<marker type="block"/> Projective techniques are qualitative research methods that are useful when it is felt that a typical direct questionnaire may not be appropriate in providing the information sought (<xref ref-type="bibr" rid="R19" id="117" class="deo:Reference">Greatorex 2005</xref>). By using projective techniques, information can be elicited that people cannot or will not verbalise in more direct, verbal measures, such as interviews and surveys. Instead of being questioned directly, the subject may be asked to respond indirectly, either by using ambiguous stimuli or talking about other people’s feelings, attitudes, and opinions, or about objects or situations. As the stimuli used are very ambiguous, the individual’s reactions give information about his/her most fundamental way of thinking and behaving and reveal subjective thoughts and emotions. In addition, if talking about a third party or object, the subject projects his/her covert feelings onto the third party or object; subsequently, these may be discussed (<xref ref-type="bibr" rid="R14" id="118" class="deo:Reference">Donoghue 2000</xref>). Techniques are usually subdivided into five categories of methods relating to the task a respondent is asked to perform. The categories are: association (connecting the research object with words, images, or thoughts); completion (finishing sentences, stories, or arguments); construction (answering questions about the feelings, beliefs, or behaviours of other people, completing speech bubbles in a cartoon); choice ordering (ranking product benefits); and expressive (role-playing, storytelling, drawing, or other creative activities) (<xref ref-type="bibr" rid="R25" id="119" class="deo:Reference">Hoyer and MacInnis 2007</xref>). Different projective techniques can be used as a supplement in other qualitative research approaches (e.g. in focus groups (<xref ref-type="bibr" rid="R11" id="120" class="deo:Reference">Dalbec 2001</xref>) and cultural probes (<xref ref-type="bibr" rid="R17" id="121" class="deo:Reference">Gaver et al. 1999</xref>)). Several examples of the usage of projective techniques in marketing can be found in the literature. These include, for example, studies on motivation that drive consumers to create their own personal home page on the web (<xref ref-type="bibr" rid="R47" id="122" class="deo:Reference">Zinkhan et al. 1999</xref>), study brand image, and develop projective techniques to collect the data (<xref ref-type="bibr" rid="R24" id="123" class="deo:Reference">Hofstede et al. 2007</xref>), and a study with different projective techniques to explore innovative methodologies for child-centric consumer research (<xref ref-type="bibr" rid="R5" id="124" class="deo:Reference">Banister and Booth 2005</xref>). In design the main usage of projective techniques is probably in (cultural) probes (<xref ref-type="bibr" rid="R29" id="125" class="deo:Reference">Mattelmäki 2006</xref>). Cultural probes are a set of packages of, for example, maps, postcards, and other materials with tasks designed specifically for the research setting to provoke inspirational responses from the subject (<xref ref-type="bibr" rid="R26" id="126" class="deo:Reference">Karat et al. 2004</xref>). Cultural probes can be seen as a projective approach as the aim with probing is to provoke and stimulate the participants to react to them. <xref ref-type="bibr" rid="R45" id="127" class="deo:Reference">Voida and Mynatt (2005)</xref> used a version of cultural probes designed specifically to elicit data about values from families. The different probe activities were designed to tap into potential everyday life value<marker type="page" number="8"/><marker type="block"/> manifestations. The designed probe activities included answering questions on how they portray themselves and what is important in life. In summary, projective techniques seem promising in discovering significant meanings that users have difficulties verbalising or that are sensitive. These can be, for example, the unconscious values of users in a particular use context. They help in examining the activities related to the product and <xref ref-type="bibr" rid="R6" id="131" class="deo:Reference">Boztepe (2007)</xref> suggests that this makes it possible to learn the specific ways through which the product leads to desirable consequences. On the other hand, the use of projective techniques requires a lot of interpretation and the analysis can be demanding, especially if the technique chosen produces ambiguous data.<marker type="block"/> After reviewing the different research methods to study the not-easily-articulated needs and wants of the user, several aspects regarding the properties of the tool were apparent. First, the tool should identify unconscious values of the user that are not general, but which is possible to attach to a certain context. Second, the data should be relatively simple to analyse. And last, the data should be relatively fast to collect. With reference to our requirements, a sentence completion technique seemed to have potential for fulfilling them. Sentence completion is originally a projective psychological technique, but soon it was adapted for consumer psychology. In the sentence completion tool, a person is asked to complete incomplete sentences. For example, Hoyer and MacInnis (2007, p. 60) describe a study in which cigarette smokers were asked why they smoked. Most of the smokers said they enjoyed it and believed that smoking in moderation was fine. However, when they were given incomplete sentences such as ‘People who never smoke are ’, respondents filled in the blanks with words like happier and wiser. And when given sentences such as ‘Teenagers who smoke are ’, respondents answered with words like crazy and foolish. <xref ref-type="bibr" rid="R25" id="134" class="deo:Reference">Hoyer and MacInnis (2007)</xref> conclude that these smokers were clearly more concerned about smoking than their explicit answers given in interviews indicated. In a similar vein, people are not always aware of their values and may find it difficult to discuss them or the values of others. Thus, sentence completion tool seems to be a more promising technique for identifying user values than the typically used questionnaires. Furthermore, the questionnaires used by <xref ref-type="bibr" rid="R42" id="135" class="deo:Reference">Sheth et al. (1991)</xref>, for example, seem to lead respondents, as they are directly asked whether each of the emotions or other values is associated with a certain service. In addition, the results are easier to analyse than with most of the projective techniques as the results are in written form describing the first reaction or association of the person to the given topic.<marker type="block"/> For identifying user values and associations to a certain context, it is useful first to develop general sentences for probing a person’s general way of reacting to life and the topic in focus. These general sentences should be open enough not to lead respondents to answer according to expectations. However, more focused sentences are then needed to probe which of the value categories is important to the user, how these appear to him/her, and what kind of meanings he/she attaches to them. Thus, the identified categories of values can be used to produce probes for each category. Another important matter in sentence developing is to ensure the sentences are valid for everyone to answer. For example, ‘My dog ’ is not a valid sentence as not everyone has a dog. In addition, leading questions should be avoided (e.g. ‘I hate dogs, as ’ is difficult to answer, if the subject loves dogs).</region>
+        <region class="unknown" id="96" page="6" column="1">Existing methods, surveys and interviews</region>
+        <outsider class="DoCO:TextBox" type="header" id="110" page="7" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="111" page="7" column="1">455</outsider>
+        <region class="unknown" id="116" page="7" column="1">Projective techniques</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="129" page="8" column="1">456</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="130" page="8" column="1">P. Nurkka et al.</outsider>
+        <region class="unknown" id="133" page="8" column="1">A sentence completion tool for identifying meaning and values</region>
+        <region class="unknown" id="137" page="8" column="1">Developing sentences</region>
+        <outsider class="DoCO:TextBox" type="header" id="139" page="9" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="140" page="9" column="1">457</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="141" page="9" column="1">Case study</h1>
+        <region class="DoCO:TextChunk" id="159" page="9" column="1">To demonstrate the use of the sentence completion tool, a case study was performed as a part of a larger research project. The research project aims at developing tools and practices to identify and utilise user needs and values in technology development work. The case study reported here demonstrates a study to test the sentence completion tool in a case study during January– February 2008 with a topic given by an industrial partner operating in the sphere of information and communication technology. The goal of the case study was to understand and uncover hidden needs and values related to computer usage, with the focus on users having little or almost no experience of using a computer. The company was interested in learning about users and user experience in a context that was different and unfamiliar to them. The goal of the company was, therefore, to get inspiration for possible new product or service innovations for their own sphere with an in-depth understanding of the users. The explicit aims were to identify what kind of knowledge and attitudes the users with little experience of computers have concerning computers and the Internet, what kind of meaning they attach to it, what they generally do or would like to do with a computer, and what kind of features of a computer would be the most relevant for them. Two different groups were chosen to get a good overview: people in working life and retired people. <marker type="block"/> To improve the reliability of the sentence completion tool, a pilot test was conducted prior to the actual user study. The sentences were formulated on the basis of the aims of the study and according to seven previously identified value categories: social, emotional and hedonistic, stimulation and epistemic, growth and self-actualization, traditional, safety, and universal values (Kujala and Väänänen-Vainio-<xref ref-type="bibr" rid="R27" id="144" class="deo:Reference">Mattila 2009</xref>). In addition, some general multiple-choice questions were included in the form to gather basic information about the respondent. These questions included, for example, owning a computer, having an Internet connection, computer usage density, and place of usage. Moreover, to clarify further the respondents’ wishes and wants related to computers, a multiple-choice question: ‘I would like to use a computer for. . .’ was generated. However, in this article only the result from the sentence completion tool is discussed. The first set of sentences was tested with five persons, aged between 37–62 years old, who had little or no experience with computers. <xref ref-type="table" rid="T1" id="145" class="deo:Reference">Table 1</xref> shows some examples of the 30 incomplete pilot sentences and responses. The results of the pilot study were used to reformulate some sentences to better probe the answers. In addition, the number of sentences was reduced to 26 sentences to limit the effort and time needed to complete the sentences.<marker type="block"/> After the pilot study was performed, inexperienced computer users were recruited for the actual case study. Both people of working age and retired people were recruited. With these two groups, we hoped to be able to recognise different conceptions of values. The criterion for participation was inexperience but some motivation and interest towards using a computer. The user participants were recruited from among the participants in entry-level computer courses in Tampere, Finland. Additionally, one participant belonging to the user group was found through the circle of acquaintances of the researchers. Altogether six courses with 5–10 attendees were contacted and visited at the beginning of the course to hand out the sentence completion<marker type="page" number="10"/><marker type="block"/> form face-to-face. All the course participants were given the chance to take part in the study as they conformed to the criteria for participation in the study. When they were given the form, they were instructed to fill it in at home and send it back to the researchers by mail in a postage-paid envelope that was given to them. In the instructions, emphasis was placed on the importance of writing down their first thought or association to end the sentence. As compensation, a movie ticket was sent to each respondent after receipt of the completed form. To receive the form took no longer than a week from the date of distribution. Altogether, 38 responses were received out of 42 distributed. One received response was rejected because it had been insufficiently completed. The basic information on the respondents is presented in <xref ref-type="table" rid="T2" id="153" class="deo:Reference">Table 2</xref>. The average age of the participants was 65, with a range from 40 to 77. There were 24 females and 13 males in the respondent group. Among them, 22% of the participants used a computer on a daily basis, 43% on a weekly basis, and 30% less frequently. The most common place to use a computer was at home, and nearly everyone had their own computer. Only six persons did not have a computer. Two persons out of those owning a computer did not have Internet access at home. The occupational backgrounds of the respondents varied from an unemployed person to a retired dentist.<marker type="block"/> The final questionnaire of 26 incomplete sentences was developed on the basis of the pilot answers. <xref ref-type="table" rid="T3" id="156" class="deo:Reference">Table 3</xref> shows examples of the final sentences and examples of users’ responses. The respondents are handled as one group in the analysis as no major differences between the initial user groups of retired and working people were found. In this article, we describe the main findings of the sentence completion tool study, concentrating on the ability of the tool to identify important values and meanings users attach to the usage of computers.<marker type="block"/> First, the data were transformed into electronic format to make the analysis easier. Then the answers from each participant were grouped question by question. Next, the answers for every sentence</region>
+        <region class="unknown" id="143" page="9" column="1">Pilot study</region>
+        <region class="unknown" id="147" page="9" column="1">User participants</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="149" page="10" column="1">458</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="150" page="10" column="1">P. Nurkka et al.</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="151" page="10" column="1">Table 1. Examples of incomplete sentences and users’ responses in the pilot study.</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="10">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Category of values</td>
+                  <td class="table"> Example pilot sentences</td>
+                  <td class="table"> Completion by pilot users</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> General</td>
+                  <td class="table.strange"> At home, I spend my time . . .</td>
+                  <td class="table.strange"> . . . doing housework and handicrafts and</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Social values</td>
+                  <td class="table"> If my children saw me using a</td>
+                  <td class="table"> . . . would advise me</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> computer, he/she . . .</td>
+                  <td class="table"> . . . would wonder</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Using a computer is embarrassing</td>
+                  <td class="table"> . . . I cannot use it</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> if . . .</td>
+                  <td class="table"> . . . it is a very old model</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Emotional/hedonistic values</td>
+                  <td class="table"> I enjoy . . .</td>
+                  <td class="table"> . . . taking a sauna</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . silence and foot massage</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Stimulation and epistemic</td>
+                  <td class="table.strange"> If I used a computer at home, I</td>
+                  <td class="table.strange"> . . . all kinds of things</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> values</td>
+                  <td class="table.strange"> would like to know . . .</td>
+                  <td class="table.strange"> . . . how much it costs</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Growth and self-actualization</td>
+                  <td class="table.strange"> In computer issues, I would be</td>
+                  <td class="table.strange"> . . . I learned to use it more</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> values</td>
+                  <td class="table.strange"> content with myself if . . .</td>
+                  <td class="table.strange"> . . . I managed to solve a problem by</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Traditional values</td>
+                  <td class="table.strange"> I have not used a computer</td>
+                  <td class="table.strange"> . . . I do not have one</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> because . . .</td>
+                  <td class="table.strange"> . . . at home I want to concentrate on other</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Safety values</td>
+                  <td class="table.strange"> Worrying about computers is . . .</td>
+                  <td class="table.strange"> . . . finding examples of violence</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . viruses</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Universal values</td>
+                  <td class="table.strange"> Having their own computer helps</td>
+                  <td class="table.strange"> . . . information about whatever is needed</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> people to achieve . . .</td>
+                  <td class="table.strange"> . . . contacts all over the world</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="152" confidence="possible" page="10" column="1">Category of values Example pilot sentences Completion by pilot users General At home, I spend my time . . . . . . doing housework and handicrafts and reading Social values If my children saw me using a . . . would advise me computer, he/she . . . . . . would wonder Using a computer is embarrassing . . . I cannot use it if . . . . . . it is a very old model Emotional/hedonistic values I enjoy . . . . . . taking a sauna . . . silence and foot massage Stimulation and epistemic If I used a computer at home, I . . . all kinds of things values would like to know . . . . . . how much it costs Growth and self-actualization In computer issues, I would be . . . I learned to use it more values content with myself if . . . . . . I managed to solve a problem by myself Traditional values I have not used a computer . . . I do not have one because . . . . . . at home I want to concentrate on other things Safety values Worrying about computers is . . . . . . finding examples of violence . . . viruses Universal values Having their own computer helps . . . information about whatever is needed people to achieve . . . . . . contacts all over the world</region>
+        </region>
+        <region class="unknown" id="155" page="10" column="1">Identifying values: results</region>
+        <region class="unknown" id="158" page="10" column="1">Analysing the results</region>
+        <outsider class="DoCO:TextBox" type="header" id="160" page="11" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="161" page="11" column="1">459</outsider>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="162" page="11" column="1">Table 2.</caption>
+          <content>
+            <h1 class="table"> User participants. Total</h1>
+            <table class="DoCO:Table" number="3" page="11">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> N</th>
+                  <th class="table"> %</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Respondents</td>
+                  <td class="table"> 37</td>
+                  <td class="table"> 100</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Age</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Under 60 years</td>
+                  <td class="table"> 12</td>
+                  <td class="table"> 32</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 60+years</td>
+                  <td class="table"> 25</td>
+                  <td class="table"> 68</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Gender</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> M (male)</td>
+                  <td class="table"> 13</td>
+                  <td class="table"> 35</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> F (female)</td>
+                  <td class="table"> 24</td>
+                  <td class="table"> 65</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Daily users</td>
+                  <td class="table"> 8</td>
+                  <td class="table"> 22</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Weekly users</td>
+                  <td class="table"> 16</td>
+                  <td class="table"> 43</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Less frequent users</td>
+                  <td class="table"> 11</td>
+                  <td class="table"> 30</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Pc at home</td>
+                  <td class="table"> 31</td>
+                  <td class="table"> 84</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Internet at home</td>
+                  <td class="table"> 29</td>
+                  <td class="table"> 78</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Using PC at home</td>
+                  <td class="table"> 22</td>
+                  <td class="table"> 59</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Using PC at work</td>
+                  <td class="table"> 7</td>
+                  <td class="table"> 19</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Using PC at public</td>
+                  <td class="table"> 5</td>
+                  <td class="table"> 14</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="163" confidence="possible" page="11" column="1">User participants. Total N % Respondents 37 100 Age Under 60 years 12 32 60+years 25 68 Gender M (male) 13 35 F (female) 24 65 Daily users 8 22 Weekly users 16 43 Less frequent users 11 30 Pc at home 31 84 Internet at home 29 78 Using PC at home 22 59 Using PC at work 7 19 Using PC at public 5 14</region>
+        </region>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="164" page="11" column="1">Table 3.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="165" confidence="possible" page="11" column="1">Examples of incomplete sentences and users’ responses in the case study.</region>
+        <region class="DoCO:TextChunk" id="166" confidence="possible" page="11" column="1">Example sentences Examples of completion by users At home, I want . . . . . . to relax and enjoy; to be at peace . . . to use and to learn to use the computer at my own place If a family member saw me using a computer, he/she . . . . . . would support me and be happy that I was trying . . . would laugh . . . would be very eager to help If one of my friends saw me using a computer, he/she . . . . . . would be surprised . . . would commiserate with sorrow . . . would be happy and supportive The feeling(s) a computer arouses in me . . . . . . are positive feelings and interest . . . are negative; anger . . . is fear that I cannot handle it In my opinion, a computer . . . . . . is a handy, useful tool . . . is necessary for many things . . . is essential When I use a computer, I would like to know . . . . . . more about the functions and features . . . if there are other people as slow to learn I would like to have a computer . . . . . . that is easier to understand to control . . . that is foolproof . . . that is a laptop model If I do not overcome my problems with a technical device, I . . . . . . ask my family . . . contact experts or technical support . . . don’t use them anymore! I use a computer because . . . . . . I need it . . . I want to learn new things . . . it is needed now and in the future A fear with computers can be . . . . . . addiction and overuse . . . to get viruses that I send on Computers may cause . . . . . . stress and tiredness . . . problems with social intercommunication and isolation from the community The Internet . . . . . . is an excellent source of information . . . is impressive; a way to reach the world . . . is versatile in both good and bad ways</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="167" page="12" column="1">460</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="168" page="12" column="1">P. Nurkka et al.</outsider>
+        <region class="DoCO:TableBox" id="T4">
+          <caption class="deo:Caption" id="169" page="12" column="1">Table 4. Examples of grouping of the answers.</caption>
+          <content>
+            <table class="DoCO:Table" number="4" page="12">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Examples of different</td>
+                  <td class="table"> Examples of the result</td>
+                  <td class="table"> Identified basic</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Sentences</td>
+                  <td class="table.strange"> answers</td>
+                  <td class="table.strange"> of grouping</td>
+                  <td class="table.strange"> values</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> At home, I would like to use</td>
+                  <td class="table"> . . . to view photos</td>
+                  <td class="table"> . . . to help in practicalities</td>
+                  <td class="table"> Utilitarian and social</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> a computer . . .</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> values</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . to find information,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> banking services and</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> e-mail</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . to find information and</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> make internet calls as soon</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> as I learn to use it</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . alone</td>
+                  <td class="table.strange"> . . . alone and independently</td>
+                  <td class="table.strange"> Emotional values (e.g.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . in private (in peace)</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> privacy)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> When using a computer, it</td>
+                  <td class="table.strange"> . . . some information went to</td>
+                  <td class="table.strange"> . . . I made mistakes and</td>
+                  <td class="table.strange"> Emotional values (e.g.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> would be embarrassing</td>
+                  <td class="table.strange"> the wrong place</td>
+                  <td class="table.strange"> lost some important</td>
+                  <td class="table.strange"> embarrassment)</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> if . . .</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> information</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . I lost important</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> information</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . it got stuck</td>
+                  <td class="table.strange"> . . . there were disorders</td>
+                  <td class="table.strange"> Utilitarian values</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . it didn’t work</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . I often needed to ask for</td>
+                  <td class="table.strange"> . . . I needed to ask for help</td>
+                  <td class="table.strange"> Emotional values (e.g.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> help from an outsider</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> embarrassment),</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> values</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . I needed constantly to ask</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> for help</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . A professional computer</td>
+                  <td class="table.strange"> . . . I was watched while</td>
+                  <td class="table.strange"> Emotional values (e.g.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> user sat by me and watched</td>
+                  <td class="table.strange"> using a computer</td>
+                  <td class="table.strange"> awkwardness),</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> over me</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> values</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . someone followed what I</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> was doing</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . I could not understand a</td>
+                  <td class="table.strange"> . . . I did not know what</td>
+                  <td class="table.strange"> Self-actualisation</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> thing</td>
+                  <td class="table.strange"> to do</td>
+                  <td class="table.strange"> emotional values</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> . . . I could not proceed</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="170" confidence="possible" page="12" column="1">Examples of different Examples of the result Identified basic Sentences answers of grouping values At home, I would like to use . . . to view photos . . . to help in practicalities Utilitarian and social a computer . . . values . . . to find information, banking services and e-mail . . . to find information and make internet calls as soon as I learn to use it . . . alone . . . alone and independently Emotional values (e.g. . . . in private (in peace) privacy) When using a computer, it . . . some information went to . . . I made mistakes and Emotional values (e.g. would be embarrassing the wrong place lost some important embarrassment) if . . . information . . . I lost important information . . . it got stuck . . . there were disorders Utilitarian values . . . it didn’t work . . . I often needed to ask for . . . I needed to ask for help Emotional values (e.g. help from an outsider embarrassment), social values . . . I needed constantly to ask for help . . . A professional computer . . . I was watched while Emotional values (e.g. user sat by me and watched using a computer awkwardness), social over me values . . . someone followed what I was doing . . . I could not understand a . . . I did not know what Self-actualisation values, thing to do emotional values . . . I could not proceed</region>
+        </region>
+        <region class="DoCO:TextChunk" id="181" page="12" column="1">were grouped according to the content of the answers. Two researchers participated in the grouping individually to prevent a one-sided interpretation. After individual grouping, the findings were discussed and a consensus was worked out. By grouping the answers, the data from 37 respondents were compressed into approximately 10 different answer types per sentence (the range between sentence being 7–14). Grouping enabled important issues to be identified; it can be assumed that the more similar answers there are, the more important the issue is for users in general. <xref ref-type="table" rid="T4" id="171" class="deo:Reference">Table 4</xref> illustrates how similar types of original answers were grouped according to content, and what kinds of underlying values can be identified from the answers. The main value categories: social, emotional and hedonistic, stimulation and epistemic, growth and self-actualisation, traditional, safety, and universal values ((Kujala and Väänänen-Vainio-<xref ref-type="bibr" rid="R27" id="172" class="deo:Reference">Mattila 2009</xref>) were used for high-level guidance in ascertaining the underlying reasons for motivation to use a computer or not.<marker type="block"/> The findings of the study are presented according to the different values found important for the users in the context of computer and Internet usage. Not surprisingly, computer usage was most often explained by the utilitarian needs of the respondent. By utilitarian needs, we refer to the practical goals the user wants to achieve, such as sending e-mail or paying bills. In general, a computer is considered a useful tool and a necessity at the present time. The main drive to use the computer was to utilise the functional properties of the computer. However, the most important functional property of a computer is the possibility of<marker type="page" number="13"/><marker type="block"/> accessing the Internet as the most important user needs were related to the Internet. In that sense, a computer is just a tool to reach the main goal. The three most important things respondents used the computer for were on-line banking services, e-mail, and information search; each related to the use of the Internet. The use frequency of the other functionalities such as text-editing and storing or viewing photographs was lower than the use of the Internet enabled features. However, other aspects of computer usage beyond the utterly functional were also elicited. Social, stimulation, and emotional values can be a source of motivation to use the computer. Social values emerged in the form of relatedness (keeping in touch with distant family) but also in the form of social esteem and respect. According to the results of the study, social esteem and respect correlated with family members’ and friends’ reactions if they saw a respondent using a computer. The majority reported that their family would be supportive and happy for them while they tried to learn new things, and their friends would be surprised or supportive. However, a few respondents stated that their family members would laugh or smile if they saw them using a computer. In addition, a few respondents felt awkward if they needed continuously to ask for help from someone. Thus, the need for social respect can be oppressive. In addition, some respondents felt it is compulsory to have computing skills as it is so common and necessary today, and not having the skills, there is a fear of being left out. The reactions of important people and general attitudes in society may therefore have contrary implications, and that needs to be taken into account in the design of new products and services relating to computer and Internet usage. Nevertheless, computer usage is regarded as positive and can be fun. Approximately, one-third of the participants reported their experiences with computers to be good, positive, or interesting. A few of the participants answered that their experiences had improved in the course of time, and they had learned not to be afraid of a computer. A couple of respondents had both good and bad experiences, but none of them reported negative experiences exclusively. Emotional values, like pleasure, are of importance, especially when the user has negative feelings such as uncertainty, displeasure, and discomfort. Pleasure and positive feelings when using a computer are, for instance, related to the possibility of using the computer at their own pace and in privacy when there is no danger of losing face. Some respondents feel awkward using a computer in a public place. In addition, these respondents had more feelings of anger and fear than positive feelings towards computers. These users preferred using a computer alone at home than in places where there might be other people watching. Most unpleasant feelings, such as embarrassment or displeasure, are related to their own lack of skills, such as if the user feels he/she does not understand anything and fears making mistakes that might lead to losing important information. In addition, it would be embarrassing if the computer got ‘stuck’, and the user was not able to proceed. The user takes the blame for this malfunctioning; real technical problems are irritating for only one-fifth of the respondents The study results imply that the important basic values may be related to each other. For instance, in realising stimulation and self-actualisation values, the important social values, such as social esteem and respect, can also be attained. Self-actualisation is achieved by learning to manage the computer, learning and creating new things, and managing to achieve the goals. In addition, users get stimulated when finding information or new targets of interest. When reaching a level of self-confidence, it is possible to use a computer anywhere without the fear of making a fool of oneself. It was also possible to draw out the meanings users attach to computers and their usage. These meanings expose how users interpret products, situations, or even other people, and what kinds of attitudes they have towards different issues. Meanings have an impact on users’ experience with a product, service, or person. For instance, one finding from the case study is that the meaning of a computer is realised when owning it. As a computer is common today, an intrinsic value is to own it, and an owner can be regarded as being up-to-date (‘a computer is common and necessary today’, ‘a computer is common and nothing special’, ‘computing skills are necessary<marker type="page" number="14"/><marker type="block"/> and useful today’). Furthermore, the owner of a computer is also a beholder of information and a descendant of explorers as ‘the Internet enables us to reach the world’. However, the user may feel confused and scared as there needs to be special skills to use it. The user may think that a person who uses computers must be technically oriented and trained (‘a computer is complex, and for technically oriented people’, ‘computers cannot be used by experimenting’). In addition, the user of a computer should not have the tendency to obsessions as ‘computers are addictive’. It seems the meanings users attach to a computer may have an important role in explaining the desire to learn to use the computer and that prevent them from using a computer.</region>
+        <region class="unknown" id="174" page="12" column="1">Main findings of user values and meaning</region>
+        <outsider class="DoCO:TextBox" type="header" id="176" page="13" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="177" page="13" column="1">461</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="179" page="14" column="1">462</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="180" page="14" column="1">P. Nurkka et al.</outsider>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="182" page="14" column="1">Discussion</h1>
+        <region class="DoCO:TextChunk" id="183" page="14" column="1">With a sentence completion tool, it is easy to collect information from users to learn more about them. With a sample of 37 respondents, we were able to gain a basic understanding of underlying motivation, reasons, and feelings related to computer usage. The data with the sentence completion tool are richer than with ordinary surveys as the tool enables the real voices of the users to be collected as they need to choose the words to end the sentences themselves. However, it is also the downside of the tool; it may be difficult to analyse the results as it may be difficult to identify irony in the choice of words. As an example, in the sentence ‘If someone from my family saw me using a computer . . . the answer ‘she would smile/laugh’ can be understood as a positive (she is happy I am using a computer) or negative (she smiles because I look stupid trying to use a computer, although I cannot). In such a case, the different interpretations ought to be discussed, and the answers to other sentences from the same respondent can also be reviewed to find hints for the right interpretation. The sentence completion tool seems promising, conveying not only positive but also negative values, the aversions the user has that might prohibit or hinder him/her from using the product. In an interview study, the user might have difficulties bringing out negative aspects face-to-face. With a sentence completion tool, the answers are given anonymously and more sincere answers can be given. An example of an aversion in the study findings was social esteem: users felt uneasy and insecure using a computer in a public place. In addition, to use a computer with family members was not simply fun (from the user’s point of view) as they might get mocking remarks from other family members. The study results suggest that a sentence completion tool is most useful at the beginning of the design process to collect general data from users. Sentence completion gives qualitative data that can be used as an inspiration for ideas or as a basis for further research. The tool is relatively easy and non-laborious to prepare and not too burdensome for users to fill in. The data are rich enough to grasp ideas for new product concepts if there are insufficient resources for a massive user study. However, it is also recommended to deepen the understanding of users by conducting interviews/observations based on the results of the sentence completion study. The ultimate situation might be to conduct in-depth interviews with a representative sample of users who answered the sentence completion survey. The interviewees could be selected to present different groups of users based on the analysis.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="184" page="14" column="1">Conclusion</h1>
+        <region class="DoCO:TextChunk" id="190" page="14" column="1">Designing for user experience with quality is not an easy task. User experience is highly subjective and therefore difficult to grasp. By investigating the nature of user experience, we identified factors <marker type="page" number="15"/><marker type="block"/> affecting users’ perception of the experience that are not related to the functional goals of the user. User values, the meanings the user attaches to a certain product and the emotions related to these were found to be important. However, users may have difficulties explaining and verbalising these things, as the reasons are abstract and not tangible. A projective technique, a sentence completion tool, was introduced and a case study was conducted to evaluate the method. The starting point of the development of the tool was the fact that people typically do not have a standard vocabulary to extensively discuss their values and to explain the meanings associated with different products and how these aspects affect their behaviour. The aim was to pursue reactions from the user by asking them to complete an incomplete sentence. At the beginning of a sentence, users are able to project their own opinions. By asking the user to write down the first thought in their mind, it is anticipated that the user’s inner thoughts will be reflected in the answers. In addition, despite the qualitative nature of the tool, some quantitative data can be generated. Insights into users and their values are important, especially when bringing a new product or service to the market. Understanding the important things in users’ lives in general and in a certain context enables features and functionalities that serve those needs to be included in design. Experiences in the case study suggest that the tool is worth developing further. The next step in the development will be to experiment with the usage of the tool as an online survey. Thus, the analysis of the data would be faster as it would be in electronic form. In addition to developing the practical implementation of the tool, the analytical method needs to be developed further. Comparable categories of findings need to be generated to speed up the analysis and to enable the results to be used better in the product development process. Moreover, the use of the sentence completion data in generating use cases or personas will be explored. Another perspective and usage scenario with the method is to enable designers to compare their own values to the values of the user by completing the same form as the users. In HCI, critical approaches are concerned by the fact that it is not only human values that affect our behaviour, but also values embodied in the products and systems we use in our everyday life (<xref ref-type="bibr" rid="R41" id="188" class="deo:Reference">Sengers et al. 2005</xref>, <xref ref-type="bibr" rid="R40" id="189" class="deo:Reference">Sengers and Gaver 2006</xref>). Therefore, in product development the different design decisions concerning the product or system should be evaluated relative to the values they embody. A sentence completion tool could serve as a starting point for designers to comprehend the possible value conflicts between them and the user. With this understanding, the designer could consciously avoid making design decisions that would not reflect user values. Thus, user needs beyond the functional would be better taken into account early in the design process.</region>
+        <outsider class="DoCO:TextBox" type="header" id="186" page="15" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="187" page="15" column="1">463</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="191" page="15" column="1">Acknowledgements</h1>
+        <region class="DoCO:TextChunk" id="192" confidence="possible" page="15" column="1">This research was supported by Tekes – the Finnish Funding Agency for Technology and Innovation throught the project VALU. We gratefully acknowledge the support of VALU steering group for the research work and the helpful comments of the anonymous reviewers of this paper.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="193" page="15" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="194" page="15" column="1">Allen, M.W., 2000. The attribute-mediation and product meaning approaches to the influences of human values on consumer choices. In: F. Columbus, ed. Advances in psychology research 1. Huntington, NY: Nova Science, 31–76.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="195" page="15" column="1">Allen, M.W. and Ng, S.H., 1999. The direct and indirect influences of human values on product ownership. Journal of Economic Psychology, 20 (1), 5–39.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="196" page="15" column="1">Allen, M.W., Ng, S.H., and Wilson, M., 2002. A functional approach to instrumental and terminal values and the value- attitude-behaviour system of consumer choice. European Journal of Marketing, 36 (1/2), 111–135.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="201" page="15" column="1">Arhippainen, L. and Tähti, M., 2003. Empirical evaluation of user experience in two adaptive mobile application prototypes. In: M. Ollila and M. Rantzer, eds. Proceedings of the 2nd international conference on mobile and ubiquitous multimedia, 10–12 December 2003, Norrköping, Sweden. New York: ACM, 27–34. Available from: <ext-link ext-link-type="uri" href="http://www.ep.liu.se/ecp/011/007/ecp011007.pdf" id="197">http://www.ep.liu.se/ecp/011/007/ecp011007.pdf</ext-link> [Accessed 3 March 2008].<marker type="page" number="16"/><marker type="block"/> Banister, E.N. and Booth, G.J., 2005. Exploring innovative methodologies for child-centric consumer research. Qualitative Market Research: An International Journal, 8 (2), 157–175.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="202" page="16" column="1">Boztepe, S., 2007. User value: competing theories and models. International Journal of Design, 1 (2), 57–65.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="203" page="16" column="1">Cagan, J. and Vogel, C.M., 2002. Creating breakthrough products. Innovation from product planning to program approval. Upper Saddle River, NJ: Prentice Hall.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="204" confidence="possible" page="16" column="1">Chapman, J., 2005. Emotionally durable design: objects, experiences and empathy. London: Earthscan Ltd.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="205" page="16" column="1">Cockton, G., 2006. Designing worth is worth designing. In: A. Mørch, K. Morgan, T. Bratteteig, G. Ghosh and D. Svanaes, eds. Proceedings of the 4th nordic conference on human-computer interaction: changing roles, 14–18 October 2006, Oslo, Norway. New York: ACM, 165–174.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="206" page="16" column="1">Daghfous, N., Petrof, V.J., and Pons, F., 1999. Values and adoption of innovations: a cross-cultural study. Journal of Consumer Marketing, 16 (4), 314–333.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="207" page="16" column="1">Dalbec, B., 2001. Stage an intervention for the focus group. Marketing News, 35 (5), 46–47.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="208" page="16" column="1">Desmet, P. and Hekkert, P., 2007. Framework of product experience. International Journal of Design, 1 (1), 57–66.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="209" page="16" column="1">Dewey, J., 1934. Art as experience. New York: Penguin Group.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="210" page="16" column="1">Donoghue, S., 2000. Projective techniques in consumer research. Journal of Family Ecology and Consumer Sciences, 28 (1), 47–53.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="211" page="16" column="1">Forlizzi, J. and Ford, S., 2000. The building blocks of experience: an early framework for interaction designers. In: D. Boyarski and W.A. Kellogg, eds. Proceedings of the 3rd conference on designing interactive systems: processes, practices, methods, and techniques, 17–19 August 2000, New York, United States. New York: ACM, 419–423.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="212" page="16" column="1">Frohlich, D.M., 2004. Beauty as a design prize. Human-Computer Interaction, 19 (4), 359–366.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="213" page="16" column="1">Gaver, B., Dunne, T., and Pacenti, E., 1999. Design: cultural probes. Interactions, 6 (1), 21–29.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="214" page="16" column="1">Gaver, W.W., et al., 2004. The drift table: designing for ludic engagement. In: CHI’04 extended abstracts on human factors in computing systems, 24–29 April 2004, Vienna, Austria. New York: ACM, 885–900.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="215" page="16" column="1">Greatorex, M., 2005. Blackwell encyclopedic dictionary of marketing. Oxford, UK: Blackwell Publishing.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="216" page="16" column="1">Gutman, J., 1997. Means–end chains as goal hierarchies. Psychology &amp; Marketing, 14 (6), 545–560.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="217" page="16" column="1">Hassenzahl, M., 2005. The thing and I: understanding the relationship between users and products. In: M.A. Blythe, K. Overbeeke, A.F. Monk and P.C. Wright, eds. Funology: from usability to enjoyment. Norwell, MA: Kluwer Academic, 31–42.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="218" page="16" column="1">Hassenzahl, M. and Tractinsky, N., 2006. User experience – a research agenda. Behaviour and Information Technology, 25 (2), 91–97.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="219" page="16" column="1">Heskett, J., 2002. Toothpicks and logos: Design in everyday life. UK: Oxford University Press.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="220" page="16" column="1">Hofstede, A., et al., 2007. Projective techniques for brand image research: two personification-based methods explored. Qualitative Market Research: An International Journal, 10 (3), 300–309.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="221" page="16" column="1">Hoyer, W.D. and MacInnis, D.J., 2007. Consumer behavior. New York: Houghton Mifflin.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="222" page="16" column="1">Karat, J., Karat, C.-M., and Vergo, J., 2004. Experiences people value: the new frontier of task analysis. In: N.A. Stanton and D. Diaper, eds. The handbook of task analysis for human-computer interaction. Mahwah, NJ: Lawrence Erlbaum Associates, 585–603.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="223" page="16" column="1">Kujala, S. and Väänänen-Vainio-Mattila, K., 2009. Value of information systems and products: understanding the users’ perspective and values. JITTA: Journal of Information Technology Theory &amp; Application, 9 (4), 23–39.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="224" page="16" column="1">LaSalle, D. and Britton, T.A., 2003. Priceless. Turning ordinary products into extraordinary experiences. Boston: Harvard Business School Press.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="225" page="16" column="1">Mowen, J.C. and Minor, M., 1998. Consumer behavior. 5th ed. Upper Saddle River, NJ: Prentice Hall.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="226" page="16" column="1">Mattelmäki, T., 2006. Design probes. Thesis (PhD). Publication Series of the University of Industrial Arts Helsinki, A 69.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="227" page="16" column="1">Ng, S.I., Lee, J.A., and Soutar, G.N., 2007. Are Hofstede’s and Schwartz’s value frameworks congruent? International Marketing Review, 24 (2), 164–180.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="228" confidence="possible" page="16" column="1">Norman, D., 2004. Emotional design. New York: Basic Books.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="229" page="16" column="1">Peter, J.P. and Olson, J.C., 2005. Consumer behavior and marketing strategy. 7th ed. New York: McGraw-Hill.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="230" page="16" column="1">Reynolds, T.J., 1985. Implications for value research: a micro vs. macro perspective. Psychology and Marketing, 2 (4), 297–305.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="231" page="16" column="1">Reynolds, T.J. and Gutman, J. 2001. Laddering theory, method, analysis, and interpretation. In: T.J. Reynolds and J.C. Olson, eds. Understanding consumer decision making. The means-end approach to marketing and advertising research. Mahwah, NJ: Lawrence Erlbaum Associates, 25–62.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="232" page="16" column="1">Rokeach, M., 1973. The nature of human values. New York: Free Press.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="233" page="16" column="1">Russo, B. and Hekkert, P., 2007. On the experience of love: the underlying principles. In: Proceedings of the 2007 conference on designing pleasurable products and interfaces, 22–25 August 2007, Helsinki, Finland. New York: ACM, 12–19.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="234" page="16" column="1">Sava s, Ö., 2004. A perspective on person-product relationship: attachment and detachment. In: D. McDonagh, P. Hekkert, J. Van Erp and D. Gyi, eds. Design and emotion: the experience of everyday things. London: Taylor &amp; Francis, 317–321.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="235" page="16" column="1">Schwartz, S.H., 1994. Are there universal aspects in the content and structure of values? Journal of Social Issues, 50 (4), 19–45.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="236" page="16" column="1">Sengers, P. and Gaver, B., 2006. Staying open to interpretation: engaging multiple meanings in design and evaluation. In: Proceedings of the 6th conference on designing interactive systems, 26–28 June 2006, University Park, PA, USA. New York: ACM, 99–108.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="239" page="17" column="1">Sengers, P., et al., 2005. Reflective design. In: O.W. Bertelsen, N.O. Bouvin, P.G. Krogh and M. Kyng, eds. Proceedings of the 4th decennial conference on critical computing: between sense and sensibility, 20–24 August 2005, Aarhus, Denmark. New York: ACM, 49–58.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="240" page="17" column="1">Sheth, J., Newman, B., and Gross, B., 1991. Consumption values and market choices, theory, and applications. Fort Knox, TX: South-Western Publishing.</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="242" page="17" column="1">Shove, E., Watson, M., and Ingram, J., 2005. The value of design and the design of value. In: Proceedings of joining forces, international conference on design research, 22–24 September 2005, Helsinki, Finland. Available from: <ext-link ext-link-type="uri" href="http://www2.uiah.fi/joiningforces/papers/Shove_et_al.pdf" id="241">http://www2.uiah.fi/joiningforces/papers/Shove_et_al.pdf</ext-link> [Accessed 8 December 2007].</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="243" confidence="possible" page="17" column="1">SRI Consulting Business Intelligence, 2006. VALS: understanding U.S. customers, 2006. Menlo Park, CA, USA: SRI Consulting Business Intelligence.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="244" page="17" column="1">Voida, A. and Mynatt, E.D., 2005. Conveying user values between families and designers. In: CHI’05 extended abstracts on human actors in computing systems, 02–07 April 2005, Portland or USA. New York: ACM, 2013–2016.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="245" page="17" column="1">Wehmeyer, K., 2007. Assessing users’ attachment to their mobile devices. In: Proceedings of the international conference on the management of mobile business, 09–11 July 2007, Toronto, Ontario, Canada. Washington, DC: IEEE Computer Society, 16.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="246" page="17" column="1">Zinkhan, G.M., et al., 1999. Motivations underlying the creation of personal web pages: an exploratory study. Advances in Consumer Research, 26 (1), 69–74.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="199" page="16" column="1">464</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="200" page="16" column="1">P. Nurkka et al.</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="237" page="17" column="1">Journal of Engineering Design</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="238" page="17" column="1">465</outsider>
+        <region class="DoCO:FigureBox" id="Fx247">
+          <image class="DoCO:Figure" src="62jz.page_019.image_02.png" thmb="62jz.page_019.image_02-thumb.png"/>
+        </region>
+      </section>
+    </body>
+  </article>
+</pdfx>

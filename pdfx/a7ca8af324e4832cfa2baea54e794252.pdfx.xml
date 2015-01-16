@@ -1,0 +1,783 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>d2fa6e54ce28d0b6c038c08665ff9aa8990f0b134b4256edf0f5508d27d93353</job>
+    <base_name>62h0</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1111/j.1365-2575.2008.00297.x">http://dx.doi.org/10.1007/1-4020-8095-6_19</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62h0.page_001.image_01.png" thmb="62h0.page_001.image_01-thumb.png"/>
+      </region>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">S TYLE C R ESEARCH</article-title>
+      </title-group>
+      <region class="unknown" id="3">OMPOSITION IN A CTION P UBLICATION 1</region>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="4">Lars Mathiassen</name></contrib><contrib contrib-type="author"><name id="8">Mike Chiasson</name></contrib><contrib contrib-type="author"><name id="12">Matt Germonprez</name></contrib></contrib-group>
+      <region class="unknown" id="6">Computer Information Systems, J. Mack Robinson College of Business, Georgia State University, Atlanta, GA 30303 U.S.A. <email id="5">{lmathiassen@ceprin.org}</email></region>
+      <region class="unknown" id="10">Management Science, Management School, Lancaster University, Lancaster, UNITED KINGDOM <email id="9">{m.chiasson@lancaster.ac.uk}</email></region>
+      <region class="unknown" id="14">Information Systems &amp; Quantitative Analysis, College of Information Science and Technology, University of Nebraska at Omaha, Omaha, NE 68182-0392 U.S.A. <email id="13">{germonprez@gmail.com}</email></region>
+      <abstract class="DoCO:Abstract" id="15" confidence="possible">Examining action research publications in leading Information Systems journals as a particular genre of research communication, we develop the notion of style composition to understand how authors structure their arguments for a research contribution. We define style composition as the activity through which authors select, emphasize, and present elements of their research to establish premises, develop inferences, and present contributions in publications. Drawing on this general notion, we identify a set of styles that is characteristic of how IS action researchers compose their argument. Premise styles relate to the dual goals of action research through practical or theoretical positioning of the argument; inference styles combine insights from the problem-solving and the research cycles through inductive or deductive reasoning; and contribution styles focus on different types of contributions—experience report, field study, theoretical development, problem- solving method, and research method. Based on the considered sample, we analyze the styles adopted in selected publications and show that authors have favored certain styles while leaving others underexplored; further, we reveal important strengths and weaknesses in the composition of styles within the IS discipline. Based on these insights, we discuss how action research practices and writing can be improved, as well as how to further develop style compositions to support the publication of engaged scholarship research.</abstract>
+      <region class="DoCO:TextChunk" id="16" confidence="possible">Keywords: Action research, research methodology, style composition, journal publication</region>
+      <region class="unknown" id="17">1</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="18" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="19" page="1" column="1">The central mission of scholars in professional schools such as business, engineering, medicine, and law is to conduct</region>
+      <region class="DoCO:TextChunk" id="21" confidence="possible" page="1" column="1">1 Ola Henfridsson was the accepting senior editor for this paper. Robert Davison served as the associate editor. The appendix for this paper is located in the “Online Supplements” section of the MIS Quarterly’s website (<ext-link ext-link-type="uri" href="http://www.misq.org" id="20">http://www.misq.org</ext-link>).</region>
+      <region class="unknown" id="22" page="1" column="2">R ESEARCH E SSAY</region>
+      <region class="DoCO:TextChunk" id="54" page="1" column="2">research that advances academic knowledge while at the same time enlightening professional practice ( <xref ref-type="bibr" rid="R66" id="23" class="deo:Reference">Van de Ven 2007</xref>). Much published research is, however, “not contributing in intended ways to either science or practice” (ibid., p. 2). Scholars therefore need to develop engaged forms of inquiry in which they obtain “different perspectives of key stake- holders (researchers, users, clients, sponsors, and practitioners) in studying complex problems” (ibid., p. 9). Business scholars have, as a consequence, adopted action research as one particular form of engaged scholarship within disciplines<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> like marketing (<xref ref-type="bibr" rid="R55" id="28" class="deo:Reference">Perry and Gummesson 2004</xref>), management (<xref ref-type="bibr" rid="R28" id="29" class="deo:Reference">Eden and Huxham 1996</xref>), operations (<xref ref-type="bibr" rid="R20" id="30" class="deo:Reference">Coghlan and Coghlan 2002</xref>), and information systems (<xref ref-type="bibr" rid="R17" id="31" class="deo:Reference">Chiasson et al. 2009</xref>).<marker type="block"/> Action research “aims to contribute both to the practical concerns of people in an immediate problematic situation and to the goals of social science” (<xref ref-type="bibr" rid="R57" id="33" class="deo:Reference">Rapoport 1970</xref>, p. 499). Action researchers are hence confronted with the dual goal of developing a solution to a practical problem which is of value to the people with whom they are working, while at the same time developing theoretical knowledge of value to a research community (<xref ref-type="bibr" rid="R36" id="34" class="deo:Reference">Gustavsen 1993</xref>; <xref ref-type="bibr" rid="R41" id="35" class="deo:Reference">Levin 1993</xref>; <xref ref-type="bibr" rid="R47" id="36" class="deo:Reference">McKay and Marshall 2001</xref>, 2007; <xref ref-type="bibr" rid="R65" id="37" class="deo:Reference">Susman and Evered 1978</xref>). The required linking of theory and practice is pursued through different forms of cyclical and iterative processes (e.g., <xref ref-type="bibr" rid="R6" id="38" class="deo:Reference">Baburoglu and Ravn 1992</xref>; Baskerville and Wood-<xref ref-type="bibr" rid="R9" id="39" class="deo:Reference">Harper 1998</xref>; <xref ref-type="bibr" rid="R11" id="40" class="deo:Reference">Checkland 1981</xref>; <xref ref-type="bibr" rid="R18" id="41" class="deo:Reference">Chisholm and Elden 1993</xref>; <xref ref-type="bibr" rid="R19" id="42" class="deo:Reference">Coghlan 2001</xref>). Susman and Evered’s (1978) model has been pro- moted as canonical action research (<xref ref-type="bibr" rid="R23" id="43" class="deo:Reference">Davison et al. 2004</xref>) and includes one or more cycles of (1) diagnosing (identifying or defining a problem), (2) action planning (considering alter- native courses of action for problem solving), (3) action taking (selecting and executing a course of action), (4) evaluating (studying the consequences of the action), and (5) specifying learning (identifying general learning).<marker type="block"/> Action research provides rich opportunities to bridge the gap between theory and practice, often in combination with other research methods (<xref ref-type="bibr" rid="R38" id="45" class="deo:Reference">Kock 2007</xref>; <xref ref-type="bibr" rid="R46" id="46" class="deo:Reference">Mathiassen 2002</xref>; <xref ref-type="bibr" rid="R49" id="47" class="deo:Reference">Mingers 2001</xref>). It is, therefore, not surprising that over the past three decades, IS researchers have increasingly engaged in action research studies (Baskerville and Wood-<xref ref-type="bibr" rid="R9" id="48" class="deo:Reference">Harper 1998</xref>; Chiasson et al. 2009; <xref ref-type="bibr" rid="R40" id="49" class="deo:Reference">Lau 1997</xref>; <xref ref-type="bibr" rid="R52" id="50" class="deo:Reference">Narayanaswamy and Grover 2007</xref>). Several of the early action research studies within IS were rather influential and primarily reported in academic books. In fact, the first and arguably most important contribution from the studies listed in <xref ref-type="table" rid="T1" id="51" class="deo:Reference">Table 1</xref> is a book. The related journal articles, sometimes published with considerable delay, served to relate the book and the underlying experiences to the broader academic discourse. However, there has been a movement away from book publications of action research studies because universities typically favor journal publications for tenure and promotion purposes. In this situation, IS researchers have often found it challenging to report on the complex and diverse findings from action research studies consistent with the editorial requirements of leading academic journals. As a result, researchers may be more reluctant to include action research in their portfolio of active research methods.<marker type="block"/> Against this backdrop, the goals of this research are (1) to understand how action researchers select and present theoretical, methodological, and contributory elements of their<marker type="column" number="2"/><marker type="block"/> research to communicate persuasive arguments in leading journals, and (2) to provide a critical review of action research publications in leading IS journals. Drawing on an analysis of action research studies in leading IS journals from 1982 to 2009, we develop the notion of style composition. We identify a set of styles that is characteristic of how authors compose their arguments and we show that IS researchers have favored certain styles while leaving others underexplored. Moreover, while some action research publications illustrate exemplary style composition, others suffer from significant weaknesses. Based on these insights, we discuss how to improve action research practices and writing and how to further develop style composition to support publication of engaged scholarship research.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="25" page="1" column="2">MIS Quarterly Vol. 36 No. 2 pp. 347-363/June 2012</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="26" page="1" column="2">347</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="27" page="2" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="55" page="2" column="2">Style Composition</h1>
+        <region class="DoCO:TextChunk" id="65" page="2" column="2">We begin from the idea of analyzing research communication as genre repertoires which structure and are structured during research practice ( <xref ref-type="bibr" rid="R54" id="56" class="deo:Reference">Orlikowski and Yates 1994</xref>; <xref ref-type="bibr" rid="R69" id="57" class="deo:Reference">Yates and Orlikowski 1992</xref>). From that perspective, we consider journal publications as a particular genre in which researchers communicate their practices within the academic literature. Our approach is hence consistent with genre analyses of texts and the mutability of genre components across time and space within rhetoric, literary theory, media theory, and linguistics (<xref ref-type="bibr" rid="R31" id="58" class="deo:Reference">Fowler 1982</xref>). Similar to the use and development of genres to distinguish different ways in which critics characterize movies (e.g., comedy, thriller, adventure, and drama), we distinguish different styles through which communities of researchers compose arguments for the quality of their work, and the contributions they provide in their publications (Locke and Golden-<xref ref-type="bibr" rid="R42" id="59" class="deo:Reference">Biddle 1997</xref>).<marker type="block"/> Style composition in research publication is characteristic of genre development in several ways. Style composition is an activity conducted by researchers in which they argue for contributions to readers based on certain elements of their research practice (<xref ref-type="bibr" rid="R27" id="61" class="deo:Reference">Dubrow 1982</xref>). The resulting styles are historically bound to current practices within a research community (<xref ref-type="bibr" rid="R58" id="62" class="deo:Reference">Reichert 1978</xref>) and they are mutable yet definable in order to be actionable (<xref ref-type="bibr" rid="R31" id="63" class="deo:Reference">Fowler 1982</xref>). However, while traditional genre analyses focus on plot, character, setting, and relationships, we adopt a classical focus on how research publications present arguments by combining elements of research practices into premises (or warrants), inferences (or support), and contributions (or claims) (<xref ref-type="bibr" rid="R59" id="64" class="deo:Reference">Rottenberg and Winchell 2005</xref>). For that reason and in line with Golden- Biddle and Locke’s (2007, Chapter 1) discourse on “styles and practice in academic writing,” we adopt style rather than genre as the core analytical concept.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="66" page="2" column="2">348</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="67" page="2" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="68" page="3" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="69" page="3" column="1">Table 1. Early Action Research Studies Within the IS Discipline</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="3">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Academic Book</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> Mumford,</td>
+                  <td class="table.strange"> E., and Weir, M.: Computer Systems in Work</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Design:</td>
+                  <td class="table"> The Ethics Method: Effective Technical and</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Human</td>
+                  <td class="table.strange"> Implementation of Computer Systems. Associated</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Business</td>
+                  <td class="table.strange"> Press, London, 1979.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Checkland,</td>
+                  <td class="table.strange"> P.: Systems Thinking, Systems Practice.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Wiley,</td>
+                  <td class="table.strange"> Chichester, 1981.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Andersen,</td>
+                  <td class="table.strange"> N. E., Kensing, F., Lassen, M., Lundin, J.,</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Mathiassen,</td>
+                  <td class="table.strange"> L., Munk-Madsen, A., and Sørgaard, P.:</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Professional</td>
+                  <td class="table.strange"> Systems Development—Experiences,</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> and Action.</td>
+                  <td class="table.strange"> Teknisk Forlag, Copenhagen, 1986.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Ehn, P.:</td>
+                  <td class="table.strange"> Work-Oriented Design of Computer Artifacts.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Arbetslivscentrum, Stockholm, 1988.</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="70" confidence="possible" page="3" column="1">Academic Book Mumford, E., and Weir, M.: Computer Systems in Work Design: The Ethics Method: Effective Technical and Human Implementation of Computer Systems. Associated Business Press, London, 1979. Checkland, P.: Systems Thinking, Systems Practice. John Wiley, Chichester, 1981. Andersen, N. E., Kensing, F., Lassen, M., Lundin, J., Mathiassen, L., Munk-Madsen, A., and Sørgaard, P.: Professional Systems Development—Experiences, Ideas, and Action. Teknisk Forlag, Copenhagen, 1986. Ehn, P.: Work-Oriented Design of Computer Artifacts. Arbetslivscentrum, Stockholm, 1988.</region>
+        </region>
+        <region class="DoCO:TextChunk" id="71" confidence="possible" page="3" column="1">Avison, D. E., and Wood-Harper, A. T.: Multiview: An Exploration in Information Systems Development. Blackwell Scientific Publications, Oxford, 1990.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="72" confidence="possible" page="3" column="1">Elements of Action Research Practice</h1>
+        <region class="DoCO:TextChunk" id="75" page="3" column="1">Our analysis of action research publications in leading journals focuses on how arguments are structured based on the following elements of action research practice (<xref ref-type="bibr" rid="R12" id="73" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="74" class="deo:Reference">McKay and Marshall 2001</xref>, 2007):</region>
+        <region class="DoCO:TextChunk" id="76" confidence="possible" page="3" column="1">• Problem-solving (PS) cycle and research (R) cycle. • Area of concern under investigation (A), real-world problem setting (P), conceptual framing of the investigation (F), method of investigation (M), and contributions to practice and theory (C).</region>
+        <region class="DoCO:TextChunk" id="81" page="3" column="1">As summarized in <xref ref-type="table" rid="T2" id="77" class="deo:Reference">Table 2</xref>, the problem-solving (PS) cycle focuses on producing practical outcomes and the research (R) cycle focuses on producing research outcomes (<xref ref-type="bibr" rid="R47" id="78" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). Attention to the two cycles and their interaction helps researchers produce knowledge by applying theoretical knowledge in response to the practical problems at hand and by using practical insights from the problem setting and the various actions taken to discover new theoretical knowledge to inform future research (<xref ref-type="bibr" rid="R17" id="79" class="deo:Reference">Chiasson et al. 2009</xref>). We analyzed how each publication combines insights from the two cycles to establish arguments for contribution.<marker type="block"/> The area of concern (A) is primarily associated with the research cycle and reflects the researchers’ interest in some body of knowledge within the literature. To analyze how A</region>
+        <region class="DoCO:TextChunk" id="82" confidence="possible" page="3" column="2">Related Journal Publication Mumford, E.: “Advice for an Action Researcher,” Information Technology &amp; People (14:1), 2001, pp. 12-27. Checkland, P.: “Soft Systems Methodology: A Thirty Year Retrospective,” Systems Research and behavioral Science (17:1), 2000, pp. 11-58. Mathiassen, L.: “Reflective Systems Development,” Scandinavian Journal of Information Systems (10:1), 1998, pp. 67-134. Ehn, P.: “The Art and Science of Designing Computer Artifacts,” Scandinavian Journal of Information Systems (1:1), 1989, pp. 21-42. Avison, D. E., and Wood-Harper, A. T.: “Information Systems Development Research: An Exploration of Ideas in Practice,” The Computer Journal (34:2), 1991, pp. 98-112.</region>
+        <region class="DoCO:TextChunk" id="99" page="3" column="2">is represented in each action research publication, we adopted Avgerou’s (2000) categorization of major research areas within IS research: organizational application of IT, the process of systems development, IS management, the organizational value of IS, and the societal impact of IS. <marker type="block"/> The real-world problem setting (P) is primarily attached to the problem-solving cycle and represents the “practical concerns of people in an immediate problematic situation” (<xref ref-type="bibr" rid="R57" id="84" class="deo:Reference">Rapoport 1970</xref>). The real-world problem setting is representative of A and constitutes the specific context in which researchers engage in “unstructured field experiments” and act as change agents (Baskerville and Wood-<xref ref-type="bibr" rid="R9" id="85" class="deo:Reference">Harper 1998</xref>). We analyzed each publication to determine if P is clearly specified.<marker type="block"/> The conceptual framing (F) is introduced through the research cycle and can play different roles: it can be applied to guide actions during problem solving, it can be used to interpret data from the intervention into P, and it can emerge as a result of insights gained during the action research (<xref ref-type="bibr" rid="R12" id="87" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="88" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). There are two different forms of framing: one related to concepts found in the literature about A, which we call F A , and another related to general concepts that are used to inform the study independent of A, which we call F I , for example, structuration theory (<xref ref-type="bibr" rid="R32" id="89" class="deo:Reference">Giddens 1984</xref>) or actor–network theory (<xref ref-type="bibr" rid="R39" id="90" class="deo:Reference">Latour 1987</xref>). As with P, we analyzed each publication to determine if F A and F I are clearly specified.<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> The adopted methods of investigation (M) are related to both the problem-solving and research cycles (<xref ref-type="bibr" rid="R47" id="97" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). We used M PS to represent the methods guiding the problem-solving cycle, and M R to represent the methods guiding the research cycle. Keeping with our emphasis on style composition, we analyzed each publication to determine if these are clearly specified.<marker type="block"/> Finally, contributions (C) include those to P and to the different bodies of knowledge in the academic literature: to areas of concern (A and F A ), to theoretical frameworks (F I ), to problem-solving methods (M PS ), and to research methods (M R ). We analyzed each publication to determine if these types of contributions are explicated.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="92" page="3" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="93" page="3" column="2">349</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="94" page="4" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="95" page="4" column="1">Table 2. Elements of Action Research Practice</caption>
+          <content>
+            <h1 class="table"> Element Definition</h1>
+            <table class="DoCO:Table" number="2" page="4">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> PS</td>
+                  <td class="table"> The problem-solving cycle focuses on producing practical outcomes</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> R</td>
+                  <td class="table"> The research cycle focuses on producing research outcomes</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> A</td>
+                  <td class="table"> The area of concern represents some body of knowledge within the literature</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> P</td>
+                  <td class="table"> The problem setting represents people’s concerns in a problematic situation</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> F</td>
+                  <td class="table"> The conceptual framing helps structure actions and analyses</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> F A</td>
+                  <td class="table"> The specific concepts found in the literature about A</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> F I</td>
+                  <td class="table"> The general concepts used to inform studies independent of A</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> M</td>
+                  <td class="table"> The adopted methods of investigation</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> M PS</td>
+                  <td class="table"> The methods guiding the problem-solving cycle</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> M R</td>
+                  <td class="table"> The methods guiding the research cycle</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> C</td>
+                  <td class="table"> The contributions to P, A, F and M</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="96" confidence="possible" page="4" column="1">Element Definition PS The problem-solving cycle focuses on producing practical outcomes R The research cycle focuses on producing research outcomes A The area of concern represents some body of knowledge within the literature P The problem setting represents people’s concerns in a problematic situation F The conceptual framing helps structure actions and analyses F A The specific concepts found in the literature about A F I The general concepts used to inform studies independent of A M The adopted methods of investigation M PS The methods guiding the problem-solving cycle M R The methods guiding the research cycle C The contributions to P, A, F and M</region>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="100" confidence="possible" page="4" column="1">Styles in Action Research Publication</h1>
+        <region class="DoCO:TextChunk" id="109" page="4" column="1">While each action research publication is unique and leverages the underlying research practices in different ways, we identified styles that are characteristic of how authors have composed their arguments. The identified styles are summarized in <xref ref-type="table" rid="T3" id="101" class="deo:Reference">Table 3</xref> and they represent archetypes of authors’ main arguments in a publication. Secondary styles were, in some cases, also evident as a reflection of complexities in the underlying project, the provided data, or the publication’s purpose.<marker type="block"/> A premise is a statement or proposition serving as basis for an argument (<xref ref-type="bibr" rid="R67" id="103" class="deo:Reference">Webster 1994</xref>). As action researchers motivate and position their research to argue for specific contributions (C), they draw on one or more of the other elements of their research practices. Adopting a practical style, authors pri-<marker type="column" number="2"/><marker type="block"/> marily base the argument in challenges to IS practice, speci- fically within P or more generally by referring to challenges within the considered A. Adopting a theoretical style, authors primarily base the argument in challenges to theory within the focal A, F, or M.<marker type="block"/> An inference provides reasoning from one statement or proposition considered as true to another whose truth is believed to follow from the former (<xref ref-type="bibr" rid="R67" id="106" class="deo:Reference">Webster 1994</xref>). Rooted in the premise, action researchers develop inferences to arrive at contributions by combining insights from the problem- solving (PS) and research (R) cycles. Adopting an inductive style, the inference is primarily grounded in evidence from PS that is subsequently embedded into concepts from R. Adopting a deductive style, the inference is primarily grounded in concepts from R that are subsequently validated or illustrated through evidence from PS. 2<marker type="block"/> Based on premises and supported by inferences, action research publications provide contributions “to the goals of social science” (<xref ref-type="bibr" rid="R57" id="108" class="deo:Reference">Rapoport 1970</xref>, p. 499). Depending on the main argument for C, action researchers adopt five distinct contribution styles as they compose their arguments. The experience report style addresses a problem setting (P) within a particular area of concern (A) and emphasizes practical findings over and above contributions to specific bodies of theory or concepts found in the academic literature. The field</region>
+        <region class="DoCO:TextChunk" id="110" confidence="possible" page="4" column="2">2 Abduction is another possible inference style that speaks to how action researchers orient themselves within the problem-solving and research domains. We did not include abduction as an inference style because it is more related to the research process than to the line of argumentation in a publication. As a result, it was difficult to identify abduction as an explicit inference style within the observed action research publications.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="111" page="4" column="2">350</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="112" page="4" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="113" page="5" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T3">
+          <caption class="deo:Caption" id="114" page="5" column="1">Table 3. Style Composition in Action Research Publications</caption>
+          <content>
+            <table class="DoCO:Table" number="3" page="5">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Premise Style</th>
+                  <th class="table"> Inference Style</th>
+                  <th class="table"> Contribution Style</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"> Practical: Argument primarily</td>
+                  <td class="table.strange"> Inductive: Argument primarily</td>
+                  <td class="table.strange"> Experience report: Argument for insights</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> based in challenges in IS practice</td>
+                  <td class="table"> grounded in evidence from the</td>
+                  <td class="table"> from IS practice that could potentially lead to</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> problem-solving cycle that is subse-</td>
+                  <td class="table"> research contributions</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Theoretical: Argument primarily</td>
+                  <td class="table"> quently embedded into concepts</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> based in challenges in IS theory</td>
+                  <td class="table"> from the research cycle</td>
+                  <td class="table"> Field study: Argument for primary contribution to A or F A</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Deductive: Argument primarily</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> grounded in concepts from the</td>
+                  <td class="table"> Theoretical development: Argument for</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> research cycle that are</td>
+                  <td class="table"> primary contribution to F I</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> subsequently validated or illustrated</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> through evidence from the problem-</td>
+                  <td class="table"> Problem-solving method: Argument for</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> solving cycle</td>
+                  <td class="table"> primary contribution to M PS Research method: Argument for primary contribution to M R</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="115" confidence="possible" page="5" column="1">Premise Style Inference Style Contribution Style Practical: Argument primarily Inductive: Argument primarily Experience report: Argument for insights based in challenges in IS practice grounded in evidence from the from IS practice that could potentially lead to problem-solving cycle that is subse- research contributions Theoretical: Argument primarily quently embedded into concepts based in challenges in IS theory from the research cycle Field study: Argument for primary contribution to A or F A Deductive: Argument primarily grounded in concepts from the Theoretical development: Argument for research cycle that are primary contribution to F I subsequently validated or illustrated through evidence from the problem- Problem-solving method: Argument for solving cycle primary contribution to M PS Research method: Argument for primary contribution to M R</region>
+        </region>
+        <region class="DoCO:TextChunk" id="116" page="5" column="1">study style contributes to the area of concern (A) by providing new empirical insights or a critique or development of frameworks within that area of concern (F A ). The theoretical development style differs from the field study style by drawing on and primarily contributing to theoretical ideas beyond A. This style includes a critique or development of frameworks independent of A (F I ). The problem-solving method style contributes to organizational problem solving within the IS discipline (M PS ), whereas the research method style contributes to M R through new knowledge on the action research methodology. Both of these styles include critique or development of new or revised methods.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="117" confidence="possible" page="5" column="1">Analyses of Style Composition in Action Research Publication</h1>
+        <region class="DoCO:TextChunk" id="159" page="5" column="1">The following examples show how premise, inference, and contribution styles are combined as IS action researchers argue for contributions to the academic literature ( <xref ref-type="table" rid="T4" id="118" class="deo:Reference">Table 4</xref>). These premise, inference, and contribution styles represent the primary ones reported in each paper.<marker type="block"/> Bragge and Merisalo-<xref ref-type="bibr" rid="R10" id="120" class="deo:Reference">Rantanen (2009)</xref>. Entitled “Engineering E-Collaboration Processes to Obtain Innovative End- User Feedback on Advanced Web-Based Information Systems,” this paper addresses the problem of obtaining feedback from the users of a web-based information system as part of its ongoing design and evolution within a Finnish university (P). The premise style is practical and rooted in the problem setting. The study draws on literature on group support sys-<marker type="column" number="2"/><marker type="block"/> tems (GSS) and web engineering (A) to develop and imple- ment two processes to support user feedback (M PS ). The processes are based on free brainstorming and the nominal group technique, and supported feedback to web designers from 26 and 24 groups of users respectively over a two-year period. The paper adopts an inductive inference style by leveraging systematic participant evaluations to offer suggestions for how to apply the two feedback processes in other contexts. While the publication presents new insights on how to leverage GSS to provide user feedback in web engineering (C A ), it offers little discussion of how the findings relate to the academic literature and no explicit argument for theoretical contribution. Hence, the contribution style is an experience report with the main emphasis on interesting insights from IS practice.<marker type="block"/>  <xref ref-type="bibr" rid="R63" id="123" class="deo:Reference">Straub and Welke (1998)</xref>. The paper, entitled “Coping with Systems Risk: Security Planning Models for Management Decision Making,” addresses the general problem with systems risk (P): managers are unaware of the range of actions they can take to reduce the risk. The premise style is practical and rooted in the literature on systems risks (A). Drawing on deterrence theory (<xref ref-type="bibr" rid="R62" id="124" class="deo:Reference">Straub 1990</xref>) and decision theory (<xref ref-type="bibr" rid="R61" id="125" class="deo:Reference">Simon 1960</xref>) (F I ), the authors propose a model for management action summarized into specific propositions (F A ). To empiri- cally investigate this model, the authors present a comparative qualitative study of two similar cases, one without knowledge of the proposed model and one in which the proposed model guided action (M R and M PS ). The paper describes how data were collected in the first case based on interviews, and it offers a detailed account of the problem-solving cycle in the<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> second case. The adopted inference style is deductive, driven by the propositions and proposed model from the research cycle and validated through a detailed qualitative case comparison. The paper’s main contribution involves model- based guidelines for managing systems risks complemented with practical results (C P ). Hence, the contribution style is a field study offering a deterrence feedback model with guidelines as a framework for reducing system risk (F A ). This contribution (C A ) provides companies with actionable knowledge on risk management and researchers with a generalizable and theory-derived framework in the area of system risk.<marker type="block"/>  <xref ref-type="bibr" rid="R16" id="138" class="deo:Reference">Chiasson (2002)</xref>. This paper is entitled “The Tail and the Dog: Agency and Structure Influence on the Development of an E-Commerce System in a New Venture Startup.” Although it reports from a systems development project, the core argument is focused on how IT is applied in organizations (A). Informed by structuration theory (F I ) and a review of the relevant IS literature, the author suggests our knowledge about interactions between agency and structure is limited. Based on this theoretical premise, the paper continues with a detailed account of the adopted research method (M R ). The author was directly involved as leader of one of the groups developing an e-commerce system within a new start-up firm. Drawing on data from this action research effort, the paper presents the problem setting (P) and a detailed account of key events and interactions during the major phases of the problem-solving cycle. Adopting inductive inference, the subsequent discussion interprets this account through the lens of agency–structure interactions as developed in the research cycle. As a result, the paper criti- cally considers the goals and consequences of adopting structuration theory (<xref ref-type="bibr" rid="R32" id="139" class="deo:Reference">Giddens 1984</xref>) (F I ) in relation to the use of IT in organizations (A). Hence, the contribution style is theoretical development (C FI ), suggesting researchers should place considerable emphasis on the roles actors play in agency–structure relationships.<marker type="block"/>  <xref ref-type="bibr" rid="R21" id="141" class="deo:Reference">Davison and Martinsons (2002)</xref>. The paper, entitled “Empowerment or Enslavement? A Case of Process-Based Organizational Change in Hong Kong,” investigates systems<marker type="column" number="2"/><marker type="block"/> development through a business process reengineering project (A) in the context of a Hong Kong business (P). The authors provide an extensive review of concepts and guidelines related to empowerment in systems development (F A ) and organizational culture (F I ). The argument starts out from the practical premise that it may be difficult to practice empowerment in the context of business process reengineering because these projects tend to encapsulate the values on which they are based. The investigation is based on canonical action research (M R ) (<xref ref-type="bibr" rid="R65" id="144" class="deo:Reference">Susman and Evered 1978</xref>) in a project in which GSS processes were invoked to allow the manager in charge to interact with employees during the implementation of new business processes (M PS ). These interactions provided rich data from discussions and idea generation to inform the research cycle. Adopting an inductive inference style, the paper reveals how the GSS process unexpectedly led to enslavement of workers instead of empowerment (C P ). These insights are subsequently used to reflect on the general issue of empowerment in business process reengineering as developed in the research cycle. The study’s contribution style is problem-solving method (C MPS ), arguing the GSS processes targeted at empowerment can be circumvented or thwarted in particular cultural contexts.<marker type="block"/> Baskerville and Pries-<xref ref-type="bibr" rid="R8" id="146" class="deo:Reference">Heje (1999)</xref>. Entitled “Grounded Action Rresearch: A Method for Understanding IT in Practice,” this paper begins with the theoretical premise that grounded theory techniques (<xref ref-type="bibr" rid="R33" id="147" class="deo:Reference">Glaser and Strauss 1967</xref>; <xref ref-type="bibr" rid="R64" id="148" class="deo:Reference">Strauss and Corbin 1990</xref>) can be embedded into and can help improve action research methodology. The paper offers a comprehensive review of the action research and grounded theory literature and discusses how to integrate grounded theory techniques into action research (M R ). Drawing on these insights from the research cycle, the paper presents an action research study that examines how tools can improve systems development outcomes (P) during systems prototyping (A). The study adopts McKay and Marshall’s (2001, 2007) action research model combined with specific coding and analysis techniques from grounded theory to develop new insights into systems development theory (F I ). The inference style is hence deductive, using the research cycle to argue how grounded theory techniques can be integrated into action research (M R ),<marker type="page" number="7"/><marker type="column" number="1"/><marker type="block"/> and subsequently analyzing data from the problem-solving cycle of an action research study to illustrate the approach and to validate the claim. The adopted contribution style is research method (C MR ) with a focus on how action research can be informed and further developed through the adoption of grounded theory techniques.<marker type="block"/>  <xref ref-type="table" rid="T4" id="154" class="deo:Reference">Table 4</xref> summarizes how styles were composed differently in these publications, including all four combinations of premise styles and inference styles as well as all five contribution styles. While these compositions represent general patterns of arguments in action research publications, each author had to develop the specifics of the argument. For example, <xref ref-type="bibr" rid="R63" id="155" class="deo:Reference">Straub and Welke (1998)</xref> and <xref ref-type="bibr" rid="R21" id="156" class="deo:Reference">Davison and Martinsons (2002)</xref> both adopt a practical premise style, but Straub and Welke present the premise rather briefly with reference to the literature on systems risk (A), while Davison and Martinsons develop their premise based on a comprehensive review of the literature on empowerment in systems development (A) and organizational culture (F I ). Similarly, <xref ref-type="bibr" rid="R63" id="157" class="deo:Reference">Straub and Welke (1998)</xref> and Baskerville and Pries-<xref ref-type="bibr" rid="R8" id="158" class="deo:Reference">Heje (1999)</xref> both adopt a deductive inference style. However, Straub and Welke’s is based on a specific model of action with detailed propositions (F A ) combined with a comparative analysis of two cases (M R ), while Baskerville and Pries-Heje’s inference is based on a general discussion of how to integrate grounded theory techniques into action research combined with detailed analyses of one case (M R ). Hence, translating an action research effort into one or more publications in leading journals remains a highly discursive, creative, and complex challenge.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="127" page="5" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="128" page="5" column="2">351</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="129" page="6" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T4">
+          <caption class="deo:Caption" id="130" page="6" column="1">Table 4. Example Style Compositions</caption>
+          <content>
+            <h1 class="table"> Study Premise Style</h1>
+            <table class="DoCO:Table" number="4" page="6">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Bragge and Merisalo-Rantanen 2009</td>
+                  <td class="table"> Practical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Straub and Welke 1998</td>
+                  <td class="table"> Practical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Chiasson 2002</td>
+                  <td class="table"> Theoretical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Davison and Martinsons 2002</td>
+                  <td class="table"> Practical</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Baskerville and Pries-Heje 1999</td>
+                  <td class="table"> Theoretical</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="136" confidence="possible" page="6" column="1">Study Premise Style Bragge and Merisalo-<xref ref-type="bibr" rid="R10" id="131" class="deo:Reference">Rantanen 2009</xref> Practical <xref ref-type="bibr" rid="R63" id="132" class="deo:Reference">Straub and Welke 1998</xref> Practical <xref ref-type="bibr" rid="R16" id="133" class="deo:Reference">Chiasson 2002</xref> Theoretical <xref ref-type="bibr" rid="R21" id="134" class="deo:Reference">Davison and Martinsons 2002</xref> Practical Baskerville and Pries-<xref ref-type="bibr" rid="R8" id="135" class="deo:Reference">Heje 1999</xref> Theoretical</region>
+        </region>
+        <region class="unknown" id="143" page="6" column="2">Inference Style Contribution Style Inductive Experience report Deductive Field study Inductive Theoretical development Inductive Problem-solving method Deductive Research method</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="150" page="6" column="2">352</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="151" page="6" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="152" page="7" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="160" page="7" column="1">Literature Analysis</h1>
+        <region class="DoCO:TextChunk" id="162" page="7" column="1">The proposed notion of style composition is grounded in a critical analysis of action research publications in leading IS journals between 1982 and 2009. Following <xref ref-type="bibr" rid="R68" id="161" class="deo:Reference">Webster and Watson (2002)</xref>, we describe how the considered publications were selected and analyzed. Subsequently, we provide an overview of major findings. A summary of the results is included as Appendices A, B, and C.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="163" confidence="possible" page="7" column="1">Selecting Action Research Publications</h1>
+        <region class="DoCO:TextChunk" id="171" page="7" column="1">Initially, we conducted searches in the EuclidPLUS library catalog and research databases, including CiteSeer and ABI/ Inform. We focused on leading journals identified from IS World’s journal list ( <xref ref-type="bibr" rid="R60" id="164" class="deo:Reference">Saunders 2008</xref>) and included highly ranked journals that focused on traditional IS research topics and were likely to publish action research studies. The selected publications had the phrase “action research” in the<marker type="column" number="2"/><marker type="block"/> title, abstract, keyword, or body of the publication. From the large number of publications that met this criterion, we read the research methods sections to identify publications with action research as an important method of study. In all, we identified 83 publications in 10 leading IS journals, see <xref ref-type="table" rid="T5" id="166" class="deo:Reference">Table 5</xref>.<marker type="block"/> Most studies are published in only a handful of leading IS journals; 69 (83 percent) are published in ITP, ISJ, EJIS, MISQ, or I&amp;O, and for ITP and MISQ, some (3 and 6 respectively) were published in a special issue on action research. Five other leading IS journals account for a smaller proportion (17 percent) of the studies. We also examined the frequency of action research publications in these journals over time. <xref ref-type="table" rid="T6" id="168" class="deo:Reference">Table 6</xref> shows an increase over the period 1982–2009 with consistent percentages beyond the mid-1990s. The percentage of early action research publications is consistent with <xref ref-type="bibr" rid="R53" id="169" class="deo:Reference">Orlikowski and Baroudi (1991)</xref> who reported action research accounting for 0.6 percent of studies between 1983 and 1988.<marker type="block"/> The first 19 years (1982–2000) account for 32 of the considered publications (39 percent), while the last 9 years account for 51 publications (61 percent) (Appendix A). In the following analysis, we compare these two samples which correspond to one-third and two-thirds of the observed time period respectively, and also represent a division in time when action research was gaining momentum in IS research.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="172" confidence="possible" page="7" column="2">Analyzing Action Research Publications</h1>
+        <region class="DoCO:TextChunk" id="197" page="7" column="2">Our analysis followed specific steps. First, we systematically coded how A, P, F A , F I , M PS , M R , and their respective C elements ( <xref ref-type="bibr" rid="R12" id="173" class="deo:Reference">Checkland 1991</xref>) were represented. Two authors coded the articles independently based on a full read of each publication. Where inconsistency was evident, the third author mediated until 100 percent agreement was achieved. In all, less than 15 percent of the publications involved some element of disagreement (i.e., there was approximately 85 percent consistency between the two coders). The final coding of the sample is included in Appendix A.<marker type="block"/> As a second step, we identified and developed styles through a dialectical and iterative process (<xref ref-type="bibr" rid="R44" id="175" class="deo:Reference">Mason 2004</xref>) to understand the compositional strategy of each publication. Initially, we used brainstorming and critical debate to identify six styles based on our reading of the studies and our own experiences with action research. These initial six styles were from-the- trenches, problem-solving, new-solution, theory-assessment, theory-development, and methodology-innovation. We main- tained these styles as exemplars for what we were trying to develop throughout the coding. However, as our analyses<marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> progressed, we realized the important role played by the contribution (C) in shaping the content and structure of each publication, and how the A, P, F A , F I , M PS , and M R were represented in support of C. This led to the insight that styles were more complex and related to different parts of the argument articulated in a publication.<marker type="block"/> As a third step, we therefore distinguished between premise, inference, and contribution styles (<xref ref-type="bibr" rid="R59" id="186" class="deo:Reference">Rottenberg and Winchell 2005</xref>) to reexamine each publication. For premise styles, we related our observations to the dual goals of action research and arrived at the distinction between practical and theoretical premises. For inference styles, we drew on our earlier analysis of the IS action research literature (<xref ref-type="bibr" rid="R17" id="187" class="deo:Reference">Chiasson et al. 2009</xref>) and related our observation to McKay and Marshall’s (2001, 2007) notions of problem solving and research cycle.<marker type="column" number="2"/><marker type="block"/> This led us to the distinction between inductive and deductive reasoning. Finally, considering contribution styles, we identified patterns that characterized how authors presented different Cs to P, A, F I , M PS , or M R . We then applied the resulting styles (<xref ref-type="table" rid="T3" id="189" class="deo:Reference">Table 3</xref>) to characterize style composition in each publication as summarized in Appendix B. In this coding we experienced less than 15 percent initial inconsistency between the two coders with a final consistency of 100 percent.<marker type="block"/> Cohen’s Kappa was not calculated because of its underlying assumption of stability in which data is coded by separate people during a discrete time period and then compared. In our research, two people coded and recoded articles up to three times as changes to the process occurred. These changes included definitions and interpretations of the codes.<marker type="page" number="9"/><marker type="column" number="1"/><marker type="block"/> The process led to several versions of the coding that represented small and subtle changes over a four-year period of developing and revising this paper. Given the full-text coding of a large number of articles, we expected and even encour- aged differences to emerge arising from very large texts and the complexity of extracting a dominant code from an article. Hence, the percentage differences were not used to produce a final Cohen’s Kappa, but rather to help combine our collec- tive efforts to reach an agreed upon code between the authors.<marker type="block"/> As a final step, we conducted detailed analysis of select publications (<xref ref-type="table" rid="T4" id="196" class="deo:Reference">Table 4</xref> and associated discussion). This step was inspired by Locke and Golden-Biddle’s (1997) analysis of how organization researchers textually construct contributions in journal publications. Our goal was to demonstrate how styles can help analyze the composition of arguments for contribution across action research publications.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="177" page="7" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="178" page="7" column="2">353</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="179" page="8" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T5">
+          <caption class="deo:Caption" id="180" page="8" column="1">Table 5. Action Research Publications in Leading IS Journals</caption>
+          <content>
+            <h1 class="table"> Journal Total</h1>
+            <table class="DoCO:Table" number="5" page="8">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> ITP: Information Technology &amp; People</td>
+                  <td class="table"> 21</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> ISJ: Information Systems Journal</td>
+                  <td class="table"> 15</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> EJIS: European Journal of Information Systems</td>
+                  <td class="table"> 14</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> MISQ: Management Information Systems Quarterly</td>
+                  <td class="table"> 10</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> I&amp;O: Information &amp; Organization</td>
+                  <td class="table"> 9</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> DataBase: The DataBase for the Advances in Information Systems</td>
+                  <td class="table.strange"> 6</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> I&amp;M: Information &amp; Management</td>
+                  <td class="table.strange"> 4</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> JMIS: Journal of Management Information Systems</td>
+                  <td class="table.strange"> 3</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> JAIS: Journal of the Association for Information Systems</td>
+                  <td class="table.strange"> 1</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ISR: Information Systems Research</td>
+                  <td class="table.strange"> 0</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="table">
+                  <th class="table"> Total</th>
+                  <th class="table"> 83</th>
+                </tr>
+              </tfoot>
+            </table>
+          </content>
+          <region class="TableInfo" id="181" confidence="possible" page="8" column="1">Journal Total ITP: Information Technology &amp; People 21 ISJ: Information Systems Journal 15 EJIS: European Journal of Information Systems 14 MISQ: Management Information Systems Quarterly 10 I&amp;O: Information &amp; Organization 9 DataBase: The DataBase for the Advances in Information Systems 6 I&amp;M: Information &amp; Management 4 JMIS: Journal of Management Information Systems 3 JAIS: Journal of the Association for Information Systems 1 ISR: Information Systems Research 0 Total 83</region>
+        </region>
+        <region class="DoCO:TableBox" id="T6">
+          <caption class="deo:Caption" id="182" page="8" column="1">Table 6. IS Action Research Publications Across Years</caption>
+          <content>
+            <table class="DoCO:Table" number="6" page="8">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Action Research</th>
+                  <th class="table"> Total Number of</th>
+                  <th class="table"> % of Action Research</th>
+                </tr>
+                <tr class="table">
+                  <th class="table"> Year</th>
+                  <th class="table"> Publications</th>
+                  <th class="table"> Publications*</th>
+                  <th class="table"> Publications</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> 82-85</td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 250</td>
+                  <td class="table"> 0.4%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 86-89</td>
+                  <td class="table"> 0</td>
+                  <td class="table"> 500</td>
+                  <td class="table"> 0.0%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 90-93</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 650</td>
+                  <td class="table"> 0.5%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 94-97</td>
+                  <td class="table"> 9</td>
+                  <td class="table"> 775</td>
+                  <td class="table"> 1.2%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 98-01</td>
+                  <td class="table"> 23</td>
+                  <td class="table"> 850</td>
+                  <td class="table"> 2.7%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 02-05</td>
+                  <td class="table"> 28</td>
+                  <td class="table"> 1000</td>
+                  <td class="table"> 2.8%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 06-09</td>
+                  <td class="table"> 19</td>
+                  <td class="table"> 1300</td>
+                  <td class="table"> 1.5%</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Total</td>
+                  <td class="table"> 83</td>
+                  <td class="table"> 5325</td>
+                  <td class="table"> 1.6%</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> *The journals</td>
+                  <td class="table.strange"> from Table 5 were used.</td>
+                  <td class="table.strange"> Approximate counts were</td>
+                  <td class="table.strange"> to illustrate general trends</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> action research</td>
+                  <td class="table.strange"> publications in relation</td>
+                  <td class="table.strange"> to overall volume of</td>
+                  <td class="table.strange"> of</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="184" confidence="possible" page="8" column="1">Action Research Total Number of % of Action Research Year Publications Publications* Publications 82-85 1 250 0.4% 86-89 0 500 0.0% 90-93 3 650 0.5% 94-97 9 775 1.2% 98-01 23 850 2.7% 02-05 28 1000 2.8% 06-09 19 1300 1.5% Total 83 5325 1.6% *The journals from <xref ref-type="table" rid="T5" id="183" class="deo:Reference">Table 5</xref> were used. Approximate counts were used to illustrate general trends of action research publications in relation to overall volume of publications.</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="192" page="8" column="2">354</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="193" page="8" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="194" page="9" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="198" confidence="possible" page="9" column="1">Review of IS Action Research</h1>
+        <region class="DoCO:TextChunk" id="206" page="9" column="1">In the following paragraphs, we offer a review of key findings. <xref ref-type="table" rid="T7" id="199" class="deo:Reference">Table 7</xref> summarizes variations and trends in areas of concern. Half of the studies focus on the process of systems development (41 or 49 percent), with a smaller number focused on organizational application of IT (16 or 19 percent), IS management (11 or 13 percent), and the organizational value of IS (12 or 15 percent). There are only 3 examples of the societal impact of IS (4 percent). There are some changes from early studies (1982-2000) to more recent studies (2001- 2009) with an increase in the process of systems development (from 38 percent to 57 percent) and decreases in the organizational application of IT (from 22 percent to 18 percent) and the organizational value of IS (from 22 percent to 10 percent).<marker type="block"/> Keeping in mind that we coded all contributions in each publication, <xref ref-type="table" rid="T8" id="201" class="deo:Reference">Table 8</xref> summarizes variations and trends in the reported contributions. With minor variation across the two time periods, 68 (82 percent) explicate a contribution to the problem under investigation (C P ) and 77 (93 percent) explicate a contribution to the area of concern under investigation (C A ). Twenty-three (28 percent) explicate a contribution to frameworks independent of A (C FI ) with only a slight increase between the two periods (from 25 percent to 29 percent). In terms of methods, 50 (60 percent) explicate a contribution to problem-solving methods (C MPS ) with an increase between the two periods (from 53 percent to 65 percent); and 28 (34 percent) explicate a contribution to research methodology (C MR ) with an increase between the two periods (from 25 percent to 39 percent).<marker type="block"/>  <xref ref-type="table" rid="T9" id="203" class="deo:Reference">Table 9</xref> summarizes variations and trends in style composition. The premise style was practical in 49 (59 percent) and<marker type="column" number="2"/><marker type="block"/> theoretical in 34 (41 percent) of all publications with little change between the two time periods. The inference style was inductive in 46 (55 percent) and deductive in 37 (45 percent) of all publications with an increase in inductive inferences between time periods (from 50 percent to 59 percent) and a corresponding decrease in deductive inferences (from 50 percent to 41 percent).<marker type="block"/> With respect to contribution style, the experience report style accounts for 9 (11 percent) of the publications with a drop between the two time periods (from 22 percent to 4 percent). The field study style accounts for 25 (30 percent) of the publications with an increase between time periods (from 25 percent to 33 percent). The theoretical development style accounts for 4 (5 percent) of the publications with a slight increase between the two time periods (from 3 percent to 6 percent). The problem-solving method style accounts for 28 (34 percent) of the publications with an increase between time periods (from 28 percent to 37 percent). Finally, the research method style accounts for 17 (20 percent) of the publications with a decrease between time periods (from 22 percent to 20 percent).</region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="207" page="9" column="2">Discussion</h1>
+        <region class="DoCO:TextChunk" id="235" page="9" column="2">While there is a considerable diversity of approaches to action research (e.g., <xref ref-type="bibr" rid="R6" id="208" class="deo:Reference">Baburoglu and Ravn 1992</xref>; Baskerville and Wood-<xref ref-type="bibr" rid="R9" id="209" class="deo:Reference">Harper 1998</xref>; <xref ref-type="bibr" rid="R11" id="210" class="deo:Reference">Checkland 1981</xref>; <xref ref-type="bibr" rid="R18" id="211" class="deo:Reference">Chisholm and Elden 1993</xref>; <xref ref-type="bibr" rid="R19" id="212" class="deo:Reference">Coghlan 2001</xref>; <xref ref-type="bibr" rid="R38" id="213" class="deo:Reference">Kock 2007</xref>; <xref ref-type="bibr" rid="R46" id="214" class="deo:Reference">Mathiassen 2002</xref>; <xref ref-type="bibr" rid="R65" id="215" class="deo:Reference">Susman and Evered 1978</xref>), many IS researchers may choose not to engage in action research because they fear it prevents them from developing the type of journal publications required for promotion and tenure (<xref ref-type="bibr" rid="R22" id="216" class="deo:Reference">Davison and Martinsons 2010</xref>). Moreover, those researchers that do engage in action research often find it challenging to report the complex and diverse insights that emerge consistent with the requirements of leading academic journals. Motivated by these issues, the goals of this study were (1) to understand how action researchers leverage elements of their research practices to communicate persuasive arguments in leading journals, and (2) to provide a critical review of action research publications in leading IS journals.<marker type="block"/> Contrary to conventional wisdom, there is a considerable number of action research publications in leading IS journals with a total of 83 publications from 1982 to 2009. The majority of these publications (83 percent) are published in only a handful of journals (ITP, ISJ, MISQ, EJIS, or I&amp;O). Thirty- two studies (39 percent) were published during the first 18 years, while the last 10 years account for 51 (61 percent) of<marker type="page" number="10"/><marker type="column" number="1"/><marker type="block"/> the publications. Half of the studies (49 percent) focus on the process of systems development with a major increase between the two time periods 1982–2000 and 2001–2009 (from 38 percent to 57 percent). This strong focus on one particular area of concern (A) can be explained partly by the practical orientation of IS development research and partly by the fact that IS development is project-based, allowing action researchers to directly relate problem-solving practice to theory. Still, other areas of concern are also well repre- sented—organizational application of IT (19 percent), IS management (13 percent), and organizational value of IS (15 percent)—demonstrating how action research applies broadly<marker type="column" number="2"/><marker type="block"/> to the investigation of most areas within IS. Only one of Avgerou’s (2000) areas, societal impact of IS (4 percent), is weakly represented. This may be explained by the difficulties related to organizing action research studies beyond the individual and organizational levels of analysis.<marker type="block"/> In addition to these descriptive results on how IS researchers have published action research studies, our analyses of style composition reveal important opportunities and requirements for future action research studies within the IS discipline. In the following paragraphs, we draw on the concept of style composition, the particular set of identified styles (<xref ref-type="table" rid="T3" id="230" class="deo:Reference">Table 3</xref>),<marker type="page" number="11"/><marker type="column" number="1"/><marker type="block"/> and our empirical analyses of the literature to discuss how IS researchers can further develop action research practices and writing as an important approach to engaged scholarship.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="219" page="9" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="220" page="9" column="2">355</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="221" page="10" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TableBox" id="T7">
+          <caption class="deo:Caption" id="222" page="10" column="1">Table 7. Area of Concern (A)</caption>
+          <content>
+            <table class="DoCO:Table" number="7" page="10">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Variable</th>
+                  <th class="table"> 1982–2000</th>
+                  <th class="table"> 2001–2009</th>
+                  <th class="table"> Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Organizational application of IT</td>
+                  <td class="table"> 7 (22%)</td>
+                  <td class="table"> 9 (18%)</td>
+                  <td class="table"> 16 (19%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> The process of systems development</td>
+                  <td class="table"> 12 (38%)</td>
+                  <td class="table"> 29 (57%)</td>
+                  <td class="table"> 41 (49%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> IS management</td>
+                  <td class="table"> 6 (19%)</td>
+                  <td class="table"> 5 (10%)</td>
+                  <td class="table"> 11 (13%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> The organizational value of IS</td>
+                  <td class="table"> 7 (22%)</td>
+                  <td class="table"> 5 (10%)</td>
+                  <td class="table"> 12 (15%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> The societal impact of IS</td>
+                  <td class="table"> 0 (0%)</td>
+                  <td class="table"> 3 (6%)</td>
+                  <td class="table"> 3 (4%)</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr class="table">
+                  <th class="table"> Total</th>
+                  <th class="table"> 32</th>
+                  <th class="table"> 51</th>
+                  <th class="table"> 83</th>
+                </tr>
+              </tfoot>
+            </table>
+          </content>
+          <region class="TableInfo" id="223" confidence="possible" page="10" column="1">Variable 1982–2000 2001–2009 Total Organizational application of IT 7 (22%) 9 (18%) 16 (19%) The process of systems development 12 (38%) 29 (57%) 41 (49%) IS management 6 (19%) 5 (10%) 11 (13%) The organizational value of IS 7 (22%) 5 (10%) 12 (15%) The societal impact of IS 0 (0%) 3 (6%) 3 (4%) Total 32 51 83</region>
+        </region>
+        <region class="DoCO:TableBox" id="T8">
+          <caption class="deo:Caption" id="224" page="10" column="1">Table 8. Contributions (C)</caption>
+          <content>
+            <table class="DoCO:Table" number="8" page="10">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Variable</th>
+                  <th class="table"> 1982–2000</th>
+                  <th class="table"> 2001–2009</th>
+                  <th class="table"> Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Contribution to P</td>
+                  <td class="table"> 26 (82%)</td>
+                  <td class="table"> 42 (82%)</td>
+                  <td class="table"> 68 (82%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Contribution to A</td>
+                  <td class="table"> 30 (94%)</td>
+                  <td class="table"> 47 (92%)</td>
+                  <td class="table"> 77 (93%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Contribution to F I</td>
+                  <td class="table"> 8 (25%)</td>
+                  <td class="table"> 15 (29%)</td>
+                  <td class="table"> 23 (28%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Contribution to M PS</td>
+                  <td class="table"> 17 (53%)</td>
+                  <td class="table"> 33 (65%)</td>
+                  <td class="table"> 50 (60%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Contribution to M R</td>
+                  <td class="table"> 8 (25%)</td>
+                  <td class="table"> 20 (39%)</td>
+                  <td class="table"> 28 (34%)</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="225" confidence="possible" page="10" column="1">Variable 1982–2000 2001–2009 Total Contribution to P 26 (82%) 42 (82%) 68 (82%) Contribution to A 30 (94%) 47 (92%) 77 (93%) Contribution to F I 8 (25%) 15 (29%) 23 (28%) Contribution to M PS 17 (53%) 33 (65%) 50 (60%) Contribution to M R 8 (25%) 20 (39%) 28 (34%)</region>
+        </region>
+        <region class="DoCO:TableBox" id="T9">
+          <caption class="deo:Caption" id="226" page="10" column="1">Table 9. Style Composition</caption>
+          <content>
+            <table class="DoCO:Table" number="9" page="10">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Style</th>
+                  <th class="table"> 1982–2000</th>
+                  <th class="table"> 2001–2009</th>
+                  <th class="table"> Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Premise</td>
+                  <td class="table"> Practical Theoretical</td>
+                  <td class="table"> 20 12 (63%) (37%)</td>
+                  <td class="table"> 29 22 (57%) (43%)</td>
+                  <td class="table"> 49 34 (59%) (41%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Inference</td>
+                  <td class="table"> Inductive Deductive</td>
+                  <td class="table"> 16 16 (50%) (50%)</td>
+                  <td class="table"> 30 21 (59%) (41%)</td>
+                  <td class="table"> 46 37 (55%) (45%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Experience report</td>
+                  <td class="table"> 7 (22%)</td>
+                  <td class="table"> 2 (4%)</td>
+                  <td class="table"> 9 (11%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Field study</td>
+                  <td class="table"> 8 (25%)</td>
+                  <td class="table"> 17 (33%)</td>
+                  <td class="table"> 25 (30%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Contribution</td>
+                  <td class="table"> Theoretical development</td>
+                  <td class="table"> 1 (3%)</td>
+                  <td class="table"> 3 (6%)</td>
+                  <td class="table"> 4 (5%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Problem-solving method</td>
+                  <td class="table"> 9 (28%)</td>
+                  <td class="table"> 19 (37%)</td>
+                  <td class="table"> 28 (34%)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Research methodology</td>
+                  <td class="table"> 7 (22%)</td>
+                  <td class="table"> 10 (20%)</td>
+                  <td class="table"> 17 (20%)</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="227" confidence="possible" page="10" column="1">Style 1982–2000 2001–2009 Total Practical 20 (63%) 29 (57%) 49 (59%) Premise Theoretical 12 (37%) 22 (43%) 34 (41%) Inductive 16 (50%) 30 (59%) 46 (55%) Inference Deductive 16 (50%) 21 (41%) 37 (45%) Experience report 7 (22%) 2 (4%) 9 (11%) Field study 8 (25%) 17 (33%) 25 (30%) Contribution Theoretical development 1 (3%) 3 (6%) 4 (5%) Problem-solving method 9 (28%) 19 (37%) 28 (34%) Research methodology 7 (22%) 10 (20%) 17 (20%)</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="232" page="10" column="2">356</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="233" page="10" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="234" page="11" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="236" confidence="possible" page="11" column="1">Considering Contribution Style Options</h1>
+        <region class="DoCO:TextChunk" id="247" page="11" column="1">Our analyses ( <xref ref-type="table" rid="T9" id="237" class="deo:Reference">Table 9</xref>) reveal that problem-solving method studies are the dominant contribution style (34 percent), suggesting IS researchers find it useful to adopt action research to develop new procedural knowledge in response to challenges in IS practice. While there is also considerable emphasis on field studies (30 percent) and on research method studies (20 percent), theoretical development studies (5 percent) are less explored. Experience reports account for 11 percent of contribution styles, but there is a major drop in these publications across the two time periods (from 22 percent to 4 percent). This drop is consistent with the increased focus on theory-driven and theory-relevant work in leading IS journals.<marker type="block"/> Focusing on the number of contributions in each publication, <xref ref-type="table" rid="T8" id="239" class="deo:Reference">Table 8</xref> shows that the 83 publications explicate 246 contributions, 178 of which are beyond the problem setting (P). These numbers suggest IS action researchers on average communicate 2.1 contributions to the academic literature per publication in addition to their contributions to P with a slight increase between the two time periods (from 2.0 to 2.3). Emphasis on several Cs is warranted when the presented Cs are interrelated. However, focusing on fewer Cs could leave additional space to effectively communicate the underlying research and problem-solving pathways and, hence, allow authors to provide additional rigor and clearer logic to argue for their primary contribution.<marker type="block"/> These results suggest IS researchers, as both authors and reviewers, carefully consider the contribution style options that apply to each action research project. Action research lends itself strongly to pluralist studies which facilitate the production of both theoretical and practical knowledge (<xref ref-type="bibr" rid="R17" id="241" class="deo:Reference">Chiasson et al. 2009</xref>; <xref ref-type="bibr" rid="R46" id="242" class="deo:Reference">Mathiassen 2002</xref>; <xref ref-type="bibr" rid="R49" id="243" class="deo:Reference">Mingers 2001</xref>). As a result, researchers can often develop more than one publication from a project (<xref ref-type="bibr" rid="R17" id="244" class="deo:Reference">Chiasson et al. 2009</xref>; <xref ref-type="bibr" rid="R46" id="245" class="deo:Reference">Mathiassen 2002</xref>). Systematic consideration of relevant contribution style options (<xref ref-type="table" rid="T3" id="246" class="deo:Reference">Table 3</xref> and Appendix B) can therefore help researchers separate concerns and identify possible publications:</region>
+        <region class="DoCO:TextChunk" id="248" confidence="possible" page="11" column="1">• Experience report publications report practical insights and lessons from the field based on the problem-solving cycle and related to P and A. Such publications can be effective for targeting academic practitioner journals. They are, however, not generally well-suited for leading journals because of the weak emphasis on communi-</region>
+        <region class="DoCO:TextChunk" id="252" confidence="possible" page="11" column="2">cating contributions to the academic literature, except perhaps when reporting in detail about new techno- logical, organizational, or societal phenomena. • Field study publications are suitable when the research cycle establishes opportunities for contribution to some A (including F A ) in the literature and the problem-solving cycle provides appropriate, new insights into that A. Sufficient data can in some situations be generated through the diagnostic stage (<xref ref-type="bibr" rid="R65" id="249" class="deo:Reference">Susman and Evered 1978</xref>) alone, offering opportunities to publish traditional case studies at an early stage of an action research project (<xref ref-type="bibr" rid="R17" id="250" class="deo:Reference">Chiasson et al. 2009</xref>; <xref ref-type="bibr" rid="R46" id="251" class="deo:Reference">Mathiassen 2002</xref>). In other situations, comprehensive data can be generated throughout the problem-solving cycle as a foundation for developing a contribution to A. • Theoretical development publications are suitable when the research cycle establishes opportunities for contribution to some F I in the literature, and F I provides relevant support for making sense of the problem-solving cycle. F I can either directly support a diagnosis of P and an evaluation of results during the problem-solving cycle, or it can support post-action analysis of data generated from the problem-solving cycle. The application of F I to analyze data from the problem-solving cycle creates the foundation for critiquing or developing the framework as a basis for studying IS practices. • Problem-solving method publications are suitable when the research cycle establishes opportunities for contribution to some M PS in the literature and M PS is appropriate for supporting the problem-solving cycle. One option is to collect sufficient data during the problem-solving cycle to critique an existing M PS . Another option is to develop a new or revised M PS that is then applied to P and evaluated based on data from the problem-solving cycle. • Research method publications are suitable when the research cycle establishes opportunities for contribution to some M R in the literature and M R is appropriate for organizing the research cycle and its interactions with the problem-solving cycle. One option is to critique an existing M R based on data from the intervention into P. Another option is to develop a new or revised M R to guide the intervention and analyses and to subsequently evaluate it based on experiences and impacts from the action research.</region>
+        <region class="DoCO:TextChunk" id="259" page="11" column="2">As researchers consider which primary academic contributions (to A, F A , F I , M PS , or M R ) they plan to make from a pro- <marker type="page" number="12"/><marker type="column" number="1"/><marker type="block"/> ject, they should keep in mind that contributions to different elements are often intertwined. If researchers intend to develop more than one contribution, they may split these into separate publications or explicitly articulate the relationships between contributions in order to reduce the complexity and lack of attention to any one contribution. Also, while it is important to consider contribution style options early in an action research project, it is equally important to reconsider and revise the adopted publication strategy as the project unfolds and new options emerge (<xref ref-type="bibr" rid="R17" id="257" class="deo:Reference">Chiasson et al. 2009</xref>).<marker type="block"/> Specifically, the very small percentage of theoretical (F I ) development studies suggests IS action researchers should engage in critiquing and developing theoretical frameworks independent of the area of concern. Being a practically oriented field, IS researchers have hitherto focused on contributions to F A . This focus has led to fewer contributions to theory independent of the area of concern within our IS journals, which could inform other fields. Exploring the theoretical development style requires researchers to carefully consider the distinction between F I and F A and the options this offers for making theoretical contributions independent of A. When the distinction remains blurred, it is typically because a firm decision needs to be made on what constitutes the A for a considered publication.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="254" page="11" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="255" page="11" column="2">357</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="256" page="12" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="260" confidence="possible" page="12" column="1">Communicating Key Elements of Research Practice</h1>
+        <region class="DoCO:TextChunk" id="280" page="12" column="1">Our detailed analyses of the A, P, F A , F I , M PS , M R , and C elements ( <xref ref-type="bibr" rid="R12" id="261" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="262" class="deo:Reference">McKay and Marshall 2001</xref>, 2007) in action research publications revealed important insights into how IS researchers communicate key elements of their action research practices in publications. The problem setting (P) is clearly specified in 87 percent of the publications. Even though these studies represent the vast majority, it is surprising that P is not clearly specified in all publications. For example, <xref ref-type="bibr" rid="R43" id="263" class="deo:Reference">Mårtensson and Lee (2004)</xref> did not clearly specify the context of the studied organization, although such a specification is required to allow the reader to make judgments about the foundation for the study. A clear specification of the problem setting is alluded to as “part of the scientific requirements for a doctoral degree and published in a doctoral dissertation” (ibid., p. 520), but it is not present in the current publication. Emphasis on research methods, cross-case analysis, and, increasingly, the emphasis of theory may make it more difficult to present detailed problem setting characteristics within the page limits of journal publication. However, action research studies are embedded in specific settings (<xref ref-type="bibr" rid="R57" id="264" class="deo:Reference">Rapoport 1970</xref>; <xref ref-type="bibr" rid="R65" id="265" class="deo:Reference">Susman and Evered 1978</xref>), and a clear specification of P is required to present the context (Pettigrew<marker type="column" number="2"/><marker type="block"/> 1987) and to discuss transferability of findings to other contexts (<xref ref-type="bibr" rid="R14" id="267" class="deo:Reference">Checkland and Holwell 1998</xref>, 2007).<marker type="block"/> Only 83 percent of the publications include a clear specification of a conceptual framing (F A or F I ). For example, <xref ref-type="bibr" rid="R46" id="269" class="deo:Reference">Mathiassen (2002)</xref> adopted software process improvement (F A ) and a pluralist methodology (F I ) to present a case in the development of collaborative practice research. However, the F A and F I were broadly described through the paper without providing the reader sufficient detail to understand how F A or F I are precisely addressed in developing collaborative practice research. Clear specification of F is generally important because it grounds a study in previous research (F A ) and sup- ports analysis of data and generation of theoretical contributions (F A and F I ) (<xref ref-type="bibr" rid="R12" id="270" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R44" id="271" class="deo:Reference">Mason 2004</xref>; <xref ref-type="bibr" rid="R47" id="272" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). Hence, publications with vaguely specified framing are often driven by a desire to investigate a new problem domain or to develop grounded theory. However, to effectively communicate new insights on topics of theoretical interest to future research, authors need to critique or develop their theoretical assumptions.<marker type="block"/> The problem-solving method (M PS ) is only clearly specified in 58 percent and the research method (M R ) in 67 percent of the publications. For example, <xref ref-type="bibr" rid="R37" id="274" class="deo:Reference">Kautz and Nielsen (2004)</xref> have specified the M R and the M PS vaguely. They offer only a brief account of the adopted case study method (ibid., pp. 7-8), making it difficult for the reader to follow how data were collected and analyzed to arrive at the findings. Addi- tionally, there is vague specification of how the practical problem of software process improvement was diagnosed and addressed, leaving the reader with a limited basis for understanding how the presented practical results were achieved. There is an increase in publications with a clearly specified M PS (from 53 percent to 61 percent) and M R (from 59 percent to 73 percent), but the results are still surprising as publications in leading journals require methodological clarity and M PS and M R constitute key characteristics of any action research design (<xref ref-type="bibr" rid="R12" id="275" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R23" id="276" class="deo:Reference">Davison et al. 2004</xref>; <xref ref-type="bibr" rid="R47" id="277" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). A possible explanation is the challenges authors face in representing the complex cyclical processes of action research within the constraints of journal publication. In fact, the special issue of action research studies in MIS Quarterly emphasized rigorous specification and evaluation of M R (<xref ref-type="bibr" rid="R7" id="278" class="deo:Reference">Baskerville and Meyers 2004</xref>). As a result, the six publications published in this special issue cover 26, 32, 40, 38, 34, and 29 pages (average of 33.2 pages). In comparison, the average number of pages in all other research publications published in MIS Quarterly that year was 27.5.<marker type="block"/> These analyses demonstrate how the A, P, F, M, and C concepts can help IS action researchers and reviewers drive</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="281" page="12" column="2">358</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="282" page="12" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="283" page="13" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="DoCO:TextChunk" id="284" confidence="possible" page="13" column="1">publication quality, legitimacy, and acceptance by paying careful attention to how the different elements of research practice are prioritized and represented in the text. Three issues stand out as particularly important.</region>
+        <region class="DoCO:TextChunk" id="289" page="13" column="1">(1) Clear specification of the problem setting (P) as a key element distinctly different from the research question (RQ) is required to present the contextual aspects of a study ( <xref ref-type="bibr" rid="R56" id="285" class="deo:Reference">Pettigrew 1987</xref>) and to discuss transferability of findings about the RQ to other contexts (<xref ref-type="bibr" rid="R14" id="286" class="deo:Reference">Checkland and Holwell 1998</xref>, 2007).<marker type="block"/> (2) It is important to discuss theoretical assumptions and implications and this requires explication of the theoretical framing (F) including F A as well as F I .<marker type="block"/> (3) Publication in leading journals inevitably requires clarity on the adopted method of investigation (M) including the problem-solving method (M PS ) as well as the research method (M R ).</region>
+        <region class="DoCO:TextChunk" id="290" confidence="possible" page="13" column="1">To address these challenges, emphasis on one primary academic contribution (C) in each publication will typically allow authors to articulate the contribution convincingly and specify other action research elements with rigor and detail.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="291" confidence="possible" page="13" column="1">Composing Persuasive Arguments</h1>
+        <region class="DoCO:TextChunk" id="299" page="13" column="1">Similar to genres representing distinctive types of text ( <xref ref-type="bibr" rid="R31" id="292" class="deo:Reference">Fowler 1982</xref>), style compositions represent different ways in which authors communicate persuasive arguments about their contribution. Considering the classical structure of arguments (<xref ref-type="bibr" rid="R59" id="293" class="deo:Reference">Rottenberg and Winchell 2005</xref>) and drawing on Locke and Golden-Biddle’s (1997) study of how organizational researchers construct contributions, we identified distinct premise styles, inference styles, and contribution styles across the considered publications (<xref ref-type="table" rid="T3" id="294" class="deo:Reference">Table 3</xref>). In addition, we described how authors combine these styles in different ways to communicate contributions to the academic literature (<xref ref-type="table" rid="T4" id="295" class="deo:Reference">Table 4</xref>, <xref ref-type="table" rid="T9" id="296" class="deo:Reference">Table 9</xref>, and Appendix B). While Locke and Golden-Biddle’s focus is on how authors construct a contribution by problematizing the existing literature and presenting a coherent response to the identified gap, our proposed set of styles focuses on how action researchers select, emphasize, and present different elements of action research practice to establish premises, develop inferences, and present contributions.<marker type="block"/> We found considerable variation across the sample in how styles were composed to present a persuasive argument. While the majority of studies is based on practical premises<marker type="column" number="2"/><marker type="block"/> (59 percent) and adopts inductive inference (55 percent), there is also considerable representation of theoretical premise styles (41 percent) and deductive inference styles (45 percent). Similarly, the combination of practical premises and inductive inference is the dominant form of argument (35 percent), but the other combinations were also widely used: practical premise-deductive inference (24 percent), theoretical premise-inductive inference (21 percent), and theoretical premise-deductive inference (20 percent). These analyses demonstrate the usefulness of the general concept of style composition and of the particular set of identified styles as conceptual tools for analyzing action research publications and for understanding how publication practices reflect the research community’s expectations of rigor and novelty. The results of our analyses suggest that publication of action research studies in leading journals is equally well supported by the different combinations of premise and inference styles.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="300" confidence="possible" page="13" column="2">Structuring Action Research Publications</h1>
+        <region class="DoCO:TextChunk" id="331" page="13" column="2">Our detailed analyses of how styles were composed and communicated in example publications demonstrate how the notion of style composition relates to the detailed structuring of action research publications. Although the considered compositions represent general patterns of arguments ( <xref ref-type="table" rid="T4" id="301" class="deo:Reference">Table 4</xref>), each author had to develop the specific structure through which arguments were communicated. The notion of style composition relates, in this way, to the general challenges in scientific writing (e.g., <xref ref-type="bibr" rid="R24" id="302" class="deo:Reference">Day 1971</xref>, 1991; <xref ref-type="bibr" rid="R35" id="303" class="deo:Reference">Gopen and Swan 1990</xref>). However, the emphasis in this literature is on the hard sciences and on how scientists can best structure publications into distinct sections with different communicative purposes, whereas the emphasis of style composition is on how researchers communicate theoretical contributions based on elements of their research practice.<marker type="block"/> Our detailed analyses of style composition in specific publications (<xref ref-type="table" rid="T4" id="305" class="deo:Reference">Table 4</xref>) also have parallels to the recent literature on principles for canonical action research (<xref ref-type="bibr" rid="R23" id="306" class="deo:Reference">Davison et al. 2004</xref>) in that both explicate insights to help action researchers develop rigorous and relevant publications. However, the principles for canonical action research are conceptualized based on one particular approach to action research proposed by <xref ref-type="bibr" rid="R65" id="307" class="deo:Reference">Susman and Evered (1978)</xref>, whereas style composition is conceptualized based on the elements of action research practice found in any action research study (<xref ref-type="bibr" rid="R12" id="308" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="309" class="deo:Reference">McKay and Marshall 2001</xref>, 2007). In addition, the principles for canonical action research are grounded in general action research methodology, whereas the presented approaches to style composition are grounded in the texts of action research studies published in leading IS journals.<marker type="page" number="14"/><marker type="column" number="1"/><marker type="block"/> These insights suggest IS action researchers structure publications by combining the adopted compositional style with recommendations for structuring scientific writing and principles of canonical action research. Accordingly, <xref ref-type="fig" rid="F1" id="329" class="deo:Reference">Figure 1</xref> summarizes a generic template for structuring action research journal publications.<marker type="block"/> The template adapts Day’s (1971, 1991) general structure to the context of action research; it distributes the basic elements of style composition across the structure; and it applies Davison et al.’s (2004) principles for canonical action research to the different parts of a publication. This template can help authors translate their style composition into an appropriate publication structure as they also consider target journal traditions, personal preferences, and literature base. For additional inspiration on how to structure action research publications for leading journals, IS researchers can identify publications in Appendix B with similar premise, inference, and contribution styles.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="311" page="13" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="312" page="13" column="2">359</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="313" page="14" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <region class="unknown" id="327" page="14" column="1">Introduction. Introduce area of concern (A) and motivate the objective of study. Introduce problem setting (P), conceptual framing (F), and method of investigation (M) as appropriate for addressing research objective. State principal results by making clear how a contribution (C) is made to one or more of A, P, F, or M (<xref ref-type="bibr" rid="R12" id="314" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="315" class="deo:Reference">McKay and Marshall 2001</xref>). Background. Provide a review of the pertinent literature within those areas to which C is a contribution; consider the principle of theory (<xref ref-type="bibr" rid="R23" id="316" class="deo:Reference">Davison et al. 2004</xref>). Substantiate the motivation for the study by evaluating what we know and don’t know. State the research question (RQ). Framing. Introduce and argue for F, from A (F A ) or independent of A (F I ), for structuring and supporting data collection and analysis based on action research; consider the principle of theory (<xref ref-type="bibr" rid="R23" id="317" class="deo:Reference">Davison et al. 2004</xref>). Methods. Describe and argue for research method (M R ) and problem-solving method (M PS ); consider the principle of the cyclical process model (<xref ref-type="bibr" rid="R23" id="318" class="deo:Reference">Davison et al. 2004</xref>). Introduce P to provide context for analysis (<xref ref-type="bibr" rid="R56" id="319" class="deo:Reference">Pettigrew 1987</xref>) and to allow for subsequent discussion of transferability of results (<xref ref-type="bibr" rid="R14" id="320" class="deo:Reference">Checkland and Holwell 1998</xref>); consider the principle of the researcher– client agreement (<xref ref-type="bibr" rid="R23" id="321" class="deo:Reference">Davison et al. 2004</xref>). Results. Present results of the problem-solving cycle based on M PS ; consider the principle of change through action (<xref ref-type="bibr" rid="R23" id="322" class="deo:Reference">Davison et al. 2004</xref>). Present results of the research cycle based on M R . Focus on representative data, use tables and graphs (<xref ref-type="bibr" rid="R24" id="323" class="deo:Reference">Day 1971</xref>); consider the principle of learning through reflection (<xref ref-type="bibr" rid="R23" id="324" class="deo:Reference">Davison et al. 2004</xref>). Discussion. Discuss Cs as response to RQ based on Results and related to Background literature; consider the principle of learning through reflection (<xref ref-type="bibr" rid="R23" id="325" class="deo:Reference">Davison et al. 2004</xref>). Don’t repeat results, discuss relationships to literature, provide possible explanations, explicate conclusions with evidence for each conclusion, and state theoretical and practical implications (<xref ref-type="bibr" rid="R24" id="326" class="deo:Reference">Day 1971</xref>).</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="328" page="14" column="1">Figure 1. Generic Structure of an Action Research Journal Publication</caption>
+        </region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="332" page="14" column="1">Conclusion</h1>
+        <region class="DoCO:TextChunk" id="348" page="14" column="1">Drawing on genre theory, action research theory, and an empirical investigation of publications in leading journals, <marker type="column" number="2"/><marker type="block"/> this study has established style composition to help understand action research publication in academic journals. Focusing on the IS discipline, we have analyzed the styles adopted in select publications, shown that action researchers have favored certain styles while leaving others underexplored, and revealed important strengths and weaknesses in action research style compositions. While these findings have been developed based on a rigorous literature study (<xref ref-type="bibr" rid="R68" id="334" class="deo:Reference">Webster and Watson 2002</xref>), the presented study has specific limita- tions. We have focused on journal publications as texts without knowledge of actual research practices, and we have not included academic books published for action research studies as part of our analyses, see <xref ref-type="table" rid="T1" id="335" class="deo:Reference">Table 1</xref>. We have drawn on specific conceptions of action research (<xref ref-type="bibr" rid="R12" id="336" class="deo:Reference">Checkland 1991</xref>; <xref ref-type="bibr" rid="R47" id="337" class="deo:Reference">McKay and Marshall 2001</xref>, 2007) without, for example, considering control perspectives (<xref ref-type="bibr" rid="R3" id="338" class="deo:Reference">Avison et al. 2001</xref>) or positivist perspectives (<xref ref-type="bibr" rid="R26" id="339" class="deo:Reference">DeLuca et al. 2008</xref>). Finally, we have grounded our analysis in publication practices within the IS discipline.<marker type="block"/> Still, the study offers important contributions to the literature. Our critical review of IS action research studies in leading journals and the notion of style composition provide practical and theoretical support for improving action research practices and writing within the IS discipline. Moreover, current literature offers no conceptualizations of how researchers<marker type="page" number="15"/><marker type="column" number="1"/><marker type="block"/> translate their practices into journal publications through genre repertoires (<xref ref-type="bibr" rid="R54" id="345" class="deo:Reference">Orlikowski and Yates 1994</xref>; <xref ref-type="bibr" rid="R69" id="346" class="deo:Reference">Yates and Orlikowski 1992</xref>). Against this backdrop, we have developed the notion of style composition as a new contribution to the research methodology literature. Although justified for action research in this study, the notion of style composition (see Tables 2 and 3) and related guidelines (see the “Discussion” section) might very well be adaptable to other approaches to engaged scholarship research. Engaged scholarship covers process studies as well as variance studies and applies quan- titative as well as qualitative inquiry (<xref ref-type="bibr" rid="R66" id="347" class="deo:Reference">Van de Ven 2007</xref>), but it shares with action research a fundamental commitment to practice by involving “different perspectives of key stake- holders (researchers, users, clients, sponsors, and practitioners) in studying complex problems” (ibid., p. 9). Hence, future research might be invoked to apply and further develop compositional styles for different forms of engaged scholarship both within and outside the IS discipline.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="342" page="14" column="2">360</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="343" page="14" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="344" page="15" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="349" confidence="possible" page="15" column="1">Acknowledgments</h1>
+        <region class="DoCO:TextChunk" id="350" confidence="possible" page="15" column="1">We would like to thank the senior editor, the associate editor, and the team of reviewers for providing excellent critique and suggestions that greatly helped us develop style composition as a contribution to the research methodology literature. We would also like to acknowledge the Advanced Institute of Management Research (AIM) and the Economic and Social Research Council (ESRC) in England (RES-331-27-0016) in support of this project.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="351" confidence="possible" page="15" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="352" page="15" column="1">Andersen, N. E., Kensing, F., Lassen, M., Lundin, J., Mathiassen, L., Munk-Madsen, A., and Sørgaard, P. 1986. Professional Systems Development—Experiences, Ideas, and Action, Copenhagen: Teknisk Forlag.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="353" page="15" column="1">Avgerou, C. 2000. “Information Systems: What Sort of Science Is It?,” Omega (28), pp. 567-579.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="354" page="15" column="1">Avison, D., Baskerville, R., and Myers, M. 2001. “Controlling Action Research Projects,” Information Technology &amp; People (14:1), pp. 28-45.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="355" page="15" column="1">Avison, D. E., and Wood-Harper, A. T. 1990. Multiview: An Exploration in Information Systems Development, Oxford, UK: Blackwell Scientific Publications.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="356" page="15" column="1">Avison, D. E., and Wood-Harper, A. T. 1991. “Information Systems Development Research. An Exploration of Ideas in Practice,” The Computer Journal (34:2), pp. 98-112.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="357" page="15" column="1">Baburoglu, O. N., and Ravn, I. 1992. “Normative Action Research,” Organization Studies (13:1), pp. 19-34.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="358" page="15" column="1">Baskerville, R., and Myers, M. 2004. “Special Issue on Action Research in Information Systems: Making IS Research Relevant to Practice—Foreword,” MIS Quarterly (28:3), pp. 329-335.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="360" page="15" column="1">Baskerville, R., and Pries-Heje, J. 1999. “Grounded Action Research: A Method for Understanding IT in Practice,” Informa- <marker type="column" number="2"/><marker type="block"/> tion &amp; Organization (published under prior journal name of Accounting, Management and Information Technology) (9:1), pp. 1-23.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="361" page="15" column="2">Baskerville, R., and Wood-Harper, T. 1998. “Diversity in Information Systems Action Research Methods,” European Journal of Information Systems (7:2), pp. 90-107.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="362" page="15" column="2">Bragge, J., and Merisalo-Rantanen, H. 2009. “Engineering E-Collaboration Processes to Obtain Innovative End-User Feedback on Advanced Web-Based Information Systems,” Journal of the AIS (10:Special Issue), pp. 196-220.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="363" page="15" column="2">Checkland, P. 1981. Systems Thinking, Systems Practice, Chichester,UK: John Wiley &amp; Sons.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="364" page="15" column="2">Checkland, P. 1991. “From Framework through Experience to Learning: The Essential Nature of Action Research,” in Informa-</ref>
+          <ref class="deo:BibliographicReference" id="365" page="15" column="2">tion Systems Research: Contemporary Approaches and Emer- gent Traditions, H. E. Nissen, H. K. Klein, and R. A. Hirschheim (eds.), Amsterdam: North-Holland, pp. 397-403.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="366" page="15" column="2">Checkland, P. 2000. “Soft Systems Methodology: A Thirty Year Retrospective,” Systems Research and Behavioral Science (17:1), pp. 11-58,</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="367" page="15" column="2">Checkland, P., and Holwell, S. 1998. “Action Research: Its Nature and Validity,” Systemic Practice and Action Research (11:1), pp. 9-21.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="368" page="15" column="2">Checkland, P., and Holwell, S. 2007. “Action Research: Its Nature and Validity,” in Information Systems Action Research: An Applied View of Emerging Concepts and Methods, N. Kock (ed.), New York: Springer, pp. 3-18.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="369" page="15" column="2">Chiasson, M. 2002. “The Tail and the Dog: Agency and Structure Influences on the Development of an E-Commerce Information System in a New Venture Startup,” Database for the Advances in Information Systems (33:4), pp. 24-38.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="370" page="15" column="2">Chiasson, M., Germonprez, M., and Mathiassen, L. 2009. “Pluralist Action Research: A Review of the Information Systems Literature,” Information Systems Journal (19:1), pp. 31-54.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="371" page="15" column="2">Chisholm, R. F., and Elden, M. 1993. “Features of Emerging Action Research,” Human Relations (46:2), pp. 275-298.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="372" page="15" column="2">Coghlan, D. 2001. “Insider Action Research Projects: Implications for Practicing Managers,” Management Learning (32:1), pp. 49-60.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="373" page="15" column="2">Coghlan, P., and Coghlan, D. 2002. “Action Research for Operations Management,” International Journal of Operations &amp; Production Management (22:2), pp. 220-240.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="374" page="15" column="2">Davison, R., and Martinsons, M. 2002. “Empowerment or Enslavement? A Case of Process-Based Change in Hong Kong,” Information Technology &amp; People (15:1), pp. 42-59.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="375" page="15" column="2">Davison, R., and Martinsons, M. 2010. “Inclusive or Exclusive? Methodological Practice and Policy for Organisationally and Socially Relevant IS Research,” in Proceedings of the 16 th Americas Conference on Information Systems, Paper 111</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="376" page="15" column="2">Davison, R., Martinsons, M., and Kock, N. 2004. “Principles of Canonical Action Research,” Information Systems Journal (14:1), pp. 65-86.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="377" confidence="possible" page="15" column="2">Day, R. A. 1971. “How to Write and Publish a Scientific Paper,” IEEE Transactions on Scientific Writing (20:1), pp. 32-37.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="378" confidence="possible" page="15" column="2">Day, R. A. 1991. How to Write and Publish a Scientific Paper, Cambridge, UK: Cambridge University Press.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="382" page="16" column="1">DeLuca, D., Gallivan, M., and Kock, N. 2008. “Furthering Information Systems Action Research: A Post-Positivist Synthesis of Four Dialectics,” Journal of the AIS (9:2), pp. 48-72.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="383" page="16" column="1">Dubrow, H. 1982. Genre: The Critical Idiom, New York: Methuen and Company.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="384" page="16" column="1">Eden, C., and Huxham, C. 1996. “Action Research for Management Research,” British Journal of Management (7:1), pp. 75-86.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="385" page="16" column="1">Ehn, P. 1988. Work-Oriented Design of Computer Artifacts, Stockholm: Arbetslivscentrum.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="386" page="16" column="1">Ehn, P. 1989. “The Art and Science of Designing Computer Artifacts,” Scandinavian Journal of Information Systems (1:1), pp. 21-42,</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="387" confidence="possible" page="16" column="1">Fowler, A. 1982. Kinds of Literature: An Introduction to the Theory of Genres and Modes, Cambridge, MA: Harvard University Press.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="388" page="16" column="1">Giddens, A. 1984. The Constitution of Society: Outline of the Theory of Structuration, Cambridge, UK: Cambridge University Press.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="389" page="16" column="1">Glaser, B. G., and Strauss, A. L. 1967. The Discovery of Grounded Theory: Strategies for Qualitative Research, New York: Aldine Publishing Company.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="390" page="16" column="1">Golden-Biddle, K., and Locke, K. 2007. Composing Qualitative Research, Thousand Oaks, CA: Sage Publications.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="391" page="16" column="1">Gopen, G. D., and Swan, J. A. 1990. “The Science of Scientific Writing—If the Reader Is to Grasp What the Writer Means, the Writer Must Understand What the Reader Needs,” American Scientist (78), pp. 550-558.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="392" page="16" column="1">Gustavsen, B. 1993. “Action Research and the Generation of Knowledge,” Human Relations (46:11), pp. 1361-1365.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="393" page="16" column="1">Kautz, K., and Nielsen, P. A. 2004. “Understanding the Implementation of Software Process Improvement Innovations in Software Organizations,” Information Systems Journal (14:1), pp. 3-22.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="394" page="16" column="1">Kock, N. (ed.). 2007. Information Systems Action Research: An Applied View of Emerging Concepts and Methods, New York: Springer.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="395" page="16" column="1">Latour, B. 1987. “Science in Action: How to Follow Scientists and Engineers Through Society,” Cambridge, MA: Harvard University Press.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="396" page="16" column="1">Lau, F. 1997. “A Review on the Use of Action Research in Information Systems Studies,” in Information Systems and Qualitative Research, A. S. Lee, J. Liebenau, and J. I. DeGross (eds.), London: Chapman and Hall, pp. 31-68.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="397" confidence="possible" page="16" column="1">Levin, M. 1993. “Creating Networks for Rural Economic Development in Norway,” Human Relations (46:2), pp. 193-218.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="398" page="16" column="1">Locke, K., and Golden-Biddle, K. 1997. “Constructing Oppor- tunities for Contribution: Structuring Intertextual Coherence and ‘Problematizing’ in Organizational Studies,” Academy of Management Journal (40:5), pp. 1023-1062.</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="399" page="16" column="1">Mårtensson, P., and Lee, A. 2004. “Dialogical Action Research at Omega Corporation,” MIS Quarterly (28:3), pp. 507-536.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="400" confidence="possible" page="16" column="1">Mason, J. 2004. Qualitative Researching (2 nd ed.), Thousand Oaks, CA: Sage Publications.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="401" page="16" column="1">Mathiassen, L. 1998 “Reflective Systems Development,” Scandinavian Journal of Information Systems (10:1), pp. 67-134.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="402" page="16" column="1">Mathiassen, L. 2002. “Collaborative Practice Research,” Information Technology &amp; People (15:4), pp. 321-345.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="403" page="16" column="2">McKay, J., and Marshall, P. 2001. “The Dual Imperatives of Action Research,” Information Technology &amp; People (14:1), pp. 46-59.</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="404" page="16" column="2">McKay, J., and Marshall, P. 2007. “Driven by Two Masters, Serving Both: The Interplay of Problem Solving and Research in Information Systems Action Research Projects,” in Information Systems Action Research: An Applied View of Emerging Concepts and Methods, N. Kock (ed.), New York: Springer, pp. 131-158.</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="405" page="16" column="2">Mingers, J. 2001. “Combining IS Research Methods: Towards a Pluralist Methodology,” Information Systems Research (12:3), pp. 240-259.</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="406" page="16" column="2">Mumford, E. 2001. “Advice for an Action Researcher,” Information Technology &amp; People (14:1), pp. 12-22.</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="407" page="16" column="2">Mumford, E., and Weir, M. 1979. Computer Systems in Work Design—The ETHICS Method, London: Associated Business Press.</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="408" page="16" column="2">Narayanaswamy, R., and Grover, V. 2007. “A Critical Assessment of Information Systems Action Research,” in Information Systems Action Research: An Applied View of Emerging Concepts and Methods, N. Kock (ed.), New York: Springer, pp. 327-354.</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="409" page="16" column="2">Orlikowski, W. J., and Baroudi, J. J. 1991. “Studying Information Technology in Organizations: Research Approaches and Assumptions,” Information Systems Research (2:1), pp. 1-28.</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="410" page="16" column="2">Orlikowski, W. J., and Yates, J. 1994. “Genre Repertoire: The Structuring of Communicative Practices in Organizations,” Administrative Science Quarterly (39), pp. 541-574.</ref>
+          <ref rid="R55" class="deo:BibliographicReference" id="411" confidence="possible" page="16" column="2">Perry, C., and Gummesson, E. 2004. “Action Research in Mar- keting,” European Journal of Marketing (38:3/4), pp. 310-320.</ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="412" page="16" column="2">Pettigrew, A. M. 1987. “Context and Action in the Transformation of the Firm,” Journal of Management Studies (24:6), pp. 649-670.</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="413" page="16" column="2">Rapoport, R. 1970. “Three Dilemmas in Action Research,” Human Relations (23:6), pp. 499-513.</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="414" page="16" column="2">Reichert, J. 1978. “More than Kin and Less than Kind: The Limits of Genre Theory,” in Theories of Literary Genre, J. P. Strelka (ed.), State College, PA: The Pennsylvania State University Press, pp. 57-79.</ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="415" page="16" column="2">Rottenberg, A. T., and Winchell, D. H. 2005. The Structure of Arguments, Boston: Bedford/St. Martins Publishers.</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="417" confidence="possible" page="16" column="2">Saunders, C. 2008. “MIS Journal Rankings” (<ext-link ext-link-type="uri" href="http://www.isworld" id="416">http://www.isworld</ext-link>. org/csaunders/rankings.htm).</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="418" page="16" column="2">Simon, H. A. 1960. The New Science of Management Decision, New York: Harper and Row.</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="419" page="16" column="2">Straub, D. 1990. “Effective Is Security: An Empirical Investi- gation,” Information Systems Research (1:3). pp. 255-276.</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="420" page="16" column="2">Straub, D., and Welke, R. 1998. “Coping with Systems Risk: Security Planning Models for Management Decision-Making, MIS Quarterly (22:4), pp. 441-469.</ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="421" page="16" column="2">Strauss, A., and Corbin, J. 1990. Basics of Qualitative Research: Grounded Theory Procedures and Techniques, London: Sage Publications.</ref>
+          <ref rid="R65" class="deo:BibliographicReference" id="422" page="16" column="2">Susman, G., and Evered, R. 1978. “An Assessment of the Scientific Merits of Action Research,” Administrative Science Quarterly (23:4), pp. 582-603.</ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="426" page="17" column="1">Van de Ven, A. H. 2007. Engaged Scholarship, New York: Oxford University Press.</ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="427" page="17" column="1">Webster. 1994. Merriam Webster’s Collegiate Dictionary (10 th ed.), Springfield, MA: Merriam Webster Inc.</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="428" page="17" column="1">Webster, J., and Watson, R. 2002. “Analyzing the Past to Prepare for the Future: Writing a Literature Review,” MIS Quarterly (26:2), pp. xiii-xxiii.</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="429" page="17" column="1">Yates, J., and Orlikowski, W. J. 1992. “Genres of Organizational Communication: A Structurational Approach to Studying Communication and Media,” Academy of Management Review (17), pp. 299-326.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="footer" id="379" page="15" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="380" page="15" column="2">361</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="381" page="16" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="423" page="16" column="2">362</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="424" page="16" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="425" page="17" column="1">Mathiassen et al./Style Composition in Action Research Publication</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="430" confidence="possible" page="17" column="1">About the Authors</h1>
+        <region class="DoCO:TextChunk" id="431" confidence="possible" page="17" column="1">Lars Mathiassen is a member of IEEE, ACM, and AIS. He received his master’s degree in computer science from Aarhus University, Denmark, in 1975, his Ph.D. in informatics from Oslo University, Norway, in 1981, and his Dr. Techn. degree in software engineering from Aalborg University in 1998. He is currently GRA Eminent Scholar and professor in the Department of Computer Information Systems and co-founder of the Center for Process Innovation at Georgia State University. His research interests are within IS and software engineering with a particular emphasis on process innovation. He has coauthored Computers in Context (Blackwell, 1993), Object Oriented Analysis &amp; Design (Marko Publishing, 2000), and Improving Software Organizations (Addison- Wesley, 2002). He has served as senior editor for MIS Quarterly and his research has appeared in published journals including Information Systems Research, MIS Quarterly, IEEE Transactions on Software Engineering, IEEE Transactions on Engineering Man-</region>
+        <region class="DoCO:TextChunk" id="432" confidence="possible" page="17" column="2">agement, Communications of the ACM, Journal of the AIS, Information Systems Journal, and European Journal of Information Systems. Mike Chiasson is currently a professor of Information Systems and an Advanced Institute of Management (AIM) Innovation Fellow in the Department of Management Science at Lancaster University’s Management School. His research interests include the development, implementation, and outcomes of health care IT (particularly patient records systems) and enterprise systems. The theories employed in such work include actor–network theory, Habermas, pragmatism, deconstruction, and language-discourse philosophies of various kinds. The research methods have included interpretive case studies, action research, experimental and quasi- experimental methods, and social critique. His work has been published in various leading journals in the IS field including MIS Quarterly, Journal of the AIS, Information Systems Journal, Information and Organization, Journal of Information Technology, European Journal of Information Systems, Information Technology &amp; People, and DataBase. Matt Germonprez is currently an associate professor at the University of Nebraska–Omaha. Prior to joining UN–Omaha, he was a faculty member at the University of Wisconsin–Eau Claire and Case Western Reserve University and a Ph.D. student at the University of Colorado– Boulder. His research focuses on theory and method development and investigation with particular focus on emerging and tailorable technologies. In particular he explores how these open, user-centered technologies are designed and used in practice from the individual to the enterprise level. His recent work has been funded by the National Science Foundation and published in Journal of the AIS, Information Systems Journal, Information &amp; Organization, and Communications of the AIS.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="433" page="17" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="434" page="17" column="2">363</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="435" page="18" column="2">364</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="436" page="18" column="2">MIS Quarterly Vol. 36 No. 2/June 2012</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

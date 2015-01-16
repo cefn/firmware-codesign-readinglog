@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>907ed97c3a13900ebf7e6baa5110f46b73549f820c1a90d0df4db470f9b1bbb0</job>
+    <base_name>62p8</base_name>
+    <doi>http://dx.doi.org/10.1145/2212776.2223759</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Work-in-Progress</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">School Friendly Participatory Research Activities with Children</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="4">Matthew Horton</name></contrib><contrib contrib-type="author"><name id="6">Gavin Sim</name></contrib></contrib-group>
+      <abstract class="DoCO:Abstract" id="10"><marker type="block"/> ChiCI group ChiCI group University of Central Lancashire. University of Central Lancashire Preston, PR1 2HE UK Preston, PR1 2HE <email id="8">mplhorton@uclan.ac.uk</email> <email id="9">grsim@uclan.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors"><contrib contrib-type="author"><name id="11">Janet C Read</name></contrib><contrib contrib-type="author"><name id="13">Daniel Fitton</name></contrib></contrib-group>
+      <abstract class="DoCO:Abstract" id="16">ChiCI group ChiCI group University of Central Lancashire. University of Central Lancashire Preston, PR1 2HE UK Preston, PR1 2HE <email id="14">jcread@uclan.ac.uk</email> <email id="15">dbfitton@uclan.ac.uk</email></abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="18">Emanuela Mazzone</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="17" page="1" column="1">Participatory Design is a common practice in HCI and user based evaluations are also highly recommended. This paper looks at the practice of carrying out design and evaluation sessions with school aged children by describing a general method for carrying out and arranging whole class activities that are school friendly and then by analyzing the academic value of these activities. An analysis of 6 MESS days with 21 activities yielded a research out of 9 publications at a research output of 43%.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="19" confidence="possible" page="1" column="1">Keywords</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="20" page="1" column="1">Children; Evaluation; Participatory Design; Group work; School;</region>
+      <region class="unknown" id="22" page="1" column="1">ChiCI group University of Central Lancashire. Preston, PR1 2HE UK <email id="21">emazzone@uclan.ac.uk</email></region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="23" confidence="possible" page="1" column="1">ACM Classification Keywords</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="24" confidence="possible" page="1" column="1">H.5.m [Information Interfaces and Presentation (e.g., HCI)]: Miscellaneous; K.3.m [Computers and Education]: Miscellaneous;</region>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="25" confidence="possible" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="unknown" id="26" page="1" column="1">Copyright is held by the author/owner(s). CHI’12, May 5–10, 2012, Austin, Texas, USA. ACM 978-1-4503-1016-1/12/05.</region>
+      <region class="DoCO:TextChunk" id="35" page="1" column="1">In the Interaction and Design with Children Community is it common practice to directly involve children in studies around technology [2],[ <xref ref-type="bibr" rid="R3" id="27" class="deo:Reference">3</xref>]. Such studies can include design sessions where children contribute ideas,<marker type="page" number="2"/><marker type="block"/> evaluation sessions where children rate and report on software products and research studies where children act as participants in controlled or semi controlled studies. Organizing these studies with children can be very time consuming and can require a lot of people to be involved especially where children are working in small groups (or even singly) and where the time taken to carry out activities is variable. Known difficulties include access to children, best use of time, recruiting adult assistants, finding appropriate rooms, and ensuring enough children are available to create a representative sample [<xref ref-type="bibr" rid="R1" id="32" class="deo:Reference">1</xref>].<marker type="block"/> Based in the UK, at one of the countries largest Universities, UCLan, the Child Computer Interaction (ChiCI) Group has a history of doing work directly with children; the earliest studies had lone, or pairs of, researchers going to local high schools and junior schools and carrying out activities with children taken turn by turn from their regular school lessons.<marker type="block"/> Over time, the research group decided to move away from lone studies into a method that was more school friendly. This school friendly method is termed a MESS day and is described in the next section.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="29" page="1" column="2">2099</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="30" page="2" column="1">Work-in-Progress</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="31" page="2" column="1">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="36" confidence="possible" page="2" column="1">MESS – Mad Evaluation Session with Schoolchildren</h1>
+        <region class="DoCO:TextChunk" id="37" page="2" column="1">One way to provide easy access to children and give space for exploratory work with children is to have a MESS day. MESS days are events that are characterized in the following ways:</region>
+        <region class="DoCO:TextChunk" id="38" confidence="possible" page="2" column="1"> Children come, as a class, to our labs at the University or remain, as a class in their own</region>
+        <region class="DoCO:TextChunk" id="39" confidence="possible" page="2" column="2">school doing activities that are solely organized by our team.  Children are with teachers who know them but the teachers only take an observational role.  During a single session, children take part in several different activities  Children are given a fun experience  The sessions fit around the school day either taking up a whole lesson time, or a whole morning (for example)</region>
+        <region class="DoCO:TextChunk" id="41" page="2" column="2">Our first MESS day was held in 2004. In this first instance, we had thirty primary school children (aged 7/8) in the morning, and thirty secondary school children (aged 12/13) in the afternoon. This proved to be very tiring for the researchers involved and so all future events have been half days (or less) with many MESS days being two half days, one for each of two age groups. <marker type="block"/> Although we do carry out design and evaluation sessions with older children (12+), by and large, MESS days focus on and around two age groups (5/6) and (8/9).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="42" confidence="possible" page="2" column="2">Planning a MESS day</h1>
+        <region class="DoCO:TextChunk" id="50" page="2" column="2">MESS days are held in response to research needs. Almost once every school term, there comes a point when several researchers in the lab, as well as visiting academics and students on taught course have a need to evaluate, design or test something with children. This ‘need’ is typically identified through informal <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> conversations and out of that need, a MESS day is predicted.<marker type="block"/> At this stage we contact the school(s) and fix dates, times and locations. In general we work with four or five different schools; these schools have a high opinion of our work and understand what is involved in MESS days. Most years, one new school is recruited to our pool. At this time, transport is arranged if needed, and where the school might be walking to our labs, arrangements are taken to guarantee an appropriate number of accompanying adults to escort the children on the way.<marker type="block"/> If the MESS day is being held at the University, the room is arranged and decorated in a child friendly way (appropriate to the age of the children), so that it resembles more a school environment than a university lab, despite there being generally lots of technological equipment. If the MESS day is held at the children’s school, we generally have to make use of whatever space is available – in the worst case, this is just the room the children normally use, but in general we aim to have at least two rooms at our disposal so the children can easily move around and so that noisy activities don’t impact on other activities.<marker type="block"/> Arranging the activities for MESS days is done by the individual researchers who are looking to gain value from the event. Examples of recent activities include:</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="44" page="2" column="2">2100</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="45" page="3" column="1">Work-in-Progress</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="46" page="3" column="1">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+        <region class="DoCO:TextChunk" id="51" confidence="possible" page="3" column="1"> Text Input study – using a prepared web tool, children are presented with text phrases to input and their keypresses are stored and all errors made are recorded. TYPE = Research.</region>
+        <region class="DoCO:TextChunk" id="52" confidence="possible" page="3" column="2"> Passwords study – in small groups in a participatory discussion, children are asked to draw pictures of things that are special to them. Then, they highlight the ‘most special’ and identify how they might keep this item safe – TYPE Research / Design  Evaluation of Pair Game – children worked in twos to evaluate a newly built pair game that used mobile devices for shared music making. Children commented as they played, made suggestions for improvements and filed in a short survey about their experience – TYPE Evaluation</region>
+        <region class="DoCO:TextChunk" id="57" page="3" column="2">The organization of activities is complex as the aim is that over a ninety minute to two hour time span, children will each carry out at least four, and as many as six different activities. By structuring the days in this way we can ensure that the researchers attending the events can gather a lot of data whilst the children are occupied, the teachers are happy to see the children occupied, and the school is not disrupted. With these ‘whole school class’ events, the teacher doesn’t have to worry about catching up the children who left the room, setting extra work for those who missed a lesson, or entertaining children who ‘have not been selected to do the interesting work with the lady from the University’. In our MESS days, we have a plan that takes children around the activities in an ordered manner, that ensures that there is scope for activities of different lengths, and that makes sure that all the children get to do at least most of the most interesting things. Keeping the children, and the activities moving, and responding to crises and <marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> technology hiccups, takes some organization and in general we appoint a single individual to oversee this.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="54" page="3" column="2">2101</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="55" page="4" column="1">Work-in-Progress</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="56" page="4" column="1">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+        <region class="unknown" id="58" page="4" column="1">Staffing MESS days, therefore, takes some arranging. In general we have around 6 - 8 researchers for every 30 children. In addition, the school will generally provide at least two adults (3 or 4 if the event is in our labs).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="59" confidence="possible" page="4" column="1">A Typical MESS Day</h1>
+        <region class="DoCO:TextChunk" id="64" page="4" column="1">The first thing we do with the children is to sit them down and introduce ourselves, outline the fire drill, and tell them about restroom procedures. We also tell the children when and how they can get a drink of water. The children’s coats are collected and then, generally with the help of the class teacher (who will keep known troublemakers apart) we arrange the children into groups of four. <marker type="block"/> Figure 1 - A MESS day Each group goes to their start location where they fill in sticky labels (that they stick on their jumpers) and then<marker type="column" number="2"/><marker type="block"/> start on the first activity. A timekeeper warns everyone when there is about 2 minutes left and then, at change over time, each group moves to the next activity.<marker type="block"/> At the end of the event, the children are again sat down, they are thanked for their participation, they receive their certificates for taking part, and they are given back their coats. Then they leave!</region>
+        <region class="DoCO:FigureBox" id="Fx61">
+          <image class="DoCO:Figure" src="62p8.page_004.image_02.png" thmb="62p8.page_004.image_02-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx65">
+          <image class="DoCO:Figure" src="62p8.page_004.image_01.png" thmb="62p8.page_004.image_01-thumb.png"/>
+        </region>
+        <region class="unknown" id="66" page="4" column="2">Figure 2 - A Sample Thank You Card</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="67" confidence="possible" page="4" column="2">Evaluating MESS days</h1>
+        <region class="DoCO:TextChunk" id="68" page="4" column="2">MESS days vary significantly. Some feel to be very beneficial, others less so. In many instances the benefits of the studies are not felt for some time when, perhaps later on or at a repeated study two or three MESS days down the line, an observation is noted that asserts value on the original session.</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="69" page="4" column="2">Method</h1>
+        <region class="DoCO:TextChunk" id="74" page="4" column="2">Once a mess day has been completed the researchers are required to complete an activity form summarising the events. For the years 2008 to 2010 these sheets <marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> were analysed to determine the types of events. A coding system was devised to categorise the events. The four categories were Games (G), Design (D), Technology(T) and Experiments (T). These were the four predominant activities carried out within Mess days.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="71" page="4" column="2">2102</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="72" page="5" column="1">Work-in-Progress</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="73" page="5" column="1">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+      </section>
+      <section class="deo:Results">
+        <h1 class="DoCO:SectionTitle" id="75" page="5" column="1">Results</h1>
+        <region class="DoCO:TextChunk" id="79" page="5" column="1">Over the last 3 years a total of 6 Mess days were carried out either at the university or within a local school. This resulted in a total of 21 research activities being conducted. The types are of activities are depicted in figure 3 below. <marker type="column" number="2"/><marker type="block"/> From the 21 sessions, 6 conference papers have been published, 2 journal papers and an article in Interfaces magazine. The research outputs from the Mess days in the form of publication is thus at around 43%.</region>
+        <region class="DoCO:FigureBox" id="Fx77">
+          <image class="DoCO:Figure" src="62p8.page_005.image_03.png" thmb="62p8.page_005.image_03-thumb.png"/>
+        </region>
+        <region class="unknown" id="78" page="5" column="1">Figure 3 Different types of activities carried out at Mess days</region>
+        <region class="DoCO:TextChunk" id="86" confidence="possible" page="5" column="2">For a sample see [<xref ref-type="bibr" rid="R4" id="80" class="deo:Reference">4</xref>], [<xref ref-type="bibr" rid="R5" id="81" class="deo:Reference">5</xref>], [<xref ref-type="bibr" rid="R6" id="82" class="deo:Reference">6</xref>], [<xref ref-type="bibr" rid="R7" id="83" class="deo:Reference">7</xref>], [<xref ref-type="bibr" rid="R8" id="84" class="deo:Reference">8</xref>], [<xref ref-type="bibr" rid="R9" id="85" class="deo:Reference">9</xref>].</region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="87" page="5" column="2">Discussion</h1>
+        <region class="DoCO:TextChunk" id="88" page="5" column="2">As can be seen from the data above the Mess days are successful in generating research outputs for the ChiCI group. In some instances pilot projects have been conducted at Mess days which then revised before the actual study is performed. The Mess days also appear to be invaluable to PhD students in piloting and publishing their work in relation to their thesis. Over the last 3 years 4 PhD students have benefitted from the Mess Day in the form of publications at HCI conferences including NordiChi and the British HCI conference.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="89" confidence="possible" page="5" column="2">Evaluating User Involvement</h1>
+        <region class="DoCO:TextChunk" id="95" page="5" column="2">A search of the literature shows that very few papers study the ‘value’ of user involvement in HCI research. It appears to be taken as read that any involvement with users is beneficial but this may not be the case if the cost of arranging and carrying user involvement outstrips the benefits from such engagement. <marker type="block"/> Teachers gain tremendous knowledge, both by having the luxury of being just observers of their class for a couple of hours, and from the possibilities to talk with the researchers about their work. The teachers also contribute to the evaluations, we have had some great feedback and insights over the years and it is hard to see where else these insights would have come from.<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> The greatest value, we would argue, in a MESS day is the experience of the children. The children love MESS days! They arrive with great excitement and leave desperate to stay! For these children, the possibilities to engage with interactive technology at the cutting edge, to spend time with our interested research team, and to carry put activities far removed from the strict curriculum is unique.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="92" page="5" column="2">2103</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="93" page="6" column="1">Work-in-Progress</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="94" page="6" column="1">CHI 2012, May 5–10, 2012, Austin, Texas, USA</outsider>
+      </section>
+      <section class="deo:FutureWork">
+        <h1 class="DoCO:SectionTitle" id="96" confidence="possible" page="6" column="1">Future Work</h1>
+        <region class="DoCO:TextChunk" id="97" confidence="possible" page="6" column="1">For the ChiCI group at UCLan, the annual MESS day is now a habit rather than a chore, however, each MESS day varies and when planning MESS days over the years there have been some changes. The group will continue to carry out MESS days and provide the</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="98" confidence="possible" page="6" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="99" page="6" column="1">[1] Donker, A. and P. Markopoulos, Assessing the effectiveness of usability evaluation methods for children, in Advances in human computer interaction, Vol. 1, (N. Avouris and N. Fakotakis, Editors. Typorama Publications: Greece. 2001.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="100" page="6" column="1">[2] Druin, A. Cooperative inquiry: developing new technologies for children with children, Proceedings of the SIGCHI conference on Human factors in computing systems: the CHI is the limit, p.592- 599, May 15-20, Pittsburgh, 1999.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="101" page="6" column="1">[3] Druin, A., Alborzi, H., et al. Participatory design with children: Techniques, challenges, and successes. Proceedings of PDC 2000. New York: CPSR, 2000.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="103" page="6" column="1">[4] Read, J.C. The Usability of Digital Ink Technologies for Children and Teenagers In Proc of HCI2005. Springer, Edinburgh, UK, 2005. <marker type="column" number="2"/><marker type="block"/> community with valuable insights gained from using this unique method. We aim to provide the community with a comprehensive guide on how to conduct a MESS day highlighting in full both the advantages to using this method and also the issues that can occur.</ref>
+          <ref class="deo:BibliographicReference" id="105" page="6" column="2">MESS days need children! A special thanks therefore to the children and their teachers who have contributed to these events over the years. Also to the researchers and the volunteers who have engaged in the process.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="106" page="6" column="2">[5] Read, J.C., E. Mazzone, and J. Höysniemi. Wizard of Oz Evaluations with Children - Deception and Discovery In Proc of IDC2005. ACM Press, Boulder, Colorado, 2005.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="107" page="6" column="2">[6] Horton, M., J.C. Read, and G. Sim. Playing With Words: Evaluating Word processors with Children In Proc of EdMedia 2007. AACE, Vancouver, 2007.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="108" page="6" column="2">[7] Sim, G. and M. Horton. Performance and Attitude of Children in Computer Based versus Paper Based Testing In Proc of Ed Media 2005. AACE, Montreal, 2005.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="109" page="6" column="2">[8] Kelly, S.R., et al. Bluebells: A Design Method for Child-Centred Product Development In Proc of NordiChi 2006. ACM Press, Oslo, 2006.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="110" page="6" column="2">[9] Xu, D., et al. Evaluation of Tangible User Interfaces (TUIs) for and with Children - Methods and Challenges In Proc of HCII 2007. Springer, Beijing, 2007.</ref>
+        </ref-list>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="104" confidence="possible" page="6" column="2">Acknowledgements</h1>
+        <outsider class="DoCO:TextBox" type="page_nr" id="111" page="6" column="2">2104</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

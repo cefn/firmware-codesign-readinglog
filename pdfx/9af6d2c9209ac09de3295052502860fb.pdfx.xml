@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>3c7814af1c3a27805f6fd82f7e310a923ed9ccdd73e742b4475cd34c7da9da50</job>
+    <base_name>62n6</base_name>
+    <doi confidence="possible">10.1145/352183.352209</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">On the usability of OO representations</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO Ritu Agarwal</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">Prabuddha De</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">OO OO Atish OO P. Sinha</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">OO</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Mohan OO Tanniru OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO On OO OO OO the OO OO Usability OO OO OO OO OO OO OO of OO OO OO OO OO OO OO OO OO oo OO Representations OO OO OO OO OO OO OO OO O OOOO OO Paying OO OO close OO attention OO to the OO tasks OO OO is best suited OO for—rather OO OO OO OOOO OO than to maximize assuming OO the it’s OO usability the best OO of option OO approaches. OO every time—may OO OO be one way OO OO OO OO OO The OO notion of OO usability O OO of a formal OO representation OO has OO been a OO OO OO OO persistent OO concern OO for information OO systems OO developers O for several OO decades. OO The OO OO OO OO OO typical target OO of usability OO discussions OO has been OO the interface OO of software OO programs OO O OO O OO OO OO or systems OO to be utilized OO by end OO users. Usability OO has consistently OO been OO shown to OO OO be an important predictor of significant outcomes</name>
+          <aff id="7">43</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">such as subsequent perfor- OO OO mance OO with the OO software system</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="9">OO overall user OO satisfaction</name>
+          <aff id="10">83</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">OO OO</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="12">OO error rates OO in inter- OO OO OO OO action. OO As a result OO of several focused OO usability OO research OO programs</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="13">we OO now have a OO O OO OO O OO OO significant planning OO</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="14">body designing of knowledge OO better sys- on OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO “...all introduced too OO often into new the OO technologies workplace with- OO are OO O OO OO tems However</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="15">less about OO for nontechnical the we usability know OO end considerably of the users OO repre- [9]. OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO Anecdotal OO implications out sufficient evidence OO for planning the workforce” suggests OO for their that [1]. OO OO OO OO OO OO OO sentations such OO systems—the utilized by OO systems the toolsmiths developers. OO of OO such object-orientation technology. OO It has (OO) generated OO might consider- be one OO OO There appears to be an implicit assumption able excitement</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="16">but perhaps not a propor- OO OO that to OO the usability ultimate is OO a consumers concept that OO of applies information only OO tionate process-oriented OO rate of return. (PO) OO approaches When compared OO that have to OO OO O OO OO technology. this assumption OO Perhaps</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="17">to OO it examine is time the to OO question implica- OO dominated decades</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="18">OO the OO OO software approach OO development represents OO OO a fun- for OO OO O tions of usability for the technologies uti- damental shift in modeling paradigms. Con- OO OO lized In OO by some software recent developers. OO influential OO writing on stantine the OO difference succinctly OO between summarizes process- OO the</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="19">essence object- of OO OO OO OO usability</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="20">OO Adler</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="21">OO Winograd OO note that OO oriented OO representations: OO OO OO OO OO OO OO OO OO OO OO COMMUNICATIONS OO OO OF THE ACM OOOO October 2000/Vol. OO</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="22">No. 10 OO 83 OO OO OO OO OO OO OO OO OO OOOO OO OO OO</name>
+        </contrib>
+      </contrib-group>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="23">Figure 1. Crucial modeling tasks for which usability is a concern.</caption>
+      </region>
+      <region class="unknown" id="24">Model Construction Reality Formal Model Model Interpretation</region>
+      <region class="DoCO:TextChunk" id="87">“In the functional paradigm, function and procedure are primary, data are only secondary. Func- tions and related data are either conceived of as independent, or data are associated with or attached to the functional components. The antithesis of this viewpoint is the object-oriented paradigm. In this paradigm, data are considered primary and procedures are secondary; functions are associated with related data” [ <xref ref-type="bibr" rid="R5" id="25" class="deo:Reference">5</xref>].<marker type="block"/> Core differences exist in the mental model required to productively use PO and OO modeling technologies. While OO approaches offer the promise of addressing the software productivity crisis, it is not apparent the promise will be realized soon, especially with an information systems workforce whose primary experience and skills are in PO systems development approaches. In this context, the usability of the OO approach assumes greater significance. Even in the absence of prior experience in PO modeling, it is not obvious whether the OO approach is funda- mentally intuitive and easy to use. Unfortunately, there is a dearth of systematic work examining the usability of the OO approach. In this article, we report the results from a broad program of research focused on examining various aspects of PO and OO approaches to systems development. The research program is motivated by the need to better understand how systems developers from a wide variety of backgrounds respond to OO representations. Our interest in usability arises not so much from the desire to alter the essential principles of OO, as from the need to better understand what the potential problems in using OO representations might be. Such understanding can help educate novice developers, as well as help make the transition to OO modeling for experienced developers less traumatic. Our research focuses on empirical testing of usability through experimentation, a method generally regarded as equivalent, if not superior, to the more traditional usability inspection methods [<xref ref-type="bibr" rid="R9" id="27" class="deo:Reference">9</xref>]. Our study seeks to provide insight into the usability of the OO approach from different perspectives. We assess the usability perceptions of novices, as well as those of<marker type="column" number="2"/><marker type="block"/> experienced systems analysts with varying levels of experience. We investigate usability as it pertains to different types of information processing tasks. Finally, we examine usability for model construction, as well as for model interpretation.<marker type="block"/> Dominant System Representations In the domain of systems analysis and design, formal representations are typically utilized to accomplish two major purposes: to model the real world so as to more succinctly capture user requirements, and to serve as a communication medium through which members of a project team can form similar mental models of the target system. Thus, any representation should facilitate model construction (the mapping from the real world to the formal notation), as well as model interpretation (the reverse mapping from the formal notation to reality). How easy it is to accomplish these two mappings is a measure of the usability of the representation (see <xref ref-type="fig" rid="F1" id="30" class="deo:Reference">Figure 1</xref>). Any model of a business information processing application typically requires the specification of two components: the data underlying the application and the processes used to manipulate the data. Consider the case of a payroll system. A complete design for a payroll system would include a description of the data needed to support the system (such as employee attributes and time cards), a specification of the processes underlying the payroll system (such as the creation of paychecks and income reporting forms), and an order representing the sequence of those processes. A complete description of both data and processing constitutes a model of the target application. In general, systems analysis and design methodologies prescribe the use of a set of procedures and representations to understand and represent a complex target system. While all analysis and design methodologies typically use the principle of decomposition as the primary method of reducing complexity, the basic unit of decomposition can differ. In the structured or PO approaches, systems are decomposed and modeled using processes—the entire system is represented as a series of processes that transform data. Processes are linked together via data flows, which help establish sequencing of those processes. A complete structured requirements specification consists of a data flow diagram representing data flows and processes, a data dictionary, and a set of detailed process specifications. The OO methodology, on the other hand, uses the concept of an object as the primary unit of decomposition. An object is a data structure that contains data (values of its attributes), as well as the<marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> operations (services) that manipulate the data. It embodies a key concept in systems development, that of encapsulation or information hiding. Ser- vices are invoked by sending messages to objects. Though represented differently, services are similar to processes used in structured techniques. In addition to object and service specifications, an OO model includes structural relationships among objects, such as a generalization hierarchy, which allows lower-level object classes to inherit the attributes and services of higher-level classes. The essence of OO then lies in the notion of being able to model the “world” in terms of objects. Propo- nents of the OO approach have argued that such thinking is natural for human beings as we instinc- tively try to classify things to facilitate understanding. But an alternative stream of research suggests that human problem solvers have an innate tendency to<marker type="block"/> apply procedural or PO approaches to problem solving. It is not clear which argument has more theoret- ical validity and empirical support. While extensive discussions in the trade press point to the difficulties firms are experiencing in incorporating OO concepts and techniques into their system development activities, it is reasonable to suggest that models that are closer to the way humans reason should be, ceteris paribus, more usable. Through our studies, we seek to resolve the equivocality relating to the usability of the OO approach.<marker type="block"/> Key Influences on the Usability of OO Representations The usability of a representation is not an invariant property of the representation; rather, it is an out- come of a complex interaction between the user and the task to which the representation is to be applied. Our conceptualization of the determinants of OO model usability is shown in <xref ref-type="fig" rid="F2" id="37" class="deo:Reference">Figure 2</xref>. Usability is posited to be affected by two factors: the nature of the task to which the representation is applied, as well as the prior experience of the modeler. Nature of the Task. Information processing tasks for which automated systems are developed come in a variety of forms. When modelers are required to<marker type="column" number="2"/><marker type="block"/> construct a representation of such tasks, they first seek to develop a mental model or representation of their understanding of the task. As established exten- sively by prior research, the intrinsic nature of the problem-solving task and its relationship with the technology being utilized to develop the model is a key determinant of the ease with which a mental<marker type="block"/> representation can be constructed, and hence, of usability. The formation of the mental representation is said to be facilitated when the types of information emphasized by the task and the problem representation match, as well as by the nature of the task being solved [<xref ref-type="bibr" rid="R11" id="42" class="deo:Reference">11</xref>, <xref ref-type="bibr" rid="R12" id="43" class="deo:Reference">12</xref>]. While a task might potentially be characterized along many dimensions, we distinguish between information processing tasks on the basis of their essential characteristics, consistent with the modeling constructs used by process- and object-oriented methodologies. Tasks are classified as “process-ori- ented” if the emphasis is on processes and sequencing of those processes, rather than on data and structural relationships. On the other hand, tasks are classified as “object-oriented” if their description highlights data and structural relationships (such as generalization and aggregation) among the data. Prior Experience of the Modeler. Many information systems professionals in the workforce today have substantial experience in PO modeling. Prior research on expert and novice performance in various domains underscores the role of experience in problem solving [<xref ref-type="bibr" rid="R11" id="44" class="deo:Reference">11</xref>]. Experience leads to the acqui- sition of organized, hierarchical knowledge structures or schemas. The superior performance of<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> experts is attributed to their ability to identify and activate the right solution schema. Thus, experienced PO modelers would have recourse to schemas that are also process-oriented. But knowledge and experience with a particular formalism may inhibit an individual’s ability to form a mental representation of a task using some other formalism. One study on program comprehension found the performance of experts deterio- rated when the programs did not conform to the plans and programming conventions [<xref ref-type="bibr" rid="R11" id="51" class="deo:Reference">11</xref>]. Considering that an OO representation of an application is very different from its PO representation, we expect the “violations in expectations” [<xref ref-type="bibr" rid="R11" id="52" class="deo:Reference">11</xref>] of the experienced PO modelers to lead to a lower level of usability. This sentiment is echoed by Kozaczynski and Kuntzmann-Combelles, who speculate that a key hurdle in diffusing OO methodologies is the investment in people “familiar with other ways of solving problems” [<xref ref-type="bibr" rid="R8" id="53" class="deo:Reference">8</xref>]. Thus, instructing program- mers in a new tool requires anticipating possible biases acquired from prior experience [<xref ref-type="bibr" rid="R10" id="54" class="deo:Reference">10</xref>].<marker type="block"/> The Empirical Studies Three experiments were conducted to examine the<marker type="column" number="2"/><marker type="block"/> usability of OO representations from a variety of perspectives, and to begin developing a body of knowledge on the usability of those representations. The experiment in Study 1 involved a modeling exercise. The two factors being manipulated were the representation (OO and PO), and the type of business task (OO and PO) to which the representation, or modeling tool, was applied [<xref ref-type="bibr" rid="R2" id="57" class="deo:Reference">2</xref>]. In the subsequent dis- cussion, we use the term “representation” and “tool” interchangeably. The subjects in the study were business students enrolled in an information systems course at a major private university. They had limited prior knowledge of either PO or OO techniques. The use of novice subjects was appropriate as we did not wish to confound the results of the research by prior modeling experience and related biases. For the experiment, the subjects were divided into two groups. The first group, consisting of 19 subjects, was trained in PO modeling, and the second group, consisting of 24 subjects, was trained in OO modeling. Subjects in both groups were given the same two experimental tasks. One task was inherently OO in nature, while the second was inherently PO in nature. Those in the first group constructed PO models, while those in the second group constructed OO models. We gave careful attention to the process of selecting the PO and OO tasks used in the studies. Eight business information processing applications of roughly equal complexity were scored independently by two evaluators on the basis of the features high- lighted in their descriptions. Features of a task were evaluated along two dimensions: structure and behavior. The features considered for the structure dimension were data intensity (the relative number of objects and attributes identified in the problem description and the extent to which they dominated the narrative), structural relationships (such as classification), and polymorphism/inheritance. Thus, in addition to being data-oriented, we characterized an OO task as one that emphasizes structural relationships, polymorphism, and inheritance, all recognized as essential principles of OO. The features considered for the behavior dimension were process intensity (the relative number of processes in the problem description and the extent to which they dominated the narrative), and sequencing/control of the processes. A task was classified as inherently PO (OO) if the score on its behavior (structure) dimension greatly exceeded the score on its structure (behavior) dimension. The problem selected as the inherently PO task had a significantly higher behavior score (4.75) than the structure score (2.00). Similarly, the problem selected as the inherently OO task had a significantly higher structure score (4.34) than the<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> behavior score (2.50). The reported scores are averages of scores assigned by the two raters; the Pearson cor- relation coefficient for the evaluator scores on the eight cases was 0.83, significant at p &lt; 0.01. Study 2 examined the effects of prior experience on the usability of OO representations [<xref ref-type="bibr" rid="R3" id="61" class="deo:Reference">3</xref>]. One group of subjects consisted of 22 experienced systems analysts working in industry, with at least two years of PO modeling and procedural software development experience. The other group consisted of 24 students similar to those in Study 1. All subjects were trained only in OO modeling, and were required to construct an OO model for a PO as well as an OO task. (The same tasks used for Study 2 as for Study 1.) In Study 3a, we investigated the second mapping shown in <xref ref-type="fig" rid="F1" id="62" class="deo:Reference">Figure 1</xref>, that of model interpretation. Our focus was on determining the usability of an OO model, with respect to comprehending the application represented in the model. Specifically, we com-<marker type="block"/> pared the usability of an OO representation with a PO representation of the same business information processing task. The subjects in this study were information systems majors in a large public university, who had previously taken courses in systems analysis and design, as well as in database management. Apart from a few subjects with internship experience, most were not experienced in the real-world application of the conceptual modeling activities. After training in OO modeling concepts, and revisiting their prior knowledge of PO concepts through a review session, the subjects were randomly assigned to one of two groups. One group received the OO model while the other received the PO model. Both groups were required to answer comprehension questions related to the models provided. To ensure that the results were not biased by the specific case used, a replication experiment, Study 3b, was conducted. This experiment was identical in procedure to Study 3a, but used a different case, with two different groups of subjects. The two cases utilized in Study 3 modeled a payroll system for regular employees, exempt employees, and executives working at a corporation, and a motor vehicle and title registration system. Each case involved both classification structures and a significant sequencing of activities to satisfy the information processing requirements of the business system. A total of eight<marker type="column" number="2"/><marker type="block"/> questions were posed for each case, ranging in complexity from relatively straightforward to more difficult questions with solutions that required subjects to examine several aspects of the model. An example of a simple question from the motor vehicle and title registration system is: “Describe the hierarchy of vehicles, i.e., the different types of vehicles and how they are related.” An example of a complex question from the payroll case is: “Consider two major functions of the system: payment of regular salary and payment of extra income. List the data sources that are common to the activities associated with both these functions.” Similar questions in terms of scope of solution were utilized for both experiments in Study 3. In all three studies, subjects were scored to evaluate their performance on the experimental tasks. (Experi- mental materials as well as scoring guides are available from the first author.) For Studies 1 and 2, the subjects created graphical representations of objects,<marker type="block"/> attributes, services, and classification and assembly relationships, following the Coad and Yourdon notation [<xref ref-type="bibr" rid="R4" id="67" class="deo:Reference">4</xref>]. They were also required to specify the sequencing, if any, of the various services provided by the objects. For the PO models created, DeMarco’s representation, which includes a graphical data flow diagram together with a data dictionary [<xref ref-type="bibr" rid="R7" id="68" class="deo:Reference">7</xref>], was required. In Study 3, for the OO condition, the subjects were presented with an OO model represented using the Coad and Yourdon notation and augmented with the specification of super methods for services that required sequencing. For the PO condition, DeMarco’s representation was utilized. At the conclusion of the experiments, the subjects completed a questionnaire designed to elicit usability perceptions. The specific items used on these surveys are shown in Tables 1 and 2. These items were adapted from a widely used measure of “ease of use” of any new technology, first proposed by Davis [<xref ref-type="bibr" rid="R6" id="69" class="deo:Reference">6</xref>] and subse- quently validated in several empirical studies. As the tables show, the reliability of the measures was more than adequate for all three studies, thus increasing our confidence in the validity of the findings.<marker type="block"/> How Usable are OO Representations? Analysis of variance techniques were used to examine the influences on the usability of OO represen-<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> tations. For study 1, we conducted a two-way ANOVA with task (OO and PO) and tool (OO and PO) as the two independent factors, and the usability score as the dependent variable. In Study 2, the same analysis was conducted, except that the independent factors here were the experience level of the modeler (inexperienced and experienced), and the type of task (OO and PO). Finally, for Study 3a and Study 3b, we conducted a one-way ANOVA comparing the usability of the OO representation with that of the PO representation for model interpretation. The results of the three stud-<marker type="column" number="2"/><marker type="block"/> ies are summarized in Tables 3, 4, and 5. In Study 1, we observed a significant interaction effect between task and tool. Follow-up t-tests revealed that usability perceptions of novice modelers were higher while constructing an OO model of an OO problem than while constructing an OO model of a PO problem. The usability of constructing an OO model for an OO problem was also significantly greater than the usability of constructing a PO model for an OO problem. Study 2 pointed to the impact of the business information processing task on the usability of a particular tool to model the task: the results indicated a significant main effect of task, where novice modelers found it easier to construct an OO model of an OO task than an OO model of a PO task. The results of Studies 3a and 3b, which focused on model interpretation, suggest that PO representations are easier to comprehend for semi-experienced modelers than are OO representations. This result was consistently observed in both these experiments.<marker type="block"/> Implications and Conclusions What are the implications of these results for prac- titioners and educators? Prior research has linked usability perceptions to subsequent performance [<xref ref-type="bibr" rid="R9" id="80" class="deo:Reference">9</xref>]. Therefore, firms thinking about making the leap toward the OO systems development approach need to pay careful attention to its usability, as perceived by the development staff. It is not enough to simply adopt OO methods and require developers to use such methods, because that might have a negative impact on developer productivity, as well as the quality of systems developed. One broad conclusion suggested by the data is that OO representations do not appear to be universally more usable or less usable. Results from Study 1 clearly point to the importance of a “fit” between the tool and the intrinsic characteristics of the information processing task when novice developers use OO representations. For organizations that wish to train new developers in OO methods, this result has important implications for the design of instruc- tional programs. The learning curve associated with any new methodology is fairly steep, and care should be taken in selecting the right tasks for training purposes, since inappropriate selection of training tasks could inhibit effective learning and create negative attitudes. On the other hand, if training tasks match the tool, such a fit would result in greater perceived usability and help reinforce the salient features of the representation. From Study 2, we learn that experienced PO modelers do not perceive the usability of the OO<marker type="page" number="7"/><marker type="column" number="1"/><marker type="block"/> approach for constructing models for OO tasks to be any different from that of constructing models for PO tasks. This finding is encouraging because it suggests that experienced modelers might be able to success- fully overcome any biases they may have acquired as a result of their experience in PO modeling. Perhaps the most interesting result from this experiment is that inexperienced developers found it easier to apply the OO representation to an OO task than to apply the OO representation to a PO task. The importance of “fit” alluded to earlier is again evident here. Presum- ably novice developers do not carry any preconceived mental models or world views for representing reality; as problem solvers, they are able to recognize when the task fits the tool. Taken together, the results of the first two studies suggest that, prior to jumping onto the OO bandwagon, serious consideration should be given to the nature of tasks in the domain. Are OO representations better for all types of tasks, regardless of their information processing requirements? This issue merits additional debate and research. With regard to model interpretation, we found that the PO representation was easier to comprehend than the OO representation. This result contradicts the arguments made by proponents of the OO approach, who claim that “thinking in objects” is natural for human beings. As noted earlier, a crucial role played by any representation method is the facilitation of communication, both within a system development team and between systems developers and users. In fact, one might argue that effective communication with users is perhaps more important for the ultimate success of any system. However, given the multitude of benefits that can potentially be reaped by employ- ing OO methods, such as encapsulation, reusability, maintainability and portability, it is evident that organizations are going to adopt these methods sooner or later. What might be required in OO methods then is the flexibility to model an application from a variety of perspectives, some capturing its static aspects, such as classes and their structure, and others expressing its dynamic aspects, such as state transitions and object interactions. The Unified Modeling Language<marker type="column" number="2"/><marker type="block"/> (UML), an OO modeling language, provides the modeler with the ability to capture multiple perspectives through a variety of diagrams such as use case diagrams, class diagrams, state diagrams, and interaction diagrams. While our studies have shed some light on the issue of OO usability, many questions remain. Clearly we need to find creative ways to alter the mental models of experienced analysts. As educators, we need to find better methods to teach novice developers to think in abstract categories. Finally, support exists for using a hybrid tool such as UML, which allows modelers to capture reality using various types of models, and also to interpret those models from different perspectives. c</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="32">84</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="33">October 2000/Vol. 43, No. 10 COMMUNICATIONS OF THE ACM</outsider>
+      <region class="unknown" id="35">OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO There OO OO OO appears OO OO OO OO to OO OO be O OO an OO implicit OO OO OO OO assumption OO OO OO OO OO OO that O OO OO usability OO OO OO OO OO is OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO a OO concept OO OO OO OO OO that OO OO applies OO OO OO OO OO OO only OO OO OO OO to OO the OO OO ultimate OO OO OO OO consumers OO OO OO OO OO of OO OO information OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO technology. OO OO OO OO OO OO OO Perhaps OO OO OO OO it OO is OO time OO OO O to OO OO question OO OO OO OO this OO OO OO assumption. OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO</region>
+      <region class="DoCO:FigureBox" id="F2">
+        <caption class="deo:Caption" id="39">Figure 2. Key influences on OO usability.</caption>
+      </region>
+      <region class="unknown" id="40">Intrinsic nature of information processing task OO Usability •Model Construction •Model Interpretation Prior experiences of the modeler</region>
+      <outsider class="DoCO:TextBox" type="footer" id="46">COMMUNICATIONS OF THE ACM October 2000/Vol. 43, No. 10</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="47">85</outsider>
+      <region class="DoCO:TableBox" id="T1">
+        <caption class="deo:Caption" id="48">Table 1. The Measurement of Usability. (Experiments 1 and 2) I found the systems analysis and design technique cumbersome to use.* Using the systems analysis and design technique was frustrating.* Using the systems analysis and design technique required a lot of mental effort.* The systems analysis and design technique was clear and understandable to me. Overall, I found the systems analysis and design technique easy to use.*</caption>
+      </region>
+      <region class="unknown" id="50">Notes: *Reverse scaled item Reliability for this scale was 0.81 for Experiment One and 0.83 for Experiment Two (measured using Cronbach's alpha) <xref ref-type="table" rid="T2.The" id="49" class="deo:Reference">Table 2.The</xref> Measurement of Usability. (Experiments 3a and 3b) Learning to use this modeling technique is easy for me. This modeling technique is clear and understandable to me. It would be easy for me to become skillful in this modeling technique. I would find it easy to use this technique to model what I wanted to model. Overall, I find this modeling technique easy to use. Notes: Reliability for this scale was 0.94 for Study 3a and 0.89 for Study 3b (measured using Cronbach's alpha)</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="59">86</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="60">October 2000/Vol. 43, No. 10 COMMUNICATIONS OF THE ACM</outsider>
+      <region class="unknown" id="64">OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO Object-oriented OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O representations OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO do OO OO OO not OO OO OO OO OO appear OOOO OO O OO OO OO OO OO OO to OO OO OO OO be OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO universally OO OO OO OO OO OO OO OO more OO OO OO OO usable OO OO OO or OO less OO OO usable. OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OOOO OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO O OO OO OO OO OO OO OO OO OO OO OO OO OO OO</region>
+      <outsider class="DoCO:TextBox" type="footer" id="72">COMMUNICATIONS OF THE ACM October 2000/Vol. 43, No. 10</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="73">87</outsider>
+      <region class="DoCO:TableBox" id="T3">
+        <caption class="deo:Caption" id="74">Table 3. Usability Results from Study 1.</caption>
+        <content>
+          <table class="DoCO:Table" number="4" page="6">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Tool/Task Combination (n*)</th>
+                <th class="table"></th>
+                <th class="table"> (mean**)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table">
+                <td class="table"> OO/OO (23)</td>
+                <td class="table"></td>
+                <td class="table"> 4.30</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> OO/PO (23)</td>
+                <td class="table"></td>
+                <td class="table"> 3.45</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> PO/OO (18)</td>
+                <td class="table"></td>
+                <td class="table"> 3.38</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> PO/PO (18)</td>
+                <td class="table"></td>
+                <td class="table"> 3.91</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> ANOVA Results</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Sources of Variation</td>
+                <td class="table"> F</td>
+                <td class="table"> Significance</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Main effects</td>
+                <td class="table"> 0.585</td>
+                <td class="table"> .56</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Tool</td>
+                <td class="table"> 0.804</td>
+                <td class="table"> .37</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Task</td>
+                <td class="table"> 0.367</td>
+                <td class="table"> .55</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Interaction Effects</td>
+                <td class="table"> 7.232</td>
+                <td class="table"> .01</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Tool x Task</td>
+                <td class="table"> 7.232</td>
+                <td class="table"> .01</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Significant Differences</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> OO/OO &gt; OO/PO</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> OO/OO &gt; PO/OO</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Notes: * One data point is missing for each group</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> ** Scored on a 7-point scale</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="75" confidence="possible">Tool/Task Combination (n*) Usability (mean**) OO/OO (23) 4.30 OO/PO (23) 3.45 PO/OO (18) 3.38 PO/PO (18) 3.91 ANOVA Results Sources of Variation F Significance Main effects 0.585 .56 Tool 0.804 .37 Task 0.367 .55 Interaction Effects 7.232 .01 Tool x Task 7.232 .01 Significant Differences OO/OO &gt; OO/PO OO/OO &gt; PO/OO Notes: * One data point is missing for each group ** Scored on a 7-point scale</region>
+      </region>
+      <region class="DoCO:TableBox" id="T4">
+        <caption class="deo:Caption" id="76">Table 4. Usability Results from Study 2. Experience/Task Combination (n*) Usability (mean**) EXP/OO 4.16 EXP/PO 3.39 INEXP/OO 4.30 INEXP/PO 3.46 ANOVA Results</caption>
+      </region>
+      <region class="unknown" id="77">Sources of Variation F Significance Main effects 5.07 .01 Experience 0.16 .69 Task 9.98 .00 Interaction Effects 0.02 .90 Experience x Task 0.02 .90 Significant Differences INEXP/OO &gt; INEXP/PO Notes: EXP = Experience; INEXP = inexperienced * One data point is missing for the inexperience group ** Scored on a 7-point scale</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="82">88</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="83">October 2000/Vol. 43, No. 10 COMMUNICATIONS OF THE ACM</outsider>
+      <region class="DoCO:TableBox" id="T5">
+        <caption class="deo:Caption" id="84">Table 5. Usability results from Studies 3a and 3b.</caption>
+        <content>
+          <table class="DoCO:Table" number="5" page="7">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Study 3a</th>
+                <th class="table"> Usability (Mean^)</th>
+                <th class="table"> t-value</th>
+                <th class="table"> Significance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table">
+                <td class="table"> OO Model</td>
+                <td class="table"> 3.86</td>
+                <td class="table"> -3.7</td>
+                <td class="table"> 0.09</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> PO Model</td>
+                <td class="table"> 4.68</td>
+                <td class="table"></td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Study 3b</td>
+                <td class="table"> Usability (Mean^)</td>
+                <td class="table"> t-value</td>
+                <td class="table"> Significance</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> OO Model</td>
+                <td class="table"> 3.98</td>
+                <td class="table"> -1.9</td>
+                <td class="table"> 0.04</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> PO Model</td>
+                <td class="table"> 4.41</td>
+                <td class="table"></td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Notes: ^Scored</td>
+                <td class="table.strange"> on a 7-point scale</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="85" confidence="possible">Study 3a Usability (Mean^) t-value Significance OO Model 3.86 -3.7 0.09 PO Model 4.68 Study 3b Usability (Mean^) t-value Significance OO Model 3.98 -1.9 0.04 PO Model 4.41 Notes: ^Scored on a 7-point scale</region>
+      </region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="88" confidence="possible" page="7" column="2">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="89" page="7" column="2">1. Adler, P.S., and Winograd, T.A. Usability: Turning Technologies into Tools. Oxford University Press, New York, 1992.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="90" page="7" column="2">2. Agarwal, R., Sinha, A.P., and Tanniru, M. Cognitive fit in requirements modeling: a study of object and process methodologies. J. Management Info Systems 13, 2 Fall 1996, 137–162.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="91" page="7" column="2">3. Agarwal, R., Sinha, A.P., and Tanniru, M. The role of prior experience and task characteristics in object-oriented modeling: An empirical study. Intern. J. Human Computer Studies 45, 1996, 639–667.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="92" page="7" column="2">4. Coad, P, and Yourdon, E. Object-Oriented Analysis, 2E. Yourdon Press/Prentice Hall, Englewood Cliffs, NJ, 1991.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="93" page="7" column="2">5. Constantine, L.L. Object-oriented and structured methods: toward integration. American Programmer 2, 7/8. (Aug. 1989), 34–40.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="94" page="7" column="2">6. Davis, F.D. Perceived usefulness, perceived ease of use, and user accep- tance of information technology. MIS Q. (Sept. 1989), 319–339.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="95" page="7" column="2">7. DeMarco, T. Structured Analysis and System Specification. Prentice- Hall, Englewood Cliffs, NJ, 1978.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="96" page="7" column="2">8. Kozaczynski, W. and Kuntzmann-Combelles, A. What it takes to make OO work. IEEE Software. (Jan. 1993), 20–23.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="97" page="7" column="2">9. Nielsen, J., and Mack, R.L. Usability Inspection Methods. Wiley, New York, 1994.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="98" page="7" column="2">10. Scholtz, J. and Wiedenbeck, S. Learning second and subsequent programming languages: A problem of transfer. Intern, J. Human-Com- puter Interaction 2, 1, 1990, 51–72.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="99" page="7" column="2">11. Soloway, E., Adelson, B., and Ehrlich, K. Knowledge and processes in the comprehension of computer programs. The Nature of Expertise. M.T.H. Chi, R. Glaser, and M.J. Farr, eds. Lawrence Erlbaum, Hills- dale, NJ, 1988.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="100" page="7" column="2">12. Vessey, I. Cognitive fit: A theory-based analysis of the graphs versus tables literature. Decision Sciences 22. (1991), 219–240.</ref>
+        </ref-list>
+        <region class="DoCO:TextChunk" id="105" confidence="possible" page="7" column="2">Ritu Agarwal (<email id="101">ragarwal@rhsmith.umd.edu</email>) is an associate professor in the Robert H. Smith School of Business at the University of Maryland, College Park, MD. Prabuddha De (<email id="102">pde@udayton.edu</email>) is Sherman-Standard Register Chair of MIS in the School of Business Administration at the University of Dayton, OH. Atish P. Sinha (<email id="103">sinha@uwm.edu</email>) is an associate professor in the School of Business Administration at the University of Wisconsin- Milwaukee, WI. Mohan Tanniru (<email id="104">tanniru@oakland.edu</email>) is a professor in the School of Business Administration at Oakland University, Rochester, MI. Permission to make digital or hard copies of all or part of this work for personal or class- room use is granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, to republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. © 2000 ACM 0002-0782/00/1000 $5.00</region>
+        <outsider class="DoCO:TextBox" type="footer" id="106" page="7" column="2">COMMUNICATIONS OF THE ACM October 2000/Vol. 43, No. 10</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="107" page="7" column="2">89</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

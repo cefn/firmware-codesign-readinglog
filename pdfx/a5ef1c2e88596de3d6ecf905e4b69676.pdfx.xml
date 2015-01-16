@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>a31c91645f07427a0908b24b5b86b36c45a01229998b7e212fff5db81547a16e</job>
+    <base_name>62og</base_name>
+    <doi>10.3390/challe4020154</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Challenges 2013, 4, 154-168; doi:10.3390/challe4020154</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">OPEN ACCESS</outsider>
+      <region class="unknown" id="3">challenges</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="8">Live Piloting and Prototyping Services</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="9">Francesca Rizzo</name>
+          <aff id="10">*</aff>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="11">Daria Cantù</name>
+        </contrib>
+      </contrib-group>
+      <footnote class="DoCO:Footnote" id="15">*</footnote>
+      <region class="DoCO:TextChunk" id="13" confidence="possible">Politecnico of Milano, Design Department, Via Durando 38/a 20158 Milano, Italy; E-Mail: <email id="12">daria.cantu@polimi.it</email> † This paper is the result of a collective work, but for the purposes of this publication Daria Cantù has written paragraphs 1, 3.2 and 4; Francesca Rizzo has written paragraphs 2, 3, 3.1 and 5.</region>
+      <region class="unknown" id="14">*</region>
+      <region class="DoCO:TextChunk" id="17" confidence="possible">Author to whom correspondence should be addressed; E-Mail: <email id="16">francesca.rizzo@polimi.it</email>; Tel.: +39-02-2399-5816; Fax: +39-02-2399-7230.</region>
+      <region class="unknown" id="18">Received: 19 April 2013; in revised form: 22 June 2013 / Accepted: 5 July 2013 / Published: 23 July 2013</region>
+      <abstract class="DoCO:Abstract" id="19">Abstract: This paper presents current trends in service design research concerning large scale projects aimed at generating changes at a local scale. The strategy adopted to achieve this, is to co-design solutions including future users in the development process, prototyping and testing system of products and services before their actual implementation. On the basis of experience achieved in the European Project Life 2.0, this paper discusses which methods and competencies are applied in the development of these projects, eliciting the lessons learnt especially from the piloting phase in which the participatory design (PD) approach plays a major role. In the first part, the topic is introduced jointly with the theoretical background where the user center design and participatory design methods are presented; then the Life 2.0 project development is described; finally the experience is discussed from a service design perspective, eliciting guidelines for piloting and prototyping services in a real context of use. The paper concludes reflecting on the designers’ role and competencies needed in this process. Keywords: service design; participatory design; piloting; prototyping; stakeholders’ network; infrastructuring</abstract>
+      <outsider class="DoCO:TextBox" type="header" id="20">Challenges 2013, 4</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="21">155</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="4" page="1" column="1">ISSN 2078-1547</h1>
+        <region class="DoCO:TextChunk" id="5" confidence="possible" page="1" column="1">www.mdpi.com/journal/challenges</region>
+        <region class="unknown" id="6" page="1" column="1">Article</region>
+        <region class="unknown" id="7" page="1" column="1">†</region>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="22" page="2" column="1">1. Introduction</h1>
+        <region class="DoCO:TextChunk" id="23" page="2" column="1">In the last five years designers have progressively shifted from testing single elements of a service with single users to developing service prototypes aimed at evaluating an entire customer journey and its possible implementation in a specific context of use (e.g. Dott07, Dott Cornwall, Living Labs at Medea Lab, Nutrire Milano/Feeding Milan). This has developed due to changes in the design objectives. Designers are in fact dealing more and more with the development of complex systems of products and services (Product Service Systems, PSS), where a multidisciplinary approach and new competencies are needed. In this framework, the positive effects of co-designing and testing a solution during its development, including stakeholders and taking into account the emerging opportunities, are more and more evident. In order to better understand this approach we can refer to the concept of infrastructuring, introduced by Star and Ruhleder [1] and adopted at the Medea Lab in Malmö [2], as a way to create the conditions to implement a new socio-technical environment with local stakeholders in the design process. The Swedish research group adopts participatory design (PD) having future users involved right from the first phases of a project. This approach requires designers to work with them to identify the emerging needs and to create digital and physical platforms enabling their participation, being open to different project development directions. Here infrastructuring refers to the activity of aligning the interests of the users and various actors in the field to create collaborations and possible stable partnerships to pilot a solution, and afterwards to implement it. In the rest of this paper authors discuss the case of Life 2.0 project, a European initiative that aims to develop a social network service to support active ageing to be organized at a neighborhood level where a specific elderly community could be achieved and involved in the service design and piloting. In the paper the term ‘pilot’ refers to the process of implementing the digital service in a real context of use, while the term ‘prototype’ is used to define the full scale solution generated during the piloting process. Specifically the discussion addresses the process of piloting digital services for the elderly to enhance their social interactions in real life by infrastructuring a real context with a full scale prototype. In pursuing this objective, the authors recognized the limits of the classical user centered design methodology and underline the appropriateness of participatory design as the best approach to support the complex partnerships capable of delivering the envisioned real life solutions.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="24" page="2" column="1">2. User Centered Design (UCD) and Participatory Design (PD)</h1>
+        <region class="DoCO:TextChunk" id="30" page="2" column="1">Best practices in UCD methodology have been historically based on two key ideas: (i) placing the users at the center of the design and evaluation activities; (ii) evaluating intermediate results that come from the process of design. This would ensure that the product would meet end-users needs. The methodology is generally implemented through a spiral or iterative process model, characterized by an iterative design with repeated cycles: test with users–redesign, based on substantial use of prototypes. For UCD [3], the scope of design is to produce a better world for people, i.e., interaction with products and services in a manner appropriate to the user and the context. The UCD methodology is one way a designer can pursue an ecological approach in designing the relations between a product (or service) and their users. In this light, whether a user is able to achieve a goal depends on the balance <marker type="page" number="3"/><marker type="block"/> that the designer arranges between the properties of the product and on the skills, needs and goals of the user. UCD is a specific design method capable of assessing how to approach and conduct a design process. It can be applied or not, depending on different opportunities and constraints. Whether it is applied or not, its aim is to design products and services that will fit a variety of end users’ needs (functional, emotional, relational, symbolic, tribal). As a consequence, a general misunderstanding has emerged in literature between the notion of UCD and that of PD as if there was no difference between them. UCD is a design methodology that can be applied in different contexts but that has brought significant results especially in those situations where, for a series of reasons (pragmatic, functional, ethical, political, esthetical, that deal with people safety and health) its application has provided a consistent advantage for end users. But many researchers <xref ref-type="bibr" rid="R5" hidden="1" id="28" class="deo:Reference">5</xref>, <xref ref-type="bibr" rid="R6" hidden="1" id="29" class="deo:Reference">6</xref> state that when contexts are complex and end users are not the only stakeholders to be considered, participatory design is more appropriate. It can be introduced as a design approach that envisions possible future solutions by creating strong connections with the network of stakeholders belonging to a place, establishing long term engagement with local communities which leads to the emergence of new everyday practices and the resulting new opportunities for design. To introduce this notion of PD [8,9] we mainly refer to Pelle Ehn’s ideas [2,10]. Both papers are very thorough but, for the sake of the arguments dealt with in this context, only some of their passages will be considered, i.e. those elaborating on the notion of PD and introducing the concepts of ‘design games’ and ‘design devices’. Both articles make a significant contribution to the debate on participatory design since they propose a radical shift in its conceptualization: from the traditional view that considers the object to be designed as a well-defined product or service, and where potential participants (part of the professional designers) are equally well-defined final users that become co-designers [11] to a new definition that sees the participation process as the design process for the realization of a ‘socio-material assembly’. Ehn calls these hybrid assemblies “Thing: an ancient Anglo-Saxon term indicating ‘a collective of humans and non-humans’ that takes place in open public spaces rather than within an organization” [10]. On the basis of this new notion, we adopt what Manzini and Rizzo wrote [12] that PD became a highly dynamic process. Therefore, PD can be something that also includes linear co-design processes and consensus building methodologies (i.e., the most traditional view of participatory design), but goes far beyond them, becoming a complex, articulated and often contradictory process where designer’s role also includes the role of mediator (among different interests) and facilitator (of other participants’ ideas and initiatives), but involves more skills and, most importantly, it includes the designer’s specificity in terms of design competence and knowledge.</region>
+        <outsider class="DoCO:TextBox" type="header" id="26" page="3" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="27" page="3" column="1">156</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="31" page="3" column="1">3. The Case of the Project Life 2.0</h1>
+        <region class="DoCO:TextChunk" id="36" page="3" column="1">Life 2.0 [13] is a European project funded through the Smart City initiative that, by adopting a complex participatory design approach, has tried to pursue two main objectives: To set up in the Bovisa neighborhood (in the suburbs of Milan), a living lab in order to develop—with the involvement of end users, the municipality, and some private stakeholders—a collaborative social network for elderly people. <marker type="page" number="4"/><marker type="block"/> The project started by forming a real community based in a specific neighborhood (in each of the project pilot sites; e.g. the Bovisa neighborhood, Milan, where the design department is also located) and it wants to improve the quality of life of the elderly from the neighborhood in a systematic way showing how everybody can be an ‘active’ partner for wider transformations of their neighborhood instead of relying on other more mainstream actors. Specific Project Life 2.0’s aims are to study and test digital services dedicated to 65+ years old people to improve their social relationships and promote exchange and meeting opportunities. The project partners, who are working on the pilot setup in their own countries, are universities, third sector organizations, municipalities and IT firms located in Italy, Denmark, Finland and Spain. The three year project consists of four main phases: a first period of ethnographic research and analysis involving potential users of the services to be developed in order to start orienting the group about the needs and desires of the project target users. A second phase aimed at narrowing the options down and defining the project scenario with a participatory approach, bringing together the contributions from all the regions involved. Then a third period to design the prototype of the digital service, moving from the requirements elicited from the scenario-building phase to the design of the platform screens and the architecture. Finally, there is the testing phase to proceed with the platform customization depending on feedback received from the users and the emerging opportunities for stakeholders’ involvement. The Life 2.0 project will propose an open platform utilizing Web 2.0 concepts with collaboration and co-creation between elderly people, local service providers and public institutions. With this platform, the consortium is making an effort to reverse the existing value chain proposed for public services to elderly people and propose instead a networked structure in which elderly people will, at the same time, be final users and content providers. By supporting such a networked value co-production system, the platform will provide:</region>
+        <outsider class="DoCO:TextBox" type="header" id="33" page="4" column="1">Challenges 2013,</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="34" page="4" column="1">4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="35" page="4" column="1">157</outsider>
+        <region class="DoCO:TextChunk" id="37" confidence="possible" page="4" column="1">direct social benefit to elderly people, who will be able to live independently and have their capabilities and knowledge validated; direct economic benefit to local and regional actors, who will be able to use the platform as a direct link with the market of senior people; and indirect (and partially direct) economic benefits to local administration, who will be able to use the platform to face the economic challenges of providing high quality services to an ageing population.</region>
+        <region class="DoCO:TextChunk" id="38" page="4" column="1">Life 2.0 clearly states in its methodology description, how designing innovative services for elderly independent living is a goal that has to be pursued and evaluated, covering:</region>
+        <region class="DoCO:TextChunk" id="39" confidence="possible" page="4" column="1">the capability of the services implemented to satisfy to the unmet end users’ needs; the capability of the designed services to be sustainable in a real context and consist of a robust business framework that should be individualized and assessed for the desired results. 3.1. The First Part: Designing the Project Scenarios and Requirements</region>
+        <region class="DoCO:TextChunk" id="43" page="4" column="1">The first innovation dimension has been pursued in the Life 2.0 project, through a rigorous and effective application of the UCD method (D1.1, D2.1 and D 2.2 of the project) to elicit unknown users’ needs and form users’ requirements for innovative services. The Life 2.0 partners involved in the <marker type="page" number="5"/><marker type="block"/> ethnographic work have carried out a number of activities in direct or indirect contact with older people (mainly) but also with other people involved: e.g., carers, social services. The activities have been quite varied in context, length, and in people involvement. On the whole they have involved quite a large number of people and have been connected with previous activities, which provided a larger context and background to the fieldwork. Examples of activities carried in the pilot sites are varied and all come from ethnographic and context analyses:</region>
+        <outsider class="DoCO:TextBox" type="header" id="41" page="5" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="42" page="5" column="1">158</outsider>
+        <region class="DoCO:TextChunk" id="44" confidence="possible" page="5" column="1">questionnaires were distributed to a group and afterwards each was completed by users; diaries have been filled out by users describing their main everyday activities, including pictures of the context and of the tools/instruments used; life stories have been collected through contextual interviews to establish a dialog between designers, researchers, and participants. Stories have been summarized, reporting name and a short narrative, and then, the situated, subjective, hedonic and dynamic components of each story have been described.</region>
+        <region class="DoCO:TextChunk" id="48" page="5" column="1">Data from ethnographic and context analyses have represented the basis on which to build personas and scenarios. More specifically, the content represented the basis of the data collected from the ethnographic analyses about elderly people and their habits and experiences; envisioning scenarios represented suggestions for service ideas and functionalities on which to build up the Life 2.0 platform. Both personas and scenarios have been used as an inspiration and starting point for the next project phase, dedicated to include the point of view of other actors and stakeholders that may have a role in the system and generate insights to support the construction of the platform business model. The results of this second phase have contributed to the elaboration of the three service ideas (obtained by grouping and selecting the envisioning scenarios: (<xref ref-type="bibr" rid="R1" id="45" class="deo:Reference">1</xref>) activities and events; (<xref ref-type="bibr" rid="R2" id="46" class="deo:Reference">2</xref>) provide mutual help; (<xref ref-type="bibr" rid="R3" id="47" class="deo:Reference">3</xref>) a market place to be developed in each living lab (thinking about the characteristics of every city and related living elderly people) and to the co-design of the general business framework for the Life 2.0 platform. In order to involve the workshop participants in the discussion on how to shape the business model canvas 12 for Life 2.0, the staging technique has been adopted. The staging started with the first participant playing the role of the value proposition as the key role to define all the relationships between the other components of the business model. Through the interactions with the other participants, playing the different roles, a complete definition of the business model, supporting the project in all its parts, has been depicted, including the interactions between the different subjects and their expectations in terms of value received and delivered to the system.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="49" page="5" column="1">3.2. The Implementation of the Pilot Phase: Designing while Testing with the Users</h2>
+          <region class="DoCO:TextChunk" id="66" page="5" column="1">In the second part of the Life 2.0 project, the pilot activities were planned around three main phases, starting by introducing a few people to the platform concept and interface, through to building a small community to test the prototype in a real life context. The phases defined for the evaluation were: demoroom, small scale and full scale use—where the users’ community is finally formed and use the <marker type="page" number="6"/><marker type="block"/> Life 2.0 platform daily (<xref ref-type="fig" rid="F1" id="53" class="deo:Reference">Figure 1</xref>). With the aim of co-designing the platform during the testing period, the project’s consortium members set up a system for continuous evaluation, adopting a quantitative and qualitative reporting system based on different tools: the digital platform back office; questionnaires of the users and stakeholders; weekly Skype meetings with the other pilot sites to compare experiences and discuss the consequent design of the platform.<marker type="block"/> As a first step, the partners in the four cities began to create the basis for the activities, starting with the community-building process. Each partner carried out this work depending on the local opportunities: in some cases they worked with elderly centers, involving an already existing community, while in others, as in Milan, there were collaborations with third sector associations to create the group of users specifically for the pilot project. For this reason, in Italy, Social Housing Foundation and Meglio Milano were included as part of the pilot team. They supported the involvement of elderly users and the management of the direct contact with them throughout the entire process. Then the local team, guided by service designers, was integrated with the I Pad application developer from Telecom, one of the project’s technical partners. The specific objective was to have a group of 20 elderly in each pilot study. The Italian group started by involving three of them, already contacted during the ethnographic research, in order to have them as experts supporting the training of other members later on. The first meetings were held at the university, but it soon emerged that a place was needed where other activities and services targeting our users were offered, a multifunctional place [14] within the district where the project Living Lab would be set up. For this purpose, the local Dergano-Bovisa public library was involved, becoming the place where regular meetings with the elderly were held and eventually proved to be a setting fostering<marker type="page" number="7"/><marker type="block"/> networking opportunities and providing a real connection with the local context and potential stakeholders for our digital services. Here the first public presentation included more than 35 potential users and three local organizations to assess their interest in taking part in the project. In this phase the team decided to provide each user with an I-Pad for the duration of the project for two main reasons: on one hand the services to be developed were based on a geo-localization system, thus a mobile device would be better suited and, on the other, it worked as an incentive for elderly people who had not so much confidence with the use of information and communication technologies (ICT), opening up new opportunities in their everyday use of technology. With a first group of 10 users, a set of activities were carried out during two months (<xref ref-type="fig" rid="F2" id="60" class="deo:Reference">Figure 2</xref>), such as: usability testing on the first interface implemented on the digital platform; co-design workshops to discuss the new functions to be implemented; evaluation of the service idea and the first draft of the business model with representatives both from the public and private sector; community building, to help people get to know each other and thereby facilitate the on-line interaction.<marker type="block"/> During the first six months of the piloting phase, even if there were delays in the platform development, a group of 20 users was set up and equipped with the tools and knowledge needed to start full scale use. For the next four months a calendar of meetings open to the elderly group was scheduled and the topics were defined each time depending on: the stage of the platform development, the users’ needs and requirements and the opportunities and interests emerging from the local context. The team began by carrying out two connected co-design workshops supported by the creation of a set of cards enabling the discussion on the third service to be developed for Life 2.0: the Market Place. The aim of the first was to define with the users the most interesting services and information to be conveyed by the platform. The second followed up by detecting what the actors already active in the city area were offering by way of similar services in order to include them in the pilot study later on. In the following meetings, the project timeline was reframed, depending on the changes prepared by the European project consortium, and the focus moved to improving the I-Pad use by the elderly due to a persistent delay in the web platform design that made the participant’s interest and motivation diminish significantly. Offering some ICT and I-Pad classes appeared to be a good strategy to create a common interest in the group, providing a reason for posting suggestions and help request on the Life 2.0 platform. The team strongly pushed the use of the platform in this phase by finding a way to keep the<marker type="page" number="8"/><marker type="block"/> people engaged in the process and suggesting “homework” to be done by the users in the short period between one meeting and the next, such as introducing a friend to the platform or using Life 2.0, for example by using the announcements section to suggest one app they found of interest or useful and to comment to the others. At the same time, the team worked on the Events section trying to make the platform more dynamic by introducing new associations and adding the Dergano-Bovisa library to the service and asking them to post events they were already planning. The team did the same by posting the project meeting as a new event, asking the elderly to confirm participation on the Life 2.0 platform. Another attempt to trigger the platform use was to push the elderly to post requests regarding technological issues instead of asking other users or the local team members in person. While working on the elderly and local associations’ side as “users” of the digital platform, there was parallel work on the evaluation of the business model by contacting possible stakeholders having elderly people as a relevant part of their target market. This process of infrastructuring, by aligning interests of different actors, proceeded during the whole project implementation stage, but from the second part of the pilot study, it was more systematic and included brief presentations of the project and interviews with the representatives of the associations already involved, the public library and possible owners of the platform to understand their willingness to join the service and the applicability of the model in the local context. After one year from building the initial community, the platform prototype on the basis of the pilot study’s results had almost stopped due to external causes, delaying the evaluation process of the new functions. For this reason, the team had to work hard to keep the interest of the people participating in the testing phase high. This resulted in two main lines of action: on one hand enhancing their use of the I-Pad in order to give back something in exchange for their time and contribution and to generally improve their confidence with the system and, as a consequence, with the Life 2.0 app; on the other, making the group aware of the European project dimension to help understand the work done in parallel to the regular meetings and to give its activities a new “sense of purpose” getting in touch with other elderly participants elsewhere. To achieve this, two of the more proactive users were invited to the annual project review in Barcelona, and an informal visit to another pilot group in the city was organized. Their enthusiastic reaction and the report given to the rest of the group in Milan led to the organization of a Skype meeting between the pilot communities in the two countries and to the exchange of information and ideas on the project potential. Currently the pilot study has reached the stage of opening the use of the prototype by involving other users and local stakeholders to add more content and test the system on a bigger scale to verify the hypothesis of using Life 2.0 as a self-sustainable service. At the same time we are organizing two workshops respectively with the private and public sector to evaluate the business model and to develop a local business case by discussing possible ownership with the local municipality and other private organizations. The expected result of the project is to have the platform’s three main functions implemented and to define a sustainable business model to have a system that could be implemented by a private or public actor at the end of the European project.</region>
+          <outsider class="DoCO:TextBox" type="header" id="51" page="6" column="1">Challenges 2013, 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="52" page="6" column="1">159</outsider>
+          <region class="DoCO:FigureBox" id="F1">
+            <caption class="deo:Caption" id="55" page="6" column="1">Figure 1. Life 2.0 pilot phase evaluation work plan.</caption>
+          </region>
+          <region class="unknown" id="56" page="6" column="1">Life 2.0 WP4 Evaluation work plan TASK 4.1. TASK 4.2. Final TASK 4.3. Business TASK 4.2. Final D.4.1 Midterm Ongoing data data collection case evaluation data collection collection evaluation report M20 D.4.2 Final data collection D.4.3 Final evaluation Online report M28 D.4.4 Business report M36 Workshop Local focus case evaluation starts 7.11.11 Procedure Design Evaluation 2012 data room Demo workshops general (Aalborg) Local and use home data Initial groups use Home data workshop General 2013 use Home data workshops case Local report evaluation business M31 Local workshops workshop General 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 a b c d D.4.1 D.4.2 D.4.4 D.4.3 Nov Dec Jan Feb Mar Apr May June July Aug Sept Oct Nov Dec Jan Feb Mar Apr May June July Aug Sept Oct Evaluation Evaluation WP 4 plan DEMO ROOM SMALL SCALE USE FULLL SCALE USE User interface Usability, guidance Ways of use Does the How does Usability tests Learnability Content provision platform it serve Feeding basic Possibilities of use User experience serve the business information User experience Cost issues user goals? opportunities? Test bed Pilot WP 3 Business case development WP 5 1. Project group 2. Elderly Users 3. Organisational and business participants’ network</region>
+          <outsider class="DoCO:TextBox" type="header" id="58" page="7" column="1">Challenges 2013, 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="59" page="7" column="1">160</outsider>
+          <region class="DoCO:FigureBox" id="F2">
+            <caption class="deo:Caption" id="62" page="7" column="1">Figure 2. Pilot phase activities with the users: usability tests, co-design workshops, Living Lab meetings.</caption>
+            <image class="DoCO:Figure" src="62og.page_007.image_01.png" thmb="62og.page_007.image_01-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="header" id="64" page="8" column="1">Challenges 2013, 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="65" page="8" column="1">161</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="67" page="9" column="1">Challenges 2013, 4</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="68" page="9" column="1">162</outsider>
+        </section>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="69" page="9" column="1">4. Discussion</h1>
+        <region class="DoCO:TextChunk" id="94" page="9" column="1">Many projects today, in the field of design, are trying to deal with complex problems that are trying to address transformations or changes needed in society. They involve users and stakeholders in the definition of a service, from scenario building to the pilot phase implementation, requiring service designers to be able to tackle complex systems, following an iterative process of trial and error by detecting the best way forward. This approach on one hand allows adapting the project to the needs of the real users, modifying the service prototype during its development on the basis of the feedback received; and, on the other hand, the pilot process developed to be open ended, where it is not possible to know in advance how the service will be implemented [15] in the different locations and if it will end up being a self-sustainable system in all the regions involved. This in fact depends on the infrastructuring process, which is the alignment of interests of the local stakeholders, as well as the opportunities emerging on the field. The application of PD to the construction of what Ehn calls “socio-material assembly”, a “meaningful [and] potentially controversial assembly, for and with the participants in a project” [2], stakeholders partnerships, living labs, other forms of open innovation infrastructures, requires service designers to have new skills. As defined in the literature today, they act as mediator and facilitator with a clear view of the project aims but they also use their abilities to perform complex analyses and syntheses and to translate these into scenarios and visualizations to be used as tools for discussion. In this role, service designers are able to manage complexity, collaborating with other professionals and activating and enabling potential stakeholders by developing suitable activities and solutions depending on the specific context conditions. However, the object of building up design infrastructures requires designers also to become capable of creating new partnerships to connect top–down structures and policies with bottom up grass root initiatives. They will become facilitators of larger and complex dialogs as has happened in Life 2.0 where the goal is to combine strategies desired by each of the municipalities concerning elderly services together with the specific project aims. From the fieldwork carried out by the authors, significant knowledge was gathered concerning the structure of the process and the methodology for piloting services in a real context. The following three main phases of the pilot study were identified and used as a reference for the analysis of the experience ( <xref ref-type="fig" rid="F3" id="70" class="deo:Reference">Figure 3</xref>): 1) Community building; 2) Encouraging usage; 3) Expanding and adapting.<marker type="page" number="10"/><marker type="block"/> During these piloting phases, the work proceeded both on the design of the front office, with the users’ community, and the back office, developing the business model supporting the service and carrying out interviews and workshops with local stakeholders in order to test the feasibility and adapt the first ideas developed by the Life 2.0 consortium. This dual work has been done, including relevant stakeholders in a set of different activities to design the digital services on the base of their needs, and aligning their interests to create new partnerships and new collaborations as the project evolved (<xref ref-type="table" rid="T1" id="75" class="deo:Reference">Table 1</xref>). By analyzing the activities carried out both in the first part of the European project and in the pilot development, the shift from the classic user-centered tools (e.g. usability tests) applied in the first stages towards more participative ones (e.g. co-design workshops) during the course of the pilot phase is an obvious choice. UCD in fact has shown to be a good strategy to test single elements of the digital platform, as the ease of use of specific sections of the interface or the perceived quality of the graphics while piloting needs a more holistic approach. From the analysis of the main activities developed during the pilot study, it emerges that the ones aimed at aligning and empowering the users and other potential stakeholders in the co-design of the digital services grew progressively as it proceeded, with a strong effort by the local team in the last phase to create an environment conducive for defining a self-sustainable business model.<marker type="page" number="11"/><marker type="block"/> From experience achieved, it is possible to outline some guidelines for piloting digital services with a participatory design approach, supporting the researchers in involving and enabling the actors needed to develop the platform prototype and ensure it is used: (<xref ref-type="bibr" rid="R1" id="81" class="deo:Reference">1</xref>) Forming the community of target users. When piloting a social networking service, or in general a service fostering social interaction and collaboration between its users, the first need is to have a group of people available to participate and test the platform for the duration of the pilot phase. In order to achieve this, there are different possible strategies, for example starting by involving an already existing community consistent with the target users of the project, looking for synergies with on-going projects or existing local organized groups. Or another option is to form a new community suited for the purpose, as we did for the Life 2.0 project in Italy, which can have advantages for the testing of a social network as enabler of new relations but it requires more effort at the beginning.<marker type="page" number="12"/><marker type="block"/>  (<xref ref-type="bibr" rid="R2" id="85" class="deo:Reference">2</xref>) Triggering the use of the digital service. In order to aid a community of people who are not used to social networks to interact on-line, there are a set of activities that can be done: on one hand they have to be taught how to use the specific technology and tools by having: face-to-face meeting and classes, on-line and offline support; on the other hand, the work of the designers is to create off-line interactions and connections between the group members and progressively transfer them on-line proposing specific activities to be done using the prototyped services. (<xref ref-type="bibr" rid="R3" id="86" class="deo:Reference">3</xref>) Co-designing the platform with the users and other local stakeholders. In order to define how the project will develop, a set of co-design tools and activities need to be established and used with people from all the classes of users involved. These activities are carried out depending on the stage of development of the digital platform prototype, as their first aim is to support the implementation of on-line functions and interfaces that will then improve it, activating an iterative process of testing and development. (<xref ref-type="bibr" rid="R4" id="87" class="deo:Reference">4</xref>) Transfer the co-design results to the technical partners. In parallel to all these activities the service designers have to convey the feedback received to the technical partners. This information has in fact to be translated into usable knowledge for the graphic designer and the technical partners that will consequently design new interfaces and implement the new functions on the platform. For this reason it is important to establish a systematic way of working, coordinating the different contributions. For the purpose of Life 2.0 this work has been done through different channels, having a first comparison between the pilot sites through weekly meetings and an on-line system to point out bugs or other technical issues. Having the I-Pad app developer participate in the meetings with the users gave a strategic advantage, allowing a prompt answer in terms of interface improvement. (<xref ref-type="bibr" rid="R5" id="88" class="deo:Reference">5</xref>) Keep up the motivation. Moving from the initial motivation of the users participating, there is a progress loss of interest when the discrepancy between the harmony of the co-design activities and the digital platform development increases. In this situation, researchers have to apply some strategies to keep the motivation up by finding a way to pay back participants for their attention providing new useful knowledge, for example by dedicating some meetings to specific needs previously detected. In the case of Life 2.0, the team decided to enhance the use of the I-Pad by teaching how to use other interesting apps, this way answering a community request (with a consequent growth in motivation), but at the same time training them in the use of ICT and creating new topics to be discussed concerning the Life 2.0 services. (<xref ref-type="bibr" rid="R6" id="89" class="deo:Reference">6</xref>) Aligning the stakeholder’s interests. The strategy of infrastructuring is applied from the very beginning, even if the need to align the interests of local stakeholders appears to be more relevant starting from the second phase when the pilot community starts to use it virtually in real life conditions. In this phase in fact it is more evident which kind of local actors can be interested in the service and in some cases they are suggested directly by the people participating. While looking for possible alignments, it is important to think about the actors’ profiles defined in the first draft of the stakeholders’ map, especially in regards to the future owner of the service. This research team covers in fact this role during the piloting phases but in order to have a self-sustainable service this becomes the fundamental issue to be solved.<marker type="page" number="13"/><marker type="block"/> These strategies have been used throughout the entire project with varying emphasis and frequency depending on the stage of development. In particular from a PD perspective, it is interesting to note that the co-design and the alignment, are mainly used in the second phase, where there is still space for co-designing the main features of the services, and in the third, where the main research effort moves in the direction of creating a self-sustainable solution, thus involving stakeholders willing to undertake the solution (<xref ref-type="fig" rid="F3" id="93" class="deo:Reference">Figure 3</xref>).</region>
+        <outsider class="DoCO:TextBox" type="header" id="72" page="10" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="73" page="10" column="1">163</outsider>
+        <region class="DoCO:FigureBox" id="F3">
+          <caption class="deo:Caption" id="74" page="10" column="1">Figure 3. The pilot phases and the main methods applied.</caption>
+          <image class="DoCO:Figure" src="62og.page_010.image_02.png" thmb="62og.page_010.image_02-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="77" page="11" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="78" page="11" column="1">164</outsider>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="79" page="11" column="1">Table 1. The activities carried out during the pilot study.</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="11">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Activities with:</th>
+                  <th class="table"> Community</th>
+                  <th class="table"> Encouraging Usage</th>
+                  <th class="table"> Expanding and</th>
+                  <th class="table"> Design</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Building</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Adapting</td>
+                  <td class="table.strange"> competencies needed</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> - evaluating the</td>
+                  <td class="table"> - planning the regular</td>
+                  <td class="table"> - implementing</td>
+                  <td class="table"> - managing UCD</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> interface (usability</td>
+                  <td class="table"> meeting on the base of</td>
+                  <td class="table"> and adapting</td>
+                  <td class="table"> methods and tools</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> tests)</td>
+                  <td class="table"> the platform</td>
+                  <td class="table"> minor platform</td>
+                  <td class="table"> - leading co-design</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> - enabling the use of</td>
+                  <td class="table"> development and the</td>
+                  <td class="table"> functionalities</td>
+                  <td class="table"> workshops</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> the Life 2.0</td>
+                  <td class="table"> feedback received</td>
+                  <td class="table"> - design of</td>
+                  <td class="table"> - detecting the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> platform (classes,</td>
+                  <td class="table"> - co-design of the</td>
+                  <td class="table"> manuals and</td>
+                  <td class="table"> insights</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> off line support)</td>
+                  <td class="table"> platform new</td>
+                  <td class="table"> communication</td>
+                  <td class="table"> transforming them</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> - solving technical</td>
+                  <td class="table"> functions &amp; services</td>
+                  <td class="table"> material to</td>
+                  <td class="table"> into design</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> issues (translation,</td>
+                  <td class="table"> - enabling the use of</td>
+                  <td class="table"> promote the</td>
+                  <td class="table"> opportunities</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> ELDERLY</td>
+                  <td class="table"> user management,</td>
+                  <td class="table"> the Life 2.0 platform</td>
+                  <td class="table"> service</td>
+                  <td class="table"> - integrating the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> app releases, ...)</td>
+                  <td class="table"> and ICT (IPad classes,</td>
+                  <td class="table"> - getting across</td>
+                  <td class="table"> feedback received</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> - team building</td>
+                  <td class="table"> off line and on line</td>
+                  <td class="table"> the European</td>
+                  <td class="table"> in the design</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> support)</td>
+                  <td class="table"> dimension of the</td>
+                  <td class="table"> process</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> - providing weekly</td>
+                  <td class="table"> project by</td>
+                  <td class="table"> - creating synergies</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> topics for posting</td>
+                  <td class="table"> connecting users</td>
+                  <td class="table"> between people and</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> announcements on the</td>
+                  <td class="table"> in the different</td>
+                  <td class="table"> activities</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> Life 2.0 platform</td>
+                  <td class="table"> pilots</td>
+                  <td class="table"> - making sense of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> - solving technical</td>
+                  <td class="table"> - solving</td>
+                  <td class="table"> complex systems</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> issues</td>
+                  <td class="table"> technical issues</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> - setting up the</td>
+                  <td class="table"> - interviews with local</td>
+                  <td class="table"> - workshops to</td>
+                  <td class="table"> - aligning interests</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Living Lab in the</td>
+                  <td class="table"> small businesses,</td>
+                  <td class="table"> co-design a local</td>
+                  <td class="table"> on the base of the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> local public library</td>
+                  <td class="table"> associations and</td>
+                  <td class="table"> business case</td>
+                  <td class="table"> context</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> OTHER</td>
+                  <td class="table"> - workshops to</td>
+                  <td class="table"> public sector</td>
+                  <td class="table"> with potential</td>
+                  <td class="table"> - enabling</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> STAKEHOLDERS</td>
+                  <td class="table"> evaluate the BM</td>
+                  <td class="table"> - involvement of new</td>
+                  <td class="table"> stakeholders</td>
+                  <td class="table"> connections and</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> with local</td>
+                  <td class="table"> actors in the use of the</td>
+                  <td class="table"> - involvement of</td>
+                  <td class="table"> collaborations</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> associations</td>
+                  <td class="table"> platform in the testing</td>
+                  <td class="table"> new local</td>
+                  <td class="table"> - opening up</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> phase</td>
+                  <td class="table"> businesses and other actors</td>
+                  <td class="table"> opportunities</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="80" confidence="possible" page="11" column="1">Design Activities with: Community Expanding and Encouraging Usage competencies Building Adapting needed - evaluating the - planning the regular - implementing - managing UCD interface (usability meeting on the base of and adapting methods and tools tests) the platform minor platform - leading co-design - enabling the use of development and the functionalities workshops the Life 2.0 feedback received - design of - detecting the platform (classes, - co-design of the manuals and insights off line support) platform new communication transforming them - solving technical functions &amp; services material to into design issues (translation, - enabling the use of promote the opportunities ELDERLY user management, the Life 2.0 platform service - integrating the app releases, ...) and ICT (IPad classes, - getting across feedback received - team building off line and on line the European in the design support) dimension of the process - providing weekly project by - creating synergies topics for posting connecting users between people and announcements on the in the different activities Life 2.0 platform pilots - making sense of - solving technical - solving complex systems issues technical issues - setting up the - interviews with local - workshops to - aligning interests Living Lab in the small businesses, co-design a local on the base of the local public library associations and business case context - workshops to public sector with potential - enabling OTHER evaluate the BM - involvement of new stakeholders connections and STAKEHOLDERS with local actors in the use of the - involvement of collaborations associations platform in the testing new local - opening up phase businesses and opportunities other actors</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="83" page="12" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="84" page="12" column="1">165</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="91" page="13" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="92" page="13" column="1">166</outsider>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="95" page="13" column="1">5. Conclusions</h1>
+        <region class="DoCO:TextChunk" id="102" page="13" column="1">Theories and practices of design are currently being reformed; building on the mindsets, practices and traditions of form, the new design aims are taking shape. In addition to their traditional task of creating solutions to specific problems, designers today are using their competencies for supporting others to create solutions. This role seems to correspond to a series of design activities oriented towards taking the leadership, enhancing, conducting and facilitating the foundation of a transformational project. In such cases, design and designers practically lead the initiatives oriented towards conducting or facilitating an overall change. Then the leadership is set up in the original agreements or partnerships from the beginning of the program, integrating the needs and aims of funding and partner institutions. In some emerging case studies, design schools and designers practically lead the initiatives engaging various stakeholders in the program or, in other contexts, design acts more as an overall approach to change that brings together various partners and, eventually, methodologies. In all of these cases, participatory design is proving its appropriateness. Life 2.0 shows a case in which participatory design provided leadership by aligning the different resources needed to implement it and organize a network of actors within an appropriate infrastructure. This role seems to correspond to a series of design activities oriented towards implementing a full scale prototype that corresponds to the action of delivering the service in an experimentation context by establishing a permanent infrastructure. In these cases, design and designers practically lead the initiatives by: ( <xref ref-type="bibr" rid="R1" id="96" class="deo:Reference">1</xref>) Individualizing project opportunities, elaborating ideas and visions, looking for funds, engaging various stakeholders; (<xref ref-type="bibr" rid="R2" id="97" class="deo:Reference">2</xref>) Bringing the overall approach (design thinking) to design the project vision, manage and develop it, to design self-sufficient proposals to implement a framework for change; (<xref ref-type="bibr" rid="R3" id="98" class="deo:Reference">3</xref>) Implementing a prototypical series of processes that simulate real organizational procedures that would be required by a company in order to deliver the experimented service in the real context. What the experience of Life 2.0 has shown (as well as the other significant experiences of long lasting design projects such as those presented in the introduction) is therefore that design today is an activity where the object of design is more and more frequently not a product or a service, but a kind of social organization. More generally, one could describe it as a strategic process of transformation through the creation of these study sites (infrastructure in the Pelle Ehn’s language, living labs in our words) to witness how the service works with all of the actors that can be initiated there. The aim of such new “laboratories” seems to be the realization of a long lasting strategy of change in the specific area/place/space where they operate through to the permanent involvement of the interested local<marker type="page" number="14"/><marker type="block"/> based stakeholders in offering new products and services for the resident communities. These processes are widely differing dynamic systems, but they are endowed with certain common traits: they have a clear socio-cultural connotation (in other words they are activities that “take place” in the true sense of the word); they have a time (the time of the interactions between the actors involved and between them and the things and the places of reference for that process). Finally, they are strategic activities where on a case by case basis, the actors are defined according to the nature of the process itself and, above all, according to its ability to attract the partners required and get them to work together. As future steps, we are looking to develop stronger partnerships that would support the business model envisioned for Life 2.0, making it the foundation of a new real service in the market, based on an existing local based community of end users.</region>
+        <outsider class="DoCO:TextBox" type="header" id="100" page="14" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="101" page="14" column="1">167</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="103" page="14" column="1">References and Notes</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="104" page="14" column="1">1. Star, S.L.; Ruhleder, K. Steps toward and an ecology of infrastructure. Design and access for large information spaces. Inf. Sys. Res. 1996, 7, 111–134.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="105" page="14" column="1">2. Ehn, P. Participation in design things. In Proceedings of the Tenth Anniversary Conference on Participatory Design 2008, Bloomington, IN, USA, 1–4 October 2008.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="106" page="14" column="1">3. User Centred Systems Design; Norman, D.A., Draper, S.W., Eds.; Lawrence Erlbaum Associates Inc.: Hillsdale, NJ, USA, 1986.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="107" page="14" column="1">4. Binder, T.; Brandt, E.; Halse, J.; Foverskov, M.; Olander, S.; Yndigegn, S. Living the (codesign) Lab. In Proceedings of the Nordic Design Research Conference, Helsinki, Finland, 10–12 May 2010.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="108" page="14" column="1">5. Bjorgvinsson, E.; Hillgren, P.-A. On the spot experiments within healthcare. In Proceedings of the 8th Participatory Design Conference (PDC 2004), Toronto, Canada, 27–31 July 2004.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="109" page="14" column="1">6. Hillgren, P.A.; Seravalli, A.; Emilson, A. Prototyping and infrastructuring in design for social innovation. CoDesign 2011, 7, 169–183.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="110" page="14" column="1">7. Light, A. Democratising technology: Making transformation using designing, performance and props. In Proceedings of CHI 2011, Vancouver, Canada, 7–12 May 2011.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="111" page="14" column="1">8. Ehn, P. Work-Oriented Design of Computer Artefacts; Arbetslivscentrum: Stockholm, Sweden, 2008.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="112" page="14" column="1">9. Ehn, P.; Sjogren, D. From system description to scripts for actions. In Design at Work: Cooperative Design of Computers Systems; Greenbau, J., Kyng, M., Eds.; Lawrence Erlbaum Associates, Inc.: Hillsdsale, NJ, USA, 1999.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="113" page="14" column="1">10. Bjorgvinsson, E.; Ehn, P.; Hillgren, P.-A. Participatory design and “democratizing innovation”. In Proceedings of the 11th Participatory Design Conference (PDC 2010), Sydney, Australia, December 2010; pp. 41–50.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="114" page="14" column="1">11. Rizzo, F. Co-design versus User centred design: Framing the differences. In Notes on Design Doctoral Research; Guerrini, L., Ed.; Franco Angeli: Milano, Italy, 2010.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="115" page="14" column="1">12. Manzini, E.; Rizzo, F. Small projects/large changes: Participatory design as an open participated process. CoDesign 2011, 7, 199–215.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="118" page="15" column="1">13. Cantù, D.; Rizzo, F. Managing innovation through participatory processes. In Leading Innovation Through Design, Proceedings of the DMI 2012 International Research Conference, Boston, MA, USA, 8–9 August 2012.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="119" page="15" column="1">14. Cantù, D. “Ideas Sharing LAB”. Co-designing multifunctional services with local food communities. Presented at the Cumulus Northern World Mandate Conference, 24–26 May 2012, Aalto University School of Arts, Design and Architecture: Helsinki, Finland.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="121" page="15" column="1">15. Rae, J. Seek the magic with service prototypes. Bloomberg Busienssweek, 12 September 2007; Available online: <ext-link ext-link-type="uri" href="http://www.businessweek.com/innovate/content/sep2007/id20070912_" id="120">http://www.businessweek.com/innovate/content/sep2007/id20070912_</ext-link> 418827.htm (accessed on 25 May 2013).</ref>
+          <ref class="deo:BibliographicReference" id="122" confidence="possible" page="15" column="1">© 2013 by the authors; licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license</ref>
+          <ref class="deo:BibliographicReference" id="124" confidence="possible" page="15" column="1"> (<ext-link ext-link-type="uri" href="http://creativecommons.org/licenses/by/3.0/)." id="123">http://creativecommons.org/licenses/by/3.0/).</ext-link></ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="header" id="116" page="15" column="1">Challenges 2013, 4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="117" page="15" column="1">168</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

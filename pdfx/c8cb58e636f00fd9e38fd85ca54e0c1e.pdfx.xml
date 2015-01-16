@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>e7df45674d072dae9dd2359635fc6475d7a7d1e176f03ed66c6b35a85f78fa79</job>
+    <base_name>62sk</base_name>
+    <doi>http://dx.doi.org/10.4018/irmj.1998010101</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Beyond rigor and relevance: Producing consumable research about information systems</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">Information Resources Management Journal; Winter 1998; 11, 1; ProQuest Business Collection</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Robey</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Daniel;Markus</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">M Lynne pg.</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="14" page="1" column="1">Reproduced with permission of the copyright owner. Further reproduction prohibited without permission. <marker type="page" number="2"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="3"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="4"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="5"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="6"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="7"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="8"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="9"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</region>
+    </body>
+  </article>
+</pdfx>

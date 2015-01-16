@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>eccd33eb55e58bd0d554f5dba945e35ec4ea435bfe6ef09e335d45bb7ea09ce4</job>
+    <base_name>62h7</base_name>
+    <doi>http://dx.doi.org/10.1145/505103.505140</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">COHI 175 D, Methods and Theories of Studying Everyday Technologies!</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="3">Dr. Barkhuus, <email id="2">barkhuus@cs.ucsd.edu</email></outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="4">Rogers, Sharp and Preece:</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="5">What is Interaction Design?</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="6">nd edition. Wiley, 2007,</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="7" page="1" column="1">From Interaction Design - Beyond human-computer interaction 2 chapter 1, pages 1-39.</region>
+      <region class="DoCO:FigureBox" id="Fx8">
+        <image class="DoCO:Figure" src="62h7.page_002.image_01.png" thmb="62h7.page_002.image_01-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_003.image_02.png" thmb="62h7.page_003.image_02-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_004.image_03.png" thmb="62h7.page_004.image_03-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_005.image_04.png" thmb="62h7.page_005.image_04-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_006.image_05.png" thmb="62h7.page_006.image_05-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_007.image_06.png" thmb="62h7.page_007.image_06-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_008.image_07.png" thmb="62h7.page_008.image_07-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_009.image_08.png" thmb="62h7.page_009.image_08-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_010.image_09.png" thmb="62h7.page_010.image_09-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_011.image_10.png" thmb="62h7.page_011.image_10-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_012.image_11.png" thmb="62h7.page_012.image_11-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_013.image_12.png" thmb="62h7.page_013.image_12-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_014.image_13.png" thmb="62h7.page_014.image_13-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_015.image_14.png" thmb="62h7.page_015.image_14-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_016.image_15.png" thmb="62h7.page_016.image_15-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_017.image_16.png" thmb="62h7.page_017.image_16-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_018.image_17.png" thmb="62h7.page_018.image_17-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_019.image_18.png" thmb="62h7.page_019.image_18-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_020.image_19.png" thmb="62h7.page_020.image_19-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_021.image_20.png" thmb="62h7.page_021.image_20-thumb.png"/>
+        <image class="DoCO:Figure" src="62h7.page_022.image_21.png" thmb="62h7.page_022.image_21-thumb.png"/>
+      </region>
+    </body>
+  </article>
+</pdfx>

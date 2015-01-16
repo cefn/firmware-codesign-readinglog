@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>fa00826e3eabc38ffc851e0534b2d54264d2bb4adb8073c93485d22671bb6a72</job>
+    <base_name>62oe</base_name>
+    <doi>http://dx.doi.org/10.1007/978-3-7643-8472-2_6</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="1">Pieter Jan Stappers</name>
+        </contrib>
+      </contrib-group>
+      <outsider class="DoCO:TextBox" type="sidenote" id="2">Essay</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Doing Design as a Part of Doing Research</article-title>
+      </title-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="4" page="1" column="1">Preface</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">The increasing complexity of modern technologies in products has led to the establishment of design as an academic discipline, and a rapid growth in the connections between science, engineering and design. As part of this development, the relation between design and research is dynamically changing toward a tighter coupling. University-based design courses are beginning to include scientific theory and research skills as part of their curricula, and designers are playing a part in research projects. In many places, the need to establish a PhD or other doctoral programme for designers has been discussed, with some hesitation, as the traditional backgrounds of designers and researchers has been quite different. In fact, the introduction of research has been a difficult one in general. At engineering universities, doing a PhD was widely considered a waste of skill and time until well into the 1970s. And at present, there is considerable resistance from the arts arena against being dominated by ‘uninspiring activities with tally tables and test tubes’. On the other hand, successful examples, both from industry (XEROX PARC’s media experiments) and academia (MIT MediaLab) have provided well-recognised examples that appeal to both scientists and designers. Currently, doctoral programmes in design are growing [ <xref ref-type="bibr" rid="R01" id="5" class="deo:Reference">01</xref>] and new journals target- ing the ‘middle ground’ of design research are emerging. [<xref ref-type="bibr" rid="R02" id="6" class="deo:Reference">02</xref>] A lot of debate has been devoted to the relation between design and research, and a consensus outcome has not been established. One problem is that there always is a silent undercurrent underlying the rational (issues of status and politics and funding), and the debate is often carried on a level of abstraction that tends to confuse rather than enlight- en, because generic terms such as ‘research’ and ‘design’ carry more implicit than explicit connotations. It may well be that the inspiring examples mentioned above were recognised as such because they could demonstrate concrete examples in the world (prototypes) and indicate their ramifications in theories. I am not interested in settling these debates on an abstract level, but rather want to focus on what I (trained as an experimental physicist, but having worked in multidisciplinary design research for twenty years) have experienced as the most exciting part of having designers do research. My experience and view may not be representative of the whole breadth of the field of design from which they were sampled. In the past twenty years I have worked within a specific school (within an internationally oriented engineering university), and on specific<marker type="page" number="2"/><marker type="block"/> topics (human-centred design tools for supporting creativity and concept development) within a specific research approach (with an emphasis on human perception and experience and on developing prototypes of design tools as means of inquiry). Still, I believe that the lessons I encountered hold a wider value.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="8" page="1" column="1">81</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="10" page="2" column="1">What are ‘design’ and ‘research’?</h1>
+        <region class="DoCO:TextChunk" id="15" page="2" column="1">As I stated, I am not about to treat in depth the many meanings that the short words ‘design’ and ‘research’ must have, because I believe that their instantiations in design research projects better convey the argument than word-play, sophis- ticated or not. But it is good to show some of the connotations. Both research and design are endeavours that improve the understanding of or control over the human condition. They are carried out by (often passionate) individuals and groups, require talent and hard work, and come with sets of methods and techniques (which can be as disputed as the results that are claimed to come out of them). The differences between design and research have often been highlighted, sometimes as prejudice, sometimes as overgeneralisations, in confrontations between designers ‘from practice’ and researchers ‘from adjacent disciplines’. Research is perceived as seeking to understand of the past or present state of the world, and to establish explana- tions of why it must be so. Its methods and publication channels put great value on issues of validity and proof, by logical reasoning and empirical measurement. Its core structures are the theories that create the overall structure of its knowledge. Design is seen as being concerned with establishing a working effect (creating a product) in a possible future, realising successful instantiations in a world that does not yet exist and is not yet known. Its methods and manifestations emphasise inspiration (findings must be useful, not merely true), realisation in-the-world, and proof by demonstration. It is not strange that these two worlds are seen to conflict, as they seem to harbour different values and methods, and their communities, both indeed passionate, are driven by different cultures. To summarise the contrast, Frayling’s rendering of the ‘Hollywood’ view on artists/designers and scientists/researchers is helpful, where the former are seen as ‘self-conscious strivers for effect’, the latter as ‘rational developers of abstract theory from ‘a crazy idea’. [03] But, as Frayling goes on to stress, ‘[D]oing science is much more like doing design’ [my emphasis]. Sanders compares research approaches in science and design in their emphasis on informing versus than inspiring application. [04] Both design and research are characterised by iterative cycles of generating ideas and confronting them with the world. Designers do not just haphazardly generate ideas without evaluation (although they are prouder of having their ideas than of testing them). And neither do researchers just rationally test and refine ideas (although their journals tend to downplay the ways by which their new ideas came into being). Yet these supposed differences distract the discussion. <marker type="page" number="3"/><marker type="block"/> It is in the similarities of doing design/research that I believe the interesting way forward lies, and in this essay I want to focus on the designer who combines design and research in the process of generating new insights and artefacts. In recent decades, univer- sity-based design curricula, such as the one in Delft, have included theoretical knowledge and research skills as essentials for the industrial design engineer. Another, slower, process was the inclusion of design skills and methods in research programmes. This was slower both because prejudices had to be overcome and appropriate types of research had to be developed, and also because at first, PhD research projects (such as my own) were con- ducted by students with backgrounds in disciplines that had long-established research training. But over the past decade, with new generations of design students with research skills and attitude, pursuing a PhD, appropriate ways of research have been developed. But what are these types of research, where designers can employ their specific strengths most beneficially for the general academic and industrial research effort?</region>
+        <outsider class="DoCO:TextBox" type="footer" id="12" page="2" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="13" page="2" column="1">Pieter Jan Stappers</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="14" page="2" column="1">82</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="16" page="3" column="1">Designing as a cognitive activity</h1>
+        <region class="DoCO:TextChunk" id="17" page="3" column="1">What abilities make designers different from other engineers or scientists? Our school, with its multidisciplinary design curriculum, integrates designing with inputs from marketing, engineering, aesthetics (vormgeving in Dutch; Gestaltung in German) and ergonomics. In several appraisals of the programme, [05] we came up with the following list of our students’ characteristics that were most valued by their future industrial employers:</region>
+        <region class="unknown" id="18" page="3" column="1">— — — —</region>
+        <region class="DoCO:TextChunk" id="19" confidence="possible" page="3" column="1">They can with all specialisms and specialists involved They can the (often mismatching) inputs from specialisms They can in the absence of complete information on realising the product throughout the process</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="20" page="3" column="1">communicate integrate act They retain focus</h1>
+        <region class="DoCO:TextChunk" id="21" page="3" column="1">In these skills, the Industrial Design Engineers were seen to excel above other engineering disciplines. But these skills are as important for research as they are for design, especially in multidisciplinary or explorative research, where much of the landscape is</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="22" page="3" column="1">terra incognita.</h1>
+        <region class="DoCO:TextChunk" id="27" page="3" column="1">Moreover, designers (in our school and at many places elsewhere) are aware of and are trained in the different modes of generative and evaluative thinking. Traditional academic accounts have stressed evaluative thinking, which is characterised by logic, deduc- tion, strict and explicit definitions and verbal notation, and converging by ruling out the impossible. Designers are also strong on generative thinking, which is often associative, inductive, using loose definitions, and supported by visual notations as sketching, gestur- ing, modelmaking, and diverging by conjecturing the possible. Creative processes make use of both these types, often in the diverge/converge or generate/evaluate spiral, as <marker type="page" number="4"/><marker type="block"/> shown in figure 1. Within research, the logical skills are emphasised and the creative ones left to some part of personal intuition, or sometimes left to chance. Fostering the interplay of both styles is important for research, but a place where designers can be of special value.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="24" page="3" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="25" page="3" column="1">Doing Design as a Part of Doing Research</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="26" page="3" column="1">83</outsider>
+        <region class="unknown" id="28" page="4" column="1">FIG: 01 The iterative spiral of generative and evaluative cycles in design/research. The vertical arrow indicates a central ‘product’, which can be a prototype or a piece of theory. The sheets at the bottom indicate how there is always a varied set of inputs from different disciplines at the base of a project. The sheets with arrows indicate that, during its progress, the project draws in new knowledge from adjacent disciplines and may likewise return insights to those disciplines. [06]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="29" page="4" column="1">Designing as a part of research</h1>
+        <region class="DoCO:TextChunk" id="34" page="4" column="1">If we see research not as a domain claimed by a certain profes- sion, but as ‘endeavours that grow knowledge’, the place of these design skills within research becomes clearer. Through realising ‘products’, designers absorb knowledge from different directions and confront, integrate and contextualise this knowledge. In this confrontation, much happens that may be of value for the home bases of this disciplinary knowledge, because its theories and hypotheses are put to a kind of test, producing insights. The confrontation happens in most knowledge-intensive design projects, but remains implicit, hidden and undocumented, because only the ‘product’ emerges and the decisions are kept silent. If such activities are to contribute to the growth of our ability to understand and act in the world, their outcomes need to be fed back to the disciplinary sources. This is as much a problem of motivation as of method, as most designers are more interested in creating effect than in writing about it. <marker type="page" number="5"/><marker type="block"/> But let us look at a historical example from engineering. The Wright brothers are well known for realising an effect: a working prototype of an aeroplane. They have most often been referred to as inventors, or engineers/designers (and bicycle repairmen). Yet, in the process of ‘inventing flight’ they developed typical ‘research methods’ such as a bicy- cle-mounted ‘wind tunnel’ avant la lettre for testing wing shapes; and their success is said to be due to their reshaping the paradigm of understanding flight by redefining the problem of attaining it as a problem of controlling flight (by the pilot), rather than of power- ing elevation. Now, their work is seen as having a profound and fundamental importance for a variety of disciplines. [07] But connecting back to these disciplines is difficult.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="31" page="4" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="32" page="4" column="1">Pieter Jan Stappers</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="33" page="4" column="1">84</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="35" page="5" column="1">How does this fit in a general scheme of research?</h1>
+        <outsider class="DoCO:TextBox" type="sidenote" id="36" page="5" column="1">FIG: 02</outsider>
+        <region class="DoCO:TextChunk" id="41" page="5" column="1">The need to reduce the separation between ‘design’ and ‘science’ can be found back in recent developments in the philosophy and policy of research. Not just in design, but also in wider areas of engineering and science, the field is wrestling with the question of what research can or should be. One of the most insightful breaks with prejudice – one that helps me to place designers on the research map – is Stokes’s four-quadrant model of research. FIG: 02 [08] Stokes used this model to overcome the limita- tions of the ruling research paradigm of the second half of the 20th century, Vannevar Bush’s linear model with ‘basic’ (‘fundamental’) and ‘applied’ science at its poles. In the linear model, basic science was where new knowledge originated, in a context of pure theory with no practical concern; applied science was where products were made, using scientific knowledge, but not producing new insights. Stokes labels the two extremes with quantum physicist Niels Bohr, who dealt with only basic problems and inventor Edison, who was so focused on application that he even forbade his staff to meddle with science. There are two problems with the model: it indicates that an increase of applicability of research by necessity entails a decrease in its fundamental quality. I personally remember one of my physics professors exclaiming that he was proud nobody could apply his work, because that proved that it was fundamental research. There seemed to be some intellec- tual status issues involved in being on the left-hand side of the diagram... The second problem Stokes identified was that valuable work, such as that of Louis Pasteur, could not be given a single place on the line, because it was both fundamental (established new theories) and applied (resulted in vaccines). In the four-quadrant model, the two poles have become two independent dimensions, and the possibility of doing research that generates both generalisable knowledge and applications is given a place. In this quadrant we find many of the scientists who formed the basic theories we now take for established: Newton, Huygens and Archimedes worked on practical applications (e.g. making clocks for ships) as well as on producing fundamental models for parts of our world (e.g. mechanics and wave theory). Harré [09] presents a beautiful overview on how varied science can be and, like Feyerabend, [10] argues and illustrates that there is not just <marker type="page" number="6"/><marker type="block"/> a single way of conducting research, but that insight progresses through many forms, all requiring substantial creativity, sensitivity and hard work. I think it is in Pasteur’s quadrant where designer’s research can be at the most fruitful: research with an eye for generalisation and an eye for application does not have to be cross-eyed. It may be too ambitious to say that all design research should try to emulate Pasteur, but the dual striving for knowledge and effect is, in my view, character- istic of tapping the strengths of designers in research and fuelling the motivations of designers for research (and maybe of other researchers for design). Horváth provides an overview of different types of research with various degrees of design involvement and how they can coexist in a single organisation of knowledge gen- eration and dissemination. [11] In his view, design research takes a middle ground between disciplinary ‘basic’ research and practical application, and comes in three flavours, chan- nelling the transport of knowledge between the former extremes. These three flavours are research in a design context (employing methods of the basic discipline, applied to the design field), design-inclusive research (employing design methods as a part of generating and applying knowledge), and practice-based design research (applying models, methods and tools from the previous two in realising groundbreaking new products). There may be some similarity between these three flavours and the Bohr, Pasteur and Edison quadrants of Stokes’s scheme.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="38" page="5" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="39" page="5" column="1">Doing Design as a Part of Doing Research</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="40" page="5" column="1">85</outsider>
+        <region class="unknown" id="42" page="6" column="1">FIG: 02 The linear and four-quadrant models [08] BOHR PASTEUR generalization for innovation eye EDISON BOHR EDISON basic applied eye for application</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="43" page="6" column="1">What? The value of explorative studies</h1>
+        <region class="DoCO:TextChunk" id="48" page="6" column="1">The ability to cope with unknowns is typical for explorers, not just the classical maritime explorers who went into terra incognita to frame our first understanding of the place, but also for researchers exploring uncharted territory, working at the fringes, or in the overlap of multiple concerns. <marker type="page" number="7"/><marker type="block"/> Modern product development is increasingly like this. Developing a new mobile phone service requires inputs from technologists, policy makers, infrastructure specialists, business studies, sociologists, psychologists, ethnographers and designers, connecting all this in generating products. The prototypes generated in these projects often incor- porate hypotheses in several of these fields, and in the development of these prototypes, these hypotheses are tested. But often the results are not reported back.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="45" page="6" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="46" page="6" column="1">Pieter Jan Stappers</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="47" page="6" column="1">86</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="49" page="7" column="1">How? The value of prototypes</h1>
+        <region class="DoCO:TextChunk" id="50" page="7" column="1">Prototypes and other expressions such as sketches, diagrams and scenarios, are the core means by which the designer builds the connection between fields of knowledge and progresses toward a product. Prototypes serve to instantiate hypotheses from contributing disciplines, and to communicate principles, facts and con- siderations between disciplines. They speak the language of experience, which unites us in the world. Moreover, by training (and selection), designers can develop ideas and concepts by realising prototypes and evaluating them. In his classic book on general systems thinking, Weinberg stresses the importance of instantiations and examples in establishing successful communication across the boundaries of disciplines, stating as a reason the development that ongoing specialisation in science has brought about a state in which scientists from different disciplines share very few experiences. [12] Prototypes serve as carriers, and realising these shared experiences facilitates communication, as did other typical design tools such as sketches and scenarios. Therefore, the realisation of working prototypes serves as the core axis that connects the design team or research team: they can form the ‘up’ arrow in Figure 1. In my view, this is the essence of ‘research through design’, i.e. that the designing act of creating prototypes is in itself a potential generator of knowledge (if only its insights do not ‘disap- pear’ into the prototype, but are fed back into the disciplinary and cross-disciplinary platforms that can fit these insights into the growth of theory. [06, 13] But much of the value of prototypes as carriers of knowledge can be implicit or hidden. They embody solutions, but the problems they solve may not be recognised. There are two consequences of this:</region>
+        <region class="DoCO:TextChunk" id="51" confidence="possible" page="7" column="1">(i) efforts should be make to make these explicit and feed this back to the informing disciplines; (ii) people working on related research topics should be exposed to the prototypes, so that they may learn solutions (gain associations) even if these are not made explicit.</region>
+        <region class="DoCO:TextChunk" id="57" page="7" column="1">It is in this latter aspect that the design studio is a good approach for furthering the use of insights that spin out of research projects. <marker type="page" number="8"/><marker type="block"/> Figure 3 shows a sequence of prototypes that were developed at ID-StudioLab. Their core idea was to apply the new media possibilities of computers in realising tools that support designers’ visual thinking in the early, conceptual, phases of design projects. This evolution involved half a dozen PhD projects, about a dozen MSc graduation projects and two dozen BSc group research projects. In this mix of projects, we performed contextual inquiries studying existing design practice in the field, explored visionary interactions with new media and developed a range of prototypes. FIG: 03 We ourselves lived with these prototypes in the studio and tested some of them in educational settings, in the labora- tory and – increasingly – with designers in the field. The research was reported in the academic channels and in personal communications and through the educational programme in Delft. But maybe more importantly, the ‘living prototypes’ were part of the ‘texture’ of the StudioLab, influencing and being influenced by dozens of researchers, students and visitors who all brought and took away snippets and insights according to their specific background. This is why design studios are so important for growing knowledge.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="53" page="7" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="54" page="7" column="1">Doing Design as a Part of Doing Research</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="55" page="7" column="1">87</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="56" page="8" column="1">FIG: 03</outsider>
+        <region class="unknown" id="58" page="8" column="1">FIG: 03 A sequence of prototypes of media-based design tools</region>
+        <region class="DoCO:FigureBox" id="Fx59">
+          <image class="DoCO:Figure" src="62oe.page_008.image_01.png" thmb="62oe.page_008.image_01-thumb.png"/>
+        </region>
+        <region class="unknown" id="60" page="8" column="1">TRI SKETCHBOOK PRODUCTWORLD CABINET A platform for exploring A digital sketchbook An ideation tool that helps An image collection tool that design tools using a sketchy that uses the fluency of designers finding patterns merges virtual and physical variety of virtual reality real-world sketchbooks [15] in collections of existing de- images into one seamless techniques [14] signs by interactive spatial collection [17] classification [16]</region>
+        <region class="DoCO:FigureBox" id="Fx61">
+          <image class="DoCO:Figure" src="62oe.page_008.image_02.png" thmb="62oe.page_008.image_02-thumb.png"/>
+        </region>
+        <region class="unknown" id="62" page="8" column="1">PHOTOBOARDING SKIN INSTANTTEMPLATES IRIS A technique to capture and A technique to play with and Digital templates of video to A shared digital posting retain playacting sessions explore colours, patterns support physical drawing of board for screenshots, to en- in a rich and sketchy way and graphics on physical natural two-handed product hance situation awareness and develop them into story- product shapes [19] interactions [18] in distributed studios [18] boards [18]</region>
+        <outsider class="DoCO:TextBox" type="footer" id="63" page="8" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="64" page="8" column="1">Pieter Jan Stappers</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="65" page="8" column="1">88</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="66" page="9" column="1">Where? The value of design studios</h1>
+        <region class="DoCO:TextChunk" id="67" page="9" column="1">Classically, design studios are known for their visual culture. Designers surround themselves with inspiring materials, sketches and prototypes; other designers in the studio absorb these visual sparks as well, and such visual outlets are known to set off unplanned and informal communications, and present people with unex- pected inputs, which can serve as part of solutions and lead to serendipitous innovation. In 2001, four research groups from our department started ID-StudioLab, in which staff, PhD students and MSc students on research projects worked in a studio situation to pro- mote contact between different expertises and different projects. Before, most of these groups had had separate laboratories and office spaces and informal connections were limited. In recent years, this ID-StudioLab has provided a base for young design researchers, researching designers, and those who want to be in contact with these groups although they may later pursue a different balance. It promoted the informal contact and sharing of ideas and skills, an undercurrent that can be as important for the dissemination of research findings as the official publication channels. [13, 21] Moreover, it formed a play- ground in which design researchers could ‘live with their prototypes’, an important ingredient of ‘research through design’. Keller (this volume and [22] ) describes how such sequences of prototypes in a studio environment carry many informal crossovers. Saakes discusses the way interventions in practice, in combination with tools development, fits into design research. [19]</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="68" page="9" column="1">Conclusions</h1>
+        <region class="DoCO:TextChunk" id="69" page="9" column="1">The above has been a personal view from a specific vantage point. I have stressed the importance of design skills as a valuable ingredient for research, as opposed to research being an add-on to give a designer academic credibility; of creating prototypes, of fostering design research through studios, and of the need for design research to feed back (publish) its findings to the disciplines from which it feeds. These are the key lessons I drew from my experience. Not all designers are industrial design engineers. Some are more akin to artists, some are more specialised in generative thought, just as some scientists specialise in evaluative thought. Some are great at concept development, but not at communication. Therefore this argument should not be taken as proposing a general or definitive solution for the field, the logical outcome of how the world must be. But rather, as a design prototype, it demonstrates a way in which designers can work in research and tries to practise what I preached above, to feed the insights from along the way back into the participating professions, not just present the outcome.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="70" page="9" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="71" page="9" column="1">Doing Design as a Part of Doing Research</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="72" page="9" column="1">89</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="73" confidence="possible" page="10" column="1">References / Bibliography</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="74" confidence="possible" page="10" column="1">[01]</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="76" confidence="possible" page="10" column="1">[02]</ref>
+        </ref-list>
+        <region class="unknown" id="75" page="10" column="1">Sugiyama K (2003) Results of the Survey of Education in Design Research. Tsukuba, Japan, October 2003</region>
+        <region class="unknown" id="77" page="10" column="1">Chen L (2007) International Journal of Design: A Step forward. 1(1): 1–2</region>
+        <region class="unknown" id="78" page="10" column="1">[03]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="79" confidence="possible" page="10" column="1">Proceedings of the 3rd Doctoral Education in Design, International Journal of Design Royal College of Art Research Papers</h1>
+        <region class="DoCO:TextChunk" id="80" confidence="possible" page="10" column="1">Frayling C (1993) Research in Art and Design. 1(1): 1–5</region>
+        <region class="unknown" id="81" page="10" column="1">[04]</region>
+        <region class="unknown" id="82" page="10" column="1">Sanders EB-N (2005) Information, Inspiration and Co-creation. Paper presented at the University of the Arts, Bremen, Germany</region>
+        <region class="unknown" id="83" page="10" column="1">[05]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="84" confidence="possible" page="10" column="1">6th International Conference of the European Academy of Design, 29–31 March 2005, Self-evaluation 2006, Part 2.</h1>
+        <region class="DoCO:TextChunk" id="85" confidence="possible" page="10" column="1">Faculty of Industrial Design</region>
+        <region class="unknown" id="86" page="10" column="1">Bos E, Jacobs JJ (2006) Engineering, Delft University of Technology</region>
+        <region class="unknown" id="87" page="10" column="1">[06]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="88" confidence="possible" page="10" column="1">Design and the Growth of Knowledge.</h1>
+        <region class="unknown" id="90" page="10" column="1">Stappers PJ (2006) Designing as a Part of Research. In: van der Lugt R, Stappers PJ (eds): ID-StudioLab Press, Delft, the Netherlands (available from <ext-link ext-link-type="uri" href="http://studiolab.io.tudelft.nl/static/gems/symposium/" id="89">http://studiolab.io.tudelft.nl/static/gems/symposium/</ext-link> zelfprintversie100dpi.pdf)</region>
+        <region class="unknown" id="91" page="10" column="1">[07]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="92" confidence="possible" page="10" column="1">How we Invented the Airplane: an Illustrated History.</h1>
+        <region class="DoCO:TextChunk" id="93" confidence="possible" page="10" column="1">Courier-Dover,</region>
+        <region class="DoCO:TextChunk" id="94" confidence="possible" page="10" column="1">Wright O (1988) New York [08]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="95" confidence="possible" page="10" column="1">Pasteur’s Quadrant: Basic Science and Technological Innovation.</h1>
+        <region class="unknown" id="96" page="10" column="1">Stokes D (1997) Brookings Institution Press, Washington, DC</region>
+        <region class="unknown" id="97" page="10" column="1">[09]</region>
+        <region class="unknown" id="98" page="10" column="1">Harré R (1981) Phaidon, London</region>
+        <region class="unknown" id="99" page="10" column="1">[10]</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="100" confidence="possible" page="10" column="1">Great Scientific Experiments: 20 Experiments that Changed our View of the World. Against Method</h1>
+        <region class="DoCO:TextChunk" id="101" confidence="possible" page="10" column="1">Feyerabend P (1993)</region>
+        <region class="DoCO:TextChunk" id="102" confidence="possible" page="10" column="1">. Verso, London</region>
+        <region class="DoCO:TextChunk" id="103" confidence="possible" page="10" column="1">[11] Horváth I (2007) Comparison of Three Methodological Approaches of Design Research.</region>
+        <region class="unknown" id="104" page="10" column="1">[12]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="105" confidence="possible" page="10" column="1">International Conference on Engineering Design, ICED’07, 28–31 August 2007; forthcoming An Introduction to General Systems Thinking.</h1>
+        <region class="DoCO:TextChunk" id="106" confidence="possible" page="10" column="1">Silver anniversary</region>
+        <region class="unknown" id="107" page="10" column="1">Weinberg G (2001) edition, Dorset House, New York</region>
+        <region class="unknown" id="108" page="10" column="1">[13]</region>
+        <region class="unknown" id="109" page="10" column="1">Hekkert P, Keyson D, Overbeeke K, Stappers PJ (2001) The ID-StudioLab: Research through and for Design. 95–103</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="110" confidence="possible" page="10" column="1">Proceedings of the Symposium on Design Research in the Netherlands,</h1>
+        <region class="unknown" id="111" page="10" column="1">[14]</region>
+        <region class="unknown" id="112" page="10" column="1">Keller AI, Stappers PJ, Hoeben A (2000) TRI: Inspiration Support for a Design Studio Environment. University of Sydney</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="113" confidence="possible" page="10" column="1">Proceedings of the DCNET conference,</h1>
+        <region class="unknown" id="114" page="10" column="1">[15]</region>
+        <region class="unknown" id="115" page="10" column="1">Hoeben A, Stappers PJ (2001) Ideas: A Vision of a Designer’s Sketchingtool. 199–200</region>
+        <region class="unknown" id="116" page="10" column="1">[16]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="117" confidence="possible" page="10" column="1">Proceedings CHI2001: Conference on Human Factors in Computing Systems, Designing with Precedents.</h1>
+        <region class="DoCO:TextChunk" id="118" confidence="possible" page="10" column="1">PhD thesis, Delft University of</region>
+        <region class="DoCO:TextChunk" id="119" confidence="possible" page="10" column="1">Pasman G J (2003) Technology</region>
+        <region class="unknown" id="120" page="10" column="1">[17]</region>
+        <region class="unknown" id="121" page="10" column="1">Keller AI (2007) For Inspiration Only: Designer Interaction with Informal Collections of Visual Material.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="122" confidence="possible" page="10" column="1">This volume, p. 119</h1>
+        <outsider class="DoCO:TextBox" type="footer" id="123" page="10" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="124" page="10" column="1">Pieter Jan Stappers</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="125" page="10" column="1">90</outsider>
+        <region class="unknown" id="126" page="11" column="1">[18]</region>
+        <region class="unknown" id="127" page="11" column="1">Saakes DP, Keller AI (2005) Beam me down Scotty: To the Virtual and back! In: Wensveen S, Diederiks E, Djajadiningrat T, Guenand A, Klooster S, Stienstra S, Vink P, Overbeeke K (eds): Eindhoven University of Technology, 482–483</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="128" confidence="possible" page="11" column="1">Proceedings of the Conference Designing Pleasurable Products and Interfaces.</h1>
+        <region class="unknown" id="129" page="11" column="1">[19]</region>
+        <region class="unknown" id="130" page="11" column="1">Saakes DP (2006) Exploring Materials: New Media in Design. In: Michel R, Hirt L (eds): Swiss Design Network, Zurich, 109–124</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="131" confidence="possible" page="11" column="1">Drawing New Territories.</h1>
+        <region class="unknown" id="132" page="11" column="1">[20]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="133" confidence="possible" page="11" column="1">Proceedings of the Conference Designing Pleasurable Products and Interfaces.</h1>
+        <region class="unknown" id="134" page="11" column="1">Peeters A, Stappers PJ (2005) Iris: Supporting Workplace Awareness by Triggering Informal Interactions with Visual Material. In: Wensveen S, Diederiks E, Djajadiningrat T, Guenand A, Klooster S, Stienstra S, Vink P, Overbeeke K (eds): Eindhoven University of Technology, 129–148</region>
+        <region class="unknown" id="135" page="11" column="1">[21]</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="136" confidence="possible" page="11" column="1">Proceedings of Design Research in the Netherlands, 19–20 May 2005.</h1>
+        <region class="unknown" id="137" page="11" column="1">Pasman G, Stappers PJ, Hekkert PPM, Keyson, D (2005) The ID-StudioLab 2000– 2005. In: Achten HH, Dorst, K, Stappers PJ, de Vries B (eds): Eindhoven University of Technology, 193–204</region>
+        <region class="DoCO:TextChunk" id="138" confidence="possible" page="11" column="1">[22] Keller AI (2005)</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="139" confidence="possible" page="11" column="1">For Inspiration Only.</h1>
+        <region class="DoCO:TextChunk" id="140" confidence="possible" page="11" column="1">PhD thesis, Delft University of Technology</region>
+        <outsider class="DoCO:TextBox" type="footer" id="141" page="11" column="1">Essay</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="142" page="11" column="1">Doing Design as a Part of Doing Research</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="143" page="11" column="1">91</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>c8664bedcba2798a7915df0d0b07e45699fdf4f8038f7c73a1a5b356988f7eb2</job>
+    <base_name>62gp</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1007/978-3-642-31063-8_3">http://dx.doi.org/10.1007/11767718_24</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">TEST OF A BOUNDARY OBJECT FOR PROCESS IMPROVEMENT</article-title>
+      </title-group>
+      <region class="DoCO:TextChunk" id="2" confidence="possible">INTRODUCTION One of the primary ways organizations respond to dynamic environments is by solving</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="3" page="1" column="1">internal problems related to sources of competitive advantage such as developing new products,</region>
+      <region class="DoCO:TextChunk" id="4" confidence="possible" page="1" column="1">introducing new technologies, and improving work processes. Often such problem solving</region>
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">entails interacting with individuals from different functional departments. A significant body of <marker type="block"/> literature acknowledges that problem solving involving multiple departments is challenging and<marker type="block"/> difficult because knowledge, which is central to effective problem solving, seems to travel with<marker type="block"/> greater difficulty across departments than within departments (<xref ref-type="bibr" rid="R6" id="8" class="deo:Reference">Brown &amp; Duguid, 1998</xref>; Carlile,</region>
+      <region class="DoCO:TextChunk" id="13" confidence="possible" page="1" column="1">2002, 2004; <xref ref-type="bibr" rid="R23" id="10" class="deo:Reference">Pfeffer &amp; Sutton, 1999</xref>; <xref ref-type="bibr" rid="R25" id="11" class="deo:Reference">Soo et al., 2002</xref>; <xref ref-type="bibr" rid="R28" id="12" class="deo:Reference">Szulanski, 1996</xref>). Many scholars are convinced that boundary objects (BOs) can play a key facilitating role in inter-departmental problem solving. BOs are physical artifacts that provide a common language and promote shared understanding about a problem or a situation among a group of individuals to reach a mutually satisfactory resolution. For example, a medical chart in a hospital is a physical artifact usually presented in a standardized format that serves as a BO.</region>
+      <region class="DoCO:TextChunk" id="14" page="1" column="1">Physicians from different functional disciplines read the chart, record information, and discuss</region>
+      <region class="DoCO:TextChunk" id="18" confidence="possible" page="1" column="1">among themselves the best possible treatment for the patient. Much of the existing research on BOs examines their use in problem solving contexts such as new product design and development (e.g., <xref ref-type="bibr" rid="R4" id="15" class="deo:Reference">Bechky, 2003</xref>; <xref ref-type="bibr" rid="R7" id="16" class="deo:Reference">Carlile, 2002</xref>, 2004; <xref ref-type="bibr" rid="R12" id="17" class="deo:Reference">Henderson, 1991</xref>, 1995). Since new product development (NPD) is a multi-disciplinary exercise,</region>
+      <outsider class="DoCO:TextBox" type="footer" id="19" page="1" column="1">effective participation by everyone is essential to introduce a successful new product into the</outsider>
+      <region class="DoCO:TextChunk" id="20" page="2" column="1">market. Thus BOs appear prominently in NPD process. However, little is known about the use</region>
+      <region class="DoCO:TextChunk" id="21" confidence="possible" page="2" column="1">of BOs in process improvement activities, even though process improvement often involves multiple disciplines. In an effort to understand the role of BOs in process improvement activities, this research draws on the prior work on BOs by other scholars. Through largely qualitative research,</region>
+      <region class="DoCO:TextChunk" id="23" page="2" column="1">scholars have found that an effective BO seems to possess certain key characteristics for cross- <marker type="block"/> departmental problem solving. Our work with the A3 Report, a tool adapted from Toyota Motor</region>
+      <region class="DoCO:TextChunk" id="24" confidence="possible" page="2" column="1">Corporation to help in process improvement, suggests that it embodies the characteristics outlined in previous work. It also embodies an additional characteristic, not discussed in the literature, which seems relevant in the process improvement context. Using a field-based survey,</region>
+      <region class="DoCO:TextChunk" id="25" page="2" column="1">we tested the predictive abilities of those characteristics to explain the efficacy of the A3 Report</region>
+      <region class="DoCO:TextChunk" id="26" confidence="possible" page="2" column="1">as a BO in process improvement. In the next section, we provide some background information that motivated this</region>
+      <region class="DoCO:TextChunk" id="28" page="2" column="1">research. Next, we present the literature review on the application of BOs in different problem <marker type="block"/> solving environments and the hypotheses for the different characteristics to be tested. We then</region>
+      <region class="DoCO:TextChunk" id="30" confidence="possible" page="2" column="1">discuss the research methodology followed by our findings. Subsequently, we discuss the implications of our results, and conclude the paper with some final comments. BACKGROUND To better understand the efficacy of BOs in an inter-disciplinary work environment, the A3 Problem Solving Report, or succinctly the A3 Report, was adapted from Toyota Motor Corporation. The report is so named because it is encapsulated on one side of A3 size paper (metric equivalent of 11”×17”). The A3 Report template (<xref ref-type="fig" rid="F1" id="29" class="deo:Reference">Figure 1</xref>) guides the problem solver to</region>
+      <region class="DoCO:TextChunk" id="32" confidence="possible" page="3" column="1">follow the prescribed steps of a systematic problem solving process and document them. The left-hand side of the report involves “problem investigation” and the right-hand side involves “problem resolution.” The outline of the template is as follows: 1. Theme: Description of the problem being investigated. 2. Background: Information essential to understanding the problem and its importance. 3. Current Condition: A pictorial representation of the current process using iconic symbols. The pictorial representation is based on first-hand observation of the process currently experiencing difficulties. Alongside the diagram, problems are highlighted using storm clouds, and the magnitudes of the problems are quantified. 4. Cause Analysis: Results of the structured analysis to ascertain the root causes for the problems outlined in the storm clouds of the current condition. 5. Target Condition: A pictorial representation of the envisaged new process using iconic symbols, based on the understanding of the current state, the root causes, and the countermeasures to address the root causes. 6. Implementation Plan: The actions necessary to accomplish the target condition, the person responsible for each action, a target date for completing each action, and the anticipated outcome. 7. Follow-up: How and when the new process will be measured for improvement. Reasonable targets are established beforehand and the results of the new process are measured against the specified targets to assess the magnitude of the improvement. Insert <xref ref-type="fig" rid="F1" id="31" class="deo:Reference">Figure 1</xref> about here ------------------------------</region>
+      <region class="DoCO:TextChunk" id="33" confidence="possible" page="4" column="1">The setting of this research was a mid-sized hospital in North America. The project was</region>
+      <region class="DoCO:TextChunk" id="35" page="4" column="1">a collaborative undertaking between a state university and the hospital. The hospital’s activities <marker type="block"/> include obstetrics, pediatrics, rehabilitation, surgery, neonatal intensive care, nuclear medicine,</region>
+      <region class="DoCO:TextChunk" id="36" confidence="possible" page="4" column="1">emergency, cardiology, and general medical care. The Joint Commission on Accreditation of</region>
+      <region class="DoCO:TextChunk" id="40" page="4" column="1">Healthcare Organizations (JCAHO) accredits the facility. In the initial stages, individuals from <marker type="block"/> various functional departments in the hospital were trained to use the A3 Report. Subsequently,<marker type="block"/> the tool was tested in the cardiology department and later in the pharmacy department. As time<marker type="block"/> progressed many individuals in the hospital were trained and became interested in using it, and</region>
+      <region class="DoCO:TextChunk" id="41" confidence="possible" page="4" column="1">the process improvement efforts propagated hospital-wide. At a later stage, the first author joined the hospital as an action researcher and spent six</region>
+      <region class="DoCO:TextChunk" id="42" page="4" column="1">months participating in multiple process improvement related problem solving exercises using</region>
+      <region class="DoCO:TextChunk" id="43" confidence="possible" page="4" column="1">the A3 Report. The problems addressed were strategically important to the leadership of the hospital. Members from patient financial services, hospital information management, registration, and emergency departments participated in such problem solving efforts. As he coached the individuals, he observed limited knowledge of the members beyond their own functional departments and that they had little understanding of how their performance impacted other departments. The departments did not seem to work towards a common purpose and so organization goals were often not met. Many processes were fraught with errors, rework, and wastes. While participating in the problem solving, he observed that the A3 Report not only provided a common language but also facilitated shared understanding among the individuals from these disparate departments. Individuals were able to discuss their differences, their</region>
+      <region class="DoCO:TextChunk" id="45" page="4" column="1">interdependencies, and how lack of contextualized understanding inhibited satisfactory process <marker type="block"/> performance. They negotiated agreed upon solutions to resolve the problems. The agreed upon</region>
+      <region class="DoCO:TextChunk" id="46" confidence="possible" page="5" column="1">solution motivated them to alter their pre-existing understanding, as some old knowledge was</region>
+      <region class="DoCO:TextChunk" id="48" page="5" column="1">relinquished and some new knowledge was embraced to honor the collective solution. As they <marker type="block"/> implemented the new process they were able to see the improved results, which further ossified</region>
+      <region class="DoCO:TextChunk" id="50" confidence="possible" page="5" column="1">their new knowledge. These field-based problem-solving efforts shaped the first author’s understanding of A3 Report as a potential BO in process improvement activities. LITERATURE REVIEW The concept of BOs can be traced to the work of <xref ref-type="bibr" rid="R27" id="49" class="deo:Reference">Star and Griesemer (1989)</xref>. They use the</region>
+      <region class="DoCO:TextChunk" id="51" page="5" column="1">example of a dead bird and demonstrate how individuals from different thought worlds use the</region>
+      <region class="DoCO:TextChunk" id="52" confidence="possible" page="5" column="1">same object for different purposes. The same dead bird had different meaning to the amateur bird watcher and the professional scientist. The scientist used the bird to shape his research goals while the amateur bird watcher planned to preserve the bird as a collection piece in a museum. Accordingly, they coordinated their activities to meet their individual goals. Following Star and Griesemer’s work, a number of researchers became interested in the</region>
+      <region class="DoCO:TextChunk" id="54" page="5" column="1">concept and use of BOs in inter-departmental problem solving. For example, Berg and Bowker <marker type="block"/> (1997) found that a patient’s medical record can be an effective BO among different caregivers</region>
+      <region class="DoCO:TextChunk" id="55" confidence="possible" page="5" column="1">for planning interventions, coordination, and interaction in a healthcare setting. The same</region>
+      <region class="DoCO:TextChunk" id="56" page="5" column="1">medical record became useful to the insurance companies, researchers, and government bodies</region>
+      <region class="DoCO:TextChunk" id="59" confidence="possible" page="5" column="1">for different purposes. <xref ref-type="bibr" rid="R29" id="57" class="deo:Reference">Yakura (2002)</xref> investigated the role of a Gantt chart (visual artifact to represent a project timeline) as a temporal BO between an information technology (IT) consultant and its client, a public utility company, in managing the progress of an IT project. The Gantt chart became an effective temporal BO in interpretation and negotiation between the IT consultant and its client. In a different study, Patel, Branch, &amp; <xref ref-type="bibr" rid="R20" id="58" class="deo:Reference">Arocha (2002)</xref> argue that properly</region>
+      <region class="DoCO:TextChunk" id="60" confidence="possible" page="6" column="1">designed pharmaceutical labels can act as effective BOs and can avoid biases and errors in interpretation between the prescribers and the ultimate users of the medicine. More recently,</region>
+      <region class="DoCO:TextChunk" id="62" page="6" column="1"> <xref ref-type="bibr" rid="R21" id="61" class="deo:Reference">Pawlowski and Robey (2004)</xref> report the use of shared information systems as BOs in integrating</region>
+      <region class="DoCO:TextChunk" id="63" confidence="possible" page="6" column="1">knowledge across functional departments and resolving organizational conflicts in a manufacturing setting. Thus, BOs have been deployed in multiple problem solving contexts, but the context where BOs have been most studied over the last decade is new product design and development.</region>
+      <region class="DoCO:TextChunk" id="66" page="6" column="1"> <xref ref-type="bibr" rid="R12" id="64" class="deo:Reference">Henderson (1991)</xref> contrasts the efficacy of two different BOs in the same organizational setting.<marker type="block"/> She notes that hand sketches facilitated knowledge integration between designers and the shop</region>
+      <region class="DoCO:TextChunk" id="67" confidence="possible" page="6" column="1">floor personnel in designing a new turbine engine package. The designer hand sketched the</region>
+      <region class="DoCO:TextChunk" id="68" page="6" column="1">product and sought input from the shop floor personnel, then modified the drawing accordingly.</region>
+      <region class="DoCO:TextChunk" id="69" confidence="possible" page="6" column="1">Thus, sketches provoked individual thinking and captured new knowledge, which resulted in collective new knowledge. The development of similar collective knowledge was impaired when</region>
+      <region class="DoCO:TextChunk" id="71" page="6" column="1">CAD-CAM drawings were used. CAD-CAM generated images appeared so strongly structured <marker type="block"/> in common use because of its interlocking devices with other computer databases that it lost its</region>
+      <region class="DoCO:TextChunk" id="73" confidence="possible" page="6" column="1">flexibility to change and became less effective for knowledge integration. In a related study, <xref ref-type="bibr" rid="R7" id="72" class="deo:Reference">Carlile (2002)</xref> investigated the role of different BOs in the</region>
+      <region class="DoCO:TextChunk" id="74" page="6" column="1">development of new safety valves for a manufacturing firm. In particular, he observes that the</region>
+      <region class="DoCO:TextChunk" id="75" confidence="possible" page="6" column="1">assembly drawing became an effective BO for three reasons. First, it provided a common language for the stakeholders – the manufacturing engineering department and the design department. Second, it offered a concrete means to represent the work context and the associated concerns of the stakeholders. Finally, it provided a platform for knowledge transformation. As a consequence, the stakeholders were able to see key differences and interdependencies in their</region>
+      <region class="DoCO:TextChunk" id="76" page="7" column="1">domain-specific knowledge, and how they affected the new product development process. This</region>
+      <region class="DoCO:TextChunk" id="77" confidence="possible" page="7" column="1">exchange of knowledge propelled them to reach an agreement by jointly transforming their</region>
+      <region class="DoCO:TextChunk" id="78" page="7" column="1">domain-specific knowledge. Such joint knowledge transformation was not previously possible</region>
+      <region class="DoCO:TextChunk" id="79" confidence="possible" page="7" column="1">because the old assembly drawing reflected the concerns and the work contexts of the</region>
+      <region class="DoCO:TextChunk" id="82" page="7" column="1">manufacturing department and not the concerns and the work context of the design department, <marker type="block"/> and therefore, had limited impact on product development efforts. Interestingly, we observe in<marker type="block"/> Carlile’s research that both the design department and manufacturing department personnel had</region>
+      <region class="DoCO:TextChunk" id="83" confidence="possible" page="7" column="1">similar levels of training and expertise to understand drawings. Hence, the new version of</region>
+      <region class="DoCO:TextChunk" id="85" page="7" column="1">assembly drawing became the common language for conversation to solve problems. However, <marker type="block"/> when the training of individuals of different departments is different, drawings could become a</region>
+      <region class="DoCO:TextChunk" id="87" confidence="possible" page="7" column="1">roadblock in problem solving, as we observe in another study. <xref ref-type="bibr" rid="R4" id="86" class="deo:Reference">Bechky (2003)</xref>, from her empirical research in a semiconductor equipment manufacturing</region>
+      <region class="DoCO:TextChunk" id="89" page="7" column="1">company, finds tangible BOs, such as prototypes, to be more effective than drawings in creating <marker type="block"/> common ground between two departments (design and assembly) because such objects invoke</region>
+      <region class="DoCO:TextChunk" id="90" confidence="possible" page="7" column="1">the necessary elements of work context. In fact, quite contrary to the general notion that engineering drawing is the best communication medium for cross-departmental knowledge interchange, Bechky reports that the assemblers found it too abstract to associate with their physical conceptualization of the product. The assemblers readily understood the machine in terms of the physical parts and their spatial relationships and not in terms of the conceptual language of the drawing, while the engineers only understood the product in the language of drawings. Thus, the engineering drawings failed to develop a common understanding to facilitate a meaningful conversation between the designer and the assembler toward solving</region>
+      <region class="DoCO:TextChunk" id="91" page="7" column="1">problems in the new prototype development. Consequently, the designers used the prototype to</region>
+      <region class="DoCO:TextChunk" id="92" confidence="possible" page="8" column="1">tap into the domain-specific knowledge of the assemblers and facilitate knowledge integration to solve problems. From these studies it appears that an appropriate BO in one setting can become a boundary roadblock in another setting, even when the problem solving contexts are very similar,</region>
+      <region class="DoCO:TextChunk" id="93" page="8" column="1">i.e., producing a new product. Nonetheless, several important characteristics of an effective BO</region>
+      <region class="DoCO:TextChunk" id="96" confidence="possible" page="8" column="1">emerge from the review of the existing literature. First, it needs to accommodate the work context and be objective to represent the concerns of all stakeholders for meaningful participation (<xref ref-type="bibr" rid="R7" id="94" class="deo:Reference">Carlile, 2002</xref>). Second, it should be loosely structured to promote individual creativity and communication for solving problems (<xref ref-type="bibr" rid="R12" id="95" class="deo:Reference">Henderson, 1991</xref>). Finally, it should facilitate integration of different knowledge of individuals to develop a new collective</region>
+      <region class="DoCO:TextChunk" id="100" page="8" column="1">knowledge to solve problems (<xref ref-type="bibr" rid="R4" id="97" class="deo:Reference">Bechky, 2003</xref>; <xref ref-type="bibr" rid="R7" id="98" class="deo:Reference">Carlile, 2002</xref>; <xref ref-type="bibr" rid="R12" id="99" class="deo:Reference">Henderson, 1991</xref>). However, such</region>
+      <region class="DoCO:TextChunk" id="101" confidence="possible" page="8" column="1">characteristics emerged from qualitative research on specific problem types in a particular organizational setting. Therefore, it is unclear if some of the characteristics are indeed relevant in multiple problem solving contexts. Process Improvement and Boundary Objects Process improvement is also important to a firm’s success and longevity, and often</region>
+      <region class="DoCO:TextChunk" id="102" page="8" column="1">requires participation from diverse functional departments. Experts posit that the dynamic core</region>
+      <region class="DoCO:TextChunk" id="107" confidence="possible" page="8" column="1">competency of a firm depends on process related improvements that require close inter- relationships among key personnel in various functions (Lei, Hitt, &amp; <xref ref-type="bibr" rid="R16" id="103" class="deo:Reference">Bettis, 1996</xref>). In this respect, others have shown how Japanese companies such as Honda (<xref ref-type="bibr" rid="R18" id="104" class="deo:Reference">MacDuffie, 1997</xref>) and Toyota (Adler, Goldoftas, &amp; <xref ref-type="bibr" rid="R2" id="105" class="deo:Reference">Levine, 1999</xref>; <xref ref-type="bibr" rid="R26" id="106" class="deo:Reference">Spear &amp; Bowen, 1999</xref>) have relentlessly pursued corporate-wide process improvement to ascend in the competitive car market. In fact, these high</region>
+      <region class="DoCO:TextChunk" id="108" confidence="possible" page="9" column="1">performing companies have always encouraged inter-departmental problem solving to share skills with each other to develop new products and processes. Furthermore, process improvement leads to the creation of new routines, which promotes acquisition of new knowledge and skills by</region>
+      <region class="DoCO:TextChunk" id="112" page="9" column="1">organizational members, and helps develop and refine core competencies not easily imitable by <marker type="block"/> competitors (<xref ref-type="bibr" rid="R10" id="110" class="deo:Reference">Dosi, 1988</xref>; <xref ref-type="bibr" rid="R16" id="111" class="deo:Reference">Lei et al., 1996</xref>). Some argue that continuous innovation in routines is</region>
+      <region class="DoCO:TextChunk" id="113" confidence="possible" page="9" column="1">needed for the creation of new skills for developing future products and process technologies</region>
+      <region class="DoCO:TextChunk" id="116" page="9" column="1"> (<xref ref-type="bibr" rid="R15" id="114" class="deo:Reference">Henderson &amp; Clark, 1990</xref>; Leonard-<xref ref-type="bibr" rid="R17" id="115" class="deo:Reference">Barton, 1992</xref>). In sum, process improvement is critical to</region>
+      <region class="DoCO:TextChunk" id="117" confidence="possible" page="9" column="1">maintaining a competitive advantage in a turbulent and chaotic market place. Even though process improvement is important, little empirical research exists on the use of BOs in process improvement related problem solving compared to the research in new product design and development. One possible explanation is that new product development is a favorite context for researchers interested in BOs because products are tangible objects, and the BOs used are likewise tangible. Therefore, problems and the tools used to solve such problems are well</region>
+      <region class="DoCO:TextChunk" id="119" page="9" column="1">defined. For example, an engineering drawing is a two-dimensional pictorial representation of <marker type="block"/> the actual physical product, with a one-to-one mapping between the two. Similarly, a prototype</region>
+      <region class="DoCO:TextChunk" id="120" confidence="possible" page="9" column="1">is almost an exact replica of the intended new product to be manufactured. Consequently,</region>
+      <region class="DoCO:TextChunk" id="121" page="9" column="1">problem solving revolves around a tangible object. By seeing the product, members are able to</region>
+      <region class="DoCO:TextChunk" id="122" confidence="possible" page="9" column="1">invoke the necessary work context with ease and are able to discuss their specialized knowledge, their interdependencies, and work on a mutually agreeable solution. Therefore, such settings provide an ideal context to the researchers to investigate the role of BOs. In contrast, the task of using a BO for improving a process is more difficult because processes are not as tangible as a physical product. Often, one cannot go somewhere to “see” the</region>
+      <region class="DoCO:TextChunk" id="123" page="9" column="1">process. Traditional process maps comprising ellipses, diamonds, and rectangles are often used</region>
+      <region class="DoCO:TextChunk" id="124" confidence="possible" page="10" column="1">to represent a process, but they do not map onto the real process as closely, and therefore, members do not seem to connect to the work context easily to participate in a meaningful discussion. Henderson’s (1998) study in a call center for a copy machine manufacturer is illustrates this contrast. The design engineers, while developing a new machine, sketched its</region>
+      <region class="DoCO:TextChunk" id="125" page="10" column="1">parts on a scrap paper or in the margins of the drawings and the discussions among the members</region>
+      <region class="DoCO:TextChunk" id="126" confidence="possible" page="10" column="1">ensued. In contrast, process reengineers used pre-defined computerized templates for process improvement, which were somewhat inflexible, high-level abstractions of the process that became dysfunctional as BOs. Process Improvement using Boundary Objects in Healthcare Our understanding of a BO as a process improvement tool becomes even fuzzier in</region>
+      <region class="DoCO:TextChunk" id="127" page="10" column="1">healthcare. Unlike manufacturing, most healthcare services are intangible, and many processes</region>
+      <region class="DoCO:TextChunk" id="128" confidence="possible" page="10" column="1">are electronically or manually driven and so are not easily observable, making processes in a healthcare context difficult to define. Furthermore, healthcare individuals often have conflicting goals (e.g., patient care versus process expediency), and therefore, often lack a common thread to serve as a starting point in solving a problem. Therefore, collaboration across functional</region>
+      <region class="DoCO:TextChunk" id="129" page="10" column="1">disciplines seems difficult and challenging and the need for BOs becomes more pronounced to</region>
+      <region class="DoCO:TextChunk" id="130" confidence="possible" page="10" column="1">bridge the differences. HYPOTHESES To investigate the efficacy of BO in process improvement, the A3 Report was enacted as a tool to help individuals from different functional departments produce satisfactory improvements to work processes. In fact, the A3 Report seemed to possess the same key</region>
+      <region class="DoCO:TextChunk" id="131" confidence="possible" page="11" column="1">characteristics as enumerated by scholars in the literature on BO – providing objectivity, facilitating knowledge integrability, fostering creativity, and assisting communicability. Our initial observations at the research site suggested an additional characteristic – simplicity in use – not discussed in the literature, which may be relevant to the effectiveness of BO in process improvement. We observed that many employees at the research site did not have a college level</region>
+      <region class="DoCO:TextChunk" id="133" page="11" column="1">education, yet their participation was essential for successful process improvement. Therefore, <marker type="block"/> the complexity of a tool could impede effective participation by those individuals. From a BO</region>
+      <region class="DoCO:TextChunk" id="134" confidence="possible" page="11" column="1">perspective, the A3 Report is a simple tool to understand and write. We measured the efficacy of the A3 Report as a BO in two dimensions. First, it can be described as effective only when the organizational members use it repeatedly. Second, it is effective when using it results in superior process outcomes. In an effort to answer the two</region>
+      <region class="DoCO:TextChunk" id="135" page="11" column="1">questions of what characteristics of the A3 Report motivate repeat usage, and as a second step,</region>
+      <region class="DoCO:TextChunk" id="136" confidence="possible" page="11" column="1">what characteristics are reported to be essential for superior process outcomes, we framed the following hypotheses. The following characteristics of the A3 Report will be positively associated with tool usage (H1) and process improvement (H2): a. Objectivity b. Knowledge integrability c. Communicability d. Creativity e. Simplicity RESEARCH METHODOLOGY To test the hypotheses, we conducted a field survey in the hospital described in the background section. The target respondents for this study were individuals who had direct</region>
+      <region class="DoCO:TextChunk" id="138" page="11" column="1">experience in writing the A3 Report, or were involved in problem solving using the report. The <marker type="page" number="12"/><marker type="block"/> first author initially made a list of prospective respondents based on the information he received</region>
+      <region class="DoCO:TextChunk" id="139" confidence="possible" page="12" column="1">from different coaches involved in solving problems using the A3 Report. Subsequently, he sent an email to all employees in the hospital to make sure all individuals with A3 report writing experience had the opportunity to participate in the survey. While doing this exercise he also</region>
+      <region class="DoCO:TextChunk" id="140" page="12" column="1">observed that a significant number of individuals with A3 Report writing experience had left the</region>
+      <region class="DoCO:TextChunk" id="143" confidence="possible" page="12" column="1">organization. Therefore, they could not be contacted. Data Collection A detailed survey instrument was used, which contained close-ended questions on the predictor and the criterion variables. In designing the instrument, we followed the guidelines provided by the literature (Aiman-<xref ref-type="bibr" rid="R3" id="141" class="deo:Reference">Smith &amp; Markham, 2004</xref>; <xref ref-type="bibr" rid="R1" id="142" class="deo:Reference">Alreck and Settle, 2004</xref>). Prior to conducting the survey, the second author, a professor of Industrial Engineering with extensive</region>
+      <region class="DoCO:TextChunk" id="144" page="12" column="1">experience in quantitative research, checked for content validity of the instrument. A number of</region>
+      <region class="DoCO:TextChunk" id="145" confidence="possible" page="12" column="1">hospital employees experienced in using the A3 Report also checked the questionnaire for the</region>
+      <region class="DoCO:TextChunk" id="146" page="12" column="1">face validity. In order to counteract response bias, some of the questions were reverse worded.</region>
+      <region class="DoCO:TextChunk" id="147" confidence="possible" page="12" column="1">We created multiple metrics for each predictor variable to improve the reliability of the measures. The survey instrument was kept short to maximize the rate of response without diluting the survey objectives, and was coded for faster post-survey analysis. Because of the subjective nature of the data, the level of significance was set at 0.10 as suggested by Garsen (2002). Prior to conducting the final survey, we conducted a pilot survey (N = 6) to check the</region>
+      <region class="DoCO:TextChunk" id="148" page="12" column="1">reliability of the instrument and identify any ambiguities in the questionnaire. We had to content</region>
+      <region class="DoCO:TextChunk" id="149" confidence="possible" page="12" column="1">ourselves with a small sample for the pilot study due to the size of the respondent pool. We looked at the response pattern of those few individuals and also checked for any missing data.</region>
+      <region class="DoCO:TextChunk" id="152" confidence="possible" page="13" column="1">No abnormal responses were observed to suggest that ambiguity in the questions existed. We calculated the Cronbach’s alpha of the metrics for each variable and it varied approximately between 0.6 and 0.9. Two variables had Cronbach’s alpha between 0.6 and 0.7, which is acceptable for new scales (Robinson, Shaver, &amp; <xref ref-type="bibr" rid="R24" id="150" class="deo:Reference">Wrightsman, 1991</xref>). We also ensured that correlation between variables was less than 0.65 to measure discriminant validity, i.e., the predictor variables were indeed different (Aiman-<xref ref-type="bibr" rid="R3" id="151" class="deo:Reference">Smith &amp; Markham, 2004</xref>). The survey instrument was sent with a cover letter to 60 individuals in the hospital. They represented every level in the organizational hierarchy (directors, managers, supervisors, and</region>
+      <region class="DoCO:TextChunk" id="153" page="13" column="1">front line staff). The cover letter guaranteed that their responses would be kept confidential. We</region>
+      <region class="DoCO:TextChunk" id="154" confidence="possible" page="13" column="1">received 56 responses indicating a response rate of 93%. The respondents included 11 males and 42 females (3 respondents did not disclose their gender). Individuals held a master’s degree (N = 10), a bachelor’s degree (N = 18), an associate degree (N = 10), a high school education (N =</region>
+      <region class="DoCO:TextChunk" id="155" page="13" column="1">16), or other degrees (N = 2). The respondents represented clinical departments (N = 31), fiscal</region>
+      <region class="DoCO:TextChunk" id="156" confidence="possible" page="13" column="1">and administration functions (N = 15), and ancillary and support functions (N = 10). Most of the respondents worked full time (N = 46) though some worked part time (N = 10). Criterion Variables A3 report usage. We measured the repeat usage of the A3 Report in terms of how many A3 Reports a respondent completed in the previous year. This measure was an objective account</region>
+      <region class="DoCO:TextChunk" id="158" page="13" column="1">of the actual usage of the tool, and an indirect measure of the effectiveness of the A3 Report. In <marker type="block"/> many cases, respondents wrote multiple A3 Reports, suggesting that they found it beneficial for</region>
+      <region class="DoCO:TextChunk" id="159" confidence="possible" page="13" column="1">improving work processes despite tight work schedules.</region>
+      <region class="DoCO:TextChunk" id="160" confidence="possible" page="14" column="1">Process improvement. Process improvement (PI) is defined as the improvement in various process parameters (productivity, wasted time, number of errors, costs, patient care) as a</region>
+      <region class="DoCO:TextChunk" id="162" page="14" column="1">result of problem solving, as reported by the respondents. We created six items to measure this <marker type="block"/> construct based on the different process parameters used by the organization. We used a 3-point</region>
+      <region class="DoCO:TextChunk" id="163" confidence="possible" page="14" column="1">Likert scale fixed from 1 = worse to 3 = better. We also used a seventh item using a 5-point Likert scale anchored at 1 = strongly disagree and 5 = strongly agree for the construct. We added up the scores for seven items and averaged to get a composite score for the scale (Cronbach’s alpha = 0.87). See the appendix for the items used in the scale. Predictor Variables We had five predictor variables of interest: objectivity, knowledge integrability, communicability, creativity, and simplicity. However, as the correlation between communicability and knowledge integrability was high (r = 0.76, p &lt; 0.05) and appeared collinear, we did not use them together in the same regression model. The actual measures for each of the variables can be found in the appendix. Except where noted, a five-point Likert scale was used for each measure, with 1 = strongly disagree to 5 = strongly agree. Objectivity. Objectivity of the A3 Report is defined as approaching and solving a problem using the A3 Report based on field data, and not guided by the personal opinions of</region>
+      <region class="DoCO:TextChunk" id="166" page="14" column="1">participating individuals. We developed a three-item scale to measure the objectivity of the A3 <marker type="block"/> Report, guided by the extant literature (<xref ref-type="bibr" rid="R7" id="165" class="deo:Reference">Carlile, 2002</xref>) and our field experience (Cronbach alpha</region>
+      <region class="DoCO:TextChunk" id="167" confidence="possible" page="14" column="1">= 0.66). Knowledge integrability. Knowledge integrability of the A3 Report is defined as its ability to stimulate concerns and identify dependencies among the organizational members to</region>
+      <region class="DoCO:TextChunk" id="168" page="15" column="1">develop a shared understanding of how the new process should work to meet the organizational</region>
+      <region class="DoCO:TextChunk" id="172" confidence="possible" page="15" column="1">goals. We used a six-item scale to measure knowledge integration. The Likert scale was developed based on the review of the literature and our field experience (Cronbach alpha = 0.89). Communicability. Communicability of the A3 Report is defined as the degree to which it facilitates interactive discussions among the organizational members to resolve a problem. We developed a three-item scale to measure the communicability of the A3 Report, guided by the extant literature (<xref ref-type="bibr" rid="R7" id="169" class="deo:Reference">Carlile, 2002</xref>; <xref ref-type="bibr" rid="R12" id="170" class="deo:Reference">Henderson, 1991</xref>, 1995 in particular) and our field experience (Cronbach alpha = 0.59). Creativity. Creativity of the A3 Report is defined as its ability to invoke innovative ideas from individuals during construction of the current state and the target state diagrams. We developed a five-item scale to measure creativity of the A3 Report, guided by the extant literature (<xref ref-type="bibr" rid="R12" id="171" class="deo:Reference">Henderson, 1991</xref>). The Cronbach alpha was 0.70. Simplicity. We defined simplicity of the A3 Report as ease of interpretability and</region>
+      <region class="DoCO:TextChunk" id="175" page="15" column="1">usability by all individuals, irrespective of their educational levels. We developed a three-item <marker type="block"/> scale to measure simplicity based on our field understanding. The response for the second item<marker type="block"/> was coded using a 5-point scale (0-2 hours = 1, 9-10 hours = 5) during analysis. The Cronbach</region>
+      <region class="DoCO:TextChunk" id="176" confidence="possible" page="15" column="1">alpha was 0.75. Control Variable Following the A3 Process equates to executing certain key steps in the problem solving process that are critical to effective problem solving (such as observing the actual process and experimenting). This was done to investigate the potential effect this factor may have on the relationship between the predictor and criterion variables in process improvement. We used four</region>
+      <region class="DoCO:TextChunk" id="177" confidence="possible" page="16" column="1">Likert-scale items using to measure the A3 process as a control variable anchored at 1 = strongly disagree to 5 = strongly agree (Cronbach alpha = 0.70). Analysis Approach As our intent was to identify what characteristics of the A3 Report predicted its effectiveness, we used multiple regression analysis. First we checked for any missing data in the</region>
+      <region class="DoCO:TextChunk" id="178" page="16" column="1">responses, and found none. However, seven respondents had not implemented the new process,</region>
+      <region class="DoCO:TextChunk" id="179" confidence="possible" page="16" column="1">or the new process implementation was in progress when the survey was conducted. As a result, they lacked any results on process improvement. Those cases were deleted from the dataset. We checked for outliers in the criterion variable (number of A3 Reports written). Two instances</region>
+      <region class="DoCO:TextChunk" id="181" page="16" column="1">were found to be three standard deviations away from the sample mean, and were deleted from <marker type="block"/> further analysis. As the predictor variables were on the Likert scale, no outliers were observed.</region>
+      <region class="DoCO:TextChunk" id="182" confidence="possible" page="16" column="1">In total, nine cases were excluded from the dataset, resulting in 47 data points for subsequent analysis. We then averaged all the items – positively worded and reversed negatively worded questions together – as a measure for each predictor variable. For each of the two criterion variables, we performed multiple regression analysis to test the hypotheses. Before conducting the regression analysis, we checked the normality assumptions of each predictor variable by drawing the normal probability plot. We applied a square root transformation to the number of A3 Reports criterion variable, and a natural log transformation for two predictor variables (objectivity and knowledge integrability) and the control variable, to induce more normality in the data. We redrew the plots again to ensure normality. The rest of the variables were approximately normal. Prior to conducting the regression analysis, we checked the linearity of each predictor variable with respect to the</region>
+      <region class="DoCO:TextChunk" id="183" confidence="possible" page="17" column="1">criterion variables by drawing bivariate scatter plots of the predictor variables versus the</region>
+      <region class="DoCO:TextChunk" id="185" page="17" column="1">criterion variables (transformations included). The plots were approximately linear. Using SPSS <marker type="block"/> software, we constructed four multiple linear regression models. After creating each model, we</region>
+      <region class="DoCO:TextChunk" id="187" confidence="possible" page="17" column="1">checked for homoscedasticity of the residuals. RESULTS <xref ref-type="table" rid="T1" id="186" class="deo:Reference">Table 1</xref> presents the means, standard deviations, and the bivariate correlations for the</region>
+      <region class="DoCO:TextChunk" id="188" page="17" column="1">predictor, criterion, and control variables. All correlations between predictor variables are well</region>
+      <region class="DoCO:TextChunk" id="191" confidence="possible" page="17" column="1">below 0.75, the level generally accepted as problematic (Masson and <xref ref-type="bibr" rid="R19" id="189" class="deo:Reference">Perreault, 1991</xref>; Pelled, Eisenhardt, &amp; <xref ref-type="bibr" rid="R22" id="190" class="deo:Reference">Xin, 1999</xref>). As a cross check, we also computed the variance inflation factor (VIF)</region>
+      <region class="DoCO:TextChunk" id="192" page="17" column="1">scores to check multicollinearity. All scores were well below the standard benchmark score of</region>
+      <region class="DoCO:TextChunk" id="195" confidence="possible" page="17" column="1">10 (Cohen, Cohen, &amp; <xref ref-type="bibr" rid="R9" id="193" class="deo:Reference">West, 2003</xref>). As evidenced from <xref ref-type="table" rid="T1" id="194" class="deo:Reference">Table 1</xref>, all predictor variables (except creativity) and the control variable are positively correlated with the criterion variables, A3</region>
+      <region class="DoCO:TextChunk" id="196" page="17" column="1">Report usage and process improvement. In particular, objectivity is significantly correlated (r =</region>
+      <region class="DoCO:TextChunk" id="198" confidence="possible" page="17" column="1">0.40, p &lt; 0.01) with A3 Report usage. Similarly, knowledge integrability (r = 0.42, p &lt; 0.01) and communicability (r = 0.45, p &lt; 0.01) are significantly correlated with process improvement. Simplicity and the A3 Process (control variable) are also somewhat correlated (r = 0.25, p &lt; 0.10) with process improvement. Insert <xref ref-type="table" rid="T1" id="197" class="deo:Reference">Table 1</xref> about here As we were interested in finding whether the perception of the individuals in the clinical</region>
+      <region class="DoCO:TextChunk" id="199" page="17" column="1">and non-clinical departments (fiscal, administration, and ancillary departments were combined)</region>
+      <region class="DoCO:TextChunk" id="200" confidence="possible" page="18" column="1">differed with respect to the three main characteristics that attributed to the effectiveness of the</region>
+      <region class="DoCO:TextChunk" id="201" page="18" column="1">A3 Report, we conducted Two-Sample t-tests for each predictor variable. The results imply no</region>
+      <region class="DoCO:TextChunk" id="203" confidence="possible" page="18" column="1">difference in the means, which indicates that the individuals in the clinical and non-clinical departments perceived the different characteristics of the A3 Report in similar ways. <xref ref-type="table" rid="T2" id="202" class="deo:Reference">Table 2</xref> presents the results of the multiple regression analysis. Model 1 is the regression</region>
+      <region class="DoCO:TextChunk" id="205" page="18" column="1">of the predictor variables (excluding communicability) against the criterion variable, A3 Report <marker type="block"/> usage. The control variable is not included in the regression because its effects are only realized</region>
+      <region class="DoCO:TextChunk" id="206" confidence="possible" page="18" column="1">during problem solving and not during the decision process of whether or not to use the A3 Report. The results indicate that objectivity of the A3 Report is a very strong predictor of its</region>
+      <region class="DoCO:TextChunk" id="210" page="18" column="1">usage (p &lt; 0.01), thus supporting H1a that objectivity of the A3 Report is positively associated <marker type="block"/> with its repeat usage. The overall model is significant (F-value = 2.31, p &lt; 0.1) and explains 18<marker type="block"/> percent of the variance (R-squared value) in the criterion variable. The other predictor variables<marker type="block"/> do not show a statistically significant relationship with the criterion variable (p &gt; 0.1). The plot</region>
+      <region class="DoCO:TextChunk" id="212" confidence="possible" page="18" column="1">of residuals against the predicted values shows no pattern. Insert <xref ref-type="table" rid="T2" id="211" class="deo:Reference">Table 2</xref> about here Model 2 is the regression of the predictor variables (excluding knowledge integrability) against A3 Report usage. Objectivity is again a strong predictor (p &lt; 0.05), thus supporting</region>
+      <region class="DoCO:TextChunk" id="213" page="18" column="1">hypothesis H1a. As can be seen, the model is significant (F-value = 2.25, p &lt; 0.10) and explains</region>
+      <region class="DoCO:TextChunk" id="214" confidence="possible" page="18" column="1">18 percent (R-squared value) of the variance in the criterion variable at p &lt; 0.10. The other predictor variables do not reliably predict the criterion variable (p &gt; 0.1). The plot of residuals against the predicted values is unstructured.</region>
+      <region class="DoCO:TextChunk" id="215" confidence="possible" page="19" column="1">Model 3 is the regression of the predictor variables (excluding communicability) against the criterion variable, process improvement. The model suggests that statistically, knowledge integrability is a moderate predictor of process improvement (p &lt; 0.10), thus supporting H2b.</region>
+      <region class="DoCO:TextChunk" id="217" page="19" column="1">The other predictor variables fail to predict the criterion variable (p &gt; 0.1). The overall model is <marker type="block"/> significant (F-value = 2.06, p &lt; 0.10) and explains 20 percent of the variance (R-squared value)</region>
+      <region class="DoCO:TextChunk" id="218" confidence="possible" page="19" column="1">in the criterion variable. The plot of residuals against the predicted values shows slight deviation from a structureless pattern. Model 4 is the regression of the predictor variables (excluding knowledge integrability) on process improvement. As can be seen from the data, communicability is a strong predictor of process improvement (p &lt; 0.05), thus supporting hypothesis H2c. The remaining predictor variables fail to predict the criterion variable statistically. The overall model is significant (F-</region>
+      <region class="DoCO:TextChunk" id="219" page="19" column="1">value = 2.22, p &lt; 0.1) and explains 21 percent of the variance in the criterion variable. The plot</region>
+      <region class="DoCO:TextChunk" id="220" confidence="possible" page="19" column="1">of residuals against the predicted values appears randomly scattered. DISCUSSION The purpose of this field-based study was to identify the characteristics that predict the</region>
+      <region class="DoCO:TextChunk" id="221" page="19" column="1">effectiveness of the A3 Report as a BO in process improvement. We measured its effectiveness</region>
+      <region class="DoCO:TextChunk" id="222" confidence="possible" page="19" column="1">in terms of two dimensions – its repeat usage and improved results as a result of process improvement. The results provide significant support for the hypotheses H1a. The finding</region>
+      <region class="DoCO:TextChunk" id="223" page="19" column="1">implies that organizational members perceive the objectivity of the A3 Report as a strong factor</region>
+      <region class="DoCO:TextChunk" id="224" confidence="possible" page="19" column="1">in their decision to use it again. Indeed, individuals from both clinical and non-clinical departments perceive the A3 Report to be an objective tool in cross-departmental problem solving. It is a data driven tool and the iconic representation of the current state on the A3</region>
+      <region class="DoCO:TextChunk" id="226" confidence="possible" page="20" column="1">Report mirrors the actual state of current affairs. Thus, there is little apprehension in the minds of the problem solvers about the real problems and their impact on the system. This finding is in agreement with the existing research literature on BO in other problem solving contexts. For instance, <xref ref-type="bibr" rid="R7" id="225" class="deo:Reference">Carlile (2002)</xref> finds in his research that only when the updated assembly drawing</region>
+      <region class="DoCO:TextChunk" id="227" page="20" column="1">reflected the concerns of all stakeholders (manufacturing engineering and design), did it become</region>
+      <region class="DoCO:TextChunk" id="228" confidence="possible" page="20" column="1">an effective BO for negotiation in new product development. The finding that the A3 Report seems to promote knowledge integrability to improve process outcome supports hypothesis H2b. The result implies that organizational members perceive that the A3 Report facilitates knowledge integration among the organizational members during process improvement. This finding seems to be consistent with the findings of other</region>
+      <region class="DoCO:TextChunk" id="231" page="20" column="1">scholars (<xref ref-type="bibr" rid="R4" id="229" class="deo:Reference">Bechky, 2003</xref>; <xref ref-type="bibr" rid="R7" id="230" class="deo:Reference">Carlile, 2002</xref>) who find similar results of knowledge integration using</region>
+      <region class="DoCO:TextChunk" id="234" confidence="possible" page="20" column="1">other BOs (assembly drawing, prototypes) in new product development contexts. Our results also offer evidence that communicability is an important characteristic of an A3 Report during process improvement, thus statistically supporting hypothesis H2c. In fact, the iconic representation of the current state on the A3 Report stimulates conversation among the organizational members about the difficulties associated with the current state, which in turn leads to development of the target state for better process outcomes. This finding seems congruent with the findings of other researchers who indicate that effective BOs facilitate communication and knowledge interchange in cross-departmental problem solving (<xref ref-type="bibr" rid="R7" id="232" class="deo:Reference">Carlile 2002</xref>; <xref ref-type="bibr" rid="R12" id="233" class="deo:Reference">Henderson 1991</xref>, 1998). Contrary to our arguments, the effect of creativity on repeat A3 Report usage and on process improvement is not statistically supported. One possible explanation for this result is</region>
+      <region class="DoCO:TextChunk" id="235" page="20" column="1">that creativity is statistically related to objectivity (r = 0.42, p &lt;0.01), knowledge integrability (r</region>
+      <region class="DoCO:TextChunk" id="236" confidence="possible" page="21" column="1">= 0.50, p &lt;0.01), and communicability (r = 0.50, p &lt;0.01), which suggests that the effect of creativity is confounded in the other three predictor variables, resulting in a situation of statistical suppression of its actual predictive power. A second explanation may be that creativity is</region>
+      <region class="DoCO:TextChunk" id="237" page="21" column="1">analogous to a “double-edged sword.” It is important that individuals generate new insights to</region>
+      <region class="DoCO:TextChunk" id="238" confidence="possible" page="21" column="1">solve problems. The downside is that unless those insights are integrated into a new collective</region>
+      <region class="DoCO:TextChunk" id="239" page="21" column="1">knowledge, they have little impact on process improvement. Thus, it appears that creativity and</region>
+      <region class="DoCO:TextChunk" id="240" confidence="possible" page="21" column="1">knowledge integrability may be inexorably intertwined during the problem solving process. Contrary to our expectations, we find little statistical support that simplicity of the A3</region>
+      <region class="DoCO:TextChunk" id="241" page="21" column="1">Report is positively associated with its repeat usage or in process improvement. There may be</region>
+      <region class="DoCO:TextChunk" id="242" confidence="possible" page="21" column="1">multiple explanations for this limited support. From our informal talks with the individuals in the facility, we discovered that the A3 Report overtly appears to intimidate people by its appearance, but as one dives into it and uses it s/he finds it simple. One individual nicely</region>
+      <region class="DoCO:TextChunk" id="243" page="21" column="1">summed up the above argument; “The A3 [report] ... is complicated at first and I can see people</region>
+      <region class="DoCO:TextChunk" id="244" confidence="possible" page="21" column="1">not wanting to use it because it is intimidating. I was confused when I actually sat down to put it on paper. It seems so easy when someone tells you how to do it and how it works.” Another</region>
+      <region class="DoCO:TextChunk" id="245" page="21" column="1">possible reason for its apparent complication is that it often involves expending some time and</region>
+      <region class="DoCO:TextChunk" id="246" confidence="possible" page="21" column="1">effort beyond the daily work schedule to engage in any substantive problem solving. We included the A3 Process as a control variable in our regression analysis. This variable</region>
+      <region class="DoCO:TextChunk" id="247" page="21" column="1">individually showed significant relationship (F-value = 3.00, p &lt; 0.10) when regressed against</region>
+      <region class="DoCO:TextChunk" id="248" confidence="possible" page="21" column="1">the criterion variable, process improvement. But, when it was considered with other predictor variables, the pattern of the regression results did not change. However, it slightly weakened the significance level of some of the predictor variables due to its correlation with them.</region>
+      <region class="DoCO:TextChunk" id="249" confidence="possible" page="22" column="1">In sum, four out of ten sub-hypotheses were found to be significant. However, taken together, three out of the five hypothesized characteristics of the A3 Report emerge to predict its effectiveness as a BO. First, the results imply that the organizational members find objectivity of the A3 Report to be a strong determinant for its repeat usage in process improvement efforts. Second, knowledge integrability and communicability seem to be the determinant characteristics of process improvement. Although the primary thrust in this research study was to investigate the additive effects of the main predictor variables on the criterion variables, we also investigated the joint effects of</region>
+      <region class="DoCO:TextChunk" id="250" page="22" column="1">the predictor variables, or the two-way interactions, on the criterion variable over and above the</region>
+      <region class="DoCO:TextChunk" id="251" confidence="possible" page="22" column="1">individual additive effects. We found the two-way interactions by the cross product of two</region>
+      <region class="DoCO:TextChunk" id="253" page="22" column="1">predictor variables. Since we had four main predictor variables in each model, we examined the <marker type="block"/> effect of six two-way interactions. We regressed the four main predictor variables, six two-way</region>
+      <region class="DoCO:TextChunk" id="255" confidence="possible" page="22" column="1">interaction variables, and the control variable over the criterion variable using the centered predictor approach suggested by <xref ref-type="bibr" rid="R9" id="254" class="deo:Reference">Cohen et al. (2003)</xref> for regression analysis containing 2 interactions. The overall model is insignificant (F = 0.98, p &gt; 0.1) and the R value is 0.24. The four main predictors, as well as the six interaction variables, are statistically insignificant. Even though our study presents some interesting results, it is not without limitations, and therefore, suggests some areas for follow-up research. First, it is important to note that the results reflect the findings in one organization – specifically, a mid-sized hospital. Since specific characteristics of the site could influence the findings, it is difficult to generalize them.</region>
+      <region class="DoCO:TextChunk" id="256" page="22" column="1">Therefore, results of this study should be interpreted with care. A second limitation is the small</region>
+      <region class="DoCO:TextChunk" id="257" confidence="possible" page="22" column="1">number of respondents. A larger respondent size would give more statistical power to the results. A third limitation of this study is that the design is cross-sectional. Therefore, causal</region>
+      <region class="DoCO:TextChunk" id="258" confidence="possible" page="23" column="1">relationships cannot be established among the study variables. Finally, the fourth limitation is the</region>
+      <region class="DoCO:TextChunk" id="259" page="23" column="1">threat of common method variance because all variables or constructs were measured using the</region>
+      <region class="DoCO:TextChunk" id="260" confidence="possible" page="23" column="1">same survey instrument. Future empirical research should extend this work by focusing on the use of the A3 Report in multiple organizational settings (manufacturing and non-manufacturing) to validate the characteristics of a BO discussed in this paper in order to generalize the results. Furthermore, such studies should be replicated at multiple points in time. We hope future research will also</region>
+      <region class="DoCO:TextChunk" id="261" page="23" column="1">attempt to address any other relevant characteristics of a BO not addressed in our research that</region>
+      <region class="DoCO:TextChunk" id="262" confidence="possible" page="23" column="1">would enhance the understanding of the A3 Report as a potential BO in cross-departmental problem solving. CONCLUSION Despite these limitations, the results have potentially important implications for the academic literature and real world practice. Most studies have examined the role of BOs in different problem-solving contexts qualitatively. Furthermore, most of the attention has been focused on new product development and very little on process improvement. We argue that process improvement is critical to remain competitive and viable in today’s dynamic</region>
+      <region class="DoCO:TextChunk" id="265" page="23" column="1">environment. From that perspective, we have addressed a significant gap in empirical research <marker type="block"/> on BOs. We examined the A3 Report’s characteristics as a BO in process improvement using a<marker type="block"/> field-based survey, and in the process we validated and strengthened the findings of prior work.</region>
+      <region class="DoCO:TextChunk" id="266" confidence="possible" page="23" column="1">From the viewpoint of real world practice, the findings are also noteworthy. Even though the research is focused in one organizational setting in healthcare, the challenge of integrating</region>
+      <region class="DoCO:TextChunk" id="270" page="23" column="1">knowledge across functional departments is not just limited to healthcare but seems to apply to <marker type="page" number="24"/><marker type="block"/> all organizations, as found by numerous scholars (<xref ref-type="bibr" rid="R6" id="268" class="deo:Reference">Brown &amp; Duguid, 1998</xref>; <xref ref-type="bibr" rid="R7" id="269" class="deo:Reference">Carlile 2002</xref>; Soo et</region>
+      <region class="DoCO:TextChunk" id="271" confidence="possible" page="24" column="1">al., 2002). From the analysis, the A3 Report appears to be an objective tool that promotes communication and integrates the specialized knowledge of individuals from different functional departments to work toward a common purpose in improving organizational work processes.</region>
+      <region class="DoCO:TextChunk" id="272" page="24" column="1">Finally, we conclude with the fervent hope that the A3 Report has the potential to emerge as an</region>
+      <region class="DoCO:TextChunk" id="273" confidence="possible" page="24" column="1">effective BO in many other work settings that need process improvement.</region>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="274" confidence="possible" page="25" column="1">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="275" confidence="possible" page="25" column="1">Alreck, P. L., &amp; Settle, R. B. 2004. The survey research handbook. New York: McGraw- Hill/Irwin.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="276" confidence="possible" page="25" column="1">Adler, P. S., Goldoftas, B., &amp; Levine, D. I. 1999. Flexibility versus efficiency? A case study of model changeovers in the Toyota production system. Organization Science, 10 (1): 43-68.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="277" confidence="possible" page="25" column="1">Aiman-Smith, L., &amp; Markham, S. K. 2004. What you should know about using surveys. Research Technology Management, 47 (3): 12-15.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="278" confidence="possible" page="25" column="1">Bechky, B. A. 2003. Sharing meaning across occupational communities: The transformation of understanding on a production floor. Organization Science, 14 (3): 312-330.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="279" confidence="possible" page="25" column="1">Berg, M., &amp; Bowker, G. 1997. The multiple bodies of the medical record: Toward a sociology of an artifact. The Sociological Quarterly, 38 (3): 513-537.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="280" confidence="possible" page="25" column="1">Brown, J. S., &amp; Duguid, P. 1998. Organizing knowledge. California Management Review, 40 (3): 90-110.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="281" confidence="possible" page="25" column="1">Carlile, P. R. 2002. A pragmatic view of knowledge and boundaries: Boundary Objects in new product development. Organization Science, 13 (4): 442-455.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="282" confidence="possible" page="25" column="1">Carlile, P. R. 2004. Transferring, translating, and transforming: An integrative framework</ref>
+          <ref class="deo:BibliographicReference" id="283" confidence="possible" page="25" column="1">for managing knowledge across boundaries. Organization Science, 15 (5): 555-568.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="284" confidence="possible" page="25" column="1">Cohen, J., Cohen, P. West, S. G., Aiken, L. S. 2003. Applied multiple regression/correlation analysis for the behavioral sciences. New Jersey: Lawrence Erlbaum Associates, Publishers.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="285" confidence="possible" page="25" column="1">Dosi, G. 1988. Sources, procedures and misunderstanding effects of innovation. Journal of Economic Literature, 26: 1120-1170.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="286" confidence="possible" page="25" column="1">Garsen, D. G. 2002. Guide to writing empirical papers. New York: Marcel Dekker, Inc.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="287" confidence="possible" page="25" column="1">Henderson, K. 1991. Flexible sketches and inflexible databases: Visual communication, conscription devices, and boundary object in design engineering. Science, Technology, &amp; Human Values, 16 (4): 448-473.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="288" confidence="possible" page="25" column="1">Henderson, K. 1995. The political career of a prototype: Visual representation in design engineering. Social Problems, 42 (2): 274-299.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="289" confidence="possible" page="25" column="1">Henderson, K. 1998. The role of material objects in the design process: A comparison of two design cultures and how they contend with automation. Science, Technology, &amp; Human Values, 23 (2): 139-174.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="290" confidence="possible" page="26" column="1">Henderson, R, M., &amp; Clark, K. 1990. Architectural innovation: The reconfiguration of existing product technologies and the failure of established firms. Administrative Science Quarterly, 35 (1): 9-35.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="291" confidence="possible" page="26" column="1">Lei, D., Hitt, M. A., &amp; Bettis, R. 1996. Dynamic core competencies through meta-learning and strategic context. Journal of Management, 22 (4): 549-569.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="292" confidence="possible" page="26" column="1">Leonard-Barton, D. 1992. Core capabilities and core rigidities: A paradox in managing new product development . Strategic Management Journal, 13 (Spl Issue): 111-125.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="293" confidence="possible" page="26" column="1">MacDuffie, J. P. 1997. The road to “root cause”: Shop-floor problem-solving at three auto plants. Management Science, 43 (4): 479-502.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="294" confidence="possible" page="26" column="1">Mason, C. H., &amp; Perreault, W. D. 1991. Collinearity, power, and interpretation of multiple regression analysis. Journal of Marketing Research, 23: 268-280.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="295" confidence="possible" page="26" column="1">Patel, V. I., Branch, T., &amp; Arocha, J. F. 2002. Errors in interpreting quantities as procedures: The case of pharmaceutical labels. International Journal of Medical Informatics, 65 (3): 193-211.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="296" confidence="possible" page="26" column="1">Pawlowski, S. D., &amp; Robey, D. 2004. Bridging user organizations: Knowledge brokering and the work of information technology professionals. MIS Quarterly, 28 (4): 645-762.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="297" confidence="possible" page="26" column="1">Pelled, L. H., Eisenhardt, K. M., &amp; Xin, K. R. 1999. Exploring the black box: An analysis of work group diversity, conflict, and performance. Administrative Science Quarterly, 44 (1): 1- 28.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="298" confidence="possible" page="26" column="1">Pfeffer, J., &amp; Sutton, R. I. 1999. Knowing “what” to do is not enough: Turning knowledge into action. California Management Review. 42 (1): 83-111.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="299" confidence="possible" page="26" column="1">Robinson, J. P., Shaver, P. R., &amp; Wrightsman, L. S., 1991. Criteria for scale selection and evaluation: Measures of personality and social psychological attitudes. San Diego: Academic Press.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="300" confidence="possible" page="26" column="1">Soo, C., Vevinney, T., Midgley, D., &amp; Deering, A. 2002. Knowledge Management: Philosophy, processes, and pitfalls. California Management Review, 44 (4): 129-150.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="301" confidence="possible" page="26" column="1">Spear, S., J., &amp; Bowen, H. K. 1999. Decoding the DNA of the Toyota Production System. Harvard Business Review, 77 (5): 97- 106.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="302" confidence="possible" page="26" column="1">Star, S. L., &amp; Griesemer, J. R. 1989. Institutional Ecology, ‘Translations’ and boundary objects: Amateurs and professionals in Berkeley’s museum of vertebrate zoology. Social Studies of Science, 19 (3): 387-420.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="303" confidence="possible" page="26" column="1">Szulanski, G. 1996. Exploring internal stickiness: Impediments to the transfer of best practice within the firm. Strategic Management Journal, 17: 27-43.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="304" confidence="possible" page="27" column="1">Yakura, E. K. 2002. Charting time: Timeliness as temporal boundary objects. Academy of Management Journal, 45 (5): 956-970.</ref>
+          <ref class="deo:BibliographicReference" id="305" confidence="possible" page="28" column="1">Variables Process Improvement</ref>
+          <ref class="deo:BibliographicReference" id="308" confidence="possible" page="28" column="1">APPENDIX Measures Alpha 1. I observed positive results within a few weeks of 0.87 implementing the target state 2. The change in performance after implementation of the A3 Report: a) Staff productivity b) Wasted time c) No. of errors d) Labor costs e) Material costs f) Patient care 1. The steps followed in the A3 Report are dependent on 0.66 personal opinion 2. The steps followed in the A3 Report are based on unbiased data 3. Different individuals with different background will reach similar conclusions by using the steps of the A3 Report 1. The A3 Report rarely helped me share problems, 0.89 mistakes, or concerns about current work processes with other functional departments and reconcile our differences 2. By drawing the current state on the A3 Report everyone had a better understanding of the work processes that spans across many departments 3. A3 Report helped me and others participating in the project to visualize the problem in all its dimensions 4. By using the A3 Report, we developed solutions that involved how the work processes of various departments would be linked together to achieve organizational goals 5. By writing the A3 Report I have a deeper understanding of the work processes and why we do it that way 6. By being involved in the A3 Report, I became more knowledgeable of the work processes of other departments as well 1. A3 Report facilitates quick and easy communication 0.59 with others 2. The pictures (current state and target state) encouraged communication among different members of the A3 team 3. A3 Report became a common ground for conversation among different members of the A3 team 1. By using pencil and paper in writing the A3 Report, I 0.70 was involved in free exploration of ideas 2. I drew and redrew sketches of the current state multiple times with a pencil to ensure that my mental imagination truly represented the actual current state 3. While drawing the target state with a pencil I was involved in creative and conceptual thinking about how</ref>
+        </ref-list>
+        <region class="DoCO:TextChunk" id="306" confidence="possible" page="28" column="1">Objectivity Knowledge Integrability</region>
+        <region class="DoCO:TextChunk" id="307" confidence="possible" page="28" column="1">Communicability Creativity</region>
+        <region class="DoCO:TextChunk" id="309" confidence="possible" page="29" column="1">to improve existing work processes 4. Writing A3 Reports by hand encouraged me to be aware of the bigger picture 5. The A3 Report written by pencil can be easily passed around to other participants to draw out ideas Simplicity 1. Writing the A3 Report requires a high level of skill and 0.75 education 2. It took me ___ hours to write the A3 Report 3. We spent a lot of money to effect the change as suggested in my A3 A3 Process 1. Observing current state was important for my study 0.70 2. I designed the target state based on three design (specifying activities, creating direct connection, and simplifying pathways) rules of TPS 3. I carried out a test for my A3 Report 4. I and others have been able to verify our understanding of the improved process by devising a test and comparing the actual results with the predicted results</region>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="310" page="30" column="1">TABLE 1</caption>
+          <content>
+            <h1 class="table"> Means, Standard Deviations, and Correlations among Study Variables</h1>
+            <table class="DoCO:Table" number="1" page="30">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> 1</td>
+                  <td class="table"> 2</td>
+                  <td class="table"> 3</td>
+                  <td class="table"> 4</td>
+                  <td class="table"> 5</td>
+                  <td class="table"> 6</td>
+                  <td class="table"> 7</td>
+                  <td class="table"> 8</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> 1. A3 Report a</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2. Process Improvement</td>
+                  <td class="table"> 0.29*</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 3. Objectivity b</td>
+                  <td class="table"> 0.40**</td>
+                  <td class="table"> 0.23</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 4. Knowledge Integrability b</td>
+                  <td class="table"> 0.13</td>
+                  <td class="table"> 0.42**</td>
+                  <td class="table"> 0.30*</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 5. Communicability</td>
+                  <td class="table"> 0.19</td>
+                  <td class="table"> 0.45**</td>
+                  <td class="table"> 0.51**</td>
+                  <td class="table"> 0.76**</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 6. Creativity</td>
+                  <td class="table"> 0.05</td>
+                  <td class="table"> 0.22</td>
+                  <td class="table"> 0.42**</td>
+                  <td class="table"> 0.50**</td>
+                  <td class="table"> 0.50**</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 7. Simplicity</td>
+                  <td class="table"> 0.16</td>
+                  <td class="table"> 0.25†</td>
+                  <td class="table"> 0.33*</td>
+                  <td class="table"> 0.37*</td>
+                  <td class="table"> 0.37*</td>
+                  <td class="table"> 0.16</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 8. A3 Process b</td>
+                  <td class="table"> 0.31*</td>
+                  <td class="table"> 0.25†</td>
+                  <td class="table"> 0.21</td>
+                  <td class="table"> 0.40**</td>
+                  <td class="table"> 0.48**</td>
+                  <td class="table"> 0.25†</td>
+                  <td class="table"> 0.13</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Mean</td>
+                  <td class="table"> 1.18</td>
+                  <td class="table"> 2.90</td>
+                  <td class="table"> 1.41</td>
+                  <td class="table"> 1.49</td>
+                  <td class="table"> 4.21</td>
+                  <td class="table"> 4.46</td>
+                  <td class="table"> 4.19</td>
+                  <td class="table"> 1.39</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Standard Deviation</td>
+                  <td class="table"> 0.64</td>
+                  <td class="table"> 0.33</td>
+                  <td class="table"> 0.19</td>
+                  <td class="table"> 0.14</td>
+                  <td class="table"> 0.82</td>
+                  <td class="table"> 0.5</td>
+                  <td class="table"> 0.65</td>
+                  <td class="table"> 0.20</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Notes: N = 47</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> a Square root transformed</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> b Natural log transformed</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> † p &lt; 0.10</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> * p &lt; 0.05</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ** p &lt; 0.01</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="311" confidence="possible" page="30" column="1">Means, Standard Deviations, and Correlations among Study Variables 1 2 3 4 5 6 7 8 1. A3 Report a 2. Process Improvement 0.29* 3. Objectivity b 0.40** 0.23 4. Knowledge Integrability b 0.13 0.42** 0.30* 5. Communicability 0.19 0.45** 0.51** 0.76** 6. Creativity 0.05 0.22 0.42** 0.50** 0.50** 7. Simplicity 0.16 0.25† 0.33* 0.37* 0.37* 0.16 8. A3 Process b 0.31* 0.25† 0.21 0.40** 0.48** 0.25† 0.13 Mean 1.18 2.90 1.41 1.49 4.21 4.46 4.19 1.39 Standard Deviation 0.64 0.33 0.19 0.14 0.82 0.5 0.65 0.20 Notes: N = 47 a Square root transformed b Natural log transformed † p &lt; 0.10 * p &lt; 0.05 ** p &lt; 0.01</region>
+        </region>
+        <region class="DoCO:TableBox" id="T2">
+          <caption class="deo:Caption" id="312" page="31" column="1">TABLE 2</caption>
+          <content>
+            <h1 class="table"> Results of Regression Analysis a</h1>
+            <table class="DoCO:Table" number="2" page="31">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Model 1</th>
+                  <th class="table"> Model 2</th>
+                  <th class="table"> Model 3</th>
+                  <th class="table"> Model 4</th>
+                </tr>
+                <tr class="table">
+                  <th class="table"> Variables</th>
+                  <th class="table"> (A3 Report</th>
+                  <th class="table"> (A3 Report</th>
+                  <th class="table"> (Process</th>
+                  <th class="table"> (Process</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Usage)</td>
+                  <td class="table"> Usage)</td>
+                  <td class="table"> Improvement)</td>
+                  <td class="table"> Improvement)</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> A3 Process</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> 0.15</td>
+                  <td class="table"> 0.08</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Objectivity</td>
+                  <td class="table"> 1.43**</td>
+                  <td class="table"> 1.41*</td>
+                  <td class="table"> 0.15</td>
+                  <td class="table"> -0.03</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Knowledge Integrability</td>
+                  <td class="table"> 0.39</td>
+                  <td class="table"></td>
+                  <td class="table"> 0.80†</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Communicability</td>
+                  <td class="table"></td>
+                  <td class="table"> 0.03</td>
+                  <td class="table"></td>
+                  <td class="table"> 0.16*</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Creativity</td>
+                  <td class="table"> -0.22</td>
+                  <td class="table"> -0.19</td>
+                  <td class="table"> -0.02</td>
+                  <td class="table"> 0.00</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Simplicity</td>
+                  <td class="table"> 0.01</td>
+                  <td class="table"> 0.03</td>
+                  <td class="table"> 0.05</td>
+                  <td class="table"> 0.05</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> R-squared</td>
+                  <td class="table"> 0.18</td>
+                  <td class="table"> 0.18</td>
+                  <td class="table"> 0.20</td>
+                  <td class="table"> 0.21</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Adj. R-squared</td>
+                  <td class="table"> 0.10</td>
+                  <td class="table"> 0.10</td>
+                  <td class="table"> 0.10</td>
+                  <td class="table"> 0.12</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> F-value</td>
+                  <td class="table"> 2.31†</td>
+                  <td class="table"> 2.25†</td>
+                  <td class="table"> 2.06†</td>
+                  <td class="table"> 2.22†</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> a N = 47</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> † p&lt;0.10</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> * p&lt;0.05</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ** p&lt;0.01</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="313" confidence="possible" page="31" column="1">a Results of Regression Analysis Model 1 Model 2 Model 3 Model 4 Variables (A3 Report (A3 Report (Process (Process Usage) Usage) Improvement) Improvement) A3 Process 0.15 0.08 Objectivity 1.43** 1.41* 0.15 -0.03 Knowledge Integrability 0.39 0.80† Communicability 0.03 0.16* Creativity -0.22 -0.19 -0.02 0.00 Simplicity 0.01 0.03 0.05 0.05 R-squared 0.18 0.18 0.20 0.21 Adj. R-squared 0.10 0.10 0.10 0.12 F-value 2.31† 2.25† 2.06† 2.22† a N = 47 † p&lt;0.10 * p&lt;0.05 ** p&lt;0.01</region>
+        </region>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="314" page="32" column="1">FIGURE 1</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="315" confidence="possible" page="32" column="1">A3 Report Template T H E M E : "W h a t a re w e try in g to d o ? "</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="316" page="32" column="1">T o :_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ B y: _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ D a te :_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _</outsider>
+        <region class="unknown" id="317" page="32" column="1">B a c k g ro u n d T a rg e t C o n d itio n B a c k g ro u n d o f th e p ro b le m Im p o rta n c e o f th e p ro b le m ; h o w it im p a c ts D ia g ra m o f h o w p ro c o m p a n y 's g o a ls o r va lu e s S p e c ific c o u n te rm e M e a s u ra b le ta rg e ts</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="318" page="32" column="1">p o s e d p ro c e s s w ill w o rk a s u re s n o te d (q u a n tity , tim e )</outsider>
+        <region class="unknown" id="319" page="32" column="1">C u rre n t C o n d itio n D ia g ra m o f h o w th e c u rre n t p ro c e s s w o rk s . K e y p ro b le m (s ) n o te d Q u a n tifie d m e a s u re s o f th e e xte n t o f th e Im p le m e n ta tio n P la n p ro b le m (s ) W h a t? W ho?</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="320" page="32" column="1">W hen?</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="321" page="32" column="1">W h e re ?</outsider>
+        <region class="unknown" id="322" page="32" column="1">A c tio n s to b e R e s p o n s ib le ta k e n p e rs o n</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="323" page="32" column="1">T im e s , D a te s</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="324" page="32" column="1">?</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="325" page="32" column="1">A c tu a l R e s u lts In re d in k /p e n c il. D a te c h e c k d o n e . R e s u lts , c o m p a re to p re d ic te d .</outsider>
+        <region class="unknown" id="326" page="32" column="1">C o s t: C a u s e A n a lys is K e y p ro b le m (s ), a n d m o s t lik e ly ro o t c a u s e (s ) F o llo w -U p P la n W h y? W hy? H o w w ill yo u c h e c k th e W hy? e ffe c ts ? W h e n w ill yo u c h e c k th e m W h y? W h y?</region>
+      </section>
+    </body>
+  </article>
+</pdfx>

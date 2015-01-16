@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>1e495f0d95a29fad6a5f2ac962843d5549dbae43b938c497eb3b2eda07065f24</job>
+    <base_name>62pu</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1177/0146167211427148">http://dx.doi.org/10.1037/e505302013-001</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">Organizational Behaviors and Cultural Context: The Brazilian "Jeitinho"</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">International Studies of Management &amp; Organization; Fall 1991; 21, 3; ABI/INFORM Global</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Amado</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Gilles; Brasil</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Haroldo Vinagre pg.</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="29" page="1" column="1">Reproduced with permission of the copyright owner. Further reproduction prohibited without permission. <marker type="page" number="2"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="3"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="4"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="5"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="6"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="7"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="8"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="9"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="10"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="11"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="12"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="13"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="14"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="15"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="16"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="17"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="18"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="19"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="20"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="21"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="22"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="23"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="24"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</region>
+    </body>
+  </article>
+</pdfx>

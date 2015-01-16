@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>f864bfec439fa3bf9b3888384188476b2a117f24fe3a8d845caab02256be16fa</job>
+    <base_name>62mh</base_name>
+    <doi>http://dx.doi.org/10.1142/s1793966607000042</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Systems Research Forum, 2007, Vol. 2</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">Boundary Objects as a Framework to Understand the Role of Systems Integrators</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Allan Fong</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Massachusetts Institute of Technology Ricardo Valerdi</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Massachusetts Institute of Technology Jayakanth Srinivasan</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Massachusetts Institute of Technology</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="7">The US Department of Defense is facing challenges to develop the capabilities necessary to effectively operate in new operational environments. As a result, these services are seeking to partner with industry members and leverage both government and industry knowledge to develop System of Systems (SoS) that can provide the desired capabilities by integrating legacy systems with new technologies. These large-scale engineering projects require system integrators that can manage not only the technical interfaces but also the organizational ones. This paper proposes a boundary object framework that can assist in understanding the role of these systems integrators by observing changes in organizational interfaces. This framework does so by monitoring the objects and artifacts used at the interfaces.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="8" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="11" page="1" column="1">The military is facing new challenges as a result of a tightening spending budget and the need to acquire novel capabilities to operate in new war environments. Meeting these challenges requires integrating legacy systems with developing technologies in a System of Systems (SoS). SoS is defi ned as having components that are both operationally and managerially independent ( <xref ref-type="bibr" rid="R8" id="9" class="deo:Reference">Maier 1998</xref>). SoS is used to describe both technical and organizational systems. When dealing with the integration of large systems, it is diffi cult to separate the organizational systems from the technical systems. The interfaces of organizational systems, i.e., the transfer of documentation or requirements from one group to another, are just as important as the interfaces of technical systems, i.e., the exchange of bits, energies, and stresses. The responsibilities of integrating these complex systems now rest on the shoulders of contractors. This leads to the emergence of Lead Systems Integrators (LSIs) as a way to partner with industry members and leverage the technical and managerial knowledge of industry. Finding a way to understand what systems integrators do is benefi cial both operationally as well as for contracting purposes. However, the role and value of the LSI is not well- defi ned and can be diffi cult to measure in part because the roles, responsibilities, and boundaries of different<marker type="column" number="2"/><marker type="block"/> stakeholders (customers, integrators, contractors, etc.) involved in a SoS are often blurry. As a result, it is crucial to look at the interfaces within the different constituents of a SoS in order to better defi ne boundaries and assess inter- organizational interactions. Interfaces amongst organizations occur when there is some kind of formal or informal interaction. These interfaces typically involve the use of some object or artifact that is exchanged between the different stakeholders. These content-carrying objects have been referred to in past literature as boundary objects. This paper applies the boundary object concept to a SoS context and is helpful in understanding inter-organizational interfaces. By understanding the exchange of boundary objects between organizations, one can better appreciate the role and value of a LSI. Although this paper is using the boundary object framework to study SoS inter-organizational interface diffi culties, the problems exist in most any complex system development and integration, making this framework widely applicable.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="12" page="1" column="2">Boundary Objects Literature</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="37" page="1" column="2">Boundary objects were introduced by <xref ref-type="bibr" rid="R11" id="13" class="deo:Reference">Star and Griesemer and they defi ned them as objects that are fl exible enough to adapt to local needs and the constraints of the stakeholders employing them, yet specifi c enough to maintain a common identity across different interpretations (1989)</xref>. These objects have different meanings in different communities of practice, but their structures are common enough to more than one community, making them recognizable by a means of translation and interpretation (<xref ref-type="bibr" rid="R11" id="14" class="deo:Reference">Star and Griesemer 1989</xref>). Objects are generally defi ned as the artifacts that a person or community works with (<xref ref-type="bibr" rid="R3" id="15" class="deo:Reference">Carlile 2002</xref>). These objects can be physical objects, such as documents containing diagrams of the system architecture, or electronic objects, such as e-mail. In addition, they carry information, which can be explicit or implicit. For example, explicit information can be directly represented, such as on a blueprint or instruction manual, or information can be implied, such as the imbedded information in a product or picture. Boundary objects have been applied to many areas of research. <xref ref-type="table" rid="T1" id="16" class="deo:Reference">Table 1</xref> highlights<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> literature that applied boundary objects to study the interactions between different communities of practices in various fi elds. Objects become boundary objects when they are effectively used at the interface of different communities of practice (CoP) to transmit and share information and the context in which the information exists. A CoP is a group across which sense making, understanding and knowledge is shared. More specifi cally, a community of practice has a shared understanding of what the community does, of how to do it, and of how it relates to other communities and their practices. A CoP will develop the same world view or mental model (<xref ref-type="bibr" rid="R2" id="27" class="deo:Reference">Brown and Duguid 1998</xref>). These CoP have been also referred to as social circles, stakeholders, organizations, etc. Boundary objects essentially exist and are used at the interfaces between these CoP. <xref ref-type="fig" rid="F1" id="28" class="deo:Reference">Figure 1</xref> and <xref ref-type="fig" rid="F2" id="29" class="deo:Reference">Figure 2</xref> represent the purpose of boundary objects. In this example, the separate communities are the customer, system integrator and a contractor. If designed and used properly, boundary objects can connect together what were once separate communities. The boundary object bridges allow the communities avenues to communicate, coordinate and collaborate. This paper considers organizations as CoP and focuses on the use of boundary objects at these community interfaces.<marker type="block"/> Furthermore, boundary objects carry information and context that can be used to translate, transfer, and<marker type="column" number="2"/><marker type="block"/> transform knowledge between communities of practice (<xref ref-type="bibr" rid="R4" id="33" class="deo:Reference">Carlile 2004</xref>). The design and use of boundary objects are especially important when working between communities that are geographically distributed. Moreover, these objects can be dynamic. They can be changed and manipulated to carry more information or context. For example, a user can layer a boundary object, such as a requirements document, by highlighting certain phrases, writing comments in the margins or crossing out certain parts (<xref ref-type="bibr" rid="R12" id="34" class="deo:Reference">Swarts 2004</xref>). Each style of marking adds an additional layer to the object. The evolutionary characteristic of a boundary object and its ability to carry information and context allow different communities to interface (communicate, coordinate, or collaborate) with each other.<marker type="block"/> The following sections further explain the boundary object concepts using three models: a mental, bridge, and characterization model.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="18" page="1" column="2">11</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="19" page="2" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+      <region class="DoCO:TableBox" id="T1">
+        <caption class="deo:Caption" id="20" page="2" column="1">Table 1. Boundary Object Literature</caption>
+        <content>
+          <table class="DoCO:Table" number="1" page="2">
+            <thead class="table"/>
+            <tbody>
+              <tr class="table">
+                <td class="table"> Field</td>
+                <td class="table"> Organization</td>
+                <td class="table"> Boundary object</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Social science (Star and Griesemer 1989)</td>
+                <td class="table"> Museum of Zoology</td>
+                <td class="table"> Diagrams California map collecting forms</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Design engineering (Henderson 1991)</td>
+                <td class="table"> Engineering fi rm</td>
+                <td class="table"> Sketches drawings CAD</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Product development (Carlile 2002)</td>
+                <td class="table"> Automobile design and</td>
+                <td class="table"> Drawings automobile parts</td>
+              </tr>
+              <tr class="table">
+                <td class="table"></td>
+                <td class="table"> manufacturing fi rm</td>
+                <td class="table"> schedule</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Software development (Gunaratne et al. 2004)</td>
+                <td class="table"> R&amp;D facility</td>
+                <td class="table"> Storyboard prototype</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Service (Ackerman and Halverson 1999)</td>
+                <td class="table"> Telephone hotline group</td>
+                <td class="table"> Written notes</td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="26" confidence="possible" page="2" column="1">Field Organization Boundary object Social science (<xref ref-type="bibr" rid="R11" id="21" class="deo:Reference">Star and Griesemer 1989</xref>) Museum of Zoology Diagrams California map collecting forms Design engineering (<xref ref-type="bibr" rid="R7" id="22" class="deo:Reference">Henderson 1991</xref>) Engineering fi rm Sketches drawings CAD Product development (<xref ref-type="bibr" rid="R3" id="23" class="deo:Reference">Carlile 2002</xref>) Automobile design and Drawings automobile parts manufacturing fi rm schedule Software development (<xref ref-type="bibr" rid="R5" id="24" class="deo:Reference">Gunaratne et al. 2004</xref>) R&amp;D facility Storyboard prototype Service (<xref ref-type="bibr" rid="R1" id="25" class="deo:Reference">Ackerman and Halverson 1999</xref>) Telephone hotline group Written notes</region>
+      </region>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="31" page="2" column="1">Figure 1. Separate Island Communities</caption>
+        <image class="DoCO:Figure" src="62mh.page_002.image_02.png" thmb="62mh.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="F2">
+        <caption class="deo:Caption" id="36" page="2" column="2">Figure 2. Boundary Objects As Bridges</caption>
+        <image class="DoCO:Figure" src="62mh.page_002.image_01.png" thmb="62mh.page_002.image_01-thumb.png"/>
+      </region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="38" page="2" column="2">Boundary Object Mental Model</h1>
+        <region class="DoCO:TextChunk" id="47" page="2" column="2">The effectiveness of a boundary object is directly related to how it is translated from tacit knowledge to explicit knowledge (decontextualized) and translated back from explicit knowledge to tacit knowledge (recontextualized) between different communities. For example, a technical drawing can mean different things to a designer and a <marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> manufacturer. The designer might look at the technical drawing and envision how the component fi ts and functions with other components as an end product. The manufacturer might look at the technical drawing and think about the machining steps necessary to manufacture the component. The Boundary Object Mental Model helps communities understand how the boundary object is interpreted by other communities. It increases understanding of the context in which these objects will be used and is very important for the system integrator. <xref ref-type="fig" rid="F3" id="42" class="deo:Reference">Figure 3</xref> is a depiction of different mental models during a simplifi ed design/manufacturing process.<marker type="block"/> The process starts in fi gure (A) between the customer and the designer. The customer desires a specifi c component and has a mental model of what that component is going to be used for. The customer needs to translate his mental model to the designer. He needs to decontextualize his idea into a transferable form for the designer. To accomplish this, a boundary object, in this case a sketch and description of the component, is created by one party and interpreted by the other. When the designer looks at the drawing, he will translate it to a specifi c mental model focusing more on the technical properties of the component rather than its eventual use by the customer. The designer now needs to translate his model to the manufacturer, as shown in (B). To do this, the manufacturer and designer have to work together to create a boundary object, a technical drawing, that both parties can understand. The object contains the decontextualized knowledge from the designer that can be recontextualized by the manufacturer. Nevertheless, when a manufacturer looks at the drawing, he will focus on the assembly aspect of the component.<marker type="column" number="2"/><marker type="block"/> Once the component is manufactured, it becomes a boundary object, as shown in <xref ref-type="fig" rid="F3(C)" id="46" class="deo:Reference">Figure 3(C)</xref>. The arrow could potentially be unidirectional, in which case, the customer does not provide feedback to the manufacturer if changes are needed. If the customer is not satisfi ed, he will need to talk to the designer again. Although this is a simple model, it highlights a problem area that exists between the manufacturer and customer. The information decontextualized into the fi nal product will not be successfully recontextualized by the customer if the part is not exactly what the customer desires.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="40" page="2" column="2">12</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="41" page="3" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+        <region class="DoCO:FigureBox" id="F3">
+          <caption class="deo:Caption" id="44" page="3" column="1">Figure 3. . Boundary Object Mental Model</caption>
+          <image class="DoCO:Figure" src="62mh.page_003.image_03.png" thmb="62mh.page_003.image_03-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="48" page="3" column="2">Boundary Object Bridge Model</h1>
+        <region class="DoCO:TextChunk" id="63" page="3" column="2">An additional role of a boundary object is to bridge the understanding and communication gaps between different communities. A boundary object, a bridge, must be developed with input from all of the sides. Logically, the more communities that the boundary object needs to connect, the more complicated the boundary object becomes. It is important for there to be effective communication between all of the parties involved with the development of a boundary object. The types of bridges used will be specifi c to the gaps they need to connect. The solution must match the need. Sometimes the best solutions are the simple and cheapest ones. Other times, expensive bridges must be built. The bridge model concept is illustrated in <xref ref-type="fig" rid="F4" id="49" class="deo:Reference">Figure 4</xref>.<marker type="block"/> In <xref ref-type="fig" rid="F4(A)" id="52" class="deo:Reference">Figure 4(A)</xref>, community A and community B are on two different islands. In <xref ref-type="fig" rid="F4(B)" id="53" class="deo:Reference">Figure 4(B)</xref>, they both want to construct a bridge to close the gap between them but without communication they develop different solutions to the same problem. This lack of communication leads to both sides constructing different bridges as shown in<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> In <xref ref-type="fig" rid="F5(D)" id="59" class="deo:Reference">Figure 5(D)</xref>, the bridge drawings sent back and forth between the stakeholders are the boundary objects that connect both parties.<marker type="block"/> A successful bridge must include the input of and be developed by both stakeholders as shown in <xref ref-type="fig" rid="F6" id="62" class="deo:Reference">Figure 6</xref>.</region>
+        <region class="DoCO:FigureBox" id="F4">
+          <caption class="deo:Caption" id="51" page="3" column="2">Figure 4. Boundary Object Bridge Model</caption>
+          <image class="DoCO:Figure" src="62mh.page_003.image_04.png" thmb="62mh.page_003.image_04-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="55" page="3" column="2">13</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="56" page="4" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+        <region class="DoCO:FigureBox" id="F4(C)">
+          <caption class="deo:Caption" id="57" confidence="possible" page="4" column="1">Figure 4(C). Problems will occur when they try to connect the two bridges. This will lead to rework and wasted resources. However, if both groups start with a common vision they will be able to construct a successful bridge between them.</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F5">
+          <caption class="deo:Caption" id="58" page="4" column="1">Figure 5. Sharing Boundary Objects</caption>
+          <image class="DoCO:Figure" src="62mh.page_004.image_05.png" thmb="62mh.page_004.image_05-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F6">
+          <caption class="deo:Caption" id="61" page="4" column="1">Figure 6. Connected Islands</caption>
+          <image class="DoCO:Figure" src="62mh.page_004.image_06.png" thmb="62mh.page_004.image_06-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="64" page="4" column="1">Boundary Object Characterizations</h1>
+        <region class="DoCO:TextChunk" id="76" page="4" column="1">This section will discuss six different attributes for boundary objects: type, functionality, utility, information granularity, context and familiarity. This boundary object model is being developed and validated through case studies. These axes may evolve as this research and similar efforts continue. <marker type="block"/> Type Boundary objects can be distinguished into two types of objects: virtual and physical. Virtual boundary objects are those that exist in bytes and bits. They are stored in computers, databases, etc and are transferred electronically. Examples of virtual boundary objects are e-mails, websites, and electronic databases. Physical boundary objects are objects that are tangible and can be physically manipulated.<marker type="block"/> Functionality Star and Griesemer categorized boundary objects into four functional categories: repositories, ideal type, coincident boundaries, and standardized forms. Repositories are<marker type="column" number="2"/><marker type="block"/> ordered collections of objects such as a library or database. Ideal types are abstractions from different domains and may be open to a fairly broad spectrum of interpretation. Ideal types include diagrams, drawings, and clay models. Coincident boundaries are common objects which have the same boundaries but different internal contents (<xref ref-type="bibr" rid="R11" id="68" class="deo:Reference">Star and Griesemer 1989</xref>). An offi ce building is an example of a coincident boundary because representatives from different organizations can all work within the same physical boundary. Lastly, standardized forms are objects that provide different communities with a common way to communicate. Standardized forms include forms for clearance procedures and proposal submissions.<marker type="block"/> Utility The utility of the boundary object is the degree of cognitive usefulness the user fi nds in the object. This attribute measures the degree in which the object will infl uence the user’s task.<marker type="block"/> Granularity Granularity describes the level of detail of the information in the boundary object. In many cases, objects carry vague or misleading information. Objects that use ambiguous terms, such as “very much” or “too little,” can lead to confusion between communities of practices. Furthermore, an object can include different amounts and types of information. For example, the fi nancial record of a company can be presented in a large excel chart with all of the spending and earning numbers or it can be presented in a word document that summarizes all the numbers.<marker type="block"/> Context The context of the boundary object describes how well it addresses the different social contexts and mental models of the user groups. These differences can lead to understanding gaps, which were addressed as attributes of the coordination and collaboration interface. Some communities may be able to understand each other better than others. Their mental models are more aligned and, in these cases, it may be easier to bridge the understanding gaps.<marker type="block"/> Familiarity The manner in which boundary objects are used also depends on the familiarity of the stakeholders involved in the interaction. Previous partnerships and contractual agreements are examples of how stakeholders can increase their familiarity with each other. These relationships can affect the trust between the stakeholders. Using the boundary object implies a level of trust between the parties involved. Trusting what is represented in the object and trusting the organization that sent it is essential for collaborative interfaces. If the object clearly represents<marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> all the information needed between two stakeholders, but one stakeholder doesn’t trust the other stakeholder, then the former user will probably be hesitant to use the information. An additional characteristic of boundary objects is their need for synrochnization (an attribute not mentioned in this paper). A change in the information in one object must propagate to other tightly coupled objects. The appropriate confi guration management processes must be in place in order for this to be effective.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="74" page="4" column="2">14</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="75" page="5" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="77" page="5" column="1">Boundary Object Characterization Model</h1>
+        <region class="DoCO:TextChunk" id="89" page="5" column="1">The Boundary Object Characterization Model ( <xref ref-type="fig" rid="F7" id="78" class="deo:Reference">Figure 7</xref>) applies previous boundary object literature to characterize boundary objects based on their type, functionality, utility, granularity, context, and familiarity between the user groups, as shown in the following fi gure. This paper proposes the model as a novel method to characterize the boundary objects used at an organizational interface. By considering the objects used at current interfaces, one can create new interfaces or modify existing ones to create more capabilities in the system.<marker type="block"/> The axes for the boundary object attributes are described next.<marker type="column" number="2"/><marker type="block"/> Granularity This is the level at which information is represented from very high conceptual level (the 5000ft level) to the nuts and bolts specifi cs.<marker type="block"/> Familiarity Familiarit This can range anywhere from no previous relationship to past partnerships on more then 20 different programs or projects.<marker type="block"/> The Boundary Object Characterization Model gives a numerical representation to several variables necessary to understand organizational interactions. Variables such as understanding and trust become embodied in the objects used. Users of this framework can understand organizational interfaces more quantitatively. Although the Boundary Object Characterization Model is based largely from past literature involving interactions within an organization, this research aims to take the understanding of boundary objects within an organization and apply it to inter-organizational interfaces through case studies. Furthermore, this framework will be a useful tool for systems integrators in understanding and diagnosing organizational interfaces failures.</region>
+        <region class="DoCO:FigureBox" id="F7">
+          <caption class="deo:Caption" id="80" page="5" column="1">Figure 7. Boundary Object Attributes</caption>
+          <image class="DoCO:Figure" src="62mh.page_005.image_11.png" thmb="62mh.page_005.image_11-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx82">
+          <image class="DoCO:Figure" src="62mh.page_005.image_12.png" thmb="62mh.page_005.image_12-thumb.png"/>
+          <image class="DoCO:Figure" src="62mh.page_005.image_13.png" thmb="62mh.page_005.image_13-thumb.png"/>
+          <image class="DoCO:Figure" src="62mh.page_005.image_07.png" thmb="62mh.page_005.image_07-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx84">
+          <image class="DoCO:Figure" src="62mh.page_005.image_08.png" thmb="62mh.page_005.image_08-thumb.png"/>
+        </region>
+        <region class="unknown" id="85" page="5" column="2">Context</region>
+        <region class="DoCO:FigureBox" id="Fx86">
+          <image class="DoCO:Figure" src="62mh.page_005.image_09.png" thmb="62mh.page_005.image_09-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx88">
+          <image class="DoCO:Figure" src="62mh.page_005.image_10.png" thmb="62mh.page_005.image_10-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="90" page="5" column="2">Model Application</h1>
+        <region class="DoCO:TextChunk" id="106" page="5" column="2">In a project as large and complex as the Army’s Future Combat System, there are many interfaces between different communities of practices. At each of these interfaces exists some kind of interaction; usually involving a signifi cant amount of information and knowledge exchanges. The role of boundary objects in these interactions is to <marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> provide a characterization of the artifacts that exist in the collaborative environment. The Boundary Object Characterization Model enables the analysis of organizational interfaces by characterizing the objects used at these interfaces. The following example is of how this model can be applied to organizational interfaces between an LSI and a contractor that have never worked together before. First, the LSI posts general information about an upcoming program on their website. This is a virtual boundary object and is used a few times because the information on the website is still general and high level. However, the website provides a lot of context and program background, as shown in <xref ref-type="fig" rid="F8" id="94" class="deo:Reference">Figure 8</xref>.<marker type="block"/> As the LSI receives more requirements and directions from the customer, they will solicit proposals for companies who are interested. This request for proposals is also done electronically in a standard format. The request will carry a lot of context and more information than just the website, as shown in <xref ref-type="fig" rid="F9" id="97" class="deo:Reference">Figure 9</xref>.<marker type="block"/> After the contractor is selected, they will have to provide bi-weekly presentation updates. These presentations are high level and use PowerPoint. The PowerPoint slides are used only once and do not carry a lot of context because the context is communicated verbally, as shown by <xref ref-type="fig" rid="F10" id="100" class="deo:Reference">Figure 10</xref>.<marker type="column" number="2"/><marker type="block"/> Lastly, a physical prototype model is used between the contractor and LSI. There is a lot of information imbedded in the model but does not carry much context, as shown in <xref ref-type="fig" rid="F11" id="103" class="deo:Reference">Figure 11</xref>.<marker type="block"/> Although there are a lot of interfaces besides the ones previously mentioned, this example shows that this model can be used to capture the type of interface between organizations. This example also shows that boundary objects change as relationships and interfaces between organizations evolve. Different types of boundary objects are represented by the different shaded shapes. Additional research will be done to see what the correlations are between the shape of the graphs to the type of interfaces and cost of the object. The evolution of boundary objects can assist in understanding organizational system dynamics. A further expansion of this concept will be included in following papers.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="92" page="5" column="2">15</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="93" page="6" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+        <region class="DoCO:FigureBox" id="F8">
+          <caption class="deo:Caption" id="96" page="6" column="1">Figure 8. Website Boundary Object</caption>
+          <image class="DoCO:Figure" src="62mh.page_006.image_15.png" thmb="62mh.page_006.image_15-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F9">
+          <caption class="deo:Caption" id="99" page="6" column="1">Figure 9. Description of Proposal Object</caption>
+          <image class="DoCO:Figure" src="62mh.page_006.image_17.png" thmb="62mh.page_006.image_17-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F10">
+          <caption class="deo:Caption" id="102" page="6" column="2">Figure 10. Presentation Object</caption>
+          <image class="DoCO:Figure" src="62mh.page_006.image_14.png" thmb="62mh.page_006.image_14-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F11">
+          <caption class="deo:Caption" id="105" page="6" column="2">Figure 11. Description of Prototype Object</caption>
+          <image class="DoCO:Figure" src="62mh.page_006.image_16.png" thmb="62mh.page_006.image_16-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="107" page="6" column="2">Implications for System Integrators</h1>
+        <region class="DoCO:TextChunk" id="122" page="6" column="2">The most value or leverage in constructing a SoS is at the interfaces ( <xref ref-type="bibr" rid="R8" id="108" class="deo:Reference">Maier 1998</xref>) and it is at these interfaces that the signifi cance of boundary objects is realized. The value of a boundary object depends on how successful it can be used to decontextualize knowledge on one side of<marker type="page" number="7"/><marker type="column" number="1"/><marker type="block"/> a boundary and recontextualize it on the other side. As a result, the role of a systems integrator is, as the name implies, to integrate various systems together by managing the interfaces. Naturally, the systems integrator will care about how the boundary objects at these interfaces are used to integrate the information and knowledge amongst the different communities of practice. In a SoS with no integrator, the different organizations can be thought of as disconnected islands. <xref ref-type="fig" rid="F12" id="112" class="deo:Reference">Figure 12</xref> is similar to the bridge model previously described. Before the bridge boundary objects are constructed, the different communities will have to work together or else they might end up with different bridge designs incapable of interfacing.<marker type="block"/> The systems integrator needs to work within all the communities and become the vital link that connects them, as shown in <xref ref-type="fig" rid="F13" id="115" class="deo:Reference">Figure 13</xref>. For example, the LSI for the Future Combat System uses a software collaborative environment to organize all of their project related fi les.<marker type="block"/> By forming successful collaborative interfaces, the different communities will be able to design and build useful bridges. The bridges are another example of boundary objects that can allow more people, resources and information to fl ow between the communities, resulting in more collaboration.<marker type="column" number="2"/><marker type="block"/> A systems integrator needs to cultivate, develop, and maintain an environment in which the components of the system can develop, grow, and evolve. This includes providing a focal point for implementing proven best practices across the system and leveraging the work that is being done by other components in the system in a highly coordinated manner (<xref ref-type="bibr" rid="R10" id="120" class="deo:Reference">Spurlock 2005</xref>; <xref ref-type="bibr" rid="R6" id="121" class="deo:Reference">Gupta 2003</xref>). The system integrator must also develop boundary objects and maintain the environment in which these objects operate. In the previous bridge example, the systems integrator has to make sure that the different communities can easily exchange information with each other when it is required. Furthermore, the integrator must create system awareness amongst the organizations by ensuring that boundary objects are used effectively for communication, coordination and collaboration purposes. Going back to the bridge example, before the initial construction of the bridge begins, the system integrator must make sure all the communities can understand the information they receive from each other. If each community spoke a different language, the system integrator must provide some method for translating the languages. The systems integrator must be able to address failures in communication, coordination and collaboration between different organizations. Certain types of boundary objects will be more effective in some environments as compared to others. Boundary objects can be used to measure the fl uidity and fl exibility of different constituent systems. This paper provides a quantitative model for understanding correlations between inter-organizational interfaces and the boundary objects used at these interfaces. Social integration is as important as technical integration and this boundary object research highlights the human aspect of interfacing within System of Systems. Furthermore, this framework is not only limited to SoS. Most large complex systems face the same inter- organizational interface problems described in this paper and can be studied to assess the validity of the framework. Additional developments of the boundary object framework can also provide a tool to monitor and measure the integration of different complex systems.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="110" page="6" column="2">16</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="111" page="7" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+        <region class="DoCO:FigureBox" id="F12">
+          <caption class="deo:Caption" id="114" page="7" column="1">Figure 12. Communities with Incompatible Interfaces</caption>
+          <image class="DoCO:Figure" src="62mh.page_007.image_18.png" thmb="62mh.page_007.image_18-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F13">
+          <caption class="deo:Caption" id="117" page="7" column="1">Figure 13. System Integrator Involvement</caption>
+          <image class="DoCO:Figure" src="62mh.page_007.image_19.png" thmb="62mh.page_007.image_19-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="F14">
+          <caption class="deo:Caption" id="119" page="7" column="1">Figure 14. Increase Collaboration and Value</caption>
+          <image class="DoCO:Figure" src="62mh.page_007.image_20.png" thmb="62mh.page_007.image_20-thumb.png"/>
+        </region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="123" page="7" column="2">Conclusion</h1>
+        <region class="DoCO:TextChunk" id="127" page="7" column="2">The interfaces within a System of Systems (SoS) are where the benefi ts of a SoS come from, making the role of system integrators extremely important. Although this role is essential to the SoS, it is not well defi ned. This paper proposes boundary object models to analyze the role of the system integrator by focusing on how stakeholders in a SoS interact. A second-order benefi t of this approach is the ability to predict possible failures in a <marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> program as indicated by the poor use of boundary objects between stakeholders. There is much work that can be done in this area of research. For instance, the impact of open standards can be evaluated in the context of boundary object attributes. In parallel to the improvements of this framework, we hope that this paper will open the door to a new way of thinking when valuing the role of system integrators.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="125" page="7" column="2">17</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="126" page="8" column="1">Systems Research Forum, 2007, Vol. 2</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="128" page="8" column="1">Acknowledgments</h1>
+        <region class="DoCO:TextChunk" id="129" page="8" column="1">This research would not have been possible without the support of the Lean Advancement Initiative consortium members and fi nancial support from the Aerospace Corporation. The authors of this paper would also like acknowledge and thank Diana Fong, for designing the graphics used in this paper. Furthermore, acknowledgements and thanks are extended to the individuals who participated in this study.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="130" page="8" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="131" page="8" column="1">Ackerman, Mark S., and Christine Halverson. 1999. Organizational memory: Processes, boundary objects, and trajectories.” Proceedings of the 32 nd Hawaii International Conference on System Sciences. Hawaii.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="132" page="8" column="1">Brown, John S. and Paul Duguid. 1998. Organizing knowledge. California Management Review 40: 28-44.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="133" page="8" column="1">Carlile, Paul R. 2002. A pragmatic view of knowledge and boundaries: Boundary objects in new product development.” Organization Science 13: 442-455.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="134" page="8" column="1">Carlile, Paul R. 2004. Transferring, translating, and transforming: An integrative framework for managing knowledge across boundaries. Organization Science 15: 555-568.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="135" page="8" column="1">Gunaratne, Junius, Beatrice Hwong, Christopher Nelson, and Arnold Rudorfer. 2004. Using evolutionary prototypes to formalize product requirements. Siemens Corporate Research, NJ.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="136" page="8" column="1">Gupta, Amar. 2003. Role and importance of lead system integrator in context of new air operations centers. White paper MIT Sloan School of Management.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="137" page="8" column="2">Henderson, Kathryn. 1991. Flexible sketches and infl exible data bases: Visual communication, conscription devices, and boundary objects in design engineering. Science, Technology, and Human Value 16 : 448-473.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="138" page="8" column="2">Maier, Mark W. 1998. Architecting principles for systems- of-systems. The Aerospace Corporation CH 1-460.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="139" page="8" column="2">Sapsed, Jonathan, and Ammon Salter. 2004. Postcards from the edge: Local communities, global programs and boundary objects. Organization Studies 25: 1515- 1534.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="140" page="8" column="2">Spurlock, Darren M. 2005. Space exploration systems integration. 1 st Space Exploration Conference: Continuing the Voyage of Discovery Proceedings.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="141" page="8" column="2">Star, Susan L., and James R. Griesemer. 1989. Institutional ecology, “translations” and boundary objects: Amateurs and professionals in Berkeley’s Museum of Vertebrate Zoology, 1907-39. Social Studies of Science 19: 387-420.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="142" page="8" column="2">Swarts, Jason. 2004. Textual grounding: How people turn texts into tools. Journal Technical Writing and Communication 34: 67-89.</ref>
+        </ref-list>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="143" page="8" column="2">Biographies</h1>
+        <region class="DoCO:TextChunk" id="146" page="8" column="2">Allan Fong is a graduate student at Massachusetts Institute of Technology in the Department of Aeronautics and Astronautics engineering. His research and his studies are funded by Lean Advancement Initiative. Allan graduated from Columbia University in 2005 with a B.S. in mechanical engineering. <marker type="block"/> Ricardo Valerdi is a Research Associate with the Lean Advancement Initiative at MIT. He is currently the research lead for the Enterprise Metrics cluster. Ricardo received his Ph.D. in systems engineering from USC in 2005, where he created for the COSYSMO model for systems engineering cost estimation.<marker type="block"/> Jayakanth “JK” Srinivasan is a Research Engineer with the Lean Advancement Initiative at MIT. He is currently the research lead for the Enterprise Integration enabled by IT cluster, focusing on IT Architectures and Lean Software Development. JK has an undergraduate degree in Computer Engineering and graduate degrees in Avionics and Aeronautics and Astronautics, respectively.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="147" page="8" column="2">18</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

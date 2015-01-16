@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>9f6bf426990801658e015d1ce3148e532ab80bc155dfbe0318cfe60dc9142d27</job>
+    <base_name>62bd</base_name>
+    <doi>http://dx.doi.org/10.1111/j.1467-8691.2007.00414.x</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">sept 2005, Lodz, Poland</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Participatory design needs participatory communication: New tools for sharing user insights in the product innovation process</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Froukje Sleeswijk Visser Remko van der Lugt</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Pieter Jan Stappers</name>
+        </contrib>
+      </contrib-group>
+      <region class="DoCO:TextChunk" id="7" confidence="possible">ID-Studiolab, Delft University of Technology (<email id="6">f.sleeswijkvisser@io.tudelft.nl</email>)</region>
+      <abstract class="DoCO:Abstract" id="8">This paper describes an innovative approach about sharing insights from user studies with designers. The experiences of real people concerning real product use situations are of great value for designers especially during the earlier phases of the design process. Such information needs be practically useful during idea generation. We believe that this can be realised if the tool supports communication through three qualities: by enhancing empathy, by providing inspiration, and by supporting engagement. We have developed a tool to make the receivers of the information, the designers, participative in the act of communicating. In this way they become co- creators and co-owners of the information, which may result in higher degrees of acceptance and use. The project comprised the design and testing of a tool, a set of cards based on the transcripts from individual users, augmented by cues that invite interpretation. The use of the tool was evaluated in two studies. In one study the use of the card set by designers was explored. In the other study the use of the card set was compared with the use of other tools. The results of the studies suggest that the participatory character of the tool leads designers to a deeper understanding and more intensive use of insights from user studies.</abstract>
+      <region class="unknown" id="9">Keywords: participatory design, design communication, user experience, inspiration, empathy, engagement</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="10" page="1" column="1">1. Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="24" page="1" column="1">In product development more and more companies see the need to learn from users in order to develop innovative user-centred products (e.g., <xref ref-type="bibr" rid="R11" id="11" class="deo:Reference">Kristensson et al, 2002</xref>;). Designers must be able to empathize with the prospective users of the product, and understand the functional, personal, and social contexts in which they function (<xref ref-type="bibr" rid="R6" id="12" class="deo:Reference">Forlizzi &amp; Ford, 2000</xref>). This involves obtaining, analysing, sharing, and applying rich information about the user throughout the design process. Especially during the creative phases of the design process, e.g. idea generation, information about user experiences is of great value for designers.<marker type="page" number="2"/><marker type="block"/> For eliciting user experiences many techniques are available, but we have focused on user studies with generative techniques (<xref ref-type="bibr" rid="R12" id="17" class="deo:Reference">Sanders, 2000</xref>). With these techniques users are asked to make drawings, collages, maps to express their experiences concerning a product use, and discuss these expressive artefacts with each other. The users are respected as experts on their experience domains and their contributions makes them participatory actors in the design process. One such technique, which involves making a collage with a provided set of words and images (see <xref ref-type="bibr" rid="R12" id="18" class="deo:Reference">Sanders, 2000</xref>; <xref ref-type="bibr" rid="R15" id="19" class="deo:Reference">Stappers &amp; Sanders, 2003</xref>; <xref ref-type="bibr" rid="R14" id="20" class="deo:Reference">Sleeswijk Visser et al, 2005</xref>, for details), is illustrated in <xref ref-type="fig" rid="F1" id="21" class="deo:Reference">Figure 1</xref>. Typically, these techniques provide the research and design team with a wealth of data: expressive artefacts and a group discussion of users, which is transcribed. In this project, we used the data from a case study on ‘men shaving’; the experiences men have of shaving their facial hair (<xref ref-type="bibr" rid="R13" id="22" class="deo:Reference">Sleeswijk Visser, 2003</xref>). In this case, men were asked to express their shaving experiences. <xref ref-type="table" rid="TI" id="23" class="deo:Reference">Table I</xref> lists a few fragments from the transcripts, in order to show how the data is multi-faceted and multi-layered, and addresses issues both functional and affective, both general and personal, both objective and subjective.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="14" page="1" column="1">1</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="15" page="2" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="16" page="2" column="1">sept 2005, Lodz, Poland</outsider>
+      <region class="DoCO:FigureBox" id="F1">
+        <image class="DoCO:Figure" src="62bd.page_002.image_01.png" thmb="62bd.page_002.image_01-thumb.png"/>
+        <caption class="deo:Caption" id="26" page="2" column="1">Figure 1. Generative tools group session with four participants and one facilitator. Left: participants creating collages; right: one participant presenting his collage to the group.</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="27" confidence="possible" page="2" column="1">excerpt from the transcript Sample Observations interpretations regarding qualities of the data ‘Sometimes I shave two times a day, in Shaves at least One fragment the evening, before going out again. But once a day. simultaneously then there is a claim on the bathroom Place is the addresses from my wife. We can both be in the bathroom, shared frequency, duration, bathroom, it is big enough, one of us with his wife. time and place of can be in the shower and the other at He shaves first, the interaction, the sink. There is a big mirror, but yeah, then his wife takes functional and social I’m sorry, but women really need more the place in front aspects, and gives a time in front of the mirror, so then I am of mirror. feel for the often asked: “Can’t you just go out the emotions involved. bathroom and stand around the corner, because there is a mirror there, too”. So often I shave first, then take a shower while my wife continues in front of the</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="28" page="2" column="1">2</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="29" page="3" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="30" page="3" column="1">sept 2005, Lodz, Poland</outsider>
+      <region class="DoCO:TableBox" id="Tx31">
+        <content>
+          <h1 class="table"> mirror.’</h1>
+          <table class="DoCO:Table" number="I" page="3">
+            <thead class="table"/>
+            <tbody>
+              <tr class="table">
+                <td class="table"> ‘I do not shave on Saturday. That day I</td>
+                <td class="table"> shaving is a</td>
+                <td class="table"> Objective- and</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> do not go to work.’</td>
+                <td class="table"> routine task;</td>
+                <td class="table"> subjective addressed issues within</td>
+              </tr>
+              <tr class="table">
+                <td class="table"></td>
+                <td class="table"> shaving is not</td>
+                <td class="table"> one excerpt.</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> enjoyed; and,</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> shaving is based</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> on social</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> motivation (for</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> work).</td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> ‘Well, actually it is going back to the</td>
+                <td class="table"> His first shaving</td>
+                <td class="table"> Excerpts contain very often</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> moment, as far as I can remember, to</td>
+                <td class="table"> experience is well</td>
+                <td class="table"> personal memories</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> the first day that I shaved. I still</td>
+                <td class="table"> remembered.</td>
+                <td class="table"> and issues</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> remember that. It is one of those</td>
+                <td class="table"> Shaving might be</td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> moments in life. I was standing next to</td>
+                <td class="table"> connected with</td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> my dad in the kitchen and my father</td>
+                <td class="table"> becoming a man.</td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> showed me how he shaved and I was</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> imitating him with his shaver. And a few</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> days later I was given my very own</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> shaver. I remember that well. It meant</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> something special.’</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> ‘Before I start shaving it is always kind</td>
+                <td class="table"> He doesn’t really</td>
+                <td class="table"> Some contain excerpts lively</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> of itchy, just because the hairs are</td>
+                <td class="table"> like shaving, he</td>
+                <td class="table"> descriptions which</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> growing. I always have the feeling that</td>
+                <td class="table"> doesn’t take the</td>
+                <td class="table"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> it is really time for a refreshing</td>
+                <td class="table"> time for it.</td>
+                <td class="table"> lose they their are pigeon- essence if</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> treatment. But I always put it off, and in</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> the end it is completely necessary. I</td>
+                <td class="table"></td>
+                <td class="table"> holed existing into theoretical a pre-</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> just, well normally, every time, I take a</td>
+                <td class="table"></td>
+                <td class="table"> framework</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> shower and I want to do it before going</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> into the shower and I forget. It is a little</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> bit, uh, it always ‘happens’ that the</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> shaving does not happen. It is too much</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> effort, I should be more, ... there should</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> be something to trigger me more. I</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> need to be reminded in a way.’</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="32" confidence="possible" page="3" column="1">mirror.’ ‘I do not shave on Saturday. That day I shaving is a Objective- and do not go to work.’ routine task; subjective issues shaving is not addressed within enjoyed; and, one excerpt. shaving is based on social motivation (for work). ‘Well, actually it is going back to the His first shaving Excerpts often moment, as far as I can remember, to experience is well contain very the first day that I shaved. I still remembered. personal memories remember that. It is one of those Shaving might be and issues moments in life. I was standing next to connected with my dad in the kitchen and my father becoming a man. showed me how he shaved and I was imitating him with his shaver. And a few days later I was given my very own shaver. I remember that well. It meant something special.’ ‘Before I start shaving it is always kind He doesn’t really Some excerpts of itchy, just because the hairs are like shaving, he contain lively growing. I always have the feeling that doesn’t take the descriptions which it is really time for a refreshing time for it. lose their essence if treatment. But I always put it off, and in they are pigeon- the end it is completely necessary. I holed into a pre- just, well normally, every time, I take a existing theoretical shower and I want to do it before going framework into the shower and I forget. It is a little bit, uh, it always ‘happens’ that the shaving does not happen. It is too much effort, I should be more, ... there should be something to trigger me more. I need to be reminded in a way.’</region>
+        <caption class="deo:Caption" id="33" page="3" column="1">Table I. Fragments from presentations on men’s experience of shaving their facial hair, and some interpretations and observations of these fragments.</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="36" page="3" column="1">Grounded theory approaches for analysis provide ways for researchers of coping with the diverse and multi-layered qualities of the data (<xref ref-type="bibr" rid="R16" id="34" class="deo:Reference">Strauss &amp; Corbin, 1990</xref>; <xref ref-type="bibr" rid="R10" id="35" class="deo:Reference">Jaasko et al, 2003</xref>). But summarized research results are often formulated for a research audience, not a design audience. A major challenge is transforming the new knowledge about the user into information that is welcomed –and applied- in the design process. These innovative participatory design techniques need innovative communication tools. New approaches are needed to make these outcomes practically useful for the creative process. We believe that the tools to represent the outcomes should engage designers with the user experiences by involving the designers as active co-creators of the outcomes. The outcomes contain real individual user experiences and we believe that only by connecting these user experiences with the designers’ own experiences a vividness of the user experiences is realised. This is a subjective process, but we think that the subjectivity of interpreting the outcomes individually for each designer can result in deeper and longer lasting understanding.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="37" page="3" column="1">3</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="38" page="4" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="39" page="4" column="1">sept 2005, Lodz, Poland</outsider>
+      <region class="DoCO:TextChunk" id="40" confidence="possible" page="4" column="1">Such a communication tool should enhance empathy, provide inspiration, and support engagement.</region>
+      <region class="DoCO:TextChunk" id="43" page="4" column="1">We believe that there is a spectrum of possible communication tools that can be explored, but that current practice makes little use of these possibilities. On one end of this spectrum, analysis reports tend to provide generalizing, abstracted conclusions in which a lot of the richness of the data is lost. On the other end of the spectrum, the ‘raw’ data, such as transcripts from presentations and discussions (see <xref ref-type="table" rid="T1" id="41" class="deo:Reference">Table 1</xref>) is too bulky for designers. The raw data itself is rich and diverse, but does not provide easy access to deeper levels of understanding. Not all designers are skilful researchers (van <xref ref-type="bibr" rid="R17" id="42" class="deo:Reference">Veggel, expected 2005</xref>); neither have they time to analyse the data from scratch. In this paper, we focus on the communication to designers. The challenge is to find a communication form that encompasses the best elements of the two extremes- bulky ‘raw user data’ and fixed interpretation. The approach we take is to present the designers with both the complete raw data and provide clues towards interpretations. Typography, diagrams, and illustrations allow and invite the designer to explore the findings in different ways. The aim is to find ways of presenting both information and inspiration, to give freedom of interpretation, yet also support argumentation, to promote and enrich discussion between designers and other members of the design team. We first review the different means of communication that are presently used, resulting in a set of qualities for the communication tool. Subsequently, we describe the design of a tool, the personal card set, that implements these qualities. We then describe two studies in which we evaluated this tool. The first study explores the proposed qualities of the tool, and how designers used it. The second study evaluates two of the principal qualities, inspiration and empathy. We conclude by discussing the findings from these studies, and drawing implications for further research on participative communication tools.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="44" page="4" column="1">2 Current tools for sharing user data with designers</h1>
+        <region class="DoCO:TextChunk" id="55" page="4" column="1">In order to get an understanding of the existing means for communicating the outputs of user experience studies to design teams, we reviewed some of the tools that are currently in use. A written report is the most common tool to represent user findings. It usually contains a description of how the information was generated and analysed and it presents the most important conclusions. The forms of reports, in which black and white text is dominating, does not easily match the designers’ visual and associative thinking processes. However, the formal report does provide a broad range of information on the study. From an ethnographic background, researchers have been exploring graphic summaries as a way of communicating: diagrams to organise and summarize the data. One example is the ‘grounded innovation map’ proposed by <xref ref-type="bibr" rid="R5" id="45" class="deo:Reference">Diggens et al (2003)</xref>. The map has various levels of information. The highest level contains the principal categories identified by the designers. Lower levels move through relationships between and within these categories. The lowest level contains labels representing anecdotes extracted from personal stories. Although the attempt to organise the data and present the multi-layered character of the data is progressive, the tool does not enhance empathy with the users. For that, the jargon and the<marker type="page" number="5"/><marker type="block"/> symbols remain too abstract. Nevertheless, diagrams help structure further discussions of the dimensions underlying the data by stimulating visual interactions, e.g., pointing, laying out, adding interpretations. A series of techniques succeeds in enhancing empathy (<xref ref-type="bibr" rid="R1" id="50" class="deo:Reference">Black, 1998</xref>). For showing the actual use of a product, highlight videos is a common used technique in practice. Highlight videos allow the design team to observe the actual use, but is a quite passive technique (Brun-<xref ref-type="bibr" rid="R2" id="51" class="deo:Reference">Cottan &amp; Wall, 1995</xref>; <xref ref-type="bibr" rid="R3" id="52" class="deo:Reference">Buchenau &amp; Fulton Suri, 2000</xref>). Findings can also be summarized in the form of personas (Grudin &amp; Pruitt, 2003). A persona is a fictional user endowed with concrete characteristics. By presenting a life-like image of a possible person, personas help designers to think about the capabilities and needs of possible users. Personas lessen the risk that the designers take themselves as representatives for the user group. They help to convey how the situation and the use of a product may be experienced. Yet another technique, scripts, focus, more than personas, on the interactions of real users in real situations. Scripts start with describing different actors, which are then combined in relevant interactions. They have proven useful techniques for conveying situated interactions of people with products (<xref ref-type="bibr" rid="R9" id="53" class="deo:Reference">Henze &amp; Kahmann, 2003</xref>). A final example are scenarios. A scenario is a textual and visual description or a narrative of the currently occurring or potential use. Scenarios are now commonly used in the field of interaction design (<xref ref-type="bibr" rid="R7" id="54" class="deo:Reference">Go and Carroll, 2004</xref>). Personas, scripts and scenarios contribute towards creating a deeper understanding of product use by creating or communicating concrete situations of product use that also include the characteristics of the user and the situation within the product is used. These techniques intend to convey information at the level of experiential meaning.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="47" page="4" column="1">4</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="48" page="5" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="49" page="5" column="1">sept 2005, Lodz, Poland</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="56" page="5" column="1">3. Toward a new tool</h1>
+        <region class="DoCO:TextChunk" id="65" page="5" column="1">When analysing the user data in the ‘men shaving’ study, we felt that many possible insights tend to get lost with the existing tools. Formal reports do not appear to provide inspiration, ethnographic maps tend to obscure the view on the actual user, and existing empathy-enhancing techniques are less applicable in situations where a concept has not yet been designed. We believe that key qualities of a tool that communicates user experiences are engagement, inspiration and empathy. The first quality, ‘engagement’, is a combination of two aspects; designers being involved by taking-part in the different stages of a user study (e.g., observing a group session with users). The intensity of taking-part can vary greatly. The other aspect of engagement is the drive of the designer to study the user data and to use the data during designing. We want designers to feel committed to the user data and to be motivated to study the user experiences. This is in line with the participatory design stance of respecting users as the experts on their own experiences ( <xref ref-type="bibr" rid="R12" id="57" class="deo:Reference">Sanders, 2000</xref>). The second quality, ‘inspiration’, means that designers feel sparked by the data and that they get motivated to create ideas and develop concepts that fit the users needs. We want designers to be inspired by the user data during the creative process. The third quality of communicating user experiences is empathy. We want to encourage designers to empathize with the users in order to understand the situations in which the designed products will be used. The ability of identifying with the users is crucial in understanding the user experiences.<marker type="page" number="6"/><marker type="block"/> To put an attempt to realise these qualities in a tool we propose a set of design assumptions for the new communication tool. Below, we present these assumptions. In this description, the term ‘designer’ refers to the receiver of the information, the term ‘researcher’ to the person who conducted the user studies, and prepared the tool.<marker type="block"/> Openness: showing the raw data The data consists of various anecdotes and is multi-layered. For communicating user experiences, presenting these anecdotes in their original form is preferred. Open- ended presentations invite designers to participate in structuring the information (a well-known example being the presentation sketch, which is often roughed-up to express that some aspects of the design are not yet fixed). Personification: retaining the personal identity of sources The data originates from real individual people and is represented accordingly. The personal identity of the source of the data is retained. Being able to identify with the user creates a deeper understanding for the actual use situation. Compared to researcher-generated interpretations, which are often abstracted away from the experience, and phrased in theoretical jargon, the stories of the individual users are most convincing when presented in their own words, with all their shades of nuance in expression. See for example the difference in appeal of the left and center columns in <xref ref-type="table" rid="TI" id="63" class="deo:Reference">Table I</xref>. Interactivity: the form invites organising and exploring The act of organising and structuring the data promotes the designers to form a deeper understanding of the users’ situations. The tool supports making relations or grouping elements of the data. Another part of interactivity is discussing. Discussion is a primary activity in interpreting data and generating concepts. The tool stimulates discussion in groups of recipients, in addition to supporting individual use. The data is accessible and intelligible for all members of a multi-disciplinary design team, and it is easy to share and refer back to.<marker type="block"/> Interpretation: suggestive means for finding structure and deeper meaning The researcher suggests and invites directions of inquiry, rather than imposing rigid final interpretations. The tool presents the raw data, augmented by leads provided by the user researcher to facilitate designers in interpreting, making conclusions and finding directions for the design.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="59" page="5" column="1">5</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="60" page="6" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="61" page="6" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:TextChunk" id="66" confidence="possible" page="6" column="1">Ownership: designers as co-creators of the data By receiving means for co-creation designers can get ownership over the data. Unfinished elements and space for adding own insights or design directions engage designers with the data. Also, designers have different ways of getting inspired, and the tool should allow for these differences. Therefore, the tool invites designers to create their own conclusions by visualising their interpretations and insights.</region>
+        <region class="DoCO:TextChunk" id="67" page="6" column="1">Next to these design assumptions, the aesthetics of the tool should invite designers to explore it. This requires a balance between text and image, answer and question, overview and detail, directions of interpretation and raw source data, patterns and anecdotes. The tool should be ready to use, require little or no instruction or startup learning, and fluently fit in with the creative practice of designers.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="68" page="6" column="1">6</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="69" page="7" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="70" page="7" column="1">sept 2005, Lodz, Poland</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="71" page="7" column="1">4. Form of the communication tool</h1>
+        <region class="DoCO:TextChunk" id="78" page="7" column="1">In the ‘men shaving’ project, various forms for communicating the data were explored to put the above design assumptions into a communication tool. <xref ref-type="fig" rid="F2" id="72" class="deo:Reference">Figure 2</xref> shows two early concepts. The ‘cubes’ concept attempts to invite the designers to explore and structure the information in a playful manner. Data from the participants is presented on the faces of cardboard cubes. Designers can organize the data by arranging and re-arranging the cubes. The ‘sketchbook’ presents the user information in the margins of a design sketchbook, in order to integrate user information into the designers’ regular ways of working. Both these early concepts were rejected, in part because they provided limited opportunity for organizing the information.<marker type="block"/> The final concept consists of a set of cards: the personal cardset (see <xref ref-type="fig" rid="F3" id="77" class="deo:Reference">Figure 3</xref>). Each card represents information from an individual user, participating in the study, and is marked with a visual identity of that user (picture and name). Each card is laminated and the set comes in a box together with a set of non-permanent markers and a sponge. The cards invite designers to structure and analyse: they can create overview, re-arrange, select, and compare the cards. The design of the cards invites recipient designers to add their interpretations and react on the interpretations suggested by the researcher. Each card has plenty of white space for annotations of ideas/insights/conclusions on the cards with the non-permanent markers (which can be wiped off with the sponge). In doing so, the recipient designers become active partners in the communication: they visually personalize the information and they are stimulated to add their own insights. Each card has the same graphic design, consisting of two sides of A4 paper, folded double into A5-size. The cards consist of elements ranging from raw transcripts, associations of the researcher, results from the analysis, and free-form elements inviting participation of the reader.</region>
+        <region class="DoCO:FigureBox" id="Fx74">
+          <image class="DoCO:Figure" src="62bd.page_007.image_02.png" thmb="62bd.page_007.image_02-thumb.png"/>
+        </region>
+        <region class="unknown" id="76" page="7" column="1"> <xref ref-type="fig" rid="F2" id="75" class="deo:Reference">Figure 2</xref> Mapping the transcripts and suggestions for interpretation onto cubes invites organizing and selecting by the recipients (left). Presenting the findings in the form of a sketchbook connects to the working style of the recipient designers (right).</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="79" page="7" column="1">7</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="80" page="8" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="81" page="8" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:FigureBox" id="Fx82">
+          <image class="DoCO:Figure" src="62bd.page_008.image_03.png" thmb="62bd.page_008.image_03-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="84" confidence="possible" page="8" column="1"> <xref ref-type="fig" rid="F3" id="83" class="deo:Reference">Figure 3</xref> Top: the box of cards (left: closed, right, open); bottom: the cards and their elements.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="85" page="8" column="1">8</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="86" page="9" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="87" page="9" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:TextChunk" id="88" confidence="possible" page="9" column="1">Raw data transcripts The back of each card shows the entire transcript of the presentation by the user. The transcript contains several anecdotes about shaving experiences, and a discussion of considerations that the user thought were important. This is almost unedited raw data. Associative visuals Below the transcript, a strip of small associative visuals to the anecdotes is added. This strip is intended to help designers find back the anecdotes they have read. In these associative pictures, the researcher suggests hints as to possible interpretations to the story, e.g., a very rational story is embellished with an associative picture of Star Trek’s mr. Spock character. Personalization of the source The front of the card opens with a name and photo representing an individual user (for reasons of privacy this is not the real name and photo of the user). This personal label emphasizes that the story is about a real person. It also helps as an anchor to retrace the stories, and to refer to them in conversation.</region>
+        <region class="DoCO:TextChunk" id="90" page="9" column="1">Selections The front of each card also carries a title phrase which is typical for this person, e.g., “Sometimes I sing a song while shaving”, and selected fragments of anecdotes that the researcher thinks are typical of the user’s experiences. Highlighting themes The researcher adds more explicit interpretations by colour coding words in the transcript. Colour coding signifies topics that recur across users’ stories. For example, the use of mirrors is addressed by several users, and all references to mirrors are colour coded in green. <xref ref-type="fig" rid="F3" id="89" class="deo:Reference">Figure 3</xref> shows an excerpt with three coloured words indicating themes that recur between different participants, for example ‘spiegel’ (mirror) in green, ‘geen muziek’ (no music) in red, or ‘het putje’ (the sink) in yellow. These cross-links facilitate the designers to easily follow relations which the researcher had identified; but it does not dictate that these are the only worthwhile paths of inquiry.</region>
+        <region class="DoCO:TextChunk" id="91" confidence="possible" page="9" column="1">Diagrams The most explicit form of interpretation is added by the researcher in the form of diagrams on the front of the cards. On the front of the cards several diagrams visualise theory-based conclusions in a suggestive way. On the left an emotion manikin (After Desmet, 2002), a 7 days of the week scheme, and two empty slots inviting the designer to add more notes. On the right, circular positions and linear ratings on scales deemed relevant by the researcher. These diagrams function as leads toward patterns in the individual experiences and help designers to quickly obtain overview through searching and sorting. Some diagrams are incomplete to invite designers to add their own interpretations. White space Finally, each card contains plenty of white space for annotations, and to visually convey that the card is open to addition and interpretation.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="92" page="9" column="1">9</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="93" page="10" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="94" page="10" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:TextChunk" id="95" confidence="possible" page="10" column="1">We expected that this set of elements, ranging from almost totally raw transcripts, via suggestive highlighting, up to more definite interpretations, should provide recipient designers to use the cards in a way that suits their creative process.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="96" page="10" column="1">5. Study: using the personal card set</h1>
+        <region class="DoCO:TextChunk" id="97" page="10" column="1">The use of the card set was evaluated in two studies. The principal objective of the first study was to explore how designers use the tool and to evaluate to what extent the cards supported the intended qualities of enhancing empathy, providing inspiration, and supporting engagement. In the second study the card set was compared with other tools to evaluate two of the five design assumptions, openness and interactivity, in more detail.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="98" confidence="possible" page="10" column="1">Procedure</h1>
+        <region class="DoCO:TextChunk" id="99" page="10" column="1">The tool was evaluated in concept generation sessions with professional designers and design students. Four sessions were held, each with two designers. At the start of the session, the designers were given the assignment to create one or more innovative concepts for a shaving product, focusing on the experience of shaving. They then received the personal card set, with the explanation that each card contains the contributions of one user in a generative session. No directions were given regarding how the personal card set was intended to be used, but they were asked to start by exploring the cards for at least ten minutes. In the two-hour assignment they developed concepts for a shaving product (Figure 4 shows an example). Upon completing the assignment the designers presented their results to someone acting out the role of a product manager, in order to examine how the designers use material from the personal card set for argumentation of their concepts. Afterward, the designers were interviewed to find out their opinions about the card set.</region>
+        <region class="DoCO:FigureBox" id="Fx100">
+          <image class="DoCO:Figure" src="62bd.page_010.image_04.png" thmb="62bd.page_010.image_04-thumb.png"/>
+        </region>
+        <region class="unknown" id="101" page="10" column="1">Figure 4 One of the concepts A razor held inside the hand, establishing continuous contact between the skin of fingers and face.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="102" confidence="possible" page="10" column="1">Observations</h1>
+        <region class="DoCO:TextChunk" id="103" confidence="possible" page="10" column="1">From observing the designers during the sessions and interviewing them afterward, we tried to draw conclusions on whether and how the cards were used, what role the elements discussed in Section Four played, and what the attitudes and opinions of the designers were. Here we summarize these observations.</region>
+        <region class="DoCO:TextChunk" id="109" page="10" column="1">Designers used the cards throughout the design activity. All teams made intensive use of the cards. They used them in formulating their starting points for the design. While sketching ideas, they frequently revisited the cards for new inspiration. When presenting their concepts to the product manager, the designers often referred to anecdotes on the cards. One team handed over a card to the product manager, while presenting their concept. Another team pointed at particular aspects on the cards, such as the selected anecdotes or the diagrams as a means of clarification. The other two teams did not physically refer to the cards, <marker type="page" number="11"/><marker type="block"/> but they did use participants’ anecdotes while presenting their concepts, e.g., ‘The concept, coloured shaving foam, will make shaving more enjoyable for the guys who do not like it.’<marker type="block"/> The cards were used for (re)structuring. Different designers used the cards to physically structure the information in different ways (see Figure 5). Some designers looked for similarities across the set of cards, whereas others concentrated on a few complete stories.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="105" page="10" column="1">10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="106" page="11" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="107" page="11" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:FigureBox" id="Fx110">
+          <image class="DoCO:Figure" src="62bd.page_011.image_05.png" thmb="62bd.page_011.image_05-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="111" confidence="possible" page="11" column="1">together, comparing diagrams, cross-referencing themes in transcripts, systematic spread-out comparison, detailed comparison of diagrams, and free categorizing of the cards. Designers identified with the users. The designers read out loud from the cards to each other, linking the contents to their own personal shaving experiences; ‘ I am just like Ernesto, I shave exactly like him’. One design team, consisting of two female designers, used the different experiences to create an overview; ’ I am a girl, and I need those stories to understand the contexts of shaving ’. They designed with two specific users in mind; ‘The concept is specially developed for Gaston and Sasja. I have the feeling I met Gaston, I really know intimate things about him. He seems a little bit like my neighbour. I can completely imagine how he shaves’. The designers talked about the users, using the names on the cards to refer to particular anecdotes or persons; ‘ Yeah, Leon and Daniel really take their time for it’. Designers used the diagrams. All designers carefully studied the diagrams; ‘Very clearly, I used it as reference points’ and ‘With these diagrams I can immediately start to work’ . Some used the diagrams to create an overview or to decide which persons they wanted to study more in-depth, while others tried to offset one card against another.</region>
+        <region class="DoCO:TextChunk" id="118" page="11" column="1">Designers use the cards to set up their own mini-theories. One team created a graphic of the ‘fun value’ during the shaving process based on the different cards (see Figure 6), and made a supportive diagram on a separate piece of paper. The designers rarely wrote annotations on the cards themselves, but wrote and drew on separate pieces of paper. In the interview afterwards, they said they felt no need to add to the cards. <marker type="page" number="12"/><marker type="block"/> Different preferences and attitudes Some designers wanted to see more explicit structure in the cards; ‘I would have liked more organised parts in the text. Now we had to search so much.’ In contrast, others tried to avoid the structured elements, such as the highlighted words; ‘I tried not to pay attention to the colour coded words. I prefer to decide for myself how to filter the information’ . Also, some designers accepted the users’ opinions as absolute truth and directly included it in their designs, such as one team designing a long- lasting titanium razor mentioned on one of the cards. Other designers vehemently disliked reading these kinds of design directions mentioned by users; ‘I immediately reject those solutions of users, I want to find directions myself’.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="113" page="11" column="1">11</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="114" page="12" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="115" page="12" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:FigureBox" id="F6">
+          <image class="DoCO:Figure" src="62bd.page_012.image_06.png" thmb="62bd.page_012.image_06-thumb.png"/>
+          <caption class="deo:Caption" id="117" page="12" column="1">Figure 6. Diagram produced by a design team, depicting the ‘fun value’ before, during and after shaving. It shows a low value of ‘fun’ during the act of shaving itself.</caption>
+        </region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="119" confidence="possible" page="12" column="1">Discussion</h1>
+        <region class="DoCO:TextChunk" id="120" page="12" column="1">Clearly, one cannot draw definitive conclusions from a small-scale study such as this. Nevertheless, we believe that the observations and interviews indicate the potential of the card set as a participative communication tool. Here we discuss the three main characteristics of a participative communication tool: does it convey empathy with the user, does it inspire designers to create product ideas, and does it support engagement with the user data?</region>
+        <region class="DoCO:TextChunk" id="121" confidence="possible" page="12" column="1">Enhancing empathy The designers clearly identified with the users. The designers often referred to the names on the cards, suggesting that they were designing with real people in mind. They often quote the transcript, written in the participants’ personal idiom. Several designers mention that, even in the short time-span of the experiment, they get the feeling that they really get to know the participants as if they had met them personally. This suggests they relate to the participants’ experiences as real events rather than abstractions.</region>
+        <region class="DoCO:TextChunk" id="128" page="12" column="1">Providing inspiration The tool is intensely used by the designers during conceptual design activity. All participating designers judged it inspiring and useful. The cards trigger the designers to find structures in the information. Designers want freedom to be creative and find original design directions, but are eager to look at, and build on, suggested interpretations. <marker type="block"/> Supporting engagement The designers used the cards many times during the sessions and extensively discussed the information on the cards. They were engaged with the data. However, we were surprised that designers hardly wrote on the cards, even though this was clearly suggested by means of the coating, sponge, and markers. One explanation<marker type="page" number="13"/><marker type="block"/> might be that the cards still had too much of a ‘finished’ appearance. They didn’t feel ‘owner’ of the card set or left visual marks. In that sense, the personal card set did not support ownership to establish engagement.<marker type="block"/> It is hard to judge to what extent the design assumptions of the tool contributed to the qualities of communication. This was a rough and exploratory study. The tool was new for all design teams, which may have affected the enthusiasm in their opinions about the inspirational value of the cards. The experience and training of the designers, and the amount of time available, probably have a major influence on the results. A more formal experiment was set up to evaluate two of the five design assumptions in more detail.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="124" page="12" column="1">12</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="125" page="13" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="126" page="13" column="1">sept 2005, Lodz, Poland</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="129" page="13" column="1">6 Study: evaluating the design assumptions</h1>
+        <region class="DoCO:TextChunk" id="130" page="13" column="1">From the proposed five design assumptions openness and interactivity are the two which have the most important consequences for the form of the tool. The goal was to get insight in how the design assumptions of openness and interactivity influence the qualities of designers’ inspiration and empathy. In order to investigate these two design assumptions, three other tools were created, whose form varied on openness and interactivity. For practical reasons, we also used a reduced version of the card set. In the first study we had noticed that for a two-hour design session the data from eight cards was quite much. Therefore we reduced the personal card set to only four cards from users who had participated in one session together. The other three tools that were designed, a report, a poster and statement cards, contained the data from only these four users of the shaving experience case. These tools varied on openness and interactivity (see Figure 7). The statement cards and personal card set allow the design team to organise and re- organise the data. The report and poster are fixed, design teams cannot organise the data physically. The poster and the personal card set show primarily raw data without suggestive interpretations. In contrast, the statement cards show interpretations, paraphrases of the data, made by the researcher added with the responding part of the transcript in small font. The report shows the interpretations of the researcher, with in the appendix the raw data.</region>
+        <region class="DoCO:FigureBox" id="Fx131">
+          <image class="DoCO:Figure" src="62bd.page_013.image_07.png" thmb="62bd.page_013.image_07-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="132" page="13" column="1">13</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="133" page="14" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="134" page="14" column="1">sept 2005, Lodz, Poland</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="135" confidence="possible" page="14" column="1">Procedure</h1>
+        <region class="DoCO:TextChunk" id="136" page="14" column="1">The procedure was similar to the first study; a two-hour design session, where each design team was given one of the tools with the assignment to create innovative concepts for shaving. For each condition, two sessions were held to reduce the effect of personal variability in the participating designers. Eight sessions (a to h, see Figure 10) were held, each with two female design students. To study empathy, the level of identifying with the users is of interest. Women have less experience with shaving facial hair. As they cannot relate to their own experiences, it is more insightful to involve female designers in order to be able to compare results on empathy. The observations and interviews were conducted by four students of Industrial Design Engineering, under supervision of the first author.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="137" confidence="possible" page="14" column="1">Observations</h1>
+        <region class="DoCO:TextChunk" id="145" page="14" column="1">As an indication of inspiration we counted the number of ideas (drawn ideas and verbalized ideas). As an indication of empathy we counted the number of times the designers referred to the actual users (e.g., ‘ he’, ‘Leon’, ‘this man’ ). These are rough indications for inspiration and empathy. As a means of triangulation we also observed the entire sessions, gave the designers a questionnaire about how they used the tools and what they learned from it and we interviewed them afterwards. <marker type="block"/> Number of ideas and references Figure 8 shows that the personal card set scores highest on both inspiration (# ideas) and empathy (# references). The open tools (personal card set and poster) score high on the number of ideas, suggesting that more openness has a positive effect on inspiration. The open tools score slightly higher on empathy as well. The fixed tools (report and poster) do not score quite high or low, suggesting that the interactivity of a tool does not directly influence inspiration or empathy. However, we do not want to attach too much weight to this conclusion, because counting the numbers of references and ideas is only a rough indication.<marker type="page" number="15"/><marker type="block"/> Intensity of use From observations we noticed that the organising tools were much more intensively used during the sessions, compared to the fixed tools. The fixed tools (poster and report) were not used throughout the sessions, but only in the first fifteen minutes of the sessions, and then left aside. One design team (e) checked the report only in the last few minutes again to check if their concepts matched the main findings of the report. Design team (f) mentioned that they had used their own creative techniques to get inspired. In contrast, the organising tools (personal card set and statement cards) were intensively used throughout all four sessions.</region>
+        <region class="DoCO:FigureBox" id="Fx140">
+          <image class="DoCO:Figure" src="62bd.page_014.image_08.png" thmb="62bd.page_014.image_08-thumb.png"/>
+        </region>
+        <region class="unknown" id="141" page="14" column="1">Figure 8 The number of ideas and references that were counted in the sessions. Disks indicate the numbers counted for each team; the lines connect the averages for each of the four conditions.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="142" page="14" column="1">14</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="143" page="15" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="144" page="15" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:TextChunk" id="146" confidence="possible" page="15" column="1">Referring to users From the interviews we learned that the design teams (a, b, f, h) had not noticed that the data was resulting from only four men. One design team (a) did not make any reference to the users at all. Three of these four teams had used a closed tool. Both teams working with the personal card set referred extensively to the users.</region>
+        <region class="DoCO:TextChunk" id="147" page="15" column="1">Ideas During the observations we noticed that the concepts of one design team (a) were based on their own ideas about shaving experiences. In the interview they mentioned; ‘ We discussed the shaving habits of guys we know, and imagined what it would be like to be a man.’ This team had a relatively high score for number of ideas. Another team, which had used the poster (g) scored quite high on number of ideas too. They said; ‘We would have had less ideas if we had more freedom. The poster helped us to get started and find directions for ideas.’ Further, we were surprised to find that the concepts created with the open tools seemed to be more innovative, while the concepts created with the closed tools (report and statement cards) were more similar to existing shaving products. Both design teams which used the personal card set had many ideas. One design team (c ) mentioned that; ‘We would come up with different concepts if we had not had the personal card set to work with.’</region>
+      </section>
+      <section class="deo:Discussion">
+        <h1 class="DoCO:SectionTitle" id="148" confidence="possible" page="15" column="1">Discussion</h1>
+        <region class="DoCO:TextChunk" id="149" page="15" column="1">This study did not present quantitative proof for the design assumptions in their relation to inspiration and empathy for the user. However, it did give us confidence in the design assumptions that had guided the creation of the card set. We have explored variations of openness and interactivity and we have seen that differences occur. One important finding is that interactive tools are much more intensively used throughout the process. The other striking finding is that the personal card set seems to elicit much more empathy than the other three tools. This tool is the only tool that explicitly presents four individual users for structuring the data. Design teams using the other tools did not always notice that the data was originating from four men. So the personification of the data might be stronger in influencing empathy than openness.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="150" page="15" column="1">7. Conclusion</h1>
+        <region class="DoCO:TextChunk" id="151" confidence="possible" page="15" column="1">For us this was a first study in communicating results of generative sessions to designers. The proposed personal card set provides one way of letting designers participate in analysing, communicating, and using the results. Even though this study does not provide definitive conclusions, it gives us strong confidence in the potential of further development of such a participative communication tool.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="152" page="15" column="1">15</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="153" page="16" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="154" page="16" column="1">sept 2005, Lodz, Poland</outsider>
+        <region class="DoCO:TextChunk" id="155" confidence="possible" page="16" column="1">The personal card set is not presented as the final new communication tool. Rather, it is a demonstration of how the proposed design assumptions could be realised in communication tools. For the personal card set we only used a small part of the spectrum of diagrams, schemes, and graphs. This is an initial step to study the desired qualities of participatory communication tools. Of course, there are many more ways to design a tool with these assumptions. However, the idea of using cards, as a means to represent the findings, is adapted by more students and designers.</region>
+        <region class="DoCO:TextChunk" id="157" page="16" column="1">In this study we explored only two of the proposed five design assumptions in depth; openness and interactivity. The three others, interpretation, personification and ownership need further research. Especially ownership deserves more attention. We hoped that annotations on the cards would create a visual mark showing the designers own interpretations, which might encourage them to discuss their interpretations in the design team. Designers did not really add their own insights on the cards. After use by designers, the personal card set is visually still ‘owned’ by the researcher. The personal card set does not support enough co-creation and co- ownership of the information, as we think it should. In further research we will focus on inviting designers to become ‘owners’ of the data. We also restricted ourselves to two of the three qualities: empathy and inspiration. The third quality, engagement, was left out of this study. Engagement requires a more longer time-span of a study. We think that a case study in real design practice will teach us more. <marker type="block"/> Another aspect for further research is how the communication tool is embedded in a communication technique within a design process. In the two studies we have described, design teams are set apart to do a design brief with the tool. In real practice, the designers can be involved in the user research to a greater or lesser degree, e.g., in a group session or during the analysis. The tool may be presented more interactively, e.g., in the form of a workshop. Then, part of the communication is a workshop in which the data is presented, explained and discussed. A workshop and the tool are inherently related. Further research will focus on combinations of workshops and tools to promote participatory communication.</region>
+        <region class="DoCO:TextChunk" id="158" confidence="possible" page="16" column="1">Acknowledgements We would like to thank the designers of Flex Development and the Industrial Design Engineering students for their participation in the design sessions, and students D. Derksen, A. Kauffman, S. Oudshoorn and W. Prins for conducting the experimental part of the second study.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="159" confidence="possible" page="16" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="160" confidence="possible" page="16" column="1">Black, A. (1998) Empathic design. User focused strategies for innovation. Proceedings of New Product Development. IBC conferences.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="161" confidence="possible" page="16" column="1">Brun-Cottan, F., Wall, P. (1995). Using video to represent the user. Communications of the ACM , 38, (5), p. 61-71.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="162" confidence="possible" page="16" column="1">Buchenau, M., Fulton Suri, J. (2000). Experience prototyping. Proceedings of the conference on Designing interactive systems: processes, practices, methods, and techniques , p. 424-433.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="166" confidence="possible" page="17" column="1">Desmet, P.M.A. (1999). To love and not to love: Why do products elicit mixed emotions? (1999). Proceedings of First international conference on design and emotion , Delft, p. 67-73.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="167" confidence="possible" page="17" column="1">Diggens,T., Tolmie, P. (2003). The ‘adequate’ design of ethnographic outputs for practice: some</ref>
+          <ref class="deo:BibliographicReference" id="168" confidence="possible" page="17" column="1">explorations of the characteristics of design resources. Proceedings of First International Conference on Appliance Design , Bristol, p81-??</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="169" confidence="possible" page="17" column="1">Forlizzi, J., Ford, S. (2000) Buiding blocks of experience: An early framework for Interaction Designers. Proceedings of DIS2000 Designing Interactive Systems Conference (ACM).</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="170" confidence="possible" page="17" column="1">Go, K., Carroll, J.M. (2004) The blind men and the elephant: views of scenario-based system design. Interactions , 11, (6), p. 44-53.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="171" confidence="possible" page="17" column="1">Grudin, J., Pruitt, J. (2002). Personas, participatory design and product development: An infrastructure for engagement. Proceedings of Participatory Design Conference , Palo Alto, 144-161.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="172" confidence="possible" page="17" column="1">Henze L., Kahmann, R., (2003) Communicating product experience, Design and Emotion . eds. McDonagh, D., Gyi, D., Hekkert, P., Erp, van, J. Taylor &amp; Francis, London.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="173" confidence="possible" page="17" column="1">Jaasko, V., Mattelmaki, T. (2003) Observing and Probing, Proceedings DPPI 2003 , Pittsburgh, Pennsylvania, USA.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="174" confidence="possible" page="17" column="1">Kristensson, P., Magnusson, P.R. &amp; Matthing, J. (2002). Users as a Hidden Resource for Creativity: Findings from an Experimental Study on User Involvement. Creativity and Innovation Management, 11, (1).</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="175" confidence="possible" page="17" column="1">Sanders, E.B.N. (2000), Generative tools for Co-designing. Collaborative Design , Scrivener, Ball and Woodcock (Eds.) Springer, London.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="176" confidence="possible" page="17" column="1">Sleeswijk Visser, F., Een structuur om de context van product gebruik in kaart te brengen (A structure to map the context of product use). Master’s thesis (in Dutch) unpublished, Industrial Design Engineering. Delft University of Technology, 2003. (www.studiolab.io.tudelft.nl/sleeswijkvisser)</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="177" confidence="possible" page="17" column="1">Sleeswijk Visser, F., Stappers, P.J, Van der Lugt, R., &amp; Sanders, L. (2005). Contextmapping; experiences from practice. Codesign, 1, (2). In press.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="178" confidence="possible" page="17" column="1">Stappers, P.J., Sanders, E.B.N. (2003) Generative tools for context mapping: Tuning the tools. Design and Emotion . eds. McDonagh, D., Gyi, D., Hekkert, P., Erp, van, J. Taylor &amp; Francis, London.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="179" confidence="possible" page="17" column="1">Strauss, A.L. and Corbin, J. (1990) Basics of Qualitative Research, Grounded Theory Procedures and Techniques , London, Sage.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="180" confidence="possible" page="17" column="1">van Veggel, R.J.,F.,M. (to be published in 2005) Where the two sides of ethnography collide. Design Issues , MIT Press</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="163" page="16" column="1">16</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="164" page="17" column="1">In Proceedings of 9th European Conference on Creativity and Innovation</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="165" page="17" column="1">sept 2005, Lodz, Poland</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="181" page="17" column="1">17</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>4e1d038ec62ed63e018c868c19a973aaf9ebd47fb67227be054def23a7d55913</job>
+    <base_name>62qr</base_name>
+    <doi>http://dx.doi.org/10.1109/tpc.2003.819630</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="unknown" id="1">Position Paper for CHI 2002 Workshop Patterns in Practice: A Workshop for UI Designers</region>
+      <region class="unknown" id="2">Excerpt from</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="3" confidence="possible">The Design of Sites</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">By Douglas K. van Duyne</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Dr. James A. Landay</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Jason I. Hong</name>
+        </contrib>
+      </contrib-group>
+      <region class="DoCO:TextChunk" id="7" confidence="possible">van Duyne/Landay/Hong, DESIGN OF SITES: PATTERN LANGUAGE FOR WEB, © 2002 Douglas K. van Duyne, Dr. James A. Landay, Jason I. Hong, Reprinted by permission of Pearson Education, Inc.</region>
+      <outsider class="DoCO:TextBox" type="header" id="8">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="9" confidence="possible">Chapter 2 Making the Most of Web Design Patterns Contents 2.1 What Are Patterns? 2.2 A Sample Pattern 2.3 How to Read a Pattern 2.4 How to Use the Patterns 2.5 An Example of Using Patterns 2.6 Take-Away Ideas In Chapter 1—Customer-Centered Web Design , we explained why designing for the customer experience is crucial to a Web site’s success. We also introduced the notion of Web design patterns, a powerful conceptual framework for building compelling, effective, and easy-to-use Web sites. In this chapter we explain patterns in depth. We do not expect you to read through all of the patterns in this book from start to finish. Instead, we show you ways to explore the patterns so that you can quickly find the right patterns for your needs. 2.1 What Are Patterns? Patterns communicate insights into design problems, capturing the essence of the problems and their solutions in a compact form. They describe the problem in depth, the rationale for the solution, how to apply the solution, and some of the trade-offs in applying the solution. Patterns were originally developed by the architect Christopher Alexander and his colleagues, in a 1977 groundbreaking book called A Pattern Language: Towns, Buildings,</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10">2</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="11">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="12" confidence="possible">Construction (Oxford University Press). Patterns, he said, can empower people by providing a living and shared language “for building and planning towns, neighborhoods, houses, gardens, and rooms.” Alexander intended for patterns to be used by everyday people to guide the process of creation, whether designing a house for themselves or working with others designing offices and public spaces. By creating a common language, would-be designers could discuss and take part in the design of the spaces in which they worked, lived, and played. Alexander’s patterns were also a reaction against contemporary architectural design, which he felt did not take enough of human needs, nature, growth, spirituality, and community into consideration. Alexander’s emphasis was on an entire language for design. He felt that individual, isolated patterns were of marginal value. By connecting related patterns, and by showing how they intertwine and affect one another, he believed he could create an entire pattern language that was greater than the sum of the individual parts. Web design patterns make up a language that you can use in your daily work. In fact, though you may not know it, you may already be using some form of pattern language to articulate and communicate your designs. The patterns might reflect your own experiences using the Web. You might have picked them up from another site. They could even come from an insight you learned from a successful design you developed in the past. Our Web design pattern language focuses on your customers and their needs. This book is a reaction to the multitude of design patterns implicitly in use that do not take a customer- centered design approach. Many of our patterns reflect how your customers understand and interact with Web sites. When people go online, they do not start with a blank slate. They take with them all of their experiences, their know-how, and their understanding of how the world works. By now they recognize common signposts like blue links and buttons, and well-known processes like sign-in and shopping cart checkouts, as powerful ways of making any single site easy to use.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="13">3</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="14">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="15" confidence="possible">Some patterns reflect abstract qualities that make great Web sites—qualities such as value, trust, and reliability. You will integrate traits like these into the design of the entire Web site, and reaffirm and reinforce them at every point of contact with your customers. These patterns describe the essence of these abstract qualities and how they can be incorporated into the whole Web site. 2.2 A Sample Pattern</region>
+      <region class="DoCO:TextChunk" id="16">Let’s start with a pattern that may already be familiar to you: ACTION BUTTONS (K4)</region>
+      <region class="DoCO:TextChunk" id="17" confidence="possible">. 1 These</region>
+      <region class="DoCO:TextChunk" id="19" confidence="possible">buttons solve a common problem that customers encounter on Web sites: knowing what can and cannot be clicked on. By adding shading to an otherwise flat button, you make it easier for people to find your links. This visual illusion works because it takes advantage of what people already know about physical buttons (see <xref ref-type="fig" rid="F2.1" id="18" class="deo:Reference">Figure 2.1</xref>). 1 Patterns in this book are referenced in SMALL CAPITAL LETTERS . The part in parentheses, “K4,” means to go to Pattern Group K—Making Navigation Easy and then to the fourth pattern in that section.</region>
+      <region class="DoCO:FigureBox" id="F2.1">
+        <image class="DoCO:Figure" src="62qr.page_004.image_01.png" thmb="62qr.page_004.image_01-thumb.png"/>
+        <image class="DoCO:Figure" src="62qr.page_004.image_02.png" thmb="62qr.page_004.image_02-thumb.png"/>
+        <image class="DoCO:Figure" src="62qr.page_004.image_03.png" thmb="62qr.page_004.image_03-thumb.png"/>
+        <caption class="deo:Caption" id="21">Figure 2.1 People know how to use three-dimensional buttons.</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="23" confidence="possible">Graphical user interfaces have become another form of transferable knowledge. People who use computers learn that they can press on buttons with their mouse (see <xref ref-type="fig" rid="F2.2" id="22" class="deo:Reference">Figure 2.2</xref>). This becomes a learned behavior that can be transferred to how people perceive and interact with Web</region>
+      <region class="DoCO:TextChunk" id="24">sites.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="25">4</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="26">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:FigureBox" id="F2.2">
+        <image class="DoCO:Figure" src="62qr.page_005.image_04.png" thmb="62qr.page_005.image_04-thumb.png"/>
+        <caption class="deo:Caption" id="28">Figure 2.2 Buttons in modern graphical user interfaces appear three-dimensional, to make them</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="29" confidence="possible">look as if you can press on them. You can take advantage of this knowledge by making the most important buttons on your Web site look three-dimensional too.</region>
+      <region class="DoCO:TextChunk" id="30">There are two kinds of ACTION BUTTONS (K4)</region>
+      <region class="DoCO:TextChunk" id="31" confidence="possible">: HTML action buttons and graphical</region>
+      <region class="DoCO:TextChunk" id="33" confidence="possible">action buttons. HTML buttons are specified in HTML, so you have little control over how they are displayed. <xref ref-type="fig" rid="F2.3" id="32" class="deo:Reference">Figure 2.3</xref> shows an example of an HTML button.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="34">Grey 3D</outsider>
+      <region class="unknown" id="35">This is a Action Button</region>
+      <region class="DoCO:FigureBox" id="F2.3">
+        <image class="DoCO:Figure" src="62qr.page_005.image_05.png" thmb="62qr.page_005.image_05-thumb.png"/>
+        <caption class="deo:Caption" id="37">Figure 2.3 The gray Search button on the right-hand side is an example of an HTML action</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="38" confidence="possible">button. HTML action buttons can be specified in HTML and are created by the Web browser. eBay and Amazon.com provide two examples of Web sites that use graphical action buttons on their homepages (see Figures 2.4 and 2.5). These buttons are often implemented as</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="39">a</outsider>
+      <region class="DoCO:TextChunk" id="40" confidence="possible">single image that may contain multiple buttons.</region>
+      <region class="DoCO:FigureBox" id="F2.4">
+        <image class="DoCO:Figure" src="62qr.page_005.image_06.png" thmb="62qr.page_005.image_06-thumb.png"/>
+        <caption class="deo:Caption" id="42">Figure 2.4 eBay uses graphical action buttons for the find it! button and for the buttons on the</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="43">right, like register and new to eBay? (www.ebay.com, April 11, 2001)</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="44">5</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="45">Van Duyne: Chapter 2</outsider>
+      <region class="unknown" id="46">These Custom 3D Action Buttons are part of the main navigation bar.</region>
+      <region class="DoCO:FigureBox" id="F2.5">
+        <image class="DoCO:Figure" src="62qr.page_006.image_07.png" thmb="62qr.page_006.image_07-thumb.png"/>
+        <caption class="deo:Caption" id="48">Figure 2.5 Amazon.com uses graphical action buttons for its featured stores (on the right).</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="49" confidence="possible">(www.amazon.com, April 23, 2001) But making buttons look three-dimensional is not the end of the story. What size should these buttons be? Bigger buttons are easier to see and easier to click on, but they take up more space. In addition, if you have an image link, should you also have a redundant text link that goes to the same place? Finally, how does using images as links affect download speed? These are all examples of forces that you will consider when you use the patterns. The forces are the key issues that come into play when you are trying to solve a particular design problem. Within each pattern we include these forces and provide guidance for how to resolve the issues. For example, to</region>
+      <region class="DoCO:TextChunk" id="50">improve the download speed of your ACTION BUTTONS (K4)</region>
+      <region class="DoCO:TextChunk" id="51" confidence="possible">, you might use FAST -</region>
+      <region class="DoCO:TextChunk" id="52">DOWNLOADING IMAGES (L2)</region>
+      <region class="DoCO:TextChunk" id="53" confidence="possible">.</region>
+      <region class="DoCO:TextChunk" id="54">The preceding explanation of ACTION BUTTONS (K4)</region>
+      <region class="DoCO:TextChunk" id="55" confidence="possible">has all of the essential ingredients</region>
+      <region class="unknown" id="56">of a pattern. It explains the basic problem and describes the general solution. It also points out</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="57">the</outsider>
+      <region class="DoCO:TextChunk" id="58" confidence="possible">forces exerting on a design, and the many decisions and trade-offs that must be made if you use the pattern. Most importantly, it refers to other related patterns that affect how the pattern in question will be used. As in Alexander’s pattern language, each pattern is connected to certain higher-level patterns and to certain lower-level patterns. The pattern helps complete the higher-level patterns that are “above” it, and it is completed itself by the lower-level patterns that are “below” it.</region>
+      <disp-formula class="DoCO:FormulaBox" id="FH1">
+        <label class="DoCO:Label" id="59">H1</label>
+        <content class="DoCO:Formula" id="60" confidence="possible">ACTION BUTTONS , for example, help complete a PROCESS FUNNEL , where moving</content>
+      </disp-formula>
+      <disp-formula class="DoCO:FormulaBox" id="FH1">
+        <label class="DoCO:Label" id="61">H1</label>
+        <content class="DoCO:Formula" id="62">(K4)</content>
+      </disp-formula>
+      <region class="DoCO:TextChunk" id="63">from step to step requires a clear call to action. Similarly, ACTION BUTTONS (K4)</region>
+      <region class="DoCO:TextChunk" id="64" confidence="possible">may be</region>
+      <region class="DoCO:TextChunk" id="65">completed with FAST - DOWNLOADING IMAGES (L2)</region>
+      <region class="DoCO:TextChunk" id="66" confidence="possible">.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="67">6</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="68">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="70" confidence="possible">The benefit of using patterns is that they embody design experience that all of us as a community have developed and learned. A given pattern may not necessarily be the best solution in every case, but it tends to work in practice. In the next section we describe the specific format of the patterns presented in this book. If you have ever seen patterns in other domains (such as software design or architecture), you will notice many similarities. 2.3 How to Read a Pattern The patterns in this book have a more formal format than what you have read up to this point. Each pattern has six parts: name, background, problem, forces, solution, and other patterns to consider. See <xref ref-type="fig" rid="F2.6" id="69" class="deo:Reference">Figure 2.6</xref> for an example.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="71">7</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="72">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:FigureBox" id="Fx73">
+        <image class="DoCO:Figure" src="62qr.page_008.image_08.png" thmb="62qr.page_008.image_08-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="74" confidence="possible">gure 2.6 Every pattern has the same elements in identical order so that you can quickly find the information you need.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="75">8</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="76">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="77" confidence="possible">The pattern name is the name we gave the solution. It consists of a phrase that you can</region>
+      <region class="DoCO:TextChunk" id="78">use in a sentence, such as “What is the name of that PAGE TEMPLATE (D1)</region>
+      <region class="DoCO:TextChunk" id="79" confidence="possible">?” Each pattern name</region>
+      <region class="DoCO:TextChunk" id="80" confidence="possible">is written in SMALL CAPITAL LETTERS , so you can quickly identify them on a page. Each pattern also has a pattern number, such as A9. The letter identifies the group to which the pattern belongs. Each pattern group is also color-coded on the edge of the page so that you can find the group you want by looking at the edge of the book. Following the pattern name is the sensitizing image, a sample implementation of the solution. It shows how the solution might appear on a finished site. Next comes the background, which provides context for the pattern, describing any other patterns that lead to this pattern and how they are related, as well as the scope of this pattern. The next part is the problem, a concise statement, in boldface, of the specific problem that this pattern addresses. The forces follow the problem, describing it in more detail, examining how people, their tasks, the technology, and society affect the design problem. Next is the solution. Also set in boldface, the solution is a succinct statement of how to solve the problem. We also provide a sketch so that you can visualize the solution. Finally, we discuss the other patterns to consider. Here we recommend more detailed patterns that help complete this pattern. You should examine and choose these according to your needs. In addition to distinguishing patterns in the body of the text by setting them in small caps</region>
+      <region class="DoCO:TextChunk" id="81">(such as STIMULATING ARTS AND ENTERTAINMENT (A9)</region>
+      <region class="DoCO:TextChunk" id="82" confidence="possible">), throughout the book we flag patterns</region>
+      <region class="DoCO:TextChunk" id="83" confidence="possible">in the margins with small callouts (such as ). These callouts are also color-coded to match the</region>
+      <region class="DoCO:FigureBox" id="Fx84">
+        <image class="DoCO:Figure" src="62qr.page_009.image_09.png" thmb="62qr.page_009.image_09-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="85" confidence="possible">corresponding pattern group.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="86">9</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="87">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="89" confidence="possible">2.4 How to Use the Patterns Pattern groups are organized by letter and by name, as <xref ref-type="table" rid="T2.1" id="88" class="deo:Reference">Table 2.1</xref> shows. Each pattern group contains a collection of thematically related patterns. For example, if you wanted to improve the search feature on your Web site, you would go to Pattern Group J—Making Site Search Fast and Relevant. Or if your testing showed that customers were having problems navigating your Web site, you would consult the patterns in Pattern Group K—Making Navigation Easy.</region>
+      <region class="DoCO:TableBox" id="T2.1">
+        <caption class="deo:Caption" id="90">Table 2.1 Pattern Groups</caption>
+        <content>
+          <table class="DoCO:Table" number="2.1" page="10">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Letter</th>
+                <th class="table"> Name</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table.strange">
+                <td class="table.strange"> A</td>
+                <td class="table.strange"> Site Genres</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> B</td>
+                <td class="table"> Creating a Navigation Framework</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> C</td>
+                <td class="table"> Creating a Powerful Homepage</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> D</td>
+                <td class="table"> Writing and Managing Content</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> E</td>
+                <td class="table"> Building Trust and Credibility</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> F</td>
+                <td class="table"> Basic E-Commerce</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> G</td>
+                <td class="table"> Advanced E-Commerce</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> H</td>
+                <td class="table"> Helping Customers Complete Tasks</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> I</td>
+                <td class="table"> Designing Effective Page Layouts</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> J</td>
+                <td class="table"> Making Site Search Fast and Relevant</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> K</td>
+                <td class="table"> Making Navigation Easy</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> L</td>
+                <td class="table"> Speeding Up Your Site</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> Generally speaking, the earlier the pattern group in this scheme, earlier it should be</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> used in the</td>
+                <td class="table.strange"> design process. For example, Pattern Groups A and B Web site genres</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> and creating</td>
+                <td class="table.strange"> a navigation framework for the entire Web site, respectively. Pattern</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Group F</td>
+                <td class="table.strange"> looks at basic e-commerce issues, and Pattern Group H patterns that help</td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="91" confidence="possible">Letter Name A Site Genres B Creating a Navigation Framework C Creating a Powerful Homepage D Writing and Managing Content E Building Trust and Credibility F Basic E-Commerce G Advanced E-Commerce H Helping Customers Complete Tasks I Designing Effective Page Layouts J Making Site Search Fast and Relevant K Making Navigation Easy L Speeding Up Your Site Generally speaking, the earlier the pattern group in this scheme, the earlier it should be used in the design process. For example, Pattern Groups A and B discuss Web site genres and creating a navigation framework for the entire Web site, respectively. Continuing, Pattern Group F looks at basic e-commerce issues, and Pattern Group H contains patterns that help</region>
+      </region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="92">10</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="93">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="94" confidence="possible">customers complete tasks. These patterns are useful after you set the high-level goals and design of your Web site. Moving to the end, Pattern Group K deals with things like links and navigation bars, and Pattern Group L looks at speeding up a Web site. Each pattern identifies related patterns in its sections on background, forces, and other patterns to consider. This network of patterns provides you with a way to quickly collect the patterns you need to complete your design. You can use the rich pattern vocabulary to articulate an almost infinite number of designs. 2.5 An Example of Using Patterns This example tells the story of a designer who discovers a costly Web site problem and uses the patterns presented in this book to deploy a customer-centered solution. Sarah is part of the design team for an e-commerce Web site. Because the team is small, she has many responsibilities, including designing and evaluating the usability of the site. While examining the Web site statistics, such as data from server logs, Sarah discovers that most customers are spending a fair amount of time on the site. However, many people appear</region>
+      <region class="unknown" id="95">to be abandoning their shopping carts and leaving the Web site right at checkout, before a sale</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="96">is</outsider>
+      <region class="DoCO:TextChunk" id="97" confidence="possible">successfully closed. This problem is clearly something she needs to fix as quickly as possible. Sarah brings up the problem at the design team’s weekly meeting. It turns out that everyone knows that the Web site checkout has numerous problems, but no one has a solution.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="98">In</outsider>
+      <region class="DoCO:TextChunk" id="99" confidence="possible">a heated discussion team members voice their opinions, but the meeting ends with no resolution. After the meeting Sarah checks if there are any design patterns that might help. Because this is an e-commerce problem, she starts with Pattern Group F—Basic E-Commerce , quickly skimming through the patterns there.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="100">11</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="101">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="102">The first pattern that catches her eye is QUICK - FLOW CHECKOUT (F1)</region>
+      <region class="DoCO:TextChunk" id="103" confidence="possible">. The problem</region>
+      <region class="DoCO:TextChunk" id="104" confidence="possible">statement seems to match the problem her Web site faces: “An e-commerce shopping experience will not be enjoyable, or worse, a purchase might not be completed, if the checkout process is cumbersome, confusing, or error prone.” This pattern points out several problems with checkouts, including hidden charges, tedious text entries, confusing links, extra buttons, and complicated instructions. Sarah’s team took special care to address the issue of hidden charges when they first designed the site because that was something that bothered them on other e-commerce Web sites. She finds, however, that a few links on the site still have confusing names. Sarah also sees that several other patterns are referenced, including PERSONAL E -</region>
+      <disp-formula class="DoCO:FormulaBox" id="FF1">
+        <label class="DoCO:Label" id="105">F1</label>
+        <content class="DoCO:Formula" id="106">COMMERCE (A1)</content>
+      </disp-formula>
+      <region class="DoCO:TextChunk" id="107" confidence="possible">. This pattern is in a group that comes before QUICK - FLOW CHECKOUT</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="108">,</outsider>
+      <region class="DoCO:TextChunk" id="109">indicating that it is a more abstract pattern. Skimming over the PERSONAL E - COMMERCE (A1)</region>
+      <region class="DoCO:TextChunk" id="110" confidence="possible">pattern, she sees that it describes qualities of e-commerce sites in general, such as privacy,</region>
+      <region class="DoCO:TextChunk" id="111">convenience, and returns. Although she finds the PERSONAL E - COMMERCE (A1)</region>
+      <region class="DoCO:TextChunk" id="112" confidence="possible">pattern</region>
+      <region class="DoCO:TextChunk" id="113" confidence="possible">interesting, she decides that it is too high-level for what she needs right now.</region>
+      <region class="DoCO:TextChunk" id="114">Another referenced pattern, SHOPPING CART (F3)</region>
+      <region class="DoCO:TextChunk" id="115" confidence="possible">, looks more promising because it</region>
+      <region class="DoCO:TextChunk" id="116" confidence="possible">describes the features needed to make shopping carts useful. One important design question is how long unpurchased items stay in a shopping cart before they are automatically removed. Premature clearing of shopping carts may lead to lost sales because customers who return to a Web site might find that all their time spent finding the items they wanted to buy was wasted. Sarah makes a mental note to ask the developers on the design team how long items are kept in the Web site’s shopping carts. (It turns out to be just one hour.)</region>
+      <disp-formula class="DoCO:FormulaBox" id="FH1">
+        <label class="DoCO:Label" id="117">H1</label>
+        <content class="DoCO:Formula" id="118" confidence="possible">QUICK - FLOW CHECKOUT also mentions a pattern called PROCESS FUNNEL</content>
+      </disp-formula>
+      <disp-formula class="DoCO:FormulaBox" id="FH1">
+        <label class="DoCO:Label" id="119">H1</label>
+        <content class="DoCO:Formula" id="120">(F1)</content>
+      </disp-formula>
+      <outsider class="DoCO:TextBox" type="sidenote" id="121">.</outsider>
+      <region class="DoCO:TextChunk" id="122" confidence="possible">Looking this pattern over, Sarah sees that process funnels are a sequence of pages designed to help people complete extremely specific tasks. Special care is taken to make instructions concise, to minimize extraneous links that might lead customers out of the process funnel, and to shorten</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="123">12</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="124">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="125" confidence="possible">the number of steps required for completing the process funnel. Thinking about the current checkout process, Sarah realizes that some of her site’s pages are heavy with text instructions. There are also a few pages with links that could accidentally lead people out of the checkout process. After studying the patterns, the forces, and the solutions, Sarah understands many of the shortcomings of her team’s current checkout design. Using her site’s existing design as a starting point, she can now quickly sketch design alternatives for a new checkout process, combining and modifying the solutions that the patterns describe. After creating three possible solutions, using the patterns as a guide, she asks for informal feedback from the members of her design team. They identify some problems with her proposed designs and point out which changes will be easy to implement and which will not. Sarah uses this feedback to sketch another set of design alternatives, again using the patterns and her team’s suggestions. Sarah knows that a key principle of customer-centered Web design is keeping customers in the loop throughout the design process. She decides to run a quick evaluation with some representative customers. For this round of evaluations, Sarah decides that informally talking to and observing five participants is enough to get a pretty good idea of what the big problems are with the current site. She recruits five people that live nearby, visiting them in their homes. Offering a gift certificate and a free T-shirt makes recruiting pretty easy. First she asks her recruits to try the old checkout process, so that she can get a better feel for the problems they encounter. Then she shows them her sketches for the new checkout process and gets feedback on the early designs. While observing the participants, she realizes that she has anticipated many of the problems correctly. A customer named Fred, for example, clicks on the wrong link while in the checkout sequence, thereby accidentally exiting the process funnel. Although he is momentarily confused, Fred figures out what happened and hits the Back button. However, all of the</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="126">13</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="127">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="128" confidence="possible">information that he had just typed has disappeared, and he has to enter it all over again. Sarah marks this event down as a critical error. Sarah also discovers a few new things that the design team did not realize were problems. Two of the participants have serious problems finding the button that takes them to the third step of the checkout. The correct button is at the bottom of the page. However, these two have fairly old computers, and their monitors are small enough that this button is not visible on their Web browser unless they scroll down. (This is why Fred clicked on the wrong link and fell out of the checkout process funnel). Although all five participants successfully complete the checkout sequence, none of them think it is very easy, and all of them suggest that the process reflects poorly on the Web site. Sarah also realizes that this result is probably an example of testing bias. Given all the problems with the Web site, she doubts that the participants would have finished the task if she had not been sitting beside them. After the evaluation, Sarah takes out the sketches she created from the patterns and prior discussion with her team. She shows them to the participants, one at a time, asking them where they think each link will take them if they click on it, and whether the content on the page makes sense. All five participants like the design sketches and think each one has more potential than the existing checkout process. However, one of the four design alternatives stands out as the one they like best. Sarah makes a note to explore this design alternative in greater detail. At the next team meeting, Sarah presents the results of the evaluation. She describes many of the problems that her group of participants experienced and presents ideas on how to fix</region>
+      <region class="DoCO:TextChunk" id="129">them. One team member mentions that the HIGH - VISIBILITY ACTION BUTTONS (K5)</region>
+      <region class="DoCO:TextChunk" id="130" confidence="possible">pattern</region>
+      <region class="DoCO:TextChunk" id="131" confidence="possible">addresses the problem of clicking on the wrong links in a process funnel. Everyone agrees that the existing checkout process is broken and needs to be replaced</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="132">as</outsider>
+      <region class="DoCO:TextChunk" id="133" confidence="possible">quickly as possible. Sarah presents sketches for the design alternative that her recruited</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="134">14</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="135">Van Duyne: Chapter 2</outsider>
+      <region class="DoCO:TextChunk" id="136" confidence="possible">participants said was best. The discussion focuses on prioritizing the features. After a brief debate, the team quickly reaches a consensus on the most important features for the next version of the checkout. They start looking to see if any design patterns apply, and they get to work on refining the new design. 2.6 Take-Away Ideas The bulk of this book contains design patterns that you and your team can start using today. With these design patterns you can design a site from scratch, redesign a section of a site, or fix a particular problem on a page. Every design still requires your creativity, intuition, and testing to make the solutions effective. Our patterns direct your creative energies to solving new problems, as opposed to reinventing the wheel. In the words of literary critic Lionel Trilling, “Immature artists imitate. Mature artists steal.” The key here is to consider your options in context. If the goal of your site is to challenge your visitors, then many of the design patterns may not apply. But for any business or government site, the goal is to maximize your customer experience. This means that you will want to provide valuable, useful, and usable navigation structures and make it easy to find information and complete tasks successfully. For these kinds of sites, our patterns provide design solutions that work.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="137">15</outsider>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>

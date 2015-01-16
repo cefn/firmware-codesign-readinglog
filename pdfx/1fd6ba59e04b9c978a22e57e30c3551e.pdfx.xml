@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>b0306125f290c9a0ae4dc935669344d6d791157f60366197111ea6ad9a073f82</job>
+    <base_name>62jg</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1136/bmj.326.7402.1276">http://dx.doi.org/10.1145/2207676.2208350</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62jg.page_001.image_01.png" thmb="62jg.page_001.image_01-thumb.png"/>
+      </region>
+      <title-group>
+        <article-title class="DoCO:Title" id="2" confidence="possible">users are the experts of their own experience</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="sidenote" id="3">|</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="4">AsiA</outsider>
+      <region class="unknown" id="5">tour 2008 | hong kong | tok yo | tA ipei</region>
+      <region class="unknown" id="6">|</region>
+      <region class="DoCO:TextChunk" id="7" confidence="possible">Over the past decades, many new forms of user research have emerged [1]</region>
+      <region class="DoCO:FigureBox" id="Fx8">
+        <image class="DoCO:Figure" src="62jg.page_002.image_02.png" thmb="62jg.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="9" confidence="possible">Understanding the context around the product &amp; user comes first. From that perspective, designers develop a vision on the user-product interaction, the product, and how to integrate these with enabling technologies.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="10">2</outsider>
+      <region class="DoCO:TextChunk" id="11">In the past decades, the role of research within design has grown considerably. Where designers could previously focus on the product as a thing and the technology inside, these days design often begins with a thorough understanding of the user and, increasingly, of the context of use: the what, where, how, when, with whom, ... that surrounds the interaction between user and product.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="12">overview</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="13" confidence="possible" page="3" column="1">of methods</h1>
+        <region class="DoCO:TextChunk" id="14" confidence="possible" page="3" column="1">To support this development, there has been a widening of the techniques for user-centered design research. The diagram shows that the field contains a variety of approaches, and indicates two directions in which new types of</region>
+        <region class="DoCO:TextChunk" id="16" page="3" column="2">research emerged: the role of the user (from passive object of study to active expert), and the role of the designer (from receiver of research data to active contributor to the research). <marker type="block"/> Contextmapping is in the top half of the diagram, involving the user as ‘expert of his or her experience’, and involving designerly tools and approaches in empowering users to express that expertise.</region>
+        <region class="DoCO:FigureBox" id="Fx17">
+          <image class="DoCO:Figure" src="62jg.page_003.image_03.png" thmb="62jg.page_003.image_03-thumb.png"/>
+        </region>
+        <region class="unknown" id="18" page="3" column="2">The roles of stakeholders are changing</region>
+        <region class="DoCO:FigureBox" id="Fx19">
+          <image class="DoCO:Figure" src="62jg.page_004.image_04.png" thmb="62jg.page_004.image_04-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="20" confidence="possible" page="4" column="2">The context of product use, e.g., brushing your teeth, contains many different facets.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="21" page="4" column="2">4</outsider>
+        <region class="DoCO:TextChunk" id="22" confidence="possible" page="5" column="1">By the term context we mean the context of the product use, which is ‘all the factors that influence the experience of product use’, including social, cultural and physical aspects, goals, needs, emotions, and practical matters.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="23" page="5" column="1">Context</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="24" confidence="possible" page="5" column="1">and contextmapping</h1>
+        <region class="DoCO:TextChunk" id="25" confidence="possible" page="5" column="1">Which factors are important depends on the goals and scope of the design project as a whole. One way to find out which factors could be included is to ask Aristotle’s questions: who? what? how? why? when? where? with whom? how long?... A contextmapping study should help designers to take the user’s perspective: to step into the</region>
+        <region class="DoCO:TextChunk" id="26" confidence="possible" page="5" column="2">user’s shoes, so they can empathize with the needs, goals, and abilities of the user; and to step back into the designers’ role to create desirable solutions.</region>
+        <region class="DoCO:TextChunk" id="27" confidence="possible" page="5" column="2">We use the word contextmap to indicate that the information should work as a map for the design team: it does not replace the terrain of the user experience, but helps the designers find their way, structure their insights as they come, recognize dangers and opportunities. The contextmap is meant in the first place for inspiration, not validation.</region>
+        <region class="DoCO:FigureBox" id="Fx28">
+          <image class="DoCO:Figure" src="62jg.page_005.image_05.png" thmb="62jg.page_005.image_05-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="29" page="5" column="2">5</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="30" page="6" column="1">Some tools for bringing out Left: sheets with ambiguous trigger users to recall Right: a ‘TV game’ creates a feel free to express their</outsider>
+        <region class="DoCO:FigureBox" id="Fx31">
+          <image class="DoCO:Figure" src="62jg.page_006.image_06.png" thmb="62jg.page_006.image_06-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="32" page="6" column="2">6</outsider>
+        <region class="DoCO:TextChunk" id="33" confidence="possible" page="7" column="1">The user is the ‘expert of his experience’. More than anyone else, the users have experienced their context; they are the prime source of information about its many facets.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="34" page="7" column="1">user as</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="35" confidence="possible" page="7" column="1">expert of experience</h1>
+        <region class="DoCO:TextChunk" id="37" page="7" column="1">The expert is respected. As expert, the user is treated with respect, listened to, and given the opportunity to influence the direction of the research and design. <marker type="block"/> The expert has special tools. In order to perform as an expert, the users must be equipped with appropriate tools. The creation of such tools for expression is a key design element of contextmapping research.</region>
+        <region class="DoCO:TextChunk" id="38" confidence="possible" page="7" column="2">The expert brings special knowledge. But this knowledge is often hidden below the surface. The tools, techniques, and procedures described later on serve to bring our such tacit and latent knowledge.</region>
+        <region class="DoCO:FigureBox" id="Fx39">
+          <image class="DoCO:Figure" src="62jg.page_007.image_07.png" thmb="62jg.page_007.image_07-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="40" page="8" column="1">Understanding positive and users helps to bring out latent needs, which form the future product.</outsider>
+        <region class="DoCO:FigureBox" id="Fx41">
+          <image class="DoCO:Figure" src="62jg.page_008.image_09.png" thmb="62jg.page_008.image_09-thumb.png"/>
+          <image class="DoCO:Figure" src="62jg.page_008.image_08.png" thmb="62jg.page_008.image_08-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="42" page="8" column="2">8</outsider>
+        <region class="DoCO:TextChunk" id="43" confidence="possible" page="9" column="1">To design desired (product) solutions, the designers build a vision of the future use, with special attention to the deeper layers of</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="44" page="9" column="1">to the</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="45" confidence="possible" page="9" column="1">future, through the past</h1>
+        <outsider class="DoCO:TextBox" type="sidenote" id="46" page="9" column="1">Different tools access different layers of knowledge.</outsider>
+        <region class="DoCO:FigureBox" id="Fx47">
+          <image class="DoCO:Figure" src="62jg.page_009.image_10.png" thmb="62jg.page_009.image_10-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="48" page="9" column="1">meaning. Observation in the users’ current lives can give rich insights in their experience, but we can only observe what happens under the conditions of here and now. The deeper layers of meaning, things that can be expected to be still valid in the future, can be understood by calling up memories from the past.</region>
+        <region class="DoCO:TextChunk" id="49" confidence="possible" page="9" column="2">Liz Sanders refers to this as the ‘path of expression’: think of the future experience around a certain topic, we should • observe and reflect on the topic in the present; • call up related memories from the past. Many of these memories will have a positive or negative emotional value; • find the deeper layers that these memories express; • move these layers into our understanding of the desired future situation; • think of product solutions that work toward that situation.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="50" page="9" column="2">9</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="51" page="10" column="1">issues</outsider>
+        <region class="DoCO:TextChunk" id="54" page="10" column="1">Contextmapping places many questions about how to involve different stakeholders, and how we should design and produce products. Theory and techniques are still in development, and many issues are being debated, explored, and tried out. A few of those are: <marker type="block"/> Scoping and scaling. Contextmapping techniques involve small numbers of users intensively over a longer time. This can be done by large companies with large research budgets, but is difficult for small and medium enterprises (SME’s).</region>
+        <region class="DoCO:FigureBox" id="Fx53">
+          <image class="DoCO:Figure" src="62jg.page_010.image_11.png" thmb="62jg.page_010.image_11-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="55" confidence="possible" page="10" column="1">Is a company’s organisation up to participatory design? Traditional divisions in organisations, such as separations between strategy, marketing, and design are difficult</region>
+        <region class="unknown" id="56" page="10" column="2">happens, much of the richness is lost.</region>
+        <region class="DoCO:TextChunk" id="57" confidence="possible" page="10" column="2">barriers in which much understanding of user experience gets lost. Different departments have different languages, cultures, and values, and standard forms of reporting do not efficiently cross between them. Basics</region>
+        <region class="DoCO:TextChunk" id="58" confidence="possible" page="10" column="2">Authorship and rights. If users participate as active experts rather than passive subjects, then they are authors to the</region>
+        <region class="DoCO:FigureBox" id="Fx59">
+          <image class="DoCO:Figure" src="62jg.page_010.image_12.png" thmb="62jg.page_010.image_12-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="60" page="10" column="2">10</outsider>
+        <region class="DoCO:TextChunk" id="61" confidence="possible" page="11" column="1">resulting product ideas, and may justly claim recompensation, acknowledgement, or even a piece of the pie.</region>
+        <region class="DoCO:TextChunk" id="62" page="11" column="1">Research purposes and values. Contextmapping is among qualitative explorative research techniques. Its aim is to inspire as much as to inform, to generate questions rather than to provide quantitative answers to questions that are already well understood. But many people expect research to be based on large numbers of respondents and unambiguous findings.</region>
+        <region class="DoCO:TextChunk" id="63" confidence="possible" page="11" column="1">Cultural diversity. Many of the techniques so far were developed within specific Western cultures, and may not be appropriate everywhere. In some cultures it is impolite to</region>
+        <region class="DoCO:TextChunk" id="64" confidence="possible" page="11" column="2">disagree or to express an opinion. The visual languages and cognitive styles of different (sub)cultures can be very different. We need to appropriately ‘tune the techniques’. Technologies. Computers, the internet, and mobile phones promise new ways of gathering and organising data.</region>
+        <region class="DoCO:TextChunk" id="65" page="11" column="2">In this booklet we emphasize media, such as paper and models, because of their flexibility of use, connection to existing skills, and support for rich, bodily-involved group activities. We can expect that the range of tools and techniques will grow in the next few years. But profound research and sensitive design is needed to teach the richness of the traditional media.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="66" page="11" column="2">11</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="67" page="12" column="1">preparing</outsider>
+        <region class="DoCO:TextChunk" id="68" confidence="possible" page="12" column="1">sensitizing make &amp; say discussing session collecting user insights</region>
+        <region class="DoCO:TextChunk" id="69" confidence="possible" page="12" column="2">analyzing capture &amp; share conceptualizing share with and communicate to the design team</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="70" page="12" column="2">12</outsider>
+        <region class="DoCO:TextChunk" id="71" page="13" column="1">Doing a contextmapping study requires a mix of organisational, design and research activities.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="72" page="13" column="1">the</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="73" confidence="possible" page="13" column="1">contextmapping procedure</h1>
+        <region class="DoCO:TextChunk" id="74" page="13" column="1">On the following pages, we go through the steps of a ‘standard’ process, and discuss the what &amp; why of each step. On pages 26-27, we present a list of tips and tricks for each step.</region>
+        <region class="DoCO:TextChunk" id="75" confidence="possible" page="13" column="1">Many variations on this process are possible, depending on the particular needs and opportunities of each project.</region>
+        <region class="DoCO:TextChunk" id="77" page="13" column="2">There is not a golden rule that says that there always must be a session, or that collecting and sharing should be separate activities. <marker type="block"/> The procedure serves as backbone for organizing various user research techniques into a structured, but flexible, plan.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="78" page="13" column="2">1</outsider>
+        <region class="DoCO:FigureBox" id="Fx79">
+          <image class="DoCO:Figure" src="62jg.page_014.image_13.png" thmb="62jg.page_014.image_13-thumb.png"/>
+        </region>
+        <region class="unknown" id="80" page="14" column="2">preparing</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="81" page="14" column="2">sensitizing</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="82" page="14" column="2">collec</outsider>
+        <region class="DoCO:TextChunk" id="83" confidence="possible" page="14" column="2">A mindmap capturing the initial knowledge of the researchers</region>
+        <region class="DoCO:TextChunk" id="84" confidence="possible" page="14" column="2">Sensitizing workbooks are designed on the basis of this initial knowledge.</region>
+        <region class="DoCO:FigureBox" id="Fx85">
+          <image class="DoCO:Figure" src="62jg.page_014.image_14.png" thmb="62jg.page_014.image_14-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="86" page="14" column="2">14</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="87" page="15" column="1">Step 1</outsider>
+        <region class="DoCO:TextChunk" id="88" confidence="possible" page="15" column="1">preparing At the beginning of a project, a lot has to be decided: what is the topic of the study, which users are the participants. Examples are ‘the shaving experience of men aged 18-75’, ‘social contacts between elderly people’, ‘the role of patient information in the work process of radiologists’, or ‘the early morning rituals of families with small children’. A clear focus is needed to guide the research project, and the design project as a whole. The researchers should also determine how wide should be the area around the focus that is explored.</region>
+        <region class="DoCO:FigureBox" id="Fx89">
+          <image class="DoCO:Figure" src="62jg.page_015.image_15.png" thmb="62jg.page_015.image_15-thumb.png"/>
+        </region>
+        <region class="unknown" id="90" page="15" column="2">see for tips on each step page 26-27</region>
+        <region class="DoCO:TextChunk" id="92" page="15" column="2">Taking into account the design goal and the budget, a planning is made for the whole project: how much time and effort can be spent on recruiting and meeting the users, creating workbooks, conducting sessions, analysing results, communicating these results with designers, ... <marker type="block"/> In this phase also, preliminary research is conducted, e.g., first interviews with users from the target group, studying background literature. On the basis of these findings, the expressive tools such as sensitizing workbooks or probes, and exercises for the sessions are designed.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="93" page="15" column="2">15</outsider>
+        <region class="DoCO:FigureBox" id="Fx94">
+          <image class="DoCO:Figure" src="62jg.page_016.image_16.png" thmb="62jg.page_016.image_16-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="95" confidence="possible" page="16" column="2">preparing</region>
+        <region class="unknown" id="96" page="16" column="2">make</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="97" page="16" column="2">&amp; say sess user insights</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="98" page="16" column="2">16</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="99" page="17" column="1">Step 2</outsider>
+        <region class="unknown" id="100" page="17" column="1">sensitizing</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="101" page="17" column="1">Small playful exercises make the users observe and reflect on their experience, and gradually builds up their awareness.</outsider>
+        <region class="DoCO:TextChunk" id="106" page="17" column="1">Some time before the session, users receive a sensitizing package, which helps them observe their own lives and reflect on their experience of the topic of the study. It can consist of various elements derived from cultural probe packages, such as an exercise book, postcard assignments, fill-in maps, and cameras. <marker type="column" number="2"/><marker type="block"/> We often use about a week for the sensitizing process, inviting and encouraging the users to spread the assignments over the week. Step by step they start to think about the topic, and allow some incubation time (‘sleep on it’) which gives opportunity to bring up memories, associations, and sharpen their sensitivity for the topic.<marker type="block"/> If possible, the researchers should deliver the sensitizing package in person to the users. This gives them an opportunity to establish a relation with the user, establish their trust, and form a first impression for the user.</region>
+        <region class="DoCO:FigureBox" id="Fx103">
+          <image class="DoCO:Figure" src="62jg.page_017.image_17.png" thmb="62jg.page_017.image_17-thumb.png"/>
+        </region>
+        <region class="unknown" id="104" page="17" column="2">see for tips on each step page 26-27</region>
+        <outsider class="DoCO:TextBox" type="footer" id="107" page="17" column="2">1</outsider>
+        <region class="DoCO:FigureBox" id="Fx108">
+          <image class="DoCO:Figure" src="62jg.page_018.image_18.png" thmb="62jg.page_018.image_18-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="109" page="18" column="2">analyzing</outsider>
+        <region class="unknown" id="110" page="18" column="2">say discussing session insights</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="111" page="18" column="2">share</outsider>
+        <region class="DoCO:TextChunk" id="112" confidence="possible" page="18" column="2">In a session, users get variety of tools and techniques to make expressions of their experience, and to present and discuss these with their peers.</region>
+        <region class="DoCO:FigureBox" id="Fx113">
+          <image class="DoCO:Figure" src="62jg.page_018.image_19.png" thmb="62jg.page_018.image_19-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="114" page="18" column="2">18</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="115" page="19" column="1">Step 3</outsider>
+        <region class="unknown" id="116" page="19" column="1">Meeting</region>
+        <region class="DoCO:TextChunk" id="117" page="19" column="1">After sensitizing, the researchers and users meet for a session. This can be a group session, typically with up to 6 users, but it can also be an interview at the users’ home or work location. In the session, a number of exercises is done, to gradually deepen the insights about the topic. The setup of exercises can follow the path of expression, e.g., start with discussing the workbooks, then calling up memories with a image-and-word collage, then move toward future considerations with other expressive tools, such as rough modelling. One of the researchers facilitates the session, and attends to the process, another one takes notes and observes (and may give hints</region>
+        <region class="DoCO:TextChunk" id="118" confidence="possible" page="19" column="2">see for tips on each step page 26-27 to the facilitator). With group sessions, it is important to invite participants to discuss freely and deeply about each other’s considerations. Here, the participating users have an ‘expert discussion’.</region>
+        <region class="DoCO:TextChunk" id="119" page="19" column="2">Some users may hesitate to express their opinions, or be shy. In facilitating such sessions, people can be put at ease by appropriate instructions (‘There is not a right or wrong answer to this assignment: we want to know your answer because you are the expert here’) and techniques (such as the AsSeenOnTV frame which provides a reassuring stage for presenting).</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="120" page="19" column="2">19</outsider>
+        <region class="DoCO:FigureBox" id="Fx121">
+          <image class="DoCO:Figure" src="62jg.page_020.image_20.png" thmb="62jg.page_020.image_20-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="122" confidence="possible" page="20" column="2">Analyzing involves activities as transcribing videos, selecting and interpreting chunks of data, organising these to form themes and distill sensitizing insights, often make as a &amp; group say activity. discussing</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="123" page="20" column="2">&amp; share</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="124" page="20" column="2">and communic design team</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="125" page="20" column="2">20</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="126" page="21" column="1">Step 4</outsider>
+        <region class="unknown" id="127" page="21" column="1">Analyzing</region>
+        <region class="DoCO:TextChunk" id="128" page="21" column="1">Sessions and workbooks provide large amounts of raw data, which must be organized and interpreted to find patterns and examples, considerations and possible directions. The data contains photographs and workbooks that participants made, expressive artefacts from the session, and often a video recording and full text transcript from the session. From the transcript, quotes are selected, interpreted, and organized.</region>
+        <region class="DoCO:TextChunk" id="129" confidence="possible" page="21" column="1">Based on the first impressions of the research team, a qualitative analysis is performed. Different researchers go through the materials, make selections and interpretations, and try</region>
+        <region class="DoCO:FigureBox" id="Fx130">
+          <image class="DoCO:Figure" src="62jg.page_021.image_21.png" thmb="62jg.page_021.image_21-thumb.png"/>
+        </region>
+        <region class="unknown" id="131" page="21" column="2">see for tips on each step page 26-27</region>
+        <region class="DoCO:TextChunk" id="133" page="21" column="2">to find patterns of similarities and differences. Small or large portions of quantitative analysis may also be done, e.g., counting how often a certain issue was addressed. For instance, in a student project on the travel experience of rail commuters, it turned out that all of the participants extensively addressed the subject of smoking/no-smoking. <marker type="block"/> Making interpretations and categories, and creating a rich visual environment for the researchers to immerse themselves in are typical activities. Analysis can take up several days, and involve extensive discussions in the researchers.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="134" page="21" column="2">21</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="135" page="22" column="1">Some visual-verbal From left to right an personal cardset, social</outsider>
+        <region class="DoCO:TextChunk" id="136" confidence="possible" page="22" column="1">preparing</region>
+        <region class="DoCO:TextChunk" id="137" confidence="possible" page="22" column="1">sensitizing make &amp; say discussing session collecting user insights</region>
+        <region class="DoCO:FigureBox" id="Fx138">
+          <image class="DoCO:Figure" src="62jg.page_022.image_22.png" thmb="62jg.page_022.image_22-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="139" confidence="possible" page="22" column="2">analyzing capture &amp; share conceptualizing</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="140" page="22" column="2">to</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="141" page="22" column="2">22</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="142" page="23" column="1">Step 5</outsider>
+        <region class="unknown" id="143" page="23" column="1">Communicating</region>
+        <region class="DoCO:FigureBox" id="Fx144">
+          <image class="DoCO:Figure" src="62jg.page_023.image_23.png" thmb="62jg.page_023.image_23-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="145" confidence="possible" page="23" column="1">In practice, the design team often has not met the users (unfortunately). The researchers have to bring across the ‘user experience’ to the designers, give them a feeling for the user’s perspective, needs, and values. In concept development, the designers need inspiration beyond the information given in statistics and diagrams of classical marketing research (although that also is valuable input). Designers indicate they are most inspired by raw data, such as quotes, home photos, and fragments of video of the users speaking. They also want to draw their own conclusions, so enough data should be added with the conclusions of the researchers.</region>
+        <region class="unknown" id="146" page="23" column="2">see for tips on each step page 26-27</region>
+        <region class="DoCO:TextChunk" id="148" page="23" column="2">A variety of communication techniques have been used and explored, exploring ways to convey ‘pieces of experience’, semi-complete ‘action posters’ and websites or workbooks that sensitized the design team, arousing their curiosity by providing snippets of insight, and helping them to make connections between their own experiences and those of the user. <marker type="block"/> Just as in the other research steps, communicating draws on design skills, in making visualisations and interactive forms to engage the receivers of the user insights, and inspire them to come up with better ideas.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="149" page="23" column="2">2</outsider>
+        <region class="DoCO:TextChunk" id="150" confidence="possible" page="24" column="1">Idea generation and concept development depends on many sources of information besides the context of use (technology, business,...). Combining all these factors is essential to good design, and the context sensitizing information make &amp; has say to fit into discussing this whole. analyzing</region>
+        <region class="DoCO:FigureBox" id="Fx151">
+          <image class="DoCO:Figure" src="62jg.page_024.image_24.png" thmb="62jg.page_024.image_24-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="152" page="24" column="2">24</outsider>
+        <region class="DoCO:FigureBox" id="Fx153">
+          <image class="DoCO:Figure" src="62jg.page_025.image_25.png" thmb="62jg.page_025.image_25-thumb.png"/>
+        </region>
+        <region class="unknown" id="154" page="25" column="2">and beyond page 26-27</region>
+        <region class="DoCO:TextChunk" id="155" page="25" column="2">Communication serves to improve idea generation, concept development, and further product development. Also in later phases, it can be worthwhile to ‘re-use the same experts’ by letting them evaluate the designs. In our experience, users are often highly motivated to look at the results again, and can build on the knowledge they generated many weeks after the original study. In the meantime, they often have become aware of new insights about their experience, which they enjoy sharing again.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="156" page="25" column="2">25</outsider>
+        <region class="unknown" id="157" page="26" column="1">faci , , , , , , , , , . , , , ,</region>
+        <region class="unknown" id="158" page="26" column="1">toolkit s</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="159" page="26" column="1">Ste p 2 sen sitizi ng • cared-for make it person al , but well • • when always make creating it do inviti pilot ng yo testin ur &amp; pla g yf ul materials • • person meet rather invite yo the than ur par user answ ticipants to er ex tend in</outsider>
+        <region class="unknown" id="160" page="26" column="1">,</region>
+        <region class="unknown" id="161" page="26" column="1">,</region>
+        <region class="DoCO:FigureBox" id="Fx162">
+          <image class="DoCO:Figure" src="62jg.page_026.image_26.png" thmb="62jg.page_026.image_26-thumb.png"/>
+        </region>
+        <region class="unknown" id="163" page="26" column="2">Step 1 preparing Determine what you</region>
+        <region class="unknown" id="164" page="26" column="2">Capture your preconception s in a mindmap Start selecting participants in time</region>
+        <region class="unknown" id="165" page="26" column="2">,</region>
+        <region class="DoCO:TextChunk" id="166" confidence="possible" page="26" column="2">preparing</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="167" page="26" column="2">an</outsider>
+        <region class="DoCO:TextChunk" id="168" confidence="possible" page="26" column="2">sensitizing make &amp; say discussing session collecting user insights</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="169" page="26" column="2">26</outsider>
+        <region class="unknown" id="170" page="27" column="1">in</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="171" page="27" column="1">Step 4 • immerse yourself the data • clarify your interp • give it some tim e • do it together (tr • be su rprise d • find patterns</outsider>
+        <region class="unknown" id="172" page="27" column="1">5 do a lea se ve ns iti ro ze om th for e de ow sig n ne rs tio ns it al yo ur con peo ple raw</region>
+        <region class="DoCO:FigureBox" id="Fx173">
+          <image class="DoCO:Figure" src="62jg.page_027.image_29.png" thmb="62jg.page_027.image_29-thumb.png"/>
+        </region>
+        <region class="unknown" id="174" page="27" column="1">res ult s</region>
+        <region class="unknown" id="175" page="27" column="1">res</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="176" page="27" column="1">g</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="177" page="27" column="1">analyzing capture &amp; share</outsider>
+        <region class="DoCO:TextChunk" id="178" confidence="possible" page="27" column="1">conceptualizing to</region>
+        <region class="unknown" id="179" page="27" column="1">Step 6 keep user &amp; experience in mind tell stories, make storyboards do roleplaying</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="180" page="27" column="1">share with and communicate the design team</outsider>
+        <region class="DoCO:FigureBox" id="Fx181">
+          <image class="DoCO:Figure" src="62jg.page_027.image_30.png" thmb="62jg.page_027.image_30-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="182" confidence="possible" page="27" column="2">To each of the steps in the contextmapping process there are practical guidelines, tips, and tricks, which help conducting the techniques more successfully. Here’s a few of them which we have covered in the course.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="183" page="27" column="2">2</outsider>
+        <region class="DoCO:FigureBox" id="Fx184">
+          <image class="DoCO:Figure" src="62jg.page_028.image_31.png" thmb="62jg.page_028.image_31-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="185" confidence="possible" page="28" column="2">The procedure and techniques can vary widely. For instance, there can be more than one session (left), short augmented interviews (below), or different forms of tools (far below).</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="186" page="28" column="2">28</outsider>
+        <region class="DoCO:TextChunk" id="187" confidence="possible" page="29" column="1">In the previous pages we outlined a standard contextmapping procedure, with clearly defined separate steps. But this is not the only way. The steps in the procedure are indications, but</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="188" page="29" column="1">the</outsider>
+        <region class="unknown" id="189" page="29" column="1">contextmapping procedure is flexible</region>
+        <region class="DoCO:TextChunk" id="198" page="29" column="1">in practice the steps overlap. When a designer is also doing the research, the communication step will be different. Users may not just generate data for insights, but actual ideas for solutions. And insights and knowledge grows not just in the step of analyzing, but throughout the process. <marker type="column" number="2"/><marker type="block"/> The roles of stakeholders overlap, and are changing. In this booklet we speak of ‘designer’, ‘user’, and ‘researcher’, but these roles often are carried out by the same people, in teams, and in varying degrees at different times.<marker type="block"/> A study can vary from a large effort with tens of researchers down to short single meetings with users, in which generative techniques are used to ‘augment’ what is basically an interviewing technique. Often, designers are brought in to watch or participate in the sessions and/or analysis. Users may also participate in the analysis and/or concept generation. The tools that are used may be adapted to fit special circumstances of the users or researchers.<marker type="page" number="31"/><marker type="column" number="1"/><marker type="block"/> the contextmapping project aims to develop tools and techniques for involving users’ expertise about their own experiences in design.</region>
+        <region class="DoCO:FigureBox" id="Fx191">
+          <image class="DoCO:Figure" src="62jg.page_029.image_32.png" thmb="62jg.page_029.image_32-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="194" page="29" column="2">29</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="195" page="29" column="2">The roles of stakeholders are changing</outsider>
+        <region class="DoCO:FigureBox" id="Fx196">
+          <image class="DoCO:Figure" src="62jg.page_030.image_33.png" thmb="62jg.page_030.image_33-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="197" page="30" column="2">0</outsider>
+        <region class="DoCO:FigureBox" id="Fx199">
+          <image class="DoCO:Figure" src="62jg.page_031.image_34.png" thmb="62jg.page_031.image_34-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="200" confidence="possible" page="31" column="1">Contextmapping at tu Delft</h1>
+        <region class="DoCO:TextChunk" id="228" page="31" column="1">the Faculty of industrial Design engineering has been educating design at a university level for over 40 years, and at the present hosts 2000 full-time students of Industrial Design, including one BSc and three MSc programmes integrating the aspects of business, technology, and users. 3700 Alumni are currently working throughout industries, often as design managers and design researchers. <marker type="column" number="2"/><marker type="block"/> iD-studioLab is the user-centered design research laboratory at the Faculty of Industrial Design Engineering of TU Delft, comprising a network of over 20 PhD-students and 30 design researchers focusing on different aspects of user-centered design research.<marker type="block"/> is chair of design techniques, and heads a design research group focusing on tools and techniques for the early phases of the design process. Main topics of the group are contextmapping and experience prototyping, with an emphasis on new media tools.<marker type="page" number="32"/><marker type="block"/> Carolien postma, Msc studies how to design products and services that fit into people’s social lives. In daily life, product use often affects social interactions between people and vice versa, but most design methods focus on the individual’s perspective only. Carolien’s work aims at developing a people- centered design method and tools that support design teams in including the social dimension in design. project<marker type="page" number="33"/><marker type="block"/> Christine De Lille, Msc studies how user research, e.g., contextmapping, can be applied in SME’s such as design agencies, that do not have the means or knowhow to do large- scale user research techniques. Therefore she studies quick and dirty user research methods, and how they can be applied in small design companies.</region>
+        <region class="DoCO:FigureBox" id="Fx202">
+          <image class="DoCO:Figure" src="62jg.page_031.image_36.png" thmb="62jg.page_031.image_36-thumb.png"/>
+        </region>
+        <region class="unknown" id="204" page="31" column="2">prof.dr. pieter Jan stappers</region>
+        <region class="DoCO:FigureBox" id="Fx206">
+          <image class="DoCO:Figure" src="62jg.page_031.image_35.png" thmb="62jg.page_031.image_35-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="207" page="31" column="2">1</outsider>
+        <region class="unknown" id="208" page="32" column="1">sleeswijk Visser, Msc experience data can be practice. User studies</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="209" page="32" column="1">Froukje studies how user communicated in design deliver a rich set of data, inspiring for designers. of the richness gets lost between researcher and new tools seek a balance data fragments and interpretated insights.</outsider>
+        <region class="DoCO:FigureBox" id="Fx210">
+          <image class="DoCO:Figure" src="62jg.page_032.image_38.png" thmb="62jg.page_032.image_38-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="212" page="32" column="1"> <email id="211">f.sleeswijkvisser@tudelft.nl</email></outsider>
+        <region class="DoCO:FigureBox" id="Fx213">
+          <image class="DoCO:Figure" src="62jg.page_032.image_37.png" thmb="62jg.page_032.image_37-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="215" page="32" column="2">2</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="216" page="32" column="2">Research</outsider>
+        <region class="unknown" id="217" page="33" column="1">rijn, Msc users</region>
+        <region class="unknown" id="218" page="33" column="1">such as dementia,</region>
+        <region class="unknown" id="219" page="33" column="1">to develop a experiences of</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="220" page="33" column="1">helma van studies how difficult-to-reach can be involved in contextmapping studies. These users, people with autism and have difficulties with expressing themselves. She aims toolbox to gather their in different ways. Important aspect is the inclusion caregivers. .</outsider>
+        <region class="DoCO:FigureBox" id="Fx221">
+          <image class="DoCO:Figure" src="62jg.page_033.image_39.png" thmb="62jg.page_033.image_39-thumb.png"/>
+        </region>
+        <region class="unknown" id="222" page="33" column="1">senior with dementia child with autism people from another culture</region>
+        <region class="DoCO:FigureBox" id="Fx223">
+          <image class="DoCO:Figure" src="62jg.page_033.image_44.png" thmb="62jg.page_033.image_44-thumb.png"/>
+          <image class="DoCO:Figure" src="62jg.page_033.image_46.png" thmb="62jg.page_033.image_46-thumb.png"/>
+          <image class="DoCO:Figure" src="62jg.page_033.image_47.png" thmb="62jg.page_033.image_47-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="225" page="33" column="1"> <email id="224">h.vanrijn@tudelft.nl</email></outsider>
+        <region class="unknown" id="226" page="33" column="1">what would you design for them?</region>
+        <region class="DoCO:FigureBox" id="Fx227">
+          <image class="DoCO:Figure" src="62jg.page_033.image_40.png" thmb="62jg.page_033.image_40-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx229">
+          <image class="DoCO:Figure" src="62jg.page_033.image_41.png" thmb="62jg.page_033.image_41-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="230" confidence="possible" page="34" column="1">Many people have contributed to this booklet.</region>
+        <region class="DoCO:TextChunk" id="233" page="34" column="1">Acknowledgements The theories and ideas were developed in discussions with many people in ID-StudioLab and outside, especially Liz Sanders of MakeTools. We also benefited from the feedback from the 400 students who took the Context &amp; Conceptualization course, and the 50 students who used the techniques intensively during <marker type="column" number="2"/><marker type="block"/> their graduation projects with industries in the Netherlands and worldwide, and the many students at international workshops. The visuals, quotes, and tips shown here come from projects of the above people. Many of them can be found in the publications listed or linked on the contextmapping.com website.</region>
+        <region class="DoCO:FigureBox" id="Fx232">
+          <image class="DoCO:Figure" src="62jg.page_034.image_49.png" thmb="62jg.page_034.image_49-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="234" confidence="possible" page="34" column="2">The graphic design was done by Corrie van der Lelie</region>
+        <outsider class="DoCO:TextBox" type="footer" id="235" page="34" column="2">4</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

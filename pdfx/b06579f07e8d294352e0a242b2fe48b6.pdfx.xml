@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>abfce0d7c13bd53d4a9b27a254e75058e872e4d5865f9abee7df29dbd2a3a613</job>
+    <base_name>62ll</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1007/978-3-642-13335-0_4">http://dx.doi.org/10.1057/ejis.2011.54</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">DESIGN THEORIES IN INFORMATION SYSTEMS - A NEED FOR MULTI-GROUNDING</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="outsider" id="2">JITTA : Journal of Information Technology Theory and Application; 2004; 6, 2; ABI/INFORM Global</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Göran Goldkuhl pg.</name>
+          <aff id="4">59</aff>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="22" page="1" column="1">Reproduced with permission of the copyright owner. Further reproduction prohibited without permission. <marker type="page" number="2"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="3"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="4"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="5"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="6"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="7"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="8"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="9"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="10"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="11"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="12"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="13"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.<marker type="page" number="14"/><marker type="block"/> Reproduced with permission of the copyright owner. Further reproduction prohibited without permission.</region>
+      <region class="DoCO:FigureBox" id="Fx10">
+        <image class="DoCO:Figure" src="62ll.page_006.image_01.png" thmb="62ll.page_006.image_01-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="Fx12">
+        <image class="DoCO:Figure" src="62ll.page_007.image_02.png" thmb="62ll.page_007.image_02-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="Fx17">
+        <image class="DoCO:Figure" src="62ll.page_011.image_03.png" thmb="62ll.page_011.image_03-thumb.png"/>
+      </region>
+      <region class="DoCO:FigureBox" id="Fx21">
+        <image class="DoCO:Figure" src="62ll.page_014.image_04.png" thmb="62ll.page_014.image_04-thumb.png"/>
+      </region>
+    </body>
+  </article>
+</pdfx>

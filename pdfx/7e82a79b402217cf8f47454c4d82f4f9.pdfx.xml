@@ -1,0 +1,782 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>cbf9789ded35fd7696c1f3c73c31edbd2ccba20a84b30d51330cd8c2bfbe114e</job>
+    <base_name>62rf</base_name>
+    <doi>http://dx.doi.org/10.1007/1-4020-5386-x_19</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="unknown" id="1">In Lieberman, H., Paternò, F., Wulf, V. (Eds) (2004) End User Development - Empowering People to Flexibly Employ Advanced Information and Communication Technology, Kluwer Academic Publishers, Dordrecht, The Netherlands.</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">Meta-Design: A Framework for the Future of End-User Development</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Gerhard Fischer</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Elisa Giaccardi</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="7">University of Colorado, Center for LifeLong Learning and Design (L3D) Department of Computer Science, 430 UCB Boulder, CO 80309-0430 – USA <email id="5">gerhard@cs.colorado.edu</email> and University of Plymouth, Centre for Advanced Inquiry in Interactive Art – Science Technology and Art Research (CAiiA-STAR) School of Computing, Drake Circus Plymouth, PL4 8AA, Devon – UK <email id="6">eg@planetary-collegium.net</email></region>
+      <abstract class="DoCO:Abstract" id="8">In a world that is not predictable, improvisation, evolution, and innovation are more than a luxury: they are a necessity. The challenge of design is not a matter of getting rid of the emergent, but rather of including it and making it an opportunity for more creative and more adequate solutions to problems. Meta-design is an emerging conceptual framework aimed at defining and creating social and technical infrastructures in which new forms of collaborative design can take place. It extends the traditional notion of system design beyond the original development of a system to include a co- adaptive process between users and a system, in which the users become co-developers or co- designers. It is grounded in the basic assumption that future uses and problems cannot be completely anticipated at design time, when a system is developed. Users, at use time, will discover mismatches between their needs and the support that an existing system can provide for them. These mismatches will lead to breakdowns that serve as potential sources of new insights, new knowledge, and new understanding. This paper is structured in four parts: conceptual framework, environments, applications, and findings and challenges. Along the structure of the paper, we discuss and explore the following essential components of meta-design, providing requirements, guidelines, and models for the future of end-user development: (1) the relationship of meta-design to other design methodologies; (2) the Seeding, Evolutionary Growth, Reseeding (SER) Model, a process model for large evolving design artifacts; (3) the characteristics of unselfconscious cultures of design, their strengths and their weaknesses, and the necessity for owners of problems to be empowered to engage in end-user development; (4) the possibilities created by meta-design to bring co-creation alive; and (5) the need for an integrated design space that brings together a technical infrastructure that is evolvable, for the design of learning environments and work organizations that allow end- users to become active contributors, and for the design of relational settings in which users can relate, find motivations and rewards, and accumulate social capital.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">Keywords design for change; design time; use time; underdesign; seeding, evolutionary growth, reseeding model; unselfconscious cultures of design; open systems; domain-oriented design environments; Envisionment and Discovery Collaboratory; interactive art; co-creation; social capital; value- feelings; design space.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="10" page="1" column="1">G. Fischer and E. Giaccardi</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="11" page="1" column="1">1</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="12" page="1" column="1">Chapter for EUD Book</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="13" page="2" column="1">Table of Contents</h1>
+        <region class="unknown" id="14" page="2" column="1">1 Introduction ________________________________________________________ 2 The Rationale for Meta-Design ________________________________________ 3 A Conceptual Framework for Meta-Design_______________________________</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="15" page="2" column="1">4 5 5</outsider>
+        <region class="DoCO:TextChunk" id="16" confidence="possible" page="2" column="1">3.1 Design for Change ______________________________________________________6 3.1 Design Time and Use Time _______________________________________________7 3.2 Beyond User-Centered Design and Participatory Design _______________________8 3.3 The Seeding, Evolutionary Growth, and Reseeding (SER) Process Model _________8 3.4 Towards an Unselfconscious Culture of Design _____________________________10 4 Environments Supporting Meta-Design_________________________________ 10 4.1 Domain-Oriented Design Environments ___________________________________11 4.2 The Envisionment and Discovery Collaboratory ____________________________11 5 Application of Meta-Design Approaches ________________________________ 12 5.1 Interactive Art ________________________________________________________12 5.2 Social Creativity ______________________________________________________15 5.3 Learning Communities _________________________________________________16 5.4 Open Source__________________________________________________________16 6 Findings and Challenges for the Future ________________________________ 17 6.1 Standardization and Improvisation _______________________________________17 6.2 Consumers and Designers_______________________________________________17 6.3 Enabling Co-Creation __________________________________________________18 6.4 “Ease-of-Use” Revisited ________________________________________________19 6.5 Motivation and Rewards________________________________________________20 6.6 The New Design Space of Meta-Design ____________________________________20 7 Conclusions _______________________________________________________ 22 8 Acknowledgements _________________________________________________ 23 9 References ________________________________________________________ 23</region>
+        <outsider class="DoCO:TextBox" type="footer" id="17" page="2" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="18" page="2" column="1">2</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="19" page="2" column="1">Chapter for EUD Book</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="20" page="3" column="1">List of Figures</h1>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="28" confidence="possible" page="3" column="1">Figure 1: The Structure of Our Contribution: How Themes Are Interrelated ________________________ 4 <xref ref-type="fig" rid="F2" id="21" class="deo:Reference">Figure 2</xref>: Design Time and Use Time ______________________________________________________ 7 <xref ref-type="fig" rid="F3" id="22" class="deo:Reference">Figure 3</xref>: Beyond Binary Choices – The Consumer/Designer Spectrum ____________________________ 8 <xref ref-type="fig" rid="F4" id="23" class="deo:Reference">Figure 4</xref>: The Seeding, Evolutionary Growth, and Reseeding Process Model ________________________ 9 <xref ref-type="fig" rid="F5" id="24" class="deo:Reference">Figure 5</xref>: A Layered Architecture Supporting Human Problem-Domain Interaction__________________ 11 <xref ref-type="fig" rid="F6" id="25" class="deo:Reference">Figure 6</xref>: The Electronic Café Project. © 1995/2002 Kit Galloway &amp; Sherrie Rabinowitz _____________ 13 <xref ref-type="fig" rid="F7" id="26" class="deo:Reference">Figure 7</xref>: “A-Volve” - Design and Interaction. ©1994/1995, Christa Sommerer &amp; Laurent Mignonneau interactive computer installation supported by ICC-NTT Japan and NCSA, USA ____________________ 14 <xref ref-type="fig" rid="F8" id="27" class="deo:Reference">Figure 8</xref>: One Layer of Interaction in SITO/Gridcosm ________________________________________ 14</caption>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="29" page="3" column="1">List of Tables</h1>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="33" confidence="possible" page="3" column="1">Table 1: Traditional Design versus Meta-Design _____________________________________________ 6 <xref ref-type="table" rid="T2" id="30" class="deo:Reference">Table 2</xref>: Comparing Selfconscious and Unselfconscious Cultures of Design________________________ 10 <xref ref-type="table" rid="T3" id="31" class="deo:Reference">Table 3</xref>: Comparing Three Interactive Art Projects from a Meta-Design Perspective _________________ 15 <xref ref-type="table" rid="T4" id="32" class="deo:Reference">Table 4</xref>: Overview of the Design Space for Meta-Design_______________________________________ 22</caption>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="34" page="3" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="35" page="3" column="1">3</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="36" page="3" column="1">Chapter for EUD Book</outsider>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="37" page="4" column="1">1 Introduction</h1>
+        <region class="DoCO:TextChunk" id="49" page="4" column="1">Considering end-user development and meta-design as a challenge, one has to move beyond the binary choice of low-level, domain-unspecific interactive programming environments and over- specialized application systems defined by the two end-points on a spectrum:  Turing Tar Pit: “Beware of the Turing Tar Pit, in which everything is possible, but nothing of interest is easy.” (Alan Perlis)  The Inverse of the Turing Tar Pit: “Beware of over-specialized systems, where operations are easy, but little of interest is possible.” The Turing Tar Pit argument provides a supporting argument as to why interactive programming environments, such as Lisp, Logo, Smalltalk, Squeak, Agentsheets, and many others [ <xref ref-type="bibr" rid="R36" id="38" class="deo:Reference">Lieberman, 2001</xref>] are not ideal for supporting meta-design. These tools provide the ultimate level of openness and flexibility (e.g., Squeak is an open source implementation of Smalltalk written entirely in itself). As general-purpose programming languages, they are capable of representing any problem that computers can be used to solve, and as open systems they let users change any aspect of the system if necessary. Although these systems are useful as computational substrates, they by themselves are insufficient for meta-design. The essential problem with these systems is that they provide the incorrect level of representation for most problems [<xref ref-type="bibr" rid="R59" id="39" class="deo:Reference">Shaw, 1989</xref>]. Expressing a problem and designing a solution in these systems requires creating a mapping from the context of the problem to the core constructs provided by the programming language and its supporting library. On the other side of the spectrum, domain- specific but closed systems (e.g., SimCity 4 [Electronic-<xref ref-type="bibr" rid="R17" id="40" class="deo:Reference">Arts, 2004</xref>]) provide extensive support for certain problem contexts, but the ability to extend these environments is fundamentally limited.<marker type="block"/> Based on our research over the last two decades at the Center for Lifelong Learning and Design at the University of Colorado, Boulder, we will first provide some arguments for the desirability and need of meta-design. We will then develop a conceptual framework for meta-design and<marker type="page" number="5"/><marker type="block"/> illustrate the approach with prototype developments mostly drawn from our own work. The description of meta-design approaches in several application areas (with a focus on interactive art) shows the potential and applicability of the concept. We will conclude with a section of findings and challenges for future developments. <xref ref-type="fig" rid="F1" id="48" class="deo:Reference">Figure 1</xref> illustrates how different themes of the paper are interrelated and how they contribute to the unifying theme of meta-design.</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <image class="DoCO:Figure" src="62rf.page_004.image_01.png" thmb="62rf.page_004.image_01-thumb.png"/>
+          <caption class="deo:Caption" id="43" page="4" column="1">Figure 1: The Structure of Our Contribution: How Themes Are Interrelated</caption>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="45" page="4" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="46" page="4" column="1">4</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="47" page="4" column="1">Chapter for EUD Book</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="50" page="5" column="1">2 The Rationale for Meta-Design</h1>
+        <region class="DoCO:TextChunk" id="56" page="5" column="1">In a world that is not predictable, improvisation, evolution, and innovation are more than luxuries: they are necessities. The challenge of design is not a matter of getting rid of the emergent, but rather of including it and making it an opportunity for more creative and more adequate solutions to problems. Meta-design is a conceptual framework defining and creating social and technical infrastructures in which new forms of collaborative design can take place. For most of the design domains that we have studied over many years (e.g., urban design, software design, design of learning environments, and interactive art) the knowledge to understand, frame, and solve problems is not given, but is constructed and evolved during the problem-solving process. Meta-design addresses the following three necessities for socio-technical environments [<xref ref-type="bibr" rid="R3" id="51" class="deo:Reference">Fischer &amp; Scharff, 2000</xref>]: 1. They must be flexible and evolve because they cannot be completely designed prior to use. 2. They must evolve to some extent at the hands of the users. 3. They must be designed for evolution. The goal of making systems modifiable and evolvable by users does not imply transferring the responsibility of good system design to the user. Domain experts (who see software development as a means to an end) will design tools and create contents of a different quality than professional software designers (for whom software is both a means and an ends). Domain experts are not concerned with the tool per se, but in doing their work. However, if the tool created by the developer does not satisfy the needs or the tastes of the user (who knows best), then the user should be able to adapt the system without always requiring the assistance of the developer. Meta-design extends the traditional notion of system design beyond the original development of a system to include a co-adaptive process between users and system, in which the users become co-developers [<xref ref-type="bibr" rid="R37" id="52" class="deo:Reference">Mackay, 1990</xref>]. Users learn to operate a system and adapt to its functionality, and systems are modified to adapt to the practices of its users. Meta-design supports the dialogue evolving between the participants in the process of co-adaptivity — that is, the software artifact and the human subject — so that both move beyond their original states. In this way, meta- design sustains the interactive feedback of information amongst technological and human systems and their components, a practice early recognized and adopted by those artists that utilized technology in the production of art [<xref ref-type="bibr" rid="R58" id="53" class="deo:Reference">Shanken, 2002</xref>]. An example that we have studied extensively involves high-functionality applications (HFAs) [<xref ref-type="bibr" rid="R11" id="54" class="deo:Reference">Fischer, 2001</xref>]. These systems already contain too much unused functionality (at least in the abstract) — so why would it be necessary to create even more functionality? Even though HFAs are large and complex, it is often the case that the functionality required for a specific problem does not exist in the system. Meta-design approaches to HFAs [<xref ref-type="bibr" rid="R16" id="55" class="deo:Reference">Eisenberg &amp; Fischer, 1994</xref>] are necessary because (1) the information and functionality represented in the system can never be complete because the world changes and new requirements emerge; and (2) skilled domain professionals change their work practices over time. Their understanding and use of a system will be very different after a month compared to after several years. If systems cannot be modified to support new practices, users will be locked into old patterns of use, and they will abandon a system in favor of one that better supports the way they want to work.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="57" page="5" column="1">3 A Conceptual Framework for Meta-Design</h1>
+        <region class="DoCO:TextChunk" id="60" confidence="possible" page="5" column="1">Extending the traditional notion of system design beyond the original development of a system, meta-design [<xref ref-type="bibr" rid="R3" id="58" class="deo:Reference">Fischer &amp; Scharff, 2000</xref>; <xref ref-type="bibr" rid="R33" id="59" class="deo:Reference">Giaccardi, 2003</xref>] includes a process in which users become co- designers not only at design time, but throughout the whole existence of the system. A necessary,</region>
+        <outsider class="DoCO:TextBox" type="footer" id="61" page="5" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="62" page="5" column="1">5</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="63" page="5" column="1">Chapter for EUD Book</outsider>
+        <region class="DoCO:TextChunk" id="71" page="6" column="1">although not sufficient condition for meta-design is that software systems include advanced features permitting users to create complex customizations and extensions. Rather than presenting users with closed systems, meta-design provides them with opportunities, tools, and social reward structures to extend the system to fit their needs. Meta-design shares some important objectives with user-centered and participatory design, but it transcends these objectives in several important dimensions, and it has changed the processes by which systems and content are designed. Meta-design has shifted some control from designers to users and empowered users to create and contribute their own visions and objectives. Meta-design is a useful perspective for projects for which “designing the design process” is a first-class activity (this perspective of meta-design is not restricted to end-user development, but can be applied to the work of professional software engineers as well [<xref ref-type="bibr" rid="R28" id="64" class="deo:Reference">Floyd et al., 1992</xref>]). This means that creating the technical and social conditions for broad participation in design activities is as important as creating the artifact itself [<xref ref-type="bibr" rid="R69" id="65" class="deo:Reference">Wright et al., 2002</xref>] because “a piece of software does not guarantee you autonomy. What it is, what it is mixed with, how it is used are all variables in the algorithms of power and invention that course through software and what it connects to” [<xref ref-type="bibr" rid="R29" id="66" class="deo:Reference">Fuller, 2003</xref>]. Compared to traditional design approaches, meta-design puts the emphasis on different objectives (see <xref ref-type="table" rid="T1" id="67" class="deo:Reference">Table 1</xref> [<xref ref-type="bibr" rid="R33" id="68" class="deo:Reference">Giaccardi, 2003</xref>]; some of these shifts overlap with those emerging in the aesthetics of interactive art [<xref ref-type="bibr" rid="R4" id="69" class="deo:Reference">Ascott, 2003</xref>]). A number of these objectives are further elaborated and discussed in the following sections. <xref ref-type="table" rid="T1" id="70" class="deo:Reference">Table 1</xref>: Traditional Design versus Meta-Design Traditional Design Meta-Design guidelines and rules exceptions and negotiations representation construction content context object process perspective immersion certainty contingency planning emergence top-down bottom-up complete system seeding autonomous creation co-creation autonomous mind distributed mind specific solutions solutions spaces design-as-instrumental design-as-adaptive accountability, know-what (rational affective model, know-how (embodied decisioning) interactionism)</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="72" page="6" column="1">3.1 Design for Change</h2>
+          <region class="DoCO:TextChunk" id="80" page="6" column="1">Meta-design has to do not only with situatedness in order to fit new needs at use time and account for changing tasks, it has to do also with the embeddedness of computer artefacts in our daily life and practices [ <xref ref-type="bibr" rid="R15" id="73" class="deo:Reference">Ehn &amp; Malmborg, 1999</xref>]. This represents a challenge to the idea of user participation and empowerment, as well as tailorability, because it becomes necessary to look not only to professional work practices, but also to a private life more and more blurred with professional life within “mixed reality environments” [<xref ref-type="bibr" rid="R46" id="74" class="deo:Reference">Pipek &amp; Kahler, 2004</xref>]. To argue that design for change (in buildings, in systems, in socio-technical environments) [<xref ref-type="bibr" rid="R12" id="75" class="deo:Reference">Dittrich &amp; Lindeberg, 2003</xref>] is nearly universal does not help much in understanding how the process works, nor in conjuring how it might go better. Our idea of design must be reframed. Meta- design contributes to the invention and design of cultures in which humans can express themselves and engage in personally meaningful activities. The conceptual frameworks that we<marker type="page" number="7"/><marker type="block"/> have developed around meta-design explore some fundamental challenges associated with design for change: 1 How we can support skilled domain workers who are neither novices nor naive users, but who are interested in their work and who see the computer as a means rather than as an end? 2 How we can create co-adaptive environments, in which users change because they learn, and in which systems change because users become co-developers and active contributors? 3 How we can deal with the active participation and empowerment of a subject, the profile of which tends to blur and dissolve beyond the limits of definite and independent professional domains, practices, and technologies?</region>
+          <outsider class="DoCO:TextBox" type="footer" id="77" page="6" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="78" page="6" column="1">6</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="79" page="6" column="1">Chapter for EUD Book</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="81" page="7" column="1">3.1 Design Time and Use Time</h2>
+          <region class="DoCO:TextChunk" id="95" page="7" column="1">In all design processes, two basic stages can be differentiated: design time and use time (see <xref ref-type="fig" rid="F2" id="82" class="deo:Reference">Figure 2</xref>). At design time, system developers (with or without user involvement) create environments and tools. In conventional design approaches, they create complete systems for the world-as-imagined. At use time, users use the system but their needs, objectives, and situational contexts can only be anticipated at design time, thus, the system often requires modification to fit the user’s needs. To accommodate unexpected issues at use time, systems need to be underdesigned at design time, while directly experiencing their own world. Underdesign [<xref ref-type="bibr" rid="R5" id="83" class="deo:Reference">Brand, 1995</xref>] in this context does not mean less work and fewer demands for the design team, but it is fundamentally different from creating complete systems. The primary challenge of underdesign is in developing not solutions, but environments that allow the “owners of problems” [<xref ref-type="bibr" rid="R16" id="84" class="deo:Reference">Fischer, 1994b</xref>] to create the solutions themselves at use time. This can be done by providing a context and a background against which situated cases, coming up later, can be interpreted [<xref ref-type="bibr" rid="R16" id="85" class="deo:Reference">Fischer, 1994a</xref>]. Underdesign is a defining activity for meta-design aimed at creating design spaces for others. key<marker type="block"/> However, as indicated in <xref ref-type="fig" rid="F3" id="89" class="deo:Reference">Figure 3</xref>, we do not assume that being a consumer or being a designer is a binary choice for the user: it is rather a continuum ranging from passive consumer, to well- informed consumer [<xref ref-type="bibr" rid="R22" id="90" class="deo:Reference">Fischer, 2002</xref>] , to end-user, to power users [<xref ref-type="bibr" rid="R42" id="91" class="deo:Reference">Nardi, 1993</xref>], to domain designer [<xref ref-type="bibr" rid="R16" id="92" class="deo:Reference">Fischer, 1994a</xref>] all the way to meta-designer (a similar role distribution or division of labor for domain-oriented design environments is defined in <xref ref-type="fig" rid="F5" id="93" class="deo:Reference">Figure 5</xref> and in [<xref ref-type="bibr" rid="R40" id="94" class="deo:Reference">Morch, 2004</xref>]). It is also the case that the same person is and wants to be a consumer in some situations and in others a designer; therefore “consumer/designer” is not an attribute of a person, but a role assumed in a specific context.</region>
+          <region class="unknown" id="87" page="7" column="1">system developer user (representative) end user time design use time time world-as-imagined world-as-experienced planning situated action</region>
+          <region class="DoCO:FigureBox" id="F2">
+            <caption class="deo:Caption" id="88" page="7" column="1">Figure 2: Design Time and Use Time</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="footer" id="96" page="7" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="97" page="7" column="1">7</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="98" page="7" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:FigureBox" id="F3">
+            <image class="DoCO:Figure" src="62rf.page_008.image_02.png" thmb="62rf.page_008.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="100" page="8" column="1">Figure 3: Beyond Binary Choices – The Consumer/Designer Spectrum</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="103" confidence="possible" page="8" column="1">A critical challenge addressed by our research is to support a migration path [<xref ref-type="bibr" rid="R9" id="101" class="deo:Reference">Burton et al., 1984</xref>] between the different roles mentioned in <xref ref-type="fig" rid="F3" id="102" class="deo:Reference">Figure 3</xref>: consumers, power-users, and designers are nurtured and educated, not born, and people must be supported to assume these roles.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="104" page="8" column="1">3.2 Beyond User-Centered Design and Participatory Design</h2>
+          <region class="DoCO:TextChunk" id="109" page="8" column="1">User-centered design approaches [<xref ref-type="bibr" rid="R45" id="105" class="deo:Reference">Norman &amp; Draper, 1986</xref>] (whether done for users, by users, or with users) have focused primarily on activities and processes taking place at design time in the systems’ original development, and have given little emphasis and provided few mechanisms to support systems as living entities that can be evolved by their users. In user-centered design, designers generate solutions that place users mainly in reactive roles. Participatory design approaches [<xref ref-type="bibr" rid="R57" id="106" class="deo:Reference">Schuler &amp; Namioka, 1993</xref>] seek to involve users more deeply in the process as co-designers by empowering them to propose and generate design alternatives themselves. Participatory design supports diverse ways of thinking, planning, and acting by making work, technologies, and social institutions more responsive to human needs. It requires the social inclusion and active participation of the users. Participatory design has focused on system development at design time by bringing developers and users together to envision the contexts of use. But despite the best efforts at design time, systems need to be evolvable to fit new needs, account for changing tasks, deal with subjects and contexts that increasingly blur professional and private life, couple with the socio-technical environment in which they are embedded, and incorporate new technologies [<xref ref-type="bibr" rid="R35" id="107" class="deo:Reference">Henderson &amp; Kyng, 1991</xref>]. Different from these approaches, meta-design creates open systems that can be modified by their users and evolve at use time, supporting more complex interactions (rather than linear or iterative processes). Open systems allow significant modifications when the need arises. The evolution that takes place through modifications must be supported as a “first class design activity.” The call for open, evolvable systems was eloquently advocated by Nardi [<xref ref-type="bibr" rid="R42" id="108" class="deo:Reference">Nardi, 1993</xref>]: “We have only scratched the surface of what would be possible if end users could freely program their own applications. . . . As has been shown time and again, no matter how much designers and programmers try to anticipate and provide for what users will need, the effort always falls short because it is impossible to know in advance what may be needed. . . . End users should have the ability to create customizations, extensions, and applications . . . {p. 3}.”</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="110" page="8" column="1">3.3 The Seeding, Evolutionary Growth, and Reseeding (SER) Process Model</h2>
+          <region class="DoCO:TextChunk" id="112" confidence="possible" page="8" column="1">The seeding, evolutionary growth, and reseeding (SER) model [<xref ref-type="bibr" rid="R22" id="111" class="deo:Reference">Fischer &amp; Ostwald, 2002</xref>] is a process model for large evolving systems and information repositories based on the postulate that systems that evolve over a sustained time span must continually alternate between periods of activity and unplanned evolutions and periods of deliberate (re)structuring and enhancement. The SER model encourages designers to conceptualize their activity as meta-design, thereby</region>
+          <outsider class="DoCO:TextBox" type="footer" id="113" page="8" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="114" page="8" column="1">8</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="115" page="8" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:TextChunk" id="117" confidence="possible" page="9" column="1">supporting users as designers in their own right, rather than restricting them to being passive consumers. <xref ref-type="fig" rid="F4" id="116" class="deo:Reference">Figure 4</xref> provides an illustration of the SER model.</region>
+          <region class="DoCO:FigureBox" id="F4">
+            <image class="DoCO:Figure" src="62rf.page_009.image_03.png" thmb="62rf.page_009.image_03-thumb.png"/>
+            <caption class="deo:Caption" id="119" page="9" column="1">Figure 4: The Seeding, Evolutionary Growth, and Reseeding Process Model</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="124" page="9" column="1">We have explored the feasibility and usefulness of the SER model in the development of complex socio-technical systems. The evolutions of these systems share common elements, all of which relate to sustained knowledge use and construction in support of informed participation. Seeding. System design methodologies of the past were focused on the objective of building complex information systems as “complete” artifacts through the large efforts of a small number of people. Conversely, instead of attempting to build complete and closed systems, the SER model advocates building seeds that can be evolved over time through the small contributions of a large number of people. A seed is an initial collection of domain knowledge that is designed to evolve at use time. It is created by environment developers and future users to be as complete as possible. However, no information repository can be truly complete due to the situated and tacit nature of knowledge as well as the constant changes occurring in the environment in which the system is embedded [<xref ref-type="bibr" rid="R64" id="120" class="deo:Reference">Suchman, 1987</xref>; <xref ref-type="bibr" rid="R67" id="121" class="deo:Reference">Winograd &amp; Flores, 1986</xref>]. No absolute requirements exist for the completeness, correctness, or specificity of the information in the seed, but the shortcomings and breakdowns often provoke users to add new information to the seed. Evolutionary Growth. The evolutionary growth phase is one of decentralized evolution as the seed is used and extended to do work or explore a problem. In this phase, developers are not directly involved because the focus is on problem framing and problem solving. Instead, the participants have a direct stake in the problem at hand and are designing solutions to problems. During the evolutionary growth phase, the information repository plays two roles simultaneously: (1) it provides resources for work (information that has been accumulated from prior use), and (2) it accumulates the products of work, as each project contributes new information to the seed. During the evolutionary growth phase, users focus on solving a specific problem and creating problem-specific information rather than on creating reusable information. As a result, the information added during this phase may not be well integrated with the rest of the information in the seed. Reseeding. Reseeding is a deliberate and centralized effort to organize, formalize, and generalize information and artifacts created during the evolutionary growth phase [<xref ref-type="bibr" rid="R60" id="122" class="deo:Reference">Shipman &amp; McCall, 1994</xref>]. The goal of reseeding is to create an information repository in which useful information can be found, reused, and extended. As in the seeding phase, developers are needed to perform substantial system and information space modifications, but users must also participate because only they can judge what information is useful and what structures will serve their work practices. Reseeding is necessary when evolutionary growth no longer proceeds smoothly. It is an opportunity to assess the information created in the context of specific projects and activities, and to decide what should be incorporated into a new seed to support the next cycle of evolutionary growth and reseeding. For example, open source software systems [<xref ref-type="bibr" rid="R49" id="123" class="deo:Reference">Raymond &amp; Young, 2001</xref>] often evolve for some time by adding patches, but eventually a new major version must be created that incorporates the patches in a coherent fashion.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="125" page="9" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="126" page="9" column="1">9</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="127" page="9" column="1">Chapter for EUD Book</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="128" page="10" column="1">3.4 Towards an Unselfconscious Culture of Design</h2>
+          <region class="DoCO:TextChunk" id="134" page="10" column="1">Being ill-defined [<xref ref-type="bibr" rid="R51" id="129" class="deo:Reference">Rittel, 1984</xref>], design problems cannot be delegated (e.g., from users to professionals) because they are not understood well enough to be described in sufficient detail. Partial solutions need to “talk back” [<xref ref-type="bibr" rid="R56" id="130" class="deo:Reference">Schön, 1983</xref>] to the owners of the problems who have the necessary knowledge to incrementally refine them. Alexander [<xref ref-type="bibr" rid="R1" id="131" class="deo:Reference">Alexander, 1964</xref>] has introduced the distinction between an unselfconscious culture of design and a selfconscious culture of design. In an unselfconscious culture of design, the failure or inadequacy of the form leads directly to an action to change or improve it. This closeness of contact between designer and product allows constant rearrangement of unsatisfactory details. By putting owners of problems in charge, the positive elements of an unselfconscious culture of design can be exploited in meta- design approaches by creating media that support people in working on their tasks, rather than requiring them to focus their intellectual resources on the medium itself. Informed participation [<xref ref-type="bibr" rid="R6" id="132" class="deo:Reference">Brown &amp; Duguid, 2000</xref>], for instance, is a form of collaborative design in which participants from all walks of life (not just skilled computer professionals) transcend beyond the information given to incrementally acquire ownership in problems and to contribute actively to their solutions. It addresses the challenges associated with open-ended and multidisciplinary design problems. These problems, involving a combination of social and technological issues, do not have “right” answers, and the knowledge to understand and resolve them changes rapidly. To successfully cope with informed participation requires social changes as well as new interactive systems that provide the opportunity and resources for social debate and discussion rather than merely delivering predigested information to users. <xref ref-type="table" rid="T2" id="133" class="deo:Reference">Table 2</xref>: Comparing Selfconscious and Unselfconscious Cultures of Design selfconscious unselfconscious definition an explicit, externalized description of a process of slow adaptation and error design exists (theoretical knowledge) reduction (situated knowledge) original professionally dominated design, primitive societies, handmade things, association design for others design for self primary goal solve problems of others solve own problems examples designed cities: Brasilia, Canberra; naturally grown cities: London, Paris; Microsoft Windows Linux strengths activities can be delegated; division of many small improvements; artifacts well labor becomes possible suited to their function; copes with ill- defined problems weaknesses many artifacts are ill-suited to the job no general theories exist or can be studied expected of them (because the activity is not externalized) requirements externalized descriptions must exist owners of problems must be involved because they have relevant, unarticulated knowledge evaluation high production value; efficient personally meaningful; pleasant and criteria process; robust; reliable engaging experience; self-expression relation with context required for the framing of the both problem framing and solving take context problem place within the bigger context</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="135" page="10" column="1">4 Environments Supporting Meta-Design</h1>
+        <region class="DoCO:TextChunk" id="147" page="10" column="1">The objectives and the impact of meta-design transcend the development of new computational environments and address mindsets, control, motivations, and the willingness to collaborate with others. Even the most sophisticated computational environments will not be sufficient to achieve these objectives, but they are necessary to allow owners of problems to act as informed participants in personally meaningful tasks. Meta-design will benefit from all of the following developments (many of them discussed in other chapters of this book): <marker type="page" number="11"/><marker type="block"/>  to offer task-specific languages that take advantage of existing user knowledge among domain professionals [National-Research-<xref ref-type="bibr" rid="R44" id="140" class="deo:Reference">Council, 2003</xref>] and to hide low-level computational details as much as possible from users (see <xref ref-type="fig" rid="F5" id="141" class="deo:Reference">Figure 5</xref>);  to provide programming environments (such as Squeak, Agentsheets, and others [<xref ref-type="bibr" rid="R36" id="142" class="deo:Reference">Lieberman, 2001</xref>] that make the functionality of the system transparent and accessible so that the computational drudgery required of the user can be substantially reduced;  to exploit the power of collaboration [<xref ref-type="bibr" rid="R3" id="143" class="deo:Reference">Arias et al., 2000</xref>; <xref ref-type="bibr" rid="R42" id="144" class="deo:Reference">Nardi &amp; Zarmer, 1993</xref>]; and  to support customization, reuse, and redesign effectively [<xref ref-type="bibr" rid="R39" id="145" class="deo:Reference">Morch, 1997</xref>; <xref ref-type="bibr" rid="R70" id="146" class="deo:Reference">Ye &amp; Fischer, 2002</xref>]. In this section, we briefly describe two of our developments (domain-oriented design environments and the Envisionment and Discovery Collaboratory) that were inspired by meta-design and in return contributed to our understanding of meta-design.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="137" page="10" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="138" page="10" column="1">10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="139" page="10" column="1">Chapter for EUD Book</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="148" page="11" column="1">4.1 Domain-Oriented Design Environments</h2>
+          <region class="DoCO:TextChunk" id="152" confidence="possible" page="11" column="1">Domain-oriented design environments [<xref ref-type="bibr" rid="R16" id="149" class="deo:Reference">Fischer, 1994a</xref>] support meta-design by advancing human- computer interaction to human problem-domain interaction. Because systems are modeled at a conceptual level with which users are familiar, the interaction mechanisms take advantage of existing user knowledge and make the functionality of the system transparent and accessible. Thus, the computational drudgery required of users can be substantially reduced. <xref ref-type="fig" rid="F5" id="150" class="deo:Reference">Figure 5</xref> illustrates a layered architecture in support of human problem-domain interaction. This architecture allows domain designers to engage in end-user development by describing their problems with the concepts of a design environment rather than with low-level computer abstractions [<xref ref-type="bibr" rid="R34" id="151" class="deo:Reference">Girgensohn, 1992</xref>]. Programming Design Problem Environments Languages Languages Assembly Domains Computer User Domain Environment Compiler Designer Developer Developer</region>
+          <region class="DoCO:FigureBox" id="F5">
+            <caption class="deo:Caption" id="153" page="11" column="1">Figure 5: A Layered Architecture Supporting Human Problem-Domain Interaction</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="154" page="11" column="1">4.2 The Envisionment and Discovery Collaboratory</h2>
+          <region class="DoCO:TextChunk" id="166" page="11" column="1">The Envisionment and Discovery Collaboratory [ <xref ref-type="bibr" rid="R3" id="155" class="deo:Reference">Arias et al., 2000</xref>] is a second-generation design environment focused on the support of collaborative design by integrating physical and computational components to encourage and facilitate informed participation by all users in the design process. The Envisionment and Discovery Collaboratory represents an explicit attempt to create an open system (following the process of the SER model) to address some of the shortcomings of closed systems. Closed systems (in which the essential functionality is anticipated and designed at design time; see <xref ref-type="fig" rid="F2" id="156" class="deo:Reference">Figure 2</xref>) are inadequate to cope with the tacit nature of knowledge and the situatedness of real-world problems. In our research, we have carefully analyzed why simulation environments such as SimCity [Electronic-<xref ref-type="bibr" rid="R17" id="157" class="deo:Reference">Arts, 2004</xref>] are not used for real planning and working environments. SimCity supports some superficial kinds of modifications (such as changing the appearance of buildings in the city), but most functional aspects of the simulation environment have been determined at the original design time. For example, the only way to reduce crime in a simulated city is to add more police stations. It is impossible to explore other solutions, such as<marker type="page" number="12"/><marker type="block"/> increasing social services. Because the functionality of the system was fixed when the system was created, exploring concepts that were not conceived by the system designers is difficult. Due to SimCity’s closed nature, it may be a good tool for passive education or entertainment, but it is inadequate for actual city planning tasks, as our empirical investigations have demonstrated [<xref ref-type="bibr" rid="R3" id="162" class="deo:Reference">Arias et al., 2000</xref>]. One vision that drives the Envisionment and Discovery Collaboratory is to create an end-user extensible version of SimCity. The Envisionment and Discovery Collaboratory supports users to create externalizations [<xref ref-type="bibr" rid="R8" id="163" class="deo:Reference">Bruner, 1996</xref>] that have the following essential roles to support informed participation:  They assist in translating vague mental conceptualizations of ideas into more concrete representations. They require the expression of ideas in an explicit form, and in this process may reveal ideas and assumptions that previously were only tacit [<xref ref-type="bibr" rid="R47" id="164" class="deo:Reference">Polanyi, 1966</xref>].  They provide a means for users to interact with, react to, negotiate around, and build upon ideas. Such a “conversation with the materials” of the design problem [<xref ref-type="bibr" rid="R56" id="165" class="deo:Reference">Schön, 1983</xref>] is a crucial mode of design that can inspire new and creative ideas.  They focus discussions upon relevant aspects of the framing and understanding the problem being studied, thereby providing a concrete grounding and a common language among users.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="159" page="11" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="160" page="11" column="1">11</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="161" page="11" column="1">Chapter for EUD Book</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="167" page="12" column="1">5 Application of Meta-Design Approaches</h1>
+        <region class="DoCO:TextChunk" id="168" page="12" column="1">Different domains express a meta-design approach, applying related concepts and methodologies. Some of these applications, when conceptualized as meta-design, suggest new insights (e.g., interactive art), others rather represent a concrete assessment of our conceptual framework (e.g., learning communities). We illustrate here how the application of meta-design approaches have transformed existing design approaches in different domains, including interactive art, information repositories, design environments, and classrooms as design studios.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="169" page="12" column="1">5.1 Interactive Art</h2>
+          <region class="DoCO:TextChunk" id="174" page="12" column="1">Interactive art, conceptualized as meta-design, focuses on collaboration and co-creation. The original design (representing a seed in our framework) establishes a context in which users can create and manipulate at the level of code, behaviour, and/or content, and perform meaningful activities. Interactive art is based on the premise that computational media, as discrete structures, allow people to operate at the sources of the creative process, and that this creativity can be shared and no longer limited to the realm of professional artists. Therefore, interactive art puts the tools rather than the object of design in the hands of users. It creates interactive systems that do not define content and processes, but rather the conditions for the process of interaction. These objectives correspond to cultural shifts in the emerging aesthetics of interactive art [<xref ref-type="bibr" rid="R4" id="170" class="deo:Reference">Ascott, 2003</xref>]. Interactive artworks have an "experiential" or aesthetic dimension that justifies their status as art, rather than as information design. According to Manovich [<xref ref-type="bibr" rid="R38" id="171" class="deo:Reference">Manovich, 2001</xref>], these dimensions include a particular configuration of space, time, and surface articulated in the work; a particular sequence of user's activities over time to interact with the work; and a particular formal, material, and phenomenological user experience. But most of all, when conceptualized as meta-design, they include the indeterminacy of the event of creation [<xref ref-type="bibr" rid="R31" id="172" class="deo:Reference">Giaccardi, 2001a</xref>], given by the empowerment of users’ creative capabilities in an open and collaborative environment. Through interactivity, users do not simply send and receive a mono-directional flow of information, but act as performers of a mutual exchange between themselves and the computer, or between themselves and other users. Interactive art is concerned with setting up and seeding the place of this exchange, and sees interaction itself as the real object of creative production. The aesthetics of co-creation developed in interactive art comes up with an approach to design that shares with meta-design concerns about interaction, participation, and collaboration as means for an expansion of human creativity. Interactive art shows us how different kinds and different layers of interactivity and connectivity [<xref ref-type="bibr" rid="R30" id="173" class="deo:Reference">Giaccardi, 1999</xref>] can affect the socio-technical flexibility of the system. Hence we are shown its capability to increase the scope and complexity of the space of creation (which can correspond to the space of problem framing/problem solving from a nonartistic perspective).</region>
+          <outsider class="DoCO:TextBox" type="footer" id="175" page="12" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="176" page="12" column="1">12</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="177" page="12" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:TextChunk" id="181" confidence="possible" page="13" column="1">Electronic Café. Artistic practices based on the interactive and participatory use of networked technologies adopted meta-design as a term for an alternative design approach and art vision since the beginning of the 1980s. One of the most significant practices of meta-design in the field of interactive art is the Electronic Café project (see <xref ref-type="fig" rid="F6" id="178" class="deo:Reference">Figure 6</xref>) by Kit Galloway and Sherrie Rabinowitz (1984; <ext-link ext-link-type="uri" href="http://www.ecafe.com/)." id="179">http://www.ecafe.com/).</ext-link> This project integrates social and technological systems by setting up computational environments and a wide range of interactions that enable people to control the context of their cultural and artistic production as autonomous, electronic communities [<xref ref-type="bibr" rid="R71" id="180" class="deo:Reference">Youngblood, 1984</xref>]. The Electronic Café was a pervasive telecommunications system characterized as an accessible, flexible, end-user modifiable (in terms of files, archives, and environment), and visual components-based system. By incorporating fully interactive word processing, handwriting, drawing, animation and slow-scan video, and providing the ability to combine these elements, the Electronic Café provided a structure that allowed its users the greatest possible freedom (at that time) to design and control their own information environments.</region>
+          <region class="DoCO:FigureBox" id="F6">
+            <image class="DoCO:Figure" src="62rf.page_013.image_04.png" thmb="62rf.page_013.image_04-thumb.png"/>
+            <caption class="deo:Caption" id="183" page="13" column="1">Figure 6: The Electronic Café Project. © 1995/2002 Kit Galloway &amp; Sherrie Rabinowitz</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="198" page="13" column="1">With their work, the artists highlighted design requirements and guidelines that characterize a consistent path of research and experimentations in the field of interactive art. In particular, the visual component of environments was important to determine the transcendence of barriers of literacy and language. Also important was users’ exposure to the aesthetic sensibility of the involved artists in a direct, experiential manner; that is to say, by being in the world in the same way. According to Rabinowitz: “It’s a kind of spontaneous encounter that can’t be engineered or marketed” [ <xref ref-type="bibr" rid="R71" id="184" class="deo:Reference">Youngblood, 1984</xref>]. A-Volve. As new technological possibilities arise, so do interactive art advances, enhancing the layers of interaction and collaboration. New computational development not only allows users to create content, fostering evolution by elaborations, completions, and additions, they also allow the modification of the behaviour of an interactive system or the change of the interactive system itself. In the first case, the user can modify the behaviour of the system at use time through interaction with the system. In A-Volve ( <ext-link ext-link-type="uri" href="http://www.iamas.ac.jp/" id="185">http://www.iamas.ac.jp/</ext-link>~christa/ ; see <xref ref-type="fig" rid="F7" id="186" class="deo:Reference">Figure 7</xref>), for example, users interact in real-time with virtual creatures in the space of a water-filled glass pool. These virtual creatures are products of evolutionary rules and are influenced by human creation<marker type="page" number="14"/><marker type="block"/> and decision. Users can design any kind of shape and profile with their fingers on a touch screen and automatically the designed creature will be "alive", able to swim in the real water of the pool and to react to users’ hand movements in the water. In A-Volve, algorithms are the seed, and they ensure the "animal-like" behaviour of the creatures, but none of the creatures is precalculated. They are all born exclusively in real time and evolve through different layers of interaction (creation, human-creature interaction, creature-creature interaction, and human- human interaction) [<xref ref-type="bibr" rid="R61" id="191" class="deo:Reference">Sommerer &amp; Mignonneau, 1997a</xref>; <xref ref-type="bibr" rid="R62" id="192" class="deo:Reference">Sommerer &amp; Mignonneau, 1997b</xref>].<marker type="block"/> SITO. Current projects of interactive art, especially when networked, allow the modification or the development from scratch of the interactive system and its features. In these projects, the source is often developed by a community of artists, and can be adjusted and improved at different levels and different times according to the “talk-back” deriving from the continuing and direct experience of the creative environment and the resulting changing needs. For example, in SITO, which is a virtual community of “articipants” (artists-participants), interaction and evolution occur both at the level of the development of the source and at the level of the creation, elaboration and completion of collective artworks (in the section called Synergy). SITO ( <ext-link ext-link-type="uri" href="http://www.sito.org" id="196">http://www.sito.org</ext-link>; see <xref ref-type="fig" rid="F8" id="197" class="deo:Reference">Figure 8</xref>) is active for twenty-four hours and is open to anyone. Most of SITO’s collaborative art projects (such as Gridcosm) start from seed images by different artists and involve the serial manipulation or the creation of several “generations” of images, variously interlinked.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="188" page="13" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="189" page="13" column="1">13</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="190" page="13" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:FigureBox" id="F7">
+            <image class="DoCO:Figure" src="62rf.page_014.image_05.png" thmb="62rf.page_014.image_05-thumb.png"/>
+            <caption class="deo:Caption" id="195" page="14" column="1">Figure 7: “A-Volve” - Design and Interaction. ©1994/1995, Christa Sommerer &amp; Laurent Mignonneau interactive computer installation supported by ICC-NTT Japan and NCSA, USA</caption>
+          </region>
+          <region class="DoCO:FigureBox" id="F8">
+            <image class="DoCO:Figure" src="62rf.page_014.image_06.png" thmb="62rf.page_014.image_06-thumb.png"/>
+            <caption class="deo:Caption" id="200" page="14" column="1">Figure 8: One Layer of Interaction in SITO/Gridcosm</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="203" confidence="possible" page="14" column="1">The focus is on shaping a “collaborative synchronicity” (a concept close to the idea of a work practice in the business field) in which users interact and communicate both by expressing opinions about the community and their projects and by discussing the ongoing collaborative process (concepts, technical aspects, interaction rules, image creation and aesthetical issues, and suggestions for further developments) [<xref ref-type="bibr" rid="R66" id="201" class="deo:Reference">Verle, 1999</xref>]. This allows the system and the supporting scripts to be modified by the power users [<xref ref-type="bibr" rid="R42" id="202" class="deo:Reference">Nardi, 1993</xref>] of the community on the basis of continuous feedback and suggestions.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="204" page="14" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="205" page="14" column="1">14</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="206" page="14" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="207" page="15" column="1">Table 3: Comparing Three Interactive Art Projects from a Meta-Design Perspective</caption>
+            <content>
+              <table class="DoCO:Table" number="3" page="15">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"></th>
+                    <th class="table"> The Electronic Café</th>
+                    <th class="table"> A-Volve</th>
+                    <th class="table"> SITO Synergy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (1984)</td>
+                    <td class="table.strange"> (1997)</td>
+                    <td class="table.strange"> (since 1993)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design Design</td>
+                    <td class="table"> Participation in</td>
+                    <td class="table"> Participation in content</td>
+                    <td class="table"> Participation in content</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> contributions contributions of of</td>
+                    <td class="table"> system development</td>
+                    <td class="table"> generation and algorithm</td>
+                    <td class="table"> generation and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> the the users users</td>
+                    <td class="table"> and content</td>
+                    <td class="table"> instantiation (these two</td>
+                    <td class="table"> manipulation; support of</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> generation (these two</td>
+                    <td class="table"> activities overlap)</td>
+                    <td class="table"> script development and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> activities occur at</td>
+                    <td class="table"></td>
+                    <td class="table"> modification; definition</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> different times)</td>
+                    <td class="table"></td>
+                    <td class="table"> and negotiation of interaction rules (all these activities are continuous)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Capabilities of</td>
+                    <td class="table"> Creation, storage and</td>
+                    <td class="table"> Generation and modification of</td>
+                    <td class="table"> Creation, elaboration, and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> the users</td>
+                    <td class="table"> retrieval of texts,</td>
+                    <td class="table"> artificial life creatures, their</td>
+                    <td class="table"> completion of collective</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> images and videos</td>
+                    <td class="table"> behavior and evolution</td>
+                    <td class="table"> images</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (both individual and</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> collective)</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Empirical</td>
+                    <td class="table"> Users and artists</td>
+                    <td class="table"> Users and artists collaborate</td>
+                    <td class="table"> Users/artists collaborate</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> analysis</td>
+                    <td class="table"> collaborate both at</td>
+                    <td class="table"> both at design time and use</td>
+                    <td class="table"> both at design time and use</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> design time and use</td>
+                    <td class="table"> time: seeding, evolutionary</td>
+                    <td class="table"> time: seeding, evolutionary</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> time: seeding (data</td>
+                    <td class="table"> growth (artificial creatures)</td>
+                    <td class="table"> growth, reseeding (images</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> bank)</td>
+                    <td class="table"></td>
+                    <td class="table"> and interaction schemes)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Selection criteria</td>
+                    <td class="table"> Early attempt; direct</td>
+                    <td class="table"> Interactive installation open to</td>
+                    <td class="table"> Online community of art</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> “encounter” between</td>
+                    <td class="table"> an “ordinary” audience;</td>
+                    <td class="table"> lovers; different layers of</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> people and artists</td>
+                    <td class="table"> different layers of interaction</td>
+                    <td class="table"> interaction and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> through the system</td>
+                    <td class="table"> and collaboration (creation,</td>
+                    <td class="table"> collaboration (content,</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> human-creature interaction, creature-creature interaction, and human-human interaction);</td>
+                    <td class="table"> rules, source); situatedness</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> embeddedness</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> 5.2 Social</td>
+                    <td class="table.strange"> Creativity</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="208" confidence="possible" page="15" column="1">The Electronic Café A-Volve SITO Synergy (1984) (1997) (since 1993) Design Participation in Participation in content Participation in content contributions of system development generation and algorithm generation and the users and content instantiation (these two manipulation; support of generation (these two activities overlap) script development and activities occur at modification; definition different times) and negotiation of interaction rules (all these activities are continuous) Capabilities of Creation, storage and Generation and modification of Creation, elaboration, and the users retrieval of texts, artificial life creatures, their completion of collective images and videos behavior and evolution images (both individual and collective) Empirical Users and artists Users and artists collaborate Users/artists collaborate analysis collaborate both at both at design time and use both at design time and use design time and use time: seeding, evolutionary time: seeding, evolutionary time: seeding (data growth (artificial creatures) growth, reseeding (images bank) and interaction schemes) Selection criteria Early attempt; direct Interactive installation open to Online community of art “encounter” between an “ordinary” audience; lovers; different layers of people and artists different layers of interaction interaction and through the system and collaboration (creation, collaboration (content, human-creature interaction, rules, source); situatedness creature-creature interaction, and human-human interaction); embeddedness 5.2 Social Creativity</region>
+          </region>
+          <region class="DoCO:TextChunk" id="234" page="15" column="1">Complex design problems require more knowledge than any single person can possess, and the knowledge relevant to a problem is often distributed among all users, each of whom has a different perspective and background knowledge, thus providing the foundation for social creativity [ <xref ref-type="bibr" rid="R3" id="209" class="deo:Reference">Arias et al., 2000</xref>]. Bringing together different points of view and trying to create a shared understanding among all users can lead to new insights, new ideas, and new artifacts. Social creativity can be supported by innovative computer systems that allow all users to contribute to framing and solving these problems collaboratively. By giving all users a voice and empowering them to contribute, meta-design approaches are a prerequisite to bring social creativity alive. Project complexity forces large and heterogeneous groups to work together on projects over long periods of time. The large and growing discrepancy between the amount of such relevant knowledge and the amount any one designer can remember imposes a limit on progress in design. For socio-technical systems to effectively support collaborative design, they must adequately address not only the problem situations, but also the collaborative activity surrounding the problem. By addressing real-world problems that are inherently ill-structured and ill-defined, systems must cope with problem contexts that change over time. Providing closed systems, in which the essential functionality is fixed when the system is designed, is inadequate for coping with dynamic problem contexts. Providing open systems is an essential part of supporting collaborative design. By creating the opportunities to shape the systems, the owners of the problems can be involved in the formulation and evolution of those problems through the system. The challenge for these open systems is to provide opportunities for extension and modification that are appropriate for the people who need to make changes. The Envisionment and Discovery Collaboratory (see section 4.2), for example, supports social creativity by empowering users to act as designers.<marker type="page" number="16"/><marker type="block"/> 5.3 Learning Communities One of the most impoverished paradigms of education is a setting in which “a single, all-knowing teacher tells or shows presumably unknowing learners something they presumably know nothing about” [<xref ref-type="bibr" rid="R8" id="214" class="deo:Reference">Bruner, 1996</xref>]. Courses-as-seeds [<xref ref-type="bibr" rid="R11" id="215" class="deo:Reference">dePaula et al., 2001</xref>] is an educational model that explores meta- design in the context of university courses by creating a culture of informed participation [<xref ref-type="bibr" rid="R7" id="216" class="deo:Reference">Brown et al., 1994</xref>]. It explores how to supplement community-based learning theories [<xref ref-type="bibr" rid="R52" id="217" class="deo:Reference">Rogoff et al., 1998</xref>] with innovative collaborative technologies. Participants shift among the roles of learner, designer, and active contributor. The predominant mode of learning is peer-to-peer, and the teacher acts as a "guide on the side" (a meta-designer) rather than as a "sage on the stage." Courses are conceptualized as seeds (see section 3.3 and [<xref ref-type="bibr" rid="R11" id="218" class="deo:Reference">dePaula et al., 2001</xref>]), rather than as finished products, and students are viewed as informed participants who play active roles in defining the problems they investigate. The output of each course contributes to an evolving information space that is collaboratively designed by all course participants, past and present. As in all meta-design activities, the meta-designer (i.e., the teacher) gives up some control; there is little room for micro-managed curricula and precise schedules. The courses-as-seeds model requires a mindset in which plans conceived at the beginning of the course do not determine the direction of learning but instead provide a resource for interpreting unanticipated situations that arise during the course [<xref ref-type="bibr" rid="R64" id="219" class="deo:Reference">Suchman, 1987</xref>]. Examples of courses-as-seeds can be found at <ext-link ext-link-type="uri" href="http://www.cs.colorado.edu/" id="220">http://www.cs.colorado.edu/</ext-link>~gerhard/courses/.<marker type="block"/> 5.4 Open Source Open source development [<xref ref-type="bibr" rid="R26" id="222" class="deo:Reference">Fischer et al., 2003</xref>; <xref ref-type="bibr" rid="R49" id="223" class="deo:Reference">Raymond &amp; Young, 2001</xref>; <xref ref-type="bibr" rid="R55" id="224" class="deo:Reference">Scharff, 2002</xref>] is not directly applicable to end-user development because the users/domain designers in open source communities are highly sophisticated programmers. But there are many lessons to be learned in open source developments for meta-design, and the meta-design framework can in turn contribute to a better understanding of open source development by analyzing it as a success model for organizing large-scale distributed cooperative work [<xref ref-type="bibr" rid="R50" id="225" class="deo:Reference">Resnick, 1994</xref>]. In open source development, a community of software developers collaboratively constructs systems to help solve problems of shared interest and for mutual benefit. The ability to change source code is an enabling condition for collaborative construction of software by changing software from a fixed entity that is produced and controlled by a closed group of designers to an open effort that allows a community to design collaboratively on the basis of their personal desires and following the framework provided by the seeding, evolutionary growth, and reseeding process model [<xref ref-type="bibr" rid="R22" id="226" class="deo:Reference">Fischer &amp; Ostwald, 2002</xref>]. Open source invites passive consumers to become active contributors [<xref ref-type="bibr" rid="R22" id="227" class="deo:Reference">Fischer, 2002</xref>]. Open source development [<xref ref-type="bibr" rid="R49" id="228" class="deo:Reference">Raymond &amp; Young, 2001</xref>; <xref ref-type="bibr" rid="R50" id="229" class="deo:Reference">Resnick, 1994</xref>; <xref ref-type="bibr" rid="R53" id="230" class="deo:Reference">Scacchi, 2002</xref>; <xref ref-type="bibr" rid="R54" id="231" class="deo:Reference">Scacchi, 2004</xref>] is an example of unselfconscious design because (1) the developers are the owners of problems, (2) they create software systems primarily for their specific needs, and (3) the software is personally meaningful and important. Sharing and collaborating is common in open source communities. People reuse the whole system developed by others by adapting the system to their own needs. Using open source as a success model for collaborative design [<xref ref-type="bibr" rid="R55" id="232" class="deo:Reference">Scharff, 2002</xref>], we have identified the following principles relevant to meta-design [<xref ref-type="bibr" rid="R26" id="233" class="deo:Reference">Fischer et al., 2003</xref>]: 1. Making changes must seem possible: Users should not be intimidated and should not have the impression that they are incapable of making changes; the more users become convinced that changes are not as difficult as they think they are, the more they may be willing to participate. 2. Changes must be technically feasible: If a system is closed, then users cannot make any changes; as a necessary prerequisite, there needs to be possibilities for extension. 3. Benefits must be perceived: Contributors have to believe that what they get in return justifies the investment they make. The benefits perceived may vary and can include: professional benefits (helping for one’s own work), social benefits (increased status in a community, possibilities for jobs), and personal benefits (engaging in fun activities).</region>
+          <outsider class="DoCO:TextBox" type="footer" id="211" page="15" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="212" page="15" column="1">15</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="213" page="15" column="1">Chapter for EUD Book</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="235" page="16" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="236" page="16" column="1">16</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="237" page="16" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:TextChunk" id="238" confidence="possible" page="17" column="1">4. Open source environments must support tasks that people engage in: The best open source system will not succeed if it is focused on activities that people do rarely or consider of marginal value. 5. Low barriers must exist to sharing changes: If sharing is awkward, it creates an unnecessary burden that participants are unwilling to overcome. Evolutionary growth is greatly accelerated in systems in which participants can share changes and keep track of multiple versions easily.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="239" page="17" column="1">6 Findings and Challenges for the Future</h1>
+        <region class="DoCO:TextChunk" id="240" confidence="possible" page="17" column="1">This section provides some findings and challenges that can be seen as open questions for the future of end-user development: the tension between standardization and improvisation, and between being a consumer and/or a designer; ways of enabling co-creative processes and supporting meaningful activities as an issue of motivation and finally of technology appropriation; and the new design space defined by meta-design and its shifts from traditional design.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="241" page="17" column="1">6.1 Standardization and Improvisation</h2>
+          <region class="DoCO:TextChunk" id="242" page="17" column="1">Meta-design creates an inherent tension between standardization and improvisation. The SAP Info (July 2003, page 33) argues to reduce the number of customer modifications for the following reasons: “every customer modification implies costs because it has to be maintained by the customer. Each time a support package is imported there is a risk that the customer modification my have to be adjusted or re-implemented. To reduce the costs of such on-going maintenance of customer-specific changes, one of the key targets during an upgrade should be to return to the SAP standard wherever this is possible”. Finding the right balance between standardization (which can suppress innovation and creativity) and improvisation (which can lead to a Babel of different and incompatible versions) has been noted as a challenge in open source environments in which forking has often led developers in different directions. The reseeding phase of the SER models tries to address this problem.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="243" page="17" column="1">6.2 Consumers and Designers</h2>
+          <region class="DoCO:TextChunk" id="258" page="17" column="1">Cultures are substantially defined by their media and their tools for thinking, working, learning, and collaborating. A great amount of new media is designed to see humans only as consumers [ <xref ref-type="bibr" rid="R22" id="244" class="deo:Reference">Fischer, 2002</xref>]. The importance of meta-design rests on the fundamental belief that humans (not all of them, not at all times, not in all contexts) want to be and act as designers in personally meaningful activities. Meta-design encourages users to be actively engaged in generating creative extensions to the artifacts given to them and has the potential to break down the strict counterproductive barriers between consumers and designers [<xref ref-type="bibr" rid="R6" id="245" class="deo:Reference">Brown &amp; Duguid, 2000</xref>]. Many computer users and designers today are domain professionals, competent practitioners, and discretionary users, and should not be considered as naïve users or “dummies.” They worry about tasks, they are motivated to contribute and to create good products, they care about personal growth, and they want to have convivial tools that make them independent of “high-tech scribes” (whose role is defined by the fact that the world of computing is still too much separated into a population of elite scribes who can act as designers and a much larger population of intellectually disenfranchised computer phobes who are forced into consumer roles). The experience of having participated in the framing and solving of a problem or in the creation of an artifact makes a difference to those who are affected by the solution and therefore consider it personally meaningful and important. A fundamental challenge for the next generation of computational media and new technologies is not to deliver predigested information to individuals, but to provide the opportunity and resources for social debate, discussion, and collaborative design. In many design activities, learning cannot be restricted to finding knowledge that is “out there.” For most design problems (ranging from urban design to graphics design and software design, which we have studied over many years), the knowledge to understand, frame, and solve problems does not exist; rather, it is constructed and evolved during the process of solving these problems, exploiting the power of “breakdowns” [<xref ref-type="bibr" rid="R16" id="246" class="deo:Reference">Fischer, 1994c</xref>; <xref ref-type="bibr" rid="R56" id="247" class="deo:Reference">Schön, 1983</xref>]. From this perspective, access to existing information<marker type="page" number="18"/><marker type="block"/> and knowledge (often seen as the major advance of new media) is a very limiting concept [<xref ref-type="bibr" rid="R2" id="252" class="deo:Reference">Arias et al., 1999</xref>; <xref ref-type="bibr" rid="R7" id="253" class="deo:Reference">Brown et al., 1994</xref>]. By arguing for the desirability of humans to be designers, we want to state explicitly that there is nothing wrong with being a consumer and that we can learn and enjoy many things in a consumer role (e.g., listening to a lecture, watching a tennis match, attending a concert, and admiring a piece of art). As argued in section 3.1, “consumer/designer” is not an attribute of a person, but a role assumed in a specific context. Good designers, for instance, should be well- informed consumers (e.g., they should exploit reuse as a powerful design strategy by “consuming” existing information and using the contributions of the “giants” who preceded them). Meta-design creates the enabling conditions “to engage the talent pool of the whole world” [<xref ref-type="bibr" rid="R49" id="254" class="deo:Reference">Raymond &amp; Young, 2001</xref>]. Design engagement, from participation in planning to participation in continuous change (from do-it-yourself to adaptable environments), gives all the people access to the tools, resources, and power that have been jealously guarded prerogatives of the professional. The idea of a possible “design by all” always produces strong reactions in the field of professional designers, who perceive meta-design and end-user development as a challenge to their design expertise. The goal of making systems modifiable by users does not imply transferring the responsibility of good system design to the user. In general, “normal” users do not build tools of the quality that a professional designer would because users are not concerned with the tool per se, but in doing their work. Even so, professionalism is a particular kind of specialization, and specialization is the technique of production-line technology. As we develop new technologies, we need also to develop new roles and new images of ourselves. Designers have to give up some control. Content creation in large information repositories must be distributed. This distribution can be supported by meta-design, as evidenced by digital libraries [<xref ref-type="bibr" rid="R69" id="255" class="deo:Reference">Wright et al., 2002</xref>], the world-wide web, open source software [<xref ref-type="bibr" rid="R55" id="256" class="deo:Reference">Scharff, 2002</xref>], and interactive art [<xref ref-type="bibr" rid="R33" id="257" class="deo:Reference">Giaccardi, 2003</xref>]. Designers must engage in co-creative and evolutionary processes that enable people to design for themselves. To do so, meta-designers seed both the technical infrastructure and the social environment in which the system is embedded. Their goal of creating the technical and social conditions for collaborative design activities becomes as important as creating the artifact itself, and it requires attitude and capabilities. Meta-designers need to be good systems integrators [Kit Galloway, personal communication], able to actively interface a multiplicity of tools, services, and organizations, as well as good facilitators, capable of establishing collaborative relationships and using their own creativity to set the socio-technical environment in which other people can, in turn, be creative.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="249" page="17" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="250" page="17" column="1">17</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="251" page="17" column="1">Chapter for EUD Book</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="259" page="18" column="1">6.3 Enabling Co-Creation</h2>
+          <region class="DoCO:TextChunk" id="268" page="18" column="1">In a world that is not predictable, and where solutions are neither given nor confined in one single mind, meta-design allows exploration of the collaborative dimension of human creativity. This produces a novel approach in the design of both interactive systems and their socio- technical environment that aims to include the emergent as an opportunity for evolution and innovation. Meta-design deals with co-creation [ <xref ref-type="bibr" rid="R33" id="260" class="deo:Reference">Giaccardi, 2003</xref>]. It enables and activates collaborative processes that allow the emergence of creative activities in open and evolvable environments. The possibility for the user to transform from viewer to co-creator, or from consumer to co- designer requires [National-Research-<xref ref-type="bibr" rid="R44" id="261" class="deo:Reference">Council, 2003</xref>] an expansion of the creative process in art and in design, respectively. Interactive art — and its networked practices in particular — explores the expansion of human creativity in terms of an expansion of the inter-subjective dimension, and deals primarily, although not exclusively, with feelings and emotions rather than with rational decision making. A cross-case analysis of networked practices of interactive art shows that co-creation is perceived by users as an inter-subjective experience engendered by collaborative activities, which does not show necessarily any explicit goal. Main motivational paths to co-creation are emotionally driven and based on the perception of the environment as open and unpredictable. Computationally, such an environment enables co-creation by allowing two main techniques [<xref ref-type="bibr" rid="R33" id="262" class="deo:Reference">Giaccardi, 2003</xref>]:  Emotional seeding is based mainly on an exploitation of non-verbal communication. It takes place thanks to the visual embodiment of the emotional tone and activities of participants<marker type="page" number="19"/><marker type="block"/> within the interactive system. The embodiment [<xref ref-type="bibr" rid="R14" id="267" class="deo:Reference">Dourish, 2001</xref>] of participants in the computational environment, as engendered by emotional seeding, ensures that time, space, and physicality are experienced in relational, rather than merely informational, terms.  Agency patterning is the setting of specific spatial-temporal parameters aimed to let dynamic agencies emerge from the system. It defines size, resolution, and level of the agency that is performing a global activity. The attention paid by interactive art to the design of relational settings and affective bodies (that is, to the conditions and dynamics for mutual interaction) produces an understanding of the spatial- temporal parameters of an interactive system in terms of inter-subjective proximity and individuals’ intentionality. That is, interactive art deals in terms of how “closely” people interact with each other, and how their intentions determine and recognize chains of actions and meaningful events, over time.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="264" page="18" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="265" page="18" column="1">18</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="266" page="18" column="1">Chapter for EUD Book</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="269" page="19" column="1">6.4 “Ease-of-Use” Revisited</h2>
+          <region class="DoCO:TextChunk" id="276" page="19" column="1">“Ease-of-use” along with the “burden of learning something” are often used as arguments for why people will not engage in design. Building systems that support users to act as designers and not just as consumers is often less successful than the meta-designers have hoped for. A student in one of our courses reacted to our attempts to establish a meta-design culture as follows: “Humans want things as easy as possible for them. The reason why we are a consumer society is because that’s what we want to be.” The end-user modifiability and end-user programming features themselves add even considerably more functionality to already very complex environments (such as high functionality applications and large software reuse libraries) — and our empirical analyses clearly show that not too many users of such systems are willing to engage in this additional learning effort. Beyond just defining them, extensions need to be integrated (stored, made retrievable, sustained) in the work environment. The answer to this challenging situation may be in the development of social structures around these systems such as collaborative work practices [ <xref ref-type="bibr" rid="R42" id="270" class="deo:Reference">Nardi, 1993</xref>; National-Research-<xref ref-type="bibr" rid="R44" id="271" class="deo:Reference">Council, 2003</xref>]. Without the willingness to learn something, users remain trapped with “over-specialized systems where operations are easy, but little of interest is possible”(see section 1). Based on our work with user communities [<xref ref-type="bibr" rid="R3" id="272" class="deo:Reference">Arias et al., 2000</xref>], it is obvious that serious working and learning do not have to be unpleasant — they can be empowering, engaging, and fun. Many times the problem is not that programming is difficult, but that it is boring (e.g., in cases where domain designers are forced to think and articulate themselves at the level of human-computer interaction rather than human problem-domain interaction; see <xref ref-type="fig" rid="F5" id="273" class="deo:Reference">Figure 5</xref>). Highly creative owners of problems struggle and learn tools that are useful to them, rather than believing in the alternative of “ease-of-use,” which limits them to preprogrammed features [National-Research-<xref ref-type="bibr" rid="R44" id="274" class="deo:Reference">Council, 2003</xref>]. Meta-design can tackle this learning problem in two different ways by paying attention to the following equation: utility = value / effort,<marker type="block"/> meaning that people will decide on the worthiness of doing something (utility) by relating the (perceived) value of an activity to the (perceived) effort of doing it. In many design activities, the question to be asked is: “Who puts in the effort?” Often an important trade-off exists: more effort at design time results in smaller effort at use time. From a meta-design perspective, to create the structures that will empower users at use time and greatly reduce their endeavor, major efforts at design time are needed. However, value consideration at design time can induce an organization to put in the effort in order to establish a culture of “design in use” and produce “better” systems that: (1) more people will buy (economic incentive), or (2) more people will use (social capital). At the same time, value consideration at use time is greatly influenced by allowing people to engage in personally meaningful tasks, and it can induce them to serious working and learning. People are willing to spend considerable effort on things that are important to them, so the value dimension for truly personal meaningful activities is more important than the effort dimension. For example, learning to drive an automobile is not an easy task, but almost all people learn it because they associate a high personal value with it.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="277" page="19" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="278" page="19" column="1">19</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="279" page="19" column="1">Chapter for EUD Book</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="280" page="20" column="1">6.5 Motivation and Rewards</h2>
+          <region class="DoCO:TextChunk" id="293" page="20" column="1">The creation of new environments and the emergence of new social mindsets and expectations lead to succeeding waves of new technologies. Peer-to-peer (P2P) computing, open source, and extreme programming (XP), for instance, could be considered in software design as new developments mostly originating with user communities (i.e., P2P and open source) that reflect a shift of human motives and express the human desire to be in control of human destiny [<xref ref-type="bibr" rid="R49" id="281" class="deo:Reference">Raymond &amp; Young, 2001</xref>]. For an example in existing technology, we could consider the Internet, and describe the following socio-technical upward spiral [<xref ref-type="bibr" rid="R33" id="282" class="deo:Reference">Giaccardi, 2003</xref>]: (1) exploitation of computational malleability and modifiability (e.g., the world-wide web); (2) shared design activities and reinterpretation for democratic purposes (e.g., online communities); or (3) the emergence of new social mindsets and expectations as a result of new environments. What makes people, over time, become active contributors and designers and share their knowledge requires therefore a new “design culture”, involving a mindset change and principles of social capital accumulation. But before new social mindsets and expectations emerge, users’ active participation comes as a function of simple motivational mechanisms and activities considered personally meaningful. One focus of meta-design is the design of the socio-technical environment in which the interactive system is embedded, and in which users are recognized and rewarded for their contributions and can accumulate social capital. Social capital is based on specific benefits that flow from the trust, reciprocity, information, and cooperation associated with social networks [<xref ref-type="bibr" rid="R26" id="283" class="deo:Reference">Fischer et al., 2003</xref>; <xref ref-type="bibr" rid="R27" id="284" class="deo:Reference">Florida, 2002</xref>; <xref ref-type="bibr" rid="R48" id="285" class="deo:Reference">Putnam, 2000</xref>]. However, an analysis of co-creation, and a survey [<xref ref-type="bibr" rid="R33" id="286" class="deo:Reference">Giaccardi, 2003</xref>] of the way in which some theories and practices of meta-design address the issue of motivation in relation to the new social relationships produced by emergent artificiality and increasing interconnectivity contribute to question the values plane associated with the design of socio-technical environments. Beside the consideration and evaluation of the specific benefits that can be associated with social networks, the “lasting value” of social capital can be conceptualized as a form of human creativity, and fundamentally based on inter- subjective relationships, feelings, and emotions. We assign importance through value-feelings that make us experience emotion only in regard to that which matters [<xref ref-type="bibr" rid="R65" id="287" class="deo:Reference">Thompson, 1999</xref>]. Emotions, as value feelings, generate the world of our values, and enable us to “see” a situation that addresses us immediately, here and now, before deliberating rationally about it [<xref ref-type="bibr" rid="R13" id="288" class="deo:Reference">Donaldson, 1991</xref>]. Meta-design enhances spontaneous and autonomous ways of relating and interacting, and in doing so it liberates processes of construction of reality that enable substantial participation and flexibility in the transformation of our environment. From this perspective, meta-design can be seen as socio-technical know-how [<xref ref-type="bibr" rid="R33" id="289" class="deo:Reference">Giaccardi, 2003</xref>] embodied in the evolving practices of fluid and interdependent communities, rather than driven exclusively by explicit motivations and benefits. This orientation towards a co-creative framework matches those trends in socio-technical systems design, which — assuming a technological modifiability both at design and use time — call for attention to the relationships and interconnections occurring between the micro and macro levels of the socio-technical environment [<xref ref-type="bibr" rid="R10" id="290" class="deo:Reference">Callon &amp; Latour, 1981</xref>; <xref ref-type="bibr" rid="R41" id="291" class="deo:Reference">Mumford, 1987</xref>]. It also matches the need for “non-targeted” design in a “shared infrastructure” scenario, where technologies (and we would add human and social systems, i.e., organizations) are heterogeneous, intertwined and interdependent [<xref ref-type="bibr" rid="R46" id="292" class="deo:Reference">Pipek &amp; Kahler, 2004</xref>].</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="294" page="20" column="1">6.6 The New Design Space of Meta-Design</h2>
+          <region class="DoCO:TextChunk" id="313" page="20" column="1">Meta-design encompasses three levels of design, meant as a new “design space”. These three levels of design can be summarized as: (1) designing design; (2) designing together; and (3) designing the “in-between”. Such levels of design refer to the field of meanings that the term meta-design has developed in the course of its various uses. They correspond, quite evidently, to the anticipatory, participatory, and socio-technical issues raised by meta-design, and highlighted in this chapter. We can think of the design space of meta-design as a three-fold design space [ <xref ref-type="bibr" rid="R33" id="295" class="deo:Reference">Giaccardi, 2003</xref>] aimed at integrating the design of (1) a technical infrastructure that is evolvable, (2) a learning environment and work organization that allows users to become active contributors, and (3) a socio-technical system in which users can relate and find motivations and rewards. The first level of meta-design (designing design) refers to the concept of higher-order design, and the possibility of a malleability and modifiability of structures and processes, as provided by<marker type="page" number="21"/><marker type="block"/> computational media. It can be seen as the ground for a design approach that focuses on general structures and processes, rather than on fixed objects and contents. Methodologically, this first level entails methods and techniques for designing at a meta-level (e.g., underdesign). It can be seen as the field where meta-designers play an important role in establishing the conditions that will allow users, in turn, to become designers. This first level of meta-design concerns the impossible task of fully anticipating at design time users’ needs and tasks, situations and behaviours. The possibility of transforming and modifying components, contents, and even contexts by interacting with the system and adjusting it allows the user to respond to the deficit between what can be foreseen at design time and what emerges at use time. This non- anticipatory feature of meta-design is realized through principles of end-user modifiability and programming [<xref ref-type="bibr" rid="R34" id="300" class="deo:Reference">Girgensohn, 1992</xref>; <xref ref-type="bibr" rid="R36" id="301" class="deo:Reference">Lieberman, 2001</xref>] and seeding mechanisms [<xref ref-type="bibr" rid="R22" id="302" class="deo:Reference">Fischer &amp; Ostwald, 2002</xref>]. It provokes a creative and unplanned opportunism, which focuses on situated processes and emergent conditions, rather than on the anticipatory aspects of decision-making. The second level of meta-design (designing together) is concerned with the way in which designers and users can collaborate on the design activity, both at design time and at use time. Methodologically, this second level provides participatory methods and techniques for letting users be involved in the initial setting stage at design time, and it relies on critiquing methods and techniques [<xref ref-type="bibr" rid="R23" id="303" class="deo:Reference">Fischer et al., 1998</xref>] for enabling users to learn and become in turn designers at use time. It can be seen as the level at which designers and users play a fluid role in the collaborative design activity at different times and different planes of social interaction (i.e. from individual to communitarian). This second fold can be framed as a response to issues concerning the participation of the users in the design process due to the impossibility of completely anticipating users’ needs and tasks at design time. Compared to traditional participatory approaches to design, meta-design represents an advance on the methodological level by supporting structural changes and co-evolutionary processes and transforming participation into a participative status [<xref ref-type="bibr" rid="R14" id="304" class="deo:Reference">Dourish, 2001</xref>] of the user coupling with the system rather than as a way of increasing the probability a design will be used as intended. The third level of meta-design (designing the “in-between”) concerns the design of relational settings and affective bodies. It aims to support existing social networks, and to shape new ones. Both existing and novel social networks, though, are not simply determined by technology. Rather, they are a system of relationships that people experience and negotiate in relation to technology itself. From this perspective, technology is seen as “a trigger for structural change” or an intervention into the active relationship between people and their organisational structures that can alter roles and patterns of interaction [<xref ref-type="bibr" rid="R14" id="305" class="deo:Reference">Dourish, 2001</xref>]. Within an interactive system conceived as a relational system, co-evolution takes place through reciprocal and recursive interactions [Maturana, 1997], whereas co-creation is triggered by the senses, emotions, and interactions of the users “embedded” and active within the computational environment [<xref ref-type="bibr" rid="R33" id="306" class="deo:Reference">Giaccardi, 2003</xref>] and therefore capable of affecting and being affected (“affective bodies”). Methodologically, the third level of meta-design defines how co-evolutionary processes and co- creative behaviours can be sustained and empowered on the basis of the way in which people relate (both with the technical system and among themselves) within a computational environment. This level can be seen as a response to socio-technical issues. The design of the socio-technical system is neither only a matter of designing and adjusting technological artifacts in harmony with the people that will use that system, nor only a matter of understanding how to accumulate social capital. It is also a matter of methods and techniques to allow those sensing, emotioning, and “affective” activities (e.g., emotional seeding and agency patterning) that can sustain a condition of “inhabited technology” [<xref ref-type="bibr" rid="R46" id="307" class="deo:Reference">Pipek &amp; Kahler, 2004</xref>; <xref ref-type="bibr" rid="R32" id="308" class="deo:Reference">Giaccardi, 2001b</xref>]. These three levels of meta-design are interdependent. They provide a structural openness given by computational malleability (first level of meta-design) corresponding to and integrated with an interactive openness [<xref ref-type="bibr" rid="R63" id="309" class="deo:Reference">Stalder, 1997</xref>] given by collaborative (second level) and embodied (third level) relationships and activities. They can also be considered dimensions of meta-design, encompassing at different levels the cognitive (selfconscious vs. unselfconscious design), social (social creativity), computational (systems, environments), and methodological aspects relevant to meta-design, finally meant not only as a collaborative design activity, but also as a possible cultural strategy of technology appropriation according to which the “tool” is also a “place” [<xref ref-type="bibr" rid="R46" id="310" class="deo:Reference">Pipek &amp; Kahler, 2004</xref>; <xref ref-type="bibr" rid="R32" id="311" class="deo:Reference">Giaccardi, 2001b</xref>]. <xref ref-type="table" rid="T4" id="312" class="deo:Reference">Table 4</xref> provides on overview of the different relationships.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="297" page="20" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="298" page="20" column="1">20</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="299" page="20" column="1">Chapter for EUD Book</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="314" page="21" column="1">G. Fischer and E. Giaccardi</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="315" page="21" column="1">21</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="316" page="21" column="1">Chapter for EUD Book</outsider>
+          <region class="DoCO:TableBox" id="T4">
+            <caption class="deo:Caption" id="317" page="22" column="1">Table 4: Overview of the Design Space for Meta-Design</caption>
+            <content>
+              <table class="DoCO:Table" number="4" page="22">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"></th>
+                    <th class="table"> Levels of</th>
+                    <th class="table"> Description of</th>
+                    <th class="table"> Problem</th>
+                    <th class="table"> Dimensions</th>
+                    <th class="table"> Methods and</th>
+                    <th class="table"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> meta-design</td>
+                    <td class="table"> the level</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> techniques</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> First level</td>
+                    <td class="table"> Designing</td>
+                    <td class="table"> Anticipation:</td>
+                    <td class="table"> Epistemological</td>
+                    <td class="table"> End-user</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> of meta-</td>
+                    <td class="table"> design: meta-</td>
+                    <td class="table"> users’ needs and</td>
+                    <td class="table"> /Computational</td>
+                    <td class="table"> development</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> design</td>
+                    <td class="table"> designers an important play</td>
+                    <td class="table"> task fully cannot anticipated be</td>
+                    <td class="table"></td>
+                    <td class="table"> and users seeding:</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> role in</td>
+                    <td class="table"> at design time</td>
+                    <td class="table"></td>
+                    <td class="table"> transform,</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> establishing the</td>
+                    <td class="table"> (they are ill-</td>
+                    <td class="table"></td>
+                    <td class="table"> modify, and</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> conditions will allow users that</td>
+                    <td class="table"> defined change over and</td>
+                    <td class="table"></td>
+                    <td class="table"> adjust to achieve systems</td>
+                    <td class="table"> STRUCTURAL</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> to become</td>
+                    <td class="table"> time)</td>
+                    <td class="table"></td>
+                    <td class="table"> greater fit</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> designers</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> between what</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> can at design be foreseen time and what emerges at use time</td>
+                    <td class="table"> OPENNESS</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Second level of</td>
+                    <td class="table"> Designing together:</td>
+                    <td class="table"> Participation. Users need to be</td>
+                    <td class="table"> Social/ Cognitive</td>
+                    <td class="table"> Participatory design: users</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> meta-design</td>
+                    <td class="table"> designers and</td>
+                    <td class="table"> engaged in the</td>
+                    <td class="table"></td>
+                    <td class="table"> are involved in</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> users</td>
+                    <td class="table"> problem</td>
+                    <td class="table"></td>
+                    <td class="table"> the initial</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> collaborate the design in</td>
+                    <td class="table"> framing/problem solving process</td>
+                    <td class="table"></td>
+                    <td class="table"> setting design time, stage at</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> INTEGRATION</td>
+                    <td class="table"></td>
+                    <td class="table"> activity, both at</td>
+                    <td class="table"> both at design</td>
+                    <td class="table"></td>
+                    <td class="table"> while</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> design time</td>
+                    <td class="table"> time and use</td>
+                    <td class="table"></td>
+                    <td class="table"> critiquing and</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> and and at at use different time,</td>
+                    <td class="table"> time.</td>
+                    <td class="table"></td>
+                    <td class="table"> other techniques support</td>
+                    <td class="table"> INTERACTIVE</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> levels of social</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> empower</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> aggregation (as</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> users to learn</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> an group, individual, and/or</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> and designers become at</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> community)</td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> use time</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Third level</td>
+                    <td class="table"> Designing the</td>
+                    <td class="table"> Socio-technical:</td>
+                    <td class="table"> Cognitive /</td>
+                    <td class="table"> Emotional</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> of design meta-</td>
+                    <td class="table"> in-between: defines how co-</td>
+                    <td class="table"> Social technical and</td>
+                    <td class="table"> Social</td>
+                    <td class="table"> seeding agency and</td>
+                    <td class="table"> OPENNESS</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> evolutionary</td>
+                    <td class="table"> dimensions need</td>
+                    <td class="table"></td>
+                    <td class="table"> patterning:</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> processes and</td>
+                    <td class="table"> to be integrated</td>
+                    <td class="table"></td>
+                    <td class="table"> methods and</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> co-creative</td>
+                    <td class="table"> not only in order</td>
+                    <td class="table"></td>
+                    <td class="table"> techniques to</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> behaviours be sustained can</td>
+                    <td class="table"> to and be efficient, optimized but</td>
+                    <td class="table"></td>
+                    <td class="table"> allow emotioning, sensing,</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> to let new</td>
+                    <td class="table"></td>
+                    <td class="table"> and “affective”</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> interactions and</td>
+                    <td class="table"></td>
+                    <td class="table"> activities</td>
+                    <td class="table"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> relationships emerge</td>
+                    <td class="table"></td>
+                    <td class="table"> among users</td>
+                    <td class="table"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="318" confidence="possible" page="22" column="1">Levels of Description of Problem Dimensions Methods and meta-design the level techniques First level Designing Anticipation: Epistemological End-user of meta- design: meta- users’ needs and /Computational development design designers play task cannot be and seeding: conditions an role establishing important in that the (they at fully defined design anticipated are and ill- time users adjust transform, modify, systems and STRUCTURAL will allow users change over to achieve to become time) greater fit designers at between can design be foreseen what time OPENNESS and what emerges at use time Second Designing Participation. Social/ Participatory level of together: Users need to be Cognitive design: users meta-design designers and engaged in the are involved in users problem the initial INTEGRATION collaborate the activity, design design time both in at framing/problem solving time both and at design process use setting critiquing design while time, stage and at and at use time, time. other support and an aggregation levels individual, at of different social (as users empower and techniques become to learn INTERACTIVE group, and/or designers at community) use time of design Third meta- level defines in-between: Designing how the co- technical Socio-technical: Social and Cognitive Social / Emotional seeding agency and OPENNESS evolutionary dimensions need patterning: processes and to be integrated methods and co-creative not only in order techniques to behaviours can to be optimized allow sensing, be sustained and efficient, but emotioning, to let new and “affective” interactions and activities relationships among users emerge</region>
+          </region>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="319" page="22" column="1">7 Conclusions</h1>
+        <region class="DoCO:TextChunk" id="326" page="22" column="1">Meta-design is not only a technical problem, it also requires new cultures and new mindsets. If the most important role of digital media in the future is to provide people with a powerful medium to express themselves and engage in personally meaningful activities, the medium should support them to work on the task, rather than require them to focus their intellectual resources on the medium itself. In this sense, computers are empowering artifacts: they are not only powerful tools, but also powerful meta-tools that can be used to create problem-specific tools. This empowerment, though, cannot be fully utilized until owners of problems are enabled “to retool”. By putting the computational technology directly into the hands of owners of problems, meta-design is an important step to unleash the ultimate power of computer technology. Meta-design is a conceptual framework informing a specific socio-technical methodology for end-user development, which includes design techniques (e.g., underdesign), process models (e.g., the SER model) and motivational mechanisms for communication, collaboration, and social <marker type="page" number="23"/><marker type="block"/> capital accumulation (e.g., emotional seeding and reward structures). We have evaluated our approach in different settings, with different task domains, and with different users. Meta-design is a promising approach to overcome the limitations of closed systems and to support applications of informed participation and social creativity. However, it creates many fundamental challenges in the technical domain as well as in the social domain, including: (1) the tension between standardization and improvisation, (2) the additional efforts to integrate the work into the shared environment, (3) the willingness of users to engage in additional learning to become designers, (4) effective ways of supporting meaningful activities and enabling co- creation, (5) the need for social capital and technology appropriation, and (6) the need for a new, integrated design space that brings together the design of both technical and social conditions. Meta-design allows a sort of creative and unplanned opportunism [<xref ref-type="bibr" rid="R68" id="324" class="deo:Reference">Wood, 2000</xref>], and it addresses one of the fundamental challenges of a knowledge society [<xref ref-type="bibr" rid="R27" id="325" class="deo:Reference">Florida, 2002</xref>]: to invent and design a culture in which all participants in a collaborative design process can express themselves and engage in personally meaningful activities. End-user development requires a change in mindsets and cultures — people who want to be active contributors and designers, not just consumers. If we achieve this culture and mindset change and we provide people with the right computational environments, then we will have a chance to make one of the most challenging and exciting research topics a reality!</region>
+        <outsider class="DoCO:TextBox" type="footer" id="321" page="22" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="322" page="22" column="1">22</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="323" page="22" column="1">Chapter for EUD Book</outsider>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="327" page="23" column="1">8 Acknowledgements</h1>
+        <region class="DoCO:TextChunk" id="328" page="23" column="1">The authors thank the members of the Center for LifeLong Learning &amp; Design at the University of Colorado, who have made major contributions to the conceptual framework described in this paper. Anders Morch provided us with important feedback on earlier version of this paper. The research was supported by (1) the National Science Foundation, Grants (a) REC-0106976 “Social Creativity and Meta-Design in Lifelong Learning Communities”, and (b) CCR-0204277 “A Social- Technical Approach to the Evolutionary Construction of Reusable Software Component Repositories”; (2) SRA Key Technology Laboratory, Inc., Tokyo, Japan; (3) the Coleman Institute, Boulder, CO; and (4) Fondazione Eni Enrico Mattei, Grant “Ideas for the Future”, for the aspects related to interactive art.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="329" page="23" column="1">9 References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="330" page="23" column="1">Alexander, C. (1964) The Synthesis of Form, Harvard University Press, Cambridge, MA.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="331" page="23" column="1">Arias, E. G., Eden, H., Fischer, G., Gorman, A., &amp; Scharff, E. (1999) "Beyond Access: Informed Participation and Empowerment," Proceedings of the Computer Supported Collaborative Learning (CSCL '99) Conference, Stanford, pp. 20-32.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="332" page="23" column="1">Arias, E. G., Eden, H., Fischer, G., Gorman, A., &amp; Scharff, E. (2000) "Transcending the Individual Human Mind—Creating Shared Understanding through Collaborative Design," ACM Transactions on Computer Human-Interaction, 7(1), pp. 84-113.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="333" page="23" column="1">Ascott, R. (2003) "Telematic Embrace: Visionary Theories of Art, Technology, and Consciousness." In E. A. Shanken (Ed.), University of California Press, Berkeley.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="334" confidence="possible" page="23" column="1">Brand, S. (1995) How Buildings Learn: What Happens After They're Built, Penguin Books, New York.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="335" page="23" column="1">Brown, J. S., &amp; Duguid, P. (2000) The Social Life of Information, Harvard Business School Press, Boston, MA.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="336" page="23" column="1">Brown, J. S., Duguid, P., &amp; Haviland, S. (1994) "Toward Informed Participation: Six Scenarios in Search of Democracy in the Information Age," The Aspen Institute Quarterly, 6(4), pp. 49-73.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="337" page="23" column="1">Bruner, J. (1996) The Culture of Education, Harvard University Press, Cambridge, MA.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="338" page="23" column="1">Burton, R. R., Brown, J. S., &amp; Fischer, G. (1984) "Analysis of Skiing as a Success Model of Instruction: Manipulating the Learning Environment to Enhance Skill Acquisition." In B. Rogoff, &amp; J. Lave (Eds.), Everyday Cognition: Its Development in Social Context, Harvard University Press, Cambridge, MA - London, pp. 139-150.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="342" page="24" column="1">Callon, M., &amp; Latour, B. (1981) "Unscrewing the Big Leviathan: How Actors Macro-Structure Reality and How Sociologists Help Them to Do So." In K. Knorr-Cetina, &amp; A. Cicourel (Eds.), Advances in Social Theory and Methodology: Toward an Integration of Micro- and Macro-Sociologies, Routledge &amp; Kegan Paul, Boston, London, and Henley, pp. 277-303.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="343" page="24" column="1">dePaula, R., Fischer, G., &amp; Ostwald, J. (2001) "Courses as Seeds: Expectations and Realities," Proceedings of the Second European Conference on Computer-Supported Collaborative Learning (Euro-CSCL' 2001), Maastricht, Netherlands, pp. 494-501.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="344" page="24" column="1">Dittrich, Y., &amp; Lindeberg, O. (2003) "Designing for Changing Work and Business Practices." In N. Patel (Ed.), Adaptive Evolutionary Information Systems, Idea group Inc, pp. 152-171.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="345" page="24" column="1">Donaldson, M. (1991) Human Minds: An Exploration, Penguin Books, London.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="346" page="24" column="1">Dourish, P. (2001) Where the Action Is — The Foundations of Embodied Interaction, The MIT Press, Cambridge, MA.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="348" page="24" column="1">Ehn, P., &amp; Malmborg, L. (1999) Everything that Rises Must Converge, Available at <ext-link ext-link-type="uri" href="http://www.nordic" id="347">http://www.nordic</ext-link>- interactive.org/nimres2/html/malmborg_ehn.html.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="349" page="24" column="1">Eisenberg, M., &amp; Fischer, G. (1994) "Programmable Design Environments: Integrating End-User Programming with Domain-Oriented Assistance." In Human Factors in Computing Systems, CHI'94 (Boston, MA), ACM, New York, pp. 431-437.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="351" confidence="possible" page="24" column="1">Electronic-Arts (2004) SimCity 4, Available at <ext-link ext-link-type="uri" href="http://simcity.ea.com/." id="350">http://simcity.ea.com/.</ext-link></ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="352" page="24" column="1">Fischer, G. (1994a) "Domain-Oriented Design Environments," Automated Software Engineering, 1(2), pp. 177-203.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="353" page="24" column="1">Fischer, G. (1994b) "Putting the Owners of Problems in Charge with Domain-Oriented Design Environments." In D. Gilmore, R. Winder, &amp; F. Detienne (Eds.), User-Centered Requirements for Software Engineering Environments, Springer Verlag, Heidelberg, pp. 297-306.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="354" page="24" column="1">Fischer, G. (1994c) "Turning Breakdowns into Opportunities for Creativity," Knowledge-Based Systems, Special Issue on Creativity and Cognition, 7(4), pp. 221-232.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="355" page="24" column="1">Fischer, G. (2001) "User Modeling in Human-Computer Interaction," User Modeling and User-Adapted Interaction (UMUAI), 11(1), pp. 65-86.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="357" page="24" column="1">Fischer, G. (2002) Beyond 'Couch Potatoes': From Consumers to Designers and Active Contributors, in FirstMonday (Peer-Reviewed Journal on the Internet), Available at <ext-link ext-link-type="uri" href="http://firstmonday.org/issues/issue7_12/fischer/." id="356">http://firstmonday.org/issues/issue7_12/fischer/.</ext-link></ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="358" page="24" column="1">Fischer, G., Nakakoji, K., Ostwald, J., Stahl, G., &amp; Sumner, T. (1998) "Embedding Critics in Design Environments." In M. T. Maybury, &amp; W. Wahlster (Eds.), Readings in Intelligent User Interfaces, Morgan Kaufmann, San Francisco, pp. 537-559.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="359" page="24" column="1">Fischer, G., &amp; Ostwald, J. (2002) "Seeding, Evolutionary Growth, and Reseeding: Enriching Participatory Design with Informed Participation." In T. Binder, J. Gregory, &amp; I. Wagner (Eds.), Proceedings of the Participatory Design Conference (PDC’2002), CPSR, Malmö University, Sweden, pp. 135-143.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="360" page="24" column="1">Fischer, G., &amp; Scharff, E. (2000) "Meta-Design—Design for Designers," 3rd International Conference on Designing Interactive Systems (DIS 2000), New York, pp. 396-405.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="361" page="24" column="1">Fischer, G., Scharff, E., &amp; Ye, Y. (2003) "Fostering Social Creativity by Increasing Social Capital." In M. Huysman, &amp; V. Wulf (Eds.), Social Capital and IT, (in press).</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="362" confidence="possible" page="24" column="1">Florida, R. (2002) The Rise of the Creative Class and How It's Transforming Work, Leisure, Community and Everyday Life, Basic Books, New York, NY.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="363" page="24" column="1">Floyd, C., Züllighoven, H., &amp; Budde, R., Keil-Slawik, R. (Eds.) (1992) Software Development and Reality Construction, Springer, Berlin, Heidelberg.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="365" confidence="possible" page="24" column="1">Fuller, M. (2003) Grid Unlocked, Available at <ext-link ext-link-type="uri" href="http://9.waag.org/Info/grid_en.html." id="364">http://9.waag.org/Info/grid_en.html.</ext-link></ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="366" page="24" column="1">Giaccardi, E. (1999) "Interactive Strategies of Network Art. Relationships and Agency," CADE '99: Third Conference on Computers in Art &amp; Design Education, Teesside, Middlesbrough.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="367" page="24" column="1">Giaccardi, E. (2001a) "Interconnectivity and Relational Embodiment in Art and Design," Proceedings of ISEA2000 — Révélation: 10th International Symposium on Electronic Art, Paris, France.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="371" page="25" column="1">Giaccardi, E. (2001b) "Transcultural Vision and Epistemological Shift: From Aesthetics to High Tech Society." In G. Marchianò, &amp; R. Milani (Eds.), Frontiers of Transculturality in Contemporary Aesthetics, Trauben, Torino, pp. 507-519.</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="372" page="25" column="1">Giaccardi, E. (2003) Principles of Metadesign: Processes and Levels of Co-Creation in the New Design Space, Ph.D. Dissertation, CAiiA-STAR, School of Computing, Plymouth, UK.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="373" page="25" column="1">Girgensohn, A. (1992) End-User Modifiability in Knowledge-Based Design Environments, Ph.D. Dissertation, University of Colorado at Boulder.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="374" page="25" column="1">Henderson, A., &amp; Kyng, M. (1991) "There's No Place Like Home: Continuing Design in Use." In J. Greenbaum, &amp; M. Kyng (Eds.), Design at Work: Cooperative Design of Computer Systems, Lawrence Erlbaum Associates, Inc., Hillsdale, NJ, pp. 219-240.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="375" page="25" column="1">Lieberman, H. (Ed.) (2001) Your Wish is My Command: Programming by Example, Morgan Kaufmann, San Francisco.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="376" page="25" column="1">Mackay, W. E. (1990) Users and Customizable Software: A Co-Adaptive Phenomenon, Sloan School of Management Dissertation, Massachusetts Institute of Technology.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="378" page="25" column="1">Manovich, L. (2001) The Language of New Media, MIT Press, Cambridge, MA. Maturana, H. R. (1997) Metadesign, Available at <ext-link ext-link-type="uri" href="http://www.hum.auc.dk/" id="377">http://www.hum.auc.dk/</ext-link>~rasand/Artikler/metadesign.htm.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="379" page="25" column="1">Morch, A. (1997) "Three Levels of End-User Tailoring: Customization, Integration, and Extension." In M. Kyng, &amp; L. Mathiassen (Eds.), Computers and Design in Context, MIT Press, Cambridge, MA, pp. 51-76.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="380" page="25" column="1">Morch, A. I. (2004) "Component-based Design and Software Readymades." In H.Lieberman, F.Paternò, &amp; V.Wulf (Eds.), End User Development — Empowering people to flexibly employ advanced information and communication technology, Kluwer Academic Publishers, Dordrecht, The Netherlands (this volume).</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="381" page="25" column="1">Mumford, E. (1987) "Sociotechnical Systems Design: Evolving Theory and Practice." In G. Bjerknes, P. Ehn, &amp; M. Kyng (Eds.), Computers and Democracy, Avebury, Brookfield, VT, pp. 59-77.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="382" page="25" column="1">Nardi, B. A. (1993) A Small Matter of Programming, The MIT Press, Cambridge, MA.</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="383" page="25" column="1">Nardi, B. A., &amp; Zarmer, C. (1993) "Beyond Models and Metaphors: Visual Formalisms in User Interface Design," Journal of Visual Languages and Computing(4), pp. 5-33.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="384" confidence="possible" page="25" column="1">National-Research-Council (2003) Beyond Productivity: Information Technology, Innovation, and Creativity, National Academy Press, Washington, DC.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="385" page="25" column="1">Norman, D. A., &amp; Draper, S. W. (Eds.) (1986) User-Centered System Design, New Perspectives on Human-Computer Interaction, Lawrence Erlbaum Associates, Inc., Hillsdale, NJ.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="386" page="25" column="1">Pipek, V., &amp; Kahler, H. (2004) "Supporting Collaborative Tailoring: Issues and Approaches." In V.Wulf (Ed.), End User Development — Empowering people to flexibly employ advanced information and communication technology, Kluwer Academic Publishers, Dordrecht, The Netherlands.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="387" page="25" column="1">Polanyi, M. (1966) The Tacit Dimension, Doubleday, Garden City, NY.</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="388" page="25" column="1">Putnam, R. (2000) Bowling Alone: The Collapse and Revival of American Community, Simon and Schuster, New York, NY.</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="389" page="25" column="1">Raymond, E. S., &amp; Young, B. (2001) The Cathedral and the Bazaar: Musings on Linux and Open Source by an Accidental Revolutionary, O'Reilly &amp; Associates, Sebastopol, CA.</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="390" page="25" column="1">Resnick, M. (1994) Turtles, Termites, and Traffic Jams, The MIT Press, Cambridge, MA.</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="391" page="25" column="1">Rittel, H. (1984) "Second-Generation Design Methods." In N. Cross (Ed.), Developments in Design Methodology, John Wiley &amp; Sons, New York, pp. 317-327.</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="392" page="25" column="1">Rogoff, B., Matsuov, E., &amp; White, C. (1998) "Models of Teaching and Learning: Participation in a Community of Learners." In D. R. Olsen, &amp; N. Torrance (Eds.), The Handbook of Education and Human Development — New Models of Learning, Teaching and Schooling, Blackwell, Oxford, pp. 388-414.</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="396" page="26" column="1">Scacchi, W. (2002) "Understanding the Requirements for Developing Open Source Software Systems," IEEE Proceedings — Software, 149(1), pp. 24-39.</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="397" page="26" column="1">Scacchi, W. (2004) "Socio-Technical Design." In W. S. Bainbrigde (Ed.), The Encyclopedia of Human- Computer Interaction, Berkshire Publishing Group, p. (to appear).</ref>
+          <ref rid="R55" class="deo:BibliographicReference" id="398" page="26" column="1">Scharff, E. (2002) Open Source Software, a Conceptual Framework for Collaborative Artifact and Knowledge Construction, Ph.D. Dissertation, University of Colorado at Boulder.</ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="399" page="26" column="1">Schön, D. A. (1983) The Reflective Practitioner: How Professionals Think in Action, Basic Books, New York.</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="400" page="26" column="1">Schuler, D., &amp; Namioka, A. (Eds.) (1993) Participatory Design: Principles and Practices, Lawrence Erlbaum Associates, Hillsdale, NJ.</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="401" page="26" column="1">Shanken, E. A. (2002) "Art in the Information Age: Technology and Conceptual Art," Leonardo, 35(4), pp. 433-488.</ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="402" confidence="possible" page="26" column="1">Shaw, M. (1989) "Maybe Your Next Programming Language Shouldn't Be a Programming Language." In C. Science, &amp; T. Board (Eds.), Scaling Up: A Research Agenda for Software Engineering, National Academy Press, Washington, DC, pp. 75-82.</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="403" confidence="possible" page="26" column="1">Shipman, F., &amp; McCall, R. (1994) "Supporting Knowledge-Base Evolution with Incremental Formalization." In Human Factors in Computing Systems, INTERCHI'94 Conference Proceedings, ACM, New York, pp. 285-291.</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="404" page="26" column="1">Sommerer, C., &amp; Mignonneau, L. (1997a) "Interacting with Artificial Life: A-Volve," Complexity Journal, 2(6), pp. 13-21.</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="405" page="26" column="1">Sommerer, C., &amp; Mignonneau, L. (1997b) "A-Volve - an evolutionary artificial life environment." In V. C. Langton, &amp; K. Shimohara (Eds.), Artificial Life, MIT Press, Boston, pp. 167-175.</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="407" page="26" column="1">Stalder, F. (1997) Actor-Network-Theory and Communication Networks: Toward Convergence, Ph.D Dissertation, Faculty of Information Studies, University of Toronto, Available at <ext-link ext-link-type="uri" href="http://felix.openflows.org/html/Network_Theory.html." id="406">http://felix.openflows.org/html/Network_Theory.html.</ext-link></ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="408" page="26" column="1">Suchman, L. A. (1987) Plans and Situated Actions, Cambridge University Press, Cambridge, UK.</ref>
+          <ref rid="R65" class="deo:BibliographicReference" id="410" page="26" column="1">Thompson, E. (1999) Human Consciousness: From Intersubjectivity to Interbeing (A Proposal to the Fetzer Institute), Available at <ext-link ext-link-type="uri" href="http://www.consciousness.arizona.edu/pcs/pcsfetz1.html." id="409">http://www.consciousness.arizona.edu/pcs/pcsfetz1.html.</ext-link></ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="411" page="26" column="1">Verle, L. (1999) Novas Imagens Para Um Novo Meio: Um Estudo de Caso do Website de Arte Interativa SITO, Pontificia Universidade Catolica do Rio Grande do Sul, Brasil (MA Dissertation).</ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="412" page="26" column="1">Winograd, T., &amp; Flores, F. (1986) Understanding Computers and Cognition: A New Foundation for Design, Ablex Publishing Corporation, Norwood, NJ.</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="413" confidence="possible" page="26" column="1">Wood, J. (2000) "Towards an Ethics of Flow: Design as an Anticipatory System," International Journal of Computing Anticipatory Systems, Liège, Belgium, Centre for Hyperincursive Anticipation in Ordered Systems, pp. 87-102.</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="415" page="26" column="1">Wright, M., Marlino, M., &amp; Sumner, T. (2002) Meta-Design of a Community Digital Library, D-Lib Magazine, Volume 8, Number 5, Available at <ext-link ext-link-type="uri" href="http://www.dlib.org/dlib/may02/wright/05wright.html." id="414">http://www.dlib.org/dlib/may02/wright/05wright.html.</ext-link></ref>
+          <ref rid="R70" class="deo:BibliographicReference" id="416" page="26" column="1">Ye, Y., &amp; Fischer, G. (2002) "Supporting Reuse by Delivering Task-Relevant and Personalized Information," Proceedings of 2002 International Conference on Software Engineering (ICSE'02), Orlando, FL, pp. 513-523.</ref>
+          <ref rid="R71" class="deo:BibliographicReference" id="418" page="26" column="1">Youngblood, G. (1984) Virtual Space. The Electronic Environments of Mobile Image, Ars Electronica Symposium, Available at <ext-link ext-link-type="uri" href="http://kultur.aec.at/20Jahre/." id="417">http://kultur.aec.at/20Jahre/.</ext-link></ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="footer" id="339" page="23" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="340" page="23" column="1">23</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="341" page="23" column="1">Chapter for EUD Book</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="368" page="24" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="369" page="24" column="1">24</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="370" page="24" column="1">Chapter for EUD Book</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="393" page="25" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="394" page="25" column="1">25</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="395" page="25" column="1">Chapter for EUD Book</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="419" page="26" column="1">G. Fischer and E. Giaccardi</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="420" page="26" column="1">26</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="421" page="26" column="1">Chapter for EUD Book</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

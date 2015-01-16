@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>18d2607366d2cd66458fbae3d132ce52e9753729d3a5847e2af403cd7fd14516</job>
+    <base_name>62sg</base_name>
+    <doi>http://dx.doi.org/10.1007/978-94-6209-317-1_18</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="1">Simon Simon Grand Simon Grand Grand Wolfgang Wolfgang Wolfgang Jonas Jonas Jonas (Eds) (Eds) (Eds)</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="2">Mapping Mapping Mapping Design Design Design Research Research Research</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="3">ard Board of Board of of ernational International International search Research Research in in in sign, Design, BIRD Design, BIRD BIRD</outsider>
+      <region class="DoCO:TextChunk" id="4" confidence="possible">MAppING DESIGN RESEARch</region>
+      <outsider class="DoCO:TextBox" type="header" id="5">Board of</outsider>
+      <region class="DoCO:TextChunk" id="6" confidence="possible">International Research in Design, BIRD Members: Advisory Board: Klaus Thomas Edelmann Gui Bonsiepe Michael Erlhoff Nigel cross Wolfgang Jonas Alain Findeli claudia Mareis Kun-pyo Lee Ralf Michel John Maeda Beat Schneider Shutaro Mukai pieter Jan Stappers Susann Vihma</region>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="7" confidence="possible" page="4" column="1">Simon Grand, Wolfgang Jonas (Eds.)</h2>
+        <region class="DoCO:TextChunk" id="8" confidence="possible" page="4" column="1">MAppING DESIGN RESEARch</region>
+        <region class="unknown" id="9" page="4" column="1">Birkhäuser Basel</region>
+      </section>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="10" page="5" column="1">cONTENTS</h1>
+        <region class="DoCO:TextChunk" id="11" confidence="possible" page="5" column="1">Preface BIRD VII Introduction Simon Grand, Wolfgang Jonas 3 ___________________________________________________ Essay Exploring the Swampy Ground 11 Wolfgang Jonas Re-Searching Design and Designing Research 43 Ranulph Glanville Science and Complexity 57 Warren Weaver Social Planning: Designing the Evolving Artifact 67 Herbert A. Simon Building the Knowledge Base 83 Charles Owen Research in Art and Design 95 Christopher Frayling The Nature of Research 109 Bruce Archer Searching for Design Research Questions: Some Conceptual Clarifications 123 Alain Findeli Theory Construction in Design Research: Criteria: Approaches, and Methods 137 Ken Friedman A Theory of Designing 147 John Chris Jones</region>
+        <outsider class="DoCO:TextBox" type="footer" id="12" page="5" column="1">IV MAppING DESIGN RESEARch</outsider>
+        <region class="DoCO:TextChunk" id="13" confidence="possible" page="6" column="1">Essay Research as Design: Promising 155 Strategies and Possible Futures Simon Grand The Joyful Wisdom 177 Friedrich Nietzsche Trading Zone 181 Peter Galison The New Production of Knowledge 189 Michael Gibbons, Camille Limoges, Helga Nowotny, Simon Schwartzman, Peter Scott, Martin Trow Some Elements of a Sociology of Translation 197 Michel Callon What is a Laboratory? 209 Karin Knorr Cetina Experimental Systems and Epistemic Things 217 Hans-Jörg Rheinberger Which Protocol for the New Collective Experiments? 225 Bruno Latour Scientific Practices 235 John Law Design Fiction 247 Julian Bleecker The Electronic as Post-Optimal Object 253 Anthony Dunne</region>
+        <outsider class="DoCO:TextBox" type="footer" id="14" page="6" column="1">cONTENTS V</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="15" page="8" column="1">FOREWORD BIRD</h1>
+        <region class="DoCO:TextChunk" id="16" confidence="possible" page="8" column="1">Design research is becoming increasingly important in academic and creative contexts within the international research landscape. There is a special interest in research approaches that take their cue from design practices, processes and issues and attempt to closely link knowledge production to the world of design. Key topics include the researchers’ involvement in their own experimental systems and the complex interplay between writing systems, data generation, and data interpretation. Nev- ertheless, it often remains unclear which concepts, ideas, and stereotypes concerning design and research form the basis of so-called practice-led design research. At times the rather paradoxical impression may arise that the localization of independent research focuses within the field of design not only draws on traditional models of research, science and knowledge production, but also attempts to question and further develop such models. Against this backdrop, the present book endeavors to define the foundations of the design research that is taking place in the present and, more importantly, that will take place in the future. The study takes the form of a topological overview, but is also informed by a dialogical structure: groundbreaking contemporary concepts and approaches that define design as a research activity and characterize research as a practi- cal undertaking are identified and set in relation to each other. The purpose is not to demonstrate the existence of an unbridgeable divide between various knowledge cultures or to emphasize their antithetical features. Rather, through its texts and intro- ductory essays, this book aims to help map out the productive interactions, parallels, and overlaps between those concepts in design and research that focus on the common theme of design and knowledge production. The selected perspective illustrates that, although there are distinctions between academic and design research, they are both constituted by specific epistemic, aesthetic, and social practices. The importance of the focus on pivotal texts for current and future design research cannot be overstated. However, while certain charismatic names come up again and again in the current discussion, the community has thus far lacked a handbook that is well-founded and conscientiously selected while also being straightforward and accessible. Grand and Jonas have now filled this gap. Compiled on the basis of a deep and extensive knowledge of the field, their collection of some eighteen international texts from the period after 1960 mirrors the principal developmental phases of design research in particular and in the relevant fields of scientific research.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="17" confidence="possible" page="8" column="1">Board of International Research in Design, BIRD</h2>
+          <outsider class="DoCO:TextBox" type="footer" id="18" page="8" column="1">FOREWORD BIRD VII</outsider>
+          <outsider class="DoCO:TextBox" type="footer" id="19" page="9" column="1">2 MAppING DESIGN RESEARch</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="20" page="10" column="1">Simon Grand, Wolfgang Jonas</outsider>
+        </section>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="21" page="10" column="1">INTRODucTION</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="22" confidence="possible" page="10" column="1">Basic Idea</h2>
+          <region class="DoCO:TextChunk" id="24" page="10" column="1">The issue of foundations for design research is controversial, at least when researchers claim to follow their own “designerly” paradigm of knowledge generation. The controversy arises be- cause “designerly” inquiry deviates from the taken-for-granted epistemological traditions, methodological guidelines, and academic standards set by the more established disciplines  path and then there is the attempt to develop a “designerly” theory of knowledge production, the latter being associated with notions like “practice-led research”, “project-grounded research”, and “research through design”, all of which have generated considerable interest in recent years.   - <marker type="block"/>  the “designerly” approach instead. The central question is: how to substantiate this claim in </region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="25" confidence="possible" page="10" column="1">How can design establish its own genuine research paradigm, independent of the sciences, the humanities, and the arts, one that is appropriate for dealing with purposeful change in complex,</h1>
+        <region class="DoCO:TextChunk" id="30" page="10" column="1">Our starting point is the observation that those established and respected disciplines are themselves undergoing changes. Non-traditional epistemological approaches are gaining in importance. The relationship of research to practice is changing. Empirical studies reveal that the processes of the Natural and Engineering Sciences are design-like. The relationship between rigor and relevance in inquiry is increasingly delicate. Furthermore, we argue that a new and strong process of convergence between the Sciences and Design is happening and this convergence is heading in the direction of a new “trans-domain”. In our opinion, Design risks being caught in the past if it misses these developments. The academic cultures of the sciences and the arts were still very much integrated du-  know as “traditional science” and “traditional design” today. Supposedly, Science produces theoretical knowledge, which Design applies in practice. Despite the various arguments ad- vanced to challenge this black-and-white dualism, and various past efforts from Design to overcome it, today’s mainstream design discourse still rests on it. The Bauhaus, the New <marker type="block"/> Now, however, we observe strong new signs of convergence from the Sciences and Design.<marker type="page" number="11"/><marker type="block"/> become aware of the intensity of knowledge generation in their working processes and has begun to develop their own notions, methods, and standards of research. We take the early designerly attempts seriously and develop them further. Instead of      with clear distinctions regarding the character of the outcomes, of course. Or, in other words, we create a narrative that sets out to reveal the common designerly core of both approaches to knowledge generation. As a projection, which is not further substantiated here, we put for- ward the hypothesis of a convergence towards a new “trans-domain”. The book consists of<marker type="block"/>  search”, describes the development of design research concepts, with special emphasis on the above-mentioned “designerly” concepts. It is followed by a collection of core / paradig-</region>
+        <outsider class="DoCO:TextBox" type="footer" id="28" page="10" column="1">INTRODucTION 3</outsider>
+        <region class="DoCO:TextChunk" id="31" confidence="possible" page="11" column="1">is presented as the generic form of knowledge production. The main  malized sub-discipline of design research. ity”, crucial for conceptualizing design thinking and design research. his programmatic considerations in terms of dealing with organized</region>
+        <region class="DoCO:TextChunk" id="32" confidence="possible" page="11" column="1">mode 2 science</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="33" confidence="possible" page="11" column="1">avant la lettre.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="34" confidence="possible" page="11" column="1">The Sci-</h1>
+        <region class="unknown" id="35" page="11" column="1"> (1981), shows an often neglected aspect of his thinking. The non-causal and evolutionary nature of social designing  sign, like science, is a tool for understanding as well as for acting”.</region>
+        <region class="DoCO:TextChunk" id="36" confidence="possible" page="11" column="1">4) charles Owen (1998) presents the design research approach of the Institute of Design in chicago. At the same time, it is a strong plea in favor of following a designerly way of knowledge production and</region>
+        <outsider class="DoCO:TextBox" type="footer" id="37" page="11" column="1">4 MAppING DESIGN RESEARch</outsider>
+        <region class="DoCO:TextChunk" id="38" confidence="possible" page="12" column="1">and processes of inquiry.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="39" confidence="possible" page="12" column="1">into, for,</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="40" confidence="possible" page="12" column="1">through</h1>
+        <region class="unknown" id="41" page="12" column="1">5) christopher Frayling (1993), often cited and rarely read, introduces the controversial distinctions between research and art and design. We consider this a useful starting point for the development of a designerly paradigm of design research.</region>
+        <region class="DoCO:TextChunk" id="42" confidence="possible" page="12" column="1">6) Bruce Archer (1995), a kind of “late work”, presents a clear and distinct summary of his position regarding design research. he uses the categorization of research about, for, and through design, and offers a consideration of the latter as the most interesting and most challenging one. 7) Alain Findeli (2008) is his precise attempt at clarifying the difference  characteristic of “project-grounded research”.  basic, applied, and clinical research into design research, and can  standards into design research. 9) John christopher Jones (undated) presents a deeply philosophical, poetic, and in a way timeless, account of practice, theory, and research in design.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="43" confidence="possible" page="12" column="1">part II: Research as Design: promising Strategies and Future possibilities</h2>
+          <region class="DoCO:TextChunk" id="44" page="12" column="1">The second essay, entitled “Research as Design: promising Strategies and possible Futures”, ities of design as practice, referring to the discussion of “designerly” ways of knowing (see the  </region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="45" confidence="possible" page="12" column="1">research as design)</h1>
+        <region class="DoCO:TextChunk" id="46" page="12" column="1">as a basis for developing new perspectives on design research. Third, the essay looks at Design Fiction and critical Design as two current research programs that relate design research to science studies, and thus make it possible to identify promising strategies for design research, assembled in a Design Fiction Method Toolbox.   bling three papers for each:</region>
+        <outsider class="DoCO:TextBox" type="footer" id="47" page="12" column="1">INTRODucTION 5</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="48" page="13" column="1"></outsider>
+        <region class="DoCO:TextChunk" id="49" confidence="possible" page="13" column="1">    in so-called “trading zones” that characterize the successful prac-  can be interpreted as entering these trading zones. 2) Michael Gibbons, camille Limoges, helga Nowotny, Simon Schwartzman, peter Scott, and Martin Trow (1994) describe how  tion are shifting from a disciplinary mode 1 approach towards a transdisciplinary mode 2 approach. Mode 2 not only transcends disciplinary boundaries, but also emphasizes the societal, cultural, and political embeddedness of research. It is productive to interpret de-  3) In the tradition of the sociology of translation, Michel callon (1999) de-  that through the problematization of established knowledge and perspectives, the interessement of heterogeneous parties, the enrole- ment of relevant actors, and the mobilization of multiple resources,  cussed, and transformed into new knowledge. Design practice and design research are involved and engaged in such translation processes.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="50" confidence="possible" page="13" column="1"></h2>
+          <region class="DoCO:TextChunk" id="51" confidence="possible" page="13" column="1">4) Karin Knorr cetina (1999) describes the particular qualities of labora-   can be seen as material, intellectual, and symbolic infrastructures  research provides a good basis for relating it to the laboratory studies.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="52" page="13" column="1">6 MAppING DESIGN RESEARch</outsider>
+          <region class="DoCO:TextChunk" id="53" confidence="possible" page="14" column="1">the “smallest integral working units of research”. They are charac-  the methods, tools, instruments, technologies, and materials needed to ask and to answer relevant new research questions in the - perimental system is productive for distinguishing design research from design practice. ments are no longer taking place inside a laboratory with well-de-   initiatives to global warming, we are all involved in such collective periments in multiple ways.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="54" confidence="possible" page="14" column="1"></h2>
+          <region class="DoCO:TextChunk" id="55" confidence="possible" page="14" column="1"> on the one hand constantly challenging and questioning, and criti- other hand creating and establishing new knowledge, descriptions, taken-for-granted, unquestioned, self-evident new perspectives. ing the practice of design research. ies to design practice in order to establish a research program that  design could be, as well as what new worlds could be created, beyond the routine, everyday notion of what design does, and beyond a leading question in design research, when focusing more on future possibilities than on taken-for-granted realities.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="56" page="14" column="1">INTRODucTION 7</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="57" page="15" column="1">9) Anthony Dunne (2005) complements this approach with his research</outsider>
+          <region class="DoCO:TextChunk" id="58" confidence="possible" page="15" column="1">proach. In this perspective, speculative design and prototypical artifacts are used to challenge narrow premises, assumptions, precon- debate, and even entertain, as ways of getting researchers and designers to engage with critical Design.</region>
+          <region class="DoCO:TextChunk" id="59" page="15" column="1">Based on these insights, a bundle of research strategies and design methods are deduced and assembled into a Design Fiction Method Toolbox, as a way of translating the fundamental debates, major perspectives, and multiple approaches in science studies into a set of research practices that can be directly related to the particular qualities and designerly ways of knowing that characterize design practice and design research. As a projection, we take the hypothesis of a convergence towards a new “trans-domain” of Science and Design as a prom-  Research. Opening up for new possibilities and opportunities, rather than closing down on de-  We wish to thank the staff at Birkhäuser and, in particular, Dr. Robert Steiger for their endless patience and support in making this book a reality. Special heartfelt thanks go to our colleague Ralf Michel, who played a key role in developing, planning, and producing this pub- lication as one of its initiators.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="60" page="15" column="1">8 MAppING DESIGN RESEARch</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="61" page="18" column="1">Wolfgang Jonas</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="62" page="18" column="1">ExpLORING ThE SWAMpY GROuND</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="63" confidence="possible" page="18" column="1">An inquiry into the logic of design research</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="64" confidence="possible" page="18" column="1">1 Introduction, assumptions, and purpose</h2>
+          <region class="DoCO:TextChunk" id="65" confidence="possible" page="18" column="1">prologue</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="66" confidence="possible" page="18" column="1">“Now! Now!” cried the Queen. “Faster! Faster!” And they went so fast that at last they seemed to skim through the air, hardly touching the ground with their feet, till suddenly, just as Alice was getting quite ex- hausted, they stopped, and she found herself sitting on the ground, breathless and giddy. The Queen propped her up against a tree, and said kindly, “You may rest a little, now.” Alice looked round her in great surprise. “Why, I do believe we’ve been under this tree the whole time! Everything’s just as it was!”</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="67" confidence="possible" page="18" column="1">“Well, in our country,” said Alice, still panting a little, “you’d generally get somewhere else—if you ran very fast for a long time as we’ve been doing.” “A slow sort of country!” said the Queen. “Now, here, you see, it takes all the running you can do, to keep in the same place. If you want to get somewhere else, you must run at least twice as fast as that! (Carroll 1996, 151–152)</h1>
+        <region class="DoCO:TextChunk" id="68" confidence="possible" page="18" column="1">This essay is an attempt at a clustering logic for design research. is about  -</region>
+        <region class="DoCO:TextChunk" id="73" page="18" column="1">and even social phenomena. This knowledge can be applied to dealing with, not necessarily solving, real-world problems. <marker type="page" number="19"/><marker type="block"/> Knowledge has different meaning, status, and use in science and in design. Science is aiming at predictability, and thus needs stable models that repeatedly deliver “the same.” Science has to purify its models in order to convert them from vague hypotheses into prediction machines. Bodies, consciousnesses, communications, and artifacts are neatly separated.  Design, on the other hand,   fade away, grow old-fashioned. Design environments change too fast to be able to speak of “true” or “false” design knowledge. The archive of design knowledge is like a memory, a grow-<marker type="block"/>    through,” or, more positively, of “informed intuition,” should not be scorned, but seen as a core element of designing. ence and technology and, at the same time, decreasing prognostic control of its social, economic, and ecologic consequences. As soon as a solution is found, it becomes the nucleus of a new problem. The emerging discourse of mode 2 science, with its primacy of application teria, is a response to these new conditions. problems  -</region>
+        <outsider class="DoCO:TextBox" type="footer" id="70" page="18" column="1">ExpLORING ThE SWAMpY GROuND 11</outsider>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="71" page="19" column="1">Figure 1</caption>
+          <image class="DoCO:Figure" src="62sg.page_019.image_01.png" thmb="62sg.page_019.image_01-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="74" confidence="possible" page="19" column="1">Mode 2 science is de-</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="75" confidence="possible" page="19" column="1">sign-like.</h1>
+        <region class="DoCO:TextChunk" id="76" page="19" column="1">Accepting the limits of project-oriented science and acknowledging its similarity with design suggests a new role for design: at once more modest and more self-assured. More modest in its claim to solve problems, and more self-assured in its claim to present its own designerly paradigm of project-based knowledge production. A new conception of design thinking and design research is required, one which is adequate to this integrating function. We may return to Glanville (1980 → research as a design activity  sign research:</region>
+        <outsider class="DoCO:TextBox" type="footer" id="77" page="19" column="1">12 MAppING DESIGN RESEARch</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="78" page="20" column="1">. . . Under these circumstances, the beautiful activity that is science</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="79" confidence="possible" page="20" column="1">will no longer be seen as mechanistic, except in retrospect. It will truly be understood honestly, as a great creative and social design activity, one of the true social arts. And its paradigm will be recognized as being design. Thus design will take its true place as the basis for the activities that sneeringly and trivially dismissed by those who adjudicate without creating, and who are fooled into believing that science is as she is writ. There will be no need for a special area of design research, for all research will be seen to be part of design research, with that which we call, now, design research being the most basic of all.</h1>
+        <region class="DoCO:TextChunk" id="81" page="20" column="1">  Every attempt makes certain initial distinctions according to its particular understanding of design research. Different categorizations follow from the respective initial distinctions, and we are aware of this unavoidable blind spot. The aim here is different from Bayazit’s (2004) historical overview, Forty Years of Design Research. Ours is a contribution to the design of design research, a design proposal, which is meant to provide a framework for the collection <marker type="block"/>  “scientizing” design research, there are more recent attempts to take up and develop the original approaches (part 3). We try to synthesize this and present the concept of a new scheme (part 4).</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="82" confidence="possible" page="20" column="1"></h2>
+          <region class="DoCO:TextChunk" id="83" confidence="possible" page="20" column="1">Weaver (1948 →</region>
+          <region class="DoCO:TextChunk" id="84" confidence="possible" page="20" column="1">-</region>
+          <region class="DoCO:TextChunk" id="85" page="20" column="1">systemic, normative, and transdisciplinary approach seems to anticipate the mode 2 concept   as a distinct subject matter and form of research, different from the Sciences and the humanities. he argues that design research is not conducted for its own sake, but in order to improve</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="86" confidence="possible" page="20" column="1">rel-</h1>
+        <region class="DoCO:TextChunk" id="87" confidence="possible" page="20" column="1"> dissolve in a pragmatist view. -</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="88" confidence="possible" page="20" column="1">evance quirement of rigor. This polarity may ultimately In positioning design at the interface duced the idea of situatedness</h1>
+        <region class="DoCO:TextChunk" id="89" confidence="possible" page="20" column="1">(Simon 1969):</region>
+        <outsider class="DoCO:TextBox" type="footer" id="90" page="20" column="1">ExpLORING ThE SWAMpY GROuND 13</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="91" page="21" column="1">An artifact can be thought of as a meeting point—an “interface” in to-</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="92" confidence="possible" page="21" column="1">day’s terms—between an “inner” environment, the substance and organization of the artifact itself, and an “outer” environment, the sur- roundings in which it operates. If the inner environment is appropriate to the outer environment, or vice versa, the artifact will serve its in- tended purpose.</h1>
+        <region class="DoCO:TextChunk" id="93" confidence="possible" page="21" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="94" confidence="possible" page="21" column="1">...</region>
+        <region class="DoCO:TextChunk" id="95" confidence="possible" page="21" column="1">. . .</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="96" confidence="possible" page="21" column="1">tween two entities: the form in question and its context. The form is words, when we speak of design, the real object of discussion is not the form alone, but the ensemble comprising the form and its context. particular division of the ensemble into form and context. we may even speak of culture itself as an ensemble in which the various fash-</h1>
+        <region class="unknown" id="97" page="21" column="1">→</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="98" confidence="possible" page="21" column="1">evolutionary</h1>
+        <region class="DoCO:TextChunk" id="99" confidence="possible" page="21" column="1">and iterative character of design</region>
+        <region class="DoCO:TextChunk" id="100" confidence="possible" page="21" column="1">Simon (1996 (1996, 163):</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="101" confidence="possible" page="21" column="1">or determine the future. The real result of our actions is to establish initial conditions for the next succeeding stage of action. What we call we will leave to our successors.</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="102" confidence="possible" page="21" column="1">fering as many alternatives as possible to future decision makers, avoiding irreversible commitments that they cannot undo.</h1>
+        <region class="DoCO:TextChunk" id="103" confidence="possible" page="21" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="104" page="21" column="1"> Design Studies, Archer (1969) introduces “Design as a discipline.” It is obvious that design research must include a huge diversity of disciplines in order to become pro-  from the very beginning. Archer (1981, 30) took a Wittgensteinian stance, when he said “that</region>
+        <region class="DoCO:TextChunk" id="105" confidence="possible" page="21" column="1"></region>
+        <region class="DoCO:TextChunk" id="106" confidence="possible" page="21" column="1">. . .</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="107" confidence="possible" page="21" column="1">is to try to dis- cover what design researchers actually do.” Design Research is systematic enquiry whose goal is knowledge of, pose, value and meaning in man—made things and systems .</h1>
+        <outsider class="DoCO:TextBox" type="footer" id="108" page="21" column="1">14 MAppING DESIGN RESEARch</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="109" page="22" column="1"></outsider>
+        <region class="DoCO:TextChunk" id="110" confidence="possible" page="22" column="1">“designerly</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="111" confidence="possible" page="22" column="1">Design research is a systematic search for and acquisition of knowledge related to general human ecology considered from a way of thinking” (i.e., project-oriented) perspective.</h1>
+        <region class="DoCO:TextChunk" id="113" page="22" column="1">Archer lists 10 areas of Design Research, from which “constituent sub-disciplines” emerge, <marker type="block"/> cross follows this scheme and suggests that (1999, 6): “ . . . design research would therefore fall into three main categories, based on people, process, and products” and even relates them to historical epochs, the 1920s, the 1960s, and the 2000s (2001). Findeli’s (2005) separation into esthetics, logic, and ethics seems to be comparable.</region>
+        <region class="unknown" id="115" page="22" column="1"> <xref ref-type="table" rid="T1" id="114" class="deo:Reference">Table 1</xref> Archer’s 10 areas and 3 emergent sub–disciplines of Design Research (1981: 31, 35). Design phenomenology 1. Design history The study of what is the case, and how things came to be the way they are, in the Design area.  3. Design technology The study of the principles underlying the operations of the things and systems comprising designs. The study of the nature of design activity, its organization and its apparatus. 5. Design modeling and communication of design ideas. 6. Design metrology The study of measurement in relation to design phenomena, with special emphasis on the handling of non–quantitative data. Design philosophy The study of worth in the Design area, with special regard to the relationships between technical, economic, moral, social, and esthetic values. 8. Design philosophy The study of the logic of discourse on matters of concern in the Design area. 9. Design epistemology The study of the nature and validity of ways of knowing, believing, and feeling in the Design area. 10. Design pedagogy The study of the principles and practice of education in matters of concern to the Design area. Table 2 cross’s 3 main categories of Design research (1999, 2001) and—in parentheses—Findeli’s (2005) categories. people (ethics) Design epistemology – study of designerly ways of knowing; the 2000s process (logic) products (esthetics) </region>
+        <outsider class="DoCO:TextBox" type="footer" id="116" page="22" column="1">ExpLORING ThE SWAMpY GROuND 15</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="117" page="23" column="1">cross emphasizes (2001, 7):</outsider>
+        <region class="DoCO:TextChunk" id="118" confidence="possible" page="23" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="119" confidence="possible" page="23" column="1">. .)</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="120" confidence="possible" page="23" column="1">that we do not have to turn design into an imitation of science, nor do we have to treat design as a mysterious, ineffable art. (. we must avoid totally swamping our research with different cultures imported either from science or art.</h1>
+        <region class="DoCO:TextChunk" id="121" confidence="possible" page="23" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="123" page="23" column="1">he calls his scheme “designerly ways of knowing,” claiming that design is a genuine way of producing knowledge, different from science and art, which, though fuzzier, is very much in accordance with Simon (1969). In the 1920s, with the modern desire to “scientize” design and the longing for objectivity  “machine for living”). In the 1960s, named the “design science decade” by Buckminster Fuller (1999), there is  tember 1962) marked the beginning of the Design Methods Movement, with its desire to base  nate the culmination and the watershed of this development. Simon himself, in chapter 6 on “Social planning: Designing the Evolving Artifact,” made a considerable shift in acknowledging the evolutionary character of every design process, determined by unforeseeable human and social aspects. <marker type="block"/>  Rittel (1972) made contributions to this debate that can hardly be overstated. The theory backlash of the 1970s obstructed the growth of these still-vague ideas and it took a decade to recover. Recently, Krippendorff (2007) has sharpened the argument further and called</region>
+        <region class="DoCO:TextChunk" id="124" confidence="possible" page="23" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="125" confidence="possible" page="23" column="1">“Design.</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="126" confidence="possible" page="23" column="1">The Design Research Society’s 1980 conference on Science: Method” provided an opportunity to air many of these considerations. The general feeling from that conference was, perhaps, that it was time to move on from making simplistic comparisons and distinctions between science and design; that perhaps there was not so much to learn from science after all, and that perhaps science rather had something to learn from design.</h1>
+        <region class="DoCO:TextChunk" id="127" confidence="possible" page="23" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="128" page="23" column="1">In the 2000s, cross detects the re-emergence of design-science concerns with a focus on people. This phase of the “products-process-people” model shows a striking parallel to what Findeli later presents as the “Bremen model” (2005), wherein he describes a shift of concern  ple), both on the production side (“upstream”) and on the reception side (“downstream”) of the design cycle. cross (2001) tries to clarify the confusion about the relationship between design and science:</region>
+        <outsider class="DoCO:TextBox" type="footer" id="129" page="23" column="1">16 MAppING DESIGN RESEARch</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="130" page="24" column="1">Table 3</outsider>
+        <region class="DoCO:TextChunk" id="131" confidence="possible" page="24" column="1">Interpretations regarding the relationship between Design and Science (cross 2001).    industrialized design—as distinct from pre–industrial, craft–oriented other foundations   design practice.” Design Science Design as Science organized, rational, and wholly systematic approach to design; not just the   challenged by many designers and design theorists. . . . ” Science of Design W. Gasparski and A. Strzalecki (“contributions to Design Science: Design as a subject matter Design Methods and Theories 24: 2 [1990]): of Science “The science of design (should be) understood, just like the science of science, as a federation of subdisciplines having design as the subject of their cognitive interests.” (cross 53): “In this latter view, therefore, the science of design is the study of  methodology’; the study of the principles, practices, and procedures of design. . . . The study of design leaves open the interpretation of the nature of design. So let me suggest here that the science of design refers to that body of work which attempts to improve our understanding of design through  clear that a ‘science of design’ is not the same as a ‘design science’.” Design as a Discipline (54): “Despite the positivist, technical–rationality basis of The Sciences of  fundamental, common ground of intellectual endeavor and communication across the arts, sciences, and technology. What he suggested was that the study of design could be an interdisciplinary study accessible to all those  ... Design as a discipline, therefore, can mean design studied on its own terms, and within its own rigorous culture. It can mean a science of design design as a science. . . . are forms of knowledge special to the awareness and ability of a designer, independent of the different professional domains of design practice. . . . we must avoid swamping our design research with different cultures imported either from the sciences or the arts. . . .”</region>
+        <region class="DoCO:TextChunk" id="132" page="24" column="1">cross worries about the “swamping” of design research, but we are in the swamp already, necessarily. The community owes the beautiful metaphor of the “swampy lowland” to Schön. he challenges the Design Science Movement and argues for an epistemology of practice that is implicit in the artistic, intuitive processes, instead. “We have never been modern.” (Latour 1998). In his vance (42, 43):</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="133" confidence="possible" page="24" column="1">The dilemma of “rigor or relevance” arises more acutely in some areas of practice than in others. In the varied topography of professional practice, there is a high, hard ground where practitioners can make</h1>
+        <outsider class="DoCO:TextBox" type="footer" id="134" page="24" column="1">ExpLORING ThE SWAMpY GROuND 17</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="135" page="25" column="1">effective use of research-based theory and technique, and there is a</outsider>
+        <region class="DoCO:TextChunk" id="136" confidence="possible" page="25" column="1">. . .</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="137" confidence="possible" page="25" column="1">swampy lowland where situations are confusing “messes” incapable ground, however great their technical interest, are relatively unimpor- tant to clients or to the larger society, while in the swamp are the problems of greatest human concern. There are those who choose the swampy lowlands. They deliberately involve themselves in messy but crucially important problems and, when asked to describe their methods of inquiry, they speak of experi- ence, trial and error, intuition, and muddling through. Other professionals opt for the high ground. Hungry for technical rigor, devoted to an image of solid professional competence, or fearful of entering a world in which they feel they do not know what they are doing,</h1>
+        <region class="DoCO:TextChunk" id="138" page="25" column="1">Owen (1998 →  cial form of knowledge production and that, although design’s own research culture is still young and weak, the importation of methods from more established disciplines does not necessarily contribute to the development of the discipline (1998, 10):</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="139" confidence="possible" page="25" column="1">-</h1>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="140" confidence="possible" page="25" column="1">Yet, it is reasonable to think that there are areas of knowledge and ways of proceeding that are very special to design, and it seems sensi- ble that there should be ways of building knowledge that are especially suited to the way design is studied and practiced.</h1>
+        <region class="DoCO:TextChunk" id="141" confidence="possible" page="25" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="147" page="25" column="1">  mentally the same for inquiry and application. The differences lie mainly in the purposes of the activity, and in the codes and value bases that are used. In order to illustrate the graduate studies at the Institute of Design in chicago, Owen <marker type="block"/> which is used at ID chicago as a universal structural framework and which can be traced back to Kolb’s pragmatist learning cycle (1984) and even earlier models. Analytic is related to<marker type="page" number="26"/><marker type="block"/> research, synthetic to professional practice, symbolic to planning, real to human-centered design (17, 18):</region>
+        <outsider class="DoCO:TextBox" type="footer" id="144" page="25" column="1">18 MAppING DESIGN RESEARch</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="145" page="26" column="1">Table 4</outsider>
+        <region class="unknown" id="146" page="26" column="1">Differences in measures and values (Owen 1998). Domain Discipline Measures Source of Values Science Mathematics True / false Reason correct / incorrect Logic complete / incomplete chemistry True / false physical world correct / incorrect Right / wrong Works / doesn’t work Technology Mechanical engineering Right / wrong physical world Better / worse  Works / doesn’t work Law Statutory law Just / unjust Social contract Lawful / unlawful Right / wrong Arts painting Beautiful / ugly culture Skillful / unskilled Thought–provoking / banal Design product design Better / worse culture Beautiful / ugly   Works / doesn’t work</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="148" confidence="possible" page="26" column="1">methods and processes for planning and concept formation. Human- Centered Research students investigate and develop theory, methods and process for the detailed design of systems and services and their sional students apply the tools of design planning to the creation of design plans for institutions and industry. Human-Centered Design problems of systems and services with their associated products and communications.”</h1>
+        <region class="DoCO:TextChunk" id="149" page="26" column="1">Obviously Owen concentrates on building knowledge FOR the improvement of the design / planning process (left side) and on applying this knowledge in design / planning (right side). The feed- back loops indicate that the knowledge base is supported ThROuGh the design / planning processes. This is the pragmatist focus, which integrates inquiry and application. Finally, Owen gives a number of recommendations, such as (19):</region>
+        <outsider class="DoCO:TextBox" type="footer" id="150" page="26" column="1">ExpLORING ThE SWAMpY GROuND 19</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="151" page="27" column="1">Design Planning</outsider>
+        <region class="unknown" id="152" page="27" column="1">Planning Plan Theory Me ria asu te Inquiry res Cri Application The ory Pri nci ple s Research Professional Degree Knowledge Degree M eas ure s Crit eria Inquiry The ory Pri nci ple Application s Design Design Theory Human-Centered Design Figure 2 Graduate Study at the Institute of Design (Owen 1998).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="153" confidence="possible" page="27" column="1">Initiate studies of the philosophy of design. Just as studies of the philosophy of science, history, religion, etc. seek to understand the un- derpinning values, structures and processes within these systems of knowledge building and using, there need to be studies of the nature of design.</h1>
+        <region class="DoCO:TextChunk" id="154" confidence="possible" page="27" column="1">. . .</region>
+        <region class="DoCO:TextChunk" id="159" page="27" column="1">which can be interpreted as the urge to do research ABOuT design.  eclipse of the object,” or the shift of research from artifacts (esthetics) to processes (logic) to velopment of a designerly research paradigm (Findeli 2008a). The concept shows a strong similarity to “Research ThROuGh Design” (RTD).  [and designing], research through design [and designing] and research for the purposes of design [and designing]” in the late 1970s during his post at the Royal college of Art in London ( <ext-link ext-link-type="uri" href="http://www.core77.com/research/thesisresearch.html" id="155">http://www.core77.com/research/thesisresearch.html</ext-link> accessed 21 August 2008), it was Frayling (1993 → search into / through / for art and design.  to subject matter or an assumed structure of the “real world” but according to purpose,<marker type="page" number="28"/><marker type="block"/> intentionality and attitude towards subject matters in design, is essential for a genuine designerly research paradigm. The inconsistencies seem to result from the obvious shift of meaning of for and through  tion and further elaboration (Jonas 2007a,b). See Table 5. Research ABOuT and FOR design seems unambiguous. The epistemological status of Research ThROuGh Design (RTD), however, is still weak. Grounded theory as well as action theory will probably contribute: Grounded theory is aiming at theory building, while accepting  Action research   ment of the researcher as well as the emergence of theories from empirical data, in contrast  hypotheses. Archer (1995 → about / for / through design and puts RTD on a level with Action Research (1995, 11):</region>
+        <outsider class="DoCO:TextBox" type="footer" id="157" page="27" column="1">20 MAppING DESIGN RESEARch</outsider>
+        <region class="unknown" id="158" page="28" column="1">Acteurs Processus Objet ES TH ÉTIQUE Fonctions LO GIQ UE Expériences Modes de vie ÉT HI QU E Figure 3 The “Bremen model” of design research spheres (Findeli 2005).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="160" confidence="possible" page="28" column="1">“It is when research activity is carried out through the medium of prac- titioner activity that the case becomes interesting.”</h1>
+        <outsider class="DoCO:TextBox" type="footer" id="161" page="28" column="1">ExpLORING ThE SWAMpY GROuND 21</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

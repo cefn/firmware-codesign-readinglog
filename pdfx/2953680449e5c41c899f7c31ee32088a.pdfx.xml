@@ -1,0 +1,939 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>f4f2cc95cbf1a97c4e1988c2b02d83f315c3b7b2cc89ecb53cd2392876378885</job>
+    <base_name>62kq</base_name>
+    <doi>10.1145/67933.67937</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:TextChunk" id="1" confidence="possible">Social Aspects of Computing Rob Kling Editor</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="2">Four Paradigms of Information Systems Development</article-title>
+      </title-group>
+      <region class="unknown" id="3">Developing computer-based information systems necessarily in volves making a number of implicit and explicit assumptions. The authors examine four diffeen t approaches to information systems development.</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Rudy Hirschheim</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Heinz K. Klein</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="8" confidence="possible">of systems failures. (The importance of implicit assumptions has also been noted more generally in [3,4, 76, 80, 891).We agree with the previous research that a better understanding of developer assumptions is important and we wish to extend the line of inquiry. In particular, we feel there is a need to explore the most fundamental foundations from where such assumptions arise, and this is done by applying a philosophical line of analysis. The article is organized as follows. We begin by in- troducing two case examples that illustrate how different systems development assumptions become manifest in practice. These assumptions are then grouped into four paradigms of information systems development and explained in detail. The rhetorical vehicle used for explicating the paradigms are generic story types. The paradigms are analyzed using the story types, dividing the discussion into three parts: story line, interpretation, and analysis. We return to the case examples to show how the manifest differences in the development process and outcomes can be explained by the four paradigms. We conclude by noting a number of benefits associated with the identification and analysis of the paradigms. The article provides a new vehicle for theorizing about the nature, purpose, and practice of information systems development. TWO EXAMPLES Consider how the approaches taken in the following two systems development projects differ.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="6" page="1" column="1">All systems developers approach the development task with a number of explicit and implicit assumptions about the nature of human organizations, the nature of the design task, and what is expected of them. These assumptions play a central role in guiding the information systems development (ISD) process. They also dra- matically affect the system itself. This article will examine the kinds of implicit assumptions made during systems development. Depending on the assumptions adopted, different systems development approaches are identifiable and each of these leads to different system outcomes. Based on a detailed analysis of the literature, we will examine the fundamental assumptions of four major kinds of systems development approaches and discuss how they lead to different outcomes. More specifically, we wish to show (1) that although there is a strong, orthodox approach to systems development, there are recently developed alternatives that are based on fundamentally different sets of assumptions; (2) that these assumptions primarily deal with the attitudes adopted toward reality and how to obtain knowledge about it; (3) that these assumptions are either explicitly or implicitly made in adopting a particular development approach: (4) that the ways in which system objectives are legitimized are directly related to the development approach adopted; and (5) that important social consequences result from applying a particular systems development approach. Other researchers have also noted the importance of systems developer assumptions, but their work has focused on more specific aspects, e.g., analyst models of the users [25, 421, analyst hypotheses about the nature of requirements and behavior related to structuring problems [96], and analyst and user values [57]. Whereas these studies employ empirical means to document these assumptions, Bostrom and Heinen [14] have relied on an analysis of the literature to document seven implicit theories and views of designers as causes</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="7" page="1" column="1">@1989ACM0001-0782/89/1000-1199 $1.50</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="14" page="1" column="2">Automating Typesetting or Enhancing Craftsmanship? Traditional newspaper production involves four major processes: writing, editing, typesetting, and printing. Reporters and columnists write copy which is then edited. Typesetters take the edited copy and relevant pic- torial material, and lay out pages. Printers take the results and print the newspapers. Typical systems designs focus on rationalizing newspaper production by com- bining tasks that can logically be done on the same <marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> electronic device, such as editing and formatting. Page layout is conceived as a natural extension of formatting. A requirements analysis along these lines suggests tha.t editors can perform the typesetting function because computers already aid the editors with editing and page layout. Editors can embed typesetting commands directly in the final copy. Page layout is done on screen and sent to phototypesetting equipment. The editors become responsible not only for editing but also for page make-up. Migh resolution screens; electronic cut, paste, and scaling facilities; and previewing appara- tus permit the typesetting function to be assigned to the editors. In the UTOPIA project [Zg, 471, an alternative approach was tried at one newspaper company. The systems development team consisted of union representa- tivles and typesetters. Their goal was to establish an electronic typesetting support system that would enhance the position of the typesetting craft in the newspaper industry. The newspaper’s management was ex- cluded from the design team so that typesetters’ interests were given primacy in all design decisions. Ex:isting turnkey systems were considered inappro- priate because of built-in design constraints and management biases that did not take into account the unique requirements of the typesetting craft. These management biases emphasized cost savings, efficiency, and control leading to de-skilling, job losses, and an aesthetically inferior product. Data processing special- ists assumed an advisory role serving the typesetters’ interest. In the requirements analysis, the design team viewed typesetting as an essential task requiring spe- cia.list skills that would be lost by its integration with editing. Two types of requirements were established: (1) transformation of edited texts into made-up pages; and (2) creation of an aesthetically pleasing product. Typesetting skills differ from editorial skills; editors are in charge of content, and typesetters are in charge of form.* The typesetters were interested in retaining the quality of typesetting and possibly enhancing their own productivity. To retain quality, systems design options focused on providing the flexibility and diversity of the tratditional tools of the typesetting trade by electronic means. To meet this objective, the team found it necessary to use hardware mock-ups to overcome the limitations of the then-available technology. While similar to prdotyping, the hardware mock-ups overcame the bias inherent in the technology used for prototyping. The available prototyping tools were unable to accommodate the craft skills that were used to meet the aes- thetic requirements of newpaper page layout. To enhance the quality of typesetting output, additional system capabilities, such as scaling and finetuning the contrast of pictures, were added. The UTOPIA approach resulted in an electronic typesetting support</region>
+      <outsider class="DoCO:TextBox" type="footer" id="10" page="1" column="2">October 1989 Volume 32 Number 10</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="11" page="1" column="2">Communications of the ACM</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="12" page="1" column="2">1199</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="13" page="2" column="1">Articles</outsider>
+      <region class="unknown" id="15" page="2" column="1">II _</region>
+      <region class="unknown" id="16" page="2" column="1">. ..I I</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="17" page="2" column="1">’ The results of editorial work (planning content, planning pages. and text editinel mav be called a iournalistic model of the news~amx owe. The iournalistic competence involved lies in improving the readability of the product. The make-up person refines the product by giving the journalistic model a graphic design. The graphic competence involved lies in improving the legi- bility of the product [‘La].</h1>
+        <region class="DoCO:FigureBox" id="Fx18">
+          <image class="DoCO:Figure" src="62kq.page_002.image_02.png" thmb="62kq.page_002.image_02-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="28" page="2" column="2">system that enhanced the typesetters’ skills and productivity. The UTOPIA model also required the establishment of a new work organization [28]. While reporters have access to display terminals to write their articles, they do not code the text with typesetting commands. A central production unit, where journalists and graphic workers cooperate closely, is responsible for page editing and make-up, typing manuscripts, proofreading, in- corporating major revisions, editing standard features such as TV listings, and coding individual articles. The editorial staff comprises editors and subeditors, whose responsibilities are also changed. Subeditors work most closely with the typesetters to make up the pages. Editors are primarily responsible for maintaining a consistent overall viewpoint among different articles and serve as discussion partners for subeditors [28]. <marker type="block"/> Deregulation has forced airlines to become increasingly cost conscious, yet airline safety depends on costly, high quality engine maintenance. In order to rationalize engine maintenance, one airline com:pany developed an expert system consisting of the rules for engine maintenance and repair. During the knowledge acquisition phase, rules were extracted from engineering specifications and maintenance handbooks. When engines arrived at the maintenance plant, mechanics disassembled them and placed the parts on work tables. Robots diagnosed possible faults through automated measuring and sensing. The facts gleaned about the state of the engine parts were fed to the expert system which then applied its rule base to determine necessary repairs. It printed out a work schedule for making the repairs which was then followed by the mechanics. When the system was implemented, the promised cost decrease in engine maintenance did not material- ize; on the contrary, maintenance costs increased by 13 percent. A redesigned system based on an alternative design strategy was sought. A new dlesign team that included union representatives and mechanics was formed. Their cooperation was motivateld by a coalition with management which they saw as necessary to se- cure the viability of the company, and with it, their jobs. The design team first analyzed the reasons for the decrease in maintenance productivity and found that under the old system, mechanics relied too heavily on computer-based fault diagnosis. They did not check nor challenge the computer diagnosis for possible errors. These errors were the product of difficulties in formal- izing the knowledge base. Apparently, the mechanics’ knowledge acquired through education and experience could not easily be formalized and put i:nto the rule base of the expert system. There may also have been an error margin in the automatic sensing which created ambiguities. The new design team shifted the focus of requirements analysis from the acquisition of an expert rule base to the support of the mechanics’ judgment in diagnosing maintenance needs. The requirements study<marker type="page" number="3"/><marker type="column" number="1"/><marker type="block"/> focused on the subtleties that come into play in deciding which maintenance is actually required for each engine part. The new design left the mechanics in charge of the fault diagnosis, because their experience and judgment was now considered indispensible. After the mechanics had decided on the necessary repairs they would then consult the computer system for available repair options, availability of needed parts, etc. For this purpose the computer system turned out to be very useful. This design approach resulted in a system for experts rather than an expert system. These two examples pose an interesting and important question: Do they point to subtle yet fundamental differences that originate from conflicting systems development philosophies, or are they merely variations of a single theme, namely one where a family of development approaches shares the same underlying philosophy? The answer to this question is important because different underlying philosophies may lead to radically different options in terms of design features, implementation strategies, user satisfaction, and system use. We seek to show that these differences are the product of fundamentally different underlying systems development assumptions. We identify dominant patterns resulting from differing sets of core assumptions that can be used to characterize the array of current system development approaches. We do not claim that this is the only way to organize them, nor that the assumptions necessarily correspond to actual beliefs to which practitioners are committed.’ Rather, the core assumptions have been derived from studying the descriptions of various systems development approaches that appear in the literature.3<marker type="block"/> The most fundamental set of assumptions adopted by a professional community that allows its members to share similar perceptions and engage in commonly shared practices is called a “paradigm.” Typically, a paradigm consists of assumptions about knowledge and how to acquire it, and about the physical and social world.4 As ethnomethodological studies have shown [x] such assumptions are shared by all scientific and professional communities. As developers must conduct inquiry as part of systems design and have to intervene into the social world as part of systems implementation, it is natural to distinguish between two types of related</region>
+        <region class="unknown" id="20" page="2" column="2">Developing an Expert System or a System for Experts?</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="22" page="2" column="2">1200</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="23" page="2" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="24" page="2" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="25" page="3" column="1">Articles</outsider>
+        <region class="unknown" id="27" page="3" column="1">FOUR PARADIGMS</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="29" page="3" column="1">‘To establish this would need a representative empirical follow-up study of the belief systems held by practitioners. A first step in this direction is the study undertaken by Vitalari and Dickson [96]. It showed that the processes used by analysts in determining information requirements were more comprehensive than the literature on structured systems development approaches had suppested. ’ Only insofar as the literature influences ISD practice would the assumptions derived from the descriptions of systems development approaches also be representative of the actual beliefs held by practitioners. ‘Paradigms are defined by Eiurrell and Morgan [IS] as “meta-theoretical as- sunmtions about the nature of the sub&amp;t of studv.” This differs somewhat from Kuhn’s classic conception of paradigms which were defined as “univer- sally recognized scientific achievements that for a time provide model problems and solutions to a community of practitioners” [56].</h1>
+        <region class="DoCO:FigureBox" id="Fx30">
+          <image class="DoCO:Figure" src="62kq.page_003.image_03.png" thmb="62kq.page_003.image_03-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="42" page="3" column="2">assumptions: those associated with the way in which system developers acquire knowledge needed to design the system (epistemological assumptions), and those that relate to their view of the social and technical world (ontological assumptions). Two types of assumptions about knowledge (epistemological) and the world (ontological) are given by Burrell and Morgan [18] to yield two dimensions: a subjectivist-objectivist dimension and an order-conflict dimension. In the former, the essence of the objectivist position “is to apply models and methods derived from the natural sciences to the study of human affairs. The objectivist treats the social world as if it were the natural world” [18, p. 71. In contrast, the subjectivist position denies the appropriateness of natural science methods for studying the social world and seeks to understand the basis of human life by delving into the depths of subjective experience of individuals. “The principal concern is with an understanding of the way in which the individual creates, modifies, and interprets the world in which he or she finds himself [or herself]” (p. 3). In the order-conflict dimension, the order or integrationist view emphasizes a social world characterized by order, stability, integration, consensus, and functional coordination. The conflict or coercion view stresses change, conflict, disintegration, and coercion. The dimensions when mapped onto one another yield four paradigms (see <xref ref-type="fig" rid="F1" id="31" class="deo:Reference">Figure 1</xref>): functionalism (objective-order); social relativism (subjective-order); radical structuralism (objective-conflict); and neohumanism (subjective-conflict). This particular framework has been chosen because it allows us to capture the distinguishing assumptions of alternative approaches to information systems development in a simplified yet philosophically grounded way. The functionalist paradigm is concerned with providing explanations of the status quo, social order, social integration, consensus, need satisfaction, and rational choice. It seeks to explain how the individual elements of a social system interact to form an integrated whole. The social relativist paradigm seeks explanation within the realm of individual consciousness and subjectivity, and within the frame of reference of the social actor as opposed to the observer of the action. From such a perspective “social roles and institutions exist as an expression of the meanings which men attach to their world” [93, p. 1341.The radical structuralist paradigm emphasizes the need to overthrow or transcend the limitations placed on existing social and organizational arrangements. It focuses primarily on the structure and analysis of economic power relationships. The neohumanist paradigm seeks radical change, emancipation, and potentiality, and stresses the role that different social and organizational forces play in understanding change. It focuses on all forms of barriers to emancipa- tion-in particular, ideology (distorted communication), power, and psychological compulsions and social con- straints-and seeks ways to overcome them. These paradigms, initially identified by Burrell and Morgan [18] in the context of organizational and social<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> research, also manifest themselves in the domain of information systerns development.5 Yet to show how the paradigms are actually reflected in ISD is complicated. The paradigms are largely implicit and deeply rooted in the web of common-sense beliefs and back- ground knowledge [go] which serve as implicit “theo- ries of action” [4]. A simplifying vehicle was sought to help develop and articulate the paradigms, in particular, the types of behaviors and attitudes that follow from them. Such a vehicle was found in the notion of “generic stories” or, more precisely, generalized story types (genres). Each story type consists of typical classes of behavior that follow from the assumptions of a particular paradigm. For example, different types of behavior in requirements determination arise depending on whether one believes in an objective organizational reality or not. These types of behavior were identified and grouped into story types. Each of these was derived by interpreting pools of systems development literature that share the assumptions of a particular paradigm. These pools have been identified by analyzing the specific core assumptions and beliefs that are revealed in the concepts and examples they employ. This allows us to explicitly compare sets of assumptions that typically have not been widely articulated or systematically compared.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="33" page="3" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="34" page="3" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="35" page="3" column="2">1201</outsider>
+        <region class="unknown" id="36" page="4" column="1">ORDER A</region>
+        <region class="unknown" id="37" page="4" column="1">Functionalism</region>
+        <region class="unknown" id="38" page="4" column="1">OBJECTIVISM &lt;</region>
+        <region class="unknown" id="39" page="4" column="1">Radical Structuralism</region>
+        <region class="unknown" id="40" page="4" column="1">V CONFLICT</region>
+        <region class="unknown" id="41" page="4" column="1">FIGURE1. Information Systems Development Paradigms (adapted from [18])</region>
+        <region class="unknown" id="43" page="4" column="1">21,</region>
+        <region class="unknown" id="44" page="4" column="1">[37, We</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="45" page="4" column="1">‘The view that these four paradigms capture the whole of sociological and organizational research is not without its critics. Numerous writers have criti- cized the Burrell and Morgan framework for being oversimplified [cf. 46). For example, many are unhappy with the way functionalism is portrayed. e.g., that it denies conflict and that functionalists always adopt positivism. Coser’s [23] treatment of functionalism does take into account conflict; and certain functionalists did not necessarily adopt positivism (cf. Talcott Parsons]. Others argue that the dichotomies projected by Burrell and Morgan are artifi- cd. Although there iwe other frameworks for categorizing social science research 911, none is xs representative of the IS development domain. see the framework proposed by Burrell and Morgan--with some modifica- tion-as best depicting the different classes of systems development approaches, relatively speaking. This is not meant, however, to rule out the need to explore other alternatives.</h1>
+        <region class="DoCO:FigureBox" id="Fx46">
+          <image class="DoCO:Figure" src="62kq.page_004.image_04.png" thmb="62kq.page_004.image_04-thumb.png"/>
+        </region>
+        <region class="unknown" id="47" page="4" column="2">Social Relativism</region>
+        <region class="unknown" id="48" page="4" column="2">) SUBJECTIVISM</region>
+        <region class="unknown" id="49" page="4" column="2">Neohumanism</region>
+        <region class="DoCO:TextChunk" id="71" page="4" column="2">After each story type has been articulated in some detail, we provide a theoretical interpretation and discuss some of its potential consequences. (For stylistic reasons, we shall now drop the qualifier type and simply speak of story. The theoretic interpretation will take the form of discussing the (1) key actors of the story- the “who” part of the story; (2) narrative-the “what” of the story, what are the key features and activities; (3) plot-the “why” of the story, why did the action of the story take place the way it did; and [4) assump- tions-the fundamental beliefs held by the actors of the story, discussed in terms of epistemologi.cal and ontological assumptions. The four stories are neither equally well-developed nor known. The same is true of their consequences. For the first story, there is a large experiential base from which to draw. It is the orthodox approach to systems development and has been used to develop information systems for decades. Its consequences, therefore, are reasonably clear cut. The other three stories are more recent and have not been widely applied. Thus practical knowledge about them is sparse and their consequences largely conjectural. They are presented in the rough chronological order in which they emerged. The four paradigms, as depicted through the stories, are not as clear cut nor as animated as they are made out to seem. There is overlap and their differences are overstated for the purpose of effect. They are, in fact, archetypes-highly simplified but powerful conceptions of an ideal or character type [80]. ‘These ideal types do not exist as real entities; rather their properties which are exhibited (to a greater or lesser degree) in existing entities give the archetype meaning. The archetypes reflected in the stories play #animportant role in conveying the essential differences that exist in alternative conceptions of, and approaches to, systems development. <marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> This story has progressed considerably over the years [24, 87, 88, 941, and has been the source of many successful systems. The story suggests that all information systems are designed to contribute to specific ends. The role of management is that of the leadership group in the organization that knows or develops the ends which are then translated and specified in terms of systems objectives. The usual assumption is that the specification is as objective as possible. The resolution of polemical issues associated with objectives is seen as the prerogative of management and not normally within the domain of the systems developer. As a result, the ends can be viewed as being articulated, shared, and objective. Of course, there are many kinds of conflicts with which the system developer does deal, but the tools and methods used typically concern only the choice of means to prespecified ends, not the sub- stance of the ultimate ends of a system. The primary role of the analyst is to be the expert in technology, tools and methods of system design, and project management. Their application helps to make systems development more formal and rational, placing less reliance on human intuition, judgment, and politics. Politics is seen irrational as it interferes with maximal efficiency or effectiveness. As noted by DeMarco, [27, p. 131 “Political problems aren’t going to go away and they won’t be ‘solved.’ The most we can hope for is to limit the effect of disruption due to politics. Structured analysis approaches this objective by making analysis procedures more formal.” In this story there is one reality that is measurable and essentially the same for everyone. Otherwise it would not be possible to have what McMenamin and Palmer [77] call the “true requirements of the system.” The role of the developer is to design systems that model this reality [36] in a way that will turn the system into a useful tool for management to achieve their ends [7]. In principle, these ends coincide with organizational goals. Through the concept of economic requirements, economic reality becomes measurable, taking on a nature- like, given quality. The economic reality (translated into quantitative, financial goals, and systems perfor- mance characteristics) allows system objectives to be derived in an objective, verifiable, and rational way. Systems design becomes primarily a technical process6<marker type="column" number="2"/><marker type="block"/> Key Actors: Management, the system developer and users. Managers are responsible for providing the system objectives. The systems developer is the expert who takes the objectives and turns them into a constructed product, the system. Management dictates the ends; the developers use specific means to achieve the ends. Users operate or interact with the system to achieve organizational objectives. Nnrrutive: Information systems are developed to support rational organizational operation and effective and efficient project management. The effectiveness and efficiency of IS can be tested by objective means tests which are similar to the empirical tests used in engineering. Requirements specification builds on the notion of a manifest and rational organizational reality. Information systems development proceeds through the application of “naive realism”-the notion that the validity of system specifications, data models, decision models, and system output can be established by checking if they correspond to reality. Reality consists of objects, properties, and processes that are directly observable. PIot: The ideal of profit maximization. As an organiza- tion’s primary goal is to maximize its shareholders’ wealth, the developed information systems must contribute to its profitability. Management is the most ap- propriate group to decide how profitability is to be at- tained and thus, is empowered to specify what the system objectives should be. Assumptions: The epistemology is that of positivism in that the developer gains knowledge about the organization by searching for measurable cause-effect relationships. The ontology is that of realism since an empirical organizational reality that is independent of its per- ceiver or observer is believed to exist. The paradigm is that of functionalism, which is defined by Burrell and Morgan as an overall approach which: “seeks to provide essentially rational explanations of social affairs” [18, p. 261.<marker type="block"/> The developer-as-systems-expert story, through its emphasis on various forms of modeling, focuses on grasp- ing the underlying order of the domains in which organizational actors operate. In the process, it assumes that there are general laws or regular patterns that help to explain and predict reality. It seeks to capture these by identifying key organizational relationships and aspects in IS that help the actors to orient themselves and achieve their objectives. This simplifies a complex reality, making organizational life more rational. Rationality, in this case, relates to choosing the best means for achieving given ends (i.e., maximize efficiency and effectiveness). The systems development approach suggested by this story attempts to follow the scientific<marker type="page" number="6"/><marker type="column" number="1"/><marker type="block"/> method. This aids its clarity and comprehensibility, and makes it widely acceptable to the community at large. Moreover, it helps operationalize fuzzy issues and directs efforts to finding productive technical solutions. The features of this story support a number of appar- ently appealing beliefs. First, it allows the developer to play a neutral and objective role during systems development which helps in clarifying the implications of alternative system design options. Second, many would claim it makes the issues of power, conflicting interests, and system goals appear to be largely outside the domain of the systems developer. Moreover, a large number of systems have been successfully completed by foll.owing the tenets of this story. However, as Bostrom and Heinen [14] have pointed out, the systems designer’s assumptions associated with this story can lead to a number of conditions that contribute to system failure. The story, therefore, has a number of potential dysfunctional consequences. For one, the primary emphasis is on investigating means rather than discussing ends. There is an implicit assumption that the ends are agreed. But in reality, ends are controversial and the subject of considerable disagreement and debate. By assuming the ends and thus sys,tem objectives are agreed, legitimation can become little more than a hollow force or thinly concealed use of power. The prespecified ends meet the needs of certain system stakeholders at the expense of others. There are also more fundamental problems with legitimacy. It is now widely doubted that economic laws govern social affairs in a similar way as natural laws govern the physical universe. Instead, it is believed that economic affairs are governed by social conventions and the decisions of a powerful socio-political elite. There are no rational, deterministic laws that emerge from an objective reality. A reaction to the erosion of these legitimating beliefs is end user resistance to change. To overcome resistance to change, systems developers have relied on a series of approaches, games, and strategies. These have taken the form of planned change models (e.g., the Lewin-Schein and Kolb-Frohman models), implementation strategies [2, 631, counterimplementation and counter-counterimplementation strategies [6, 491, and the like. These approaches, however, simply perpetuate the notion that systems development and implementation is a type of game. They continue to concentrate on means not ends. The assumption that the system objectives are legitimate and agreed remains. Failure to focus on the legitimation of the ends has led to an inap- propriate conception about why users resist change. The adoption of functionalism as the preferred paradigm for organizational knowledge acquisition also poses problems. As Burrell and Morgan [18] point out, the assumptions intrinsic to functionalism have proved to be at odds with much of recent social science think- in,g. Functionalism’s two essential assumptions. (1) that there exists an objective empirical reality and positivistic: methods are the best way to make sense of it, and<marker type="column" number="2"/><marker type="block"/> (2) that the nature of the social world is best conceived in terms of an integrated order rather than conflict, are widely felt to be problematic. Many now argue that functionalism has not been a particularly successful paradigm for understanding organizational and societal life, as the subject of study-people-does not lend itself to study through positivistic means (cf. [12, 32, 43, 53, 62, 951).People have free will and observation is not neutral. This latter point reflects the fact .that people as objects of study always “observe back.” Tlhey can per- ceive the observer’s plan of study and counteract it. Note, however, that the more recent forms of functionalism (cf. [l, 311)have recognized these p:roblems and have proposed ways to overcome them. In some of the more advanced thinking in ISD, there is an awareness of the changing nature of organizational reality facing the developer. It is explicitly recognized that at any point in time a system can, at best, approximate the changing requirements emerging from the constantly shifting trends and policies of organizational life which can never fully be known to devel- opers.7 Such insight transcends the mental “cage” of functionalist tenets in ISD and insofar as practitioners realize the consequences, they will see value in the following stories.<marker type="block"/> The second story has emerged relatively recently (cf. [5, 9, 13, 20, 54, 731).It is partly a reaction to the shortcom- ings of the first and in many ways its opposite. It recognizes that knowledge about human means and ends is not easily obtained because reality is exceedingly complex and elusive. There is no single reality, only different perceptions about it. Business does not deal with an objective economic reality, but one that evolves through changing traditions-social laws, conventions, cultural norms, and attitudes. Trying to discern economic laws is one way in which people try to make sense of confusing experiences by imposing a possible order. No one has a privileged source of knowledge, all see different parts. Furthermore, the role of people in shaping reality is very unclear. What they subjectively experience as a willful choice of action may simply be a reaction induced by enculturated habits or by circumstances. Management, too, tries to make sense of the confu- sion and instill others with a commitment to the organizational mission that is constantly evolving. IS are part of the continually changing social environment and somehow should help to identify which ends are desir-</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="51" page="4" column="2">1202</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="52" page="4" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="53" page="4" column="2">October 1989 V&amp;me 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="54" page="5" column="1">Articles</outsider>
+        <region class="unknown" id="55" page="5" column="1">STORY I: THE ANALYST AS SYSTEMS EXPERT Systems Development as Instrumental Reasoning</region>
+        <region class="unknown" id="57" page="5" column="1">‘This is in part due to the reification of economic requirements which hides the human authorship of systems objectives, presenting them more as technical objectives. Such a view has a rich historical backing. The belief that the economic laws are not of human authorship is very clearly portrayed by Adam Smith in The Wealth of Nations who writes of an “invisible hand” that directs management de&amp;i&amp; to realize the economic interests of individual companies for the common good. From a social and economic policy perspective. it is therefore unwise to question the legitimacy of management in deciding system objectives. This could only reduce the general welfare by leading to suboptimal allocation of economic resources. Furthermore this stow . adouts . manv _ features of the “bureaucraw ideal tvoe” ~1 of Weher . 1971 1 such as instrumental rationality, formalization, and depersonalization.</region>
+        <region class="DoCO:FigureBox" id="Fx58">
+          <image class="DoCO:Figure" src="62kq.page_005.image_05.png" thmb="62kq.page_005.image_05-thumb.png"/>
+        </region>
+        <region class="unknown" id="59" page="5" column="2">Interpretation</region>
+        <region class="unknown" id="61" page="5" column="2">Analysis and Discussion</region>
+        <outsider class="DoCO:TextBox" type="footer" id="63" page="5" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="64" page="5" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="65" page="5" column="2">1203</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="66" page="6" column="1">Articles</outsider>
+        <region class="DoCO:FigureBox" id="Fx68">
+          <image class="DoCO:Figure" src="62kq.page_006.image_06.png" thmb="62kq.page_006.image_06-thumb.png"/>
+        </region>
+        <region class="unknown" id="70" page="6" column="2">STORY II: THE ANALYST AS FACILITATOR Systems Development as Sense Making</region>
+        <region class="DoCO:TextChunk" id="72" confidence="possible" page="6" column="2">envir&amp;nent</region>
+        <region class="unknown" id="73" page="6" column="2">’ In particular. consider the case when users and management are identical, such as in executive support systems. In such cases, the goals of systems development cannot be treated as if they were predetermined by higher authoritv. Rather. the coals are derived from an analvsis of the shifting forces f&amp;n the that affect the continueh vzability of the &amp;gani- zation. This is the responsibility of senior management. On the other hand, in the classical data processing era, it was easy to set the gc&amp; for systems development because the systems dealt with well-understood and structured tasks.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="74" page="6" column="2">1204 Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="75" page="6" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="76" page="7" column="1">Articles</outsider>
+        <region class="DoCO:TextChunk" id="93" page="7" column="1">able and feasible. The distinction between ends and means is fluid and reversible. System objectives emerge as part of the organizational construction of reality, the “sense-making process” [8]. The role of the system developer is to interact with management to find out what type of system makes sense, but there is no objective criterion that distinguishes between good and bad systems. It all depends on what the parties come to believe to be true. The developer should work from within the users’ perspective and help them to find their preferred views. He or she should ease the transi- tion from one viewpoint to another, thereby alleviating possible resistance to change. Ideally the developer-by virtue of prior experiences, wisdom or special in- sights-is able to reduce the pains of change. But, the purpose and direction of change is hidden from him or her just as much as it is from everyone else. The devel- oper’s expertise is similar to that of the midwife who can ease the process of birth and make sure that the baby emerges safe and sound, but has no part in designing its genetic characteristics. Any system that meets with the approval of the affected parties is legitimate. To achieve consensus or acceptance, continuous interaction among all parties is critical. Through interaction, objectives emerge and become legitimized through continuous modification. Systems cannot be designed in the usual sense, but emerge through social interaction. The mechanism of prototyping or evolutionary learning from interaction with par- tial implementations is the way technology becomes embedded into the social perception and sense-making process. <marker type="block"/> Key Actors: Users and the systems developer. Users are the organizational agents who interpret and make sense of their surroundings. The systems developer is the change agent who helps users make sense of the new system and its environment. Nurrafive: Information systems development creates new meaning. The effectiveness of the information system rests on its ability to help users better understand the currently accepted conventions and meanings. Information systems development proceeds through the application of symbolic interactionism, which suggests that organizational actors interpret system objectives and specifications and act according to the meaning their interpretation provides for them. Mead [78, p. 781 captures the essence of symbolic interactionism when he writes “Language does not simply symbolize a situation or object which is already there in advance; it makes possible the existence or appearance of that situation or object, for it is part of the mechanism whereby that situation or object is created.” Plot: None manifest. As the social environment is under continuous evolution, no particular rational explanations can be provided to ‘explain’ organizational reality.<marker type="column" number="2"/><marker type="block"/> Assumptions: The epistemology is that of anti-positivism reflecting the belief that the search for causal, empirical explanations for social phenomena is misguided and should be replaced by sense-making. The ontology is that of nominalism in that reality is not a given, immutable “out there,” but is socially constructed. It is the product of the human mind. Social relativism is the paradigm adopted for understanding social phenomena and is primarily involved in explaining the social world from the viewpoint of the organizational agents who directly take part in the social process of reality construction.<marker type="block"/> The developer-as-facilitator story focuses on the complexity of reality which is by its very nature, confusing. It does not try to conceal this complexity by pretending that there is an underlying order that can be captured in simplifying models. Reality is socially constructed and the product of continual social interaction. The involvement in the social interaction produces unique experiential knowledge. The emerging meanings are a function of experience which is always changing and never quite the same for two people. The uniqueness and idiosyncratic nature of each situation does not allow it to be handled only by applying universal laws and principles. There is a shift from the rigorous scientific paradigm of prediction by expanatory laws to in- terpretative accounts of experiences. The concept of rationality does not play any significant role here. De- velopers act rationally if they simply accept prevailing attitudes and values, remain consistent with general opinion, and implement changes in a way that does not threaten social harmony. As this story emphasizes the complexity of systems development, it doubts the efficacy of objective and rigorous methods and tools. Instead, it favors an approach to systems development that facilitates the learning of all who are concerned and affected. This implies a switch in the role of the developer from one of system expert to facilitator who helps to stimulate reflection, cooperation, and experiential learning. In practice, the social relativist approach seeks to provide specific tools that facilitator at his or her discretion may use to support the project group interaction. Examples are diary keeping, various forms of mappings (historical, diagnostic, ecological, and virtual [XI]), special group pedagogy, use of metaphors to stimulate mental shifts (breakthrough by breakdown [70], etc. These tools can be used by the organizational actors for exploring, learning, increasing awareness, inventing solutions to problems, and undertaking action [%I. This is accom- panied by the belief that it is not so much the result of systems development that is important, but the way it is achieved. Hence it intrinsically favors strong participation. The kind of systems that this story produces stimulate creativity and sense making. The use of creativity is not seen as a means to achieve any specific or wider benefits. The local or global effects of ISD, good or bad, are not a conscious concern. This story does not<marker type="page" number="8"/><marker type="column" number="1"/><marker type="block"/> support the notion of a political center that attempts to strike a balance between individual and collective interests. Consequently, consensus is not viewed as a social means to maintain interest-based coalitions or for achieving an overall global optimum to which individuals interests are subordinate. The story suggests that all is relative; acceptance is the only thing that matters. Social interaction is crucial for acceptance but there is no way to distinguish between valid and fallacious (inauthentic, manipulative) consensus (what Habermas [39], terms “naive consen- sus”). Because of its relativist stance, it is completely uncritical of the potential dysfunctional side effects of using particular tools and techniques for ISD. Different products of systems development are simply viewed as the result of different socially constructed realities. Note how this differs from the next two stories.<marker type="block"/> The third story is also a fairly recent reaction to the first (cf. [16, 30, 47, 58, 921). It differs from the second by postulating that a fundamental social conflict is endemic: to society; yet it agrees with the first in that there is an objective economic reality. The conflict al- legedly exists between the interests of those who own the sources of production (shareholders of the organization) and labor (cf. [IS]). Economic reality is explained in ter:ms of the interdependent unfolding of the conflict between these two social classes. The conflict results from the objective condition of private ownership and contends that the invention of economic laws is a ploy by the owners of the sources of production to make the working class believe that there is no alternative way to arrange working conditions. Management has sided with the owners and are mere agents of their interests [34]. In this story, the developer is faced with a choice: to side with management and become their agent, or join the interests of labor. In the first case, the systems would rationalize the interests of management and the owners. In this case, the developer will direct systems rationalization against the workers’ interests by affecting the intensity of work, changing the instruments of work, or replacing the object of work altogether. Systems development in the interest of management increases intensity of work by using computers to direct the work flow or supervise workers, for instance by issuing detailed, optimally sequenced work schedules [30], monitoring machine operations (keystroke count- ing, measuring idle time), etc. An example of changing the instruments or tools of work is the replacement of typevvriters by word processors. An example of where the object of work has been replaced is in the watch industry where integrated circuits replaced mechanical watch movements. In all these cases worker interests are jeopardized because of loss of jobs, decreased de- pend’ence of management on labor, deskilling of jobs by increased specialization or standardization, and so forth.<marker type="column" number="2"/><marker type="block"/> Systems developers can choose, however, io side with the workers, designing systems which help their interests. In this case, they should use technology to enhance labor’s traditional skills and craftmanship, at- tempting to make work both more rewarding-econom- ically and psychologically-and deliver a better product. There may also be productivity gains, but these must benefit the worker: by shorter work weeks, more time spent on planning and organizing the creative part of their work, time for continuing education, more au- tonomy, and better wages. The systems developer needs to avoid replacing labor by capital through automation. Technology could also help workers to manage their own productive concerns-the interest of those who manage and those who do the productive work would then coincide. Trade union-led projects in Scandinavia such as DEMOS [30] and UTOPIA [47] are instances where systems development was placed in the hands of the workers.’ No matter which role the systems developer chooses, the source of system objectives is the collective interest of the conflicting classes: profits for the owners or improvement of working conditions for labor. From a radical structuralist perspective, choosing the former leads to the exploitation of the common man. Thus, legitimate system objectives enhance the lot of the workers who must earn a living through their labor.<marker type="block"/> Key Actors: Two classes [owners and labor), management, and the systems developer. The two antagonistic classes, the owners of the productive resources and labor, are engaged in a classic struggle. The owners become the beneficiaries of information systems while labor becomes the victim of system rationalization. Management acts as the agent of the owners. The systems developer chooses between being an agent for management or labor. Narrative: Information systems are developed to support managerial control. System objectives reflect the desire to support the interests of the owners at the expense of the interests of labor. Information systems development is embedded in the historical unfolding of class struggle-it either strengthens the side of the owners (ruling class) or their opponents, labor. The underlying hypothesis, that of dialectic materialism, suggests that the material economic conditions are fundamental for the shaping of class interests. The social conflict between the two classes follows the pattern of the dialectical triad: exploitation of one class by the other, revolt, and synthesis. The synthesis takes the form of a new political order and ideology. Information systems development is part of the rationalizing forces by which the owner class exploits labor.</region>
+        <region class="unknown" id="78" page="7" column="1">Interpretation</region>
+        <region class="DoCO:FigureBox" id="Fx80">
+          <image class="DoCO:Figure" src="62kq.page_007.image_07.png" thmb="62kq.page_007.image_07-thumb.png"/>
+        </region>
+        <region class="unknown" id="82" page="7" column="2">Analysis and Discussion</region>
+        <outsider class="DoCO:TextBox" type="footer" id="84" page="7" column="2">October 1989 Volume 32 Number 20</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="85" page="7" column="2">Communicationsof the ACM 1205</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="86" page="8" column="1">Articles</outsider>
+        <region class="unknown" id="88" page="8" column="1">STORY III: THE ANALYST AS LABOR PARTISAN Systems Development as Dialectic Materialism</region>
+        <region class="DoCO:FigureBox" id="Fx90">
+          <image class="DoCO:Figure" src="62kq.page_008.image_08.png" thmb="62kq.page_008.image_08-thumb.png"/>
+        </region>
+        <region class="unknown" id="92" page="8" column="2">Interpretation</region>
+        <region class="unknown" id="94" page="8" column="2">’ Currently the approach does not make it clear how system development could help those who are not employed at all or those who live in countries that have not developed along the lines of the Scandinavian democracies. (This point also applies to the other paradigms.)</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="95" page="8" column="2">1206</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="96" page="8" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="97" page="8" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="98" page="9" column="1">Articles</outsider>
+        <region class="DoCO:TextChunk" id="99" confidence="possible" page="9" column="1">Plot: The ideal of evolution from slavery through feu- dalism and capitalist market economy to a collectively planned and managed economy. The purpose of systems development should be to help labor overcome the constraints of capitalism by supporting labor activism. Assumptions: The epistemology is that of positivism in the specific form of a materialist view of history and society. The ontology is that of realism reflecting the belief in a preexisting empirical reality. The paradigm is that of radical structuralism reflecting a critique of the status quo with the aim of providing the rationale for radical change.</region>
+        <region class="unknown" id="100" page="9" column="1">Analysis and Discussion</region>
+        <region class="DoCO:TextChunk" id="118" page="9" column="1">The developer-as-labor-partisan story focuses on the claim that systems development intervenes in the conflict between social classes for prestige, power, and resources. Conflict is seen as endemic to society and generally follows a predictable pattern that can be discerned by analyzing vested social interests and the structures and relationship supporting them. An example of this is the effects of rationalization on workers. The story deliberately exhorts the developer to become an advocate of labor to redress the balance of power between management and labor as the only morally acceptable course of action. The story promotes the insight that all knowledge relates to human interests and thus a neutral science is impossible (cf. [32]). Culture, knowledge, and human interests are seen as intimately related. Cultural norms and values are revealed to be subtle, but nevertheless effective mechanisms of behavior control. They are a ploy to legitimize managerial goals and turn workers into faithful servants of the ruling elite. As a consequence, user resistance is seen as positive because it is a sign of labor becoming aware of its collective interest which in turn is a prerequisite for social progress. The story motivates the developer to seek cooperation with labor and their representatives. It advocates a participative approach but only with one party-labor. Only system objectives that evolve from the cooperation between labor and the developer are considered legitimate. This is thought to lead to systems that emphasize enhancement of craftmanship and working conditions, and a higher quality of products for the consumer (although possibly at a higher price). Rationality is tied to the interests of labor. Only system objectives, tools, and methods that enhance the position of labor and thereby lead to social progress are considered rational. The story leads to a number of potentially dysfunctional consequences. It embraces the notion of activism (in which it is more important to change the world than to interpret it) which reduces the possibility of a justi- fied consensus where cooperation instead of conflict is sought. It is uncritical of the effects of social differentia- tion introduced by organizing class interests into unions or other forms of worker organization (political <marker type="column" number="2"/><marker type="block"/> parties and the like); such effects are the manipulation of the constituency by their leaders, and the effects of “co-optation” and relative isolation of the leaders who often become involved in different social spheres than their constituency. Ehn [28, p. 3581 also notes the de- marcation disputes that new technology creates between different professional groups and trade union ju- risdictions: “. . , the lack of trade union cooperation, not the technology, not the newspaper owners, suppliers, may ironically become the decisive factor frustrating the dream of UTOPIA.” That the UTOPIA team first contacted the graphics worker union “made the other unions, [whether] on good grounds or not, critical towards UTOPIA, and thus frustrated the dream of a joint design.” Moreover, this story has a tendency to oversimplify: for example, there are only two parties, there is no conflict between workers and their representatives, there is a homogeneous management/owner class, and so on. It also sees the lack of conflict as undesirable in that it reinforces the status quo, except when the class- less society is reached as the end product of the struggle. It assumes there are immutable nature-like laws that determine the future of society. This leads to the so-called fallacy of historicism where all events are seen in terms of an inevitable, evolutionary conflict.<marker type="block"/> The last story is a reaction to the previous three. Whereas the others can be observed in actual systems development cases, this story is hypothetical to a large degree in that it has been constructed from theory [65, 67, 68, 851. Yet a number of individuals have noted its attractiveness and claim to have incorporated some of its principles in their systems development approaches [20, 731. Through information systems development, organizational life is changed, but the rationality of this change is heavily constrained by social influences which channel the values, norms, and perceptions of all participants. Through many forms of communication, shared meanings evolve into a complex culture that cannot be reduced to a bipolar conflict among two principal ideologies. There are two societal arenas of human action. One is the realm of work where people extract their sources of livelihood. The second is con- nected to the medium of language use for the purpose of establishing mutual understanding (as in the second story) and engaging in emancipatory discourse. The concepts of work, mutual understanding, and emancipation are the three fundamental domains around which society and other forms of social organization are arranged. They are also the domains where knowledge needs to be acquired, and each domain is related to different types of knowledge. Habermas [38] terms these types “knowledge interests.” Work is the first domain and it is related to the<marker type="page" number="10"/><marker type="column" number="1"/><marker type="block"/> knowXedge interest of technical control of natural objects, forces (weather, gravity, temperature, etc.), and people (as in coordinating the movements of a work force). It is a unique characteristic of the human being to seek knowledge to exercise better control over nature and people and thereby rationalize work [%, 971. Habermas refers to this as the technical knowledge interest (TKI), and it :is aimed at overcoming natural and social obstacles to obtaining products and services for the continued maintenance and reproduction of the human species. The principal means by which the TKI is realiz’ed is through the applied physical sciences. They are characterized by the dominance of instrumental reasoning, or adopting positivism as the basis for checking the validity of knowledge claims. Information systems {arean important resource for achieving the TKI. The first story suggests how this can be done. However, information systems play an equally important role in the realization of two other knowledge interests, mutual understanding and emancipation. The knowledge interest in mutual understanding is aimed at improving the understanding of one’s culture, one’s own psyche, and the psyches of those with whom we interact (i.e., kin, friends, enemies). As opposed to the engineering sciences which serve primarily the TKI, the cultural sciences (history, literature, philosophy, psychoanalysis, etc.) serve the interest in mutual understanding. As mutual understanding in the social world is problematic, hermeneutics has evolved to help with the difficulties of interpretation. Hermeneutics comprises the study of principles that can be applied to make sense of situations and texts that are difficult to interpret because no established meanings apply. An example of a hermeneutic process is the way in which a court interprets the law to deal with a new case in a way which is consistent with prior rulings. In this story, the developer is faced with a hermeneutic issue when interpreting system requirements because the existing system is like an alien text that needs to be read [12]. Further, ED poses a hermeneutic issue to the user in that it intervenes in the established modes of sense making and communication. The knowledge interest in mutual understanding on its own lacks a critical perspective for two reasons: (1) It does not guard against distorted interpretations. Such distortions can arise from biases such as ideology and the limits of language use because “our implicit belie:6 and assumptions cannot all be made explicit” [99, pQ321; (2) It does not necessarily lead to action against unjustifiable situations. Hermeneutics in this case helps in understanding the limitations and barriers to the improvement of the quality of the human condition in the direction of maximal freedom from physio- logical needs and social domination, The removal of these barriers is achieved through the historical process of emancipation. This leads to the third knowledge interest whose purpose is the establishment of truth and justice as the norm to regulate all human affairs-from the family to organizations, government and interna- tional relations. The emancipatory knowledge interest<marker type="column" number="2"/><marker type="block"/> is concerned with social criticism and applications of the TKI and shared understandings to remove all unwarranted contraints to social freedom and personal growth. In pursuing the knowledge interest in emancipation, the system developer elicits (through interaction) a shared understanding of the many obstacles to human communication. The developer needs to acquire an ap- preciation (insider knowledge) of the different viewpoints and existential situations of the different stake- holder groupings. But this cannot be done by external objective observation, genuine participation is crucial, Obstacles, however, abound. The developer needs to consider the following typical obstacles to human communication throughout systems development: Authority and illegitimate power-they create anxieties and cause people to distort or withhold information in order to protect themselves. Peer opinion pressure (“group think”)-it creates tunnel vision for the sake of loyalty, reducing the validity of judgments by suppressing possible validity checks through criticism. Time, space, and resource limitations they prevent universal access to knowledge even though in principle it is available. This includes the common situation that knowledgeable people remain silent due to lack of motivation to participate because of work overload or the socially created need to withhold important information unless it is to one’s advantage to engage in a debate. 4. Social differentiation-differences in the level of education, specialization and personal values and beliefs increase the risk of misunderstanding. 5. The bias and limitation of language use--distort perceptions and lead to narrow problem definitions through jargon and cognitive anchoring. All of these create difficulties of understanding the rel- evance and implications of design issues across social and organizational boundaries. Legitimate system objectives emerge from a free and open discussion that leads to a shared understanding and does not suffer from the harmful effects of these barriers. In order to illustrate the tenets of this story more clearly, it is helpful to envisage some key aspects of how systems might appear if their development follows this story. All systems development would proceed with the three knowledge interests in mind. Systems would have features to support the technical knowledge interest and these would be similar to those developed under the functionalist influence. Other features would support the creation of shared meanings and reflect the knowledge interest in mutual understanding. This is similar to systems inspired by social relativism. Finally, there would be a comprehensive set of features to support emancipatory discourse. This means that information systems are developed that facili-tate the widest possible debate of organizational problems such that truly shared objectives could be agreed upon as well as policies for achieving them. Such a debate, free<marker type="page" number="11"/><marker type="column" number="1"/><marker type="block"/> of all social pressure, which has the best chance to correct psychological distortions due to individual bias, is called a rational discourse or an ideal speech situation. The goal of information systems is to help with the institutionalization of an ideal speech situation which in turn validates a consensus about system objectives and modes of design and implementation. The ideal speech situation would legitimate a moving balance between the fundamental three objectives of information systems development, namely improved technical control, better mutual understanding and continued emancipation from unwarranted social constraints and psychological compulsions.<marker type="block"/> Key Actors: Stakeholders and the systems developer. The stakeholders are a diverse group of individuals including customers, labor, and their representatives, heterogeneous levels of management, and the owners of the productive resources. They exist within a complex, intertwined set of social relationships and interactions. The stakeholders take part in communicative action. The systems developer acts as a social therapist and emancipator in an attempt to draw together, in open discussion, the various stakeholders. Narrative: Information systems are developed to remove distorting influences and other barriers to rational discourse. Systems development is governed by the three knowledge interests. The technical knowledge interest directs the developer to be sensitive to issues associated with effective and efficient management of the system project. The interest in mutual understanding directs the developer to apply the principles of hermeneutics, which examine the rules of language use and other practices by which we improve comprehensibility and mutual understanding, remove misunderstandings, and disagreement or other obstacles to human communication [7g]. The knowledge interest in emancipation directs the developer to structure systems development to reflect the principles of rational discourse. Plot: The ideal of emancipation. Information systems should lead to an emancipation from all unwarranted constraints and compulsions (e.g., psychological, physical, and social) toward a state of justice, freedom, and material well-being for all. Assumptions: The epistemology adopted in this story is of two types: positivism for knowledge interests in technical control (which includes both nature and man); and anti-positivism for knowledge interests in mutual understanding and emancipation. The ontology adopted is also of two types: realism for technical interests and nominalism or social constructivism for mutual understanding and emancipation of interests. The adopted paradigm is that of neohumanism which reflects the desire to improve the existence of organizational actors (through their emancipation) by developing information</region>
+        <region class="DoCO:FigureBox" id="Fx102">
+          <image class="DoCO:Figure" src="62kq.page_009.image_09.png" thmb="62kq.page_009.image_09-thumb.png"/>
+        </region>
+        <region class="unknown" id="104" page="9" column="2">STORY IV: THE ANALYST AS EMANCIPATOR OR SOCIAL THERAPIST Systems Development as Emancipation through Rational Discourse</region>
+        <outsider class="DoCO:TextBox" type="footer" id="106" page="9" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="107" page="9" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="108" page="9" column="2">1207</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="109" page="10" column="1">Articles</outsider>
+        <region class="DoCO:FigureBox" id="Fx111">
+          <image class="DoCO:Figure" src="62kq.page_010.image_10.png" thmb="62kq.page_010.image_10-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="113" page="10" column="2">1208 Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="114" page="10" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="115" page="11" column="1">Articles</outsider>
+        <region class="unknown" id="117" page="11" column="1">Interpretation</region>
+        <region class="DoCO:FigureBox" id="Fx119">
+          <image class="DoCO:Figure" src="62kq.page_011.image_11.png" thmb="62kq.page_011.image_11-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="120" confidence="possible" page="11" column="2">systems that support a rational discourse.</region>
+        <region class="unknown" id="121" page="11" column="2">Analysis and Discussion</region>
+        <region class="DoCO:TextChunk" id="147" page="11" column="2">The story of developer-as-emancipator focuses on human potential and how it is threatened by ideology, power, and other distorting and unwarranted constraints. In distinction to the first story, it emphasizes what could be rather than what is. This story adds to the notion of instrumental rationality (in affairs associated with the TKI) and communicative rationality (in affairs governed by the knowledge interest in mutual understanding) the notion of discoursive or emancipatory rationality. It emphasizes the use of human reason to both recognize deficiencies in the conditions of human existence and to suggest improvements. Such emancipation is nurtured in the arena of a rational discourse where the intelligibility, veracity, truthfulness, and appropriateness of all arguments are checked through maximal criticism. Checks and balances on individual opinions are needed to guard against unwarranted constraints and biases to allow undistorted communication to occur, which means that both the physical and social barriers to a rational discourse need to be identified and removed for maximal criticism to occur. The concept of rational discourse applies both to the development and use of information systems [67]. Rational discourse is an ideal that cannot be fully implemented. By the use or development of information systems some, but not all, of the barriers to a rational discourse could be mitigated. For example: (1) data modeling could correct some of the bias and distortion by semantic integrity checks; (2) proper organization of the system development process could provide rational motivations to participate, share and elicit missing information; (3) networks could help to overcome the limitations of time and space; (4) conferencing systems could motivate people to contribute their expertise by advertising agendas and making it easy to append comments and suggestions; (5) highly interac- tive, object oriented designs could help to overcome educational differences; and (6) proper security controls could protect individual rights through anonymity and motivate people to communicate criticisms and radical change proposals by shielding them from the threats of the powerful. This story seems appealing because it captures many positive features of the previous stories and adds the important notion of emancipation. However, while theoretically strong, it is difficult to see how the story actually works in practice. The story is normative without providing clear details on how it could be implemented. For example, it is not clear how notions like the systems development life cycle should be modified to accommodate the three knowledge interests; what tools and techniques should be developed to apply the concept of rational discourse to systems development; how to broaden the methods for integrity checking to guard against the numerous forms of fallacious reasoning; and so forth. A more fundamental issue is whether people would be willing and able to radically change <marker type="page" number="12"/><marker type="column" number="1"/><marker type="block"/> their behavior to fit the ideal of rational discourse. Nor is it clear that people would be motivated to participate in the debate or wish to take part if given the option. More’over, one must question the implicit assumption in the story that there are no natural limits to human potential, that through emancipation we can overcome the psychological and social constraints on human ca- pabihties which have been inherited from the distorting influences of the past. It is difficult to see how the goal of a society free of ideology and domination can be realized. One must also question the assumption that technological progress will be sufficiently powerful to overc,ome the significant physical constraints confront- ing the emancipation of all. <xref ref-type="table" rid="TI" id="127" class="deo:Reference">Table I</xref> summarizes and highlights the salient details of the paradigms.<marker type="block"/> The stories provide a relatively simple and straightfor- ward way of outlining the possibility of alternative conceptions about IS development. We have suggested four stories, but there could be more. The importance, however, lies not so much in the fact that there are four (or more) stories, but rather that alternative conceptions of ISD which differ in very fundamental and striking ways exist. It is specifically because of these fundamental differences (largely based on differences in adopted assumptions), that the systems produced will also differ. This can be noted in the two introductory examples presented earlier. The systems development approach taken in each case builds on a set of core assumptions which differ from those of the functionalist approach. Differences can be observed in both the development process, and in the developed system.<marker type="column" number="2"/><marker type="block"/> Process differences relate to the decisions made during systems development. In the typesetting example, the UTOPIA project team made a conscious decision to retain and enhance the craft, not to include management representatives, and not to be bound by the then- available page layout technology. The rationale for these decisions can be traced back to the paradigmatic assumptions that guided the development team. For example, the assumption that conflict is endemic to society in the radical structuralist paradigm, motivated the project team to focus on the conflict between typesetters and management. The denial of the possibility of the system developer being a neutral expert committed them to bolstering the position of the worker in the perceived social struggle and to enhancing the craft of the typesetters. This led to an emphasis on union leadership that put control of systems developmlent in the hands of a homogeneous group. It also heightened the sensitivity to the effects of ideological, managerial bias in that the existing typesetting systems would make the craft largely redundant thereby enhancing management control over workers. Moreover, the UTOPIA project team believed the ideological bias was manifest in the components of the technology itself: the social neutral- ity of technology was denied. As Kubicek notes: “This approach is based on the assumption that ElDP-knowl- edge is not impartial to the interests of capit.al and labor but rather biased by the perspective of capital and man- agement” [55, p. 91. If available technology had limitations that would not allow the enhancement of the craft’s future, then it would not be in the interest of the workers to accept existing technology as a design con- straint. In the words of Ehn et al.: “The trad.e unions’<marker type="page" number="13"/><marker type="column" number="1"/><marker type="block"/> ability . . . is limited in an increasing number of situations to a choice between yes or no to the purchase of ‘turn-key packages’ of technology and organization” [39, p. 4391. In the engine maintenance case, influence from the social relativist paradigm was evident in the belief that mechanics’ subjective skills (involving experience and judgment) were key in interpreting the symptoms of wear and tear in maintenance diagnosis. Knowledge was recognized as being subjective; there was no single ‘reality.’ Social relativist notions can also be seen in the way the system was designed. It emerged through the interaction of the design team which comprised a coalition of union representatives, mechanics and system developers. Hence control of systems development lay in the hands of a heterogeneous group. Members of the design team shared insights and concentrated on the acceptance of the system by the mechanics. Neohu- manist influence in the development process was visi- ble in the recognition that there might be communication barriers within the coalition which needed to be addressed by standards of fairness. Note the difference here regarding the nature of conflict which is assumed to be negotiable in neohumanism but ineradicable in radical structuralism.g<marker type="block"/> Differences in developed systems relate to the output of systems development and include the following eight features:”</region>
+        <outsider class="DoCO:TextBox" type="footer" id="123" page="11" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="124" page="11" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="125" page="11" column="2">1209</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="126" page="12" column="1">Articles</outsider>
+        <region class="unknown" id="129" page="12" column="1">THE TWO EXAMPLES REVISITED</region>
+        <region class="DoCO:TableBox" id="T1">
+          <caption class="deo:Caption" id="131" page="12" column="1">TABLE 1. Summary of the Four Paradigms</caption>
+          <content>
+            <table class="DoCO:Table" number="1" page="12">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> Systemidwebpment pro&amp;ds</td>
+                  <td class="table"> Elementsusedfn definingIS</td>
+                  <td class="table"> Examples</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Functionalism</td>
+                  <td class="table.strange"> Expert or</td>
+                  <td class="table.strange"> From without, by application of formal</td>
+                  <td class="table.strange"> People, hardware, software, rules</td>
+                  <td class="table.strange"> !3ructured</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Platonic</td>
+                  <td class="table"> concepts through planned intervention</td>
+                  <td class="table"> (organizational procedures) as physical</td>
+                  <td class="table"> analysis,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Philosopher</td>
+                  <td class="table"> with rationalistic tools and methods</td>
+                  <td class="table"> or formal, objective entities</td>
+                  <td class="table"> infonation</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> King</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> engineering</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Social</td>
+                  <td class="table"> Catalyst or</td>
+                  <td class="table"> From within, by improving subjective</td>
+                  <td class="table"> Subjectivity of meanings, symbolic</td>
+                  <td class="table"> Ethnographic</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Relativism</td>
+                  <td class="table"> Facilitator</td>
+                  <td class="table"> understanding and cultural sensitivity</td>
+                  <td class="table"> structures affecting evolution of sense,</td>
+                  <td class="table"> approaches,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> through adapting to internal forces of</td>
+                  <td class="table"> making and sharing of meanings,</td>
+                  <td class="table"> FLORENCE</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> evolutionary social change</td>
+                  <td class="table"> metaphors</td>
+                  <td class="table"> project</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Radical</td>
+                  <td class="table"> Warrior</td>
+                  <td class="table"> From without, by raising ideological</td>
+                  <td class="table"> People, hardware, software, rules</td>
+                  <td class="table"> Trade-union</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Structuralism</td>
+                  <td class="table"> far Social</td>
+                  <td class="table"> conscience and consciousness</td>
+                  <td class="table"> (organizational procedures) as physical</td>
+                  <td class="table"> led</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Progress</td>
+                  <td class="table"> through organized political ac:tion and</td>
+                  <td class="table"> or formal, objective entities put in the</td>
+                  <td class="table"> &lt;approaches,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> or Partisan</td>
+                  <td class="table"> adaptation of tools and methods to</td>
+                  <td class="table"> service of economic class interests</td>
+                  <td class="table"> ‘UTOPIA and</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> different social class interests</td>
+                  <td class="table"></td>
+                  <td class="table"> DEMOS projects</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Neohumanism</td>
+                  <td class="table"> Emancipator</td>
+                  <td class="table"> From within, by improving human</td>
+                  <td class="table"> People, hardware, software, rules</td>
+                  <td class="table"> Critical social</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> or Social</td>
+                  <td class="table"> understanding and the rationality of</td>
+                  <td class="table"> (organizational procedures) as physical</td>
+                  <td class="table"> theory,</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Therapist</td>
+                  <td class="table"> human action through emanc:ipation of</td>
+                  <td class="table"> or formal objective entities for the TKI;</td>
+                  <td class="table"> SAMPO</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> suppressed interests and liberation</td>
+                  <td class="table"> subjectivity of meanings and</td>
+                  <td class="table"> project</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> from unwarranted natural and social</td>
+                  <td class="table"> intersubjectivity of language use in</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"> constraints</td>
+                  <td class="table"> other knowledge interests</td>
+                  <td class="table"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="132" confidence="possible" page="12" column="1">Functionalism</region>
+          <region class="TableInfo" id="133" confidence="possible" page="12" column="1">Social Relativism</region>
+          <region class="TableInfo" id="134" confidence="possible" page="12" column="1">Expert or Platonic Philosopher King Catalyst or Facilitator</region>
+          <region class="TableInfo" id="135" confidence="possible" page="12" column="1">Radical Structuralism</region>
+          <region class="TableInfo" id="136" confidence="possible" page="12" column="1">Warrior far Social Progress or Partisan</region>
+          <region class="TableInfo" id="137" confidence="possible" page="12" column="1">Neohumanism Emancipator or Social Therapist</region>
+          <region class="TableInfo" id="138" confidence="possible" page="12" column="1">Systemidwebpment pro&amp;ds Elementsusedfn definingIS Examples From without, by application of formal People, hardware, software, rules !3ructured concepts through planned intervention (organizational procedures) as physical analysis, with rationalistic tools and methods or formal, objective entities infonation engineering From within, by improving subjective Subjectivity of meanings, symbolic Ethnographic understanding and cultural sensitivity structures affecting evolution of sense, approaches, through adapting to internal forces of making and sharing of meanings, FLORENCE evolutionary social change metaphors project From without, by raising ideological People, hardware, software, rules Trade-union conscience and consciousness (organizational procedures) as physical led through organized political ac:tion and or formal, objective entities put in the &lt;approaches, adaptation of tools and methods to service of economic class interests ‘UTOPIA and different social class interests DEMOS projects From within, by improving human People, hardware, software, rules Critical social understanding and the rationality of (organizational procedures) as physical theory, human action through emanc:ipation of or formal objective entities for the TKI; SAMPO suppressed interests and liberation subjectivity of meanings and project from unwarranted natural and social intersubjectivity of language use in constraints other knowledge interests</region>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx139">
+          <image class="DoCO:Figure" src="62kq.page_012.image_12.png" thmb="62kq.page_012.image_12-thumb.png"/>
+        </region>
+        <region class="unknown" id="140" page="12" column="2">Development Process Differences</region>
+        <outsider class="DoCO:TextBox" type="footer" id="142" page="12" column="2">1210 Communications of fhe ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="143" page="12" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="144" page="13" column="1">Articles</outsider>
+        <region class="unknown" id="146" page="13" column="1">Developed System Differences</region>
+        <region class="unknown" id="148" page="13" column="1">[74].)</region>
+        <region class="unknown" id="149" page="13" column="1">[71]</region>
+        <region class="unknown" id="150" page="13" column="1">(7)</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="151" page="13" column="1">‘On the other hand, several characteristics in this case were consistent with more than one paradigm. For example, the assumption that a coalition between management and unions may be productive, was consistent with functionalism, social relativism, and neohumanism. The emphasis on overcoming the computational limitations of the human mind is consistent with functionalism and neohumanism, but there are differences. The functionalist might see the increase of computational power (memory capacity, retrieval reliabil- ity, speed) as necessary for meeting objective requirements. The neohumanist system developer would first focus on the principal causes of distorted communication in rational discourse. If these causes are primarily due to lack of time and easy access to computational resources then the approach taken would be similar to functionalism. However, in most cases there are social asymmetries and psychological reasons that lead to distorted communication, such as power, mistrust, group egoism. bias, and prejudice. Therefore more computational power does not necessarily lead to a more rational social discourse; in fact, it could amplify the distortions. [The attitude of social relativism is not to focus so much on the computational limits, hut on the importance of sense making as a uniquely human endeavor.) “These eight features are derived from an analysis of the literature dealing with system differences. They are by no means exhaustive. as others could have been chosen. (1) Technology architecture was derived from Ciborra [ZZ] who notes the importance of technology architecture for lowering the costs of organizational transactions. (2) Kind of information flow was derived from the language action view of information systems [35] which focuses on the purposes of information flows. (3) Control of users was derived from Kling [54] who notes that it “is often assumed that when automated information systems become available, managers and line supervisors exploit them to enhance their own control over different resources, particularly the activities of their subordinates.” (4) Control of systems development was derived from Briefs et al. [17] who note the importance of internal and external control of the actors who participate in systems development. (See also Mathiassen et al.‘s critique of both traditional management strategies of ISD and trade union agreements “primarily aiming at controlling the development process from outside” either with the purpose of minimizing costs or predetermining fixed points for participative decisions (5) Access to information was derived from Markus who vividly shows through her FIS case that the access to information could change the balance of power between different interest groups. A similar point is made in Newman 1831. (6) Error handling was derived from Markus’ [Z] case where an error was treated as a feature. The importance of training was derived from Kubicek’s 1551 observation that worker- sponsored production and distribution of information technology-related knowledge should involve learning activities that are based on previous experience of the workers [cf. 291. (8) was susested by studying the</h1>
+        <region class="unknown" id="152" page="13" column="1">F&amp;on d’etre</region>
+        <region class="DoCO:FigureBox" id="Fx153">
+          <image class="DoCO:Figure" src="62kq.page_013.image_13.png" thmb="62kq.page_013.image_13-thumb.png"/>
+        </region>
+        <region class="unknown" id="154" page="13" column="2">1.</region>
+        <region class="unknown" id="155" page="13" column="2">2.</region>
+        <region class="unknown" id="156" page="13" column="2">3.</region>
+        <region class="unknown" id="157" page="13" column="2">4.</region>
+        <region class="unknown" id="158" page="13" column="2">5.</region>
+        <region class="unknown" id="159" page="13" column="2">6.</region>
+        <region class="unknown" id="160" page="13" column="2">7.</region>
+        <region class="unknown" id="161" page="13" column="2">8.</region>
+        <region class="DoCO:TextChunk" id="162" confidence="possible" page="13" column="2">Technology architecture refers to the way in which specific hardware and software components are con- figured and matched with the structural units of the organization. As is evident from both the typesetting and engine maintenance example, the structural dif- ferentiation supported by alternative technology architectures has a considerable impact on the opportunities and privileges afforded various user groups. Different types of technology architecture in typesetting for example, can abolish, maintain or enhance typesetters’ responsibilities. Kind of information flows refers to the intended meanings of the information dealt with by the IS. For example, the meaning of the information of the first engine maintenance system was to formalize the mechanics’ diagnostic skills so as to leave them out of the diagnostic loop. This differs from information intended to improve the diagnostic capabilities of the mechanics. Control of users refers to how the information system would contribute to or diminish opportunities for one group exercising power, authority or other forms of social influence over another. Control of systems development refers to the locus of influence over the systems development process. In principle this can lie with the people affected by the system or some external group or a mixture. (This has been dealt with more fully in the section enti- tled Development Process Differences.) Access to information refers to who would have access to the information provided by the IS and with it, who stands to benefit from improved information. Error handling refers to the arrangement for detecting errors and who would deal with them. Depending on how errors are looked upon, they can be used as a basis for external sanctions and rewards, as a means of subjugation, or, more positively, as a challenge to creativity, source of learning and creation of new meanings. Training refers to the role that education plays as part of system change, who will be selected for training, whether it is seen as a means to enhance the individual and his or her social position, or whether it is confined to mechanical skills for operating the system. Raison d’etre refers to the primary reason for the existence of the information system. For example, is it seen as a means for overcoming social barriers, for improving policy formation and competitive advantage, for enhancing management control over workers, for achieving cost-savings by replacing labor, etc.?</region>
+        <outsider class="DoCO:TextBox" type="footer" id="163" page="13" column="2">goals of information systems in the four paradigms.</outsider>
+        <region class="DoCO:TextChunk" id="184" page="13" column="2">Tables II and III provide a comparison of the systems developed in the typesetting and engine maintenance examples. The tables are structured in such a way that they can be related to the description of the two examples given earlier. The tables compare the features of the systems which would likely have been developed if a functionalist approach had been adopted. The com- <marker type="page" number="14"/><marker type="column" number="1"/><marker type="block"/> parison is hypothetical,” but nevertheless expresses what we think would be the likely system differences in terms of the eight features introduced above. <xref ref-type="table" rid="TII" id="183" class="deo:Reference">Table II</xref> summarizes the system differences arising from a typesetting system developed under a moderated radical structuralist approach. It was moderated because the archi.tects of the typesetting system, while denying cooperation with management and refusing to take funds from them, nevertheless did not seek to wrestle complete control from them. Moreover, they did not challenge the basic tenets of a free market economy, i.e., they wanted to develop a competitive system which could be sold to other newspaper companies. The idea</region>
+        <outsider class="DoCO:TextBox" type="footer" id="165" page="13" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="166" page="13" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="167" page="13" column="2">1211</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="168" page="14" column="1">Articles</outsider>
+        <region class="DoCO:TableBox" id="TII">
+          <caption class="deo:Caption" id="169" page="14" column="1">TABLE II.</caption>
+          <region class="TableInfo" id="170" confidence="possible" page="14" column="1">typesettilng</region>
+        </region>
+        <region class="unknown" id="171" page="14" column="1">The UTOPIAProject Fmtionalism Radicalst~~~turalism Technology Architecture Link word processors of writers/editors with typesetting soft- Link word processors of writers/editors with file servers of ware to eliminate ma.nual processes of typesetting. typesetting support system; provide extra workstations with specific hardware requirements to support (electronic cropper, large area, high resolution screen to provide similar capabilities as backlit panels).</region>
+        <region class="DoCO:TableBox" id="Tx172">
+          <content>
+            <table class="DoCO:Table" number="II" page="14">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> typesettilng</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Kind of</td>
+                  <td class="table.strange"> Information Flows</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> From editors/writers to machines; productivity controls</td>
+                  <td class="table"> Having typesetters process work of writers/editors before</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> to management.</td>
+                  <td class="table"> chanical printing; feedback loop for quality control between</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> writers/editors and typesetters. Productivity controts possible,</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> but not the key issue.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Control</td>
+                  <td class="table"> of Users</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Productivity controls for writers/editors; visual quality control</td>
+                  <td class="table"> Typesetters remain in control of the quality of their Iproduct</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> of typesetting reduced or eliminated; no need for typesetters</td>
+                  <td class="table"> and the details of task sequencing on how to achieve it.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> and control of their work.</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Control of Systems</td>
+                  <td class="table.strange"> Development</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Technical experts.</td>
+                  <td class="table"> Union officials and workers, against prevailing technology</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> which was seen to reflect managerial bias.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Access to</td>
+                  <td class="table"> Information</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Writers/editors only.</td>
+                  <td class="table"> Typesetters and writers/editors.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Editors and visual quality control partly eliminated. Customers</td>
+                  <td class="table"> Typesetters; quality control according to professional typeset-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> forced to receive a bwer quality product but theoretically at</td>
+                  <td class="table"> ting standards. Customers receive a higher quality product</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> lower prices.</td>
+                  <td class="table"> possibly forced to buy at a higher price.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Training</td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Basic computer skills and typesetting skills for writers/editors.</td>
+                  <td class="table"> New typesetting and computer skills for typesetters.</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Raison</td>
+                  <td class="table"> d’Etre</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Maximize cost savings, reduce production time, and eliminate</td>
+                  <td class="table"> Enhance traditional typesetting craft, making them more pro-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> demands from typesetters by making them redundant.</td>
+                  <td class="table"> ductive, and providing a more appealing product to customers.</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="173" confidence="possible" page="14" column="1">Kind of Information Flows From editors/writers to machines; productivity controls Having typesetters process work of writers/editors before me- to management. chanical printing; feedback loop for quality control between writers/editors and typesetters. Productivity controts possible, but not the key issue.</region>
+          <region class="TableInfo" id="174" confidence="possible" page="14" column="1">Control of Users Productivity controls for writers/editors; visual quality control Typesetters remain in control of the quality of their Iproduct of typesetting reduced or eliminated; no need for typesetters and the details of task sequencing on how to achieve it. and control of their work.</region>
+          <region class="TableInfo" id="175" confidence="possible" page="14" column="1">Technical experts.</region>
+          <region class="TableInfo" id="176" confidence="possible" page="14" column="1">Control of Systems Development Union officials and workers, against prevailing technology which was seen to reflect managerial bias.</region>
+          <region class="TableInfo" id="177" confidence="possible" page="14" column="1">Writers/editors only.</region>
+          <region class="TableInfo" id="178" confidence="possible" page="14" column="1">Access to Information Typesetters and writers/editors.</region>
+          <region class="TableInfo" id="179" confidence="possible" page="14" column="1">Editors and visual quality control partly eliminated. Customers forced to receive a bwer quality product but theoretically at lower prices.</region>
+          <region class="TableInfo" id="180" confidence="possible" page="14" column="1">Typesetters; quality control according to professional typesetting standards. Customers receive a higher quality product but possibly forced to buy at a higher price.</region>
+          <region class="TableInfo" id="181" confidence="possible" page="14" column="1">Training Basic computer skills and typesetting skills for writers/editors. New typesetting and computer skills for typesetters.</region>
+          <region class="TableInfo" id="182" confidence="possible" page="14" column="1">Raison d’Etre Maximize cost savings, reduce production time, and eliminate Enhance traditional typesetting craft, making them more pro- demands from typesetters by making them redundant. ductive, and providing a more appealing product to customers.</region>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="185" page="14" column="1">” Note that the ideal of conducting a controlled experiment involving the same people developing the same system under more than one approach is imposjihle. Constructing hypothetical cases was therefore chosen. To mitigate the inherent problems of using these hypothetical cases. we have relied, in the first case, on the extensive published information that exists on typesetting systems. These systems are well-understood and have been widely implemented using functionalist approaches. In the second case, we rely on the published literature on functionalist approaches to building expert systems, in particular [40, 411. A detailed analysis of the dominance of functionalist influence in the expert systems literature is provided in [ES]. We thus feel reason-</h1>
+        <region class="DoCO:FigureBox" id="Fx186">
+          <image class="DoCO:Figure" src="62kq.page_014.image_14.png" thmb="62kq.page_014.image_14-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="188" page="14" column="2">here is not only to make money, but to transfer the software to other locations so that the typesetter’s craft as a social class is enhanced. Indeed, several UTOPIA reports “state that there is not incompatibility between making profits and demanding quality of training, work, and product,” [28, p. 3531. <xref ref-type="table" rid="TIII" id="187" class="deo:Reference">Table III</xref> a,ddressesthe differences between an engine maintenance system first developed under the functionalist tradition, and then redone with a development approach characterized by influences from the social relativist and neohumanist paradigms.</region>
+        <region class="unknown" id="189" page="14" column="2">Mixing of Influences In practice, information systems development approaches are influenced by assumptions from more than one paradigm. However, the influence from one paradigm is typically dominant. As an example consider the adaptation of the structured systems analysis and design approaches (e.g., [27, 33, 48, 98, 1011 to the complexities of practice. The dominant influence is</region>
+        <outsider class="DoCO:TextBox" type="footer" id="190" page="14" column="2">ably comfortable with suggesting how the differences might be manifest.</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="191" page="14" column="2">clearly functionalist with the emphasis on identifying</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="192" page="14" column="2">1212 Cominunications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="193" page="14" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="194" page="15" column="1">Articles</outsider>
+        <region class="DoCO:TableBox" id="TIII">
+          <caption class="deo:Caption" id="195" confidence="possible" page="15" column="1">TABLE III. SAS Engine Maintenance</caption>
+          <content>
+            <table class="DoCO:Table" number="III" page="15">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+                <tr class="table.strange"/>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="196" confidence="possible" page="15" column="1">Functionalism social Relativism/Neehumanism Technology Architecture Automated measurement and sensing of engine components Determination of maintenance needs by skilled mechanics (disassembled manually) to detect faults. relying on visual and tactile inspection and interpretation in light of their experience and tacit knowledge.</region>
+          <region class="TableInfo" id="197" confidence="possible" page="15" column="1">Kind of information Flows Instructions from system to mechanics (users) regarding what User/mechanic describes the problem to the system, and maintenance needs to be done and how to most efficiently seeks advice regarding possible strategies on how to carry it out. correct it.</region>
+          <region class="TableInfo" id="198" confidence="possible" page="15" column="1">Mechanic is controlled by system in terms of what is performed and how.</region>
+          <region class="TableInfo" id="199" confidence="possible" page="15" column="1">Control of Users Mechanic is in control, and thereby feels responsible for the end result (which is contended to improve quality).</region>
+          <region class="TableInfo" id="200" confidence="possible" page="15" column="1">Technology experts.</region>
+          <region class="TableInfo" id="201" confidence="possible" page="15" column="1">Control of Systems Development Mechanics and their union representatives in co-operation with management (union entered into a coalition with management to improve the front line service and retain their jobs).</region>
+          <region class="TableInfo" id="202" confidence="possible" page="15" column="1">Mechanics and management.</region>
+          <region class="TableInfo" id="203" confidence="possible" page="15" column="1">Access to Information Mechanics and management.</region>
+          <region class="TableInfo" id="204" confidence="possible" page="15" column="1">Error Handling Detection of problems by statistical reports (e.g., productivity Setter quality control by the mechanics who feel responsible figures and mean average failure rates); correction by better for their work; correction of remaining errors by quality circles knowledge engineering and corrective maintenance. and group problem solving.</region>
+          <region class="TableInfo" id="205" confidence="possible" page="15" column="1">Limited to the operation of the maintenance system.</region>
+          <region class="TableInfo" id="206" confidence="possible" page="15" column="1">Training Begins with the discussion of feelings and attitudes to computer-based systems in general, with the view to remove unwarranted objections. It also includes some key concepts to understand the underlying design and logic of the system; and then training on the operation of the systems.</region>
+          <region class="TableInfo" id="207" confidence="possible" page="15" column="1">Raison d’Etre Expert systems to replace human judgments, which are seen System for experts whose judgments are seen to be the key to be unreliable and error-prone. for success, and are relieved from the burden of remembering and keeping track of numerous routine details.</region>
+          <region class="TableInfo" id="208" confidence="possible" page="15" column="1">rigidity of the functionalist assumption of modeling “true requirements.” In prototyping, users and analysts interact to construct a working model of the system which is then “refined and modified in a continuous process, until the fit between user and system is accept- able” [19, p. 1631. As is evident from the discussion of the typesetting and engine maintenance cases, the mixing of influences of various paradigms can and does occur in a number of creative solutions to systems development problems which advance the state of the art. The UTOPIA project is a good example. It shows systems development under a radical structuralist approach, but with moderating influences.</region>
+          <region class="TableInfo" id="209" confidence="possible" page="15" column="1">true requirements as is evident from McMenamin and Palmer [77, p. 31 who state: “the specification should contain all the true requirements and nothing but the true requirements,” the assumption of a clearly defina- ble system purpose, the belief that it is possible to ob- jectively model the current system which can be tested through various structured techniques [33], the distinction between the logical and physical system exists and the suggestion that one can be derived from the other [Zi’], “that there are precisely defined ways to partition essential features in such a way that the principles of essential modeling are observed” [77, p. 471. Neverthe- less, there is often a recognition of the subjectivity and evolutionary nature of requirements. Prototyping is the practical way of handling the subjective and emerging nature of requirements (cf. [26]). Prototyping, though originally conceived as an approach in its own right [82], is incorporated within the requirements specification stage of the structured approaches to mitigate the</region>
+          <region class="TableInfo" id="210" confidence="possible" page="15" column="1">CONCLUSIONS In practice, it can be seen that the mixing of paradigmatic influences leads to interesting and creative solutions; however, the development of these solutions has</region>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx211">
+          <image class="DoCO:Figure" src="62kq.page_015.image_15.png" thmb="62kq.page_015.image_15-thumb.png"/>
+        </region>
+        <region class="unknown" id="212" page="15" column="2">System</region>
+        <outsider class="DoCO:TextBox" type="footer" id="213" page="15" column="2">October 1989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="214" page="15" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="215" page="15" column="2">1213</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="216" page="15" column="2">vc,vucr</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="217" page="15" column="2">lJV.7</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="218" page="15" column="2">““‘UII‘C</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="219" page="15" column="2">JL</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="220" page="15" column="2">‘Vl*,,,“5,</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="221" page="15" column="2">I”</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="222" page="16" column="1">Articles</outsider>
+        <region class="DoCO:FigureBox" id="Fx223">
+          <image class="DoCO:Figure" src="62kq.page_016.image_23.png" thmb="62kq.page_016.image_23-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_24.png" thmb="62kq.page_016.image_24-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_30.png" thmb="62kq.page_016.image_30-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_31.png" thmb="62kq.page_016.image_31-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_29.png" thmb="62kq.page_016.image_29-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_34.png" thmb="62kq.page_016.image_34-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_35.png" thmb="62kq.page_016.image_35-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_36.png" thmb="62kq.page_016.image_36-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_37.png" thmb="62kq.page_016.image_37-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_39.png" thmb="62kq.page_016.image_39-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="224" confidence="possible" page="16" column="1">had to rely solely on the inventiveness of creative practitioners who may or may not have been conscious of the philosophical assumptions belonging to alternative paradigms. Should the finding of such ‘creative’ solutions rely only on serendipity? We contend that ad- vancement could come about from the explicit documentation of the assumptions underlying the various paradigms. It would permit the generation of creative solutions to practical problems to proceed in a more conscious and systematic way. Moreover, a documentation of the assumptions underlying the paradigms allows systems developers to become better aware of the assumptions and beliefs that they employ in their day-to-day activities. A better understanding of the conceptual foundations of their beliefs including the recognition of other belief alternatives can lead developers to seek creative solutions using the strengths of each paradigm. However, each paradigm has weaknesses that will affect the quality of the solutions it inspires. Without a systematic documentation of alternative paradigmatic assumptions, some of these weaknesses may escape the attention of the prac- ticing systems developer. A concise documentation of paradigmatic assumptions invites critical assessment. For the researcher, these systems development paradigms pose a number of interesting but difficult challenges. First, each paradigm is capable of further development and refinement, It is the task of IS researchers to attend to such refinement. For example, the functionalist paradigm, as reflected in the current ISD literature, does not incorporate the latest thinking about functionalism as it exists in social theory [1, 311. The challenge facing researchers is to incorporate these advances into the various ISD paradigms. This appears to have been taken up by Winograd and Flores [99] in their absorption of essential insights from social relativ- ism-namely a hermeneutic and phenomenological analysis of human understanding-into their treatment of the software design problem. Second, although it was not possible to relate systems development methodologies to paradigms in this article, an exploration of their relationship would nevertheless appear to be a key research issue? Methodologies such as ISAC [64], Soft Systems Methodology [ZO], and Multi- view [loo], which combine features of different paradigms need to be critically appraised. A criticism and grounding of existing methodologies by analyzing them from the vantage point of different paradigms would seem to be a useful vehicle for obtaining a detailed understanding of them [66]. Moreover, the identification of new ISD paradigms [65] could lead to the construction of new methodologies. An example in this direction is provided by the work of Goldkuhl and Lyytinen [%I, Lyytinen and Lehtinen [69], and Lehtinen and Lyytinen 1611. Third, the identification of paradigms along with the</region>
+        <region class="DoCO:FigureBox" id="Fx225">
+          <image class="DoCO:Figure" src="62kq.page_016.image_43.png" thmb="62kq.page_016.image_43-thumb.png"/>
+        </region>
+        <region class="unknown" id="226" page="16" column="1">I2 Relating systems development methodologies to paradigms is a complicated process, as methodologies often exhibit properties of more than one paradigm. Elsewhere [&amp;I], we have attempted to document the relationship between the two by mapping various systems development methodologies onto the two-</region>
+        <region class="DoCO:FigureBox" id="Fx227">
+          <image class="DoCO:Figure" src="62kq.page_016.image_44.png" thmb="62kq.page_016.image_44-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_16.png" thmb="62kq.page_016.image_16-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="228" confidence="possible" page="16" column="2">set of philosophical assumptions which each embraces provides a new vehicle for investigating new theories about the nature and purpose of information systems development. Currently, most research is focused only on the functionalist paradigm. This, we argue, is not enough. Functionalist systems development is grounded in a set of common assumptions that concom- itantly enlighten and enslave. Alternative conceptions of ISD seem warranted (cf. [&amp;I) and will hopefully emerge through further research.</region>
+        <region class="DoCO:TextChunk" id="230" confidence="possible" page="16" column="2">Acknowledgments. This article has benefitted from the helpful comments of Kalle Lyytinen, Rob Kling, Niels Bjorn-Andersen, John Venable, and four anony- mous referees. Kalle Lyytinen’s help in constructing a preliminary version of <xref ref-type="table" rid="TI" id="229" class="deo:Reference">Table I</xref> is gratefully acknowl- edged.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="231" confidence="possible" page="16" column="2">REFERENCES</h1>
+        <region class="DoCO:FigureBox" id="Fx232">
+          <image class="DoCO:Figure" src="62kq.page_016.image_18.png" thmb="62kq.page_016.image_18-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_19.png" thmb="62kq.page_016.image_19-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_20.png" thmb="62kq.page_016.image_20-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_21.png" thmb="62kq.page_016.image_21-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_22.png" thmb="62kq.page_016.image_22-thumb.png"/>
+        </region>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="233" page="16" column="2">1, Alexander, J., Ed. Neofunctionalism. Sage Publications, Beverly Hills, 1985. 2. Alter, S. Decision Support Systems: Current Practice and Continuing Challenges. Addison-Wesley, Reading, Mass., 1980. 3. Argyris, C. Reasoning, Learning and Action: Individual and Organi- zational. Jossey-Bass, San Francisco, 1982. 4. Argyris, C., and Schon, D. Theory in Practice. Jossey-Bass, San Francisco, 1974. 5. Banbury, J. Towards a framework for systems analysis practice. In in Information Systems Research, R. Boland and R. Hirschheim, Eds. Wiley, Chichester, 1987, pp. 79-96. 6. Bardach, E. The Implementation Game. MIT Press, Cambridge, Mass., 1977. 7. Bariff, M. and Ginzberg, M. MIS and the behavioural sciences. Data Base. 1 (1982), 19-26. 8. Berger, P. and Luckmann, T. The Social Construction of Reality: A Treatise in the Sociology of Knowledge. Doubleday, New York, 1967. 9. Bjerknes, G. and Bratteteig, T. The application perspective-an- other way of conceiving systems development and EDP-based systems. In The Seventh Scandinavian Research Seminar on Systemeering, M. Saaksjarvi, Ed. (Helsinki, Finland, Aug. 1984).</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="235" confidence="possible" page="16" column="2">10, Bjerknes, G. and Bratteteig, T. FLORENCE in wonderland-sys- tems development with nurses. Paper presented at the Conference on Development and Use of Computer-Based Systems and Tools (Aarhus, Denmark, Aug. 1985).</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="236" confidence="possible" page="16" column="2">11. Bodker, S., Ehn, P., Romberger, S., and Sjogren, D. The UTOPIA Project: An alternative in text and images. Graffiti 7 (May 1985).</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="238" confidence="possible" page="16" column="2">12. Boland, R. Phenomenology: A preferred approach to research in information systems. In Research Methods in Information Systems. E. Mumford, R. Hirschheim, G. Fitzgerald et al., Eds. North-Holland, Amsterdam, 1985, pp. 193-202.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="240" confidence="possible" page="16" column="2">13. Boland, R. and Day, W. The process of systems design: A phenomenological approach. In Proceedings of the Third (Ann Arbor, Mich., Dec. 1982), 31-45.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="242" confidence="possible" page="16" column="2">14. Bostrom, R. and Heinen, S., MIS problems and failures: A socio- technical perspective- Part I: The causes. MIS 3 (Sept. 1977), 17-32.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="244" confidence="possible" page="16" column="2">15. Braverman, H. Monopoly Capital. Monthly Review Press, New York, 1974.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="245" confidence="possible" page="16" column="2">16. Briefs, U. Participatory systems design as approach for a workers’ production policy. In Systems Design For, With, and By the Users. U. Briefs, C. Ciborra, and L. Schneider, Eds. North-Holland, Amsterdam, 1983.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="246" confidence="possible" page="16" column="2">17. Briefs, U., Ciborra, C. and Schneider, L., Eds., Systems Design For, With and By the Users. North-Holland, Amsterdam, 1983.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="247" confidence="possible" page="16" column="2">18. Burrell, G. and Morgan, G. Sociological Paradigms and Organizational Analysis. Heinemann, London, 1979.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="249" confidence="possible" page="16" column="2">19. Capron, H. Systems Analysis and Design. Benjamin Cummings, Menlo Park, 1986.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="250" confidence="possible" page="16" column="2">20. Checkland, P. Systems Thinking, Systems Practice. Wiley, Chichester, 1981.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="251" confidence="possible" page="16" column="2">21. Chua, W. Radical developments in accounting thought. Account. Rev. 4 (Oct. 1986), 601-632.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="253" confidence="possible" page="16" column="2">22. Ciborra, C. Information systems and transactions architecture. Inter. Policy Syst. 5, 4 (1981), 305-323. Coser, The Functions of Social Conflict.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="262" page="17" column="1">Couger, J. D., Colter, M., and Knapp, R. Advanced Systems Develop- ment/Feasibility Techniques. Wiley, New York, 1982.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="264" page="17" column="1">Dagwell, R. and Weber, R. System designers’ user models: A com- parative study and methodological critique. Commun. ACM 26, 11 (Nov. 1983), 987-997.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="266" page="17" column="1">Davis, G. and Olson, M. Management Information Systems: Conceptual Foundations, Structure and Development. McGraw-Hill, New York, 1985.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="267" page="17" column="1">DeMarco, T. Structured Analysis and System Specification. Yourdon Press, New York, 1978.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="269" page="17" column="1">Ehn, P. Work-Oriented Design of Computer Artifacts. Arbetslivs- centrum, Stockholm, 1988.</ref>
+          <ref class="deo:BibliographicReference" id="271" page="17" column="1">Ehn, P., Kyng, M., and Sundblad, Y. The UTOPIA Project: On training, technology, and products viewed from the quality of work perspective. In Systems Design For, With and By the Users. U. Briefs,</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="272" page="17" column="1">C. Ciborra, and L. Schneider, Eds, North-Holland, Amsterdam, 1983, p p . 439-449.</ref>
+          <ref class="deo:BibliographicReference" id="274" page="17" column="1">Ehn, P. and Sandberg, A. Local union influence on technology and work organization: Some results from the DEMOS project. Systems Design For, With and By the Users. U. Briefs, C. Ciborra, and L.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="275" page="17" column="1">Schneider, Eds. North-Holland, Amsterdam, 1983, pp. 427-437.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="276" page="17" column="1">Faia, M. Dynamic Functionalism: Strategy and Tactics. Cambridge University Press, Cambridge, 1986. Fay, B. Social Theory and PoZificaZ Practice. George Allen and Unwin,</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="277" confidence="possible" page="17" column="1">London, 1975.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="279" page="17" column="1">Gane, C. and Sarson, T. Structured Sysfems Analysis: Tools and Tech- niques. Prentice Hall, Englewood Cliffs, 1979.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="280" page="17" column="1">Garfinkel, H. Studies in Ethnomethodology. Prentice-Hall, Englewood Cliffs, N.J., 1967.</ref>
+          <ref class="deo:BibliographicReference" id="282" page="17" column="1">Goldkuhl, G., and Lyytinen, K. A language action view of information systems. In Proceedings of the Third Znternational Conference on Information Systems. M. Ginzberg and C. Ross, Eds., Ann Arbor,</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="285" page="17" column="1">Mich. 1982, pp. 13-30. Griethuysen, V., Ed. Concepts and Terminology of the Conceptual</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="286" confidence="possible" page="17" column="1">Schema and the Information Base. IS0 Report No. ISO/TC97/SCs/ N695, 1982.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="287" page="17" column="1">Gutting, G., Ed., Paradigms and Revolutions. University of Notre Dame Press, South Bend, Ind., 1980.</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="288" page="17" column="1">Habermas, J. Theory and Practice. Heinemann, London, 1974.</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="289" page="17" column="1">Habermas, J. The Theory of Communicative Action: Volume One- Reason and the Rationalization of Beacon Press, Boston, 1984.</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="291" page="17" column="1">Harmon, P. and King, D. Expert S&amp;ems. Wiley, New York, 1985.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="292" page="17" column="1">Hayes-Roth, F. Knowledge-based expert systems: A tutorial. IEEE Comput. 17, 10 (Oct. 1984), 263-273.</ref>
+          <ref class="deo:BibliographicReference" id="294" page="17" column="1">Hedberg, B. and Mumford, E. The design of computer systems: Man’s vision of man as an integral part of the system design pro- cess. In Human Choice and Computers. E. Mumford and H. Sackman,</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="295" page="17" column="1">Eds. North-Holland, Amsterdam, 1975, pp. 31-59.</ref>
+          <ref class="deo:BibliographicReference" id="297" page="17" column="1">Hirschheim, R. Information systems epistemology: An historical perspective. In Research Methods in Information Sysfems. E. Mum-</ref>
+          <ref class="deo:BibliographicReference" id="299" page="17" column="1">Hirschheim, R. and Klein, H. Paradigms and methodologies: An</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="300" page="17" column="1">ford, R. Hirschheim, R. Fitzberald et al., Eds. North-Holland, Amsterdam, 1985, pp. 13-38.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="301" page="17" column="1">analysis of their underlying philosophical assumptions. Templeton College, Oxford, working paper, 1988.</ref>
+          <ref class="deo:BibliographicReference" id="303" page="17" column="1">Hirschheim, R., Klein, H. and Newman, M. A social action perspective of information systems development. In Proceedings of the Eighth Znternational Conference on Znformation Systems. J. DeGross</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="305" page="17" column="1">and C. Kriebel, Eds. (Pittsburgh, Pa., 1987) pp. 45-56.</ref>
+          <ref class="deo:BibliographicReference" id="307" page="17" column="1">Hopper, T. and Powell, A. Making sense of research into the organizational and social aspects of management accounting: A review of its underlying assumptions. J. Manage. Stud. (Sept. 429-465. loward, R. UTOPIA: Where workers craft new technology. Tech.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="309" page="17" column="1">Kev. 88, 3 (Apr. 43-49. Jackson, M. System Development. Prentice-Hall, Englewood Cliffs, 1983.</ref>
+          <ref class="deo:BibliographicReference" id="310" confidence="possible" page="17" column="1">Keen, P. Information systems and organizational change. Commun. ACM 24, 1 (Jan. 24-33.</ref>
+          <ref class="deo:BibliographicReference" id="313" page="17" column="1">Klein, H. and Hirschheim, R. Issues and approaches to appraising u!chnological change in the office: A consequentialist perspective. People 2, 15-42.</ref>
+          <ref class="deo:BibliographicReference" id="316" page="17" column="1">hlein, H. and Hirschheim, R. Fundamental issues of decision support systems: A consequentialist perspective. Decis. Supp. Syst. 2, 1</ref>
+          <ref class="deo:BibliographicReference" id="319" page="17" column="1">E;lein, H. and Hirschheim, R. Social change and the future of infor- ttlation systems development. In Critical Zssues in</ref>
+          <ref class="deo:BibliographicReference" id="321" page="17" column="1">crams R. Boland and R. Hirschheim, Eds. Wiley, Chiches- hlcin, H. and Lyytinen, K. The poverty of scientism in information</ref>
+          <ref class="deo:BibliographicReference" id="324" page="17" column="1">Itystems. In Methods in Information E. Mumford, R. iirschheim, G. Fitzgerald et al., Eds. North-Holland, Amsterdam, pp.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="326" page="17" column="2">54. Kling, R. Social analyses of computing: Theoretical perspectives in recent empirical research. ACM Comput. Surv. 22, 1 (Mar. 1980), 61-110.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="328" page="17" column="2">55. Kubicek, H. User participation in systems design: Some questions about structure and content arising from recent research from a trade union perspective. In Systems Design For, With and By the Users. U. Briefs, C. Ciborra, and L. Schneider, Eds. North-Holland, Amsterdam, 1983, pp. 3-18.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="330" confidence="possible" page="17" column="2">56. Kuhn, T. The Sfructure of Scientific Revolutions, 2d ed. University of Chicago Press, Chicago, 1970.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="332" page="17" column="2">57. Kumar, K. and Welke, R. Implementation failure and system developer values: Assumptions, truisms, and empirical evidence. In Pro- ceedings of the Fifth Znternational Conference on Information Systems. (Tucson, Ariz., 1984), l-13.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="334" confidence="possible" page="17" column="2">58. Kyng, M. and Ehn, P. STARDUST memories: Scandinavian tradition and research on development and use of systems and tools. Paper presented at the Conference on Development and Use of Computer-Based Systems and Tools (Aarhus, Denmark, Aug. 1985).</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="336" page="17" column="2">59. Lanzara, G. and Mathiassen, L. Mapping situations within a system development project - a n intervention perspective on organizational change. DIAMI PB-179, University of Aarhus, Denmark, MARS Report No. 6 , November 1984.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="338" confidence="possible" page="17" column="2">60. Laudan, L. Progress and Its Problems: Towards a Theory of Scientific Growth. Routledge and Kegan Paul, London, 1977.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="339" confidence="possible" page="17" column="2">61. Lehtinen, E. and Lyytinen, K. Action based model of information systems. Info. Syst. II, 3 (1986), 299-317.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="341" confidence="possible" page="17" column="2">62. Lessnoff, M. The Strucfure of Social Science. George Allen and Unwin, London, 1974.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="342" confidence="possible" page="17" column="2">63. Lucas, H. Implementation: The Key to Successful Information Systems. Columbia University Press, New York, 1981.</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="344" page="17" column="2">64. Lundberg, M., Goldkuhl, G. and Nissen, N. Information Systems De- veZopment: A Systematic Approach. Prentice-Hall, Englewood Cliffs, 1981.</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="345" confidence="possible" page="17" column="2">65. Lyytinen, K. Critical Social Theory and Information Systems-A Social Action Perspective to Information Systems. Ph.D. dissertation University of Jyvaskyla, Finland, 1986.</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="346" confidence="possible" page="17" column="2">66. Lyytinen, K. A taxonomic perspective of information systems development: Theoretical constructs and recommendations. Critical Zssues in Znformation Systems Research. R. Boland and R. Hirschheim, Eds. Wiley, Chichester, 1987, 3-41.</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="348" confidence="possible" page="17" column="2">67. Lyytinen, K. and Hirschheim, R. Information systems as rational discourse: An application of Habermas’ Theory of Communicative Rationality. Scandinavian J. Manage. Stud. 4, l/2 (1988), 19-30.</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="350" confidence="possible" page="17" column="2">68. Lyytinen, K. and Klein, H. The critical theory of Jurgen Habermas as a basis for a theory of information systems. In Research Methods in Information Sysfems. E. Mumford, R. Hirschheim, G. Fitzgerald, Eds. North-Holland, Amsterdam, 1985, pp. 219-236.</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="351" confidence="possible" page="17" column="2">69. Lyytinen, K. and Lehtinen, E. On information modeling through illocutionary logic. In Proceedings of the Third Scandinavian Research Seminar on Information Modeling and Data Base Management (Tampere, Finland, 1984), 35-l 15.</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="353" page="17" column="2">70. Madsen, M. Breakthrough by breakdown. In Znformation Systems Development for Human Progress in Organizations. H. Klein and K. Kumar, Eds. North-Holland, Amsterdam, 1989,41-5X</ref>
+          <ref rid="R55" class="deo:BibliographicReference" id="355" page="17" column="2">71. Markus, M.L. Power, politics and MIS implementation. Commun. (June 1983).</ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="356" confidence="possible" page="17" column="2">72. Markus, M.L. Systems in Organizations: Bugs and Features. Pitman, B o s t o n , 1984.</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="358" page="17" column="2">73. Mathiassen, L., and Bogh-Anderson, P. Systems development and use: A science of the truth or a theory of lies. In Computers and Democracy. G. Bjerknes, P. Ehn, and M. Kyng, eds. Aveburg, Alder- shot, 1987, 395-417.</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="359" page="17" column="2">74. Mathiassen, L., Rolskov, B. and Vedel, E. Regulating the use of EDP by law and agreements. In Systems Design For, With and By the Users. V. Briefs, C. Ciborra, and L. Schneider Eds. North-Holland, Amsterdam, 1983, 251-264.</ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="360" confidence="possible" page="17" column="2">75. McCarthy, T. The Critical Theory o f Jurgen Habermas. MIT Press, Cambridge, Mass., 1982.</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="362" confidence="possible" page="17" column="2">76. McGregor, D. The Human Side of Enterprise. McGraw-Hill, New York, 1960.</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="364" page="17" column="2">77. McMenamin, S. and Palmer, J. Essential Systems Analysis. Yourdon Press, New York, 1984.</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="366" confidence="possible" page="17" column="2">78. Mead, G. Mind, SeZf and Society. University of Chicago Press, Chicago, 1934.</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="367" confidence="possible" page="17" column="2">79. Misgeld, D., Discourse and conversation: The theory of communicative competence and hermeneutics in the light of the debate between Habermas and Gadamer. Cultural Hermeneutics 4, (1977).</ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="369" confidence="possible" page="17" column="2">80. Mitroff, I. Stakeholders of the Organizationa Mind. Jossey-Bass, San Francisco, 1983.</ref>
+          <ref rid="R65" class="deo:BibliographicReference" id="371" confidence="possible" page="17" column="2">81. Mumford, E. Designing Human Systems For New Technology: The ETHICS Method. Manchester Business School Press, Manchester, 1983.</ref>
+          <ref class="deo:BibliographicReference" id="378" page="18" column="1">84. Newman, M. and Rosenberg, D. Systems analysts and the politics of organizational control. Omega 23, 5 (3985) 393-406.</ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="380" page="18" column="1">85. Ngwenyama, 0. Fundamental issues of knowledge acquisition: To- ward a human action perspective of knowledge acquisition. Ph.D. dissertation, Watson School of Engineering, State University of New York, Binghamton, 1987.</ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="381" page="18" column="1">86. Olle, T. W., Sol, H., and Verrijn-Stuart, A. Eds. Information Systems Design Methodologies: A Review. North-Holland, Amsterdam, 1982.</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="383" page="18" column="1">87. Olle, T. W., Sol, H. and Tully, C. Eds. Sysfems Design A Feature Analysis. North-Holland, Amsterdam, 1983. 8 8 . Olle, T. W., Sol, H. and Verrijn-Stuart, A., Eds. Information Systems Design the Practice. North-Holland, Amsterdam, 1986.</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="385" page="18" column="1">89. Pettigrew, A. The of Decision Making. Tavistock, London, 1973.</ref>
+          <ref rid="R70" class="deo:BibliographicReference" id="387" page="18" column="1">90. Quine, W. and Ullian, J. The Web of Belief. Random House, New York, 1979.</ref>
+          <ref class="deo:BibliographicReference" id="389" page="18" column="1">91. Reason, P. and Rowan, J., Eds. Human Inquiry: A Sourcebook of New Paradigm Research. Wiley, Chichester, 1 9 8 1 .</ref>
+          <ref rid="R71" class="deo:BibliographicReference" id="391" page="18" column="1">92, Sandberg, A. Socio-technical design, trade union strategies and action research. In Research Methods in Sysfems. E. Mumford, R. Hirschheim, G. Fitzgerald and A. T. Wood-Harper, Eds. North-Holland, Amsterdam, 1985, 79-92.</ref>
+          <ref rid="R72" class="deo:BibliographicReference" id="392" page="18" column="1">93. Silverman, D. The Theory of Heinemann, London, 1970.</ref>
+          <ref rid="R73" class="deo:BibliographicReference" id="394" page="18" column="1">94. Teichroew, D. and David, G., Eds. System Description Methodologies. North-Holland, Amsterdam, 1985.</ref>
+          <ref rid="R74" class="deo:BibliographicReference" id="395" page="18" column="1">95. Van Maanen, J. Reclaiming qualitative methods for organizational research: A preface. Admin. Sci. Quart. (Dec. 1979), 520-526.</ref>
+          <ref class="deo:BibliographicReference" id="397" page="18" column="1">96. Vitalari, N. and Dickson, G. Problem solving for effective systems analysis: An experimental exploration. Commun. ACM, 26, 11 (Nov. 948-956.</ref>
+          <ref rid="R75" class="deo:BibliographicReference" id="399" page="18" column="1">97. Weber, M. The Profesfanf Efhic and the Spirif of Capifalism. Allen and Unwin, London, 1962.</ref>
+          <ref rid="R76" class="deo:BibliographicReference" id="401" page="18" column="1">98. Weinberg, V. Strucfured Analysis. Prentice-Hall, Englewood Cliffs, N.J. 1980.</ref>
+          <ref rid="R77" class="deo:BibliographicReference" id="402" page="18" column="1">99. Winograd, T. and Flores, F. Understanding Computers and Cognition. Ablex Publishers, Norwood, N. J., 1986.</ref>
+          <ref rid="R78" class="deo:BibliographicReference" id="404" page="18" column="1">100. Wood-Harper, A.T., Antill, L., and Avison, D. Information Systems Definition-A Mu!k/view Methodology. Basil Blackwell, London, 1985.</ref>
+          <ref rid="R79" class="deo:BibliographicReference" id="409" page="18" column="1">103. Yourdon, E. Managing fhe Systems Life Cycle: A Software Development Methodology Ove&amp;ew. Yourdon Press, New York, 1982. <marker type="block"/> Editor-in-Chief Robert J. Renka (CALGO) offers quarterly code listings in machine readable and microfiche form. Even a single use of a CALGO algorithm will save many times the cost of a subscription. M . he code listings for an algorithm printed in any of the ACM journals is included in microfiche format in its entirety. Remarks and certifications are also given, often with driver code. Floppy disk and magnetic-tape versions are available sepa- rately through the ACM Algorithms Distribution Service (address in box). Initial subscription, 4 volumes: includes casebound</ref>
+          <ref rid="R80" class="deo:BibliographicReference" id="410" page="18" column="1">Vols. I, II, III and looseleaf Vol. IV, with a 3-ring binder, one year’s quarterly Supplements of new and updated algorithms, complete listings on microfiche for those algorithms (from 1981) and a fiche holder.</ref>
+          <ref rid="R81" class="deo:BibliographicReference" id="411" confidence="possible" page="18" column="1">Order No. 120000 $27000 - Mbrs. $150.00</ref>
+          <ref class="deo:BibliographicReference" id="412" confidence="possible" page="18" column="1">Student Mbrs. $145/year</ref>
+          <ref class="deo:BibliographicReference" id="417" page="18" column="2">People Management-systems development General Terms: Design, Human Factors Additional Key Words and Phrases: Legitimatization of system o\+ tives, value conflicts, and knowledge interests in systems developme I . paradigms; philosophy and epistemology of systems design; system ~1 velopment approaches, functionalist, radical structuralist, social relat i \ ist, neohumanist approaches <marker type="block"/> ABOUT THE AUTHORS:</ref>
+          <ref class="deo:BibliographicReference" id="420" page="18" column="2">RUDY HIRSCHHEIM is an associate professor of information systems in the College of Business Administration at the University of Houston. His current research interests include the social impacts of computing, systems developmenl methodologies, office automation, and the evolution and rn;t II agement of the information systems function. Author’s Presc:rlt Address: College of Business Administration, University of Houston, Houston, TX 7 7 2 0 4 6 2 8 2 ; <email id="419">disct6@uhupvml</email>.</ref>
+          <ref rid="R82" class="deo:BibliographicReference" id="426" page="18" column="2">HEINZ K. KLEIN is an associate professor of information systems at the School of Management of the State University 01’ New York at Binghamton. His current work is concerned wil I I the socio-theoretic foundations of information systems, the I 1 t plication of social action and systems theory, information en!:! neering, and system development methodologies. Author’s Present Address: School of Management, State University o’ New York, Binghamton, NY 13901; <email id="422">HKLEIN@BINGVAXA</email>.<marker type="block"/> Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct cornnlt*l cial advantage, the ACM copyright notice and the title of the public:! III’:. and its date appear, and notice is given that copying is by permission 111 the Association for Computing Machinery. To copy otherwise, or to republish, requires a fee-and/or specific permission.<marker type="block"/> Vol. I only, ISBN O-89791-017-6 Algorithms I-220 (1960-1963) casebound. Order No. l20001$50.00 - Mbn. $30.00</ref>
+          <ref rid="R84" class="deo:BibliographicReference" id="427" confidence="possible" page="18" column="2">Vol. 11 only, ISBN O-89791-026-5 Algorithms 221-492 (1964-1974) casebound.</ref>
+          <ref rid="R85" class="deo:BibliographicReference" id="428" confidence="possible" page="18" column="2">Order No. 120002 580.00 - Mbn. 548.00</ref>
+          <ref rid="R86" class="deo:BibliographicReference" id="429" page="18" column="2">Vol. III only, ISBN O-89791-103-2 Algorithms 493545 (1975-1979) casebound. Order No. 120003 $8000 - Mbrs. S48.00</ref>
+          <ref rid="R87" class="deo:BibliographicReference" id="430" confidence="possible" page="18" column="2">Vol. IV and Supplements Algorithms 546 and o n f r o m 1980,.including 3-ring binder and one year’s quarterly</ref>
+          <ref rid="R88" class="deo:BibliographicReference" id="431" confidence="possible" page="18" column="2">updating Supplements. Order No. 120004 $120.00 -</ref>
+          <ref rid="R89" class="deo:BibliographicReference" id="432" confidence="possible" page="18" column="2">Mbm. $60.00 Student Mbn. bSS/year Single Supplements: Order No. 120010 $18.00 -</ref>
+          <ref rid="R90" class="deo:BibliographicReference" id="433" confidence="possible" page="18" column="2">Mbrs. $12.00 Annual Subscription - Supplements: $50.00 Mbn. $30.00 Student Mbrs. 825.OO/year Please send all orders and inquiries to: P.O. Box 12115 Church Street Station New York, NY 10249</ref>
+        </ref-list>
+        <region class="DoCO:FigureBox" id="Fx234">
+          <image class="DoCO:Figure" src="62kq.page_016.image_25.png" thmb="62kq.page_016.image_25-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx237">
+          <image class="DoCO:Figure" src="62kq.page_016.image_26.png" thmb="62kq.page_016.image_26-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx239">
+          <image class="DoCO:Figure" src="62kq.page_016.image_27.png" thmb="62kq.page_016.image_27-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx241">
+          <image class="DoCO:Figure" src="62kq.page_016.image_33.png" thmb="62kq.page_016.image_33-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_28.png" thmb="62kq.page_016.image_28-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx243">
+          <image class="DoCO:Figure" src="62kq.page_016.image_32.png" thmb="62kq.page_016.image_32-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx248">
+          <image class="DoCO:Figure" src="62kq.page_016.image_38.png" thmb="62kq.page_016.image_38-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx252">
+          <image class="DoCO:Figure" src="62kq.page_016.image_41.png" thmb="62kq.page_016.image_41-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_42.png" thmb="62kq.page_016.image_42-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_016.image_45.png" thmb="62kq.page_016.image_45-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="254" page="16" column="2">23. L. 1956.</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="255" page="16" column="2">Free Press, New York,</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="256" page="16" column="2">dimensional space generated through viewing the paradigms in terms of continua.</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="257" page="16" column="2">1214</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="258" page="16" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="259" page="16" column="2">October 1989 Volume 32 Number I0</outsider>
+        <region class="DoCO:FigureBox" id="Fx260">
+          <image class="DoCO:Figure" src="62kq.page_016.image_46.png" thmb="62kq.page_016.image_46-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="261" page="17" column="1">Articles</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="263" page="17" column="1">24. 25.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="265" page="17" column="1">26.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="268" page="17" column="1">27. 28.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="270" page="17" column="1">29.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="273" page="17" column="1">30.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="278" page="17" column="1">31. 32. 33.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="281" page="17" column="1">34. 35.</outsider>
+        <region class="DoCO:FigureBox" id="Fx283">
+          <image class="DoCO:Figure" src="62kq.page_017.image_59.png" thmb="62kq.page_017.image_59-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_60.png" thmb="62kq.page_017.image_60-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="284" page="17" column="1">36.</outsider>
+        <region class="DoCO:FigureBox" id="Fx290">
+          <image class="DoCO:Figure" src="62kq.page_017.image_62.png" thmb="62kq.page_017.image_62-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="293" page="17" column="1">37. 38. 30. 40 41 4 2</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="296" page="17" column="1">4%</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="298" page="17" column="1">ti.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="302" page="17" column="1">I’z,</outsider>
+        <region class="DoCO:FigureBox" id="Fx304">
+          <image class="DoCO:Figure" src="62kq.page_017.image_71.png" thmb="62kq.page_017.image_71-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="306" page="17" column="1">&amp;.</outsider>
+        <region class="DoCO:FigureBox" id="Fx308">
+          <image class="DoCO:Figure" src="62kq.page_017.image_77.png" thmb="62kq.page_017.image_77-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_78.png" thmb="62kq.page_017.image_78-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_75.png" thmb="62kq.page_017.image_75-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_79.png" thmb="62kq.page_017.image_79-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx311">
+          <image class="DoCO:Figure" src="62kq.page_017.image_80.png" thmb="62kq.page_017.image_80-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="312" page="17" column="1">9:. t 14. ti m</outsider>
+        <region class="DoCO:FigureBox" id="Fx314">
+          <image class="DoCO:Figure" src="62kq.page_017.image_83.png" thmb="62kq.page_017.image_83-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="315" page="17" column="1">41</outsider>
+        <region class="DoCO:FigureBox" id="Fx317">
+          <image class="DoCO:Figure" src="62kq.page_017.image_87.png" thmb="62kq.page_017.image_87-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="318" page="17" column="1">&amp;</outsider>
+        <region class="DoCO:FigureBox" id="Fx320">
+          <image class="DoCO:Figure" src="62kq.page_017.image_89.png" thmb="62kq.page_017.image_89-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx322">
+          <image class="DoCO:Figure" src="62kq.page_017.image_92.png" thmb="62kq.page_017.image_92-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="323" page="17" column="1">48 5 cI t ; ;</outsider>
+        <region class="DoCO:FigureBox" id="Fx325">
+          <image class="DoCO:Figure" src="62kq.page_017.image_82.png" thmb="62kq.page_017.image_82-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_47.png" thmb="62kq.page_017.image_47-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_48.png" thmb="62kq.page_017.image_48-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_49.png" thmb="62kq.page_017.image_49-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx327">
+          <image class="DoCO:Figure" src="62kq.page_017.image_50.png" thmb="62kq.page_017.image_50-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx329">
+          <image class="DoCO:Figure" src="62kq.page_017.image_52.png" thmb="62kq.page_017.image_52-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx331">
+          <image class="DoCO:Figure" src="62kq.page_017.image_51.png" thmb="62kq.page_017.image_51-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx333">
+          <image class="DoCO:Figure" src="62kq.page_017.image_53.png" thmb="62kq.page_017.image_53-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx335">
+          <image class="DoCO:Figure" src="62kq.page_017.image_54.png" thmb="62kq.page_017.image_54-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx337">
+          <image class="DoCO:Figure" src="62kq.page_017.image_55.png" thmb="62kq.page_017.image_55-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx340">
+          <image class="DoCO:Figure" src="62kq.page_017.image_56.png" thmb="62kq.page_017.image_56-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx343">
+          <image class="DoCO:Figure" src="62kq.page_017.image_58.png" thmb="62kq.page_017.image_58-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_57.png" thmb="62kq.page_017.image_57-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx347">
+          <image class="DoCO:Figure" src="62kq.page_017.image_61.png" thmb="62kq.page_017.image_61-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx349">
+          <image class="DoCO:Figure" src="62kq.page_017.image_63.png" thmb="62kq.page_017.image_63-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_65.png" thmb="62kq.page_017.image_65-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx352">
+          <image class="DoCO:Figure" src="62kq.page_017.image_66.png" thmb="62kq.page_017.image_66-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx354">
+          <image class="DoCO:Figure" src="62kq.page_017.image_68.png" thmb="62kq.page_017.image_68-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx357">
+          <image class="DoCO:Figure" src="62kq.page_017.image_69.png" thmb="62kq.page_017.image_69-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_72.png" thmb="62kq.page_017.image_72-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_74.png" thmb="62kq.page_017.image_74-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx361">
+          <image class="DoCO:Figure" src="62kq.page_017.image_81.png" thmb="62kq.page_017.image_81-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx363">
+          <image class="DoCO:Figure" src="62kq.page_017.image_84.png" thmb="62kq.page_017.image_84-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_86.png" thmb="62kq.page_017.image_86-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx365">
+          <image class="DoCO:Figure" src="62kq.page_017.image_88.png" thmb="62kq.page_017.image_88-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx368">
+          <image class="DoCO:Figure" src="62kq.page_017.image_90.png" thmb="62kq.page_017.image_90-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_017.image_91.png" thmb="62kq.page_017.image_91-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx370">
+          <image class="DoCO:Figure" src="62kq.page_017.image_93.png" thmb="62kq.page_017.image_93-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx372">
+          <image class="DoCO:Figure" src="62kq.page_017.image_94.png" thmb="62kq.page_017.image_94-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="footer" id="373" page="17" column="2">~abrr 2989 Volume 32 Number 10</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="374" page="17" column="2">Communications of the ACM 121s</outsider>
+        <region class="DoCO:FigureBox" id="Fx375">
+          <image class="DoCO:Figure" src="62kq.page_018.image_96.png" thmb="62kq.page_018.image_96-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="header" id="376" page="18" column="1">82. Naumann, J. and Jenkins, M., Prototyping: The new paradigm for systems development. MIS Quatf. 6, 3 (Sept. 1982), 29-44. 83. Newman, M. Managerial access to information: Strategies for pre- vention and promotion. J. Manage. Stud. 22, 2 (Mar. 1985), 193-211.</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="377" page="18" column="1">CR Categories and Subject Descriptors: H.l.O [Models and Princi- ples]: General; H.4.0 [Information Systems Applications]: General; K.4.3 [Computers and Society]: Organizational Impacts; K.6.1 [Management of Computing and Information Systems): Project and</outsider>
+        <region class="DoCO:FigureBox" id="Fx379">
+          <image class="DoCO:Figure" src="62kq.page_018.image_95.png" thmb="62kq.page_018.image_95-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx382">
+          <image class="DoCO:Figure" src="62kq.page_018.image_98.png" thmb="62kq.page_018.image_98-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_100.png" thmb="62kq.page_018.image_100-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_99.png" thmb="62kq.page_018.image_99-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx384">
+          <image class="DoCO:Figure" src="62kq.page_018.image_101.png" thmb="62kq.page_018.image_101-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx386">
+          <image class="DoCO:Figure" src="62kq.page_018.image_103.png" thmb="62kq.page_018.image_103-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx388">
+          <image class="DoCO:Figure" src="62kq.page_018.image_104.png" thmb="62kq.page_018.image_104-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_106.png" thmb="62kq.page_018.image_106-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_107.png" thmb="62kq.page_018.image_107-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx390">
+          <image class="DoCO:Figure" src="62kq.page_018.image_108.png" thmb="62kq.page_018.image_108-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_109.png" thmb="62kq.page_018.image_109-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx393">
+          <image class="DoCO:Figure" src="62kq.page_018.image_111.png" thmb="62kq.page_018.image_111-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_112.png" thmb="62kq.page_018.image_112-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx396">
+          <image class="DoCO:Figure" src="62kq.page_018.image_114.png" thmb="62kq.page_018.image_114-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_115.png" thmb="62kq.page_018.image_115-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx398">
+          <image class="DoCO:Figure" src="62kq.page_018.image_117.png" thmb="62kq.page_018.image_117-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_118.png" thmb="62kq.page_018.image_118-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_119.png" thmb="62kq.page_018.image_119-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx400">
+          <image class="DoCO:Figure" src="62kq.page_018.image_121.png" thmb="62kq.page_018.image_121-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx403">
+          <image class="DoCO:Figure" src="62kq.page_018.image_123.png" thmb="62kq.page_018.image_123-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_122.png" thmb="62kq.page_018.image_122-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx405">
+          <image class="DoCO:Figure" src="62kq.page_018.image_126.png" thmb="62kq.page_018.image_126-thumb.png"/>
+        </region>
+        <region class="unknown" id="407" page="18" column="1">of</region>
+        <region class="unknown" id="408" page="18" column="1">of</region>
+        <region class="DoCO:FigureBox" id="Fx413">
+          <image class="DoCO:Figure" src="62kq.page_018.image_127.png" thmb="62kq.page_018.image_127-thumb.png"/>
+        </region>
+        <region class="unknown" id="414" page="18" column="1">Circle #IO5 on Reader Service Card</region>
+        <region class="DoCO:FigureBox" id="Fx415">
+          <image class="DoCO:Figure" src="62kq.page_018.image_97.png" thmb="62kq.page_018.image_97-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx418">
+          <image class="DoCO:Figure" src="62kq.page_018.image_102.png" thmb="62kq.page_018.image_102-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_105.png" thmb="62kq.page_018.image_105-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx421">
+          <image class="DoCO:Figure" src="62kq.page_018.image_110.png" thmb="62kq.page_018.image_110-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_116.png" thmb="62kq.page_018.image_116-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_113.png" thmb="62kq.page_018.image_113-thumb.png"/>
+        </region>
+        <region class="DoCO:FigureBox" id="Fx424">
+          <image class="DoCO:Figure" src="62kq.page_018.image_120.png" thmb="62kq.page_018.image_120-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_125.png" thmb="62kq.page_018.image_125-thumb.png"/>
+          <image class="DoCO:Figure" src="62kq.page_018.image_124.png" thmb="62kq.page_018.image_124-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="434" page="18" column="2">1216</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="435" page="18" column="2">Communications of the ACM</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="436" page="18" column="2">October 1989 Volume 32 Numblv 1</outsider>
+        <region class="DoCO:FigureBox" id="Fx437">
+          <image class="DoCO:Figure" src="62kq.page_018.image_128.png" thmb="62kq.page_018.image_128-thumb.png"/>
+        </region>
+      </section>
+    </body>
+  </article>
+</pdfx>

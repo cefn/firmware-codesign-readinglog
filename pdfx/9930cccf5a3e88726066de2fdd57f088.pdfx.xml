@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>5213682f2749bd8b8cc44e26111bed5ef538a91cd4849416a0881c0aadcae383</job>
+    <base_name>62q3</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.5153/sro.966">http://dx.doi.org/10.1145/2494091.2497312</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">The (Social) Practices of DIYbio</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Graham Dean</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">Gordon Blair</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Monika Büscher</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="6">Lancaster University Bailrigg, Lancaster, LA1 4YW, UK {g.dean1, g.blair, <email id="5">m.buscher}@lancaster.ac.uk</email></region>
+      <abstract class="DoCO:Abstract" id="7">In order to explain how DIYbio knowledge and expertise is developed and shared the use of Practice Theory will help us gain a useful understanding of how working practices are sustained, reproduced and potentially changed. In addition, the development and sharing of thick, evocative, rich descriptions of these practices might contribute to the motivational knowledge of DIYbio practitioners.</abstract>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="8" confidence="possible" page="1" column="1">Author Keywords</h2>
+      </section>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">DIYbio, DIY, Maker Culture, Practice Theory, Skills &amp; Expertise, Rich Descriptions.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="10" page="1" column="1">ACM</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="11" confidence="possible" page="1" column="1">Classification Keywords</h2>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="12" page="1" column="1">H5.m. Information interfaces and presentation (e.g., HCI): Miscellaneous.</region>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="13" page="1" column="1">INTRODUCTION</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="14" page="1" column="1">An exemplar of the interest around DIY Biology is perhaps Genspace, a community Biolab based in New York City whose mission is ‘dedicated to promoting citizen science and access to biotechnology’. A mixture of lectures, workshops and protocol resources are available covering topics such as bioinformatics, DNA fingerprinting and synthetic biology are made available to the general public. SymbioticA is a related ‘wetware’ artistic research laboratory dedicated to research, learning, critique and hands-on engagement with the life-sciences. Its interest is in new forms of artistic inquiry where the tools of science are actively used. This interest in DIY Biology has also reached the mainstream press with extravagant headlines such as ‘In Attics and Closets, 'Biohackers' Discover Their Inner Frankenstein’ used by The Wall Street Journal in May 2009. This broad interest in open science is related to another area of emergent activity, that of maker culture.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="15" page="1" column="1">MAKER CULTURE</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="21" page="1" column="1">The DIY communities around websites such as Etsy, Instructables and Adafruit have been the subject of study by Kuznetsov &amp; Paulos [ <xref ref-type="bibr" rid="R3" id="16" class="deo:Reference">3</xref>]. They found that these communities value open sharing, learning and creativity<marker type="column" number="2"/><marker type="block"/> more than a direct interest in making a profit. They suggest that these values may be supported through tools which support the early ‘live’ sharing of projects. The role of tools and materials in understanding technology is explored in [<xref ref-type="bibr" rid="R4" id="19" class="deo:Reference">4</xref>]. They conclude that the role of materials, interpreted broadly, is important to the development of an understanding of technology and, by extension, science. The role of digital technology in augmenting work practices may also have many benefits [<xref ref-type="bibr" rid="R6" id="20" class="deo:Reference">6</xref>] in particular when used to document, share and reflect upon those practices. The communities around DIYbio, and the more broader DIY maker culture, are specifically interested in how knowledge and expertise is developed and, perhaps more importantly, how it is shared.</region>
+      <region class="DoCO:FigureBox" id="Fx18">
+        <image class="DoCO:Figure" src="62q3.page_001.image_01.png" thmb="62q3.page_001.image_01-thumb.png"/>
+      </region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="22" page="1" column="2">KNOWLEDGE AND EXPERTISE SHARING</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="25" page="1" column="2">Online resources and communities are increasingly used in DIY and open science communities. Often a strategy of reciprocal information gift-giving [<xref ref-type="bibr" rid="R8" id="23" class="deo:Reference">8</xref>] is used across these communities to develop participant’s knowledge and social connections. An additional important finding in this work is that there is a translation process taking place between online information and its practical implementation. How people work within these communities seems to differ widely across a range of activities. In describing these differing approaches and practices [<xref ref-type="bibr" rid="R9" id="24" class="deo:Reference">9</xref>] suggests that there may be ‘communities of practice’ and ‘collectives of practice’ with the latter showing less overall time commitment to a community, but having a strong interest in finding solutions to particular problems. A theoretical approach to the study of DIY and open science communities where shared practical understandings, tools and materials are important is practice theory. The use of practice theory and rich descriptions is suggested as a means both to understand DIYbio community practices and to provide support to members of the community in the form of motivational knowledge.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="26" page="1" column="2">PRACTICE THEORY</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="31" page="1" column="2">Practice theory is a theoretical sociological approach which makes central [ <xref ref-type="bibr" rid="R7" id="27" class="deo:Reference">7</xref>] bodily movement, routine, ‘things’ and practical knowledge. It identifies practices as the generative source of knowledge [<xref ref-type="bibr" rid="R2" id="28" class="deo:Reference">2</xref>], assumes an ecological model where agency is distributed across humans and non-humans and makes explicit the link between practice and knowledge. It has been used in studies of such diverse areas as neuroscience, domestic and leisure activities. The specific approach suggested here considers a practice<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> to be [<xref ref-type="bibr" rid="R5" id="30" class="deo:Reference">5</xref>] an interconnection of bodily activities, mental activities, ‘things’ and their uses, and background knowledge in the form of understanding, know-how, states of emotion and motivation knowledge. The materially interwoven, embodied nature of DIYbio practices align well with this theoretical approach.</region>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="32" page="2" column="1">REWARDS OF PRACTICE</h1>
+        <region class="DoCO:TextChunk" id="34" page="2" column="1">An interesting perspective on practices is provided in [<xref ref-type="bibr" rid="R10" id="33" class="deo:Reference">10</xref>] where the differing rewards of practices are discussed. They may be of different kinds – they may be social (Bourdieu’s social recognition) or psychological (Csikszentmihalyi’s ‘flow’). Complex practices (‘integrative’ practices in Schatzki’s terms) offer practitioners more levels of self- development and a stronger sense of well-being than simple practices (‘dispersed’ practices for Schatzki). The practices of DIYbio are of a complex, integrative nature and this may offer insights both into the value participants get from being involved in the DIYbio community and in how knowledge and expertise is both shared and valued.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="35" page="2" column="1">RICH DESCRIPTIONS</h1>
+        <region class="DoCO:TextChunk" id="37" page="2" column="1">Given that we advocate the use of practice theory as a theoretical perspective, how should we document the practices of DIYbio? There is a tradition in Anthropology of a ‘thick’ description of human behavior in which both the behavior and its context are considered in an attempt to make the behavior meaningful to an outsider. These descriptions are used to give a thinking, reflective outsider a sense of what they would experience if they were to participate in the community. This approach may be extended into what we might call ‘rich descriptions’ through approaches found in evocative autoethnography [<xref ref-type="bibr" rid="R1" id="36" class="deo:Reference">1</xref>] using literary conventions which might feature ‘concrete action, emotion, embodiment, self- consciousness, and introspection portrayed in dialogue, scenes, characterization, and plot’. Through the use of these conventions, and the accounting for the ‘I’ in the research, these accounts paint a detailed, often emotional, picture of the practices of a community. A central idea of this paper is that these rich descriptions may be used both as a means to understand the practices of the DIYbio community and as a design resource for the development of new tools and working environments. In addition, these descriptions may be used by DIYbio practitioners as a form of motivational knowledge.</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="38" page="2" column="2">CONCLUSION</h1>
+        <region class="DoCO:TextChunk" id="39" page="2" column="2">Practice theory is an interesting way of understanding the DIYbio community activities and the way knowledge and expertise is developed and shared. Through the use of rich descriptions of these practices we might gain a deeper understanding of the community and in addition provide support for practitioners through motivational knowledge.</region>
+      </section>
+      <section class="deo:Acknowledgements">
+        <h1 class="DoCO:SectionTitle" id="40" page="2" column="2">ACKNOWLEDGEMENTS</h1>
+        <region class="DoCO:TextChunk" id="41" page="2" column="2">This work is funded by the Digital Economy programme (RCUK Grant EP/G037582/1), which supports the HighWire Centre for Doctoral Training</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="42" page="2" column="2">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="43" page="2" column="2">1. Ellis, C. The Ethnographic I: A methodological novel about autoethnography. Walnut Creek (2004), AltaMira Press.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="44" page="2" column="2">2. Gherardi, S. Introduction: The Critical Power of the `Practice Lens'. Management Learning 40 (2009), 115- 128.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="45" page="2" column="2">3. Kuznetsov, S. and Paulos, E. Rise of the expert amateur: DIY projects, communities, and cultures. In Proc. NordiCHI '10, ACM Press (2010), 295-304.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="46" page="2" column="2">4. Perner-Wilson, H., Buechley, L. and Satomi, M. Handcrafting textile interfaces from a kit-of-no-parts. In Proc. TEI '11, ACM Press (2011), 61-68.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="47" page="2" column="2">5. Reckwitz, A. Toward a Theory of Social Practices: A Development in Culturalist Theorizing. European Journal of Social Theory 5, (2002), 243-263.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="48" page="2" column="2">6. Rosner, D.K and Ryokai, K. Spyn: augmenting the creative and communicative potential of craft. In Proc. CHI '10, ACM Press (2010), 2407-2416.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="49" page="2" column="2">7. Schatzki, T. Social practices: A Wittgensteinian approach to human activity and the social. Cambridge: Cambridge University Press, 1996.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="50" page="2" column="2">8. Torrey, C., Churchill, E.F. and McDonald D.W. Learning how: the search for craft knowledge on the internet. In Proc. CHI '09, ACM Press (2009), 1371- 1380.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="51" page="2" column="2">9. Wang T. and Kaye, J. Inventive leisure practices: understanding hacking communities as sites of sharing and innovation. Ext. Abstracts CHI '11, ACM Press (2011).</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="52" page="2" column="2">10. Warde, A. Consumption and Theories of Practice. Journal of Consumer Culture 5 (2005), 131-153.</ref>
+        </ref-list>
+      </section>
+    </body>
+  </article>
+</pdfx>

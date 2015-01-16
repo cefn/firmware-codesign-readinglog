@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>341f06f2ee139fc5f6faef4ba7dff4e00498ffe07be5600f0cdca34ef970d4b8</job>
+    <base_name>62l0</base_name>
+    <doi>10.1111/j.1467-8535.2012.01336.x</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Vol 44 No 5 2013 857–868</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">British Journal of Educational Technology doi:10.1111/j.1467-8535.2012.01336.x</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">Investigating the use and effectiveness of diverse types of materials in the delivery and support of lab sessions for multimedia subjects and students</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Emmanuel Tsekleves</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Amar Aggoun</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">John Cosmas</name>
+        </contrib>
+      </contrib-group>
+      <region class="DoCO:TextChunk" id="8" confidence="possible">Emmanuel Tsekleves is a lecturer of multimedia technology and design at Brunel University. Amar Aggoun is a reader and course director of broadcast media design and technology. John Cosmas is a professor of multimedia systems. Address for correspondence: Dr Emmanuel Tsekleves, School of Engineering and Design, Brunel University, Kingston Lane, Uxbridge, Middlesex UB8 3UE, UK. Email: <email id="7">emmanuel.tsekleves@brunel.ac.uk</email></region>
+      <abstract class="DoCO:Abstract" id="9">This research study explores the use of different lab material, investigating which types of materials contribute the most to the delivery and support of laboratory (lab) sessions to design, skill-based and technical courses in higher education in the UK. A qualitative research methodology was employed for this investigation and included both key stakeholders in academia, including 75 students and 12 tutors. An investigation was also conducted tracking student activity on the university’s e-learning facility (U-link). Our key findings indicate that overall electronic material is considered the most effective type of material for the delivery of a lab session. This is followed by print, video and lastly audio material according to student responses and video, print and audio material according to tutor responses. Student and tutor responses varied per individual module/ subject area. Video material was regarded by students and tutors as the most effective type for the delivery of skill-based lab sessions and generally for independent learning, and electronic material was regarded as the most effective type for the delivery of technical and design lab sessions. Lastly, student tracking revealed that the introduction of video lab material in two modules increased the average time spent by students on U-link by 58% for the technical module and 97% for the skill-based module respectively.</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="10" page="1" column="1">Introduction</h1>
+      </section>
+      <region class="DoCO:TextChunk" id="17" page="1" column="1">Laboratories (labs) are an essential and integral part of practical courses’ learning and teaching in higher education. Laboratories play a major role in the education of scientists, engineers and designers. It is in this environment that students learn to be scientists, engineers or designers and develop practical skills (<xref ref-type="bibr" rid="R7" id="11" class="deo:Reference">Edward, 2002</xref>; <xref ref-type="bibr" rid="R8" id="12" class="deo:Reference">Fry, Ketteridge and Marshall, 2003</xref>; <xref ref-type="bibr" rid="R11" id="13" class="deo:Reference">Laurillard, 2002</xref>). Laboratories facilitate a fruitful interaction between theory and practice and between tutors and students. Experiencing the world has a tremendous effect on learning as it fosters understanding of new knowledge (<xref ref-type="bibr" rid="R11" id="14" class="deo:Reference">Laurillard, 2002</xref>). In light of this, labs are great in helping students to personally experience the world through controlled experiments, tasks and simulations (<xref ref-type="bibr" rid="R12" id="15" class="deo:Reference">Morgan and Jones, 2001</xref>), in this case the subjects being studied. Laboratories often take place in small teaching groups. Despite their usefulness, labs and practical work form the most expensive com- ponent of science, technical and design courses (<xref ref-type="bibr" rid="R9" id="16" class="deo:Reference">Gibbs, Gregory and Moore, 1997</xref>). This is because they require a great amount of financial investment in time, equipment and space within a higher education institution and are often not controlled by the academics delivering them. One element, however, that the academics can have full control is the material to be employed for the</region>
+      <outsider class="DoCO:TextBox" type="footer" id="18" page="1" column="1">© 2012 British Educational Research Association</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="19" page="2" column="1">858</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="20" page="2" column="1">British Journal of Educational Technology</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="21" page="2" column="1">Vol 44 No 5 2013</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="22" page="2" column="1">Practitioner Notes</h1>
+        <region class="DoCO:TextChunk" id="23" confidence="possible" page="2" column="1">What is already known about this topic • Laboratories (labs) form a significant learning approach for practical courses in Higher Education. • Lab material are categorised into four different media: print, audio, video and electronic. • There is a lack of studies on the comparison of different types of materials for lab delivery and support. What this paper adds • It provides information about the effectiveness of different lab material for design, skill-based and technical courses. • It reports on tutor and student views of the most contributing material for the delivery and support of lab sessions. • It investigates and reports whether the introduction of video material in support of lab sessions increases student engagement. Implications for practice and/or policy • Design tutors could improve student lab learning by using more electronic and video material. • Technology tutors could improve student lab learning by using mainly electronic and print material. • Tutors who teach skill-based subjects should employ mainly video material for the delivery of labs. • Video material has the potential to increase student engagement within a subject and to contribute to a more effective lab delivery and support.</region>
+        <region class="DoCO:TextChunk" id="24" page="2" column="1">delivery and support of a lab session. Academics may use a number of different materials for the delivery of a lab session ranging from plain printed or photocopied handouts to digital video. This paper is divided into different sections. The first section presents the literature review and background research. Then follows a presentation into the methodology utilised for the execution of the study. The third section introduces and discusses the study findings. This is followed by a conclusion.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="25" page="2" column="1">Background research</h1>
+        <region class="DoCO:TextChunk" id="35" page="2" column="1">The advent of multimedia has transformed the educational sector by the introduction of a plethora of new presentation material (video, audio, hypermedia, electronic media and many more), which contribute to the learning and teaching of several subjects ( <xref ref-type="bibr" rid="R4" id="26" class="deo:Reference">Brown, Bull and Race, 1999</xref>; Collins, 1997; <xref ref-type="bibr" rid="R10" id="27" class="deo:Reference">Gorard, Roberts and Taylor, 2004</xref>). They have particularly contributed towards a better understanding of difficult to grasp concepts (ie, mechanics) by bringing into the educational environment a visual representation of these concepts through the use of images, animation and video (<xref ref-type="bibr" rid="R18" id="28" class="deo:Reference">Thompson and Homer, 2007</xref>). This is particularly true within the academic education context, where multimedia forms an integral part of lecture and laboratory delivery. Within the lab context, multimedia have enabled the simulation and practical experimentation of the subjects being studied and have also formed a tool for more personalised and distant learning where the lab content can be accessed by students at home and assignments completed at their own pace.<marker type="page" number="3"/><marker type="block"/> Laboratory teaching and learning material can be broadly categorised into the following different media as specified by <xref ref-type="bibr" rid="R11" id="33" class="deo:Reference">Laurillard (2002)</xref>: • Print: it is the easiest medium to design, produce and use. Its wide use is mainly due to its logistical rather than pedagogical advantages. • Audio: this makes it useful for providing audio instructions to students during a lab session. It is harder to produce and deliver as compared to print material. • Video is an engaging and powerful medium that marries imagery with audio. It can be exploited effectively to assist student learning. Logistically, it is the most difficult type to produce as it requires hardware and software equipment as well as several technical and filming skills. In the context of lab material, video can be easier to produce and deliver since there are several types of software on the market that allow educators to capture their computer screen while per- forming a task and record their voice, to produce audiovisual tutorials. In fact <xref ref-type="bibr" rid="R9" id="34" class="deo:Reference">Gibbs et al, (1997)</xref> indicated that videos are very effective in replacing repeated one-to-one explanations and provide guidance for individual lab sessions. • Electronic: refers to the electronic production and delivery of material and can be categorised into static and interactive material. 1. Static electronic material includes PowerPoint slides and textual material such as information sheets and electronic print documents such as Adobe Portable Document Format (PDF). Logistically static material is easy to produce, deliver, update and maintain through the Internet or a university’s intranet. In a lab setting they can be a useful tool that integrates text with high-quality images and external web links for further exploration and learning. 2. Interactive electronic material includes hypertext, hypermedia and interactive simulations and animations. They facilitate a higher degree of user interactivity and freedom. They are more difficult to produce when compared with their static counterparts as they require knowledge of dedicated hypermedia and animation/simulation packages. They, however, encourage more self-pacing and exploration.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="30" page="2" column="1">© 2012 British Educational Research Association</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="31" page="3" column="1">Multimedia lab material effectiveness study in HE</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="32" page="3" column="1">859</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="36" confidence="possible" page="3" column="1">Related work</h2>
+          <region class="DoCO:TextChunk" id="54" page="3" column="1">An investigation into the literature has indicated a lack of studies on the comparison of different types of material for the delivery and support of laboratory sessions. Most of these focus on the development and investigation of specific tools for the delivery of labs for very specific subjects. Nevertheless, there are a few studies that focus either on the use of a specific type of lab material, such as electronic ( <xref ref-type="bibr" rid="R16" id="37" class="deo:Reference">Read, Hanson and Levesley, 2008</xref>) and audio material (Nortcliffe and Middleton, 2008) or by comparing certain types of lab material, mainly print versus electronic (Brickman, <xref ref-type="bibr" rid="R3" id="38" class="deo:Reference">Ketter and Pereira, 2005</xref>; <xref ref-type="bibr" rid="R15" id="39" class="deo:Reference">Poole, 2007</xref>). More precisely, <xref ref-type="bibr" rid="R16" id="40" class="deo:Reference">Read et al (2008)</xref> investigated the use of electronic material for the support of culturally diverse students, in what they called “weblabs.” These were mainly used for lab support and remote/independent learning. Although their study did not compare any other type of material apart from electronic ones, their results indicated that students were returning to the experiment far more often than would be required to complete the task. It also concluded that “weblabs” gave students the opportunity to attempt additional experiments as they were entering additional data and completing tasks unrelated to the required task (<xref ref-type="bibr" rid="R16" id="41" class="deo:Reference">Read et al, 2008</xref>). In their investigation of audio material as a means of supporting lectures, <xref ref-type="bibr" rid="R13" id="42" class="deo:Reference">Nortcliffe and Middleton (2008)</xref> found that digital audio is generally accessible to, and valued by, students and that it can lead to greater ongoing engagement in the module. Students utilised audio mainly post-lecture and for revision. Although their research did not investigate lab sessions, their findings are nevertheless useful and applicable to lab sessions as well. <xref ref-type="bibr" rid="R3" id="43" class="deo:Reference">Brickman et al (2005)</xref> compared two different lab material types by recreating what was already available in a print medium and by using electronic media that included HTML and PDF docu-<marker type="page" number="4"/><marker type="block"/> ments for text-based content and quizzes, animations and video. Their study indicated that computer-delivered lab material did not provide an equivalent replacement for text-based instruction for non-science majors in their introductory classes. <xref ref-type="bibr" rid="R15" id="49" class="deo:Reference">Poole (2007)</xref> conducted another study similar to the aforementioned by replacing traditional methods of delivering labs via printed handouts by employing Microsoft Word documents for the traditional instruction sheets and their companion Visual Basic software for the application development environment. In contrast to <xref ref-type="bibr" rid="R3" id="50" class="deo:Reference">Brickman et al (2005)</xref>, Poole’s study results showed that the laboratories, which employed electronic material, enjoyed a higher level of attendance than the previous year’s conventional experience. In addition, this type of electronic and computerised laboratory experience was easier and more enjoyable than the traditional counterpart. It should be highlighted here that Brick- man’s study focused on non-science courses whereas Poole’s study was conducted for science- based courses. Several other studies share similar results with Poole’s study indicating that the use of electronic material and especially the use multimedia (audio, video, animation) offers benefits in enhancing student understanding and learning in technical laboratory sessions (<xref ref-type="bibr" rid="R2" id="51" class="deo:Reference">Brace and Megill, 2005</xref>; <xref ref-type="bibr" rid="R14" id="52" class="deo:Reference">Paladino, 2008</xref>; <xref ref-type="bibr" rid="R17" id="53" class="deo:Reference">Schulz and Dahale, 1999</xref>).</region>
+          <outsider class="DoCO:TextBox" type="footer" id="45" page="3" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="46" page="4" column="1">860</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="47" page="4" column="1">British Journal of Educational Technology</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="48" page="4" column="1">Vol 44 No 5 2013</outsider>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="55" page="4" column="1">Research questions</h1>
+        <region class="DoCO:TextChunk" id="56" page="4" column="1">More precisely, the key elements of investigation of this piece of research can be summarised in the next section: 1. Which material(s) do students find most effective for the delivery of a lab and the support of a lab session in general and for individual subject areas (eg, design, technology, etc)? 2. Which material(s) do tutors find most effective for the delivery of a lab and the support of a lab session in general and for individual subject areas (eg, design, technology, etc)? 3. Does the introduction of video material in support of lab sessions increase student engagement? It should be noted that in the context of this paper, the term “lab delivery” denotes the presentation of lab material by tutors or lab demonstrators and their consumption by students in the lab space/area of the university. The term “lab support” refers to the use of material for supporting lab sessions conducted by students individually at home or out of the normal lab times for independent learning.</region>
+      </section>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="57" page="4" column="1">Research methodology</h1>
+        <region class="DoCO:TextChunk" id="66" page="4" column="1">The study employs a quantitative research approach as it forms a hybrid of survey and use case study into the effectiveness of different types of lab materials for multimedia students. Survey studies collect data at a particular point in time and employ quantitative data gathering methods, such as closed questions, test scores, multiple choice and observation schedules ( <xref ref-type="bibr" rid="R5" id="58" class="deo:Reference">Cohen, Manion and Morrison, 2007</xref>; <xref ref-type="bibr" rid="R6" id="59" class="deo:Reference">Creswell, 2009</xref>). Case studies have been used widely in the education section as they form a detailed examination of one setting or a single subject (<xref ref-type="bibr" rid="R1" id="60" class="deo:Reference">Borgan and Biklen, 2003</xref>). They are particularly useful at the outset of the research, as according to <xref ref-type="bibr" rid="R1" id="61" class="deo:Reference">Borgan and Biklen (2003)</xref>, they act as a “funnel” that assists in narrowing and defining effectively the field of the research study. The level 2 (second term) of the Multimedia Design and Technology (MMTD) course delivered at Brunel University has been selected as the use case for this research study. The MMTD course has been selected for the use case because the content and disciplines of the course are diverse (both technology and design being taught), and thus, its outcomes would reflect well on either technology- and/or design-based courses. The rationale behind the selection of level 2 of MMTD for this study lies on the number of modules at this level, which have a lab-based element as part of the module delivery (five modules out of the six taught in this level include laboratories).<marker type="page" number="5"/><marker type="block"/> After the subject of the study had been defined (problem definition) and the objectives set, the sample and the survey (qualitative) method was selected. These informed the design of the questionnaires (for staff/tutors and students) as well as the metrics to be employed. A sample questionnaire was handed to a few students and staff to pilot the study. The feedback was then used to modify and develop the main/final questionnaire. This was given to students to complete at a seminar session. The students were informed about the purpose of the study and the non-mandatory nature of completing it. Seventy-five (75) out of 110 students completed and returned the questionnaire. The staff questionnaire was also distrib- uted to 12 academics who teach in the multimedia technology and design course and contribute to lab material delivery and support. In addition to this, student activity over U-link was tracked. U-link is the university’s intranet online learning resource where all tutors upload their lecture, lab notes and other teaching and learning support material. It supports a number of different type of material formats, such as audio files, electronic (Microsoft Word files, Adobe PDF files, etc), web links, video, etc. It should be noted that the vast majority of electronic, print, audio and nearly half of the video material were produced by the academic members of staff. Video material was uploaded as supporting material to existing electronic lab material on U-Link after the end of the first term and at the beginning of the second academic term. This was done in order to investigate whether video material can increase student engagement with the module lab material.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="63" page="4" column="1">© 2012 British Educational Research Association</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="64" page="5" column="1">Multimedia lab material effectiveness study in HE</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="65" page="5" column="1">861</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="67" confidence="possible" page="5" column="1">Data gathering</h2>
+          <region class="DoCO:TextChunk" id="75" page="5" column="1">The primary research involves all key stakeholders of the lab delivery and support chain (tutors and students). The research materials for this study were collected in three different ways: • Student questionnaire: designed to collect data based on several closed questions using a 5-point scale; • Tutor questionnaire: designed to collect data based on several closed questions using a 5-point scale; • Student tracking of U-link activity: aimed at collecting data on online material assessed by students in a non-intrusive manner. Closed questions were selected for this study as they allow the specification of a range of responses from which the participant may choose. Furthermore, closed questions are useful in that they can generate frequencies of response open to statistical treatment and analysis ( <xref ref-type="bibr" rid="R6" id="68" class="deo:Reference">Creswell, 2009</xref>). With regard to the rating scales, the semantic differential scale was selected. This type of scale operates by placing opposite (antonym) adjectives at both ends of the scale (<xref ref-type="bibr" rid="R5" id="69" class="deo:Reference">Cohen et al, 2007</xref>). Participants simply have to circle the position on the scale that better reflects their opinion. For instance, Which type of material do most of your tutors use during lab sessions? 1 = least used 5 = most used Printed material (paper-based): 1 2 3 4 5 Tutor and student questionnaires have a very similar structure. Both of them were composed of the same three sections: • Current use of material for lab delivery and support; • Overall views on lab material delivery and support; • Views on material delivery and support per module/subject. However, there were a few differences between the two questionnaires. The student one included a total of 13 questions as opposed to the 12 questions of the tutor questionnaire. The main difference lies in the last section of the questionnaire where students have to respond to three questions about the lab material ease of use and the tutors have to respond to two questions about the lab material ease of creation.<marker type="page" number="6"/><marker type="block"/> In addition to closed questions, tracking of student activity over the electronic learning facility of the university (U-link) was employed to acquire data in a more independent and unobtrusive mode and to facilitate comparison between the data entered on the questionnaires against these gathered electronically.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="71" page="5" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="72" page="6" column="1">862</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="73" page="6" column="1">British Journal of Educational Technology</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="74" page="6" column="1">Vol 44 No 5 2013</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="76" confidence="possible" page="6" column="1">Participants</h2>
+          <region class="DoCO:TextChunk" id="77" page="6" column="1">The range of participants in this study was measured in terms of age, gender and subject area interest (participants could select more than one area of interest). In total, 75 students and 12 tutors participated in this study. The vast majority (94%) of students who participated in the study were between the ages of 18 and 23, with 64% of them being male. Regarding the subject area interest, design, 3D, video/photography and interaction were among the most popular ones with 22%, 21%, 19% and 18% respectively. Technology and web apps were the least popular with 11% and 9% respectively. The majority of the tutors who participated in the study were also male (nine out of 12). Most of the tutors (10 out of 12) were between the ages of 30 and 59, with three being between 30 and 39, four being between 40 and 49 and three being between 50 and 59. A quarter of the tutors indicated video/photography as their subject area of interest. This was followed by design, 3D and technology with 20% and 18% respectively. Interaction and web apps were the least popular subject areas of interest with 11% and 9%. Thus, it is clear that the majority of students and tutors favour design and skill-based subjects over technical ones.</region>
+        </section>
+      </section>
+      <section class="deo:Results">
+        <h1 class="DoCO:SectionTitle" id="78" page="6" column="1">Results and discussion</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="79" confidence="possible" page="6" column="1">Lab material effectiveness</h2>
+          <region class="DoCO:TextChunk" id="94" page="6" column="1">Prior to the discussion of the results, it should be noted that the ranking of the lab material is based on the average decimal values that resulted from the completion of the tutor and student questionnaires and which can be found in Tables 1 and 2. The analysis of the data gathered indicates that for both multimedia students and tutors, electronic material is seen as contributing the most to student learning in the delivery of a lab session (see <xref ref-type="fig" rid="F1" id="80" class="deo:Reference">Figure 1</xref> and <xref ref-type="table" rid="T1" id="81" class="deo:Reference">Table 1</xref>). This is followed by print material, video and, lastly, audio material according to student responses and video, print and audio material according to tutor responses. One can see additional variations in the responses between students and tutors. More precisely, students have a more wide spread in their responses for all types of lab material and have a more strong view on the usefulness of electronic material scoring an average value of 4.38 as opposed to the tutor response average score of 4.1––see <xref ref-type="fig" rid="F1a" id="82" class="deo:Reference">Figure 1a</xref> and <xref ref-type="table" rid="T1" id="83" class="deo:Reference">Table 1</xref>). Tutor responses, on the other hand, show a more unified view on the use of video for lab delivery with equally positive responses on scales 3, 4 and 5 and an average score of 3.9 contrary to student response average score of 2.98 (see <xref ref-type="fig" rid="F1b" id="84" class="deo:Reference">Figure 1b</xref> and <xref ref-type="table" rid="T1" id="85" class="deo:Reference">Table 1</xref>). When we consider the same issue of delivering a lab but without a tutor or a lab demonstrator being present, the responses of both students and tutors vary. In particular, when students are left to complete a lab task without a tutor being present, they prefer to use electronic material followed by video, print and lastly audio material. Tutors, on the contrary, believe that when they are not present in the lab session, print material is more effective for the delivery of the lab, followed by electronic and video and lastly audio (<xref ref-type="table" rid="T1" id="86" class="deo:Reference">Table 1</xref>). The reason behind this could lie in the fact that tutors have a higher trust in print material (printed handouts) when it comes to completing lab exercises since code and designs are more difficult to copy and paste compared with electronic material. Also, this may be due to the fact that logistically, print material is easier to produce when compared with video material. On the question of which type of material contributes most to student learning of a lab session from home (independent learning), student and tutor responses converge. Both consider video<marker type="page" number="7"/><marker type="block"/> as the most contributing material (with very little variation in their response scores, 4.58 for students and 4.5 for tutors), followed by electronic, then print and lastly audio material (see <xref ref-type="table" rid="T1" id="93" class="deo:Reference">Table 1</xref>). It is interesting to note here that both tutors and students indicate that video and electronic material have a higher effect on student independent learning. This could be due to the fact that video, especially when combined with audio, forms the most immediate substitute medium for tutors since students would be able to see them and listen to their instructions. Students also feel very comfortable with static electronic (PDF and HTML) and especially interactive electronic material such as web material since this forms a natural and familiar way of conducting research and facilitating independent learning. Thus, one can realise that as lab sessions move from the university to the home and the tutor involvement decreases in the delivery of a lab, students gradually move from the use of electronic to the use of video material. Tutors, on the other hand, move from the use of electronic material (when present in a lab) to print (when not present) and to video when students are asked to complete lab sessions at home.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="88" page="6" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="89" page="7" column="1">Multimedia lab material effectiveness study in HE</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="90" page="7" column="1">863</outsider>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="91" page="7" column="1">Table 1: Statistical data on the effectiveness of different types of lab material based on student/staff response in ascending order</caption>
+            <content>
+              <table class="DoCO:Table" number="1" page="7">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Question</th>
+                    <th class="table"> Material type</th>
+                    <th class="table"> Average (SD)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Which type of lab material contributes the most to your learning in a</td>
+                    <td class="table.strange"> Electronic</td>
+                    <td class="table.strange"> 4.38 (1.00)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session, with a tutor/lab demonstrator present? (Student)</td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.2 (1.38)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 2.98 (1.18)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 1.66 (0.98)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of lab material do you feel contributes the most to your</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.1 (0.75)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> students’ learning in the delivery of a lab session when you or a lab</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.9 (0.89)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> demonstrator is present? (Tutor)</td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.5 (1.97)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.5 (1.64)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of lab material contributes the most to your learning in a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.26 (0.85)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session, without a tutor/lab demonstrator present? (Student)</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.84 (1.09)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.04 (1.36)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 1.92 (1.15)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of lab material do you feel contributes the most to your</td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 4.1 (0.75)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> students’ learning in the delivery of a lab session when you or the lab</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 3.6 (0.81)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> demonstrator is NOT present? (Tutor)</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.5 (1.76)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.5 (1.64)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of lab material contributes the most to your learning of a</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.58 (0.67)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session at home (independent learning)? (Student)</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.18 (0.84)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.44 (1.23)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.26 (1.20)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of lab material do you feel contributes the most to your</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.5 (0.83)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> students’ independent learning (lab material accessed by students</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.3 (0.81)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> from home as a support material)? (Tutor)</td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.5 (1.51)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.8 (1.47)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="92" confidence="possible" page="7" column="1">Question Material type Average (SD) Which type of lab material contributes the most to your learning in a Electronic 4.38 (1.00) lab session, with a tutor/lab demonstrator present? (Student) Print 3.2 (1.38) Video 2.98 (1.18) Audio 1.66 (0.98) Which type of lab material do you feel contributes the most to your Electronic 4.1 (0.75) students’ learning in the delivery of a lab session when you or a lab Video 3.9 (0.89) demonstrator is present? (Tutor) Print 3.5 (1.97) Audio 2.5 (1.64) Which type of lab material contributes the most to your learning in a Electronic 4.26 (0.85) lab session, without a tutor/lab demonstrator present? (Student) Video 3.84 (1.09) Print 3.04 (1.36) Audio 1.92 (1.15) Which type of lab material do you feel contributes the most to your Print 4.1 (0.75) students’ learning in the delivery of a lab session when you or the lab Electronic 3.6 (0.81) demonstrator is NOT present? (Tutor) Video 3.5 (1.76) Audio 2.5 (1.64) Which type of lab material contributes the most to your learning of a Video 4.58 (0.67) lab session at home (independent learning)? (Student) Electronic 4.18 (0.84) Print 3.44 (1.23) Audio 2.26 (1.20) Which type of lab material do you feel contributes the most to your Video 4.5 (0.83) students’ independent learning (lab material accessed by students Electronic 4.3 (0.81) from home as a support material)? (Tutor) Print 3.5 (1.51) Audio 2.8 (1.47)</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="95" confidence="possible" page="7" column="1">Lab material effectiveness per module-subject</h2>
+          <region class="DoCO:TextChunk" id="120" page="7" column="1">Employing the multimedia technology and design course as a use case (as indicated in the research methodology section) allows the investigation of the effectiveness of different types of lab materials for a different range of subjects and modules. This is very useful as other similar courses in the area of multimedia but also engineering, which has often very distinct subjects as part of is syllabus, and thus, some lab material types may be more suitable for different subject areas. The <marker type="page" number="8"/><marker type="block"/> table later (<xref ref-type="table" rid="T2" id="103" class="deo:Reference">Table 2</xref>) summarises the findings on both students and tutor responses related to this area of investigation. One can approach and view the data generated from different perspectives, with regard to the lab material type effectiveness based on: • The overall collection of subjects/modules; • Each individual subject/module; • Student versus tutor responses.<marker type="page" number="9"/><marker type="block"/> In the first case, if we look at the ranking order of the different types of lab materials across the five subjects/modules, we notice that in all cases and on both student and academic staff responses, audio is regarded as the least effective lab material type with an average scores ranging from 1.6 to 2.6 (within the 5-point scale). When we look at the most effective lab material type, it is clear that the responses differ. Electronic material is regarded as the most effective one across three subjects/modules (design, interaction, web applications with average scores ranging from 4.2 to 4.36) and video material is regarded as the most effective in one subject/module (3D graphics and animation with an average score of 4.42 for students and 4.5 for tutors). Views are split even further in the subject of video/photography as the students rate video as the most effective type of learning material (scoring 4.36 and followed by electronic material with 4.1) and the tutors consider print material (scoring 3.67 and followed by electronic with 3.5) as the most effective one. Overall, the student and staff responses seem to converge with regard to the effectiveness of different material types for the delivery of a lab session. The only exception is the video/photography module where all responses, with the exception of audio material seem to be in disagreement. Also, with regard to the interaction module, although both the students and the tutors agree that electronic and audio are the most and least effective lab material respectively, the students consider video material as the second most effective, while the tutors regard print material as the second most effective. If we look at the second most effective type of lab material across all subjects, that depends on which of the two stakeholders this question is addressed to as this is video according to the student responses and print according to the tutor responses. Looking at the data again, there seems to be a pattern with regard to the type of subject (design, technical, skill-based) and the material type participants have indicated. More precisely, one can realise that for technical subjects such as interaction and web applications (both involve scripting/programming), electronic material is seen as the most effective for the delivery of a lab session, followed by print and then video (see <xref ref-type="table" rid="T2" id="110" class="deo:Reference">Table 2</xref>). In the case of design subjects, such as the design module, electronic material is seen again as the most effective, but in contrast to the<marker type="page" number="10"/><marker type="block"/> technical subjects, this is followed by video then print material. With regard to skill-based subjects, such as 3D and video/photography, video material is seen as the most effective for the delivery of a lab session, followed by electronic then print.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="97" page="7" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="98" page="8" column="1">864</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="99" page="8" column="1">British Journal of Educational Technology</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="100" page="8" column="1">Vol 44 No 5 2013</outsider>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="101" page="8" column="1">Table 2: Statistical data on the effectiveness of different types of lab material per module/subject in ascending order</caption>
+            <content>
+              <table class="DoCO:Table" number="2" page="8">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Question</th>
+                    <th class="table"></th>
+                    <th class="table"> Material type</th>
+                    <th class="table"> Average (SD)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table.strange"> a</td>
+                    <td class="table.strange"> Electronic</td>
+                    <td class="table.strange"> 4.22 (1.05)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a design module? (Student)</td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.64 (1.39)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.26 (1.32)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 1.82 (1.15)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.2 (1.30)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a design module? (Tutor)</td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.4 (1.51)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.4 (1.81)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.6 (0.89)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.42 (1.08)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a 3D graphics and animation module? (Student)</td>
+                    <td class="table"></td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 3.98 (0.82)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.22 (1.31)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.02 (1.22)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.5 (0.57)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a 3D graphics and animation module? (Tutor)</td>
+                    <td class="table"></td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4 (0.84)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.25 (1.5)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.25 (0.95)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.36 (0.75)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a video/photography module? (Student)</td>
+                    <td class="table"></td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.1 (0.88)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.54 (1.18)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.3 (1.44)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.67 (1.21)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a video/photography module? (Tutor)</td>
+                    <td class="table"></td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 3.5 (1.04)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.34 (1.09)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.33 (1.03)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.3 (0.86)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in an interaction module? (Student)</td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 4.12 (0.91)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.78 (1.09)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.1 (1.21)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.36 (0.81)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in an interaction module? (Tutor)</td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 4 (0.63)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.5 (1.04)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.34 (1.03)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.22 (0.84)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a web applications module? (Student)</td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 3.9 (1.14)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.14 (1.47)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 2.12 (1.36)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Which type of material do you find more effective for the delivery of</td>
+                    <td class="table"> a</td>
+                    <td class="table"> Electronic</td>
+                    <td class="table"> 4.33 (0.56)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> lab session in a web applications module? (Tutor)</td>
+                    <td class="table"></td>
+                    <td class="table"> Print</td>
+                    <td class="table"> 4 (0.89)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Video</td>
+                    <td class="table"> 3.32 (1.63)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"></td>
+                    <td class="table"> Audio</td>
+                    <td class="table"> 1.67 (0.47)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="102" confidence="possible" page="8" column="1">Question Material type Average (SD) Which type of material do you find more effective for the delivery of a Electronic 4.22 (1.05) lab session in a design module? (Student) Video 3.64 (1.39) Print 3.26 (1.32) Audio 1.82 (1.15) Which type of material do you find more effective for the delivery of a Electronic 4.2 (1.30) lab session in a design module? (Tutor) Print 3.4 (1.51) Video 3.4 (1.81) Audio 2.6 (0.89) Which type of material do you find more effective for the delivery of a Video 4.42 (1.08) lab session in a 3D graphics and animation module? (Student) Electronic 3.98 (0.82) Print 3.22 (1.31) Audio 2.02 (1.22) Which type of material do you find more effective for the delivery of a Video 4.5 (0.57) lab session in a 3D graphics and animation module? (Tutor) Electronic 4 (0.84) Print 3.25 (1.5) Audio 2.25 (0.95) Which type of material do you find more effective for the delivery of a Video 4.36 (0.75) lab session in a video/photography module? (Student) Electronic 4.1 (0.88) Print 3.54 (1.18) Audio 2.3 (1.44) Which type of material do you find more effective for the delivery of a Print 3.67 (1.21) lab session in a video/photography module? (Tutor) Electronic 3.5 (1.04) Video 3.34 (1.09) Audio 2.33 (1.03) Which type of material do you find more effective for the delivery of a Electronic 4.3 (0.86) lab session in an interaction module? (Student) Video 4.12 (0.91) Print 3.78 (1.09) Audio 2.1 (1.21) Which type of material do you find more effective for the delivery of a Electronic 4.36 (0.81) lab session in an interaction module? (Tutor) Print 4 (0.63) Video 3.5 (1.04) Audio 2.34 (1.03) Which type of material do you find more effective for the delivery of a Electronic 4.22 (0.84) lab session in a web applications module? (Student) Print 3.9 (1.14) Video 3.14 (1.47) Audio 2.12 (1.36) Which type of material do you find more effective for the delivery of a Electronic 4.33 (0.56) lab session in a web applications module? (Tutor) Print 4 (0.89) Video 3.32 (1.63) Audio 1.67 (0.47)</region>
+          </region>
+          <outsider class="DoCO:TextBox" type="footer" id="105" page="8" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="106" page="9" column="1">Multimedia lab material effectiveness study in HE</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="107" page="9" column="1">865</outsider>
+          <region class="DoCO:FigureBox" id="F1">
+            <image class="DoCO:Figure" src="62l0.page_009.image_01.png" thmb="62l0.page_009.image_01-thumb.png"/>
+            <caption class="deo:Caption" id="109" page="9" column="1">Figure 1: Participant responses on the effectiveness of different types of material in the delivery of a lab session with a tutor present: (a) student responses; (b) tutor responses</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="footer" id="112" page="9" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="113" page="10" column="1">866</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="114" page="10" column="1">British Journal of Educational Technology</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="115" page="10" column="1">Vol 44 No 5 2013</outsider>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62l0.page_010.image_02.png" thmb="62l0.page_010.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="117" page="10" column="1">Figure 2: Student U-link activity according to number of visits.: (a) for an interaction module; (b) Ffor a 3D module</caption>
+          </region>
+          <region class="DoCO:FigureBox" id="F3">
+            <image class="DoCO:Figure" src="62l0.page_010.image_03.png" thmb="62l0.page_010.image_03-thumb.png"/>
+            <caption class="deo:Caption" id="119" page="10" column="1">Figure 3: Student U-link activity for average time per student visit.: (a) F for an interaction module; (b) fFor a 3D module</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="121" confidence="possible" page="10" column="1">Student tracking results</h2>
+          <region class="DoCO:TextChunk" id="126" page="10" column="1">Tracking student U-link activity of two modules, a technology-based module (interaction) and a skill-based module (3D graphics and animation), which employed both electronic and video material for the delivery and mainly support of lab sessions, generated some interesting outcomes. As it can be seen in Figures 2 and 3, the introduction of video lab-based material did have a considerable effect in increasing both the number of student visits to the university’s online learning facility (U-link) as well as average time spent on U-link visits for lab-related content. More precisely, video material-based labs increased by 39% the number of U-link student visits when compared with electronic material labs in term 2 and 20% when compared with electronic material labs in both terms for the interaction module. The number of student visits for the 3D graphics module increased even further (by 58% the number of U-link student visits when compared with electronic material labs in term 2 and 30% when compared with electronic material labs in both terms). <marker type="page" number="11"/><marker type="block"/> The students also spent an average of 34 additional hours on the interaction module and 56 additional hours on the 3D graphics in term 2 while interacting and accessing video lab-related content. It is equally important to note that the introduction of video lab material did not decrease the number of visits or the time spent on electronic lab material in term 2. This presents an increase of 58% of additional time dedicated to lab material in the interaction module and 97% increase in the 3D graphics module. It is also noteworthy that in the 3D graphics module, the students spent nearly twice the time accessing lab-based video material when compared with the interaction module. It is noteworthy that nearly the same time was spent on average in accessing electronic lab material in term 2 as well. This is clearly reflected in the very positive student responses on the effectiveness of video material for a 3D graphics module/subject area. This indicates that video can potentially have a positive aspect in attracting student attention for additional learning while, at the same time, retaining the average time spent on electronic lab material. Furthermore, this finding supports and reinforces Read et al’s (2008) finding on the usefulness of “weblabs,” in his case (“videolabs” in our case), in the increase of student motiva- tion in attempting additional labs and experiments.</region>
+          <outsider class="DoCO:TextBox" type="footer" id="123" page="10" column="1">© 2012 British Educational Research Association</outsider>
+          <outsider class="DoCO:TextBox" type="header" id="124" page="11" column="1">Multimedia lab material effectiveness study in HE</outsider>
+          <outsider class="DoCO:TextBox" type="page_nr" id="125" page="11" column="1">867</outsider>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="127" page="11" column="1">Conclusion</h1>
+        <region class="DoCO:TextChunk" id="133" page="11" column="1">The main aim of this research project was to investigate the effectiveness of different types of materials for the delivery and support of lab session. A qualitative research methodology was employed for this investigation and included both key stakeholders in academia, students and their tutors. Although our study focused on a specific course, the findings are applicable to a wider range of higher education courses, especially within the areas of design, information systems, computing, engineering, computer animation, digital media and many others. The reason for this is that the course selected for the use case (multimedia technology and design) is composed of a number of diverse themes and modules that are found in the aforementioned courses and subject areas. Our key findings indicate that overall electronic material is seen as the most effective and audio material is seen as the least effective material in the delivery of a lab session across most subjects. Students favour video as the second most effective in the delivery of a lab session across the vast majority of design, skill-based and technology subjects, whereas tutors favour print as the second most effective material. Electronic material is regarded as the most effective for the delivery of technical and design lab sessions, such as interaction and web applications subjects. Video material, on the other hand, is regarded as the most effective for the delivery of skill-based lab sessions. With regard to the delivery of lab sessions at home (independent learning), both students and tutors indicate video material as being the most effective and contributing the most to learning. Student tracking has also indicated that the introduction of video material (in the second academic term) of two different modules/subjects (one skill-based and a technology one) can lead to a dramatic increase in the average time spent by students on accessing and consuming lab related content and information. Thus, video material has the potential to increase student engagement within a subject and to contribute to a more effective lab delivery and especially lab support (independent learning). Overall, this study has practical applications. Especially at a time when several academic institutions are moving towards greater incorporation of online learning resources for lecture related material. Our study indicates a strong student and tutor demand for even greater incorporation of online learning resources, especially in electronic (such as PDF, HMTL) and video formats for the delivery and support of labs and workshop sessions as well. In particular, tutors who lead or contribute to technology-based subjects should consider the preparation and use of electronic and print lab material. Design tutors would improve the student <marker type="page" number="12"/><marker type="block"/> engagement and learning in their labs and workshops by using more electronic and video material, whereas tutors who teach skill-based subjects should employ mainly video material. Lastly, it should be noted that the quality of the various materials employed was out of the scope of this study and was thus not assessed. However, it forms a subject for consideration for future work.</region>
+        <outsider class="DoCO:TextBox" type="footer" id="129" page="11" column="1">© 2012 British Educational Research Association</outsider>
+        <outsider class="DoCO:TextBox" type="page_nr" id="130" page="12" column="1">868</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="131" page="12" column="1">British Journal of Educational Technology</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="132" page="12" column="1">Vol 44 No 5 2013</outsider>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="134" page="12" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="135" page="12" column="1">Borgan, R. &amp; Biklen, S. K. (2003). Qualitative research for education: an introduction to theories and methods (4th ed.). New York: Pearson Education Group.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="136" page="12" column="1">Brace, C. &amp; Megill, W. (2005). Using multimedia solutions to improve the laboratory teaching &amp; learning experience. TDF Evaluation Report (2005/06), Bath University, pp 1–3.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="137" page="12" column="1">Brickman, P., Ketter, C. &amp; Pereira, M. (2005). Effectiveness of an electronic-delivered lab manual. Journal of College Science Teaching, 35, 3, 28–30.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="138" page="12" column="1">Brown, S., Bull, J. &amp; Race, P. (1999). Computer-assisted assessment in higher education. London: Kogan Page.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="139" page="12" column="1">Cohen, L., Manion, L. &amp; Morrison, K. (2007). Research methods in education (6th ed.). London: Routledge. Collins, J. (1997). Teaching and learning with multimedia. London: Routledge.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="140" page="12" column="1">Creswell, J. (2009). Research design: qualitative, quantitative, and mixed method approaches. London: SAGE.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="141" page="12" column="1">Edward, N. (2002). The role of laboratory work in engineering education: student and staff perceptions. International Journal of Electrical Engineering Education, 39, 1, 11–19.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="142" page="12" column="1">Fry, H., Ketteridge, S. &amp; Marshall, S. (2003). A handbook for teaching and learning in higher education: enhancing academic practice (2nd ed.). London: Routledge Falmer.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="143" page="12" column="1">Gibbs, G., Gregory, R. &amp; Moore, I. (1997). Labs and practicals with more students and fewer resources. Oxford: The Oxford Centre for Staff Development.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="144" page="12" column="1">Gorard, S., Roberts, K. &amp; Taylor, C. (2004). What kind of creature is a design experiment. British Educational Research Journal, 30, 4, 577–590.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="145" page="12" column="1">Laurillard, D. (2002). Rethinking university teaching: a conversational framework for the effective use of learning technologies. London: Routledge.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="146" page="12" column="1">Morgan, R. &amp; Jones, O. (2001). The use of simulation software to enhance student understanding. International Symposium on Engineering Education, 2, 1, 33/1–33/6.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="147" page="12" column="1">Nortcliffe, A. &amp; Middleton, A. (2008). A three year case study of using audio to blend the engineer’s learning environment. Engineering Education, 3, 2, 45–52.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="148" page="12" column="1">Paladino, A. (2008). Creating an interactive and responsive teaching environment to inspire learning. Journal of Marketing Education, 30, 3, 185–188.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="149" confidence="possible" page="12" column="1">Poole, N. (2007). Activating laboratories using Visual Basic for Applications. Engineering Education, 2, 2, 44–53.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="150" page="12" column="1">Read, E., Hanson, B. &amp; Levesley, M. (2008). Using weblabs as a tool to support a culturally diverse student cohort. Engineering Education, 3, 1, 52–61.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="151" page="12" column="1">Schulz, K. C. &amp; Dahale, V. (1999). Multimedia modules for enhancing technical laboratory sessions. Campus- Wide Information Systems, 16, 3, 81–95.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="153" page="12" column="1">Thompson, D. &amp; Homer, G. (2007). The new technology in computer courses––the panacea for all ills? In B. Pauling (Ed.), The changing technologies of learning: reshaping the boundaries of the university (pp. 1–7). York: Higher Education Academy. Retrieved 10th May 2012, from <ext-link ext-link-type="uri" href="http://www.heacademy.ac.uk/assets/" id="152">http://www.heacademy.ac.uk/assets/</ext-link> documents/resources/heca/heca_vu13.pdf</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="footer" id="154" page="12" column="1">© 2012 British Educational Research Association</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

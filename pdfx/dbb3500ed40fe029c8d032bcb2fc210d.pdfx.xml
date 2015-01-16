@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>755d512132e430bb524788e0149069d8db7cade4a4e2c04e50001690d0bf0087</job>
+    <base_name>62s6</base_name>
+    <doi>http://dx.doi.org/10.1016/b978-0-12-385502-2.00006-7</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="page_nr" id="1">262</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="2">IEEE TRANSACTIONS ON PROFESSIONAL COMMUNICATION, VOL. 56, NO. 3, SEPTEMBER 2013</outsider>
+      <region class="unknown" id="3">Book Review</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">Ilpo Koskinen</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">John Zimmerman</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">Thomas Binder</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Johan Redstrom</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="8">Stephan Wensveen</name>
+        </contrib>
+      </contrib-group>
+      <title-group>
+        <article-title class="DoCO:Title" id="9" confidence="possible">Design Research Through Practice: From the Lab, Field, and Showroom</article-title>
+      </title-group>
+      <region class="unknown" id="10">—Reviewed by M URIEL Z IMMERMAN , SENIOR MEMBER, IEEE Index Terms—Academic programs, design, ethnography, usability.</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="11" page="1" column="1">T he authors of this volume argue that design research needs more than mathematics: it needs many other vocabularies as well, including art, cultural studies, anthropology, cognitive psychology, and communication. This argument will not likely be news to readers of IEEE T RANSACTIONS ON P ROFESSIONAL C OMMUNICATION , or to attendees at International Professional Communication Conferences, or to university teachers of technical communication, or to those who work in documentation and user support. But the book is of great interest in its treatment of the evolution of design research from the lab to the field to the showroom. It is particularly well-written, with excellent case studies, and it includes a chapter on building academic research programs that incorporate these ideas. It would be a profitable read for graduate students, faculty, designers of documentation and educational environments, and engineers who sometimes need a shake-up in their philosophy of designing for others. We move from Jacob Nielsen and Donald Norman, beyond the user-centered turn in product and documentation design, to fieldwork incorporating methods from ethnography, to constructing prototypes and scenarios so that designers can answer the question: “how will this feel to use?” The Media Lab at MIT, with its “demo or die” slogan (replacing “publish or perish”) is a good model for the kind of culture applauded here. Rather than bringing things of interest into the laboratory</region>
+      <region class="DoCO:TextChunk" id="13" confidence="possible" page="1" column="1">Manuscript received February 01, 2013; revised February 04, 2013; accepted July 03, 2013. Date of current version November 20, 2013. The reviewer is with the University of California, Santa Barbara, CA 93106 USA (email: <email id="12">mzimmer@writing.ucsb.edu</email>). IEEE 10.1109/TPC.2013.2274109 Book publisher: Amsterdam, the Netherlands: Morgan Kaufmann, 2011, 197 pp. plus index.</region>
+      <region class="DoCO:TextChunk" id="18" page="1" column="2">for experimental studies, field researchers go after these things in places where the design is supposed to be used. They use methods from ethnography, cultural probes like cameras and diaries, and methods from social science. The lab decontextualizes, the field contextualizes, and the showroom allows users to experience ideas made tangible. In the kind of design research advocated here, researchers build prototypes and are then able to learn what it would be like if the product existed, to act as though it exists, ideally in the place it would be used. At IPCC 2012 in Orlando, FL, Stephanie Rosenbaum, CEO of TecEd in Ann Arbor, MI, presented a workshop in which she described an evaluation project for a product that her client intended for use in two sites: a living room and a restaurant. The TecEd staff emptied two rooms of their offices and brought in appropriate furniture to recreate a living room and a restaurant for her subjects to use as they interacted with the product, certainly in tune with the powerful arguments made in this volume. The tests were conducted in a simulated environment in which the product was meant to do its work, so that researchers could learn how “it” would fit into daily life and support social behavior. The authors provide suggestions for academic programs in this kind of constructive design, the model in which design is “thinging,” making models, scenarios, and prototypes to gain insight into how people experience things. They encourage companies to commit resources to experimentation and prototyping as an ongoing process rather than trying to predetermine the details of a future offering through analysis. The goal of this new model of design research is to provide stories that tell how people experience the design and what trains of thought were elicited. An attempt to see <marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> humans as information-processing machines is not wrong: it is only a small part of the story. The case studies are memorable and even remarkable. In a project called Static! at the Interactive Institute in Sweden, energy use is explored in public life and architecture. The goal of one project was to build new behaviors and interactions into familiar forms like radios and refrigerators. The prototype Erratic Radio listened to normal radio frequencies as well as frequencies emitted by active electronic appliances around the 50-Hz band. When the radio sensed increasing energy consumption in its environment, it started to tune out unpredictably. To continue listening, the user had to turn some things off. The difference between normal radio and Erratic Radio is behavioral [pp. 100–101]. The book is clearly written and helpfully designed, with focused case studies and incisive cartoon-like summaries of key concepts. The reference section is extensive and truly useful: international in scope and broadly multidisciplinary. The authors, all academics, work in art, design, computer science,</region>
+      <outsider class="DoCO:TextBox" type="footer" id="15" page="1" column="2">0361-1434 © 2013 IEEE</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="16" page="2" column="1">IEEE TRANSACTIONS ON PROFESSIONAL COMMUNICATION, VOL. 56, NO. 3, SEPTEMBER 2013</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="17" page="2" column="1">263</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="19" confidence="possible" page="2" column="1">R EFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="20" confidence="possible" page="2" column="1">[1] M. Fox, “John E. Karlin,” The New York Times, Feb. 8, 2013.</ref>
+        </ref-list>
+        <region class="DoCO:TextChunk" id="23" page="2" column="2">social science, filmmaking, engineering, and philosophy. <marker type="block"/> As I was preparing this review, I read an obituary for John E. Karlin [<xref ref-type="bibr" rid="R1" id="22" class="deo:Reference">1</xref>], a Bell Labs industrial psychologist who is credited with research that defined the experience of using the telephone in the mid-20th century and afterward, from ushering in all-digit dialing to the shape of the keypad on Touch-Tone phones and many everyday objects. The writer of Karlin’s obituary reports that one of Karlin’s colleagues at Bell Labs in the 1970s said that Karlin introduced the idea that behavioral sciences could answer some questions about telephone design. As a result, in Fox’s words, “It is not so much that Mr. Karlin trained midcentury Americans how to use the telephone. It is, rather, that by studying the psychological capabilities and limitations of ordinary people, he trained the telephone, then a rapidly proliferating but still fairly novel technology, to assume optimal form for use by midcentury Americans.” Constructive design research indeed!</region>
+      </section>
+    </body>
+  </article>
+</pdfx>

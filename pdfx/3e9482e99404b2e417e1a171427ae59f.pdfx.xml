@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>2600f0e8caa47e6b73274da72fbf3369902dc04fa919d38e522bf21cf7b9fcf0</job>
+    <base_name>62h8</base_name>
+    <doi>http://dx.doi.org/10.1145/1011870.1011885</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="2">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="3">September 21st 2010</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="4">Aalto Service Design Service Masters’ Day</outsider>
+      <title-group>
+        <article-title class="DoCO:Title" id="5">Facillitating collaboration through design games</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="6">Eva Brandt</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="unknown" id="1" page="1" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="footer" id="8" page="1" column="1">Associate Professor, Ph.D. Danish Center for Design Research <email id="7">eva.brandt@dkds.dk</email></outsider>
+      <region class="DoCO:FigureBox" id="Fx9">
+        <image class="DoCO:Figure" src="62h8.page_001.image_01.png" thmb="62h8.page_001.image_01-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="10" page="1" column="1">Nessie</outsider>
+      <region class="DoCO:FigureBox" id="Fx11">
+        <image class="DoCO:Figure" src="62h8.page_001.image_02.png" thmb="62h8.page_001.image_02-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="12" page="1" column="1">Smart Window</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="13" page="1" column="1">Vision 2000</outsider>
+      <region class="DoCO:FigureBox" id="Fx14">
+        <image class="DoCO:Figure" src="62h8.page_001.image_03.png" thmb="62h8.page_001.image_03-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="15" page="1" column="1">A product program (motors, valves and cylinders) based on water hydraulics</outsider>
+      <region class="DoCO:FigureBox" id="Fx16">
+        <image class="DoCO:Figure" src="62h8.page_001.image_04.png" thmb="62h8.page_001.image_04-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_001.image_05.png" thmb="62h8.page_001.image_05-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="17" page="1" column="1">A mobile device for process operators e.g. Power Plants</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="18" page="1" column="1">A new global product program for controlling cooling in ‘supermarkets’</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="20" page="1" column="1">Contact: <email id="19">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="21" page="1" column="1">1</outsider>
+      <region class="unknown" id="22" page="2" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="23" page="2" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="24" page="2" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="25" page="2" column="1">2010</outsider>
+      <region class="DoCO:FigureBox" id="Fx26">
+        <image class="DoCO:Figure" src="62h8.page_002.image_06.png" thmb="62h8.page_002.image_06-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="27" page="2" column="1">Dynabook Experimental office Electronic books for children, Future offices for group teenagers and adults oriented work places IBM, Telia, Telia Kinnarps, Real Prosoft estate company; FFNS architects</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="28" page="2" column="1">Sony Ericsson, Anoto, Decuma</outsider>
+      <region class="DoCO:FigureBox" id="Fx29">
+        <image class="DoCO:Figure" src="62h8.page_002.image_07.png" thmb="62h8.page_002.image_07-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="30" page="2" column="1">Malmö University Hospital</outsider>
+      <region class="DoCO:FigureBox" id="Fx31">
+        <image class="DoCO:Figure" src="62h8.page_002.image_08.png" thmb="62h8.page_002.image_08-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="32" page="2" column="1">KLIV - learning within COMIT Intensive Care Unit contextualising mobile IT</outsider>
+      <region class="DoCO:FigureBox" id="Fx33">
+        <image class="DoCO:Figure" src="62h8.page_002.image_09.png" thmb="62h8.page_002.image_09-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_002.image_10.png" thmb="62h8.page_002.image_10-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="34" page="2" column="1">DAIM project</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="35" page="2" column="1">Senior:Interaction project</outsider>
+      <region class="DoCO:FigureBox" id="Fx36">
+        <image class="DoCO:Figure" src="62h8.page_002.image_11.png" thmb="62h8.page_002.image_11-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="38" page="2" column="1">Contact: <email id="37">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="39" page="2" column="1">2</outsider>
+      <region class="unknown" id="40" page="3" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="41" page="3" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="42" page="3" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="43" page="3" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="44" page="3" column="1">THE CO-DESIGN RESEARCH CLUSTER</outsider>
+      <region class="DoCO:FigureBox" id="Fx45">
+        <image class="DoCO:Figure" src="62h8.page_003.image_12.png" thmb="62h8.page_003.image_12-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="46" page="3" column="1">Conducting research based on design laboratories (design:labs), that involve various stakeholders actively in the design process.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="47" page="3" column="1">Example: Pilot project on recycling in the DAIM project</outsider>
+      <region class="DoCO:FigureBox" id="Fx48">
+        <image class="DoCO:Figure" src="62h8.page_003.image_13.png" thmb="62h8.page_003.image_13-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="49" page="3" column="1">Vestforbrænding incinerator plant Municipalities Garbage collectors Shops Caretakers Citizens School children Design consultancies University of Southern Denmark The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="50" page="3" column="1">What is special about the Design:Lab? (1)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="51" page="3" column="1">‘Design research’ within specific contexts</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="52" page="3" column="1">Starting point in the everyday practices of people affected by the changes</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="53" page="3" column="1">A process based on dialogue between various stakeholders</outsider>
+      <region class="DoCO:FigureBox" id="Fx54">
+        <image class="DoCO:Figure" src="62h8.page_003.image_14.png" thmb="62h8.page_003.image_14-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="55" page="3" column="1">Understanding the ‘system system ’</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="57" page="3" column="1">Contact: <email id="56">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="58" page="3" column="1">3</outsider>
+      <region class="unknown" id="59" page="4" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="60" page="4" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="61" page="4" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="62" page="4" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="63" page="4" column="1">The Design:Lab (2)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="64" page="4" column="1">Focusing on changing existing practices through interventions and other kinds of experimentation</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="65" page="4" column="1">Working from open design agendas</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="66" page="4" column="1">Co-ownership to research and change proposals</outsider>
+      <region class="DoCO:FigureBox" id="Fx67">
+        <image class="DoCO:Figure" src="62h8.page_004.image_15.png" thmb="62h8.page_004.image_15-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="68" page="4" column="1">Design:lab = Staging series of events/workshops</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="69" page="4" column="1">Progress through mutual learning</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="70" page="4" column="1">field work</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="71" page="4" column="1">workshop</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="72" page="4" column="1">Building on the participants own competencies</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="73" page="4" column="1">fieldshop</outsider>
+      <region class="DoCO:FigureBox" id="Fx74">
+        <image class="DoCO:Figure" src="62h8.page_004.image_17.png" thmb="62h8.page_004.image_17-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="75" page="4" column="1">Continuity from workshop to workshop</outsider>
+      <region class="DoCO:FigureBox" id="Fx76">
+        <image class="DoCO:Figure" src="62h8.page_004.image_16.png" thmb="62h8.page_004.image_16-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="78" page="4" column="1">Contact: <email id="77">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="79" page="4" column="1">4</outsider>
+      <region class="unknown" id="80" page="5" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="81" page="5" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="82" page="5" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="83" page="5" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="84" page="5" column="1">Design:Lab = Rehearsing the future</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="85" page="5" column="1">Mobilizing participants in exploring and rehearsing new possible futures</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="86" page="5" column="1">Involving the ’users’</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="87" page="5" column="1">Fast ’sketches’ Estranging the familiar</outsider>
+      <region class="DoCO:FigureBox" id="Fx88">
+        <image class="DoCO:Figure" src="62h8.page_005.image_18.png" thmb="62h8.page_005.image_18-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="89" page="5" column="1">Images of ’new futures’</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="90" page="5" column="1">Creating visions through scenarios and storytelling</outsider>
+      <region class="DoCO:FigureBox" id="Fx91">
+        <image class="DoCO:Figure" src="62h8.page_005.image_19.png" thmb="62h8.page_005.image_19-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="93" page="5" column="1">Contact: <email id="92">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="94" page="5" column="1">5</outsider>
+      <region class="unknown" id="95" page="6" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="96" page="6" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="97" page="6" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="98" page="6" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="99" page="6" column="1">What if..? Improvisations and tools for collaborative inquiries</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="100" page="6" column="1">Rehearsing the future through improvising scenarios with prototypes</outsider>
+      <region class="DoCO:FigureBox" id="Fx101">
+        <image class="DoCO:Figure" src="62h8.page_006.image_20.png" thmb="62h8.page_006.image_20-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="102" page="6" column="1">Resources for learning: the co-design:lab in a box</outsider>
+      <region class="DoCO:FigureBox" id="Fx103">
+        <image class="DoCO:Figure" src="62h8.page_006.image_21.png" thmb="62h8.page_006.image_21-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="105" page="6" column="1">Contact: <email id="104">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="106" page="6" column="1">6</outsider>
+      <region class="unknown" id="107" page="7" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="108" page="7" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="109" page="7" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="110" page="7" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="111" page="7" column="1">Video about the pilot project on recycling in the DAIM project DAIM = Design Anthropological Innovation Model</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="113" page="7" column="1">This and other videos can be found on the DAIM blog: <ext-link ext-link-type="uri" href="http://chokobar.wordpress.com/" id="112">http://chokobar.wordpress.com/</ext-link></outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="114" page="7" column="1">Designing = Social process</outsider>
+      <region class="DoCO:FigureBox" id="Fx115">
+        <image class="DoCO:Figure" src="62h8.page_007.image_22.png" thmb="62h8.page_007.image_22-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="117" page="7" column="1">Contact: <email id="116">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="118" page="7" column="1">7</outsider>
+      <region class="unknown" id="119" page="8" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="120" page="8" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="121" page="8" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="122" page="8" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="123" page="8" column="1">Designers need frameworks that help organising participation in such a way that the various competencies present in an event can be utilized. that encourage everyone to make design moves and be part of exploring and negotiating views and possible futures.</outsider>
+      <region class="DoCO:FigureBox" id="Fx124">
+        <image class="DoCO:Figure" src="62h8.page_008.image_23.png" thmb="62h8.page_008.image_23-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="125" page="8" column="1">(Brandt, 2006)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="126" page="8" column="1">Participatory design / Co-design</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="127" page="8" column="1">Design games</outsider>
+      <region class="DoCO:FigureBox" id="Fx128">
+        <image class="DoCO:Figure" src="62h8.page_008.image_24.png" thmb="62h8.page_008.image_24-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="130" page="8" column="1">Contact: <email id="129">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="131" page="8" column="1">8</outsider>
+      <region class="unknown" id="132" page="9" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="133" page="9" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="134" page="9" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="135" page="9" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="136" page="9" column="1">Design games as framework for organising participation in participatory design Create continuity between events Events Events</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="137" page="9" column="1">Events</outsider>
+      <region class="DoCO:FigureBox" id="Fx138">
+        <image class="DoCO:Figure" src="62h8.page_009.image_25.png" thmb="62h8.page_009.image_25-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="139" page="9" column="1">Working process: staging, evoking and enacting, and collaborative creation of design artefacts.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="140" page="9" column="1">Design games as the guiding principles in a ‘conversational’ design practice based on a series of design events focusing on collaborative inquiry and participatory design.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="141" page="9" column="1">Starting point in peoples everyday practices</outsider>
+      <region class="DoCO:FigureBox" id="Fx142">
+        <image class="DoCO:Figure" src="62h8.page_009.image_26.png" thmb="62h8.page_009.image_26-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="144" page="9" column="1">Contact: <email id="143">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="145" page="9" column="1">9</outsider>
+      <region class="unknown" id="146" page="10" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="147" page="10" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="148" page="10" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="149" page="10" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="150" page="10" column="1">Design:Lab events in different contexts/locations</outsider>
+      <region class="DoCO:FigureBox" id="Fx151">
+        <image class="DoCO:Figure" src="62h8.page_010.image_27.png" thmb="62h8.page_010.image_27-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_010.image_30.png" thmb="62h8.page_010.image_30-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_010.image_29.png" thmb="62h8.page_010.image_29-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_010.image_28.png" thmb="62h8.page_010.image_28-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="152" page="10" column="1">Collaborative inquiry + participatory design / co-design</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="153" page="10" column="1">Design games as a commen platform for experimentation</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="154" page="10" column="1">Building on the participants own knowledge</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="155" page="10" column="1">Enstranging the familiar</outsider>
+      <region class="DoCO:FigureBox" id="Fx156">
+        <image class="DoCO:Figure" src="62h8.page_010.image_31.png" thmb="62h8.page_010.image_31-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="158" page="10" column="1">Contact: <email id="157">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="159" page="10" column="1">10</outsider>
+      <region class="unknown" id="160" page="11" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="161" page="11" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="162" page="11" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="163" page="11" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="164" page="11" column="1">Games in general ... a play with props following specific rules and often with an element of competition between players, and decided by chance, strength, skill or a combination of these.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="165" page="11" column="1">Exploratory design games ... players seldom compete in order to win a specific game.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="166" page="11" column="1">... but to take advantage of the players various skills and expertise’s and jointly explore various design possibilities within a game setting.</outsider>
+      <region class="DoCO:FigureBox" id="Fx167">
+        <image class="DoCO:Figure" src="62h8.page_011.image_32.png" thmb="62h8.page_011.image_32-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="168" page="11" column="1">... game pieces and rules.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="169" page="11" column="1">Design games and design practice</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="170" page="11" column="1">User contexts</outsider>
+      <region class="DoCO:FigureBox" id="Fx171">
+        <image class="DoCO:Figure" src="62h8.page_011.image_34.png" thmb="62h8.page_011.image_34-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_011.image_33.png" thmb="62h8.page_011.image_33-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="172" page="11" column="1">Ethnographic fieldwork</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="173" page="11" column="1">Further grounding of knowledge through user created e.g. scenarios</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="174" page="11" column="1">Design materials</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="175" page="11" column="1">Design games to inquire into “what is”, and explore ideas about “what could be”.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="176" page="11" column="1">Co-creation Participatory inquiry and collaborative design</outsider>
+      <region class="DoCO:FigureBox" id="Fx177">
+        <image class="DoCO:Figure" src="62h8.page_011.image_35.png" thmb="62h8.page_011.image_35-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="179" page="11" column="1">Contact: <email id="178">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="180" page="11" column="1">11</outsider>
+      <region class="unknown" id="181" page="12" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="182" page="12" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="183" page="12" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="184" page="12" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="185" page="12" column="1">Conceptualize designing</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="186" page="12" column="1">Change perspective</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="187" page="12" column="1">games design Exploratory</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="188" page="12" column="1">Work-flow related games</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="189" page="12" column="1">Scenario-oriented games</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="190" page="12" column="1">Brandt, 2006</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="191" page="12" column="1">Conceptualize designing</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="192" page="12" column="1">Habraken et al. 1987: Forstå designarbejde og herved forbedre design af bygninger og urbane områder. 9 ’concept design games’ Ex. Silent game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="193" page="12" column="1">Bucciarelli, 1994: Teach engineering students The Delta Design Game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="194" page="12" column="1">- both social processes.</outsider>
+      <region class="DoCO:FigureBox" id="Fx195">
+        <image class="DoCO:Figure" src="62h8.page_012.image_36.png" thmb="62h8.page_012.image_36-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="197" page="12" column="1">Contact: <email id="196">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="198" page="12" column="1">12</outsider>
+      <region class="unknown" id="199" page="13" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="200" page="13" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="201" page="13" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="202" page="13" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="203" page="13" column="1">Change perspective</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="204" page="13" column="1">Created games to explore imagination and intensify collaborative experience by subverting methods borrowed from for instance sociology, anthropology, and psychology (Gooding and Brootchie, 1991).</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="205" page="13" column="1">The Exquisite Corps</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="206" page="13" column="1">Surrealisterne: 1920’erne -</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="207" page="13" column="1">Chance Tilfældighed Ubevidste Ting fra hverdagen</outsider>
+      <region class="DoCO:FigureBox" id="Fx208">
+        <image class="DoCO:Figure" src="62h8.page_013.image_37.png" thmb="62h8.page_013.image_37-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="209" page="13" column="1">Nordvestspillet</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="210" page="13" column="1">Students from Danmarks Designskole (Brandt, 2006)</outsider>
+      <region class="DoCO:FigureBox" id="Fx211">
+        <image class="DoCO:Figure" src="62h8.page_013.image_38.png" thmb="62h8.page_013.image_38-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="213" page="13" column="1">Contact: <email id="212">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="214" page="13" column="1">13</outsider>
+      <region class="unknown" id="215" page="14" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="216" page="14" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="217" page="14" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="218" page="14" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="219" page="14" column="1">Work-flow oriented games</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="220" page="14" column="1">Ehn og Sjögren, 1991 Engagere arbejdere i forandringsprocesser. Participatory Design</outsider>
+      <region class="DoCO:FigureBox" id="Fx221">
+        <image class="DoCO:Figure" src="62h8.page_014.image_39.png" thmb="62h8.page_014.image_39-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="222" page="14" column="1">The organisational kit game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="223" page="14" column="1">Main objectives: To engage workers in change processes, create a common language, discuss existing reality, investigate future visions and make requirement specifications on aspects of work organisation, technology and education. The guiding principles: Games should be easy to work with, cheap to produce and play, flexible and facilitate the testing of several alternatives. The games should be relevant in the actual work context and support discussions of existing as well as future work and technology.</outsider>
+      <region class="DoCO:FigureBox" id="Fx224">
+        <image class="DoCO:Figure" src="62h8.page_014.image_40.png" thmb="62h8.page_014.image_40-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="226" page="14" column="1">Contact: <email id="225">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="227" page="14" column="1">14</outsider>
+      <region class="unknown" id="228" page="15" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="229" page="15" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="230" page="15" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="231" page="15" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="232" page="15" column="1">Scenario-oriented games</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="233" page="15" column="1">Forum Teater (Boal, 1974)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="234" page="15" column="1">”The magic if” (Stanislavskij, 1988)</outsider>
+      <region class="DoCO:FigureBox" id="Fx235">
+        <image class="DoCO:Figure" src="62h8.page_015.image_41.png" thmb="62h8.page_015.image_41-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="236" page="15" column="1">Design games and design practice</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="237" page="15" column="1">User contexts</outsider>
+      <region class="DoCO:FigureBox" id="Fx238">
+        <image class="DoCO:Figure" src="62h8.page_015.image_43.png" thmb="62h8.page_015.image_43-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="239" page="15" column="1">Ethnographic fieldwork</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="240" page="15" column="1">Further grounding of knowledge through user created scenarios</outsider>
+      <region class="DoCO:FigureBox" id="Fx241">
+        <image class="DoCO:Figure" src="62h8.page_015.image_42.png" thmb="62h8.page_015.image_42-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="242" page="15" column="1">Design materials</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="243" page="15" column="1">Participatory inquiry and collaborative design</outsider>
+      <region class="DoCO:FigureBox" id="Fx244">
+        <image class="DoCO:Figure" src="62h8.page_015.image_44.png" thmb="62h8.page_015.image_44-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="245" page="15" column="1">Design games to inquire into “what is”, and explore ideas about “what could be”.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="247" page="15" column="1">Contact: <email id="246">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="248" page="15" column="1">15</outsider>
+      <region class="unknown" id="249" page="16" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="250" page="16" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="251" page="16" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="252" page="16" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="253" page="16" column="1">Projekt: COMIT (Contextualising Mobile IT)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="254" page="16" column="1">Ronny 40 years Head hunter Lives with wife and two sons in a suburb</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="255" page="16" column="1">Helle 37 years Fashion designer/shop owner Lives with her husband in a suburb</outsider>
+      <region class="DoCO:FigureBox" id="Fx256">
+        <image class="DoCO:Figure" src="62h8.page_016.image_45.png" thmb="62h8.page_016.image_45-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="257" page="16" column="1">Design probes</outsider>
+      <region class="DoCO:FigureBox" id="Fx258">
+        <image class="DoCO:Figure" src="62h8.page_016.image_46.png" thmb="62h8.page_016.image_46-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="259" page="16" column="1">COMIT</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="261" page="16" column="1">Contact: <email id="260">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="262" page="16" column="1">16</outsider>
+      <region class="unknown" id="263" page="17" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="264" page="17" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="265" page="17" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="266" page="17" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="267" page="17" column="1">Design spil og design praksis</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="268" page="17" column="1">User contexts</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="269" page="17" column="1">Ethnographic fieldwork</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="270" page="17" column="1">Further grounding of knowledge through user created scenarios</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="271" page="17" column="1">Design materials</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="272" page="17" column="1">Participatory inquiry and collaborative design</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="273" page="17" column="1">Design games to inquire into “what is”, and explore ideas about “what could be”.</outsider>
+      <region class="DoCO:FigureBox" id="Fx274">
+        <image class="DoCO:Figure" src="62h8.page_017.image_47.png" thmb="62h8.page_017.image_47-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="275" page="17" column="1">Design materials - game pieces</outsider>
+      <region class="DoCO:FigureBox" id="Fx276">
+        <image class="DoCO:Figure" src="62h8.page_017.image_48.png" thmb="62h8.page_017.image_48-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="278" page="17" column="1">Contact: <email id="277">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="279" page="17" column="1">17</outsider>
+      <region class="unknown" id="280" page="18" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="281" page="18" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="282" page="18" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="283" page="18" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="284" page="18" column="1">The User Game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="285" page="18" column="1">Aim: to develop a shared image of intended users grounded in field data.</outsider>
+      <region class="DoCO:FigureBox" id="Fx286">
+        <image class="DoCO:Figure" src="62h8.page_018.image_49.png" thmb="62h8.page_018.image_49-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="287" page="18" column="1">Moment cards: building blocks for stories that refer to video clips from ethnographic field data.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="288" page="18" column="1">Sign cards: used to label stories. Each card is printed with a value related word.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="289" page="18" column="1">The User Game</outsider>
+      <region class="DoCO:FigureBox" id="Fx290">
+        <image class="DoCO:Figure" src="62h8.page_018.image_50.png" thmb="62h8.page_018.image_50-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="292" page="18" column="1">Contact: <email id="291">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="293" page="18" column="1">18</outsider>
+      <region class="unknown" id="294" page="19" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="295" page="19" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="296" page="19" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="297" page="19" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="298" page="19" column="1">The Landscape Game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="299" page="19" column="1">Aim: In the Landscape Game context is created for the persons created in the User Game.</outsider>
+      <region class="DoCO:FigureBox" id="Fx300">
+        <image class="DoCO:Figure" src="62h8.page_019.image_51.png" thmb="62h8.page_019.image_51-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="301" page="19" column="1">Traces cards: pictures from the field data showing physical surroundings used as ’set pieces’.</outsider>
+      <region class="DoCO:FigureBox" id="Fx302">
+        <image class="DoCO:Figure" src="62h8.page_019.image_52.png" thmb="62h8.page_019.image_52-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="303" page="19" column="1">Game boards: Generic conceptual maps. Interpretation of the maps is part of the game.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="304" page="19" column="1">The Landscape Game</outsider>
+      <region class="DoCO:FigureBox" id="Fx305">
+        <image class="DoCO:Figure" src="62h8.page_019.image_53.png" thmb="62h8.page_019.image_53-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="307" page="19" column="1">Contact: <email id="306">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="308" page="19" column="1">19</outsider>
+      <region class="unknown" id="309" page="20" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="310" page="20" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="311" page="20" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="312" page="20" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="313" page="20" column="1">The Experimental Office</outsider>
+      <region class="DoCO:FigureBox" id="Fx314">
+        <image class="DoCO:Figure" src="62h8.page_020.image_54.png" thmb="62h8.page_020.image_54-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_020.image_56.png" thmb="62h8.page_020.image_56-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_020.image_55.png" thmb="62h8.page_020.image_55-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="316" page="20" column="1">Contact: <email id="315">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="317" page="20" column="1">20</outsider>
+      <region class="unknown" id="318" page="21" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="319" page="21" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="320" page="21" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="321" page="21" column="1">2010</outsider>
+      <region class="DoCO:FigureBox" id="Fx322">
+        <image class="DoCO:Figure" src="62h8.page_021.image_57.png" thmb="62h8.page_021.image_57-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_021.image_58.png" thmb="62h8.page_021.image_58-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_021.image_59.png" thmb="62h8.page_021.image_59-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="324" page="21" column="1">Contact: <email id="323">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="325" page="21" column="1">21</outsider>
+      <region class="unknown" id="326" page="22" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="327" page="22" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="328" page="22" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="329" page="22" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="330" page="22" column="1">Video from the Experimental Office Project, Space Studio, Interactive Institute</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="331" page="22" column="1">The Technology Game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="332" page="22" column="1">Aim: to make the technology aspect explicit early in design and to introduce the form factor.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="333" page="22" column="1">Example game pieces describing shape: generic shapes cut out of foam (or cardboard).</outsider>
+      <region class="DoCO:FigureBox" id="Fx334">
+        <image class="DoCO:Figure" src="62h8.page_022.image_60.png" thmb="62h8.page_022.image_60-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="335" page="22" column="1">Example game pieces describing functions: LEGO DuploTM blocks with function labels.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="337" page="22" column="1">Contact: <email id="336">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="338" page="22" column="1">22</outsider>
+      <region class="unknown" id="339" page="23" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="340" page="23" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="341" page="23" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="342" page="23" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="343" page="23" column="1">The technology game</outsider>
+      <region class="DoCO:FigureBox" id="Fx344">
+        <image class="DoCO:Figure" src="62h8.page_023.image_61.png" thmb="62h8.page_023.image_61-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="345" page="23" column="1">The Scenario Game</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="346" page="23" column="1">Aim: to develop empathy for the users and the situations of use by having the players creating and enacting scenarios in the user’s own environment.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="347" page="23" column="1">Foam mock-ups can be created and modified on the spot by the players.</outsider>
+      <region class="DoCO:FigureBox" id="Fx348">
+        <image class="DoCO:Figure" src="62h8.page_023.image_62.png" thmb="62h8.page_023.image_62-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="350" page="23" column="1">Contact: <email id="349">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="351" page="23" column="1">23</outsider>
+      <region class="unknown" id="352" page="24" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="353" page="24" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="354" page="24" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="355" page="24" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="356" page="24" column="1">The Scenario Game</outsider>
+      <region class="DoCO:FigureBox" id="Fx357">
+        <image class="DoCO:Figure" src="62h8.page_024.image_63.png" thmb="62h8.page_024.image_63-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="358" page="24" column="1">Ex. Video Senior:Interaction Project</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="360" page="24" column="1">Contact: <email id="359">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="361" page="24" column="1">24</outsider>
+      <region class="unknown" id="362" page="25" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="363" page="25" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="364" page="25" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="365" page="25" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="366" page="25" column="1">Four design games</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="367" page="25" column="1">• The User Game Creating stories about intended users.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="368" page="25" column="1">• The Landscape Game Creating context for users from the user game.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="369" page="25" column="1">• The Technology Game Technologies and the form factor are introduced and explored.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="370" page="25" column="1">• The Scenario Game Involving people, context, activities and the technology to be designed.</outsider>
+      <region class="DoCO:FigureBox" id="Fx371">
+        <image class="DoCO:Figure" src="62h8.page_025.image_64.png" thmb="62h8.page_025.image_64-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="372" page="25" column="1">Operational Rules (forthcoming Brandt 2010)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="373" page="25" column="1">Examples of Operational Rule s Highly structured versus loosely structured. Everyone pick five images they find interesting The first design move is to choose between the three game boards. Each player takes turn making design move s . The participants make design moves by placing game pieces on a game board. Each placing of game pieces are negotiated with the other players before placed on the game board What game pieces to make moves with is decided by chance versus decided by the players interests.</outsider>
+      <region class="DoCO:FigureBox" id="Fx374">
+        <image class="DoCO:Figure" src="62h8.page_025.image_65.png" thmb="62h8.page_025.image_65-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="376" page="25" column="1">Contact: <email id="375">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="377" page="25" column="1">25</outsider>
+      <region class="unknown" id="378" page="26" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="379" page="26" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="380" page="26" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="381" page="26" column="1">2010</outsider>
+      <region class="DoCO:FigureBox" id="Fx382">
+        <image class="DoCO:Figure" src="62h8.page_026.image_66.png" thmb="62h8.page_026.image_66-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_026.image_67.png" thmb="62h8.page_026.image_67-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_026.image_68.png" thmb="62h8.page_026.image_68-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="383" page="26" column="1">Examples of Behavioral Rules Highly structured versus loosely structured. No critique – but try to understand the other players point of view. Not about winning or loosing but co-creation through playful experimentation. Maximum time for speaking is one minute, then game pieces have to be moved before talking again. Play oneself versus play a role for instance in accordance with a role script. Act/react to the other participants and design moves in accordance with your role description.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="385" page="26" column="1">Contact: <email id="384">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="386" page="26" column="1">26</outsider>
+      <region class="unknown" id="387" page="27" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="388" page="27" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="389" page="27" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="390" page="27" column="1">2010</outsider>
+      <region class="DoCO:FigureBox" id="Fx391">
+        <image class="DoCO:Figure" src="62h8.page_027.image_69.png" thmb="62h8.page_027.image_69-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_027.image_70.png" thmb="62h8.page_027.image_70-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="393" page="27" column="1">Contact: <email id="392">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="394" page="27" column="1">27</outsider>
+      <region class="unknown" id="395" page="28" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="396" page="28" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="397" page="28" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="398" page="28" column="1">2010</outsider>
+      <region class="DoCO:FigureBox" id="Fx399">
+        <image class="DoCO:Figure" src="62h8.page_028.image_71.png" thmb="62h8.page_028.image_71-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="400" page="28" column="1">Examples of rules about the responsibility of the facilitator Create an dynamic and informal atmosphere. Introduces the game and the rules of the game. Make sure that each player has an equal chance to speak. Take part in game playing versus not take part in game playing. Make sure to have time in the program for presentations by each group when playing in parallel. Be neutral versus having for instance design ideas and preferences, which becomes part of the inquiries. The facilitator is the timekeeper.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="401" page="28" column="1">Exploratory design games is a valuable framework in co-design</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="402" page="28" column="1">The framework is flexible and can include design projects within various design fields</outsider>
+      <region class="DoCO:FigureBox" id="Fx403">
+        <image class="DoCO:Figure" src="62h8.page_028.image_72.png" thmb="62h8.page_028.image_72-thumb.png"/>
+        <image class="DoCO:Figure" src="62h8.page_028.image_73.png" thmb="62h8.page_028.image_73-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="404" page="28" column="1">N ot one specific and generic game, which fit all kinds of projects, but that games are designed for various purposes and with different means. Suggests series of collaborative events each organised in a game format with focus on staging, evoking and enacting. The outcome of each event is a tangible artefact that help creating continuity. The game part: both how participation is staged and the atmosphere and attitude within which the game playing takes place. Engaging and fun. Informal atmosphere, which is the most productive in creative work.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="406" page="28" column="1">Contact: <email id="405">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="407" page="28" column="1">28</outsider>
+      <region class="unknown" id="408" page="29" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="409" page="29" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="410" page="29" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="411" page="29" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="412" page="29" column="1">A design game framework propose certain ingredients and frames in relation to how to stage co-designing</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="413" page="29" column="1">G ame rules and tangible game pieces support different participants in making design moves. Game materials: create a common ground that everybody can relate to. Game materials: becomes ’things-to-think- with’. Game pieces: becomes an inherent part of the language and hereby the argumentation. Images and video snippets from field studies provide a deeper knowledge of users and use situations, which the designers remember.</outsider>
+      <region class="DoCO:FigureBox" id="Fx414">
+        <image class="DoCO:Figure" src="62h8.page_029.image_74.png" thmb="62h8.page_029.image_74-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="415" page="29" column="1">To use open-ended fragments or questions seems to allow for many different interpretations leading to a more open and creative dialogue.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="416" page="29" column="1">Design games based on chance focus on how to get out of the habit and experiencing new.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="417" page="29" column="1">Stylised game materials seem to elucidate the participants intentions and interests, as they are not implicit in the materials provided.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="418" page="29" column="1">Game rules like turn taking help levelling of the stakeholders.</outsider>
+      <region class="DoCO:FigureBox" id="Fx419">
+        <image class="DoCO:Figure" src="62h8.page_029.image_75.png" thmb="62h8.page_029.image_75-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="421" page="29" column="1">Contact: <email id="420">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="422" page="29" column="1">29</outsider>
+      <region class="unknown" id="423" page="30" column="1">Service Factory, Open talk: Facilitating collaboration through design games</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="424" page="30" column="1">September 21st</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="425" page="30" column="1">By Eva Brandt, The Danish Design School</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="426" page="30" column="1">2010</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="427" page="30" column="1">Literature (some of the references)</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="428" page="30" column="1">The Design:Lab as platform in participatory design research. (Binder T and Brandt E, CoDesign, Volume 4 Number 2, June 2008. Taylor and Francis. Formatting design dialogues - games and participation (Brandt, Messeter and Binder, CoDesign. Vol 4. Number 1, 2008) From system descriptions to scripts for action (Ehn and Sjögren, In Design at Work, 1991) Concept design games.. (book 1 and 2) (Habraken and Gross, MIT 1987) Designing exploratory design games - can they be the guiding framework for the designer? (Brandt, PDC 2006) Rehearsing the Future (Halse, Brandt, Clark and Binder. 2010. The Danish Design School Press).</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="429" page="30" column="1">Kiitos!</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="431" page="30" column="1">Eva Brandt <email id="430">ebr@dkds.dk</email></outsider>
+      <region class="DoCO:FigureBox" id="Fx432">
+        <image class="DoCO:Figure" src="62h8.page_030.image_76.png" thmb="62h8.page_030.image_76-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="434" page="30" column="1">Contact: <email id="433">ebr@dkds.dk</email></outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="435" page="30" column="1">30</outsider>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>311c3f5063b10ad93029aed5a404f2cd8da9ff14e4f96191f24948612a915a21</job>
+    <base_name>62ir</base_name>
+    <doi>http://dx.doi.org/10.1007/978-3-540-92966-6_6</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">A Proposal for a Formal Definition of the Design Concept</article-title>
+      </title-group>
+      <region class="DoCO:TextChunk" id="2" confidence="possible">Paul Ralph 1 and Yair Wand 1</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="3">Sauder School of Business University of British Columbia Canada {paulralph@gmail.com</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">yair.wand@ubc.ca}</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="6">Abstract: A clear and unambiguous definition of the design concept would be useful for developing a cumulative tradition for research on design. In this article we suggest a formal definition of the concept design and propose a conceptual model linking concepts related to design projects. The definition of design incorporates seven elements: agent, object, environment, goals, primitives, requirements and constraints. The design project conceptual model is based on the view that projects are temporal trajectories of work systems that include human agents who work to design systems for stakeholders, and use resources and tools to accomplish this task. We demonstrate how these two conceptualizations can be useful by showing that 1) the definition of design can be used to classify design knowledge and 2) the conceptual model can be used to classify design approaches. <marker type="block"/> Keywords: design, information systems design, software design project, requirements, goals, science of design</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="7" page="1" column="1">1 Introduction</h1>
+        <region class="DoCO:TextChunk" id="9" confidence="possible" page="1" column="1">There have been several calls for addressing design as an object of research. Freeman and Hart call for a comprehensive, systematic research effort in the science of design: “We need an intellectually rigorous, formalized, and teachable body of knowledge about the principles underlying software-intensive systems and the processes used to create them,” [1, p.20]. Simon [<xref ref-type="bibr" rid="R2" id="8" class="deo:Reference">2</xref>] calls for development of a “theory of design” and gives some suggestions as to its contents. Yet, surprisingly, it seems no generally-accepted and precise definition of design as a concept is available. 1 1 As an anecdotal note – we have asked colleagues in several conferences to suggest a definition of design (in the software and IS context) and often the responses indicated IS academics did not have a well-defined notion of the concept.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="10" page="2" column="1">a</outsider>
+        <region class="unknown" id="13" page="2" column="1">A clear understanding of what design means is important from three perspectives. From an instructional perspective, it seems obvious that any designer’s education ought to include providing a clear notion of what design is. Furthermore, better understanding the meaning of design will inform what knowledge such education could include. From a research perspective, in any theoretical or empirical work in which design is construct, a clear definition will help ensure construct validity. Furthermore, a clear understanding of the meaning of design will facilitate developing measures of design-related constructs, such as design project success. Moreover, building a cumulative tradition of design research can benefit from a well-accepted definition of design, the alternative being different theories defining design differently, or not at all. From a (software design) practitioner’s perspective, a clear definition of design can help organize, share and reuse design knowledge. Such sharing can enhance software project success and software development productivity. Furthermore, understanding the elements of design would be useful in determining the issues and information relevant to the process of design and in planning this process. Given the potential value of a clear definition of design, our objective here is to suggest such a definition. We first seek to answer the question: what are the important elements of design as a phenomenon? We then seek to situate design in a network of related concepts. We begin our discussion by making a distinction between the science of design and the design science research paradigm (as elucidated by [<xref ref-type="bibr" rid="R3" id="11" class="deo:Reference">3</xref>]). In the language of March and Smith, design science research “builds and evaluates constructs, models, methods and in- stantiations” with “design intent” [4, p.256]. In contrast, Freeman and Hart [<xref ref-type="bibr" rid="R1" id="12" class="deo:Reference">1</xref>] call on the community to theorize and justify theories about design – what March and Smith call “natural science intent.”. Design science is a research paradigm, like experimentalism. Science of design is a field of inquiry, like psychology. Here we primarily seek to address issues related to the science of design. The paper is organized as follows. First, we synthesize a definition of design by applying concepts and suggestions in existing literature (§2). We then evaluate the proposed definition in Section 3. Section 4 situates our view of design in a conceptual model of software design projects. In Section 5, we demonstrate how the proposed definition and conceptual model of design can be applied to indexing design knowledge for reuse and classifying design approaches, respectively. Finally, we discuss the implications of our definition of design for current themes in software design and requirements research (§6).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="14" page="2" column="1">2 Proposing a Formal Definition of Design</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="16" page="2" column="1">2.1 Design in the Literature We have conducted a review of existing definitions of “design” in the literature. A list of definitions we examined is provided in the Appendix (<xref ref-type="table" rid="T9" id="15" class="deo:Reference">Table 9</xref>). We analyzed the defini-</h2>
+          <region class="DoCO:TextChunk" id="18" confidence="possible" page="2" column="1">We have conducted a review of existing definitions of “design” in the literature. A list of definitions we examined is provided in the Appendix (<xref ref-type="table" rid="T9" id="17" class="deo:Reference">Table 9</xref>). We analyzed the defini-</region>
+          <region class="DoCO:TextChunk" id="21" confidence="possible" page="3" column="1">tions in three ways. First, we identified the concepts that were common to several definitions (<xref ref-type="table" rid="T1" id="19" class="deo:Reference">Table 1</xref>). We then analyzed each definition and found that each had serious errors (discussed below). We found that all definitions included at least one type of error. The detailed analysis is provided also in <xref ref-type="table" rid="T9" id="20" class="deo:Reference">Table 9</xref> (Appendix). Finally, we identified four main areas of disagreement among the definitions (discussed below).</region>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="22" confidence="possible" page="3" column="1">Table 1. Frequency of Common Concepts in Analyzed Definitions</caption>
+            <content>
+              <h1 class="table"> Concept Frequency</h1>
+              <table class="DoCO:Table" number="1" page="3">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Design as a process</td>
+                    <td class="table"> 11</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as creation</td>
+                    <td class="table"> 11</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as planning</td>
+                    <td class="table"> 7</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as a physical activity (or as including implementation)</td>
+                    <td class="table"> 7</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> System (as the object of the design)</td>
+                    <td class="table"> 7</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as being deliberate, or having a purpose, goal or objective</td>
+                    <td class="table"> 7</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as an activity, or a collection of activities</td>
+                    <td class="table"> 7</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as occurring in an environment (or domain/situation/context)</td>
+                    <td class="table.strange"> 7</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Artifact, as the object of the design</td>
+                    <td class="table.strange"> 5</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Needs or requirements</td>
+                    <td class="table.strange"> 5</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as a human phenomenon</td>
+                    <td class="table.strange"> 5</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as organizing</td>
+                    <td class="table.strange"> 4</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Parts, components or elements</td>
+                    <td class="table.strange"> 4</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Constraints or limitations</td>
+                    <td class="table.strange"> 3</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Process (as the object of design)</td>
+                    <td class="table.strange"> 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as creative</td>
+                    <td class="table.strange"> 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Optimizing</td>
+                    <td class="table.strange"> 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as a mental activity</td>
+                    <td class="table.strange"> 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Resources</td>
+                    <td class="table.strange"> 2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="23" confidence="possible" page="3" column="1">Concept Frequency Design as a process 11 Design as creation 11 Design as planning 7 Design as a physical activity (or as including implementation) 7 System (as the object of the design) 7 Design as being deliberate, or having a purpose, goal or objective 7 Design as an activity, or a collection of activities 7 Design as occurring in an environment (or domain/situation/context) 7 Artifact, as the object of the design 5 Needs or requirements 5 Design as a human phenomenon 5 Design as organizing 4 Parts, components or elements 4 Constraints or limitations 3 Process (as the object of design) 2 Design as creative 2 Optimizing 2 Design as a mental activity 2 Resources 2</region>
+          </region>
+          <region class="DoCO:TextChunk" id="29" confidence="possible" page="3" column="1">Some of these areas of agreement appear problematic. First, some definitions confuse design with good design, adding desirability criteria to the definition, as evidenced by words like “optimally,” [<xref ref-type="bibr" rid="R5" id="24" class="deo:Reference">5</xref>] and “optimizing” [<xref ref-type="bibr" rid="R6" id="25" class="deo:Reference">6</xref>]. Designs may be suboptimal, but we still call them designs. Second, organizing does not necessarily constitute design, for example, when someone returns books to their proper shelves in a library, one is organizing the books into a pre-designed arrangement rather than actively performing a design task. Third, four definitions state or imply that design is strictly a human phenomenon. However, machines can also design objects (e.g. the design of processors using genetic algorithms [<xref ref-type="bibr" rid="R7" id="26" class="deo:Reference">7</xref>]). 2 Fourth, while many designers are surely creative, not all design need involve creativity. For example, design might involve relatively minor modifications to a previously created design. Finally, we identified four areas of disagreement. First, different objects of design arise: system, artifact and process. Second, disagreement exists concerning the scope of 2 Some research indicates that animals can also design objects [<xref ref-type="bibr" rid="R9" id="27" class="deo:Reference">9</xref>] [<xref ref-type="bibr" rid="R10" id="28" class="deo:Reference">10</xref>].</region>
+          <region class="DoCO:TextChunk" id="30" confidence="possible" page="4" column="1">design: where or when a design begins and ends. Third, some definitions indicate that design is a physical activity, others a mental activity. Fourth, some disagreement concerns the outcome of design: is it a plan, an artifact, or a solution?</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="31" page="4" column="1">a</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="33" page="4" column="1">2.2 Suggesting a Definition of Design In this section, we develop our proposed definition of design. First, [<xref ref-type="bibr" rid="R8" id="32" class="deo:Reference">8</xref>] differentiates between the subjects and objects of design. The subject of the design is the (often human) agent that manifests the design. The design object is the thing being designed. Design outcomes such as an artifact, a system or a process that appear in some existing definitions are encompassed here by the more general term, design object. 3 Some definitions mention parts, components or elements of which the design object is, or is to be, composed. Obviously, all artificial physical things are made from other things. We term the lowest level of components primitives. Similarly, but perhaps less obviously, if we assume that atomic conceptual things, such as single thoughts or ideas, are not designed (but are discovered or just are available), then all conceptual things that are designed are made from other conceptual things. Therefore, all design involves primitives, which are, or can be, assembled or transformed to create a design object. 4 March and Smith note that “Technology includes...materials, and sources of power” [4, p.252]. Mate- rials and sources of power would be included in the set of primitives. The outcome of a design effort is not necessarily the design object itself, but may be plan for its construction, consistent with the definitions that characterize design as planning rather than building. The common factor here is that the agent specifies properties of the design object: sometimes as a symbolic representation, as in an architectural blueprint, sometimes as a mental representation, as in a picture in a painter’s mind, and sometimes as the artifact itself, as in a hand-carved boomerang. We call the specified properties of the design object a specification. More specifically, a specification is a detailed description of a design object’s structural properties, namely, which primitives are assembled or modified and, if more than one primitive is used, how they are linked. 5 The specification may be purely mental, provided in a symbolic representation, presented as a physical model, or even manifested as the object itself.</h2>
+          <region class="unknown" id="35" page="4" column="1">3 Note: often the object is called an artifact, when designed by humans. The more general term object allows (in principle) for non-human agents such as animals and computers. 4 What the set of available primitives is can be a relative issue. A designer might be given a set of components, or component types, where each might be in turn composed from lower level components. We consider primitives the set of component-types available to the designer, independent of whether they are natural, or the outcome of previous design. Furthermore, even if the components are not yet available, a designer might proceed assuming they will be available. The as- sumptions made about these components will become requirements for their design. 5 This notion of specification agrees with that of [<xref ref-type="bibr" rid="R14" id="34" class="deo:Reference">14</xref>], that design is the activity that produces “a description of the software’s internal structure,” (p.1-3)</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="36" page="5" column="1">a</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="37" page="5" column="1">is</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="38" page="5" column="1">a</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="39" page="5" column="1">a</outsider>
+          <region class="unknown" id="45" page="5" column="1">Practically speaking, a specifications document might include desired behaviors as well as structural properties. From the perspective of this paper, these desired behaviors are requirements – they are not strictly part of the specifications. The object’s behavior emerges from the behavior of the individual components and their interactions. (By behavior we mean the way the object responds to a given set of stimuli from its environment, including agents who interact with the object.) Churchman points out that “Design belongs to the category of behavior called teleo- logical, i.e., “goal seeking” behavior,” [11, p. 5]. Many of the definitions we surveyed also included concepts such as “goal,” “purpose” or “objective.” While the goal may not be explicit or well defined, design is always intentional, never accidental. For example, a social networking web application can be designed without having an explicit goal, based on the vague idea that it would be useful and fun to have an online space where people could connect. We would still say the web application was designed. On the other hand, accidental or unintentional discoveries are not designed. Thus, goals are inherent to design in- sofar as a designer must have intentionality. However, this should not be interpreted as requirement that a design goal is or can be formally or explicitly articulated. Many definitions characterize the design process as occurring within an environment, domain, situation or context. Design involves two different environments: the environment of the design object, and the environment of the design agent. As pointed out by Alexander, “every design problem begins with an effort to achieve fitness between two entities: the form in question and its context,” [12, p.15]. Clearly, the design process or activity also occurs within some environment, even if that environment is difficult to characterize. March and Smith mention the “organizational setting” [3, p. 252] and Hevner et al. refer to “organizational context” [4, p. 77]. For instance, the software created by a developer intended to operate in a different environment than the developer operates in. The quali- fier “organizational” is not always valid for the environment of the artifact because the environment does not have to be an organization (e.g. the environment of a pacemaker is human body). Many definitions also mention needs or requirements and limitations or constraints. The issue of requirements needs clarification. If we interpret requirements strictly as formal requirements document or as a set of mathematically expressible functions, as in Gero 1990 [<xref ref-type="bibr" rid="R13" id="40" class="deo:Reference">13</xref>], the system is to perform, then requirements are not absolutely necessary. The primitive hunter who fashions a spear from a branch specified the spear’s properties by creating it – without an explicit reference to formal requirements (let alone mathematically definable functions). However, in the sense that every designer expects or desires the design object to possess certain properties or exhibit certain behaviors, requirements are inherent to design. Requirements are a major construct in requirements engineering and software design [<xref ref-type="bibr" rid="R15" id="41" class="deo:Reference">15</xref>] [<xref ref-type="bibr" rid="R16" id="42" class="deo:Reference">16</xref>]. Similarly, all design must involve constraints. Even if the design agent had infinite time and resources, physical design is still constrained by the laws of physics, virtual design by the speed and memory of the computational environment, and conceptual design by the mental faculties of the design agent. Constraints are a major construct in engineering design [<xref ref-type="bibr" rid="R2" id="43" class="deo:Reference">2</xref>], [<xref ref-type="bibr" rid="R17" id="44" class="deo:Reference">17</xref>]. However, like requirements, constraints may not be explicit.</region>
+          <region class="DoCO:TextChunk" id="48" confidence="possible" page="6" column="1">The above analysis leads to the following suggestion for the definition of design (mod- eled in <xref ref-type="fig" rid="F1" id="46" class="deo:Reference">Figure 1</xref>). <xref ref-type="table" rid="T2" id="47" class="deo:Reference">Table 2</xref> further describes each concept in the definition. Design (noun) a specification of an object, manifested by an agent, intended to accomplish goals, in a particular environment, using a set of primitive components, satisfying a set of requirements, subject to constraints; (verb, transitive) to create a design, in an environment (where the designer operates)</region>
+          <region class="DoCO:FigureBox" id="F1">
+            <image class="DoCO:Figure" src="62ir.page_006.image_01.png" thmb="62ir.page_006.image_01-thumb.png"/>
+            <caption class="deo:Caption" id="50" page="6" column="1">Fig. 1. Conceptual Model of Design (as a noun)</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="52" confidence="possible" page="6" column="1">Considering design as a process (depicted in <xref ref-type="fig" rid="F2" id="51" class="deo:Reference">Figure 2</xref>), the outcome is the specification of the design object. The goals, environment, primitives, requirements and constraints are, in principle, the inputs to the design process; however, often knowledge of these may emerge or change during the process. Nevertheless, the design process must begin with some notion of the object’s intended environment, the type of object to design and intentionality – by this we simply mean that design cannot be accidental. Finally, if the type of design object changes significantly (e.g. from a software system to a policy manual), the existing design effort is no longer meaningful and a new design effort begins. The possibility of changing information is related to the possibility that the design process involves exploration. It also implies that the design may evolve as more information is acquired.</region>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="53" page="7" column="1">Table 2. Definitions of Design Concepts</caption>
+            <content>
+              <table class="DoCO:Table" number="2" page="7">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Concept</th>
+                    <th class="table"> Meaning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design</td>
+                    <td class="table.strange"> A specification is a detailed description of an object in terms of its structure, e.g.,</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Specification</td>
+                    <td class="table"> primitives used and their connections.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design</td>
+                    <td class="table"> The design object is the entity (or class of entities) being designed. Note: this entity</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Object</td>
+                    <td class="table"> is not necessarily a physical object.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design Agent</td>
+                    <td class="table.strange"> The design agent is the entity or group of entities that specifies the structural</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> ties of the design object.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Environment</td>
+                    <td class="table.strange"> The object environment is the context or scenario in which the object is intended to</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> exist or operate (used for the noun form). The agent environment is the context or</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> scenario in which the design agent creates the design (used for the verb form).</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Goals</td>
+                    <td class="table.strange"> Goals describe the desired impacts of design object on its environment. Goals are</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> optative (i.e. indicating a wish) statements that may exist at varying levels of ab-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> straction [18].</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Primitives</td>
+                    <td class="table.strange"> Primitives are the set of elements from which the design object may be composed</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (usually defined in terms of types of components assumed to be available).</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Requirements</td>
+                    <td class="table.strange"> A requirement is a structural or behavioral property that a design object must pos-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> sess. A structural property is a quality the object must posses regardless of environ-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> mental conditions or stimuli. A behavioral requirement is a required response to a</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> given set of environmental conditions or stimuli. This response defines the changes</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> that might happen in the object or the impact of these changes on its environment.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Constraints</td>
+                    <td class="table.strange"> A constraint is a structural or behavioral restriction on the design object, where</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> “structural” and “behavioral” have the same meaning as for requirements.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="55" confidence="possible" page="7" column="1">Concept Meaning Design A specification is a detailed description of an object in terms of its structure, e.g., the Specification primitives used and their connections. Design The design object is the entity (or class of entities) being designed. Note: this entity Object is not necessarily a physical object. Design Agent The design agent is the entity or group of entities that specifies the structural properties of the design object. Environment The object environment is the context or scenario in which the object is intended to exist or operate (used for the noun form). The agent environment is the context or scenario in which the design agent creates the design (used for the verb form). Goals Goals describe the desired impacts of design object on its environment. Goals are optative (i.e. indicating a wish) statements that may exist at varying levels of abstraction [<xref ref-type="bibr" rid="R18" id="54" class="deo:Reference">18</xref>]. Primitives Primitives are the set of elements from which the design object may be composed (usually defined in terms of types of components assumed to be available). Requirements A requirement is a structural or behavioral property that a design object must possess. A structural property is a quality the object must posses regardless of environmental conditions or stimuli. A behavioral requirement is a required response to a given set of environmental conditions or stimuli. This response defines the changes that might happen in the object or the impact of these changes on its environment. Constraints A constraint is a structural or behavioral restriction on the design object, where “structural” and “behavioral” have the same meaning as for requirements.</region>
+          </region>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62ir.page_007.image_02.png" thmb="62ir.page_007.image_02-thumb.png"/>
+            <caption class="deo:Caption" id="57" page="7" column="1">Fig. 2. Context-level Conceptual Model of Design (as a Verb)</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="58" page="8" column="1">a</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="63" page="8" column="1">2.3 What Can Be Designed and Examples of Design Elements “What can be designed?” is a difficult ontological question, one we are not sure we can answer completely. However, we have identified six classes of design objects:  physical artifacts, both simple, such as boomerangs (single-component), and composite, such as houses (made of many types of components)  processes, such as business workflows  symbolic systems, such as programming languages  symbolic scripts, such as essays, graphic models, and software  laws, rules and policies, such as a criminal code  human activity systems, such as software design projects, committees and operas Clearly, the nature of a specification depends on the class of design object since the structure and components of, for example, a law would be very different from those of rocking chair. For simple artifacts, such as a one-piece racket, the specification would include structural properties such as shape, size, weight and material. For a composite physical artifact, such as a desk, the specification would include the primitive components and how they are connected. Since a process is ‘a set of partially ordered activities aimed at reaching a goal’ [<xref ref-type="bibr" rid="R19" id="59" class="deo:Reference">19</xref>], a specification of a process may identify the activities and their order (although other approaches are possible – e.g. using Petri Nets or states and events [<xref ref-type="bibr" rid="R20" id="60" class="deo:Reference">20</xref>], [<xref ref-type="bibr" rid="R21" id="61" class="deo:Reference">21</xref>]). For a symbolic system, the specification may include syntax, denotational se- mantics and (for a spoken language) pragmatics. A symbolic script can be specified by symbols and their arrangement. A policy or law can be specified in some (possibly formal) language. The specification of a human activity system might include agents, roles, tasks, artifacts, etc. and their relationships. Furthermore, all elements from the definition of design may vary across object types. <xref ref-type="table" rid="T3" id="62" class="deo:Reference">Table 3</xref> provides examples of each design element for each class of design object.</h2>
+          <outsider class="DoCO:TextBox" type="sidenote" id="64" page="8" column="1">a</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="65" page="8" column="1">a</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="66" page="8" column="1">2.4 Scope of Design According to the perspective on design expressed in this paper, design (as a verb) is the act of specifying the structural properties of an object, either in a plan or in the object itself. Because design is an activity, rather than a phase of some process, it may not have discernible endpoint. Rather, it begins when the design agent begins specifying the properties of the object, and stops when the agent stops. Design may begin again if an agent (perhaps a user) changes structural properties of the specification or design object at later time. This defines the scope of the design activity. Our definition does not specify the process by which design occurs. Thus, how one interprets this scope of activities in the design process depends on the situation. If a designer encounters a problem and immediately begins forming ideas about a design object to solve the problem, design has begun with problem identification. If requirements are gath- ered in reaction to the design activity, design includes requirements gathering. In contrast, if a designer is given a full set of requirements upfront, or gathers requirements before</h2>
+          <region class="DoCO:TableBox" id="T3">
+            <caption class="deo:Caption" id="67" page="9" column="1">Table 3. Examples of Design Elements</caption>
+          </region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="68" page="9" column="1">system Physical artifact Symbolic Script office building a software system</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="69" page="9" column="1">architect</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="70" page="9" column="1">programmer</outsider>
+          <region class="unknown" id="71" page="9" column="1">Object Type Process Symbolic system Law/policy Human activity Object loan approval a special purpose criminal code a university course programming language Agent loan officer team that creates the legal experts and instructor language lawmakers Goals accurately estimate provide a means of provide a legal facilitate risk level of loan expressing software framework for deal- development of instructions ing with crimes dents in a given Object bank administrative computing environ- national legal and university (with Environment system ment on which code constitutional sys- sources will execute tem Requirements provide a decision be easily readable, define crimes and learning with justification; gen- minimize coder ef- punishments clearly; erate audit trail for de- fort, fit certain ap- be unambiguous cision process plications Primitives various actions that the c programming English words as various common need to be taken, e.g., language instruc- used in legal docu- ing actions assessing the value of tions ments tions, laboratory a collateral sions, tests) Constraints bank approval rules cannot violate some must not violate the prior knowledge and risk policies (e.g. programming lan- country’s constitu- dents have, debt-service ratio al- guages related stan- tion and interna- class and lowed) dards tional laws hours available</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="72" page="9" column="1">learning and provide office support management stu- space for a busi- of customer informa- area ness tion all re- business district personal computers available) of a given city and specific operating systems objectives include open maintain customer in- floor plan of- formation, identify fices, be energy customers with certain efficient characteristics teach- building materi- the instructions in the (presenta- als, interior symbolic system (pro- ses- decoration mate- gramming language) rials stu- comply with must be able to run on number of building code, a given hardware con- laboratory cost less than a figuration with a given budget maximum given delay</outsider>
+          <region class="DoCO:TextChunk" id="77" page="10" column="1">conceptualizing a design object, requirements gathering is not part of design. Similarly, if the construction agent refines the specification (a possible occurrence in software development), construction is part of design, but if the designer creates a complete specification on paper that the construction agent follows deterministically, construction is not part of design. Any activity, including testing and maintenance, that involves modifying, or occurs within an effort to modify, the specification is part of design. Therefore, design practice may not map cleanly or reliably into the phases of a particular process, such as the waterfall model [<xref ref-type="bibr" rid="R22" id="73" class="deo:Reference">22</xref>] or software development life- cycle [<xref ref-type="bibr" rid="R14" id="74" class="deo:Reference">14</xref>]. This distinction has particular bearing for software design, where a significant debate over the scope of design exists. On the narrow-scope side, Bourque and Dupuis [<xref ref-type="bibr" rid="R14" id="75" class="deo:Reference">14</xref>], for example, define design as: the software engineering life cycle activity in which software requirements are analyzed in order to produce a description of the software’s internal structure that will serve as the basis for its construction, [p. 1-3]. On the broad-scope side, Freeman and Hart [<xref ref-type="bibr" rid="R1" id="76" class="deo:Reference">1</xref>], for example, argue that: Design encompasses all the activities involved in conceptualizing, framing, implementing, commissioning, and ultimately modifying complex systems— not just the activity following requirements specification and before programming, as it might be translated from a stylized software engineering process, [p. 20]. One way of interpreting this debate is as follows. Proponents of a narrow scope of the design process posit that all inputs to design (goals, environment, primitives, requirements and constraints) are fully defined before any property of the object has been decided. Furthermore, the design phase results in a full specification of all relevant object properties before coding begins. In contrast, proponents of a broad scope of design recognize that properties of the object are often defined during requirements elicitation, coding or even testing. Moreover, design may begin without complete knowledge of all information needed and the process may include obtaining additional information. Which side of this debate better reflects software design practice is an empirical question; the proposed definition of design is compatible with either.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="78" page="10" column="1">3 Evaluating the Proposed Definition of Design</h1>
+        <region class="DoCO:TextChunk" id="80" confidence="possible" page="10" column="1">In this section we evaluate our definition of design, based on the degree to which it:  Satisfies a set of four definition evaluation criteria (Appendix, <xref ref-type="table" rid="T8" id="79" class="deo:Reference">Table 8</xref>)  Incorporates areas of agreement in existing definitions (Tables 1 and 4)  Resolves disagreements in existing definitions (§2.1)  Appears usable and useful</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="81" page="10" column="1">3.1 Definition Evaluation Criteria</h2>
+          <region class="DoCO:TextChunk" id="86" page="10" column="1">Coverage. Whether a definition covers all phenomena in the domain to which it ap- plies, and nothing else, is an empirical question akin to a universal hypothesis. There- <marker type="page" number="11"/><marker type="block"/> fore, the definition can be disproven by a counter example, but never proven. Thus, we evaluated the definition against a diverse set of examples (e.g. <xref ref-type="table" rid="T3" id="83" class="deo:Reference">Table 3</xref>) and found that we could describe the examples using the proposed seven elements of design. Meaningfulness. A definition is meaningful when all its terms have clear meanings. We have explicitly defined all terms having imprecise everyday meanings in <xref ref-type="table" rid="T2" id="84" class="deo:Reference">Table 2</xref>. Unambiguousness. A definition is unambiguous when all its terms have unique meanings. All terms not explicitly defined are intended in the everyday sense, that is, as defined in the dictionary. Where terms have multiple definitions, the intention should be clear from the context. Ease of Use. The proposed definition is presented in natural language, and is seg- mented into clearly distinct elements, to ensure clarity for both practitioners and researchers. It is consistent with everyday notions of design and differentiates design from related terms such as invention, decision-making, and implementation. <xref ref-type="table" rid="T3" id="85" class="deo:Reference">Table 3</xref> provides examples of the elements of design to facilitate use of the definition.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="87" page="11" column="1">3.2 Areas of Agreement</h2>
+          <region class="DoCO:TextChunk" id="89" page="11" column="1">The relationship of each area of agreement to the proposed definition is analyzed in <xref ref-type="table" rid="T4" id="88" class="deo:Reference">Table 4</xref>. Aspects of design mentioned in the literature that we demonstrated should not be included are marked “discounted.” As can be seen in the table, all areas are explicitly or implicitly accommodated.</region>
+          <region class="DoCO:TableBox" id="T4">
+            <caption class="deo:Caption" id="90" page="11" column="1">Table 4. Incorporation of Areas of Agreement</caption>
+            <content>
+              <table class="DoCO:Table" number="4" page="11">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Concept</th>
+                    <th class="table"> Consistency with Proposed Definition</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as a process</td>
+                    <td class="table.strange"> implicit in the verb form of the proposed definition</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as creation</td>
+                    <td class="table"> explicit in the verb form of the proposed definition</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as planning</td>
+                    <td class="table"> encapsulated by the design ‘specification’ (however,</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> planning may be lightweight)</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> System (as the object of the design)</td>
+                    <td class="table"> included in the more abstract term, design object</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Design as being deliberate, or having</td>
+                    <td class="table"> explicitly included as goals</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> a purpose, goal or objective</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as an activity, or a collection</td>
+                    <td class="table.strange"> implicit in the verb form of the proposed definition</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> of activities</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as occurring in an environ-</td>
+                    <td class="table.strange"> explicitly included as environment</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> ment (or domain/situation/context)</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Artifact, as the object of the design</td>
+                    <td class="table.strange"> included in the more abstract term, design object</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Needs or requirements</td>
+                    <td class="table.strange"> explicitly included as requirements</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as organizing</td>
+                    <td class="table.strange"> discounted</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Parts, components or elements</td>
+                    <td class="table.strange"> explicitly included as primitives</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as a human phenomenon</td>
+                    <td class="table.strange"> discounted</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Constraints or limitations</td>
+                    <td class="table.strange"> explicitly included as constraints</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Process (as the object of design)</td>
+                    <td class="table.strange"> included in the more abstract term, design object and</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> listed as a class of design object</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Design as creative</td>
+                    <td class="table.strange"> discounted</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Optimizing</td>
+                    <td class="table.strange"> discounted</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Resources</td>
+                    <td class="table.strange"> implicit in primitives and the verb form (since</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> something always uses resources)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="91" confidence="possible" page="11" column="1">Concept Consistency with Proposed Definition Design as a process implicit in the verb form of the proposed definition Design as creation explicit in the verb form of the proposed definition Design as planning encapsulated by the design ‘specification’ (however, planning may be lightweight) System (as the object of the design) included in the more abstract term, design object Design as being deliberate, or having explicitly included as goals a purpose, goal or objective Design as an activity, or a collection implicit in the verb form of the proposed definition of activities Design as occurring in an environ- explicitly included as environment ment (or domain/situation/context) Artifact, as the object of the design included in the more abstract term, design object Needs or requirements explicitly included as requirements Design as organizing discounted Parts, components or elements explicitly included as primitives Design as a human phenomenon discounted Constraints or limitations explicitly included as constraints Process (as the object of design) included in the more abstract term, design object and listed as a class of design object Design as creative discounted Optimizing discounted Resources implicit in primitives and the verb form (since creating something always uses resources)</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="92" page="12" column="1">3.3 Areas of Disagreement</h2>
+          <region class="DoCO:TextChunk" id="93" page="12" column="1">The proposed definition addresses each of the four areas of disagreement among existing definitions (see §2.1). First, different objects of design arise: system, artifact and process. We addressed this by using the more general term, design object and suggesting major categories of such objects. Second, disagreement exists concerning the scope of design: where or when a design begins and ends (resolved in §2.4). Third, disagreement exists as to whether design is a physical or mental activity. Clearly, design (for humans) is a mental activity, albeit one that may be supported by physical activities (such as drawing diagrams or constructing physical models). The fourth disagreement, concerning what can be designed, was addressed in §2.3.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="94" page="12" column="1">3.4 Usefulness and Usability</h2>
+          <region class="DoCO:TextChunk" id="95" page="12" column="1">We suggest that the proposed definition of the design concept can inform practice in several ways. First, the elements of the definition (excluding agent) suggest a framework for evaluating designs: 1) specification – is it complete? 2) object – did we build the right thing? 3) goals – are they achieved? 4) environment – can the artifact exist and operate in the specified environment? 5) primitives – have we assumed any that are not available to the implementers? 6) requirements – are they met, i.e., does the object possess the required properties? 7) constraints – are they satisfied? Second, the breakdown of design into elements can provide a checklist for practitioners. Each element should be explicitly identified for a design task to be fully explicated. For example, a project team may not be able to provide consistent and accurate estimates of design project costs if crucial elements are unknown. Third, a clear understanding of design can prevent confusion between design and implementation activities. Such confusion may lead to poor decisions and evaluation practices. For example, a man- ager who needs to hire team members for a project may view programmers only as implementers (not understanding the design involved in programming) and thus hire employees with the wrong sorts of skills. Fourth, the elements of design can also be used to specify and index instances of design knowledge for reuse (discussed next).</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="96" page="12" column="1">4 A Conceptual Model for the Design Project</h1>
+        <region class="DoCO:TextChunk" id="97" page="12" column="1">We now propose a conceptual model (a set of concepts and their relationships) for design-related phenomena. 6 Here, we limit our discussion to design within the information systems field. Specifically, we view design as a human activity that occurs within a complex entity, which can be thought of as a human activity system. Alter defines a work system as “a system in which human participants and/or machines perform work using information, technology, and other resources to produce products and/or services for internal or external customers,” [23, p. 11]. Expanding on this concept, we</region>
+        <region class="DoCO:TextChunk" id="98" confidence="possible" page="12" column="1">6 We note that to define a conceptual model of a domain, one needs to define the concepts used to reason about the domain (and their relationships). Such a conceptual structure is an ontology. Hence, we view our proposal as a conceptual model and as an ontology of concepts.</region>
+        <region class="DoCO:TextChunk" id="105" page="13" column="1">suggest that a project is a temporal trajectory of a work system toward one or more goals; the project ceases to exist when the goals are met or abandoned. Following this, we define a design project as a project having the creation of a design as one of its goals. This relationship is shown in <xref ref-type="fig" rid="F3" id="99" class="deo:Reference">Figure 3</xref>.<marker type="block"/> The design project is the central concept of our conceptual model (depicted in <xref ref-type="fig" rid="F4" id="103" class="deo:Reference">Figure 4</xref>). Each concept is defined and each relationship is discussed in the following section (except the concepts from the definition of design, defined in <xref ref-type="table" rid="T2" id="104" class="deo:Reference">Table 2</xref>).</region>
+        <region class="DoCO:FigureBox" id="F3">
+          <image class="DoCO:Figure" src="62ir.page_013.image_03.png" thmb="62ir.page_013.image_03-thumb.png"/>
+          <caption class="deo:Caption" id="102" page="13" column="1">Fig. 3. Design Project Generalization Relationship. Shaded arrow indicates relationship; unshaded arrow indicates generalization.</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F4">
+          <image class="DoCO:Figure" src="62ir.page_013.image_04.png" thmb="62ir.page_013.image_04-thumb.png"/>
+          <caption class="deo:Caption" id="107" page="13" column="1">Fig. 4. Design Project Conceptual Model. Shaded arrows indicate reading direction, unshaded arrows indicate generalization, shaded diamonds indicate composition; all relationships many- to-many unless otherwise indicated.</caption>
+        </region>
+        <region class="DoCO:TextChunk" id="108" confidence="possible" page="13" column="1">Notes. 1) The relationships between the definition-of-design elements (e.g. constraints) and the other design project conceptual model elements (e.g. knowledge) are omitted to maintain readability. 2) The relationships between design approach and</region>
+        <region class="DoCO:TextChunk" id="110" page="14" column="1">elements other than design project are unclear at this time and left for future work. 3) All shown concepts are implicitly part of the work system within which the design project takes place. 4) Creates is shown in this diagram as a relationship between design team and design, whereas <xref ref-type="fig" rid="F1" id="109" class="deo:Reference">Fig. 1</xref> depicted creates as a relationship between agent and specification. In a design project, the design team is the agent. Furthermore, since the design project conceptual model includes the design concept, the model shows that the design team creates the design, which is a specification.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="111" page="14" column="1">4.1 Discussion of Concepts</h2>
+          <region class="DoCO:TextChunk" id="129" page="14" column="1">Alter identifies nine elements of a work system [ <xref ref-type="bibr" rid="R23" id="112" class="deo:Reference">23</xref>]:  Work practices  Participants  Information  Technologies  Products and services the work system produces  Customers for those products and services  Environment – surrounds the work system  Infrastructure shared with other work systems  Strategies used by the work system and the organization Since a project is a trajectory of a work system, and a design project is particular type of project a design project should both share all of the work system elements and have properties not necessarily shared by other projects and work systems. Here, we discuss each element of the conceptual model, the relationships among elements, and the correspondence between elements of the conceptual model and elements of a work system. The conceptual model includes all the work system elements and, in addition, several elements specific to design projects, which we point out. Activities. Activities include the specific behaviors engaged in by participants in the design project. These may include interviewing stakeholders, modeling requirements, evaluating proposed design, etc. Activities exist at differing levels of granularity; for instance, modeling can be further divided into sub-activities such as writing scenarios, drawing entity relationship diagrams and then comparing the data models with the scenarios. Participants and Stakeholders. Participants are the “people who perform the work,” [23, p. 13]. Since individual participants vary among projects, we use the generic la- bel, stakeholder. A stakeholder is a person or entity with an interest in the outcome of the project [<xref ref-type="bibr" rid="R24" id="113" class="deo:Reference">24</xref>]. Design projects may have different types of stakeholders – we specifically include the designer type for obvious reasons. Designer. A designer is an agent that uses his or her skills to directly contribute to the creation of a design. This concept is specific to design projects. Knowledge. Stakeholders may have and use knowledge during their involvement with the design project. In our interpretation, knowledge includes the kinds of information and knowhow used by stakeholders in a design project. To define knowledge, we extend the definition suggested by [<xref ref-type="bibr" rid="R25" id="114" class="deo:Reference">25</xref>]: given the states of the agent and the environment, knowledge is the information that enables an agent to select actions (from those available to the agent) so as to change the current state of affairs to a goal state.<marker type="page" number="15"/><marker type="block"/> The design project can create knowledge as it proceeds – a tenant of the design science research paradigm [<xref ref-type="bibr" rid="R3" id="116" class="deo:Reference">3</xref>]. Skill. A skill is a combination of mental and/or physical qualities that enable an agent to perform a specific action. Skills differ from knowledge as knowledge enables one to select actions. Technologies. Technologies are artificial, possibly intangible, tools and machines. Technologies can be used by the design team to create the design. Design. The design, defined above, is the product that the design project aims to produce. This concept is specific to design projects. Environment and Infrastructure. <xref ref-type="fig" rid="F4" id="117" class="deo:Reference">Fig. 4</xref> combines Alter’s environment and infra- structure constructs because both represent aspects of the project that are outside its scope [<xref ref-type="bibr" rid="R23" id="118" class="deo:Reference">23</xref>]. [<xref ref-type="bibr" rid="R26" id="119" class="deo:Reference">26</xref>] argues that, to properly model a system, the modeler must first model the system it serves. This wider system served by a design project is its environment. Alter argues: “the work system should be the smallest work system that has the problems or opportunities that are being analyzed,” [23, p. 22]. Following this, then, the environment is the smallest coherent system served by the design project. The environment construct is a potential source of confusion because Design Project and Design both have environments. The design project’s environment is the work system in which the project occurs; the design’s environment is the context in which in the object is to operate. Design Approach and Strategy. A design approach is a set of beliefs about how design (and related activities) should be done. Examples include The Unified Software Development Process [<xref ref-type="bibr" rid="R27" id="120" class="deo:Reference">27</xref>], and the Systems Development Lifecycle [<xref ref-type="bibr" rid="R14" id="121" class="deo:Reference">14</xref>], [<xref ref-type="bibr" rid="R28" id="122" class="deo:Reference">28</xref>], [<xref ref-type="bibr" rid="R29" id="123" class="deo:Reference">29</xref>]. “Strategies consist of the guiding rationale and high-level choices within which a work system, organization, or firm is designed and operates,” [23, p. 14]. As a design approach contains rationale and is implemented as choices, it corresponds to Alter’s strategy construct. A design project may explicitly instantiate a formal design approach by using some or all of its elements. If a broad scope of design is taken (§2.4), a design approach can refer to the entire development process from problem identification to implementation and maintenance. We have adopted the more general term design “approach” instead of “process” or “methodology” because “design processes” often contain much more than sequences of activities and “methodology” is used both as a formal word for ‘method’ and as the systematic study of methods. This concept is specific to design projects. Design Team. All designers involved in a project comprise the design team. The design team engages in activities and uses technologies to create the design and other (intermediate) artifacts. This concept is specific to design projects. Artifacts. In this model, artifact is used in the broad, anthropological sense of any object manufactured, used or modified by agents in the design project. Examples include conceptual models, software development environments, whiteboards, and e-mails. (This is not to be confused with an artifact that is the object of design.) Metric. A metric is a way or standard of taking a measurement, where measurement refers to a process of assigning symbols (often numbers) to an attribute of an object or entity and also the symbols assigned (cf. [<xref ref-type="bibr" rid="R30" id="124" class="deo:Reference">30</xref>], [<xref ref-type="bibr" rid="R31" id="125" class="deo:Reference">31</xref>], [<xref ref-type="bibr" rid="R32" id="126" class="deo:Reference">32</xref>]). In the case of a design project, metrics are used for evaluating specifications, objects, the project, etc. Design Worldview. A worldview or (more precisely) Weltanschauung is a way of looking onto the world. It is sometimes used in social sciences to indicate a set of high<marker type="page" number="16"/><marker type="block"/> level beliefs through which an individual or group experiences and interprets the world. As a precise definition of this concept is elusive, we suggest some possibilities for classifying worldviews in the design context (<xref ref-type="table" rid="T5" id="128" class="deo:Reference">Table 5</xref>). Worldviews are not mutu- ally exclusive, i.e., some design projects may explicitly adopt one or more design Weltanschauung. However, even without such an explicit view, every project partici- pant brings a view of design to the project, and the combination of these views comprises the project’s collective Weltanschauung. This concept is not necessarily common to all work systems.</region>
+          <region class="DoCO:TableBox" id="T5">
+            <caption class="deo:Caption" id="130" page="16" column="1">Table 5. Identified Design Weltanschauung</caption>
+            <content>
+              <table class="DoCO:Table" number="5" page="16">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Weltanschauung</th>
+                    <th class="table"> Description</th>
+                    <th class="table"> Proponents / Ex-</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> amples</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Problem Solving</td>
+                    <td class="table"> Design can be seen as an attempt to solve a known</td>
+                    <td class="table"> [2], [3], the de-</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> problem, a view characterized by the beliefs that a</td>
+                    <td class="table"> sign science and</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> problem exists and is identifiable and that the success</td>
+                    <td class="table"> engineering litera-</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> of a design is related to how well it solves the problem.</td>
+                    <td class="table"> ture.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Problem Finding</td>
+                    <td class="table.strange"> Design can be seen as an attempt to solve an unknown</td>
+                    <td class="table.strange"> [33], the require-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> problem, implying that understanding the problem is</td>
+                    <td class="table.strange"> ments engineering</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> part of the design process.</td>
+                    <td class="table.strange"> literature</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Epistemic</td>
+                    <td class="table.strange"> Design can be seen as a learning process where actions</td>
+                    <td class="table.strange"> [26]</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> that can lead to improvements to the current situation</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (in the eyes of stakeholders) are discovered.</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Inspiration</td>
+                    <td class="table.strange"> Design can be seen as a result of inspiration, i.e., in-</td>
+                    <td class="table.strange"> [34]</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> stead of beginning with a problem, design begins with</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> an inspiration of the form ‘wouldn’t it be great if....’</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Growing</td>
+                    <td class="table.strange"> Design can be seen as growing an object, progressively</td>
+                    <td class="table.strange"> [4], [35]</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> improving its fit with its environment and purpose.</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="138" confidence="possible" page="16" column="1">Weltanschauung Description Proponents / Examples Problem Solving Design can be seen as an attempt to solve a known [<xref ref-type="bibr" rid="R2" id="131" class="deo:Reference">2</xref>], [<xref ref-type="bibr" rid="R3" id="132" class="deo:Reference">3</xref>], the de- problem, a view characterized by the beliefs that a sign science and problem exists and is identifiable and that the success engineering litera- of a design is related to how well it solves the problem. ture. Problem Finding Design can be seen as an attempt to solve an unknown [<xref ref-type="bibr" rid="R33" id="133" class="deo:Reference">33</xref>], the require- problem, implying that understanding the problem is ments engineering part of the design process. literature Epistemic Design can be seen as a learning process where actions [<xref ref-type="bibr" rid="R26" id="134" class="deo:Reference">26</xref>] that can lead to improvements to the current situation (in the eyes of stakeholders) are discovered. Inspiration Design can be seen as a result of inspiration, i.e., in- [<xref ref-type="bibr" rid="R34" id="135" class="deo:Reference">34</xref>] stead of beginning with a problem, design begins with an inspiration of the form ‘wouldn’t it be great if....’ Growing Design can be seen as growing an object, progressively [<xref ref-type="bibr" rid="R4" id="136" class="deo:Reference">4</xref>], [<xref ref-type="bibr" rid="R35" id="137" class="deo:Reference">35</xref>] improving its fit with its environment and purpose.</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="139" page="16" column="1">4.2 Evaluation of the Conceptual Model of Design Projects</h2>
+          <region class="DoCO:TextChunk" id="143" page="16" column="1">To evaluate the set of concepts underlying the proposed conceptual model, we use evaluation techniques suggested for ontologies. Ontology evaluation can proceed in several ways. The competency questions approach involves simultaneously demonstrating usefulness and completeness by analytically proving that the ontology can answer each competency question in some question set [ <xref ref-type="bibr" rid="R36" id="140" class="deo:Reference">36</xref>]. The ontology is then considered complete with respect to that question set. In contrast, [<xref ref-type="bibr" rid="R37" id="141" class="deo:Reference">37</xref>] suggests two dimensions of ontology quality: coverage and usefulness. Coverage can be demonstrated by comparing an ontology to a reference corpus: terms in the corpus that do not fit into the ontology indicate lack of coverage. Furthermore, “An important way of evaluating the capabilities and practical usefulness of an ontology is considering what practical problems it was applied to,” [37, p. 72]. Since the proposed “ontology” is not intended to answer particular questions, evaluation with respect to coverage and usefulness seems preferable. Assessing the conceptual model’s coverage is beyond the scope of this paper; however, a possible approach is evident. By surveying a range of design approaches, e.g. The Rational Unified Process, Agile Methods, The Waterfall Model, The Spiral Model, etc., a list of design concepts can be generated and compared to the proposed conceptual model.<marker type="page" number="17"/><marker type="block"/> Coverage can be measured by the extent to which these revealed concepts match the proposed concepts (usually as instances of the generic concepts suggested above). We address usefulness in section (§5.2) by demonstrating how the conceptual model can be applied in principle to the practical problem of classifying and contrast- ing design approaches.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="144" page="17" column="1">5 Potential Applications</h1>
+        <region class="DoCO:TextChunk" id="152" page="17" column="1">In this section we discuss possible applications of the proposed definition of design and of the design project conceptual model. First, we suggest the use of the elements of the definition of design to classify and index design knowledge. Second, we discuss the use of the design project conceptual model for comparing and classifying approaches to software design. <marker type="block"/> The importance of reuse in software development has been widely recognized. [<xref ref-type="bibr" rid="R38" id="147" class="deo:Reference">38</xref>] states that software reuse “is the (only) realistic opportunity to bring about the gains in productivity and quality that the software industry needs.” [<xref ref-type="bibr" rid="R39" id="148" class="deo:Reference">39</xref>] suggests a number of reuse types in software engineering, divided into two broad categories: code reuse and knowledge reuse. Code reuse includes different approaches to organize actual code and incorporate it into software (e.g. libraries of modules, code fragments, or classes) and the use of off- the-shelf software. Code repositories can be considered design knowledge bases. Though some authors, e.g. [<xref ref-type="bibr" rid="R35" id="149" class="deo:Reference">35</xref>], argue that the best mechanism to communicate design is the code itself, sharing design is not the same as sharing design knowledge. Even well-commented code does not necessarily communicate design knowledge such as the rationale for structural decisions (e.g., why information was stored in a certain structure). Knowledge reuse refers to approaches to organizing and applying knowledge about software solutions, not to organizing the solutions themselves. It includes algorithms, design patterns and analysis patterns. 7 Perhaps the most successful attempt to codify software design knowledge is the design patterns approach. A design pattern is an abstract solution to a commonly occurring problem. The design pattern concept was originally proposed in the field of architecture and became popular in software engineering following the work by [<xref ref-type="bibr" rid="R40" id="150" class="deo:Reference">40</xref>] [<xref ref-type="bibr" rid="R41" id="151" class="deo:Reference">41</xref>]. 8 Despite the apparent benefits of sharing design knowledge, it has been observed that it is difficult to accomplish. “Experts and veterans continue to shun reuse from public knowledge spaces” and that when the needed artifact “was not found in their</region>
+        <region class="unknown" id="146" page="17" column="1">Application 1: Design Knowledge Management System</region>
+        <region class="DoCO:TextChunk" id="154" confidence="possible" page="17" column="1">7 Other approaches to organizing software development knowledge include architectural patterns, anti-patterns, best practices and development methods. Standards and templates (e.g. for documentation) can also be considered organized knowledge. 8 The Portland Pattern Repository (<ext-link ext-link-type="uri" href="http://c2.com/ppr/)" id="153">http://c2.com/ppr/)</ext-link> is an example of a design pattern reposi- tory that could be called a design knowledge base.</region>
+        <region class="DoCO:TextChunk" id="167" page="18" column="1">private space” “it was also less costly for them to recode the desired artifact than to conduct a global search for one,” [42, p. 98]. This indicates the difficulties of locating needed design knowledge (or other software artifacts). One way to facilitate searching is to classify and index design knowledge on meaningful dimensions. Next, we demonstrate by example how the proposed definition of design can provide such dimensions and thus help index instances of design knowledge. <marker type="block"/> An Example. In programming, an iterator object traverses a collection of elements, regardless of how the collection is implemented. Iterators are especially useful when the programmer wants to perform an operation on each element of a collection that has no index. The iterator design pattern is a description of how best to implement an iterator. <xref ref-type="table" rid="T6" id="156" class="deo:Reference">Table 6</xref> shows how the design knowledge represented by the iterator design pattern might be indexed using the elements of the proposed definition of design. Note that, in this application the goals, requirements, etc. are properties of the iterator, not of the design pattern. The goal of the design pattern, for instance, is to explain how to implement an iterator (and not how to traverse a collection).<marker type="block"/> By classifying design knowledge according to these dimensions, a designer can ask questions of the form ‘are there any design patterns (object) for traversing a collection (requirement) in an object-oriented language (environment)?’ We suggest that such classification can help organize and share design knowledge and thus help improve designers’ effectiveness and efficiency in locating and applying useful design knowledge.<marker type="block"/> Classifying design approaches is important for several reasons. First, practitioners need guidance in selecting appropriate design approaches for their situations. Second, such classification can facilitate comparative research on approaches. Third, it can guide the study of the methods employed by experienced developers (which, in turn, can inform research on software design and software processes). At least two types of classifications of design approaches are possible. First, a classification can be based on the actual elements (e.g. steps, interim products) that comprise a design approach or process. This can be termed a “white-box” approach. Second, a classification can be based on the environment that surrounds a design<marker type="page" number="19"/><marker type="block"/> approach. For example, specific objectives of the approach, the view of design it em- beds, and the roles of stakeholders. This can be termed a “black-box” approach. We suggest that the proposed design project conceptual model can be used to create a black-box classification scheme for design approaches. To demonstrate, using dimensions derived from the design project conceptual model, <xref ref-type="table" rid="T8" id="163" class="deo:Reference">Table 8</xref> classifies three design approaches: the Soft Systems Methodology [<xref ref-type="bibr" rid="R26" id="164" class="deo:Reference">26</xref>], Extreme Programming [<xref ref-type="bibr" rid="R36" id="165" class="deo:Reference">36</xref>] and the Rational Unified Process [<xref ref-type="bibr" rid="R16" id="166" class="deo:Reference">16</xref>]. We chose these three because each is promi- nent in the literature and represents a significantly different perspective.</region>
+        <region class="DoCO:TableBox" id="T6">
+          <caption class="deo:Caption" id="158" page="18" column="1">Table 6. Example of Design Knowledge Indexing</caption>
+          <content>
+            <table class="DoCO:Table" number="6" page="18">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Object Type</td>
+                  <td class="table"> symbolic script</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Object</td>
+                  <td class="table.strange"> iterator</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Agent</td>
+                  <td class="table"> application programmer</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Goals</td>
+                  <td class="table"> access the elements of a collection of objects</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Environment</td>
+                  <td class="table"> object-oriented programming languages</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Primitives</td>
+                  <td class="table.strange"> primitives and classes available in object-oriented languages</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Requirements</td>
+                  <td class="table.strange"> have a means of traversing a collection, be implementable respect to a</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> variety of collections, etc.</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Constraints</td>
+                  <td class="table.strange"> must not reveal how the objects in the collection are stored,</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="159" confidence="possible" page="18" column="1">Object Type symbolic script Object iterator Agent application programmer Goals access the elements of a collection of objects Environment object-oriented programming languages Primitives primitives and classes available in object-oriented programming languages Requirements have a means of traversing a collection, be implementable with respect to a variety of collections, etc. Constraints must not reveal how the objects in the collection are stored, etc.</region>
+        </region>
+        <region class="unknown" id="161" page="18" column="1">Application 2: Design Approach Classification Framework</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="168" page="19" column="1">6 Discussion and Implications for Software Design Research</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="169" page="19" column="1">6.1 Completeness, Design Agency and Software Architecture</h2>
+          <region class="DoCO:TextChunk" id="173" page="19" column="1">For years, researchers have argued that informal specifications may suffer from incompleteness [<xref ref-type="bibr" rid="R43" id="170" class="deo:Reference">43</xref>]. Above, we defined a specification as a detailed description of an object in terms of its structure. This allows a more precise characterization of incompleteness. We suggest that a design specification is complete when the structural information that has been specified is sufficient for generating (in principle) an artifact that meets the requirements. 9 Based on the notion of completeness we have defined above, we can now identify three forms of incompleteness. First, relevant components or connections may be missing. For example, the specification of a bicycle may be missing the qualification that the tires be attached to the rims. Second, a particular component or connection may be insufficiently described. For example, it may not be clear from the specifications how the tires should be attach to the rims or which tire to use. (Please note, here we are not distinguishing here between incompleteness and ambiguity.) Third, a component may not be part of the set of primitives but can be designed based on existing primitives or other components. The design will not be complete until specifications exist for all such components. Completeness is not an end state for a design specification. Future changes in the set of primitives may render a previously complete specification incomplete. Furthermore, many researchers now agree on the importance of “the fluidity, or contin- ued evolution, of design artifacts,” [44, p. 36]. In situations where future conditions are difficult or impossible to predict, one response is to focus on the evolvability and adaptability of the design object [<xref ref-type="bibr" rid="R2" id="171" class="deo:Reference">2</xref>], [<xref ref-type="bibr" rid="R45" id="172" class="deo:Reference">45</xref>]. The characterization of design advanced here provides important implications for design fluidity. First, specification completeness does not imply constancy. A design specification can be evolved to respond to changing conditions by its original creator, the design object’s users, or others,. Furthermore, the elements of the proposed definition enumerate classes of possible changing conditions in response to which the design object or specification may need</region>
+          <region class="DoCO:TextChunk" id="174" confidence="possible" page="19" column="1">9 Since it is impossible to list all of the properties of any object, we limit our discussion to “relevant” properties, i.e., a sufficient subset of properties to allow a “generating machine” (e.g. a human being or a manufacturing robot) to deterministically assemble the object.</region>
+          <outsider class="DoCO:TextBox" type="header" id="175" page="20" column="1">to evolve. For example, the specification may be modified in response to changes in the environment. Finally, the set of requirements may contain</outsider>
+          <region class="unknown" id="176" page="20" column="1">stipulations for a design object’s evolvability by end-users or others.</region>
+          <region class="DoCO:TableBox" id="T7">
+            <caption class="deo:Caption" id="177" page="20" column="1">Table 7. Example Classification of Design Approaches</caption>
+          </region>
+          <region class="unknown" id="178" page="20" column="1">Object Weltanschauung Metrics</region>
+          <outsider class="DoCO:TextBox" type="sidenote" id="179" page="20" column="1">Rational Unified Process (RUP) software problem solving defines metrics as part of the process; fundamental quality measure: ‘does the system do what it is sup- posed to?’ UML models (use cases and diagrams); source code</outsider>
+          <outsider class="DoCO:TextBox" type="sidenote" id="180" page="20" column="1">broadly: requirements gathering, analysis and design, implementation, testing, deployment, configuration and change management, project management (each with sub activities) stakeholder requests, vision, business case, risk list, deployment plan, analysis model, etc. RUP users take on one or more of six role categories: analysts, developers, managers, testers, production and support, and additional. “stakeholder” is a “generic role” that refers to “any- one affected by the outcome of the project” (p. 276) IBM Rational Suite</outsider>
+          <region class="DoCO:TextChunk" id="181" confidence="possible" page="20" column="1">Soft Systems Methodology (SSM) Extreme Programming human activity systems software epistemic growing situation dependent “measures of per- advocated, but none provided; formance;” the 5 E’s: efficacy, effi- differentiates internal and exter- ciency, effectiveness, ethicality, elegance nal quality Nature of Specifi- action items, i.e., some action that can be source code cation taken to improve the situation, in the eyes of the stakeholders Activities semi-structured interviews, analysis, coding, testing, listening, design- modeling, debate ing (refactoring) Artifacts interview guides and transcripts, collec- prototypes, test suites tions of notes, rich pictures Users owner, actor, customer programmers/developers, clients Stakeholders stakeholders is an explicit concept in divided into “business” and “de- SSM velopment” Tools rich pictures, interview guides, debates story cards, diagrams, an integra- and group discussions tion machine, several development workstations</region>
+          <outsider class="DoCO:TextBox" type="header" id="182" page="21" column="1">This raises questions of who exactly, in a typical software project, is the design agent? We have defined the design agent as the entity or group of entities</outsider>
+          <region class="unknown" id="186" page="21" column="1">that specifies the structural properties of the design object. When users are involved in design, whether a user is part of the design agent depends on the nature of his or her involvement. Simply providing information, such as requirements, does not make a user part of the design agent, nor does testing and giving feedback. To share in design agency, the user must make at least one structural decision regarding the design object. As a complete discussion of this issue would require incorporating the vast literature on authority and organizational power [<xref ref-type="bibr" rid="R46" id="183" class="deo:Reference">46</xref>], [<xref ref-type="bibr" rid="R47" id="184" class="deo:Reference">47</xref>]; here, we simply point out that official authority to make a structural decision does not necessarily coincide with the practical reality of who makes a decision. The key to identifying the design agent is in separating those individuals (or groups) who provide information about constraints, primitives and the other design elements, and those who decide on structural properties. Another theme currently gaining significant attention is software architecture [<xref ref-type="bibr" rid="R44" id="185" class="deo:Reference">44</xref>]. Software architecture is the level of design concerned with “specify- ing the overall system structure,” [48, p. 1]. This presents a possible difficulty: if a specification is a description of the components of a design object and their relationships, which components and relationships are parts of the software architecture? How does one distinguish high-level components and relationships from low-level ones? A design specification for a complex system might exist simultaneously at many levels of abstraction. Alternatively (and perhaps more likely) high-level components are defined in terms of lower- level components and these are defined in terms of even lower-level components, etc., until everything is defined in terms of primitive components. In this multilevel view of design, the software architecture concept is a threshold above which is architecture, and below which is ‘detailed design.’ Is this threshold arbitrary? At this time, we can only suggest these fundamental questions about software architecture as topics for future research.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="191" page="21" column="1">6.2 Implications for Research The proposed characterization of design also gives rise to several implications for design research. To date, much design research has been prescriptive, addressing practical recommendations and guidance for software development; yet, little theoretical, and even less empirical, treatment of software design exists [<xref ref-type="bibr" rid="R49" id="187" class="deo:Reference">49</xref>]. This has led to many calls for field research in this area (e.g. [<xref ref-type="bibr" rid="R1" id="188" class="deo:Reference">1</xref>], [<xref ref-type="bibr" rid="R50" id="189" class="deo:Reference">50</xref>], [<xref ref-type="bibr" rid="R49" id="190" class="deo:Reference">49</xref>]). Defining design as the process by which one specifies an object’s structural properties raises several important research topics: 1. How is software designed in practice? 2. To what extent is each element of the proposed definition (requirements, primitives, etc.) known when design begins? 3. Can a single theory explain all of the diverse behaviors involved in software design? 4. How do designers discover each kind of information?</h2>
+          <region class="DoCO:TextChunk" id="196" confidence="possible" page="21" column="1">The proposed characterization of design also gives rise to several implications for design research. To date, much design research has been prescriptive, addressing practical recommendations and guidance for software development; yet, little theoretical, and even less empirical, treatment of software design exists [<xref ref-type="bibr" rid="R49" id="192" class="deo:Reference">49</xref>]. This has led to many calls for field research in this area (e.g. [<xref ref-type="bibr" rid="R1" id="193" class="deo:Reference">1</xref>], [<xref ref-type="bibr" rid="R50" id="194" class="deo:Reference">50</xref>], [<xref ref-type="bibr" rid="R49" id="195" class="deo:Reference">49</xref>]). Defining design as the process by which one specifies an object’s structural properties raises several important research topics: 1. How is software designed in practice? 2. To what extent is each element of the proposed definition (requirements, primitives, etc.) known when design begins? 3. Can a single theory explain all of the diverse behaviors involved in software design? 4. How do designers discover each kind of information?</region>
+          <outsider class="DoCO:TextBox" type="header" id="197" page="22" column="1">Put another way, academic treatment of software design may involve developing and testing interdependent process and causal theories of design.</outsider>
+          <region class="unknown" id="198" page="22" column="1">Process theories can be used to explain how design occurs. 10 Causal theories deal with effects of some variables on others and can be used to suggest how to design better.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="201" page="22" column="1">6.3 Goals vs. Requirements in Information Systems Development The notion of goal is considered essential in requirements engineering as the concept that captures the motivation for developing a system (“why”) and the way to define objectives at various levels of abstraction [<xref ref-type="bibr" rid="R18" id="199" class="deo:Reference">18</xref>]. Our definition of design includes both goals and requirements. We now describe briefly how these two concepts relate within this context. We start by observing that in the information systems context, a design object is an artifact situated 11 in an environment termed the application domain and designed to support activities of the application domain. Typically, the application domain is an organizational setting such as a business or a part of a business. The application domain itself operates within an external environment. For example, a business is embedded within a business environment comprised of customers, suppliers, competitors, service providers, and regula- tory bodies. The application domain and the external environment interact: the environment generates stimuli that invoke actions in the domain. The actions of the domain can impact its environment. Similarly, the artifact is situated in the domain. The domain and the artifact interact: the domain creates external stimuli which invoke actions in the artifact. The actions of the artifact can impact the domain. Once the artifact is embedded a change occurs: the domain now includes the artifact. Now the modified domain (with the included artifact) interacts with the external environment. This view is depicted in <xref ref-type="fig" rid="F5" id="200" class="deo:Reference">Figure 5</xref>. Domain goals, or simply goals, are the intended impact of the actions in the domain on the external environment. 12 The purpose of the artifact is to enable the domain to accomplish these goals more effectively and efficiently. The artifact does this by responding to stimuli from the domain is ways that will support the domain in accomplishing the goals. Accordingly, requirements can be defined as the properties that the artifact should possess in order to accomplish its purpose. These requirements can be of two types: 1. Structural requirements are intended to assure that the object can match well with the other components of the domain or its external environment.</h2>
+          <region class="DoCO:TextChunk" id="204" confidence="possible" page="22" column="1">The notion of goal is considered essential in requirements engineering as the concept that captures the motivation for developing a system (“why”) and the way to define objectives at various levels of abstraction [<xref ref-type="bibr" rid="R18" id="202" class="deo:Reference">18</xref>]. Our definition of design includes both goals and requirements. We now describe briefly how these two concepts relate within this context. We start by observing that in the information systems context, a design object is an artifact situated 11 in an environment termed the application domain and designed to support activities of the application domain. Typically, the application domain is an organizational setting such as a business or a part of a business. The application domain itself operates within an external environment. For example, a business is embedded within a business environment comprised of customers, suppliers, competitors, service providers, and regula- tory bodies. The application domain and the external environment interact: the environment generates stimuli that invoke actions in the domain. The actions of the domain can impact its environment. Similarly, the artifact is situated in the domain. The domain and the artifact interact: the domain creates external stimuli which invoke actions in the artifact. The actions of the artifact can impact the domain. Once the artifact is embedded a change occurs: the domain now includes the artifact. Now the modified domain (with the included artifact) interacts with the external environment. This view is depicted in <xref ref-type="fig" rid="F5" id="203" class="deo:Reference">Figure 5</xref>. Domain goals, or simply goals, are the intended impact of the actions in the domain on the external environment. 12 The purpose of the artifact is to enable the domain to accomplish these goals more effectively and efficiently. The artifact does this by responding to stimuli from the domain is ways that will support the domain in accomplishing the goals. Accordingly, requirements can be defined as the properties that the artifact should possess in order to accomplish its purpose. These requirements can be of two types: 1. Structural requirements are intended to assure that the object can match well with the other components of the domain or its external environment.</region>
+          <region class="unknown" id="205" page="22" column="1">10 “A process theory [is] an explanation of how and why an organizational entity changes and develops,” [51, p. 512]. 11 The word situated should not be taken literally in the physical sense, but in the sense that the artifact acts interacts with other components in a domain. 12 For example, while it may appear that ‘profitability’ is related to the business rather than to its environment, profitability is the outcome of exchanges between a business and its environment, and the business should act such that these exchanges create the desired outcome.</region>
+          <region class="DoCO:FigureBox" id="F5">
+            <image class="DoCO:Figure" src="62ir.page_023.image_05.png" thmb="62ir.page_023.image_05-thumb.png"/>
+            <caption class="deo:Caption" id="207" page="23" column="1">Fig. 5. Separate Domains of Goals and Requirements</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="208" confidence="possible" page="23" column="1">2. Behavioral requirements define the desired responses of the artifact to stimuli from the domain (or from the environment) generated when the domain is working to accomplish its goals. These responses, in turn, affect the domain (and, directly, or indirectly, the environment). The requirements definition process can be viewed as identifying the properties (structural and behavioral) that the artifact should possess to support the domain in accomplishing the goals. Design can be viewed as the way to assemble available types of components in order to accomplish an artifact that meets the requirements.</region>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="209" page="23" column="1">7 Conclusion</h1>
+        <region class="DoCO:TextChunk" id="210" confidence="possible" page="23" column="1">The work we describe here is motivated by the observation that a clear, precise and generally accepted definition of the concept of design can provide benefits for research, practice and education. Our literature study indicated that such a definition was not available. Therefore, we synthesized a new definition, which views the design activity as a process, executed by an agent, for the purpose of generating a specification of an object based on: the environment in which the object will exist, the goals ascribed to the object, the desired structural and behavioral properties of the object (requirements), a given set of component types (primitives), and constraints that limit the acceptable solutions. As one possible application of our definition we demonstrate how it can be used to index design knowledge to support its reuse. As a second step, we situate the design concept in a network of related concepts appropriate to the information systems and software development domain by proposing a conceptual model of design projects. The intent of this conceptual model is to facilitate study of design projects by identifying and clarifying the main relevant concepts and relationships. We demonstrate the usefulness of this conceptual model by using it to compare several approaches to system and software design.</region>
+        <outsider class="DoCO:TextBox" type="header" id="211" page="24" column="1">Finally, we link our proposed definition of design to current themes in design research, in particular, the notion of requirements as used in system de-</outsider>
+        <region class="DoCO:TextChunk" id="212" confidence="possible" page="24" column="1">velopment. One purpose of this work is to facilitate theoretical and empirical research on design phenomena. We hope this paper will contribute to clarifying understanding and usage of design and related concepts and encourage scientific research on design. Another purpose is to create a set of concepts that can guide practice and education in the information systems and software design domain. This article includes examples of design from diverse areas including pre- historic hunters, artists, and architects. The reader may question whether such a broad perspective on design is useful for studying software development. Yet, it remains unknown whether software designers are more like engineers or artists, or are not much like either. This can only be answered by observing the behaviors of a wide range of those who are engaged in software design: elite and amateur, engineers and hackers, formally trained and self-taught. Having a well defined set of concepts to describe and reason about phenomena related to design and design projects can provide guidance for this empirical work. Acknowledgement. This work was done with partial support from the Natural Sciences and Engineering Research Council of Canada.</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="213" page="24" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="214" page="24" column="1">1. Freeman, P., and Hart, D.: A Science of Design for Software-Intensive Systems. Communications of the ACM 47, 8, 19–21 (2004)</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="215" page="24" column="1">2. Simon, H. A.: The Sciences of the Artificial, 3rd ed. MIT Press, Cambridge (1996)</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="216" page="24" column="1">3. Hevner, A. R., March, S. T., Park, J., and Ram, S.: Design Science in Information Systems Research. MIS Quarterly 28, 1, 75–105 (March 2004)</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="217" page="24" column="1">4. March, S. T., and Smith, G. F.: Design and Natural Science Research on Information Technology. Decision Support Systems 15, 4, 251–266 (1995)</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="218" page="24" column="1">5. Accreditation Board for Engineering and Technology, Inc.: Annual Report for the Year Ending September 30, 1988. New York, 1988</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="219" page="24" column="1">6. van Engers, T. M., Gerrits, R., Boekenoogen, M., Glassée, E., and Kordelaar, P.: Power: Using UML/OCL for Modeling Legislation - An Application Report. In: Proceedings of the 8th International Conference on Artificial Intelligence and Law, pp. 157–167. ACM Press (2001)</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="220" page="24" column="1">7. Bradel, B., and Stewart, K.: Exploring Processor Design using Genetic Programming. In: ECE1718 Special Topics in Computer Hardware Design: Modern and Emerging Architectures. University of Toronto, Ontario, Canada (April 2004)</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="221" page="24" column="1">8. Eekels, J.: On the Fundamentals of Engineering Design Science: The Geography of Engineering Design Science. Part 1. Journal of Engineering Design 11, 377--397 (2000)</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="222" page="24" column="1">9. Breuer, T., Ndoundou-Hockemba, M., and Fishlock, V.: First Observation of Tool Use in Wild Gorillas. PLoS Biol 3, 11 (2005)</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="223" page="24" column="1">10. Mulcahy, N., and Call, J.: Apes Save Tools for Future Use. Science 312, 5776, 1038–1040 (2006)</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="225" page="25" column="1">12. Alexander, C. W.: Notes on the Synthesis of Form. Harvard University Press (1964)</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="226" page="25" column="1">13. Gero, J. S.: Design Prototypes: A Knowledge Representation Schema for Design. AI Magazine 11, 4, 26–36 (1990)</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="227" page="25" column="1">14. Bourque, P., and Dupuis, R., Eds.: Guide to the Software Engineering Body of Knowledge (SWEBOK). IEEE Computer Society Press (2004)</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="228" page="25" column="1">15. Siddiqi, J., and Shekaran, M.: Requirements Engineering: The Emerging Wisdom. IEEE Software 15–19 (1996)</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="229" page="25" column="1">16. Kruchten, P.: The Rational Unified Process: An Introduction, 3rd ed. Addison- Wesley Professional (2003)</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="230" page="25" column="1">17. Pahl, G., and Beitz, W.: Engineering Design: A Systematic Approach. Springer- Verlag, London (1996)</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="231" page="25" column="1">18. Lamsweerde, A.V.: Goal-oriented Requirements Engineering: A Guided Tour. In: Fifth IEEE International Symposium on Requirements Engineering, pp. 249--262 (2001)</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="232" page="25" column="1">19. Hammer, M., and Champy, J.: Reengineering the Corporation: A Manifesto for Business Revolution. Business Horizons 36, 5, 90–91 (1993)</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="233" page="25" column="1">20. van der Alast, W. M. P.: Workflow Verification: Finding Control-flow Errors Using Petri-net-based Techniques. In: Business Process Management: Models, Techniques, and Empirical Studies (LNCS 1806), W. van der Aalst, J. Desel, and A. Oberweis, Eds., Springer-Verlag, pp. 161–183 (2000)</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="234" page="25" column="1">21. Soffer, P., and Wand, Y.: Goal-driven Analysis of Process Model Validity. Ad- vanced Information Systems Engineering, 521—535 (2004)</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="235" page="25" column="1">22. Royce, W. Managing the Development of Large Software Systems: Concepts and Techniques. In: Proceedings of Wescon (Aug 1970).</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="236" page="25" column="1">23. Alter, S.: The Work System Method: Connecting People, Processes, and IT for Business Results. Work System Press (2006)</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="237" page="25" column="1">24. Freeman, R.: Strategic Management: A Stakeholder Approach. Pitman, Boston (1984)</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="238" page="25" column="1">25. Bera, P. and Wand, Y.: Conceptual Models for Knowledge Management Systems. Working Paper, University of British Columbia (2007)</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="239" page="25" column="1">26. Checkland, P.: Systems Thinking, Systems Practice. John Wiley &amp; Sons, Chiches- ter (1999)</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="240" page="25" column="1">27. Jacobson, I., Booch, G., and Rumbaugh, J.: The Unified Software Development Process. Addison-Wesley Longman Publishing Co., Boston (1999)</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="241" page="25" column="1">28. Department of Justice.: The Department of Justice Systems Development Life Cy- cle Guidance Document</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="242" page="25" column="1">29. Manlei, M., and Teorey, T.: Incorporating Behavioral Techniques into the Systems Development Lifecycle. MIS Quarterly 13, 3, 257–274 (1989)</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="243" page="25" column="1">30. Fenton, N.: Software Measurement: A Necessary Scientific Basis. IEEE Trans. Softw. Eng. 20, 3, 199--206 (1994)</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="244" page="25" column="1">31. Finkelstein, L.: A Review of the Fundamental Concepts of Measurement. Measurement 2, I, 25--34 (1984)</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="245" page="25" column="1">32. Roberts, F.: Measurement Theory with Applications to Decision Making, Utility, and the Social Sciences. Addison Wesley, Reading (1979)</ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="246" page="25" column="1">33. Polya, G.: How to Solve It: A New Aspect of Mathematical Method, 2nd ed. Princeton University Press, Princeton (1957)</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="248" page="25" column="1">34. Kessler, A.: Wsj: Weekend Interview with Facebook’s Mark Zuckerberg, <ext-link ext-link-type="uri" href="http://www.andykessler.com/andy_kessler/2007/03/wsj_weekend_int.html" id="247">http://www.andykessler.com/andy_kessler/2007/03/wsj_weekend_int.html</ext-link></ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="250" page="26" column="1">36. Grüninger, M., and Fox, M.: Methodolgy for the Design and Evaluation of Ontolo- gies. In: Proceedings of the IJCAI Workshop on Basic Ontological Issues in Knowledge Sharing. AAAI Press, Menlo Park, CA (1995)</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="251" page="26" column="1">37. Noy, N., and Hafner, C.: The State of the Art in Ontology Design. AI Magazine, 53--74 (1997)</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="252" page="26" column="1">38. Mili, H., F., M., and A., M.: Reusing Software: Issues and Research Directions. IEEE Transactions on Software Engineering 21, 6, 528—562 (1995)</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="253" page="26" column="1">39. Ambler, S.: A Realistic Look at Object-oriented Reuse. Software Development 6, 1, 30—38 (1998)</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="254" page="26" column="1">40. Alexander, C., Ishikawa, S., Silverstein, M., Jacobson, M., Fiksdahl-King, I., and S., A.: A Pattern Language: Towns, Buildings, Construction. Oxford University Press (1977)</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="255" page="26" column="1">41. Gamma, E., Helm, R., Johnson, R., and Vlissides, J.: Design Patterns: Elements of Reusable Object-oriented Software. Addison-Wesley, Boston (1995)</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="256" page="26" column="1">42. Desouza, K. C., Awazu, Y., and Tiwana, A.: Four Dynamics for Bringing Use Back into Software Reuse. Commun. ACM 49, 1, 96—100 (2006)</ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="257" page="26" column="1">43. Reubenstein, H. and Waters, R.: The Requirements Apprentice: Automated Assis- tance for Requirements Acquisition. IEEE Trans. Softw. Eng., 17, 3, 226--240 (1991)</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="258" page="26" column="1">44. Hansen, S., Berente, N. and Lyytinen, K.: Requirements in the 21st Century: Cur- rent Practice and Emerging Trends. The Design Requirements Workshop, Cleve- land (2007)</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="259" page="26" column="1">45. Gregor, S. and Jones, D.: The Anatomy of a Design Theory. Journal of the Associa- tion for Information Systems, 8, 312 (2007)</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="260" page="26" column="1">46. Aghion, P. and Tirole, J.: Formal and Real Authority in Organizations. Journal of Political Economy, 105, 1 (1997)</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="261" page="26" column="1">47. Pfeffer, J.: Managing with Power. Politics and Influence in Organizations. Harvard Business School Press, Boston, MA, USA (1992)</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="262" page="26" column="1">48. Garlan, D. and Shaw, M.: An Introduction to Software Architecture. In: Advances in Software Engineering and Knowledge Engineering. V. Ambriola and G. Tortora, eds., World Scientific, pp. 1–39 (1993)</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="263" page="26" column="1">49. Wynekoop, J. and Russo, N.: Studying System Development Methodologies: An Examination of Research Methods. Information Systems Journal 7, 47-65 (January 1997)</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="264" page="26" column="1">50. Sullivan, K.: Preliminary report: NSF Workshop on the Science of Design: Software and Software-Intensive Systems. Technical Report, University of Virginia Department of Computer Science, Airlie Center (November 2003).</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="265" page="26" column="1">51. Van de Ven, A. and Poole, M.: Explaining Development and Change in Organizations. The Academy of Management Review 20, 510--540 (July 1995)</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="266" page="26" column="1">52. Casti, J.: Paradigms Lost. Avion Books, New York (1989)</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="267" page="26" column="1">53. Hinrichs, T. R.: Problem-solving in Open Worlds: A Case Study in Design. PhD thesis, Atlanta (1992)</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="268" page="26" column="1">54. Archer, B.: Design as a Discipline. Design Studies 1, 1, 17--20 (1979) 55. Blumrich, J. F.: Design. Science 168, 3939, 1151 (1970)</ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="269" page="26" column="1">56. Buchanan, R.: Personal Communication (2006)</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="270" page="26" column="1">57. Complin, C.: The Evolutionary Engine and the Mind Machine: A Design-based Study of Adaptive Change. PhD thesis, School of Computer Science, The University of Birmingham (1997)</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="271" page="26" column="1">58. Eckroth, J., Aytche, R., and Amoussou, G.-A.: Toward a Science of Design for Software-intensive Systems. In: Proceedings of the Second International Confer-</ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="273" page="27" column="1">59. FitzGerald, J., and FitzGerald, A.: Fundamentals of Systems Analysis, 3rd ed. Wiley (1987)</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="274" page="27" column="1">60. Trunick, P.: ERP: Promise or Pipe Dream? Transportation Distribution 40, 1 (1999)</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="275" page="27" column="1">61. Harris, D.: Systems Analysis and Design: A Project Approach. Dryden Press, TX (1995)</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="276" page="27" column="1">62. Hirschheim, R., Klein, H. K., and Lyytinen, K.: Information Systems Development and Data Modeling: Conceptual and Philosophical Foundations. Cambridge University Press, New York (1995)</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="277" page="27" column="1">63. Jobs, S.: Apple’s One-Dollar-a-Year Man. Fortune (2000)</ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="278" page="27" column="1">64. Love, T.: Constructing a Coherent Cross-disciplinary Body of Theory about Designing and Designs: Some Philosophical Issues. Design Studies 23, 3, 345–361 (2002)</ref>
+          <ref rid="R65" class="deo:BibliographicReference" id="279" page="27" column="1">65. Martin, J.: Rapid Application Development. Macmillan Publishing Co., Inc., Indi- anapolis, IN, USA (1991)</ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="281" page="27" column="1">66. Merriam-Webster, <ext-link ext-link-type="uri" href="http://www.m-wr.com/dictionary/design" id="280">http://www.m-wr.com/dictionary/design</ext-link></ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="282" page="27" column="1">67. Miller, W.: The Definition of Design. Method Journal (2005)</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="283" page="27" column="1">68. Nunamaker, J. F., Chen, M., and Purdin, T. D. M.: Systems Development in Information Systems Research. Journal of Management Information Systems 7, 3, 89— 106 (1991)</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="284" page="27" column="1">69. Papanek, V.: Design for Human Scale. Van Nostrand Reinhold Company, New York (1983)</ref>
+          <ref rid="R70" class="deo:BibliographicReference" id="285" page="27" column="1">70. The Partners of Pentagram.: Living by Design. Lund Humphries, London (1978)</ref>
+          <ref rid="R71" class="deo:BibliographicReference" id="286" page="27" column="1">71. Pye, D.: The Nature of Design. Studio Vista, London (1964)</ref>
+          <ref rid="R72" class="deo:BibliographicReference" id="287" page="27" column="1">72. Richardson, J.: Basic Design. Prentice-Hall, New Jersey (1984)</ref>
+          <ref rid="R73" class="deo:BibliographicReference" id="288" page="27" column="1">73. Schurch, T. W.: Reconsidering Urban Design: Thoughts About Its Definition and Status as a Field or Profession. Journal of Urban Design 4, 1, 5--28 (1999)</ref>
+          <ref rid="R74" class="deo:BibliographicReference" id="289" page="27" column="1">74. Barnett, J.: An Introduction to Urban Design. Harper and Row Publishers Inc., New York (1982)</ref>
+          <ref rid="R75" class="deo:BibliographicReference" id="290" page="27" column="1">75. Stumpf, R., and Teague, L.: Object-oriented Systems Analysis and Design with UML. Pearson Prentice Hall, New Jersey (2005)</ref>
+          <ref rid="R76" class="deo:BibliographicReference" id="292" page="27" column="1">76. Urban Design Group.: Urban Design as a Career, <ext-link ext-link-type="uri" href="http://www.udg.org.uk/?document_id=468" id="291">http://www.udg.org.uk/?document_id=468</ext-link> 2003</ref>
+          <ref rid="R77" class="deo:BibliographicReference" id="293" page="27" column="1">77. Walls, J. G., Widmeyer, G. R., and El Sawy, O. A.: Building an Information System Design Theory for Vigilant EIS. Information Systems Research 3, 1, 36--59 (1992)</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="header" id="224" page="25" column="1">11. Churchman, C. W.: The Design of Inquiring Systems: Basic Concepts of Systems and Organization. Basic Books, New York (1971)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="249" page="26" column="1">35. Beck, K.: Extreme Programming Explained : Embrace Change. Addison-Wesley, Reading, MA (2000)</outsider>
+        <outsider class="DoCO:TextBox" type="header" id="272" page="27" column="1">ence on Design Science Research in Information Systems and Technology, S. Chatterjee and M. Rossi, Eds, Pasadena`(2007)</outsider>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="294" page="27" column="1">Appendix: Analysis of Existing Definitions of Design</h1>
+        <region class="DoCO:TextChunk" id="295" confidence="possible" page="27" column="1">We have identified at least 33 definitions of design and sub-types of design (such as “software design” and “urban design”) in the literature. Though design has several meanings, we have focused on the meaning involving plans for an object and planning or devising as a process. We employed judgment sampling and snowball sampling, i.e., we made educated guesses as to where to look, and then investigated promising references. This strategy was consistent with our goal of identifying as many relevant definitions as possible.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="296" page="28" column="1">unambiguousness and ease of use (see Ta- for example, by Casti [52, p. 44-45]. The absence of a guiding theory for evaluating</outsider>
+        <region class="unknown" id="297" page="28" column="1">To evaluate the definitions we applied a set of four main criteria: coverage, meaningfulness, ble 8). The first three are derived from the evaluation criteria for good theories mentioned, fourth is a pragmatic criterion. We do not claim that these are the best criteria, but, in the definitions, that they are reasonable and have face validity.</region>
+        <region class="DoCO:TableBox" id="T8">
+          <caption class="deo:Caption" id="298" page="28" column="1">Table 8. General Definition Evaluation Criteria</caption>
+          <content>
+            <table class="DoCO:Table" number="8" page="28">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"></th>
+                  <th class="table"> Criterion</th>
+                  <th class="table"> Definition</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Proper coverage means including all appropriate phenomena (com-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Coverage</td>
+                  <td class="table"> pleteness), proper coverage, and only it excludes appropriate at least phenomena. one phenomenon If a definition that it has should im- include or includes at least one phenomenon it should not. Each term comprising a definition must have a commonly accepted</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Necessary</td>
+                  <td class="table"> Meaningfulness</td>
+                  <td class="table"> meaning combination in the of given terms context must be or directly must have understandable been pre-defined. from the Each meaning of terms, or have been predefined. Each term comprising a definition must have exactly one meaning in</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"></td>
+                  <td class="table"> Unambiguousness</td>
+                  <td class="table"> the given context; furthermore, the definition as a whole must have only one valid interpretation. Ideally, a definition should be easy to understand and remember, ap- plicable in disparate situations, and readily differentiate between in-</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Optional</td>
+                  <td class="table"> Ease of Use</td>
+                  <td class="table"> cluded creteness and are excluded all aspects phenomena. of Ease of Simplicity, Use. These parsimony aspects are and at least con- in part subjective and depend on who uses the definition.</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="299" confidence="possible" page="28" column="1">Criterion Definition Proper coverage means including all appropriate phenomena (completeness), and only appropriate phenomena. If a definition has im- Coverage proper coverage, it excludes at least one phenomenon that it should include or includes at least one phenomenon it should not. Necessary Meaningfulness meaning combination Each term in comprising the of given terms context must a definition be or directly must must have understandable have been a commonly pre-defined. from accepted the Each meaning of terms, or have been predefined. Each term comprising a definition must have exactly one meaning in Unambiguousness the given context; furthermore, the definition as a whole must have only one valid interpretation. Ideally, a definition should be easy to understand and remember, ap- plicable in disparate situations, and readily differentiate between in- Optional Ease of Use cluded creteness and are excluded all aspects phenomena. of Ease of Simplicity, Use. These parsimony aspects are and at least con- in part subjective and depend on who uses the definition.</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="300" page="28" column="1">Example of Error Defining “human communication” to include only speech, will not address non-verbal communica- tion (e.g. body language). Defining a zombie as ‘the living dead’ is inappropriate because, even though ‘living’ and ‘dead’ have commonly accepted meanings, their juxta- position forms an oxymoron. Defining political oratory as ‘oral rhetoric related to politics’ is inappropriate because ‘rhetoric’ is a contronym, i.e., has two contradictory meanings. Defining the Natural Numbers as ‘the smallest set satisfying the two properties: A) 1 is in N; and B) if n is in N, then n + 1 is in N” while clearly correct, would score poorly on Ease of Use in a low-level mathematics class.</outsider>
+        <region class="unknown" id="302" page="28" column="1">To give the reader a sense of the thought process behind the analysis, we discuss two countered. The first example is by Engers et al. who define design as “the creative that optimizes technological constraints [<xref ref-type="bibr" rid="R6" id="301" class="deo:Reference">6</xref>], given a specification.” This definition has</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="303" page="28" column="1">representative examples of the definitions en- process of coming up with a well-structured model both meaningfulness and coverage problems.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="304" page="29" column="1">techniques, one optimizes the characteristics of “well-structured” paints an idealistic portrait of de- example, an inexperienced computer science student “well-structured”, but is nonetheless designed. Thus, this who defines design as “the task of generating problems. “My chair is grey” is a description definition relates to previously designed artifacts.</outsider>
+        <region class="unknown" id="306" page="29" column="1">First, the meaning of ‘optimizes technological constraints’ is unclear. In optimization an object subject to constraints, not the constraints themselves. Second, the use of sign. This confounds the notion of design with measures for design quality. For can design a personal organizer application. The application might not be definition omits activities that are clearly design. The second example is that of Hinrichs descriptions of artifacts or processes in some domain,” [53, p. 3]. This also has coverage of an artifact in a domain, but is clearly not a design. The problem here is that the Thus, this definition includes phenomena that are not design. The complete analysis of existing definitions is presented in <xref ref-type="table" rid="T9" id="305" class="deo:Reference">Table 9</xref>. Of the 33 have coverage problems, at least 12 have meaningfulness problems and at least three have</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="307" page="29" column="1">definitions identified, we have found that all seem to some form of ambiguity.</outsider>
+        <region class="DoCO:TableBox" id="T9">
+          <caption class="deo:Caption" id="308" page="29" column="1">Table 9. Analysis of Existing Definitions</caption>
+          <content>
+            <table class="DoCO:Table" number="9" page="29">
+              <thead class="table">
+                <tr class="table">
+                  <th class="table"> Source</th>
+                  <th class="table"> Criticism</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> Accreditation Board</td>
+                  <td class="table"> Coverage – the</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> for Engineering and</td>
+                  <td class="table"> its use of</td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Technology [5]</td>
+                  <td class="table"> optimal, but it was</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"></td>
+                  <td class="table.strange"> Meaningfulness –</td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="310" confidence="possible" page="29" column="1">Source Accreditation Board for Engineering and Technology [<xref ref-type="bibr" rid="R5" id="309" class="deo:Reference">5</xref>]</region>
+          <region class="TableInfo" id="311" confidence="possible" page="29" column="1">Criticism Coverage – the its use of optimal, but it was Meaningfulness –</region>
+        </region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="312" page="29" column="1">definition is idealistic and unnecessarily limiting in “optimally.” E.g., the building in which I work is far from still designed. it is not clear what “desired needs” are.</outsider>
+        <region class="unknown" id="314" page="29" column="1">Alexander [<xref ref-type="bibr" rid="R12" id="313" class="deo:Reference">12</xref>]</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="315" page="29" column="1">excludes the design of intangible things,</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="316" page="29" column="1">– it is not clear whether thing must display new organization AND form, or new physical order, or-</outsider>
+        <region class="unknown" id="318" page="29" column="1">Archer [<xref ref-type="bibr" rid="R54" id="317" class="deo:Reference">54</xref>]</region>
+        <region class="unknown" id="319" page="29" column="1">Definition “Engineering design is the process of devising a system, component, or process to meet desired needs. It is a decision making process (often iterative), in which the basic sciences, mathematics, and engineering sciences are applied to convert resources optimally to meet a stated objective.” “The process of inventing physical things which dis- Coverage – this definition play new physical order, organization, form, in re- such as processes. sponse to function.” Unambiguousness physical order, ganization OR form. “Design is, in its most general educational sense, de- Coverage – fined as the area of human experience, skill and un- ence...” One can derstanding that reflects man’s concern with the ap- derstanding. E.g., preciation and adaptation in his surroundings in the graphical user</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="320" page="29" column="1">design is an activity, not an “area of human experi- design with little or no experience, skill and un- the application programmer who designs a interface without experience in, skill in or under-</outsider>
+        <region class="unknown" id="321" page="30" column="1">Source Definition</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="322" page="30" column="1">principles of interface design. excludes forms of design that organize things other than planning organizes space. Unnecessarily limits design to solutions not previously independent invention and finding new ways to problems. E.g., by this definition, new cars are not de- we already have cars. within the software domain, this definition is far someone simply writes software without creating description of its structure, this is still design. De- furthermore, not limited to the phase of the software engi- between requirements analysis and construction; it that these phases can be practically distinguished</outsider>
+        <region class="unknown" id="323" page="30" column="1">Criticism standing of the Coverage – logic, e.g., urban Coverage – solved. Excludes solve old signed because Coverage – even too restrictive. If an intermediate sign is, neering life cycle is in no way clear in all situations.</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="324" page="30" column="1">Design is not an ability (“power”) but an activity. E.g., blueprints for a house, by this definition, is not design. – it is not clear what “products” are – does this and strategies as well as consumer goods? Excludes design of simple things, such as boomerangs. it is not clear what “functional architecture” en-</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="325" page="30" column="1">excludes all suboptimal artifacts. the meanings of “specification” and model are</outsider>
+        <region class="unknown" id="326" page="30" column="1">Coverage – drawing Unambiguousness include processes Coverage – Meaningfulness – tails Coverage – Meaningfulness – unclear. Coverage – artifacts and design</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="327" page="30" column="1">excludes independently invention of previously created starting from a hypothetical situations</outsider>
+        <region class="DoCO:TextChunk" id="335" confidence="possible" page="30" column="1">light of his material and spiritual needs.” Beck [<xref ref-type="bibr" rid="R35" id="328" class="deo:Reference">35</xref>] “Designing is creating a structure that organizes the logic in the system” Blumrich [<xref ref-type="bibr" rid="R55" id="329" class="deo:Reference">55</xref>] “Design establishes and defines solutions to and perti- nent structures for problems not solved before, or new solutions to problems which have previously been solved in a different way.” Bourque &amp; Dupuis “Design is defined in [IEEE610.12-90] as both “the [<xref ref-type="bibr" rid="R14" id="330" class="deo:Reference">14</xref>] process of defining the architecture, components, interfaces, and other characteristics of a system or com- ponent” and “the result of [that] process.” Viewed as a process, software design is the software engineering life cycle activity in which software requirements are analyzed in order to produce a description of the software’s internal structure that will serve as the basis for its construction.” Buchanan [<xref ref-type="bibr" rid="R56" id="331" class="deo:Reference">56</xref>] “Design is the human power to conceive, plan and re- alize all of the products that serve human beings in the accomplishment of their individual or collective pur- poses.” Complin [<xref ref-type="bibr" rid="R57" id="332" class="deo:Reference">57</xref>] “‘design’ is used to refer to the abstract description of the functional architecture of both real or possible sys- tems.” Engers et al. [<xref ref-type="bibr" rid="R6" id="333" class="deo:Reference">6</xref>] “the creative process of coming up with a well– structured model that optimizes technological constraints, given a specification.” Eckroth et al. [<xref ref-type="bibr" rid="R58" id="334" class="deo:Reference">58</xref>] “Design (as a verb) is a human activity resulting in a unique design (specification, description) of artifacts. Therefore, what can be designed varies greatly. How-</region>
+        <region class="unknown" id="336" page="31" column="1">Source Definition Criticism</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="338" page="31" column="1">excludes artifacts that satisfy only some of their ob- Enterprise-Resource Planning software does not al- stated objectives [<xref ref-type="bibr" rid="R60" id="337" class="deo:Reference">60</xref>], but surely it as still designed. systems and non-systems can also be designed,</outsider>
+        <region class="unknown" id="339" page="31" column="1">Coverage – this jectives. E.g., ways satisfy its Coverage – simple e.g. an oar, a boomerang. Meaningfulness – furthermore, necessarily</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="340" page="31" column="1">the activities are not defined or clearly explained; enumerating the tasks encompassed by design does not capture the meaning of design.</outsider>
+        <region class="DoCO:TextChunk" id="345" confidence="possible" page="31" column="1">ever, common to all design is intention: all designs have a goal, and the goal is typically meeting needs, improving situations, or creating something new. Thus, design is the process of changing an existing environment into a desired environment by way of specifying the properties of artifacts that will constitute the desired environment; in other words, creating, modifying, or specifying how to create or alter artifacts to meet needs. In addition, it is best communi- cated in terms of a particular context, as previous knowledge, experience, and expectations play a strong role in designing and understanding designs.” FitzGerald and Fitz- “design means to map out, to plan, or to arrange the Gerald [<xref ref-type="bibr" rid="R59" id="341" class="deo:Reference">59</xref>] parts into a whole which satisfies the objectives in- volved.” Freeman and Hart “design encompasses all the activities involved in [<xref ref-type="bibr" rid="R1" id="342" class="deo:Reference">1</xref>] conceptualizing, framing, implementing, commissioning, and ultimately modifying complex systems—not just the activity following requirements specification and before programming, as it might be translated from a stylized software engineering process.” Gero [<xref ref-type="bibr" rid="R13" id="343" class="deo:Reference">13</xref>] “a goal-oriented, constrained, decision-making, explo- Coverage – The ration and learning activity which operates within a making activity; context which depends on the designer's perception of fluidly without the context.” sions are such as public sign, not to a new or Harris [<xref ref-type="bibr" rid="R61" id="344" class="deo:Reference">61</xref>] “A collection of activities designed to help the analyst Coverage –</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="346" page="31" column="1">problem here is subtle. Not all design is a decision some designers, such as sculptors, may proceed discrete decisions. It could be argued that their deci- implicit, but then this definition would include activities speaking. Decision-making is a perspective on de- inherent to it. Furthermore, the idea of designing as leading changed artifact is missing. excludes design for non problems outside information</outsider>
+        <region class="unknown" id="347" page="32" column="1">Criticism system. Meaningfulness – Coverage – sign, e.g., Meaningfulness – sources organized sources that are Unambiguousness tion of resources, Coverage – brown.” Coverage – a complete Meaningfulness – ception,</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="348" page="32" column="1">use of “designed” is circular includes organization tasks that do not constitute de- alphabetizing books. resources is undefined; e.g., what are the re- to create a military strategy? What are the re- being organized in graphics design? – usage of “organization;” is it physical organiza- or mental? includes descriptions that are not, e.g., “the chair is excludes design of non-systems and designs that end in specification (e.g., of a bridge) rather than a system. this definition hinges on undefined terms “con- generation and formation”</outsider>
+        <region class="unknown" id="349" page="32" column="1">Coverage – designs that are Meaningfulness – Coverage – 1) the is unnecessarily design and Design is not Meaningfulness -</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="352" page="32" column="1">excludes designs not involving a product or service and not “man-made” the meaning of “fundamental soul” is unclear strict time sequencing implied by this definition limiting; e.g., in software engineering simultaneous creation is arguably the preferred approach [<xref ref-type="bibr" rid="R65" id="350" class="deo:Reference">65</xref>] [<xref ref-type="bibr" rid="R35" id="351" class="deo:Reference">35</xref>], 2) strictly a human activity “Artefact” is undefined, so the scope is unknown.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="353" page="32" column="1">include drawing a diagram of a tree (not de- collaboratively writing a new search algorithm (de-</outsider>
+        <region class="DoCO:TextChunk" id="360" confidence="possible" page="32" column="1">Source Definition prepare alternative solutions to information systems problems.” Hevner et al. [<xref ref-type="bibr" rid="R3" id="354" class="deo:Reference">3</xref>] “design is the purposeful organization of resources to accomplish a goal.” Hinrichs [<xref ref-type="bibr" rid="R53" id="355" class="deo:Reference">53</xref>] “the task of generating descriptions of artifacts or processes in some domain” Hirschheim [<xref ref-type="bibr" rid="R62" id="356" class="deo:Reference">62</xref>] “systems analysis is the process of collecting, organizing, and analyzing facts about a particular [information system] and the environment in which it operates. Systems design then is the conception, generation and formation of a new system, using the analysis results.” Jobs [<xref ref-type="bibr" rid="R63" id="357" class="deo:Reference">63</xref>] “Design is the fundamental soul of a man-made creation that ends up expressing itself in successive outer layers of the product or service.” Love [<xref ref-type="bibr" rid="R64" id="358" class="deo:Reference">64</xref>] “‘Design’— a noun referring to a specification or plan for making a particular artefact or for undertaking a particular activity. A distinction is drawn here between a design and an artifact — a design is the basis for, and precursor to, the making of an artefact.” “‘Designing’—human activity leading to the production of a design.” Merriam-Webster (verb) “transitive senses 1 : to create, fashion, execute, [<xref ref-type="bibr" rid="R66" id="359" class="deo:Reference">66</xref>] [verb] or construct according to plan : DEVISE, CONTRIVE 2 a : to conceive and plan out in the mind &lt;he de-</region>
+        <region class="unknown" id="361" page="32" column="1">Coverage – t would sign), but not sign).</region>
+        <region class="unknown" id="362" page="33" column="1">Source Definition</region>
+        <region class="unknown" id="363" page="33" column="1">Criticism Meaningfulness –</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="364" page="33" column="1">circular reference to ‘design’</outsider>
+        <region class="unknown" id="365" page="33" column="1">Coverage tion of the does not separate Meaningfulness –</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="366" page="33" column="1">Overall, this definition does not provide a unifying no- minimum requirements to call something a design, and designing from planning. circular reference to ‘designs’</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="367" page="33" column="1">design can encompass more than just a thought process; diagrams. Thought processes cannot create physical person has a breakthrough idea and implements a artifact, without considering any alternatives, this design. Depending on how one defines “scientific many designers throughout history would be excluded Would include all ordering activities, such as alphabet-</outsider>
+        <region class="DoCO:TextChunk" id="372" confidence="possible" page="33" column="1">signed the perfect crime&gt; 4 a : to make a drawing, pattern, or sketch of b : to draw the plans for” Merriam-Webster “1 a : a particular purpose held in view by an individ- [<xref ref-type="bibr" rid="R66" id="368" class="deo:Reference">66</xref>] ual or group &lt;he has ambitious designs for his son&gt; b [noun] : deliberate purposive planning &lt;more by accident than design&gt; 2 : a mental project or scheme in which means to an end are laid down 4 : a preliminary sketch or outline showing the main features of something to be executed : DELINEATION 5 a : an underlying scheme that governs functioning, developing, or un- folding : PATTERN, MOTIF &lt;the general design of the epic&gt; b : a plan or protocol for carrying out or accomplishing something (as a scientific experiment); also : the process of preparing this 6 : the arrangement of elements or details in a product or work of art 7 : a decorative pattern 8 : the creative art of executing aes- thetic or functional designs” Miller’s [<xref ref-type="bibr" rid="R67" id="369" class="deo:Reference">67</xref>] “Design is the thought process comprising the creation Coverage – of an entity,” e.g., drawing things. Nunamaker et al. “Design ... involves the understanding of the studied Coverage – if a [<xref ref-type="bibr" rid="R68" id="370" class="deo:Reference">68</xref>] domain, the application of relevant scientific and single, innovative technical knowledge, the creation of various alterna- would still be tives, and the synthesis and evaluation of proposed al- knowledge,” ternative solutions.” by this definition. Papenek [<xref ref-type="bibr" rid="R69" id="371" class="deo:Reference">69</xref>] “Design is a conscious and intuitive effort to impose Coverage – meaningful order.... Design is both the underlying ma- izing books trix of order and the tool that creates it.” Meaningfulness – Ease of use –</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="373" page="33" column="1">‘underlying matrix of order’ is undefined. unclear how to operationalize “matrix of order”</outsider>
+        <region class="unknown" id="374" page="34" column="1">Criticism Coverage – This e.g., a</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="375" page="34" column="1">definition excludes design of an incorporeal thing, philosophy, society or strategy.</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="376" page="34" column="1">need not comply with principles; e.g., one software interface with absolutely no knowledge of regarding interface design. The interface is no less</outsider>
+        <region class="unknown" id="377" page="34" column="1">Coverage – Designing might design a any principles designed by someone.</region>
+        <region class="unknown" id="378" page="34" column="1">Coverage – excludes</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="379" page="34" column="1">design in architecture, engineering, etc.</outsider>
+        <region class="unknown" id="380" page="34" column="1">Coverage – stances of giving the castle a moat” Meaningfulness –</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="381" page="34" column="1">Though design intuitively may give direction, not all in- direction are design; e.g., the mere command “give gives direction, but is clearly not design ‘physical design direction’ undefined</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="382" page="34" column="1">excludes designs beginning from hypothetical situa- a national defense agency designs a contingency nuclear attack, and designing imagined system. includes describing an artifact that already exists, e.g. is big;’ excludes partially designed objects and de- imaginary objects.</outsider>
+        <region class="DoCO:TextChunk" id="389" confidence="possible" page="34" column="1">Source Definition Partners of Penta- “A design is a plan to make something: something we gram [<xref ref-type="bibr" rid="R70" id="383" class="deo:Reference">70</xref>] can see or hold or walk into; something that is two- dimensional or three-dimensional, and sometimes in the time dimension. It is always something seen and sometimes something touched, and now and then by association, something heard.” Pye [<xref ref-type="bibr" rid="R71" id="384" class="deo:Reference">71</xref>] “Invention is the process of discovering a principle. Design is the process of applying that principle. The inventor discovers a class of system – a generalization – and the designer prescribes a particular embodiment of it to suit the particular result, objects and source of energy he is concerned with.” Richardson [<xref ref-type="bibr" rid="R72" id="385" class="deo:Reference">72</xref>] “Design is a general term, comprising all aspects of organization in the visual arts.” Schurch [<xref ref-type="bibr" rid="R73" id="386" class="deo:Reference">73</xref>] “Therefore, urban design might be more clearly defined as “giving physical design direction to urban growth, conservation, and change...” as practised by the allied environmental design professions of architecture [74, p. 12], landscape architecture and urban planning and others, for that matter, such as engineers, developers, artists, grass roots groups, etc.” Simon [<xref ref-type="bibr" rid="R2" id="387" class="deo:Reference">2</xref>] “Design is devising courses of action aimed at chang- Coverage – ing existing situations into preferred ones.” tions, e.g., when plan for a Stumpf and Teague “Design is a process which creates descriptions of a Coverage – [<xref ref-type="bibr" rid="R75" id="388" class="deo:Reference">75</xref>] newly devised artifact. The product of the design ‘the cruise ship process is a description which is sufficiently complete sign of and detailed to assure that the artifact can be built.” Urban Design “Urban design is the process of shaping the physical Coverage – This</region>
+        <outsider class="DoCO:TextBox" type="sidenote" id="390" page="34" column="1">definition confuses design as planning a setting</outsider>
+        <outsider class="DoCO:TextBox" type="sidenote" id="391" page="35" column="1">process of implementing that plan; e.g., by this planning the park is not designing, but laying the sods is. While a design may imply a set of hypotheses, saying like saying being hungry is making a sandwich. representing a design as a set of hypotheses may be</outsider>
+        <region class="DoCO:TextChunk" id="394" confidence="possible" page="35" column="1">Source Definition Criticism Group [<xref ref-type="bibr" rid="R76" id="392" class="deo:Reference">76</xref>] setting for life in cities, towns and villages. It is the art with the physical of making places.” definition, Walls et al. [<xref ref-type="bibr" rid="R77" id="393" class="deo:Reference">77</xref>] “The design process is analogous to the scientific Coverage – method in that a design, like a theory, is a set of hy- the design is the potheses and ultimately can be proven only by con- Ease of Use – struction of the artifact it describes.” difficult.</region>
+      </section>
+    </body>
+  </article>
+</pdfx>

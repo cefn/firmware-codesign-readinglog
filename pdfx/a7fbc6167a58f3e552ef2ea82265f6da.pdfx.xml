@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>2698fda1b204dcb0bd17834e07c6ea9113f32e702c074e6996f4772aa12d13f6</job>
+    <base_name>62h4</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.2307/2392402</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62h4.page_001.image_01.png" thmb="62h4.page_001.image_01-thumb.png"/>
+        <image class="DoCO:Figure" src="62h4.page_001.image_02.png" thmb="62h4.page_001.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="2">.</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="4">Special Boundary Roles in the Innovation Process Author(s): Michael L. Tushman Source: Administrative Science Quarterly, Vol. 22, No. 4 (Dec., 1977), pp. 587-605 Published by: Sage Publications, Inc. on behalf of the Johnson Graduate School of Management, Cornell University Stable URL: <ext-link ext-link-type="uri" href="http://www.jstor.org/stable/2392402" id="3">http://www.jstor.org/stable/2392402</ext-link> Accessed: 17/11/2013 16:10</article-title>
+      </title-group>
+      <outsider class="DoCO:TextBox" type="sidenote" id="5">Your use of the JSTOR</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="6">at .</outsider>
+      <region class="unknown" id="8">archive indicates your acceptance of the Terms &amp; Conditions of Use, available <ext-link ext-link-type="uri" href="http://www.jstor.org/page/info/about/policies/terms.jsp" id="7">http://www.jstor.org/page/info/about/policies/terms.jsp</ext-link></region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="9">upon a wide range of facilitate new forms</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="10">. JSTOR is a not-for-profit content in a trusted digital of scholarship. For more</outsider>
+      <region class="unknown" id="12">service that helps scholars, researchers, and students discover, use, and build archive. We use information technology and tools to increase productivity and information about JSTOR, please contact <email id="11">support@jstor.org</email>.</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="13">.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="14">are collaborating</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="15">Sage Publications</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="16">Inc.</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="17">Johnson Graduate School of Management</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="18">Cornell University with JSTOR to digitize</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="19">preserve</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="20">extend access to Administrative Science Quarterly.</name>
+        </contrib>
+      </contrib-group>
+      <region class="DoCO:FigureBox" id="Fx21">
+        <image class="DoCO:Figure" src="62h4.page_001.image_03.png" thmb="62h4.page_001.image_03-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="23"> <ext-link ext-link-type="uri" href="http://www.jstor.org" id="22">http://www.jstor.org</ext-link></outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="24">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="25">Roles</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="26">Special Boundary in the Innovation Process Michael L. Tushman</outsider>
+      <region class="DoCO:TextChunk" id="110">The research described in this article focuses on one important aspect of the innovation process - the need for the innovating system to gather information from and transmit information to several external information areas. Special boundary roles evolve in the organization's communication network to fulfill the essential function of linking the organization's internal network to external sources of information. These boundary roles occur at several organizational boundaries, and their distribution within the organization is contingent on the nature of the organization's work. This research supports literature on boundary spanning in general and highlights the importance of boundary roles in the process of innovation.* <marker type="block"/> Social scientists have long been interested in the development and the diffusion of innovations (Myers and Marquis, 1969; Rogers and Shoemaker, 1971; Achilladeles, Jervis, and Robertson, 1971; Baldridge and Burnham, 1975). This interest in innovation has extended over a range of organizations (for example, research and development laboratories, health and welfare organizations, and school systems) as well as over a range of innovations (for example, hybrid corn, drugs, types of social service, and new technologies). One critical aspect of the innovation process is the ability of the innovating unit to gather information from and transmit information to several external domains (Myers and Marquis, 1969; Miller, 1971; Kelly and Kranzberg, 1975). Yet, while information from external areas is crucial to the effective development or diffusion of innovation, substantial literature suggests that communication across organizational boundaries is both inefficient and prone to bias and distortion (Dearborn and Simon, 1958; March and Simon, 1958; Wilensky, 1967). There is, then, a dilemma-accurate information from external areas is vital to the innovation process yet relatively difficult to gather. This dilemma and its consequences are an important impediment to the innovation process (Utterback, 1974; Mansfield and Wagner, 1975). Building on the innovation-oriented research of the organizational behavior and R&amp;D management literature, this study investigates the existence and the characteristics of special boundary roles as one means for innovating organizations to deal with the necessity of cross-boundary communication. The distribution of these special boundary roles within the organization and their impact on subunit performance is also investigated. While the setting for this field study was an R&amp;D laboratory,1the thrust and logic of this paper are directed toward the more generally interesting question of the place of boundary roles in the innovation process.<marker type="block"/> INNOVATION AND THE IMPORTANCEOF COMMUNICA- TION ACROSS SEVERAL BOUNDARIES Zaltman, Duncan, and Holbek (1973) have argued that the development and diffusion of innovations can be seen as a process composed of several phases. Each phase is charac-<marker type="page" number="3"/><marker type="block"/> terized by different types of decisions and problems of coordination as well as by different patterns of communication (Zaltman, Duncan, and Holbek, 1973; Allen, 1977). Consistent with these ideas, Myers and Marquis (1969) have proposed a three-step innovation process: idea development (the generation of a design concept), problem solving (technical efforts and problem solving in developing the proposed idea), and implementation (pilot production, inter- area coordination). Baker, Siegmann, and Rubenstein (1967) and Mansfield eta!. (1971) have suggested similar processes based on R&amp;D settings; Van de Ven and Koenig (1976) have developed a similar approach based on innovation in social service settings. While this process approach to innovation suggests a range of problem solving differences in the various phases, one important difference is the locus of critical information and feedback (<xref ref-type="fig" rid="F1" id="38" class="deo:Reference">Figure 1</xref>). During the first phase, idea generation,<marker type="block"/> information pertaining to new ideas or new approaches to technical or marketing problems can be found most effectively outside the innovating organization (Utterback, 1971). In the second phase, the more focused problem solving requires exchanging substantial information within the R&amp;D subunit as well as between the laboratory and its manufacturing and marketing areas (Pelz and Andrews, 1966; Gerstenfeld, 1970). The third phase, implementation, demands effective coordination and problem solving' among all the functional areas (Morton, 1971; Mansfield and Wagner, 1975). This process-oriented approach to innovation emphasizes the importance of several external sources of information (from the point of view of the innovating unit). While need for communication and information will vary over time, this approach suggests that to be effective, the innovating subunit must efficiently gather information from and transmit<marker type="page" number="4"/><marker type="block"/> information to several external information domains. <xref ref-type="fig" rid="F2" id="65" class="deo:Reference">Figure 2</xref> distinguishes three external sources of information and thus three communication boundaries for work areas within an R&amp;D laboratory -the extra-organization boundary, the laboratory to larger organization boundary, and the intra- laboratory boundary. While these boundaries are specifically relevant to R&amp;D settings, the importance of transferring information across analogous organizational boundaries exists for all innovating systems (Baldridge and Burnham, 1975; Czepiel, 1975; Van de Ven, Delbecq, and Koenig, 1976). The following section discusses the relevance of these three boundaries in the innovation process. Extra-Organization Boundary The literature on innovation in R&amp;D organizations emphasizes the importance of extra-orga nizational commu nication since the laboratory must receive up-to-date information about market and technological developments. Among others, Schmookler (1966), Myers and Marquis (1969), and Von Hippel (1976a, 1976b) have stressed the importance of gathering information on user or market need, while Allen (1966, 1970), Achilladeles, Jervis, and Robertson (1971), and Utterback (1971) have emphasized gathering information on new technological products, processes, and knowledge. Innovation-related research not focusing on the R&amp;D organization also highlights the importance of communicating with information areas external to the innovating system (Miller, 1971; Keegan, 1974; Baldridge and Burnham, 1975; Czepiel, 1975). Moreover, the literature on the task environment suggests that a changing environment, otten en- countered by innovating systems, increases the need for effective communication with the organization's environment (Burns and Stalker, 1966; Lawrence and Lorsch, 1967; Aiken and Hage, 1971; and Roberts et a/., 1974). Laboratory to Larger Organization The importance of this communication boundary is twofold.<marker type="page" number="5"/><marker type="block"/> have relevant information, then the successful projects will benefit from an effective laboratory to larger organization interface (Mansfield and Wagner, 1975; Rothberg, 1976). Further, as the project moves through the laboratory, it can benefit from technical input, support, and feedback from several organizational areas. Innovation-related research not focusing on the R&amp;D laboratory also supports the importance of intra-organizational coordination (Lawrence and Lorsch, 1967; Hage, Aiken, and Marrett, 1971; Hage, 1974). Further, to the extent that innovation builds in reciprocal task interdependence between subunits, the need for effectively integrating these subunits will be substantial (Thompson, 1967; Galbraith, 1973). Intra-Laboratory Boundary Frequently the innovating subunit is itself highly differentiated (Rosenbloom and Wolek, 1970; Lorsch and Morse, 1975). Substantial research exists demonstrating the importance of effectively transferring information within differentiated R&amp;D laboratories. Utterback (1971) found that while sources outside the laboratory were most useful in generat- ing new ideas, sources inside the laboratory were most helpful in providing problem solving and implementation as- sistance. Similarly, research by Allen (1966, 1970), PeIz, and Andrews (1966), Smith (1970), Farris(1972), and Goldhar, Bragaw, and Schwartz (1967) supports the importance of intra-laboratorycommunication links to take advantage of in-house technical expertise. In all, this review suggests that to develop successful innovations, the innovating unit must attend to information and feedback from several external information domains. Much of the literature has concentrated on the extra-organizational communication boundary (Utterback, 1974). This review suggests, however, that work areas must attend to communication boundaries within the organizational as well (see <xref ref-type="fig" rid="F2" id="71" class="deo:Reference">Figure 2</xref>).<marker type="block"/> COMMUNICATIONACROSS ORGANIZATIONAL BOUNDARIES AS A TWO-STEP PROCESS While communication across organizational boundaries is vital to each phase of the innovation process, much literature emphasizes the difficulties, inefficiency, and hazards of transferring information across organizational interfaces (Dearborn and Simon, 1958; Wilensky, 1967; Allen and Cohen, 1969; Roberts et al., 1974). Why should these difficulties exist? Systems theory suggests that as organizations grow, they differentiate. Specialized areas evolve to deal with particular tasks or environments (Katzand Kahn, 1966; Thompson, 1967). As these specialized units develop, each generates its own idiosyncratic norms, values, time frame, and coding schemes to permit effective processing of information (March and Simon, 1958; Katzand Kahn, 1966). Thus, not only will different organizations have a mismatch in coding schemes, but differentiated subunits within the same organization will likely also have contrasting languages and<marker type="page" number="6"/><marker type="block"/> These inherent conceptual and linguistic differences act as a communication impedance or as a communication boundary hindering the free flow of information. The greater the differentiation, the greater the communication impedance Rogers and Shoemaker, 1971; Miles, 1976). Supporting this communication mismatch logic, studies by Allen (1964, 1966), Schilling and Bernard (1964), and Baker, Siegmann, and Rubenstein (1967) found an inverse relationship between the amount of an individual's extra-organizational communication and his or her work performance. If communication across organizational boundaries is difficult and prone to bias and distortion, yet is simultaneously a requirement for successful innovation, then how are innovating subunits effectively linked to external information areas? One way to deal with the difficulties of communicating across organizational boundaries is to develop special boundary roles (March and Simon, 1958; Thompson, 1967; Allen and Cohen, 1969; Allen, 1970; Aldrich and Herker, 1977; Schwartz and Jacobson, 1977). Individuals filling these roles are capable of translating contrasting coding schemes and therefore of acting as boundary spanners between the work unit and external information areas. Thus, information may flow into the R&amp;D laboratory in a two-step fashion, through a set of key persons who channel this information to their colleagues within the laboratory. This two-step flow of information across organizational boundaries is analogous to sociological research dealing with social influence, voting behavior, and the diffusion of innovation (Lazarsfeld, Berelson, and Gaudet, 1948; Coleman, Katz, and Menzel, 1966; and Rogers and Shoemaker, 1971). This research found evidence of opinion leaders, who because of their characteristics were well connected to external sources of information. These opinion leaders were sought after for advice and, in turn, influenced the decisions of the less active members of the social system. These converging results suggest that opinion leaders or those filling special boundary roles, evolve to mediate the transfer of information from external information areas into the organization's internal communication network. While the idea of boundary roles is not new, much of the literature has focused on the extra-organizational communication boundary (Allen and Cohen, 1969; Frost and Whitley, 1971; Keller and Holland, 1975a, 1975b). This paper contributes to the boundary-role literature by extending the gatekeeper research, as well as by investigating the existence of boundary-spanning roles attending to other commu nication domains (see <xref ref-type="fig" rid="F2" id="80" class="deo:Reference">Figure 2</xref>). This paper then investigates the distribution of these boundary roles within the R&amp;D laboratory. Specific hypotheses appear below. Existence of Special Boundary Roles Gatekeepers. Based on the social influence studies of Lazarsfeld, Berelson, and Gaudet (1948), Allen (1966) and Allen a nd Cohe n (1969) suggested that key nodes in the innovating system's communication network convey information from external domains into the internal communica-<marker type="page" number="7"/><marker type="block"/> strongly connected to external sources of information than nonstars. These internal communication stars both were consulted more frequently and were well connected to external information areas. Those internal stars who also had a substantial amount of extra-organizational communication were termed gatekeepers. Allen (1970) replicated these find- ings in a large aerospace firm. While the gatekeeper idea has stimulated extensive research (Pettigrew, 1972; Whitley and Frost, 1973; Taylor and Utterback, 1975), a question can be raised as to the existence of specializtion among gatekeepers: Do all gatekeepers attend to all external areas, or is there specialization by information domain (Allen and Cohen, 1969; Kelly and Kranzberg, 1975)? It may be that due to task requirements and different information needs, gatekeepers in different areas tend specific information domains (Allen and Cohen, 1969; Walsh and Baker, 1972; Whitley and Frost, 1973). This idea of specialized gatekeepers can be made more exact. Since research projects require state-of-the art technical input, they must be well connected to professional areas outside the laboratory (Myers and Marquis, 1969; Utterback, 1971, 1974). Given the importance of this professional link, it may be that research gatekeepers direct their external communication specifically to universities, professional societies, and to the professional literature. On the other hand, technical service areas require up-to-date information on new products, processes, and markets (Achilladelles, Jervis, and Robertson, 1971; Czepiel, 1975). If so, gatekeepers in the technical service areas may focus their external communication on suppliers, vendors, and customers. This logic suggests that gatekeepers may not attend to all external communication areas, but may specialize in those external areas most critical to the work of their subunit. Due to the location of relevant information, one can reason that for subunits engaged in research the professional commu nication bou ndary (universities or professional societies) is more critical than the operational communication boundary (suppliers, vendors, customers). The reverse should hold true for the technical service areas. If so, it can be hypothesized that: Hypothesis 1. Gatekeeper specialization will occur by task area. Stars in research areas will have significantly more communication than nonstars with professional areas outside the organization. Similarly, stars in technical service areas will have significantly more communication than nonstars with operational areas outside the organization. Organizational liaisons. Studies on the diffusion of innovation (Langrish, Gibbons, and Evans, 1972; Czepiel, 1975) as well as on the process of innovation (Utterback, 1971; Baldridge and Burnham, 1975; Von Hippel, 1976) emphasize the importance of the boundary between the innovating subsystem and the larger organization. In R&amp;D settings, the communication boundary between the laboratory and the marketing, manufacturing, and sales areas is critical (Gruber, Poengsen, and Prakke, 1973; Mansfield and Wagner, 1975). As discussed earlier, task and coding differences make communication across organizational boundaries difficult.<marker type="page" number="8"/><marker type="block"/> Given this inherent communication impedance, it may be that special boundary roles evolve to mediate communication between the laboratory's internal network and the larger orga nization. These intra-organizational bou ndary roles may perform a function similar to that of the integrator in Lawrence and Lorsch's (1967) work; boundary roles are different only in that they operate at a lower level in the organization and are not formally defined. Similarly, what Myers and Marquis (1969) term key people or product champions are probably more than particularlyactive individuals; they may act as key nodes in the information network, bridging the laboratory to other organizational areas. Using the two-step flow logic, one can hypothesize that communication between the R&amp;D laboratory and the larger organization will not be direct but will be mediated by organizational liaisons.<marker type="block"/> Laboratory liaisons. Innovating subsystems may them- selves be highly differentiated. If there is task interdependence between subsystems, then these units face the problem of internal integration (Lorsch, 1965). If R&amp;D organizations are differentiated, they face an accentuated problem of integration given both task interdependence and the need for feedback from different laboratory areas (Pelz and Andrews, 1966). With the same logic used for gatekeepers and organizational liaisons, one can hypothesize that because of the communication boundary between differentiated task areas, communication across even intra-laboratoryinterfaces occurs in a two-step fashion. Boundary roles may connect the department to other areas of the laboratory. This reasoning suggests that communication between differentiated task areas in the laboratory is not equally distributed among the technical staff but occurs through a few key network nodes - laboratory liaisons.<marker type="block"/> Note that to test Hypotheses 1, 2, and 3, communication stars as a set will be contrasted with nonstars. If significant differences between the two groups are found, that is evidence for the two-step flow of communication. Distribution of Special Boundary Roles The preceding discussion has hypothesized the existence of several kinds of boundary roles. What, however, is the distribution of these roles within the innovating system? The final set of hypotheses deals with this question. As discussed earlier, boundary roles evolve to deal with the difficulties of gathering and diffusing information across orga nizational bou ndaries. However, increased work-related uncertainty may accentuate the difficulties of cross- boundary communication; the need for extra-unit communication will increase (Lawrence and Lorsch, 1967), while the ability to deal with the communication impedance may well<marker type="page" number="9"/><marker type="block"/> ments in the work area (Lorsch and Morse, 1975; Miles and Perreault, 1976). If increased task uncertainty accentuates both the need for extra-unit information as well as the difficulties of extra-unit communication, it can be hypothesized that under such conditions, the number of boundary roles will increase to deal with the greater information-processing requirements (Kellerand Holland, 1975a; Aldrich and Herker, 1977). This reasoning implies that special boundary roles not only function as links to external sources of information, but that they also buffer the subunit from external uncertainty (Thompson, 1967). If so, the greater the subunit's work- related uncertainty, the greater will be the number of roles to deal with that uncertainty. Task characteristics, task environment, and task interdependence are each sources of work-related uncertainty (Pennings, 1975; Van de Ven, Delbecq, and Koenig, 1976). The distribution of special boundary roles, then, will not be equal throughout the innovating system, but will be contingent on the nature of the system's work. Lastly, if this logic has merit, work areas which fit the number of boundary roles to the demands of their work will be high performers (Galbraith, 1973; Tushman and Nadler, forthcoming). This core hypothesis leads to the following more specific hypotheses:<marker type="block"/> SETTING AND METHODS This study focused on the communication activity of all the professionals (N=345) in the R&amp;D facility of a large mid- western U.S. corporation. The laboratory is isolated from the rest of the corporation and is divided into seven departments (divisional laboratories). The departments are, in turn, organized into separate project areas. The projects were stable over the course of the research and each respondent was a member of only one project.<marker type="block"/> Technical Communication To provide communication data, each professional was asked to report his or her actual, work-related, oral communication for a number of selected days (the respondents were asked not to report strictly social communication, nor did they report written communication). These data were collected once a week for 15 weeks, with an equal number of each of the weekdays chosen. The overall response rate was 93 percent; moreover, 68 percent of all the communication reported within the laboratory was mentioned by both parties (cf. Weiss and Jacobson, 1960). The extra- laboratory data were self-report data which could not be corroborated with discussion partners. In order to identify the internal communication stars and to test for boundary roles, the communication activity of each<marker type="page" number="10"/><marker type="block"/> professional was separated into the following mutually ex- clusive commu nication domains - ntra-departme nt, intra- laboratory (outside the department), organizational, and extra-organizational. Extra-organizational commu nication was further separated into a professional domain (universities, professional societies) and an operational domain (suppliers, vendors, customers). The literature has used a number of criteria to define internal communication stars (Allen, 1970; Whitley and Frost, 1973). This study arbitrarily defined internal stars as those individuals in the top fifth of the intra- department communication distribution. Since one of the departments was substantially larger than the other six, it was excluded from these analyses. Fifty stars were located by these methods. Project Task Characteristics A number of analysts have suggested that task characteristics can be ordered on a dimension from complex (non- routine) to simple (routine). In R&amp;D settings, tasks can differ by (1) length of time required for feedback, (2) specific problem versus general problem orientation, and (3) their generation of new knowledge in contrast to their use of existing knowledge (Rosenbloom and Wolek, 1970). With these at- tributes, four task categories were developed with the laboratory's managers to form a task dimension ranging from complex (research) to less complex (technical service) (see <xref ref-type="table" rid="T1" id="109" class="deo:Reference">Table 1</xref>).</region>
+      <region class="unknown" id="28">at meetings, col-</region>
+      <region class="unknown" id="29">sup- Re- Colum-</region>
+      <region class="unknown" id="31">corporation. depart-</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="32">A version of this paper was presented the Academy of Management August 1976. The author thanks his leagues David Lewin, Noel Tichy, and Michael Ginzberg, and an anonymous reviewer forASQ for their helpful com- ments and criticism. This work was ported by grants from the Center for search in Career Development at bia University and from the Shell Com- panies Foundation. 1 This study was conducted at the R&amp;D facility of a major American The facility is divided into seven ments, which are, in turn, divided into projects. Projects range from basic research to technical service. Details appear in the methods section.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="34">December 1977, volume 22</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="35">587/AdministrativeScience Quarterly</outsider>
+      <region class="DoCO:FigureBox" id="Fx36">
+        <image class="DoCO:Figure" src="62h4.page_002.image_04.png" thmb="62h4.page_002.image_04-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="37">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="40">Innovation Phases</region>
+      <region class="unknown" id="41">1. Idea Generation: 11. Problem Solving: 111. Implementation:</region>
+      <region class="unknown" id="42">Developing a design or proposal by integrating market need with technical means.</region>
+      <region class="unknown" id="43">Research, development, and en- gineering to develop a technical solution to the proposal.</region>
+      <region class="unknown" id="44">R&amp;D, manufacturing, market tool- ing up, coordination, and adminis- tration to bring the new product to first use or to the market.</region>
+      <region class="unknown" id="45">Key Communication Domains by Phase</region>
+      <region class="unknown" id="46">11. Intra-laboratorycommunication:</region>
+      <region class="unknown" id="47">I. Extra-laboratory, extra-organizational communication:</region>
+      <region class="unknown" id="48">Ill. Laboratoryand functionalarea communication:</region>
+      <region class="unknown" id="49">With universities, suppliers, vendors, literature.</region>
+      <region class="unknown" id="50">With functional areas as well as technical areas outside laboratory.</region>
+      <region class="unknown" id="51">Particularly between R&amp;D and manufacturing and marketing.</region>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="52">Figure 1. Innovation</caption>
+      </region>
+      <region class="unknown" id="53">phases and corresponding key communication domains. (Figure adapted from Myers and Marquis [1969]).</region>
+      <outsider class="DoCO:TextBox" type="footer" id="55">588/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx56">
+        <image class="DoCO:Figure" src="62h4.page_003.image_05.png" thmb="62h4.page_003.image_05-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="57">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="58">Special Boundary Roles</outsider>
+      <region class="unknown" id="59">R&amp;D laboratory</region>
+      <region class="unknown" id="60">A B</region>
+      <region class="unknown" id="61">Departments Larger orga nizatio n boundary</region>
+      <region class="unknown" id="62">External boundary</region>
+      <region class="DoCO:FigureBox" id="F2">
+        <caption class="deo:Caption" id="63">Figure 2. Communication</caption>
+      </region>
+      <region class="unknown" id="64">0 :Flow of communication between Department A ard other sources of information boundaries in R&amp;D laboratories.</region>
+      <region class="unknown" id="67">If marketor technical informationis importantin the innovation process, and if marketing,sales, or manufacturing</region>
+      <outsider class="DoCO:TextBox" type="footer" id="68">5891ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx69">
+        <image class="DoCO:Figure" src="62h4.page_004.image_06.png" thmb="62h4.page_004.image_06-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="70">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="74">coding schemes.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="75">590/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx76">
+        <image class="DoCO:Figure" src="62h4.page_005.image_07.png" thmb="62h4.page_005.image_07-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="77">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="78">Special Boundary Roles</outsider>
+      <region class="unknown" id="79">is re-</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="82">2 Internal communication stars (the term borrowed from the early sociometric search) are those individuals most frequently approached as technical discussion partners. See methods section for greater detail.</outsider>
+      <region class="unknown" id="83">tion network. Allen and Cohen (1969) identified internal communicationstars2and found that they were more</region>
+      <outsider class="DoCO:TextBox" type="footer" id="84">591/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx85">
+        <image class="DoCO:Figure" src="62h4.page_006.image_08.png" thmb="62h4.page_006.image_08-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="86">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="88">592lASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx89">
+        <image class="DoCO:Figure" src="62h4.page_007.image_09.png" thmb="62h4.page_007.image_09-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="90">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="91">Special Boundary Roles</outsider>
+      <region class="unknown" id="93">Hypothesis 2. Internal communication stars will have significantly more communication with areas in the larger organization than nonstars.</region>
+      <region class="unknown" id="95">Hypothesis 3. Internal communication stars will have significantly more communication with other areas, that is, departments, of the laboratory than nonstars.</region>
+      <region class="unknown" id="97">decrease given the more complex problem-solvingrequ ire-</region>
+      <outsider class="DoCO:TextBox" type="footer" id="98">5931ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx99">
+        <image class="DoCO:Figure" src="62h4.page_008.image_10.png" thmb="62h4.page_008.image_10-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="100">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="102">Hypothesis 4a. Research projects will have more boundary roles per project than technical service projects. Hypothesis 4b. Projects facing a changing environment will have more roles per project than projects facing a stable environment. Hypothesis 4c. Projects with substantial task interdependence will have more roles per project than projects with little task interdependence.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="105">594/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx106">
+        <image class="DoCO:Figure" src="62h4.page_009.image_11.png" thmb="62h4.page_009.image_11-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="107">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="108">Special Boundary Roles</outsider>
+      <region class="DoCO:TableBox" id="T1">
+        <caption class="deo:Caption" id="111">Table 1</caption>
+      </region>
+      <region class="unknown" id="112">Categories of Task Characteristics</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="113">1. Basic Research 11. Work of a general nature Work intended to apply to a broad range of applications or to of a the development of new knowledge about an area. new nents for</outsider>
+      <region class="unknown" id="114">Applied Research 111. Development IV.Technical Services involving basic The combination of exist- Cost/performance im- knowledge for the solution ing or feasible concepts, proveme nt to existing particularproblem. The perhaps with new knowl- products, processes or sys- creation and evaluation of edge, to provide a distinctly tems. Recombination, concepts or compo- new product or process. modification and testing of but not development The application of known systems using existing operational use. facts and theory to solve a knowledge. Opening new particularproblem through markets for existing exploratory study, design products. and testing of new compo- nents or systems.</region>
+      <region class="unknown" id="115">tives of your work? The Arabic numbers indicate the degree of refinement within each category, where 1 is "pure." I 11 111 IV 1 23 1 23 1 23 1 23</region>
+      <region class="DoCO:TextChunk" id="117" confidence="possible">objectives tives Using of these your falls work? in categories, each The of Arabic the four respondents numbers categories? indicate answered the degree two of refinement questions within about each I category, their work: where 1 11 is "pure." III IV (1) In which I of these categories 11 (see <xref ref-type="table" rid="T1" id="116" class="deo:Reference">Table 1</xref>) would 111 you place the objec- IV 1 23 1 23 1 23 1 23 (2) Roughly what percentage of the work required to accomplish the task's</region>
+      <region class="unknown" id="118">objectives falls in each of the four categories? I 11 III IV</region>
+      <region class="DoCO:TextChunk" id="119" confidence="possible">The individual responses to the two questions were correlated highly (Spearman-Brown reliability=.91). Thus, individual task scores were calculated by taking the average of</region>
+      <region class="unknown" id="120">the two questions. Project scores were calculated by pooling individual scores; 58 projects providedusable responses.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="121">595/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx122">
+        <image class="DoCO:Figure" src="62h4.page_010.image_12.png" thmb="62h4.page_010.image_12-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="123">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="131">Project Task Environment Of the many environmental dimensions studied (cf. Jur- kovitch, 1974), Du nca n (1972) a nd Nega ndi a nd Reima n n (1973) suggest that the dimension showing the range between stability and change is a particularlyimportant con- tributor to perceived uncertainty. Following this research, only the stable-changing dimension of the task environ- me nt was investigated. Eac h respo nde nt a nswered t he following question: We are interested in how rapidly you see the demands of your job changing. To what extent are techniques or skills or information needed for your project(s) changing? 1 2 3 4 5 To a very Little Some Great To a very little extent great extent Fifty-eight projects provided usable responses. Again, project scores were calculated by pooling individual scores. Project-Task Interdependence Project-task interdependence refers to the extent to which a task requires working with other areas of the organization. If the focal organization is itself highly differentiated, then it is necessary to distinguish between the amount and the location of the interdependence. The amount and location of task interdependence were operation-alized in the following fashion: On the scales below, please indicate the degree to which your work is interrelated with the work of: 1. technical personnel in other departments. 1 5 10 very low moderate very high interrelationship interrelationship 2. technical personnel in the organization but outside of the laboratory. 1 5 10 very low moderate very high interrelationship interrelationship Fifty-eight projects provided usable responses. Project scores were calculated by pooling individual scores. Unit of Analysis Since the unit of analysis in Hypothesis 4 is the project, individual responses must be pooled to get project scores. To check the appropriateness of pooling, the homogeneity of project members' perceptions of each variable was tested. A one-way analysis of variance was done to detect any significant differences among individual perceptions; Bartlett's M-test (Dixon and Massey, 1969) was used to test specifically for the homogeneity of intra-project perceptions. For variables which passed both of the above tests, a more stringent test was performed on each project. Each project's variance was compared to the pooled variance for the particularvariable studied. If a project's variance was significantly greater (p&lt;.01) than the pooled variance, then that project was not used in the analysis of that particular variable. The ANOVA and Bartlett tests indicated that pooling was appropriate for each of the variables. The individual F-tests <marker type="page" number="12"/><marker type="block"/> eliminated between two and four projects per variable. Project task scores fell into three distinct areas: research (N=13), development (N=22), and technical service (N=20). Project Performance Since performance measures are particularlydifficult to develop for R&amp;D settings (Whitley and Frost, 1971), a subjec- tive measure similar to that used by Lawrence and Lorsch (1967) was employed. All group managers (N=7) and both laboratory directors (N=2) were interviewed individually. Each was asked to evaluate the overall technical performance of all projects with which he was technically familiar. Since each project was developing new technologies or new products or revising existing products, this performance measure can be taken as a proxy for the innovative- ness of the project. An average of 4.7 managers indepen- dently rated each project on a seven-point scale. Since the intercorrelations of the nine judges correlated moderately (Spearma n-Brown reliability=.81), individual ratings were averaged to yield overall project scores.<marker type="block"/> RESULTS Existence of Special Boundary Roles To test for the existence of gatekeepers (Hypothesis 1), organizational liaisons (Hypothesis 2), and laboratory liaisons (Hypothesis 3), the amount of external communication of stars and nonstars must be compared. <xref ref-type="table" rid="T2" id="130" class="deo:Reference">Table 2</xref> compares the median absolute amount of communication, over 15 weeks, of stars and nonstars with the three extra-depart- mental communication domains.3 The data are organized by department. There is strong support for the existence of both the organizational and laboratory liaisons: 11 of the 12 differences between stars and nonstars are statistically significant. Stars, as a set, have significantly more communication than the nonstars with the larger organization as well as with other areas in the laboratory. Therefore, as predicted, commu nication between orga nizationally distant areas is not direct but occurs in a two-step fashion; that is, the majority of the technical staff keep informed of extra- departmental issues by speaking with the internal stars who, in turn, are strongly linked to other areas in the larger orga nization.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="125">596lASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx126">
+        <image class="DoCO:Figure" src="62h4.page_011.image_13.png" thmb="62h4.page_011.image_13-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="127">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="128">Special Boundary Roles</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="133">3 Because of the skewed distributions, Mann-Whitney U-tests are used. Since each of the hypotheses predicts the di- rection of difference, one-tailed tests are utilized. (As the numbers of cases in the larger groups are all greater than 20, the power-efficiency of these tests approaches that of equivalent t-tests [Siegel, 1956]). <xref ref-type="table" rid="T2" id="132" class="deo:Reference">Table 2</xref></outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="134">Median Amount of External Communication</outsider>
+      <region class="unknown" id="135">by Stars (st) and Nonstars (nst)t</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="136">Communication between:</outsider>
+      <region class="unknown" id="137">DEPARTMENTS Special Product Construction Products Analysis Development Development Research nst st nst st nst st nst st- nst st nst</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="138">Control Systems St N=(10)</outsider>
+      <disp-formula class="DoCO:FormulaBox" id="F6">
+        <label class="DoCO:Label" id="139">6</label>
+        <content class="DoCO:Formula" id="140">(43) (22) (7) (29) (7) (28) (11) (38) (9) (33)</content>
+      </disp-formula>
+      <outsider class="DoCO:TextBox" type="sidenote" id="141">Laboratory Organization Extra-organization</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="142">4 19 7</outsider>
+      <region class="unknown" id="143">0Z 6g 1Jo</region>
+      <region class="unknown" id="144">22 26 3</region>
+      <region class="unknown" id="145">18 10g 3</region>
+      <region class="unknown" id="146">37 23 4</region>
+      <region class="unknown" id="147">14Z 7g 2</region>
+      <region class="unknown" id="148">20 37 7</region>
+      <region class="unknown" id="149">6Z 21g 7</region>
+      <region class="unknown" id="150">12 3 4</region>
+      <region class="unknown" id="151">3Z 1J 1Jo</region>
+      <region class="unknown" id="152">23 3 3</region>
+      <region class="unknown" id="153">12Z 1 1</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="154">Mann-Whitney U-Test - one tail:</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="155">p&lt;.10</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="156">p&lt;.05 0*- p&lt;.01 tTables 2 and 3 report the median absolute</outsider>
+      <region class="unknown" id="157">amount of external communication for stars and nonstars over a 15-week period.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="158">597/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx159">
+        <image class="DoCO:Figure" src="62h4.page_012.image_14.png" thmb="62h4.page_012.image_14-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="160">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="DoCO:TextChunk" id="218">While support for both organizational and laboratory liaisons is strong, support is weak for the gatekeeper role (see <xref ref-type="table" rid="T2" id="161" class="deo:Reference">Table 2</xref>). In only two departments do the stars have significantly more communication than the nonstars with areas outside the organization. However, Hypothesis 1 argued that gatekeepers specialize in specific external information domains. It was hypothesized that given the need in research areas for state-of-the-art technical information, research stars would focus their extra-organizational communication on the professional domain (universities, professional societies). On the other hand, it was hypothesized that technical service stars would focus on operational areas (suppliers, vendors, and customers) given the technical service areas' need for up-to-date information on new products and processes.<marker type="block"/> To test this specialization hypothesis, research departments and technical service departments had to be located, and extra-organizational communication separated into professional and operational categories. In this laboratory, the Research and the Development Departments were made up solely of research projects, while only the Control Systems Department was composed solely of technical service projects.4 For these three departments then, <xref ref-type="table" rid="T3" id="178" class="deo:Reference">Table 3</xref> compares the median absolute amount of communication to operational and professional areas for stars and nonstars. The data indicate support for the gatekeeper specialization hypothesis. In the two research departments, the stars have significantly more communication to professional areas than the nonstars; there is no role specialization to the operational domain for these research departments. In the technical service department, however, stars have significantly more communication than nonstars to the operational domain. And, as hypothesized, there is no role specialization to the professional domain for this technical service department. These analyses, therefore, support the existence of several boundary-spanning roles. Persons filling these roles serve an important function in the innovation process in that they link their work areas to several external information domains. The laboratory and the organizational liaisons span<marker type="page" number="14"/><marker type="block"/> intra-organizational boundaries, while the gatekeepers span the extra-organizational boundary. However, because of the differing information needs of the various task areas, gatekeepers do seem to specialize in particularexternal information domains. Research gatekeepers focus on professional areas, while technical service gatekeepers focus on operational areas. Distribution of Special Boundary Roles<marker type="page" number="15"/><marker type="block"/> holders who attend to several communication boundaries. What, however, is the distribution of these roles within the laboratory? Based on information processing ideas, Hypothesis 4 suggested that the greater the subunit's work-related uncertainty, the greater the number of special boundary roles to deal with that uncertainty. Tables 4, 5, and 6 support this core hypothesis. Projects with more complex information-processing requirements consistently have more boundary roles than projects with less complex information processing requirements. In the total sample, research projects have more boundary- spanning roles than technical service projects; projects facing a changing environment have significantly more roles per project than projects facing a stable environment; and projects with substantial task interdependence have significantly more roles per project than projects with little task interdependence. Evidently, under routine technical conditions, a small number of boundary roles can meet the external information requirements, while more complex or un- certain technical conditions require more boundary roles to attend to the increased uncertainty. Thus, boundary roles do seem to be a way of dealing with work-related uncertainty and are, therefore, distributed differentially within the laboratory, with distribution being contingent on the nature of the project's work. But what is the relationship between the number of boundary roles per project and project performance? If the logic of Hypothesis 4 holds, then the results found for the total sample should be accentuated in high-performing projects. Tables 4, 5, and 6 contrast the number of roles per project for high- and low-performing subsets (the performance scores were split at the median). As predicted, the results are accentuated for high-performing projects: high- performing projects facing greater information processing requirements (projects performing research tasks, facing a changing environment, or substantial interdependence) have more boundary roles per project than high-performing projects facing less uncertainty. However, for the low- performing projects, the hypothesized differences decrease in magnitude and do not approach statistical significance. The patterns of Tables 5 and 6 suggest that there can be an excess of boundary roles even under conditions of substantial work-related uncertainty. High-performing projects facing a changing environment or substantial task interdependence have fewer roles per project than low-performing projects facing the same task conditions. Evidently, high- performing projects facing substantial work-related uncertainty tend to share their boundary roles. In contrast, low- performing projects facing a changing environment and/or substantial task interdependence tend to have more than one boundary role per project. It may well be that having a boundary role for each project is redundant and associated with problems of coordination and integration. These ideas suggest a curvilinear relationship between the number of boundary roles and project performance for projects facing substantial work-related uncertainty (due either to the task environment or the demands of task interde-</region>
+      <region class="DoCO:TableBox" id="T3">
+        <caption class="deo:Caption" id="163">Table 3</caption>
+      </region>
+      <region class="unknown" id="164">Median Amount of Extra-organizational Communication by Stars (st) and Nonstars (nst)</region>
+      <region class="unknown" id="165">Communication between:</region>
+      <region class="unknown" id="166">TechnicalService Department Research Departments ControlSystems Development Research st nst st nst st nst</region>
+      <region class="unknown" id="167">Operational areas: Professional areas</region>
+      <region class="unknown" id="168">6 0</region>
+      <region class="unknown" id="169">1** 0</region>
+      <region class="unknown" id="170">2 2</region>
+      <region class="unknown" id="171">1 0*</region>
+      <region class="unknown" id="172">1 4</region>
+      <region class="unknown" id="173">1 0</region>
+      <region class="unknown" id="174">Mann-Whitney U-Test-one tail:</region>
+      <region class="unknown" id="175">p&lt;.10</region>
+      <region class="unknown" id="176">p&lt;.05</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="177">4 Various kinds of projects made up the other departments. Since task heterogeneity would confound the analysis, these other departments could not be used to test the gatekeeper- specialization hypothesis.</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="180">598lASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx181">
+        <image class="DoCO:Figure" src="62h4.page_013.image_15.png" thmb="62h4.page_013.image_15-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="182">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="183">Special Boundary Roles</outsider>
+      <region class="DoCO:TableBox" id="T4">
+        <caption class="deo:Caption" id="184">Table 4</caption>
+        <content>
+          <table class="DoCO:Table" number="4" page="14">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Mean Number</th>
+                <th class="table"> of Boundary</th>
+                <th class="table"> Roles per Project for Different</th>
+                <th class="table"> Task Areas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"> Technical</td>
+                <td class="table.strange"> Degree of</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"></td>
+                <td class="table.strange"> Research</td>
+                <td class="table.strange"> Service Significance Significance</td>
+                <td class="table.strange"> Freedom</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Total</td>
+                <td class="table"> .64(.67)'</td>
+                <td class="table"> .50(.56)</td>
+                <td class="table"> (19)</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Performa nce:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> High</td>
+                <td class="table"> .80(.84)</td>
+                <td class="table"> .50(.84)</td>
+                <td class="table"> (9)</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Low</td>
+                <td class="table"> .50(.71)</td>
+                <td class="table"> .50(.71)</td>
+                <td class="table"> (8)</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> For Tables 4, 5,</td>
+                <td class="table.strange"> and 6 boundary</td>
+                <td class="table.strange"> roles were isolated by taking</td>
+                <td class="table.strange"> those internal</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> communication</td>
+                <td class="table.strange"> stars which</td>
+                <td class="table.strange"> were also connected connected strongly to</td>
+                <td class="table.strange"> an external</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> information</td>
+                <td class="table.strange"> domain (top fifth</td>
+                <td class="table.strange"> of the external communication communication</td>
+                <td class="table.strange"> distribution). distribution).</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Standard deviations</td>
+                <td class="table.strange"> are within</td>
+                <td class="table.strange"> parentheses.</td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="185" confidence="possible">Mean Number of Boundary Roles per Project for Different Task Areas</region>
+        <region class="TableInfo" id="186" confidence="possible">Research</region>
+        <region class="TableInfo" id="187" confidence="possible">Technical Service</region>
+        <region class="TableInfo" id="188" confidence="possible">Degree of Significance Freedom</region>
+        <region class="TableInfo" id="189" confidence="possible">.50(.56) (19)</region>
+        <region class="TableInfo" id="190" confidence="possible">Total .64(.67)' Performa nce: High .80(.84) Low .50(.71)</region>
+        <region class="TableInfo" id="191" confidence="possible">.50(.84) .50(.71)</region>
+        <region class="TableInfo" id="192" confidence="possible">(9) (8)</region>
+        <region class="TableInfo" id="193" confidence="possible">For Tables 4, 5, and 6 boundary roles were isolated by taking those internal communication stars which were also connected strongly to an external information domain (top fifth of the external communication distribution). Standard deviations are within parentheses.</region>
+      </region>
+      <region class="DoCO:TableBox" id="T5">
+        <caption class="deo:Caption" id="194">Table 5</caption>
+        <content>
+          <table class="DoCO:Table" number="6" page="14">
+            <thead class="table">
+              <tr class="table">
+                <th class="table"> Mean Number</th>
+                <th class="table"> of Boundary Roles per Project</th>
+                <th class="table"> for Different</th>
+                <th class="table"> Environmental</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table.strange">
+                <td class="table.strange"> Conditions</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"></td>
+                <td class="table"> Environment</td>
+                <td class="table"></td>
+                <td class="table"> Degree of</td>
+              </tr>
+              <tr class="table">
+                <td class="table"></td>
+                <td class="table"> Changing Stable</td>
+                <td class="table"> Significance</td>
+                <td class="table"> Freedom</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Total</td>
+                <td class="table"> 1.00(.81) .39(.60)</td>
+                <td class="table"></td>
+                <td class="table"> (32)</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> Performance:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table">
+                <td class="table"> High</td>
+                <td class="table"> .86(.69) .00(00)</td>
+                <td class="table"></td>
+                <td class="table"> (12)</td>
+              </tr>
+              <tr class="table">
+                <td class="table"> Low</td>
+                <td class="table"> 1.11(.93) .64(.67)</td>
+                <td class="table"></td>
+                <td class="table"> (18)</td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> t-tests:</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> *@</td>
+                <td class="table.strange"> *00</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> p&lt;.05</td>
+                <td class="table.strange"> p&lt;.01</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+              <tr class="table.strange">
+                <td class="table.strange"> (Standard deviations</td>
+                <td class="table.strange"> are within parentheses.)</td>
+                <td class="table.strange"></td>
+                <td class="table.strange"></td>
+              </tr>
+            </tbody>
+          </table>
+        </content>
+        <region class="TableInfo" id="195" confidence="possible">Mean Number of Boundary Roles per Project for Different Environmental Conditions</region>
+        <region class="TableInfo" id="196" confidence="possible">Environment Changing Stable</region>
+        <region class="TableInfo" id="197" confidence="possible">Degree of Significance Freedom</region>
+        <region class="TableInfo" id="198" confidence="possible">.39(.60) (32)</region>
+        <region class="TableInfo" id="199" confidence="possible">Total 1.00(.81) Performance: High .86(.69) Low 1.11(.93)</region>
+        <region class="TableInfo" id="200" confidence="possible">.00(00) .64(.67)</region>
+        <region class="TableInfo" id="201" confidence="possible">(12) (18)</region>
+        <region class="TableInfo" id="202" confidence="possible">t-tests: *@ *00 p&lt;.05 p&lt;.01 (Standard deviations are within parentheses.)</region>
+      </region>
+      <region class="DoCO:TableBox" id="T6">
+        <caption class="deo:Caption" id="203">Table 6</caption>
+      </region>
+      <region class="unknown" id="204">Mean Number of Boundary Roles per Project for Different Amounts of Task Interdependence</region>
+      <region class="unknown" id="205">Interdependence* High Low</region>
+      <region class="unknown" id="206">Degree of Significance Freedom</region>
+      <region class="unknown" id="207">.50(.77) * (32)</region>
+      <region class="unknown" id="208">*</region>
+      <region class="unknown" id="209">Total .94(.70) Performance: High .83(.82) Low 1.10(.95)</region>
+      <region class="unknown" id="210">.12(.73) .70(.46)</region>
+      <region class="unknown" id="211">(12) (18)</region>
+      <region class="unknown" id="212">t-tests: 0 p&lt;. 10 *Interdependence is the sum of laboratory and organizational interdependence. (Standard deviations are within parentheses.)</region>
+      <region class="unknown" id="214">These results indicatethe existence of special boundaryrole</region>
+      <outsider class="DoCO:TextBox" type="footer" id="215">599/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx216">
+        <image class="DoCO:Figure" src="62h4.page_014.image_16.png" thmb="62h4.page_014.image_16-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="217">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="220">pendence). Supporting this idea, <xref ref-type="fig" rid="F3" id="219" class="deo:Reference">Figure 3</xref> shows that for</region>
+      <outsider class="DoCO:TextBox" type="footer" id="221">600/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx222">
+        <image class="DoCO:Figure" src="62h4.page_015.image_17.png" thmb="62h4.page_015.image_17-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="223">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="224">Special Boundary Roles</region>
+      <region class="unknown" id="225">6</region>
+      <region class="unknown" id="226">-Task environment ------------Task interdependence</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="227">5-</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="228">?</outsider>
+      <region class="unknown" id="229">Su.bstantial'ned-e</region>
+      <region class="unknown" id="230">Weak interdependence</region>
+      <region class="unknown" id="231">Stable environment</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="232">0</outsider>
+      <outsider class="DoCO:TextBox" type="sidenote" id="233">3-</outsider>
+      <region class="unknown" id="234">Number of boundary roles per project</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="235">0</outsider>
+      <region class="DoCO:TextChunk" id="236" confidence="possible">I I I '1</region>
+      <region class="unknown" id="237">1 2 3 4</region>
+      <region class="unknown" id="238">for different numbers of boundary</region>
+      <region class="DoCO:FigureBox" id="F3">
+        <caption class="deo:Caption" id="239">Figure 3. Average project performance roles per project (N = 16).</caption>
+      </region>
+      <region class="DoCO:TextChunk" id="253">such projects, an increase in the number of boundary roles per project is associated initiallywith an increase in project performance. After a point, however, an increased number of boundary roles is associated with decreased project performance. In further support of the ideas behind Hypothesis 4, <xref ref-type="fig" rid="F3" id="240" class="deo:Reference">Figure 3</xref> also shows that projects facing smaller information processing requirements have fewer boundary roles. For these projects, an increase in the number of boundary roles is consistently associated with lower project performance. Thus, under conditions of both minimal uncertainty and substantial uncertainty, too many boundary roles may be redundant and actually impede coordination and control. As <xref ref-type="fig" rid="F3" id="241" class="deo:Reference">Figure 3</xref> is made up of a limited number of points, these results should be seen as suggestive of a curvilinear relationship between the number of boundary roles and project performance, and as a stimulus for future research. In review, boundary roles evolve to deal with several commu nication boundaries. These analyses suggest that the number of boundary roles per work area is dependent on the characteristics of the area's work. More roles per project are not always related to higher performance. For high- performing projects, the number of boundary roles per project is contingent on the nature of the project's wNork. The more the uncertainty in the task, the greater the information-processing requirements and, up to a point, more roles evolve to deal with that increased uncertainty. Thus, beyond the cross-boundary communication function, boundary roles also seem to be an effective way of dealing with extra-unit uncertainty. Finally, the results indicate that work characteristics do not cause boundary roles; rather, the high-performing work areas develop the appropriate<marker type="page" number="17"/><marker type="block"/> CONCLUSIONS AND IMPLICATIONS This research is based on the premise that the process of innovation is sensitive to the effective transfer of information across organizational boundaries. Yet because of the consequences of differentiation, widespread communication across boundaries tends to be inefficient and prone to distortion. This study has investigated one mechanism for efficiently linking an innovating subsystem, an R&amp;D laboratory, to its diverse sources of external information. This research indicates that special boundary roles function to link the innovating system with various sources of external information and feedback. Thus, communication with external areas is not distributed equally among the innovating unit's staff but takes place through a limited set of individuals able to translate between several coding schemes. These individuals, or special boundary roles, are well connected to external information areas and are frequently consulted within the innovating unit. These boundary roles exist to mediate communication across several organizational interfaces. These results support the idea that information from external areas enters innovating units in an indirect, two-step fashion. Similarly, this research supports the organizational work on boundary-spanning roles (March and Simon, 1958; Thompson, 1967; Galbraith, 1973; Miles and Perreault, 1976; Aldrich and Herker, 1977; Schwartz and Jacobson, 1977). Finally, this research indicates that while too many boundary roles may be inefficient, for high-performing projects, the number of special boundary roles is nevertheless contingent on the nature of the innovating unit's work. These results suggest several directions for future research. Most obviously, future research can develop a stronger operationalization of the boundary-spanning role. Ideally, one would like a multidimensional measure which taps formal as well as informal aspects of the role. Future research can also focus on the characteristics of these boundary roles and what functions they actually perform. Do persons filling these roles simply transfer (or filter) information, or are they involved in a wider range of activities, given their exposure to scarce information (Pettigrew, 1972; Kelly and Kranzberg, 1975). Other research questions concern the coordination of several boundary-spanning roles and developing these special roles over a period of time. Lastly, while the literature relating individual differences to boundary-role status has not been fruitful (Farris, 1972; Keller and Holland, 1975b; Allen, 1977), research by Miles and Perreault (1976) and Keller, Szylagyi, and Holland (forthcoming) suggests that an interesting avenue of research is the relation among boundary-role status, individual differences, and role conflict. From a more pragmatic point of view, these results have several implications for managers. Most generally, those interested in managing innovation should explicitly recognize the importance of key individuals in the system's communication network. Not only are special boundary roles an effi- cient mechanism for gathering and transmitting informa-<marker type="page" number="18"/><marker type="block"/> other organizational areas (for example, as integrators or as implementors of management information systems), given their exposure to critical information and their informal status (Rogers and Shoemaker, 1971; Pettigrew, 1972; Kelly and Kranzberg, 1975; Schwartz and Jacobson, 1977). Beyond recognizing the existence and the importance of special boundary roles in the innovation process, this research suggests that managers can actively encourage the development of boundary roles. Recognizing and rewarding boundary-spanning activity are most important, particularlyif the role is associated with stress and conflict (Miles and Perreault, 1976). In terms of facilitating boundary-role status, managers can ease the access of their high perfomers to both areas of external information (for example, marketing, professional meetings) and to professional literature. Similarly, managers can facilitate extensive communication networks for their high-performing individuals through a set of job assignments (Edstrom and Galbraith, 1977). Lastly, this research suggests that managers be sensitive to the impact of task characteristics on boundary roles. The number of boundary roles per work area should be tailored to meet the unit's information processing needs, and different task areas may require boundary roles with particular backgrounds and characteristics (Whitley and Frost, 1973). It is not clear that promotion or formal boundary-role status facilitates boundary-role activities (Allen, 1970). However, these several implications do suggest that managers can enhance the process of innovation by recognizing the importance of boundary roles and working to actively develop and use their organization's emergent or informal communication systems. In conclusion, given their ability to scan and interpret information from external areas and to transfer this information to the innovating unit, persons filling boundary roles can be seen as an important information processing mechanism in the innovation process. Of course, this research is limited by the type of organization studied. However, if the underly- ing logic has merit, similar results should be found in non- R&amp;D settings. Future research must extend and replicate these results as well as deal with other organizational processes which promote the flow of information so critical to the innovation process. Michael L. Tushman is an assistant professor in the Graduate School of Business, Columbia University, New York, NY 10027.</region>
+      <region class="unknown" id="243">number of boundary roles to fit the external information- processing demands of their work.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="244">601/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx245">
+        <image class="DoCO:Figure" src="62h4.page_016.image_18.png" thmb="62h4.page_016.image_18-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="246">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="248">tion, but evidence also suggests that they are important in</region>
+      <outsider class="DoCO:TextBox" type="footer" id="249">602/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx250">
+        <image class="DoCO:Figure" src="62h4.page_017.image_19.png" thmb="62h4.page_017.image_19-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="251">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="252">Special Boundary Roles</outsider>
+      <region class="unknown" id="254">REFERENCES</region>
+      <region class="unknown" id="255">Achilladeles, A., P. Jervis, and A. Aiken, Michael, and Jerald Hage Allen, Thomas J. Robertson 1971 "The organic organization and 1964 "The use of information 1971 Success and Failure in Inno- innovation." Sociology, 5: channels in R&amp;D proposal vation: Project Sappho. Sus- 63-82. preparation." Working paper, sex, England: University of Massachusetts Institute of Aldrich, Howard, and Diane Sussex Press. Technology, Sloan School of Herker Management, Paper No. 97-64. Aiken, Michael, and Jerald Hage 1977 " Bou ndary spa n ning roles 1968 "O rganizational interdepen- and organization structure." 1966 "Studies of the problem- dence and intra-organizational Academy of Management solving process in engineer- structure." American Sociolog- Review, 2: 217-230. ing design." IEEETransac- ical Review, 33: 912-930. tions on Engineering Management, EM 18: 72-83.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="256">603/ASQ</outsider>
+      <region class="DoCO:FigureBox" id="Fx257">
+        <image class="DoCO:Figure" src="62h4.page_018.image_20.png" thmb="62h4.page_018.image_20-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="footer" id="258">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <region class="unknown" id="259">communi-</region>
+      <region class="unknown" id="260">in</region>
+      <region class="unknown" id="261">MA:</region>
+      <region class="unknown" id="262">in IEEETransactions Management,</region>
+      <region class="unknown" id="263">and Ad-</region>
+      <region class="unknown" id="264">Innova-</region>
+      <region class="unknown" id="265">New</region>
+      <region class="unknown" id="266">communication</region>
+      <region class="unknown" id="267">ex-</region>
+      <region class="unknown" id="268">Sci-</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="269">1969 "Roles in technical cation networks." In Carlos Cadura (ed.), Review of Information Sciences: 1-29. New York: Basic Books. 1970 "Communication networks R&amp;D labs." R&amp;D Management, 1:14-21. 1977 Managing the Flow of Technology. Cambridge, M.I.T. Press. Allen, Thomas J., and Steven Cohen 1969. "Information flow in R&amp;D labs." Administrative Science Quarterly, 14: 12-19. Baker, Norman, James Siegmann, and Albert Rubenstein 1967 "Effects of perceived needs on the generation of ideas R&amp;D labs." on Engineering EM 14: 156-163. Baldridge, J. Victor, and Robert Burnham 1975 "Organizational innovation: individual, organizational, environmental impacts." ministrative Science Quarterly, 20: 165-176. Burns, Thomas, and G. Stalker 1966 The Management of tion. London: Tavistock Press. Coleman, James, Elihu Katz, and Herbert Menzel 1966 Diffusion of Innovation. York: Free Press. Czepiel, John 1975 "Patterns of inter- organizational and the diffusion of a major technological innovation." Academy of Management Journal, 18: 6-24. Dearborn, Robert, and Herbert Simon 1958 "Selective perceptions in ecutives." Sociometry, 21: 140-1 44. Dixon, Wilfred, and Frank Massey 1969 Statistical Analyses. New York: McGraw-Hill. Duncan, Robert 1972 "Characteristics of organizational environments." Administrative Science Quarterly, 17: 313-327. Edstrom, Anders, and Jay Galbraith 1977 "Management transfer as a coordination and control strategy." Administrative ence Quarterly, 22: 248-263.</outsider>
+      <region class="DoCO:FigureBox" id="Fx270">
+        <image class="DoCO:Figure" src="62h4.page_019.image_21.png" thmb="62h4.page_019.image_21-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="271" confidence="possible">Farris, George 1972 "The effect of individual roles on performance in innovative groups." R&amp;D Management, 3: 23-28. Frost, Robert, and Richard Whitley 1971 "Communication patterns in a research lab." R&amp;D Management, 1: 71-79. Galbraith, Jay 1973 Designing Complex Organizations. Reading, MA: Addison-Wesley. Gerstenfeld, Arthur 1970 Effective Management of Research and Development. Reading, MA: Addison- Wesley. Goldhar, Joel, Louis Bragaw, and Jules Schwartz 1976 "Information flows, management styles, and technological innovation." IEEETransactions on Engineering Management, EM 23: 51-62. Gruber, William, Otto Poengsen, and Frits Prakke 1973 "The isolation of R&amp;D from corporate management." Research Management, November: 27-31. Hage, Jerald 1974 Communication and Organizational Control. New York: Wiley. Hage, Jerald, Michael Aiken, and Cora B. Marrett 1971 "Organization structure and communication." American Sociological Review, 36: 860-871. Jurkovich, Ray 1974 "A core typology of organization environments." Administrative Science Quarterly, 19: 380-410. Katz, Daniel, and Robert Kahn 1966 The Social Psychology of Organizations. New York: Wiley. Keegan, William 1974 "Multinational scanning -a study of information sources utilized by executives in mul- tinational companies." Administrative Science Quarterly, 19: 411-422. Keller, Robert, and Winford Holland 1975a " Bou ndary spa n ning activity and R&amp;D management." IEEETransactions on Engineering Management, EM 22: 130-133. 1975b "Bou ndary spa n ning roles in an R&amp;D organization." Academy of Management Journal, 18: 388-393.</region>
+      <region class="DoCO:TextChunk" id="272" confidence="possible">Keller, Robert, Andrew Szilagyi, and Winford Holland "Boundary spanning activity and employee reactions." Human Relations (forthcoming). Kelly, Patrick, and Melvin Kranzberg 1975 Technological Innovation: A CriticalReview of Current Knowledge. Atlanta, GA: Ad- vanced Technology and Science Studies Group, Georgia Institute of Tech nology. Langrish, John, Michael Gibbons, and William Evans. 1972 Wealth from Knowledge. London: McMillan. Lawrence, Paul, and Jay Lorsch 1967 Organizations and Environment. Cambridge MA: Harvard University Press. Lazarsfeld, Paul, Bernard Berelson, and Hazel Gaudet 1948 The People's Choice. New York: Free Press. Lorsch, Jay 1965 Product Innovation and Organization. New York: McMillan. Lorsch, Jay, and Robert Morse 1975 Organizations and Their Members. New York: Basic Books. Mansfield, Edwin, John Rapoport, Jerome Schnee, Samuel Wagner, and Michael Hamburger 1971 Research and Innovation in the Modern Corporation. New York: Norton. Mansfield, Edwin, and Samuel Wagner 1975 "Organizational and strategic factors associated with prob- abilities of success in industrial research." Journal of Business, 48: 179-198. March, James, and Herbert Simon 1958 Organizations. New York: Wiley. Miles, Robert 1976 "Role set configuration as a predictor of role conflict and ambiguity." Working Paper, Yale University School of Organization and Management, Paper No. 716. Miles, Robert, and William Perreault 1976 "Organizational role conflict: its antecedents and consequences." Organizational Behavior and Human Performance, 17: 19-44.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="273">604/ASQ</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="274">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="275">Special Boundary Roles</outsider>
+      <region class="unknown" id="276">O'Reilly,</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="277">Miller, Roger 1971 Innovation, Organization, and Environment. Sherbrooke, Canada: University of Sherbrooke Press. Morton, Jack 1971 Organizing for Innovation. New York: McGraw-Hill. Myers, Summer, and Donald Marquis 1969 Successful Industrial Innovation. Washington, DC: Na- tional Science Foundation. Negandi, Anant, and Bernard Reimann 1973 "Task environment, decen- tralization, and organizational effectiveness." Human Relations, 26: 203-214. PeIz, Donald, and Frank Andrews 1966 Scientists in Organizations. New York: Wiley. Pennings, Johannes 1975 "The relevance of the structural-contingency model for organizational effective- -ness." Administrative Science Quarterly, 20: 393-410. Pettigrew, Andrew 1972 "Information control as a power resource." Sociology, 6: 187-204. Roberts, Karlene, Charles Gene Bretton, and Lyman Porter 1974 "Organizational theory and organizational communication: a communication fail- ure." Human Relations, 27: 501-524. Rogers, Edward, and Floyd Shoemaker 1971 Communication of Innovations. New York: Free Press. Rosenbloom, Richard, and Frank Wolek 1970 Technology and Information Transfer. Boston: Harvard Business School. Rothberg, Robert 1976 Corporate Strategy and Product Innovation. New York: Free Press.</outsider>
+      <region class="DoCO:FigureBox" id="Fx278">
+        <image class="DoCO:Figure" src="62h4.page_020.image_22.png" thmb="62h4.page_020.image_22-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="279" confidence="possible">Schmookler, Jacob 1966 Invention and Economic Growth. Cambridge, MA: Harvard University Press. Schwartz, Donald, and Eugene Jacobson 1977 "Organizational communication network analysis: the liaison communication role." Organization Behavior and Human Performance, 18: 158-174. Schilling, C., and J. Bernard 1964 "Informal communication among bio-scientists." Washington, DC: George Washington University, Re- port 16A. Siegal, Sidney 1956 Non Parametric Statistics. New York: McGraw-Hill. Smith, Claget G. 1970 "Consultation and decision processes in a R&amp;D laboratory." Administrative Science Quarterly, 15: 203-215. Taylor, Robert, and James Utterback 1975 "A longitudinal study of communication in research." IEEETransactions on Engineering Management. EM 22: 80-87. Thompson, James D. 1967 Organizations in Action. New York: McGraw-Hill. Tushman, Michael L., and David A. Nadler "Communication and technical roles in R&amp;D laboratories: an information processing approach." Management Science (forthcoming). Utterback, James 1971 "The process of technological innovation within the firm." Academy of Management Journal, 14: 75-88. 1974 "Innovation in industry and the diffusion of technology." Science, 183: 620-626.</region>
+      <region class="DoCO:TextChunk" id="280" confidence="possible">Van de Ven, Andrew, Andre Delbecq, and Richard Koenig 1976 "Determinants of coordination modes within organizations." American Sociological Review, 41: 322-338. Van de Ven, Andrew, and Richard Koenig 1976 "A process model for pro- gram planning and evaluation." Journal of Economics and Business, 28: 161 -170. Von Hippel, Eric 1976a "The dominant role of the user in semiconductor and electronic subassembly process innovation." Working Paper, Massachusetts Institute of Technology, Sloan School of Management, Paper No. 853-76. 1976b "The dominant role of users in the instrument innovation process." Research Policy, 5: 212-239. Walsh, V., and A. Baker 1972 "Project management and communication patterns in industrial research." R&amp;D Management, 2: 103-109. Weiss, Robert, and Eugene Jacobson 1960 "Structure of complex organizations." In Jacob Moreno (ed.), Sociometry Reader: 522-533. New York: Free Press. Whitley, Richard, and Penelope Frost 1971 "The measurement of performance in research." Human Relations, 24: 161- 178. 1973 "Task type and information transfer in a government research lab." Human Relations, 25: 537-550. Wilensky, Harold 1967 Orga nizational Intelligence. New York: Basic Books. Zaltman, Gerald, Robert Duncan, and Jonny Holbek 1973 Innovation and Organizations. New York: Wiley.</region>
+      <outsider class="DoCO:TextBox" type="footer" id="281">605/ASQ</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="282">This content downloaded from 148.88.67.24 on Sun, 17 Nov 2013 16:10:59 PM All use subject to JSTOR Terms and Conditions</outsider>
+    </front>
+    <body class="DoCO:BodyMatter"/>
+  </article>
+</pdfx>

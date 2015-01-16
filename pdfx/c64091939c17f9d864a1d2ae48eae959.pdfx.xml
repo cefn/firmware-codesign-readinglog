@@ -1,0 +1,889 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>b62bc1c930b9dc0b8e071b3237f08a4295058e46928f105639d73f0184be10a8</job>
+    <base_name>62d2</base_name>
+    <doi>http://dx.doi.org/10.1016/j.apergo.2009.09.001</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="unknown" id="2">This is an author-archived preprint version of the article, as permitted by Elsevier’s author rights policy. The final, definitive version of the article was published in Applied Ergonomics as Lockton, D., Harrison, D.J., Stanton, N.A. ‘The Design with Intent Method: a design tool for influencing user behaviour’. Applied Ergonomics Vol.41 No.3, pp. 382-392, May 2010, <ext-link ext-link-type="uri" href="http://dx.doi.org/10.1016/j.apergo.2009.09.001" id="1">http://dx.doi.org/10.1016/j.apergo.2009.09.001</ext-link></region>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">The Design with Intent Method: A design tool for influencing user behaviour</article-title>
+      </title-group>
+      <region class="unknown" id="4">b</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="5">Dan Lockton a</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="6">David Harrison a</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="7">Neville A. Stanton</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="8">a Cleaner Electronics Research Group, Brunel Design, School of Engineering &amp; Design, Brunel University, Uxbridge, Middlesex, UB8 3PH, UK b Transportation Research Group, School of Civil Engineering &amp; the Environment, University of Southampton, Highfield, Southampton, Hampshire, SO17 1BJ, UK</region>
+      <abstract class="DoCO:Abstract" id="10">Using product and system design to influence user behaviour offers potential for improving performance and reducing user error, yet little guidance is available at the concept generation stage for design teams briefed with influencing user behaviour. This article presents the Design with Intent Method, an innovation tool for designers working in this area, illustrated via application to an everyday human-technology interaction problem: reducing the likelihood of a customer leaving his or her card in an automatic teller machine. The example application results in a range of feasible design concepts which are comparable to existing developments in ATM design, demonstrating that the method has potential for development and application as part of a user-centred design process. <marker type="block"/> Keywords: Product design, interaction design, user behaviour, methods</abstract>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="11" page="1" column="1">1 Introduction</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="12" page="1" column="1">1.1 Designer intent and influencing behaviour</h2>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="33" page="2" column="1">1.2 Background: perspectives on influencing user behaviour</h2>
+          <region class="DoCO:TextChunk" id="74" page="2" column="1">Three presuppositions underpin the DwI research: (i) If certain design techniques have effects on user behaviour unintentionally, the techniques could also be applied intentionally; (ii) Differences in design approach between environments, products (hardware/software) and services largely are due to disciplinary boundaries rather than innate incompatibility—all are designed systems, and many techniques, or analogues of them, recur across multiple fields of application; and (iii) It is therefore possible to abstract certain techniques from examples in one field, and use them in others, following Hendrick’s (2008) argument that “the HSIT <marker type="page" number="3"/><marker type="block"/> [human system interface technology] used in the designing of one system, product or built environment can be applied to other, very different ones.”<marker type="block"/> Examples of DwI in design, human-computer interaction (HCI) and architecture are often based on environmental and ecological psychology, from behaviour settings (<xref ref-type="bibr" rid="R8" id="39" class="deo:Reference">Barker 1968</xref>; <xref ref-type="bibr" rid="R81" id="40" class="deo:Reference">Sommer 1969</xref>) to Gibson’s affordances (1986), extended by Norman (1988, 1999, 2008) and others (<xref ref-type="bibr" rid="R38" id="41" class="deo:Reference">Gaver 1991</xref>, 1992; <xref ref-type="bibr" rid="R63" id="42" class="deo:Reference">McGrenere &amp; Ho 2000</xref>). In parallel, the development of error-proofing, from Shingo’s (1986) poka-yoke manufacturing quality control to the design of healthcare processes (<xref ref-type="bibr" rid="R41" id="43" class="deo:Reference">Grout 2007</xref>; <xref ref-type="bibr" rid="R29" id="44" class="deo:Reference">Design Council et al. 2003</xref>; <xref ref-type="bibr" rid="R52" id="45" class="deo:Reference">Lane et al 2006</xref>) has promulgated often affordance-based techniques (<xref ref-type="bibr" rid="R11" id="46" class="deo:Reference">Beatty 2008</xref>) within organisational policy. Diverse practitioners are thus aware of the strategic use of affordances as ‘interventions’ influencing user behaviour, from forcing functions reducing vehicle misfuelling (<xref ref-type="bibr" rid="R1" id="47" class="deo:Reference">Adams &amp; David 2007</xref>) to councils preventing the homeless sleeping on benches (<xref ref-type="bibr" rid="R55" id="48" class="deo:Reference">Lockton 2005</xref>).<marker type="block"/> In behavioural economics, the ‘heuristics and biases’ approach pioneered by <xref ref-type="bibr" rid="R46" id="50" class="deo:Reference">Kahneman et al (1982)</xref> has recently taken a high-profile turn (<xref ref-type="bibr" rid="R25" id="51" class="deo:Reference">Cialdini 2003</xref>; <xref ref-type="bibr" rid="R5" id="52" class="deo:Reference">Ariely 2008</xref>; <xref ref-type="bibr" rid="R89" id="53" class="deo:Reference">Thaler &amp; Sunstein 2008</xref>) towards influencing behaviour, and awareness of this approach among human factors practitioners appears to be increasing, e.g. Seva et al’s (2007) use of the affect heuristic (<xref ref-type="bibr" rid="R80" id="54" class="deo:Reference">Slovic et al. 2002</xref>) and a recent lead article in The Ergonomist (<xref ref-type="bibr" rid="R69" id="55" class="deo:Reference">Richardson 2008</xref>). It is therefore desirable that design methods for influencing behaviour include a treatment of these principles, in a form useful to designers looking to apply them.<marker type="block"/> Persuasive Technology (<xref ref-type="bibr" rid="R35" id="57" class="deo:Reference">Fogg 1999</xref>, 2003) applies elements of rhetoric (<xref ref-type="bibr" rid="R49" id="58" class="deo:Reference">Kjaer Christensen &amp; Hasle 2007</xref>) and conditioning to influence behaviour, mainly (so far) in the context of social networking websites and mobile computing. This is one of the main bodies of current work pertinent to the DwI concept, but the criterion of persuasion—requiring attitude change as a precursor to behaviour change—excludes situations where attitude change is not required for changes in behaviour, especially in safety systems, where the designer does not necessarily care whether a user’s attitude changes towards a behaviour, simply that the behaviour itself changes. The interlock on a microwave oven preventing operation with the door open influences user behaviour successfully without explicitly ‘persuading’ users of the need to operate the device safely, though that may also be a parallel effect.<marker type="block"/> It has been argued (<xref ref-type="bibr" rid="R16" id="60" class="deo:Reference">Buchanan 1985</xref>; <xref ref-type="bibr" rid="R68" id="61" class="deo:Reference">Redstrom 2006</xref>) that all design is intended to influence user behaviour, in the sense that the artefacts around us contain socially constructed ‘scripts’ for users (<xref ref-type="bibr" rid="R2" id="62" class="deo:Reference">Akrich 1992</xref>)—e.g. if we position a chair at a workstation, we are influencing a user to ‘follow the script’ and sit down. Nevertheless, systems intentionally designed to influence behaviour different from that usually associated with the situation, or in situations where a user would not otherwise have a strong idea of what to do (e.g. with an unfamiliar interface), represent a degree of designer intent beyond this. Any such products will, of course, always be used within a context involving users’ own intentions: emergent behaviours, intuition (<xref ref-type="bibr" rid="R14" id="63" class="deo:Reference">Blackler et al 2009</xref>),<marker type="page" number="4"/><marker type="block"/> appropriation (<xref ref-type="bibr" rid="R74" id="68" class="deo:Reference">Salovaara 2008</xref>) or prior experience (Chamorro-<xref ref-type="bibr" rid="R21" id="69" class="deo:Reference">Koc et al. 2008</xref>) mean that designers’ intended use (or usability) is not always translated into user behaviour. The task-artefact cycle (<xref ref-type="bibr" rid="R19" id="70" class="deo:Reference">Carroll et al. 1991</xref>) suggests that new artefacts will coevolve with behaviours (<xref ref-type="bibr" rid="R91" id="71" class="deo:Reference">Walker et al. 2009</xref>), in turn offering new possibilities. Equally, as <xref ref-type="bibr" rid="R47" id="72" class="deo:Reference">Kanis (1998)</xref> shows, users operate the same products in many ways and still achieve the desired results. In some fields, such as security or health and safety, user adherence to intended behaviour is more critical than in others—as <xref ref-type="bibr" rid="R18" id="73" class="deo:Reference">Cairns &amp; Cox (2008)</xref> put it, “in safety critical systems, like air traffic control or medical monitors... the cost of failure is never acceptable.”</region>
+          <region class="unknown" id="35" page="2" column="1">*Corresponding author. Tel.: +44 1895 267080</region>
+          <outsider class="DoCO:TextBox" type="footer" id="37" page="2" column="1">E-mail address: <email id="36">Daniel.Lockton@brunel.ac.uk</email> (D. Lockton)</outsider>
+          <region class="unknown" id="65" page="3" column="1">*Corresponding author. Tel.: +44 1895 267080</region>
+          <outsider class="DoCO:TextBox" type="footer" id="67" page="3" column="1">E-mail address: <email id="66">Daniel.Lockton@brunel.ac.uk</email> (D. Lockton)</outsider>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="75" page="4" column="1">1.3 Scope of application: reducing environmental impact of product use</h2>
+          <region class="DoCO:TextChunk" id="87" page="4" column="1">The DwI Method has been developed primarily in response to the need of influencing user behaviour to reduce the environmental impact of products which consume resources during use: helping people use products and systems more efficiently. Users’ behaviour and operational decisions can contribute significantly to environmental impacts (<xref ref-type="bibr" rid="R31" id="76" class="deo:Reference">Elias et al. 2007</xref>; <xref ref-type="bibr" rid="R94" id="77" class="deo:Reference">Wood &amp; Newborough 2003</xref>; <xref ref-type="bibr" rid="R62" id="78" class="deo:Reference">McCalley &amp; Midden 2002</xref>), and the UK Government’s Stern Review (<xref ref-type="bibr" rid="R88" id="79" class="deo:Reference">Stern 2007</xref>) identifies behaviour change as a priority in this field. Some design researchers (<xref ref-type="bibr" rid="R53" id="80" class="deo:Reference">Lilley et al. 2005</xref>, 2006; <xref ref-type="bibr" rid="R31" id="81" class="deo:Reference">Elias et al. 2007</xref>; <xref ref-type="bibr" rid="R57" id="82" class="deo:Reference">Lockton et al. 2008b</xref>, 2009b; <xref ref-type="bibr" rid="R92" id="83" class="deo:Reference">Wever et al. 2008</xref>; <xref ref-type="bibr" rid="R70" id="84" class="deo:Reference">Rodriguez &amp; Boks 2005</xref>; <xref ref-type="bibr" rid="R13" id="85" class="deo:Reference">Bhamra et al. 2008</xref>) have begun to develop the field of ‘design interventions’ applicable by designers as responses to user behaviour ‘problems’, particularly environmental, but also ‘pro- social’ behaviour generally. Within the ergonomics community, this work begins to answer the call of <xref ref-type="bibr" rid="R34" id="86" class="deo:Reference">Flemming et al (2008)</xref> for the application of human factors expertise to ‘the sustainability domain’.</region>
+          <region class="DoCO:TextChunk" id="88" confidence="possible" page="4" column="1">Nevertheless, the DwI Method is intended to be generally applicable to influencing user behaviour, including but going beyond the ecodesign field; this paper thus illustrates its potential by application to an everyday human-technology interaction problem: reducing the likelihood of a customer leaving his or her card in an automatic teller machine (ATM).</region>
+          <region class="unknown" id="89" page="4" column="1">*Corresponding author. Tel.: +44 1895 267080</region>
+          <outsider class="DoCO:TextBox" type="footer" id="91" page="4" column="1">E-mail address: <email id="90">Daniel.Lockton@brunel.ac.uk</email> (D. Lockton)</outsider>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="23" page="1" column="1">Stanton and Baber’s 1998 editorial for this journal, ‘Designing for Consumers’ ( <xref ref-type="bibr" rid="R84" id="13" class="deo:Reference">Stanton &amp; Baber 1998a</xref>) begins with the notion that “[t]here are varying degrees of success to which the designers’ intentions regarding product use are realised. In designing products, designers are also designing user activity, which does not occur independently of the product.” It goes on to note that “[i]n some way, consumer behaviour is shaped by products as much as products are shaped by consumer behaviour.”<marker type="page" number="2"/><marker type="block"/> Much human factors work on improving system performance by reducing user error (e.g. <xref ref-type="bibr" rid="R7" id="18" class="deo:Reference">Baber &amp; Stanton 1996</xref>) and interaction design in general is effectively about influencing user behaviour, even if rarely recognised as such (e.g. <xref ref-type="bibr" rid="R50" id="19" class="deo:Reference">Kolko 2007</xref>). Herbert Simon’s assertion that “everyone designs who devises courses of action aimed at changing existing situations into preferred ones” (<xref ref-type="bibr" rid="R78" id="20" class="deo:Reference">Simon 1969</xref>) applies to designing behaviour as well as physical features: indeed, the concept of design explicitly intended to influence users towards particular behaviours recurs across a number of disciplines, from urban planning to reduce crime (e.g. <xref ref-type="bibr" rid="R48" id="21" class="deo:Reference">Katyal 2002</xref>) to human-computer interaction (e.g. <xref ref-type="bibr" rid="R10" id="22" class="deo:Reference">Beale 2007</xref>).</region>
+      <region class="unknown" id="15" page="1" column="1">*Corresponding author. Tel.: +44 1895 267080</region>
+      <outsider class="DoCO:TextBox" type="footer" id="17" page="1" column="1">E-mail address: <email id="16">Daniel.Lockton@brunel.ac.uk</email> (D. Lockton)</outsider>
+      <region class="DoCO:TextChunk" id="30" confidence="possible" page="2" column="1">However, little work has been done to link ideas and techniques from these disparate fields, identify common themes, and present them in a form which can be applied during the design process to develop new products and systems, and improve existing ones. While there is growing recognition that “designers are in the behaviour business” (<xref ref-type="bibr" rid="R32" id="24" class="deo:Reference">Fabricant 2009</xref>), there is little general guidance available for design teams briefed with influencing user behaviour, particularly in contexts where social benefit would result: this facet of the design process is not explicitly covered by the variety of ergonomics tools available to designers (<xref ref-type="bibr" rid="R86" id="25" class="deo:Reference">Stanton &amp; Young 1998</xref>). As <xref ref-type="bibr" rid="R15" id="26" class="deo:Reference">Blevis (2007)</xref> puts it (in the context of influencing more sustainable user behaviour), “[i]t is easier to state the kinds of behaviours we would like to achieve from the perspective of sustainability than it is to account for how such behaviours may be adequately motivated.” While in some specific domains, ‘how-to’ guides have been evolved, (e.g. <xref ref-type="bibr" rid="R27" id="27" class="deo:Reference">Crowe 2000</xref> in architectural design against crime; <xref ref-type="bibr" rid="R41" id="28" class="deo:Reference">Grout 2007</xref> in medical design errorproofing; <xref ref-type="bibr" rid="R20" id="29" class="deo:Reference">Chak 2003</xref> in persuasive website design), there are no cross-domain guides applicable by designers working on ‘new’ problems, or new ways of addressing existing user behaviour problems.</region>
+      <region class="DoCO:TextChunk" id="32" page="2" column="1">The Design with Intent Method, introduced in this article, aims to address this deficiency, suggesting relevant design techniques for influencing types of behaviour, and providing examples of how similar problems have been tackled elsewhere. Defining ‘Design with Intent’ (DwI) as ‘design intended to influence or result in certain user behaviour’, the authors have reviewed examples from a variety of disciplines (<xref ref-type="bibr" rid="R56" id="31" class="deo:Reference">Lockton et al 2008a</xref>, 2008b), supported by a blog website and more recently an ongoing survey of designers, receiving comments, suggestions and examples from readers around the world, and incorporated this analysis into a tool for designers.</region>
+      <section class="deo:Methods">
+        <h1 class="DoCO:SectionTitle" id="92" page="5" column="1">2 The Design With Intent Method</h1>
+        <region class="DoCO:TextChunk" id="95" page="5" column="1">The starting point of the DwI Method is the existence of a product, service or environment—a system—where users’ behaviour is important to its operation, or where it would be strategically desirable to alter the way it is used. The goal of the design process is to modify or redesign the system to achieve this: to influence users’ behaviour towards a particular ‘target behaviour’. The method is a ‘suggestion tool’, inspiring design solutions by suggesting techniques, with examples applicable to particular target behaviours. These target behaviours have been inferred from assessing examples from different disciplines (section 1.2) and are by no means definitive or complete: they are simply an aid to selecting a useful subset of techniques: a range of ways to address the brief, which can be developed into concepts and assessed further against the project criteria. While the DwI Method cannot replace the domain expertise, insight or creativity which experienced professionals can bring, it is intended to assist in exploring responses to a brief and allow designers to benefit from others’ work on analogous problems. Throughout, the aim has been to make any work of direct relevance and immediate use to designers in the context of real projects and briefs rather than theoretical development from first principles, hence a ‘design pattern’ method, after <xref ref-type="bibr" rid="R3" id="93" class="deo:Reference">Alexander et al (1977)</xref> and <xref ref-type="bibr" rid="R90" id="94" class="deo:Reference">Tidwell (2005)</xref>, was considered appropriate.</region>
+        <region class="DoCO:TextChunk" id="96" confidence="possible" page="5" column="1">and</region>
+        <region class="DoCO:TextChunk" id="98" confidence="possible" page="5" column="1">The general structure of the method is shown in <xref ref-type="fig" rid="F1" id="97" class="deo:Reference">Figure 1</xref>: there are two ‘modes’, depending on how the designer or design team prefers to make use of it.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="101" page="5" column="1">2.1 Overall structure The general structure of the method is shown in <xref ref-type="fig" rid="F1" id="99" class="deo:Reference">Figure 1</xref>: there are two ‘modes’, inspiration and prescription, depending on how the designer or design team prefers to make use of it. [<xref ref-type="fig" rid="F1" id="100" class="deo:Reference">Figure 1</xref> about here please]</h2>
+          <region class="DoCO:TextChunk" id="104" page="5" column="1">In inspiration mode, the designer takes inspiration from a set of ‘headline’ design patterns which are applicable to a wide range of target behaviours, grouped into six different ‘lenses’ (section 2.2) representing particular disciplinary perspectives on using design to influence behaviour. The patterns, illustrated with examples from different fields, serve as a creative trigger. The use of illustrated examples in an ‘idea space’ is intended to allow designers to understand the patterns quickly, even where the terminology is unfamiliar. <xref ref-type="fig" rid="F2" id="102" class="deo:Reference">Figure 2</xref> shows the ‘toolkit’ poster (<xref ref-type="bibr" rid="R58" id="103" class="deo:Reference">Lockton et al 2009a</xref>) produced for use in workshop sessions and made available online as a reference for designers, together with a detail view of one of the headline patterns from the Cognitive lens, Social proof.</region>
+          <region class="unknown" id="106" page="5" column="1"> [<xref ref-type="fig" rid="F2" id="105" class="deo:Reference">Figure 2</xref> about here please]</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="107" page="6" column="1">2.1.2 Prescription mode</h3>
+            <region class="DoCO:TextChunk" id="115" page="6" column="1">In prescription mode, the designer formulates the brief in terms of one of a range of target behaviours (section 2.3), describing interactions; for each target behaviour, a subset of the most applicable design patterns from each lens is presented, again illustrated with examples, the number varying depending on the target behaviour, but typically 15—25 applicable patterns. While still serving as a creative inspiration, this mode effectively ‘prescribes’ a set of patterns which are especially applicable or have been applied to similar problems by other designers, in other contexts. Each pattern is described and the advantages and disadvantages discussed with notes on its implementation, user reactions and effectiveness. <marker type="block"/> From the prescribed patterns, a range of design concepts can be generated, all of which have at least some ‘precedent’ in terms of the underlying patterns’ application in behaviour change contexts. The form of the prescription mode, loosely modelled on TRIZ (<xref ref-type="bibr" rid="R4" id="109" class="deo:Reference">Altshuller 1996</xref>)—which has been developed and applied in errorproofing (<xref ref-type="bibr" rid="R41" id="110" class="deo:Reference">Grout 2007</xref>) and ecodesign (<xref ref-type="bibr" rid="R45" id="111" class="deo:Reference">Jones et al. 2001</xref>; <xref ref-type="bibr" rid="R26" id="112" class="deo:Reference">Craig et al. 2008</xref>)—leads the designer from a specific brief to a more general brief (the target behaviour), and general solutions (the suggested patterns) then serve as the model for specific solutions to the original brief. The reality of most design processes is that constraints, whether financial, political, or legal issues, development time, domain expertise or organisational strategies will make many patterns difficult to apply, but even a few patterns and examples can inspire a range of concepts. (<xref ref-type="fig" rid="F4" id="113" class="deo:Reference">Figure 4</xref> in section 3.2.3 shows some of the design patterns, presented in the form of ‘method cards’ along the lines of <xref ref-type="bibr" rid="R44" id="114" class="deo:Reference">IDEO (2003)</xref>, prescribed for a particular target behaviour.)</region>
+          </section>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="116" page="6" column="1">2.1.3 Evolution of the Method</h3>
+            <region class="DoCO:TextChunk" id="119" page="6" column="1">The DwI Method has been developed through a series of workshop sessions, mainly with design students and recent graduates (<xref ref-type="bibr" rid="R59" id="117" class="deo:Reference">Lockton et al 2009b</xref>), testing the usability and utility of the method by applying it to briefs including: influencing reduced use of household lighting; reducing wasted paper and ink/toner in home and office printing; influencing people not to leave bathroom taps running while brushing their teeth; encouraging householders to close curtains at night to conserve heat; reducing unnecessary overfilling of electric kettles; and encouraging continued participation in an online learning system. These sessions have resulted in an evolution of the form and structure of the method, from a procedural tree, through various kinds of ‘idea space’ diagrams, with different classification schemes for the design patterns and target behaviours. The division into inspiration and prescription modes was introduced as a result of observing how different participants worked with the briefs they faced (<xref ref-type="bibr" rid="R59" id="118" class="deo:Reference">Lockton et al 2009b</xref>). The workshop sessions have also compared the relative effectiveness of the inspiration and prescription modes in terms of the numbers, variety and relevance of concepts produced by participants working individually and in teams.</region>
+          </section>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="120" page="6" column="1">2.2 Six ‘lenses’ on influencing user behaviour</h2>
+          <region class="DoCO:TextChunk" id="123" page="6" column="1">The six lenses ( <xref ref-type="table" rid="T1" id="121" class="deo:Reference">Table 1</xref>) are a way of grouping design patterns which share similar considerations, behavioural understanding or assumptions about how to influence users: to some extent, these groups—Architectural,<marker type="page" number="7"/><marker type="block"/> Errorproofing, Persuasive, Visual, Cognitive and Security—resolve into particular ‘worldviews’, the way that a designer versed in a particular discipline might approach a brief on influencing behaviour.</region>
+          <region class="DoCO:TableBox" id="T1">
+            <caption class="deo:Caption" id="124" confidence="possible" page="7" column="1">Table 1. Six ‘lenses’ on influencing user behaviour</caption>
+            <content>
+              <table class="DoCO:Table" number="1" page="7">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> Architectural lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Architectural Lens draws on techniques used to influence user behaviour in</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> architecture, urban planning and related disciplines such as traffic management</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> and</td>
+                    <td class="table"> crime prevention through environmental design (Crowe 2000; Katyal 2002;</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> see</td>
+                    <td class="table.strange"> also the Security lens). While the techniques have been developed in the built</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> environment (e.g. Alexander et al. 1977), many ideas can also be applied in</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> interaction and product design, even in software or services; they are effectively</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> about</td>
+                    <td class="table.strange"> using the structure of systems to influence behaviour.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Errorproofing lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Errorproofing Lens treats deviations from the target behaviour as ‘errors’</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> which</td>
+                    <td class="table.strange"> design can help avoid, either by making it easier for users to work without</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> making</td>
+                    <td class="table.strange"> errors, or by making errors impossible in the first place (Shingo 1986;</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> Chase</td>
+                    <td class="table.strange"> &amp; Stewart 2002; Grout 2007). This view on influencing behaviour is often</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> found</td>
+                    <td class="table.strange"> in health &amp; safety-related design, medical device design and manufacturing</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> engineering.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Persuasive lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Persuasive Lens represents the emerging field of persuasive technology (Fogg</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> 2003),</td>
+                    <td class="table.strange"> where computers, mobile phones and other systems with interfaces are</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> used</td>
+                    <td class="table.strange"> to persuade users: changing attitudes and so changing behaviour through</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> contextual information, advice and guidance.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Visual lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Visual Lens combines ideas from product semantics, semiotics, ecological</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> psychology and Gestalt psychology about how users perceive patterns and</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> meanings as they interact with the systems around them, and the use of metaphors</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (e.g.</td>
+                    <td class="table.strange"> Saffer 2005; Barr et al. 2002).</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Cognitive lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Cognitive Lens draws on research in behavioural economics looking at how</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> people</td>
+                    <td class="table.strange"> make decisions, and how this is affected by heuristics and biases</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (Kahneman et al. 1982). If designers understand how users make interaction</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> decisions, that knowledge can be used to influence interaction behaviour. Where</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> users</td>
+                    <td class="table.strange"> often make poor decisions, design can help counter this.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Security lens</td>
+                    <td class="table"> The</td>
+                    <td class="table"> Security Lens represents a ‘security’ worldview, i.e. that undesired user</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> behaviour is something to deter and/or prevent though ‘countermeasures’</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> (Schneier 2003) designed into products, systems and environments, both</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> physically and online, with examples such as digital rights management.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> From</td>
+                    <td class="table.strange"> a designer’s point of view, this can be an ‘unfriendly’ and, in some</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> circumstances unethical view to take, effectively treating users as ‘guilty until</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> proven</td>
+                    <td class="table.strange"> innocent’.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> For example, a designer</td>
+                    <td class="table.strange"> experienced</td>
+                    <td class="table.strange"> in HCI or safety engineering may have a repertoire of patterns which</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> take an errorproofing</td>
+                    <td class="table.strange"> approach,</td>
+                    <td class="table.strange"> treating deviations from a target behaviour as errors to be prevented or</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> less likely through the</td>
+                    <td class="table.strange"> use of defaults,</td>
+                    <td class="table.strange"> forcing functions and warning alerts, whereas a graphic designer</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> focus on using visual</td>
+                    <td class="table.strange"> techniques to</td>
+                    <td class="table.strange"> influence perceptions. The aim of the lenses is primarily to allow</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> designers to see ‘how</td>
+                    <td class="table.strange"> others might</td>
+                    <td class="table.strange"> approach a problem’, allowing designers to think outside the immediate</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> frame of reference suggested</td>
+                    <td class="table.strange"> by</td>
+                    <td class="table.strange"> the brief (or client); the groupings of patterns is not rigorously defined</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr class="table">
+                    <th class="table"> theoretically.</th>
+                    <th class="table"></th>
+                    <th class="table"></th>
+                  </tr>
+                </tfoot>
+              </table>
+            </content>
+            <region class="TableInfo" id="136" confidence="possible" page="7" column="1">Architectural lens The Architectural Lens draws on techniques used to influence user behaviour in architecture, urban planning and related disciplines such as traffic management and crime prevention through environmental design (<xref ref-type="bibr" rid="R27" id="125" class="deo:Reference">Crowe 2000</xref>; <xref ref-type="bibr" rid="R48" id="126" class="deo:Reference">Katyal 2002</xref>; see also the Security lens). While the techniques have been developed in the built environment (e.g. <xref ref-type="bibr" rid="R3" id="127" class="deo:Reference">Alexander et al. 1977</xref>), many ideas can also be applied in interaction and product design, even in software or services; they are effectively about using the structure of systems to influence behaviour. Errorproofing lens The Errorproofing Lens treats deviations from the target behaviour as ‘errors’ which design can help avoid, either by making it easier for users to work without making errors, or by making errors impossible in the first place (<xref ref-type="bibr" rid="R77" id="128" class="deo:Reference">Shingo 1986</xref>; <xref ref-type="bibr" rid="R23" id="129" class="deo:Reference">Chase &amp; Stewart 2002</xref>; <xref ref-type="bibr" rid="R41" id="130" class="deo:Reference">Grout 2007</xref>). This view on influencing behaviour is often found in health &amp; safety-related design, medical device design and manufacturing engineering. Persuasive lens The Persuasive Lens represents the emerging field of persuasive technology (<xref ref-type="bibr" rid="R36" id="131" class="deo:Reference">Fogg 2003</xref>), where computers, mobile phones and other systems with interfaces are used to persuade users: changing attitudes and so changing behaviour through contextual information, advice and guidance. Visual lens The Visual Lens combines ideas from product semantics, semiotics, ecological psychology and Gestalt psychology about how users perceive patterns and meanings as they interact with the systems around them, and the use of metaphors (e.g. <xref ref-type="bibr" rid="R73" id="132" class="deo:Reference">Saffer 2005</xref>; <xref ref-type="bibr" rid="R9" id="133" class="deo:Reference">Barr et al. 2002</xref>). Cognitive lens The Cognitive Lens draws on research in behavioural economics looking at how people make decisions, and how this is affected by heuristics and biases (<xref ref-type="bibr" rid="R46" id="134" class="deo:Reference">Kahneman et al. 1982</xref>). If designers understand how users make interaction decisions, that knowledge can be used to influence interaction behaviour. Where users often make poor decisions, design can help counter this. Security lens The Security Lens represents a ‘security’ worldview, i.e. that undesired user behaviour is something to deter and/or prevent though ‘countermeasures’ (<xref ref-type="bibr" rid="R75" id="135" class="deo:Reference">Schneier 2003</xref>) designed into products, systems and environments, both physically and online, with examples such as digital rights management. From a designer’s point of view, this can be an ‘unfriendly’ and, in some circumstances unethical view to take, effectively treating users as ‘guilty until proven innocent’. For example, a designer experienced in HCI or safety engineering may have a repertoire of patterns which take an errorproofing approach, treating deviations from a target behaviour as errors to be prevented or made less likely through the use of defaults, forcing functions and warning alerts, whereas a graphic designer may focus on using visual techniques to influence perceptions. The aim of the lenses is primarily to allow designers to see ‘how others might approach a problem’, allowing designers to think outside the immediate frame of reference suggested by the brief (or client); the groupings of patterns is not rigorously defined theoretically.</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="137" page="7" column="1">2.3 Target behaviours</h2>
+          <region class="DoCO:TextChunk" id="143" page="7" column="1">In prescription mode, the DwI Method makes use of target behaviours: intended outcomes, particular user behaviours, which we want to achieve through design. Target behaviours provide an abstract classification for the intended user behaviour, expressed in terms of a goal. The ‘success’ of such a design could be measured <marker type="page" number="8"/><marker type="block"/> by the extent to which the target behaviour is achieved. <xref ref-type="table" rid="T2" id="139" class="deo:Reference">Table 2</xref> shows eleven target behaviours identified from real examples, applicable to a range of briefs about influencing user behaviour; there are potentially many more. Each target behaviour maps to a number of potentially applicable design patterns.<marker type="block"/> Some briefs could be expressed using more than one high-level target behaviour; equally, for a task involving multiple system elements in a process, different target behaviours may apply at different stages: there are, potentially, micro-strategies and macro-strategies. This point is expanded in the ATM example (section 3.2.1).</region>
+          <region class="DoCO:TableBox" id="T2">
+            <caption class="deo:Caption" id="141" confidence="possible" page="8" column="1">Table 2. Target behaviours with examples</caption>
+            <content>
+              <h1 class="table"> User-system interaction</h1>
+              <table class="DoCO:Table" number="2" page="8">
+                <thead class="table">
+                  <tr class="table">
+                    <th class="table"> Influencing</th>
+                    <th class="table"> interactions between a user and a system</th>
+                    <th class="table"> Examples</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="table">
+                    <td class="table"> S1</td>
+                    <td class="table"> The user follows a process or path, doing</td>
+                    <td class="table"> Customer places order via website without missing</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> things in a sequence chosen by the designer</td>
+                    <td class="table"> out any steps</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S2</td>
+                    <td class="table"> The user follows a process or path that’s</td>
+                    <td class="table"> User only spends as much time as really needed in</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> optimised for those particular circumstances</td>
+                    <td class="table"> the shower</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S3</td>
+                    <td class="table"> Decision among alternatives: a user’s choice</td>
+                    <td class="table"> Diners choose healthier meal in office canteen</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> is guided</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S4</td>
+                    <td class="table"> Only certain users / groups of users can use</td>
+                    <td class="table"> Only users who know PIN can access bank account</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> something</td>
+                    <td class="table"> via ATM</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S5</td>
+                    <td class="table"> Only users already behaving in a certain</td>
+                    <td class="table"> If a driver’s travelling below the speed limit, the next</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> way get to use something</td>
+                    <td class="table"> set of traffic lights turn green, otherwise they stay red</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S6</td>
+                    <td class="table"> No users can use something in a particular</td>
+                    <td class="table"> Park bench fitted with central armrest to prevent</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> way, regardless of who they are or what</td>
+                    <td class="table"> anyone lying down</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> they’ve done before</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> S7</td>
+                    <td class="table"> Users only get functionality when</td>
+                    <td class="table"> Office lighting cannot be switched on if ambient</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> environmental criteria are satisfied</td>
+                    <td class="table"> daylight adequate</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> User-user</td>
+                    <td class="table.strange"> interaction</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> Influencing</td>
+                    <td class="table"> interaction between users and other users,</td>
+                    <td class="table"> by system Examples</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> U1</td>
+                    <td class="table"> Multiple users are kept separate so they</td>
+                    <td class="table"> Traffic follows one-way system into/out of car park</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> don’t affect each other while using a system</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> U2</td>
+                    <td class="table"> Users (and groups of users) do interact with,</td>
+                    <td class="table"> Staff from different departments mix socially in a</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> and affect each other while using a system</td>
+                    <td class="table"> building’s atrium</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> U3</td>
+                    <td class="table"> Users can’t block or dominate a system to</td>
+                    <td class="table"> Wide pedestrian concourses prevent groups blocking</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"></td>
+                    <td class="table"> the exclusion of others</td>
+                    <td class="table"> passage for others</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> U4</td>
+                    <td class="table"> Controlled rate of flow or passage of users</td>
+                    <td class="table"> Visitors to popular museum exhibit routed past it slowly on moving walkway</td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="142" confidence="possible" page="8" column="1">User-system interaction Influencing interactions between a user and a system Examples S1 The user follows a process or path, doing Customer places order via website without missing things in a sequence chosen by the designer out any steps S2 The user follows a process or path that’s User only spends as much time as really needed in optimised for those particular circumstances the shower S3 Decision among alternatives: a user’s choice Diners choose healthier meal in office canteen is guided S4 Only certain users / groups of users can use Only users who know PIN can access bank account something via ATM S5 Only users already behaving in a certain If a driver’s travelling below the speed limit, the next way get to use something set of traffic lights turn green, otherwise they stay red S6 No users can use something in a particular Park bench fitted with central armrest to prevent way, regardless of who they are or what anyone lying down they’ve done before S7 Users only get functionality when Office lighting cannot be switched on if ambient environmental criteria are satisfied daylight adequate User-user interaction Influencing interaction between users and other users, mediated by system Examples U1 Multiple users are kept separate so they Traffic follows one-way system into/out of car park don’t affect each other while using a system U2 Users (and groups of users) do interact with, Staff from different departments mix socially in a and affect each other while using a system building’s atrium U3 Users can’t block or dominate a system to Wide pedestrian concourses prevent groups blocking the exclusion of others passage for others U4 Controlled rate of flow or passage of users Visitors to popular museum exhibit routed past it slowly on moving walkway</region>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="144" page="8" column="1">2.4 Using the patterns and examples</h2>
+          <region class="DoCO:TextChunk" id="146" page="8" column="1">Whether using the DwI Method in inspiration or prescription mode, the designer is provided with a range of potentially applicable design patterns and examples, with short explanations, to inspire the generation of concept solutions to the brief. Some patterns may be quickly rejected due to project constraints; others may inspire further investigation, including recollection of other similar examples. Workshop sessions (<xref ref-type="bibr" rid="R59" id="145" class="deo:Reference">Lockton et al 2009b</xref>) have shown that some participants found it useful to combine two or more patterns to suggest novel approaches to briefs.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="147" page="9" column="1">3 Application: reducing ATM card error</h1>
+        <region class="DoCO:TextChunk" id="150" page="9" column="1">An example application will illustrate how the DwI Method can be used, in prescription mode (section 2.1.2). This is a simple and quick example, with the brief phrased in one of many possible ways. The choice of an aspect of ATM design is intended as a demonstration of the method, to illustrate how it can be used; ATMs also particularly suitable for analysis using ergonomics methods and concepts, and a number of improved interface designs have been tested by human factors researchers (e.g. <xref ref-type="bibr" rid="R22" id="148" class="deo:Reference">Chan et al. 2009</xref>; <xref ref-type="bibr" rid="R95" id="149" class="deo:Reference">Zimmerman &amp; Bridger 2000</xref>). The behaviour-influencing features of real ATMs, developed in response to user errors over the years, are also easy to compare with the possible techniques suggested by applying the method.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="151" page="9" column="1">3.1 Background to the problem</h2>
+          <region class="DoCO:TextChunk" id="167" page="9" column="1">Automatic teller machines are the face of a product-service system in which user behaviour must be limited to a defined set of permissible interactions, and errors must be designed out. A hierarchical task analysis (HTA; <xref ref-type="bibr" rid="R52" id="152" class="deo:Reference">Stanton 2006</xref>) of the most common interaction goal, ‘Get cash from ATM’, for a typical modern ATM is shown in <xref ref-type="fig" rid="F3" id="153" class="deo:Reference">Figure 3</xref>. All four plans present (0,1,2 and 3) are either linear ‘fixed sequence’ or conditional ‘contingent sequence’ (<xref ref-type="bibr" rid="R67" id="154" class="deo:Reference">Ormerod &amp; Shepherd 2004</xref>): the interaction task is strictly limited to a critical path, and the affordances of each element are designed to satisfy this limited path.<marker type="block"/> ATMs are intended to replace a human teller, so the interactions afforded by the machine replicate a subset of what is possible in human-to-human interaction, but without the opportunity for intelligent contextual correction of errors. The evolution of ATM design has included measures to reduce error, encouraging user trust in the machines and reducing withdrawal time. <xref ref-type="bibr" rid="R71" id="158" class="deo:Reference">Rogers and Fisk (1997)</xref> characterised this design goal as being “to ensure that if people wish to use an ATM, the system is designed to enable them to do so efficiently... [A]ccess to convenient and reliable ATMs has become a criterion for choosing a bank, and financial institutions will need to optimize their ATM functions, especially from the perspective of the user.”<marker type="block"/> A full systems analysis (<xref ref-type="bibr" rid="R85" id="160" class="deo:Reference">Stanton &amp; Baber 1998b</xref>) including applying Task Analysis For Error Identification (TAFEI; <xref ref-type="bibr" rid="R6" id="161" class="deo:Reference">Baber &amp; Stanton 1994</xref>, 1996) would permit a structured prediction of the errors that are possible, but for the purposes of this example, a single type of error, empirically identified, will be discussed. A major opportunity for error with historic ATMs came from a user leaving his or her ATM card in the machine’s slot after the procedure of dispensing cash or other account activity was complete (<xref ref-type="bibr" rid="R72" id="162" class="deo:Reference">Rogers et al. 1996</xref>; <xref ref-type="bibr" rid="R71" id="163" class="deo:Reference">Rogers &amp; Fisk 1997</xref>). This was primarily because the cash was dispensed before the card was returned (i.e. a different sequence for Plan 3 in the HTA of <xref ref-type="fig" rid="F3" id="164" class="deo:Reference">Figure 3</xref>), leading to a postcompletion error—“errors such as leaving the original document behind in a photocopier... [or] forgetting to replace the gas cap after filling the tank” (<xref ref-type="bibr" rid="R17" id="165" class="deo:Reference">Byrne &amp; Bovair 1997</xref>). Postcompletion error is an error of omission (<xref ref-type="bibr" rid="R61" id="166" class="deo:Reference">Matthews et al. 2000</xref>); the user’s main goal</region>
+          <region class="unknown" id="157" page="9" column="1"> [<xref ref-type="fig" rid="F3" id="156" class="deo:Reference">Figure 3</xref> about here please]</region>
+          <region class="DoCO:TextChunk" id="180" confidence="possible" page="10" column="1">(Plan 0 in <xref ref-type="fig" rid="F3" id="168" class="deo:Reference">Figure 3</xref>) of getting cash was completed so the further “hanging postcompletion action” (<xref ref-type="bibr" rid="R24" id="169" class="deo:Reference">Chung &amp; Byrne 2008</xref>) of retrieving the card was easily forgotten. The obvious design solution was, as <xref ref-type="bibr" rid="R24" id="170" class="deo:Reference">Chung and Byrne (2008)</xref> put it, “to place the hanging postcompletion action ‘on the critical path’ to reduce or eliminate [its] omission” and this is what the majority of current ATMs feature (<xref ref-type="bibr" rid="R37" id="171" class="deo:Reference">Freed &amp; Remington 2000</xref>): an interlock forcing function (<xref ref-type="bibr" rid="R66" id="172" class="deo:Reference">Norman 1988</xref>) or control poka-yoke (<xref ref-type="bibr" rid="R77" id="173" class="deo:Reference">Shingo 1986</xref>), requiring the user to remove the card before the cash is dispensed. <xref ref-type="bibr" rid="R95" id="174" class="deo:Reference">Zimmerman and Bridger (2000)</xref> found that a ‘card-returned-then-cash-dispensed’ ATM dialogue design was at least 22% more efficient (in withdrawal time) and resulted in 100% fewer lost cards (i.e. none) compared with a ‘cash- dispensed-then-card-returned’ dialogue design. When both cash-then-card and card-then-cash ATM designs were in common use concurrently, there was disagreement among banks as to which design was better for customers (<xref ref-type="bibr" rid="R65" id="175" class="deo:Reference">New York Times 1990</xref>), since the interlock forcing the user to remove his or her card before receiving cash meant that any desired subsequent transaction would require inserting the card and going through the identification process again—potentially inconvenient. Incorporating a step asking the user about other intended transactions earlier in the process (<xref ref-type="bibr" rid="R95" id="176" class="deo:Reference">Zimmerman &amp; Bridger 2000</xref>) largely overcomes this issue. The current card-then-cash design is now common enough, at least in some countries, for it to be considered ubiquitous and, for example, included exclusively in training programmes on ATM use for new users (<xref ref-type="bibr" rid="R33" id="177" class="deo:Reference">Flanagan 2005</xref>); the older cash-then-card interaction pattern may provoke comment when users encounter it (<xref ref-type="bibr" rid="R30" id="178" class="deo:Reference">Dolan 2005</xref>), even in other kinds of public technology such as ticket machines (<xref ref-type="bibr" rid="R60" id="179" class="deo:Reference">Lonsdale 2004</xref>). Other designs do exist (see section 3.2.4). Would the DwI Method in prescription mode have suggested the interlock idea? What alternative design techniques might also be applicable? With the brief “We don’t want users to leave their cards in ATMs after use”, what concepts does the DwI Method suggest?</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="181" page="10" column="1">3.2 Applying the DwI Method</h2>
+          <region class="DoCO:TextChunk" id="184" page="10" column="1">Applying the method in prescription mode (<xref ref-type="fig" rid="F1" id="182" class="deo:Reference">Figure 1</xref>), the brief “We don’t want users to leave their cards in ATMs after use” is first expressed as a target behaviour (<xref ref-type="table" rid="T2" id="183" class="deo:Reference">Table 2</xref>). The critical interaction path as discussed in section 3.1 suggests that target behaviour S1 is a fit for the brief as an overall macro-strategy—“The user follows a process or path, doing things in a sequence chosen by the designer.”</region>
+          <region class="DoCO:TextChunk" id="185" confidence="possible" page="10" column="1">Elements of the ATM and its environment in practice may satisfy different individual target behaviours: security features (such as the card-and-PIN system itself) perhaps satisfy S4 (“Only certain users / groups of users can use something ”) , as would interaction with a human teller, who may also satisfy S5 (“Only users already behaving in a certain way get to use something”) in the sense that if a customer is behaving</region>
+          <region class="DoCO:TextChunk" id="186" page="11" column="1">suspiciously, he or she might be denied access. Spacing between adjacent ATMs may satisfy a U1 target behaviour micro-strategy (“Multiple users are kept separate so they don’t affect each other while using a system”). Here the brief relates only to users leaving their cards in the slot—a small part of the overall system, but representative of the problem scope designers may be asked to address.</region>
+          <section class="DoCO:Section">
+            <h3 class="DoCO:SectionTitle" id="187" page="11" column="1">3.2.3 Suggestion of patterns</h3>
+            <region class="DoCO:TextChunk" id="189" page="11" column="1">The design patterns suggested for S1 are now consulted (<xref ref-type="fig" rid="F4" id="188" class="deo:Reference">Figure 4</xref>), including some from each of the six lenses (section 2.2). In total, 22 applicable patterns are suggested as being relevant; only a few can be shown in detail here.</region>
+            <region class="DoCO:TextChunk" id="193" confidence="possible" page="11" column="1"> [<xref ref-type="fig" rid="F4" id="190" class="deo:Reference">Figure 4</xref> about here please] At this point, the reader may wish to consider the patterns visible in <xref ref-type="fig" rid="F4" id="191" class="deo:Reference">Figure 4</xref> and how they might be applied to the “We don’t want users to leave their cards in ATMs after use” brief. What ideas do they inspire? 3.2.4 Design concepts inspired by the patterns In this article, only a sample can be given of the design concepts inspired by the different patterns, but a few of those suggested by the authors’ own application of the process are shown in <xref ref-type="table" rid="T3" id="192" class="deo:Reference">Table 3</xref>:</region>
+            <region class="DoCO:TableBox" id="T3">
+              <caption class="deo:Caption" id="194" page="12" column="1">Table 3 Design concepts applicable to ATM problem, inspired by the patterns suggested</caption>
+              <content>
+                <table class="DoCO:Table" number="3" page="12">
+                  <thead class="table">
+                    <tr class="table">
+                      <th class="table"> We don’t want users to</th>
+                      <th class="table"> leave their cards in ATMs after use</th>
+                      <th class="table"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Architectural lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Positioning &amp; layout</td>
+                      <td class="table"> Removal Orientation</td>
+                      <td class="table"> Movement &amp; oscillation</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> - Change spacing between</td>
+                      <td class="table"> - Remove ‘card return’ stage of - Angle card slot directly into</td>
+                      <td class="table"> - Move card visually to draw</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> interface elements, so that card</td>
+                      <td class="table"> process entirely, e.g. having user user’s field of vision, so more</td>
+                      <td class="table"> users’ attention</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> slot adjacent to cash dispensing</td>
+                      <td class="table"> simply swipe or tap card rather difficult to miss</td>
+                      <td class="table"> - Moving conveyor system which</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> slot.</td>
+                      <td class="table"> than leaving it inserted</td>
+                      <td class="table"> returns card with cash</td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> - Position card return such that</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> user’s hand passes through space</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> occupied by card before cash can</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> be retrieved (see also Interlock /</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Lock-in &amp; Lock-out)</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Errorproofing lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Interlock / Lock-in &amp; Lock-out</td>
+                      <td class="table"> Conditional warnings</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> - Don’t dispense cash until card</td>
+                      <td class="table"> - Visual or audible alert if card is</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> has been removed</td>
+                      <td class="table"> still in slot at stage in process</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"></td>
+                      <td class="table.strange"> when ought to be removed</td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Persuasive lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Tunnelling</td>
+                      <td class="table"> Self-monitoring Kairos</td>
+                      <td class="table"> Reduction</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> -Wizard, on-screen checklist or</td>
+                      <td class="table"> - Provide interface—lights, on- - Alerts/messages at exactly right</td>
+                      <td class="table"> - Remove need to insert card</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> flow-chart indicating what actions</td>
+                      <td class="table"> screen messages, etc—which moment—i.e. when card must be</td>
+                      <td class="table"> entirely—use alternative system,</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> user has taken and needs to take to</td>
+                      <td class="table"> allow user to see the state of the removed</td>
+                      <td class="table"> e.g. RFID or rely on user typing in</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> complete process correctly</td>
+                      <td class="table"> transaction and where the card and</td>
+                      <td class="table"> card number</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"></td>
+                      <td class="table"> cash are</td>
+                      <td class="table"> - Reduce the number of elements, so that card is returned with cash</td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Simulation &amp; feedforward</td>
+                      <td class="table"> Respondent conditioning Computers as social actors</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> - On-screen display showing user</td>
+                      <td class="table"> - Use messages associating - System talks to user and leads</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> what to do, e.g. animated</td>
+                      <td class="table"> picking up cash with picking up him/her through correct process as</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> illustration of whole process</td>
+                      <td class="table"> card, so that it becomes a habit close analogue of human teller</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"></td>
+                      <td class="table.strange"> (especially for new users of ATMs</td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"></td>
+                      <td class="table.strange"> or where new design introduced)</td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Visual lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Implied sequences / Possibility</td>
+                      <td class="table"> Prominence &amp; visibility / Proximity &amp; similarity</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> trees</td>
+                      <td class="table"> Colour &amp; contrast</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> - Arrange the ATM fascia and</td>
+                      <td class="table"> - Simply make the elements which - Group together all the elements</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> interface so that the interactions</td>
+                      <td class="table"> are important, e.g. the card slot, with which a user needs to interact</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> are clearly laid out in the order</td>
+                      <td class="table"> very prominent in the ATM fascia, during the process, so that they are</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> they should be used, with optional</td>
+                      <td class="table"> by size, or using bright / perceived as a single task</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> paths, etc, clearly indicated</td>
+                      <td class="table"> contrasting colours</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Cognitive lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> Authority</td>
+                      <td class="table"> Scarcity</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> - Make it very clear that card MUST</td>
+                      <td class="table"> - Make it imperative not to lose</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> be removed, via warning messages</td>
+                      <td class="table"> card by charging penalty fines for</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table">
+                      <td class="table"> / graphics / threats of fines</td>
+                      <td class="table"> replacement</td>
+                      <td class="table"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"></td>
+                      <td class="table.strange"> - Remind user that his/her money</td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"></td>
+                      <td class="table.strange"> not safe unless card removed</td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Security lens</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> Surveillance</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> - Use cameras / overt monitoring</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> to scare / worry user into</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> removing card, since he/she will</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> be liable for loss</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> - Use of cameras / monitoring</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> (overt or covert) to alert user to</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> error: “Excuse me, sir/madam,</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                    <tr class="table.strange">
+                      <td class="table.strange"> don’t forget your card.”</td>
+                      <td class="table.strange"></td>
+                      <td class="table.strange"></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </content>
+              <region class="TableInfo" id="195" confidence="possible" page="12" column="1">We don’t want users to leave their cards in ATMs after use Architectural lens Positioning &amp; layout Removal Orientation Movement &amp; oscillation - Change spacing between - Remove ‘card return’ stage of - Angle card slot directly into - Move card visually to draw interface elements, so that card process entirely, e.g. having user user’s field of vision, so more users’ attention slot adjacent to cash dispensing simply swipe or tap card rather difficult to miss - Moving conveyor system which slot. than leaving it inserted returns card with cash - Position card return such that user’s hand passes through space occupied by card before cash can be retrieved (see also Interlock / Lock-in &amp; Lock-out) Errorproofing lens Interlock / Lock-in &amp; Lock-out Conditional warnings - Don’t dispense cash until card - Visual or audible alert if card is has been removed still in slot at stage in process when ought to be removed Persuasive lens Tunnelling Self-monitoring Kairos Reduction -Wizard, on-screen checklist or - Provide interface—lights, on- - Alerts/messages at exactly right - Remove need to insert card flow-chart indicating what actions screen messages, etc—which moment—i.e. when card must be entirely—use alternative system, user has taken and needs to take to allow user to see the state of the removed e.g. RFID or rely on user typing in complete process correctly transaction and where the card and card number cash are - Reduce the number of elements, so that card is returned with cash Simulation &amp; feedforward Respondent conditioning Computers as social actors - On-screen display showing user - Use messages associating - System talks to user and leads what to do, e.g. animated picking up cash with picking up him/her through correct process as illustration of whole process card, so that it becomes a habit close analogue of human teller (especially for new users of ATMs or where new design introduced) Visual lens Implied sequences / Possibility Prominence &amp; visibility / Proximity &amp; similarity trees Colour &amp; contrast - Arrange the ATM fascia and - Simply make the elements which - Group together all the elements interface so that the interactions are important, e.g. the card slot, with which a user needs to interact are clearly laid out in the order very prominent in the ATM fascia, during the process, so that they are they should be used, with optional by size, or using bright / perceived as a single task paths, etc, clearly indicated contrasting colours Cognitive lens Authority Scarcity - Make it very clear that card MUST - Make it imperative not to lose be removed, via warning messages card by charging penalty fines for / graphics / threats of fines replacement - Remind user that his/her money not safe unless card removed Security lens Surveillance - Use cameras / overt monitoring to scare / worry user into removing card, since he/she will be liable for loss - Use of cameras / monitoring (overt or covert) to alert user to error: “Excuse me, sir/madam, don’t forget your card.”</region>
+            </region>
+            <region class="DoCO:TextChunk" id="202" page="12" column="1">Not every pattern suggested inspired suitable concepts; some inspired very similar concepts; many concepts could work together. These distinctions are useful for the designer since they allow faster convergence to a solution shortlist for each problem. The now-ubiquitous interlock card-then-cash forcing function (section 3.1) is suggested by the method—‘Don’t dispense the cash until the card has been removed’, as are cues such as on-screen displays or lights adjacent to the card slot imploring card removal. These too are present on many <marker type="page" number="13"/><marker type="block"/> current ATMs (<xref ref-type="bibr" rid="R24" id="197" class="deo:Reference">Chung &amp; Byrne 2008</xref>). In some territories, the ‘Having the user simply swipe the card rather than leaving it inserted’ design is found (<xref ref-type="bibr" rid="R28" id="198" class="deo:Reference">Daily WTF 2008</xref>)—a variant is having the user insert and remove the card before starting the transaction (<xref ref-type="fig" rid="F5" id="199" class="deo:Reference">Figure 5</xref>; <xref ref-type="bibr" rid="R65" id="200" class="deo:Reference">New York Times 1990</xref>). RFID-enabled ATM cards are common in some parts of the world (with corresponding security fears from customers; <xref ref-type="bibr" rid="R79" id="201" class="deo:Reference">Slashdot 2006</xref>) although contactless card readers as part of ATMs are not yet widespread.</region>
+            <region class="DoCO:TextChunk" id="210" confidence="possible" page="13" column="1"> [<xref ref-type="fig" rid="F5" id="203" class="deo:Reference">Figure 5</xref> about here please] Moving the card slot and cash dispensing slot to be adjacent, or combining return systems are appealing concepts but may require significant redesign of the ATM itself rather than simply interface changes. Nevertheless, as ATMs’ functionality expands to include advertising and other transaction services (<xref ref-type="bibr" rid="R93" id="204" class="deo:Reference">Williamson 2008</xref>), and many users have become familiar with more complex technology interactions in everyday life (<xref ref-type="bibr" rid="R91" id="205" class="deo:Reference">Walker et al. 2009</xref>), perceptions of ATM convenience and usability standards will also change (<xref ref-type="bibr" rid="R42" id="206" class="deo:Reference">Hawk 2008</xref>), and there are potentially opportunities for larger-scale redesign in the future. Some advanced features have been trialled by individual banks: for example, the Swedish bank SEB has installed talking ATMs which guide users through the transaction process (<xref ref-type="bibr" rid="R12" id="207" class="deo:Reference">Betts 2007</xref>), similarly to the concept suggested by the ‘Computers as social actors’ pattern in <xref ref-type="table" rid="T3" id="208" class="deo:Reference">Table 3</xref>. These are primarily aimed at users with impaired vision or reading ability; the idea is also mentioned by <xref ref-type="bibr" rid="R22" id="209" class="deo:Reference">Chan et al (2009)</xref> in the context of improving ATM design for older users.</region>
+            <region class="DoCO:TextChunk" id="212" page="13" column="1">Each concept suggested has strengths and weaknesses, including the impact it could have on other elements of the system and users’ interactions. A system emphasising the return of the ATM card could lead to users forgetting to retrieve their cash, or draw unwanted attention from passers-by. This is the sort of issue where specialist domain knowledge of user behaviour would be valuable, together with user trials of the concepts. Observing users’ interactions with the machines (see <xref ref-type="bibr" rid="R7" id="211" class="deo:Reference">Baber &amp; Stanton 1996</xref>) would no doubt suggest additional solutions, which could be captured by revisions to the DwI method.</region>
+          </section>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="213" page="14" column="1">4 Discussion and further work</h1>
+        <region class="DoCO:TextChunk" id="216" page="14" column="1">This article has described the Design with Intent Method and applied it to a ‘user behaviour’ problem to illustrate its use. The example is simple and the full range of real-world constraints has not been applied, but a set of pertinent design concepts has been generated, which could be developed further. It is arguable that most of the concepts suggested would be obvious to experienced human factors professionals, particularly those with interface design expertise, but as <xref ref-type="bibr" rid="R87" id="214" class="deo:Reference">Stanton and Young (2003)</xref> note, design decisions about aspects of systems affecting human performance are often made “by people with no specialist training in ergonomics,” and with variable success in applying and translating the recommendations of formal methods into product specifications (e.g. Kuijt-<xref ref-type="bibr" rid="R51" id="215" class="deo:Reference">Evers et al. 2008</xref>).</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="217" page="14" column="1">4.1 Limitations of this application</h2>
+          <region class="DoCO:TextChunk" id="219" page="14" column="1">It is essential to recognise a major limitation of the application of the DwI Method in this article: it was carried out by the authors, rather than independent designers, and the brief (section 3.1) related to a problem which is already ‘solved’ to a large extent (see discussion in section 3.2.4). In this sense, there is a significant risk of the concepts produced being ‘engineered’ to fit ideas which are already well-known with ATMs. Equally, the understanding of how to apply the design patterns suggested would differ for people untrained in the ideas behind them and unfamiliar with their development. <marker type="block"/> Bearing this in mind, the ATM example in this article should be viewed as simply a demonstration of how the DwI Method can be applied, rather than a test of its efficacy. This is a paper exercise carried out by the authors rather than by designers in an industrial context, and the utility and usability performance of the method in this latter situation is essential to its further development. With these caveats, it is difficult to assess the ‘validity’ of the results produced in the demonstration objectively, since there was no control condition; however, if treated as an idealised example of how to think about this sort of brief in a semi-structured way, it is hoped that the demonstration is of some use to designers working in this field.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="220" page="14" column="1">4.2 Further work</h2>
+          <region class="DoCO:TextChunk" id="223" page="14" column="1">This exercise ran alongside an research programme involving designer trials of DwI Method iterations to ascertain usefulness (compared with other concept generation methods) and improve usability of the method itself in the context of a user-centred design process (see section 2.1.3; <xref ref-type="bibr" rid="R59" id="221" class="deo:Reference">Lockton et al 2009b</xref>). Taking into account these outcomes, the method will then be applied to real problems (as noted in section 1.3) within the field of influencing user behaviour with energy- or other resource-using products and services. Studying the practical effects of designs developed using the method, both technologically and in human factors terms, will be the most important test of the method’s utility as a design tool.<marker type="page" number="15"/><marker type="block"/> A subset of the design concepts suggested will be developed into working prototypes and comparative trials run with users to quantify the difference in resources used by designs over the trial period, compared with existing products. The human factors involved in the relative success or failure of the designs will be assessed alongside technological considerations, refining the DwI Method to incorporate evidence about the application of the techniques.</region>
+          <region class="DoCO:TextChunk" id="225" confidence="possible" page="15" column="1">The intended outcome is a design tool that is useful, usable and applicable to a wide range of behaviour change problems, made available in a range of forms in which designers can apply it practically, including posters (as currently used for the inspiration mode; see section 2.1.1), method cards (e.g. as shown in <xref ref-type="fig" rid="F4" id="224" class="deo:Reference">Figure 4</xref>), and an online version (a basic implementation of which is currently available at designwithintent.co.uk ). The method could be ‘learned’ through applying it to a range of briefs and becoming more familiar with the patterns; it is possible that over time, an embodiment of the method would no longer be needed, as the ideas become part of a designer’s repertoire.</region>
+          <region class="DoCO:TextChunk" id="230" page="15" column="1">Adding the DwI Method to the stock of human factors methods available to designers (e.g. <xref ref-type="bibr" rid="R82" id="226" class="deo:Reference">Stanton et al. 2005</xref>) will enable techniques for influencing user behaviour to be considered in the early stages of the design process. Most commercial design is really redesign of one form or another (<xref ref-type="bibr" rid="R64" id="227" class="deo:Reference">Michl 2002</xref>), and redesign intended to correct user error with an existing product or system is often where human factors techniques find application. If the DwI Method were applied at an early stage of the redesign process—as recommended for the use of ergonomics methods by <xref ref-type="bibr" rid="R87" id="228" class="deo:Reference">Stanton and Young (2003)</xref>—a design team could be guided towards a set of applicable techniques right from the start. As behaviour change becomes more widely seen as part of the ‘design’ remit (e.g. <xref ref-type="bibr" rid="R32" id="229" class="deo:Reference">Fabricant 2009</xref>), methods for incorporating these ideas into the design process have the potential to help designers explore problems they have not previously considered.</region>
+        </section>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="231" confidence="possible" page="16" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="232" page="16" column="1">Adams, P &amp; David, G 2007, “Light vehicle fuelling errors in the UK: The nature of the problem, its consequences and prevention.” Applied Ergonomics, vol. 38, pp. 499—511.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="233" page="16" column="1">Akrich, M 1992, “The De-Scription of Technical Objects” in: Bijker, W, Law, J (eds.) Shaping Technology/Building Society, MIT Press, Cambridge, pp. 205–224.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="234" page="16" column="1">Alexander, C, Ishikawa, S, Silverstein, M, Jacobson, M et al. 1977, A Pattern Language: Towns, Buildings, Construction, Oxford University Press, New York.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="235" page="16" column="1">Altshuller, G 1996, And Suddenly the Inventor Appeared, Technical Innovation Center, Worcester.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="236" page="16" column="1">Ariely, D 2008, Predictably Irrational, HarperCollins, London.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="237" page="16" column="1">Baber, C &amp; Stanton, NA 1994, “Task analysis for error identification.” Ergonomics, vol. 37, pp. 1923—1942.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="238" page="16" column="1">Baber, C &amp; Stanton, NA 1996, “Human error identification techniques applied to public technology: predictions compared with observed use.” Applied Ergonomics, vol. 27, no. 2, pp. 119—131.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="239" confidence="possible" page="16" column="1">Barker, RG 1968, Ecological Psychology, Stanford University Press, Stanford.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="240" page="16" column="1">Barr, P, Noble, J &amp; Biddle, R 2002, “A Taxonomy of User Interface Metaphors,” in Proceedings of SIGCHI-NZ Symposium On Computer-Human Interaction.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="241" page="16" column="1">Beale, R 2007, “Slanty Design.” Communications of the ACM, vol. 50, no. 1, p. 21―24.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="242" page="16" column="1">Beatty, PC 2008, “Designing Persuasive Technologies for Human Factors Engineering: An Alternative Classification to the Triad of Captology,” in H Oinas-Kukkonen, PFV Hasle, M Harjumaa, &amp; K Segerstahl (eds), Persuasive 2008: Third International Conference on Persuasive Technology: Poster Proceedings, University of Oulu Press, Oulu, pp. 98--101.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="244" page="16" column="1">Betts, B 2007, “Cash machines get a voice.” The Register. Retrieved January 9, 2009, from <ext-link ext-link-type="uri" href="http://www.theregister.co.uk/2007/05/03/atms_talk_swedish/" id="243">http://www.theregister.co.uk/2007/05/03/atms_talk_swedish/</ext-link></ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="245" page="16" column="1">Bhamra, T, Lilley, D &amp; Tang, T 2008, “Sustainable use: Changing Consumer Behaviour Through Product Design,” in Changing the Change: Design Visions, Proposals and Tools, Turin, 2008, Proceedings.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="246" page="16" column="1">Blackler, A, Popovic, V &amp; Mahar, D 2009, “Investigating users’ intuitive interaction with complex artefacts,” Applied Ergonomics in press, doi:10.1016/j.apergo.2009.04.010</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="247" page="16" column="1">Blevis, E 2007, “Sustainable Interaction Design: Invention &amp; Disposal, Renewal &amp; Reuse.” in CHI 2007 Proceedings - Design Theory.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="248" page="16" column="1">Buchanan, R 1985, “Declaration by Design: Rhetoric, Argument, and Demonstration in Design Practice.” Design Issues, vol. 2, no. 1, p. 4―22.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="250" page="16" column="1">Byrne, MD &amp; Bovair, S 1997, “A Working Memory Model of a Common Procedural Error.” Cognitive Science, vol. 21, no. 1, pp. 31--61. <marker type="page" number="17"/><marker type="block"/> Cairns, P &amp; Cox, AL 2008, “Preface” to Cairns, P &amp; Cox, AL (eds.), Research Methods for Human- Computer Interaction, Cambridge University Press, Cambridge.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="251" page="17" column="1">Carroll, JM, Kellog, WA &amp; Rosson, MB 1991, “The Task-Artifact Cycle,” in JM Carroll (ed), Designing Interaction: Psychology at the Human-Computer Interface, Cambridge University Press, London.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="252" page="17" column="1">Chak, A 2003, Submit Now: Designing Persuasive Web Sites, New Riders, Indianapolis.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="253" page="17" column="1">Chamorro-Koc, M, Popovic, V &amp; Emmison, M 2008, “Human experience and product usability: Principles to assist the design of user-product interactions.” Applied Ergonomics, vol. 39, pp. 1--9.</ref>
+          <ref rid="R22" class="deo:BibliographicReference" id="254" page="17" column="1">Chan, CC, Wong, AW, Lee, TM &amp; Chi, I 2009, “Modified automatic teller machine prototype for older adults: A case study of participative approach to inclusive design.” Applied Ergonomics, vol. 40, pp. 151--160.</ref>
+          <ref rid="R23" class="deo:BibliographicReference" id="255" page="17" column="1">Chase, RB &amp; Stewart, DM 2002, Mistake-Proofing: Designing Errors Out (Revised Edition), Lulu Press/John Grout, Morrisville.</ref>
+          <ref rid="R24" class="deo:BibliographicReference" id="256" page="17" column="1">Chung, PH &amp; Byrne, MD 2008, “Cue effectiveness in mitigating postcompletion errors in a routine procedural task.” International Journal of Human-Computer Studies, vol. 66, pp. 217--232.</ref>
+          <ref rid="R25" class="deo:BibliographicReference" id="257" page="17" column="1">Cialdini, R 2003, “Crafting Normative Messages to Protect the Environment.” Current Directions in Psychological Science, vol. 12, no. 4, p. 105―109.</ref>
+          <ref rid="R26" class="deo:BibliographicReference" id="258" page="17" column="1">Craig, S, Harrison, D, Cripps, A &amp; Knott, D 2008, “BioTRIZ Suggests Radiative Cooling of Buildings Can Be Done Passively by Changing the Structure of Roof Insulation to Let Longwave Infrared Pass.” Journal of Bionic Engineering, vol. 5, no. 1, pp. 55—66.</ref>
+          <ref rid="R27" class="deo:BibliographicReference" id="259" page="17" column="1">Crowe, TD 2000, Crime Prevention Through Environmental Design, 2 nd edition, Butterworth- Heinemann, Boston.</ref>
+          <ref rid="R28" class="deo:BibliographicReference" id="261" confidence="possible" page="17" column="1">Daily WTF 2008, “$50 Cash Fast.” Retrieved December 2, 2008, from <ext-link ext-link-type="uri" href="http://thedailywtf.com/Comments/50-Cash-Fast.aspx" id="260">http://thedailywtf.com/Comments/50-Cash-Fast.aspx</ext-link>#228433</ref>
+          <ref rid="R29" class="deo:BibliographicReference" id="263" page="17" column="1">Design Council, Department of Health, Buckle, P, Clarkson, P et al. 2003, Design for Patient Safety: A System-Wide Design-Led Approach to Tackling Patient Safety in the NHS, Design Council / Department of Health, London. Retrieved December 2, 2008, from <ext-link ext-link-type="uri" href="http://www" id="262">http://www</ext-link>- edc.eng.cam.ac.uk/medical/downloads/report.pdf</ref>
+          <ref rid="R30" class="deo:BibliographicReference" id="265" page="17" column="1">Dolan, L 2005, “Comment: He who has ears to hear, let him hear correctly” Daily Telegraph. Retrieved January 8, 2009, from <ext-link ext-link-type="uri" href="http://www.telegraph.co.uk/finance/2907038/Comment-he-" id="264">http://www.telegraph.co.uk/finance/2907038/Comment-he-</ext-link> who-has-ears-to-hear-let-him-hear-correctly.html</ref>
+          <ref rid="R31" class="deo:BibliographicReference" id="266" page="17" column="1">Elias, EW, Dekoninck, EA &amp; Culley, SJ 2007, “The Potential for Domestic Energy Savings through Assessing User Behaviour and Changes in Design,” in Ecodesign 2007: Fifth International Symposium on Environmentally Conscious Design and Inverse Manufacturing.</ref>
+          <ref rid="R32" class="deo:BibliographicReference" id="268" confidence="possible" page="17" column="1">Fabricant, R 2009, “Behaving badly in Vancouver.” Design Mind, February 11 2009, Frog Design, San Francisco. Retrieved June 1, 2009, from <ext-link ext-link-type="uri" href="http://designmind.frogdesign.com/blog/behaving-badly-in-vancouver.html" id="267">http://designmind.frogdesign.com/blog/behaving-badly-in-vancouver.html</ext-link></ref>
+          <ref rid="R33" class="deo:BibliographicReference" id="269" page="18" column="1">Flanagan, M 2005, Using a cash machine: A NALA training guide for adult education tutors, National Adult Literacy Agency, Dublin.</ref>
+          <ref rid="R34" class="deo:BibliographicReference" id="270" page="18" column="1">Flemming, SAC, Hilliard A &amp; Jamieson GA 2008, “The Need for Human Factors in the Sustainability Domain.” Proceedings of the Human Factors and Ergonomics Society 52 nd Annual Meeting, pp. 748—752.</ref>
+          <ref rid="R35" class="deo:BibliographicReference" id="271" page="18" column="1">Fogg, BJ 1999, “Persuasive Technologies.” Communications of the ACM, vol. 42, no. 5, p. 27―29.</ref>
+          <ref rid="R36" class="deo:BibliographicReference" id="272" page="18" column="1">Fogg, BJ 2003, Persuasive Technology: Using Computers to Change What We think and Do, Morgan Kaufmann, San Francisco.</ref>
+          <ref rid="R37" class="deo:BibliographicReference" id="273" page="18" column="1">Freed, M &amp; Remington, R 2000, “Human-machine system design: When does simulation pay?,” in ICCM 2000: Third International Conference on Cognitive Modeling: Proceedings, Groningen, Netherlands.</ref>
+          <ref rid="R38" class="deo:BibliographicReference" id="274" page="18" column="1">Gaver, WW 1991, “Technology Affordances,” in CHI '91: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, ACM, New York, p. 79―84.</ref>
+          <ref rid="R39" class="deo:BibliographicReference" id="275" page="18" column="1">Gaver, WW 1992, “The Affordances of Media Spaces for Collaboration,” in Computer Supported Cooperative Work 1992, Toronto, Proceedings, pp. 17-24.</ref>
+          <ref rid="R40" class="deo:BibliographicReference" id="276" page="18" column="1">Gibson, J 1986, The Ecological Approach to Visual Perception, Lawrence Erlbaum Associates, Hillsdale.</ref>
+          <ref rid="R41" class="deo:BibliographicReference" id="277" confidence="possible" page="18" column="1">Grout, J 2007, Mistake-Proofing the Design of Health Care Processes, Agency for Healthcare Research and Quality, Rockville.</ref>
+          <ref rid="R42" class="deo:BibliographicReference" id="279" confidence="possible" page="18" column="1">Hawk, T 2008, “Why Are ATM Machines So Stupid?.” Retrieved December 2, 2008, from <ext-link ext-link-type="uri" href="http://thomashawk.com/2008/04/why-are-atm-machines-so-stupid.html" id="278">http://thomashawk.com/2008/04/why-are-atm-machines-so-stupid.html</ext-link></ref>
+          <ref rid="R43" class="deo:BibliographicReference" id="280" page="18" column="1">Hendrick, HW 2008, “Applying ergonomics to systems: Some documented "lessons learned".” Applied Ergonomics, vol. 39, pp. 418—426.</ref>
+          <ref rid="R44" class="deo:BibliographicReference" id="281" confidence="possible" page="18" column="1">IDEO 2003, IDEO Method Cards: 51 Ways to Inspire Design, IDEO, Palo Alto.</ref>
+          <ref rid="R45" class="deo:BibliographicReference" id="282" page="18" column="1">Jones, E, Mann, D, Stanton, NA &amp; Harrison, D 2001, “An Eco-innovation Case Study of Domestic Dishwashing through the Application of TRIZ Tools.” Creativity and Innovation Management, vol. 10, no. 1, p. 3―14.</ref>
+          <ref rid="R46" class="deo:BibliographicReference" id="283" page="18" column="1">Kahneman, D, Slovic, P &amp; Tversky, A (eds.) 1982, Judgment under Uncertainty: Heuristics and Biases, Cambridge University Press, Cambridge.</ref>
+          <ref rid="R47" class="deo:BibliographicReference" id="284" page="18" column="1">Kanis, H 1998, “Usage centred research for everyday product design.” Applied Ergonomics, vol. 29, no. 1, pp. 75—82.</ref>
+          <ref rid="R48" class="deo:BibliographicReference" id="285" page="18" column="1">Katyal, NK 2002, “Architecture as Crime Control.” Yale Law Journal, 111, pp. 1039―1139.</ref>
+          <ref rid="R49" class="deo:BibliographicReference" id="286" page="18" column="1">Kjaer Christensen, A &amp; Hasle, PFV 2007, “Classical Rhetoric and a Limit to Persuasion,” in Y de Kort, W IJsselsteijn, CJH Midden, B Eggen, &amp; BJ Fogg (eds), Persuasive Technology: Second International Conference, Persuasive 2007, Palo Alto, April 26-27, 2007, Proceedings, Springer, Berlin, pp. 307―310.</ref>
+          <ref rid="R50" class="deo:BibliographicReference" id="287" page="19" column="1">Kolko, J 2007, Thoughts on Interaction Design, Brown Bear LLC, Savannah.</ref>
+          <ref rid="R51" class="deo:BibliographicReference" id="288" page="19" column="1">Kuijt-Evers, L, Morel, K, Eikelenberg, N &amp; Vink, P 2008, “Can the design team complete the House of Quality appropriately?.” Applied Ergonomics, in press doi:10.1016/j.apergo.2008.09.009.</ref>
+          <ref rid="R52" class="deo:BibliographicReference" id="289" page="19" column="1">Lane, RM, Stanton, NA &amp; Harrison, D 2006, “Applying hierarchical task analysis to medication administration errors.” Applied Ergonomics, vol. 37, no. 5, pp. 669--679.</ref>
+          <ref rid="R53" class="deo:BibliographicReference" id="290" page="19" column="1">Lilley, D, Lofthouse, V &amp; Bhamra, T 2005, “Investigating Product Driven Sustainable Use,” in Sustainable Innovation '05 Conference, Farnham, Proceedings.</ref>
+          <ref rid="R54" class="deo:BibliographicReference" id="291" page="19" column="1">Lilley, D, Lofthouse, V &amp; Bhamra, T 2006, “Towards sustainable use: An exploration of designing for behavioural change,” in L Feijs, S Kyffin, &amp; B Young (eds), DeSForM 2006: Design and semantics of form and movement,p. 84―97.</ref>
+          <ref rid="R55" class="deo:BibliographicReference" id="293" page="19" column="1">Lockton, D 2005, “Benches Archive.” Design with Intent / Architectures of Control. Retrieved December 2, 2008, from <ext-link ext-link-type="uri" href="http://architectures.danlockton.co.uk/category/benches/" id="292">http://architectures.danlockton.co.uk/category/benches/</ext-link></ref>
+          <ref rid="R56" class="deo:BibliographicReference" id="294" page="19" column="1">Lockton, D, Harrison, D &amp; Stanton, NA 2008a, “Design with Intent: Persuasive Technology in a Wider Context,” in H Oinas-Kukkonen, P Hasle, M Harjumaa, K Segerstahl, &amp; P Ohrstrom (eds), Persuasive Technology: Third International Conference, Persuasive 2008, Oulu, Finland, June 4-6, 2008, Proceedings, Springer, Berlin, p. 274―278.</ref>
+          <ref rid="R57" class="deo:BibliographicReference" id="295" page="19" column="1">Lockton, D, Harrison, D &amp; Stanton, NA 2008b, “Making the user more efficient: Design for sustainable behaviour.” International Journal of Sustainable Engineering, vol. 1, no. 1, pp. 3―8.</ref>
+          <ref rid="R58" class="deo:BibliographicReference" id="297" page="19" column="1">Lockton, D, Harrison, D &amp; Stanton, NA 2009a, Design for Behaviour Change: The Design with Intent Toolkit v.0.9, Brunel University, Uxbridge. Retrieved June 1, 2009, from <ext-link ext-link-type="uri" href="http://designwithintent.co.uk" id="296">http://designwithintent.co.uk</ext-link></ref>
+          <ref rid="R59" class="deo:BibliographicReference" id="298" page="19" column="1">Lockton, D, Harrison, D, Holley, T &amp; Stanton, NA 2009b, “Influencing Interaction: Development of the Design with Intent Method,” in Persuasive Technology: Fourth International Conference, Persuasive 2009, Claremont, California, Proceedings, ACM Digital Library, New York.</ref>
+          <ref rid="R60" class="deo:BibliographicReference" id="300" page="19" column="1">Lonsdale, P 2004, “Old problems still out there: Why do ATMs give you the card back first?.” HCI Commentary. Retrieved January 8, 2009, from <ext-link ext-link-type="uri" href="http://www.cs.bham.ac.uk/" id="299">http://www.cs.bham.ac.uk/</ext-link>~rxb/Teaching/HCI/blog/2004/03/old-problems-still-out-there- why-do.html</ref>
+          <ref rid="R61" class="deo:BibliographicReference" id="301" page="19" column="1">Matthews, G, Davies, DR, Westerman, SJ &amp; Stammers, RD 2000, “Human Error,” in Human Performance: Cognition, stress and individual differences, Psychology Press, New York.</ref>
+          <ref rid="R62" class="deo:BibliographicReference" id="302" confidence="possible" page="19" column="1">McCalley, LT &amp; Midden, CJH 2002, “Energy conservation through product-integrated feedback: The roles of goal-setting and social orientation.” Journal of Economic Psychology, vol. 23, pp. 589--603.</ref>
+          <ref rid="R63" class="deo:BibliographicReference" id="303" confidence="possible" page="19" column="1">McGrenere, J &amp; Ho, W 2000, “Affordances: Clarifying and Evolving a Concept,” in Graphics Interface 2000, Montreal, Proceedings.</ref>
+          <ref rid="R64" class="deo:BibliographicReference" id="306" page="19" column="1">Michl, J 2002, “On Seeing Design as Redesign: An Exploration of a Neglected Problem in Design Education .” Scandinavian Journal of Design History, vol. 12, pp. 7--23. <marker type="page" number="20"/><marker type="block"/> New York Times 1990, “Help for Forgetful Bank-Card Holders.” New York Times. Retrieved January 8, 2009, from <ext-link ext-link-type="uri" href="http://query.nytimes.com/gst/fullpage.html?" id="305">http://query.nytimes.com/gst/fullpage.html?</ext-link> res=9C0CE0DD1531F93AA1575AC0A966958260</ref>
+          <ref rid="R66" class="deo:BibliographicReference" id="307" confidence="possible" page="20" column="1">Norman, D 1988, The Psychology of Everyday things, Basic Books, New York. Norman, DA 1999, “Affordance, Conventions, and Design.” Interactions, p. 38―42. Norman, D 2008, “Signifiers, Not Affordances.” Interactions, vol. 15, no. 6, pp. 18--19.</ref>
+          <ref rid="R67" class="deo:BibliographicReference" id="308" page="20" column="1">Ormerod, TC &amp; Shepherd, A 2004, “Using task analysis for information requirements specification: The SGT method,” in D Diaper &amp; NA Stanton (eds), The Handbook of Task Analysis for Human-Computer Interaction, Lawrence Erlbaum Associates, Mahwah, pp. 347--365.</ref>
+          <ref rid="R68" class="deo:BibliographicReference" id="309" confidence="possible" page="20" column="1">Redstrom, J 2006, “Persuasive Design: Fringes and Foundations,” in W IJsselsteijn, Y de Kort, CJH Midden, B Eggen, &amp; E van den Hoven (eds), Persuasive Technology: First International Conference, Persuasive 2006, Eindhoven, May 18-19, 2006, Proceedings, Springer, Berlin, p. 112―122.</ref>
+          <ref rid="R69" class="deo:BibliographicReference" id="310" page="20" column="1">Richardson, M 2008, “Ergonomists as Choice Architects: Behavioural Economics and Ergonomics.” The Ergonomist, no. 458, pp. 1--2.</ref>
+          <ref rid="R70" class="deo:BibliographicReference" id="311" page="20" column="1">Rodriguez, E &amp; Boks, C 2005, “How design of products affects user behaviour and vice versa: the environmental implications,” in Ecodesign 2005: Fourth International Symposium on Environmentally Conscious Design and Inverse Manufacturing.</ref>
+          <ref rid="R71" class="deo:BibliographicReference" id="312" page="20" column="1">Rogers, WA &amp; Fisk, AD 1997, “ATM Design and Training Issues.” Ergonomics in Design, pp. 4-9.</ref>
+          <ref rid="R72" class="deo:BibliographicReference" id="313" page="20" column="1">Rogers, WA, Fisk, AD, Mead, SE, Walker, N &amp; Cabrera, EF 1996, “Training Older Adults to Use Automatic Teller Machines.” Human Factors, vol. 38, no. 3, pp. 425--433.</ref>
+          <ref rid="R73" class="deo:BibliographicReference" id="314" page="20" column="1">Saffer, D 2005, “The Role of Metaphor in Interaction Design.” Thesis, Carnegie Mellon University.</ref>
+          <ref rid="R74" class="deo:BibliographicReference" id="315" page="20" column="1">Salovaara, A 2008, “Inventing New Uses for Tools: A Cognitive Foundation for Studies on Appropriation.” Human Technology, vol. 4, no. 2, pp. 209--228.</ref>
+          <ref rid="R75" class="deo:BibliographicReference" id="316" page="20" column="1">Schneier, B 2003, Beyond Fear, Copernicus Books, New York.</ref>
+          <ref rid="R76" class="deo:BibliographicReference" id="317" page="20" column="1">Seva, RR, Been-Lirn Duh, H &amp; Helander, MG 2007, “The marketing implications of affective product design.” Applied Ergonomics, vol. 38, pp. 723--731.</ref>
+          <ref rid="R77" class="deo:BibliographicReference" id="318" page="20" column="1">Shingo, S 1986, Zero Quality Control: Source Inspection and the Poka-Yoke System, Productivity Press, Portland.</ref>
+          <ref rid="R78" class="deo:BibliographicReference" id="319" page="20" column="1">Simon, HA 1969, The Sciences of the Artificial, MIT Press, Cambridge.</ref>
+          <ref rid="R79" class="deo:BibliographicReference" id="321" page="20" column="1">Slashdot 2006, “Would You Trust RFID-Enabled ATM Cards?.” Retrieved December 2, 2008, from <ext-link ext-link-type="uri" href="http://ask.slashdot.org/article.pl?sid=06" id="320">http://ask.slashdot.org/article.pl?sid=06</ext-link>/12/06/0532242</ref>
+          <ref rid="R80" class="deo:BibliographicReference" id="322" page="20" column="1">Slovic, P, Finucane, M, Peters, E &amp; MacGregor, D 2002, “The affect heuristic,” in T Gilovich, D Griffin, &amp; D Kahneman (eds), Heuristics and Biases: The Psychology of Intuitive Judgment, Cambridge University Press, London, pp. 397--420.</ref>
+          <ref rid="R81" class="deo:BibliographicReference" id="323" page="21" column="1">Sommer, R 1969, Personal Space: The Behavioral Basis of Design, Prentice-Hall, Englewood Cliffs.</ref>
+          <ref rid="R82" class="deo:BibliographicReference" id="324" page="21" column="1">Stanton, NA, Salmon, P, Walker, G, Baber, C &amp; Jenkins, D 2005, Human Factors Methods: A Practical Guide for Engineering and Design, Ashgate Pub. Co, Aldershot.</ref>
+          <ref rid="R83" class="deo:BibliographicReference" id="325" page="21" column="1">Stanton, NA 2006, “Hierarchical task analysis: Developments, applications, and extensions.” Applied Ergonomics, vol. 37, pp. 55--79.</ref>
+          <ref rid="R84" class="deo:BibliographicReference" id="326" page="21" column="1">Stanton, NA &amp; Baber, C 1998a, “Designing for consumers: editorial.” Applied Ergonomics, vol. 29, no. 1, pp. 1--3.</ref>
+          <ref rid="R85" class="deo:BibliographicReference" id="327" page="21" column="1">Stanton, NA &amp; Baber, C 1998b, “A systems analysis of consumer products,” in NA Stanton (ed), Human Factors in Consumer Products, Taylor &amp; Francis, London, pp. 75--90.</ref>
+          <ref rid="R86" class="deo:BibliographicReference" id="328" page="21" column="1">Stanton, NA &amp; Young, M 1998, “Is utility in the mind of the beholder? A study of ergonomics methods.” Applied Ergonomics, vol. 29, no. 1, pp. 41--54.</ref>
+          <ref rid="R87" class="deo:BibliographicReference" id="329" page="21" column="1">Stanton, NA &amp; Young, M 2003, “Giving ergonomics away? The application of ergonomics methods by novices.” Applied Ergonomics, vol. 34, pp. 479--490.</ref>
+          <ref rid="R88" class="deo:BibliographicReference" id="330" confidence="possible" page="21" column="1">Stern, N 2007, Stern Review: The Economics of Climate Change, Cambridge University Press, Cambridge.</ref>
+          <ref rid="R89" class="deo:BibliographicReference" id="331" page="21" column="1">Thaler, RH &amp; Sunstein, CR 2008, Nudge: Improving Decisions About Health, Wealth, and Happiness, Yale University Press, New Haven.</ref>
+          <ref rid="R90" class="deo:BibliographicReference" id="332" page="21" column="1">Tidwell, J 2005, Designing Interfaces, O'Reilly, Sebastopol.</ref>
+          <ref rid="R91" class="deo:BibliographicReference" id="333" page="21" column="1">Walker, GH, Stanton, NA, Jenkins, DP &amp; Salmon, PM 2009, “From telephones to iPhones: Applying systems thinking to networked, interoperable products.” Applied Ergonomics, vol. 40, pp. 206--215.</ref>
+          <ref rid="R92" class="deo:BibliographicReference" id="334" page="21" column="1">Wever, R, van Kuijk, J &amp; Boks, C 2008, “User-centred Design for Sustainable Behaviour.” International Journal of Sustainable Engineering, vol. 1, no. 1, p. 9―20.</ref>
+          <ref rid="R93" class="deo:BibliographicReference" id="336" page="21" column="1">Williamson, M 2008, “Queen Of The Cash Machine.” The Herald. Retrieved January 9, 2009, from <ext-link ext-link-type="uri" href="http://www.theherald.co.uk/business/news/display.var.2227538.0.Queen_of_the_cash_machi" id="335">http://www.theherald.co.uk/business/news/display.var.2227538.0.Queen_of_the_cash_machi</ext-link> ne.php</ref>
+          <ref rid="R94" class="deo:BibliographicReference" id="337" page="21" column="1">Wood, G &amp; Newborough, M 2003, “Dynamic energy-consumption indicators for domestic appliances: environment, behaviour and design.” Energy and Buildings, no. 35, p. 821―841.</ref>
+          <ref rid="R95" class="deo:BibliographicReference" id="338" page="21" column="1">Zimmerman, CM &amp; Bridger, RS 2000, “Effects of dialogue design on automatic teller machine (ATM) usability: transaction times and card loss.” Behaviour &amp; Information Technology, vol. 19, no. 6, pp. 441—449.</ref>
+        </ref-list>
+        <region class="DoCO:FigureBox" id="F1">
+          <image class="DoCO:Figure" src="62d2.page_022.image_01.png" thmb="62d2.page_022.image_01-thumb.png"/>
+          <caption class="deo:Caption" id="340" page="22" column="1">Fig. 1. The structure of the Design with Intent Method, with inspiration and prescription modes of use.</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F2">
+          <image class="DoCO:Figure" src="62d2.page_023.image_02.png" thmb="62d2.page_023.image_02-thumb.png"/>
+          <caption class="deo:Caption" id="342" page="23" column="1">Fig. 2. The toolkit poster used for the inspiration mode, with a close-up of Social proof, one of the patterns.</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F3">
+          <image class="DoCO:Figure" src="62d2.page_023.image_03.png" thmb="62d2.page_023.image_03-thumb.png"/>
+          <caption class="deo:Caption" id="344" page="23" column="1">Fig. 3. HTA of the ‘Get cash from ATM’ goal for a typical modern ATM.</caption>
+        </region>
+        <region class="DoCO:FigureBox" id="F4">
+          <image class="DoCO:Figure" src="62d2.page_024.image_04.png" thmb="62d2.page_024.image_04-thumb.png"/>
+          <caption class="deo:Caption" id="346" page="24" column="1">Fig. 4. Design patterns suggested for S1 target behaviour, in prescription mode.</caption>
+        </region>
+        <section class="DoCO:Section">
+          <h3 class="DoCO:SectionTitle" id="347" page="24" column="1">2.1.1 Inspiration mode</h3>
+        </section>
+        <section class="DoCO:Section">
+          <h3 class="DoCO:SectionTitle" id="348" page="24" column="1">3.2.1 Target behaviours</h3>
+          <region class="DoCO:FigureBox" id="F5">
+            <image class="DoCO:Figure" src="62d2.page_024.image_05.png" thmb="62d2.page_024.image_05-thumb.png"/>
+            <caption class="deo:Caption" id="350" page="24" column="1">Fig. 5. An ATM in San Francisco requiring the user to insert and remove the card before beginning the transaction.</caption>
+          </region>
+        </section>
+      </section>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>fbe2f5390a0afebfc372a7d76f6f31eb03000c612a851294d8502ada22fd7c8a</job>
+    <base_name>62rz</base_name>
+    <doi confidence="possible">http://dx.doi.org/10.1111/j.1468-0130.1977.tb00345.x</doi>
+    <warning>Original PDF was found to be an image-based/possible OCR document. Output quality may be degraded.</warning>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="unknown" id="1">Participatory Design in a Human-Computer Interaction Course: Teaching Ethnography Methods to Computer Scientists</region>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Jerry B. Weinberg Computer Science Department Southern Illinois University Edwardsville Edwardsville</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">IL 62025 jweinbe@siue.edu</name>
+        </contrib>
+      </contrib-group>
+      <abstract class="DoCO:Abstract" id="4">Empirical evidence shows the ability for computer technology to deliver on its promises o f enhancing our quality o f life relies on how well the application fits our understanding of how things work. Software designers need to apply methods that provide insights into the user's mental model o f the application's target task and to invite the user to be an active participant in the design process. This paper reports on our efforts to design an HCI curriculum around ethnographic techniques o f data gathering and paper prototyping. Initial results are presented that study the course's effects on student's attitudes regarding approaches to software design and their long term design behavior.</abstract>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="11">Mary L. Stephen Department of Educational Studies Saint Louis University St. Louis</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="12">MO 63108 stephen@slu.edu</name>
+        </contrib>
+      </contrib-group>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="5" confidence="possible" page="1" column="1">1 Participatory Design</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="26" page="2" column="1">1.1 Why Bother Teaching Participatory Design?</h2>
+          <region class="DoCO:TextChunk" id="45" page="2" column="1">The difference between a software designer and software engineer has been compared analogously to the difference between a building architect who designs a structure and a contractor who builds it [ <xref ref-type="bibr" rid="R21" id="27" class="deo:Reference">21</xref>]. While there are some excep- tions (e.g. Stanford's Center for HCI study, and larger cam- parties such as IBM which have design and usability labs), in most environments, it is still the computer science pro- grammer doing both design and development, like an architect who both designs and constructs the building. So it is very important that we educate computer science students in techniques o f software design that embrace the human activity as an integral component of the analysis, design, and evaluation. Early in the participatory design process, the designer engages in analysis activities that provide an insight into the user's conceptual model or mental model o f the tasks for the system that is being targeted for development [<xref ref-type="bibr" rid="R9" id="28" class="deo:Reference">9</xref>]. Mental models are cognitive artifacts that are created as we interact with our environment that we use as a dynamic representation or simulation o f our world [<xref ref-type="bibr" rid="R6" id="29" class="deo:Reference">6</xref>]. These models "provide predictive and explanatory power for understanding the interaction" [<xref ref-type="bibr" rid="R11" id="30" class="deo:Reference">11</xref>]. Norman [<xref ref-type="bibr" rid="R11" id="31" class="deo:Reference">11</xref>] distinguishes between a conceptual model, which is a reasonably accurate and consistent representation o f the target system, and a mental model, which is the user's cognitive representation o f the target system. I f the designer can devise the conceptual model in ways that reflect a user's mental model, then the application designed from the conceptual model will be more easily understood and fit more naturally into the user's activities [<xref ref-type="bibr" rid="R12" id="32" class="deo:Reference">12</xref>]. Participatory approaches to design are becoming more prevalent in industry. Consultation with St. Louis based companies that use such design approaches affirmed that this approach to software design is becoming a standard o f practice. Members o f the software design teams from Tri- pos Corporation and Edward Jones provided insightful comments during the course redesign, and Grant Consult- ing helped significantly with the course redesign and design o f our usability lab.<marker type="block"/> The HCI course presents material on human aspects o f interaction design, on technological aspects o f interface design, and design methodologies. The laboratory component is intended to study design in practice. Exercises include practicing design and data gathering techniques, critiquing existing software packages, and constructing interface ele- ments. In the Computer Science curriculum at SIUE, the HCI course is a required course. It is taught in both 15-week fall and spring semesters. Course enrollment is usually between 15 and 30 students. Students tend to take the course in their junior year just prior to the Senior Project Capstone Course. The HCI course provides students with the basis for performing the design work in their capstone projects.<marker type="column" number="2"/><marker type="block"/> Projects are solicited from the University and local com- munity. Because these are actual projects with non- computer professional users it is important that the students understand how to interact, gather data, and design with users who do not have a technological background. The prerequisite to the HCI course is "Interaction Pro- gramming'. This course provides the students with an understanding o f event driven programming, graphical user interfaces (GUI), and one language to program GUI's. This is a second language course for the students. The HCI course is structured around the steps in the Contextual Design approach [<xref ref-type="bibr" rid="R1" id="37" class="deo:Reference">1</xref>]. The steps in the process include: user interviewing and observation, data modeling and model consolidation, brainstorming, paper prototyping, and usability testing (high fidelity prototyping). Working in teams o f 3 or 4, the students complete a semester long design project. The project is given to them in a high level description with very little hard specifications. Milestones corresponding to the steps in the process are set to provide students feedback during the process and to insure they are making progress.<marker type="block"/> Contextual design relies on ethnographic techniques from anthropology [<xref ref-type="bibr" rid="R10" id="40" class="deo:Reference">10</xref>, <xref ref-type="bibr" rid="R19" id="41" class="deo:Reference">19</xref>, <xref ref-type="bibr" rid="R15" id="42" class="deo:Reference">15</xref>, <xref ref-type="bibr" rid="R4" id="43" class="deo:Reference">4</xref>, <xref ref-type="bibr" rid="R5" id="44" class="deo:Reference">5</xref>]. Ethnography is a method o f research in which the researcher gathers data within a natu- ral setting that involves a dynamic network o f interrelated variables. No attempt is made to control variables within the setting, for this could alter or destroy the phenomenon being studied. The purpose o f ethnographic research is to attempt to understand what is happening naturally in the setting, and through interpreting the data gathered to see what implications can be formed from the data. Ethnographic research is also known as qualitative research. The instrument used to gather data in the study is the researcher. Data can be gathered through interviews, observations, and document analysis. Questionnaires containing open-ended questions may also be used. Sessions are oRen videotaped for viewing from different perspectives. In studies involving computer software, traces that capture user selections are often built into the software to provide the researcher with a more detailed set o f data o f user actions and choices. Validity o f this type o f research depends heavily on the skill, competence and rigor o f the researchers. Data is gathered using more than one o f the data collection methods. The researcher crosschecks data and interpretations by pitting data obtained from one source against that obtained from another source in order to confirm information and to explore inconsistencies. Data analysis begins with and overlaps data collection. The final product pro- duced from an ethnographic study should be a 'thick de- seription" o f the situation, so that the situation appears suf- ficiently realistic, and so that others in examining the de- scxiption can determine whether the implications drawn from the study can be applied to other settings. Throughout the contextual design process, members o f a design team</region>
+          <region class="unknown" id="34" page="2" column="1">2 Overview of the HCI Course</region>
+          <region class="DoCO:FigureBox" id="Fx36">
+            <image class="DoCO:Figure" src="62rz.page_002.image_02.png" thmb="62rz.page_002.image_02-thumb.png"/>
+          </region>
+          <region class="unknown" id="39" page="2" column="2">3 Approaches to Teaching Ethnographic Skills</region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="46" page="2" column="2">238</outsider>
+          <region class="DoCO:TableBox" id="Tx47">
+            <content>
+              <table class="DoCO:Table" number="1" page="3">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                  <tr class="table.strange"/>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="52" confidence="possible" page="3" column="1">engage in activities requiring the same skills used by ethnographic researchers [<xref ref-type="bibr" rid="R19" id="48" class="deo:Reference">19</xref>]. While contextual design provides a data rich environment for design, it is important that it be skillfully applied. The risk of misinterpreting observations, disrupting normal practice, and overlooking information is high [<xref ref-type="bibr" rid="R18" id="49" class="deo:Reference">18</xref>]. Vali- dated ethnographic methods have established guidelines for performing the user study, analyzing the data, and reporting the results [<xref ref-type="bibr" rid="R15" id="50" class="deo:Reference">15</xref>]. Like other notable areas o f computer science, ethnographic skills must be experienced and prac- riced to fully learn their potential as well as their theoretical underpinnings [ <xref ref-type="bibr" rid="R14" id="51" class="deo:Reference">14</xref>]. Design Step &amp; Concepts Exercises Contextual Inquiry Observation • Gathering factual data • Out-of-class • Observation skills • Observe an individual • Interviewing skills doing a public activity • Partnership relation- • Develop field notes ship Interviewing • Writing field notes • In-class and out-of-class • Practice open-ended interviewing skills • In-class critiquing • Develop field notes Role Playing • In-class • Observe a design interview (role play) • Develop field notes (used for modeling exercise) W o r k Modeling Work Modeling • Provide a graphical • In-class representation of data • Teams of 3.-4students • Organizes data around develop flow, sequence, 5 specific aspects: In- and artifactmodels formation flow, se- • Teams practice the proc- quence of task steps, ess of "working-on-the- artifacts used in the wall" task, cultural setting, Brainstorming and physical setting. • In-class Develop shared (team) • Teams brainstorm design understanding of the ideas that support the im- user's model plications recognized i n the work models. • Ideas presented to the class</region>
+            <caption class="deo:Caption" id="53" page="3" column="1">Table 1: Design Concepts and Exercises Two aspects o f the redesigned curriculum</caption>
+          </region>
+          <region class="DoCO:TextChunk" id="54" confidence="possible" page="3" column="1">for the HCI course have focused on students' development o f these skills. First, materials and exercises that focus on observation, interview and data interpretation skills are now part o f the course. Second, students in the course have the oppor- tunity to use these skills with real potential users o f their term long design project. The HCI course solicits potential software users from the introductory computer science courses in an approach simi- lar to the way upper division psychology courses on empirical methods are taught b y soliciting voluntary subjects</region>
+          <region class="DoCO:FigureBox" id="Fx55">
+            <image class="DoCO:Figure" src="62rz.page_003.image_03.png" thmb="62rz.page_003.image_03-thumb.png"/>
+          </region>
+          <region class="DoCO:TableBox" id="Tx56">
+            <content>
+              <table class="DoCO:Table" number="2" page="3">
+                <thead class="table"/>
+                <tbody>
+                  <tr class="table.strange">
+                    <td class="table.strange"> from lower division</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> courses. The</td>
+                    <td class="table.strange"> student volunteers volunteers are</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> offered extra credit</td>
+                    <td class="table.strange"> for</td>
+                    <td class="table.strange"> participation.</td>
+                    <td class="table.strange"> In the design project,</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> each HCI student</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> required to</td>
+                    <td class="table.strange"> interview/observe interview/observe 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> tial users. So, a</td>
+                    <td class="table.strange"> design design</td>
+                    <td class="table.strange"> team o f</td>
+                    <td class="table.strange"> 3 will clam gathered</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> from six people.</td>
+                    <td class="table.strange"> This</td>
+                    <td class="table.strange"> gives them</td>
+                    <td class="table.strange"> a good basis for</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> After creating a</td>
+                    <td class="table.strange"> paper</td>
+                    <td class="table.strange"> prototype,</td>
+                    <td class="table.strange"> the design team tests the</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> prototype with</td>
+                    <td class="table.strange"> three</td>
+                    <td class="table.strange"> o f their</td>
+                    <td class="table.strange"> original interviewees. interviewees. interviewees.</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> provides members</td>
+                    <td class="table"> o f</td>
+                    <td class="table"> the design</td>
+                    <td class="table"> team with both a way to</td>
+                  </tr>
+                  <tr class="table">
+                    <td class="table"> refine their design</td>
+                    <td class="table"> and</td>
+                    <td class="table"> to validate</td>
+                    <td class="table"> their ideas.</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> The projects consist</td>
+                    <td class="table.strange"> o</td>
+                    <td class="table.strange"> f tasks</td>
+                    <td class="table.strange"> universal enough that a</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> eral population will</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> have some</td>
+                    <td class="table.strange"> experience with the to</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> provide useful</td>
+                    <td class="table.strange"> information. information.</td>
+                    <td class="table.strange"> For</td>
+                    <td class="table.strange"> example, one project project fo-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> cused on creating</td>
+                    <td class="table.strange"> a</td>
+                    <td class="table.strange"> time management</td>
+                    <td class="table.strange"> system geared geared to-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> ward academic</td>
+                    <td class="table.strange"> studies, studies,</td>
+                    <td class="table.strange"> and another</td>
+                    <td class="table.strange"> focused on an applica-</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> tion for creating</td>
+                    <td class="table.strange"> academic academic</td>
+                    <td class="table.strange"> schedules.</td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> The course is</td>
+                    <td class="table.strange"> structured structured</td>
+                    <td class="table.strange"> around</td>
+                    <td class="table.strange"> the milestones of the</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> textual design</td>
+                    <td class="table.strange"> process. process.</td>
+                    <td class="table.strange"> Prior to</td>
+                    <td class="table.strange"> the due date o f each each</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> stone in the design</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"> project a</td>
+                    <td class="table.strange"> combination o f in class and</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> o f class exercises</td>
+                    <td class="table.strange"> are</td>
+                    <td class="table.strange"> used to</td>
+                    <td class="table.strange"> help the students learn learn</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> concepts and skills</td>
+                    <td class="table.strange"> o f</td>
+                    <td class="table.strange"> the next</td>
+                    <td class="table.strange"> design step. Tables Tables 1 2</td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> describe this approach.</td>
+                    <td class="table.strange"> approach.</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Project Milestone</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Work Models &amp;</td>
+                    <td class="table.strange"> Consoli- Consoli-</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> dation</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Graphical</td>
+                    <td class="table.strange"> representa- representa-</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> tion of data</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Visualization</td>
+                    <td class="table.strange"> of im-</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> plications of</td>
+                    <td class="table.strange"> data</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • T e a m c o n s e n s u s</td>
+                    <td class="table.strange"> of</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> data interpretation</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Seeing data</td>
+                    <td class="table.strange"> across</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> multiple users</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> Paper Prototype</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • User/designer</td>
+                    <td class="table.strange"> part- part-</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> nership</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Maximal feedback</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> for minimum</td>
+                    <td class="table.strange"> effort effort</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Itemtive refinement</td>
+                    <td class="table.strange"> refinement</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> High-Fidelity Prototype</td>
+                    <td class="table.strange"> Prototype</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • User/designer</td>
+                    <td class="table.strange"> part- part-</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> nership</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> • Formal usability</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                  <tr class="table.strange">
+                    <td class="table.strange"> testing</td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                    <td class="table.strange"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </content>
+            <region class="TableInfo" id="57" confidence="possible" page="3" column="2">from lower division courses. The student volunteers are offered extra credit for participation. In the design project, each HCI student is required to interview/observe 2 potential users. So, a design team o f 3 will have clam gathered from six people. This gives them a good basis for design. After creating a paper prototype, the design team tests the prototype with three o f their original interviewees. This provides members o f the design team with both a way to refine their design and to validate their ideas. The projects consist o f tasks universal enough that a general population will have some experience with the task to provide useful information. For example, one project focused on creating a time management system geared toward academic studies, and another focused on an application for creating academic schedules. The course is structured around the milestones of the contextual design process. Prior to the due date o f each mile- stone in the design project a combination o f in class and out o f class exercises are used to help the students learn the concepts and skills o f the next design step. Tables 1 and 2 describe this approach. Project Milestone Work Models &amp; Consoli- dation • Graphical representation of data • Visualization of implications of data • T e a m c o n s e n s u s of data interpretation • Seeing data across multiple users Paper Prototype • User/designer part- nership • Maximal feedback for minimum effort • Itemtive refinement</region>
+            <region class="TableInfo" id="58" confidence="possible" page="3" column="2">High-Fidelity Prototype • User/designer part- nership • Formal usability testing</region>
+            <caption class="deo:Caption" id="59" page="3" column="2">Table 2: Project Milestones</caption>
+          </region>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">Design is a creative activity of making artifacts that are usable for some specific task. Software design in particular strives for creating products that enrich the interaction between humans and computer applications. While the software programmer/engineer is concerned with developing reliable, robust, and maintainable software, the software designer is concerned with creating products that fit within the user's overall activities, enhance productivity, and pro- duce a satisfying experience [<xref ref-type="bibr" rid="R21" id="6" class="deo:Reference">21</xref>, <xref ref-type="bibr" rid="R7" id="7" class="deo:Reference">7</xref>]. To accomplish this goal the software designer needs to be able to apply knowledge o f human goals, capabilities, and limitations with knowledge o f computer capabilities and limitations [ <xref ref-type="bibr" rid="R13" id="8" class="deo:Reference">13</xref>]. While it is important for a software product to provide the necessary fimctionality to perform its intended use, it is also important that this functionality be presented in a manner consistent with the user's understanding. For example, the DOS operating system provided all the necessary fiLnctionality for managing files and folders from a command line. But the graphical user interfaces and the</region>
+      <region class="DoCO:TextChunk" id="10" confidence="possible" page="1" column="1">Permission to make digital or hard copies of all or part of this work for personal or classroomuse is grantedwithoutfee providedthat copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. To copy otherwise, or republish, to post on servers or to redistribute to lists, requirespriorspecificpermissionand/ora fee. SIGCSE'02, February27- March3, 2002, Covington,Kentucky,USA. Copyright2002 ACM 1-58113-.473-8/02/0002...$5.00.</region>
+      <region class="DoCO:TextChunk" id="24" page="1" column="2">desktop metaphor o f Apple's Macintosh and Microsoft's Windows have transformed the personal computer operating system into a product that can be used easily by the most non-technical users because their presentation fits users' conceptual understanding o f managing files and folders. An array o f anecdotal evidence (e.g., [<xref ref-type="bibr" rid="R12" id="13" class="deo:Reference">12</xref>, <xref ref-type="bibr" rid="R16" id="14" class="deo:Reference">16</xref>]) and signifi- cant empirical evidence (e.g., [<xref ref-type="bibr" rid="R8" id="15" class="deo:Reference">8</xref>]) reveal that the ability o f computer technology to deliver on its promises, improving our productivity and enhancing our quality o f life, rests squarely on how well the application fits our conceptual understanding o f how things work [<xref ref-type="bibr" rid="R8" id="16" class="deo:Reference">8</xref>]. Left to their own devices, computer programmers take a "systems-centered point o f view", concerned about "how the software works and what parts o f it do what" [8, p. 217-218]. The pre- dominant users o f the number crunching era were willing to put up with a high threshold o f indignation (the highest level o f behavioral compromise a user is willing to make to accomplish their goals) [ <xref ref-type="bibr" rid="R17" id="17" class="deo:Reference">17</xref>]. The users o f the new era are less so. They do not want to know how the inner mechanisms o f the machine work; rather they want to know how the machine will work for them. This is exactly how we need to design such systems: the application should fit the user's conception of the process, "the user-task model", while the inner mechanisms, "the engineer model", should be as transparent as possible [<xref ref-type="bibr" rid="R3" id="18" class="deo:Reference">3</xref>]. In the area o f Human-Computer Interaction (HCI) research, a number o f approaches have evolved to meet this chal- lenge. These include User-Centered Design [<xref ref-type="bibr" rid="R8" id="19" class="deo:Reference">8</xref>], Human- Centered Systems [<xref ref-type="bibr" rid="R2" id="20" class="deo:Reference">2</xref>], Participatory Design [<xref ref-type="bibr" rid="R10" id="21" class="deo:Reference">10</xref>], and Contextual Design [<xref ref-type="bibr" rid="R1" id="22" class="deo:Reference">1</xref>]. Though they differ in their techniques, these approaches have a general common vision o f seeing "the interplay between human activity and technological systems as inextricably linked and equally important aspects o f analysis, design, and evaluation" [2, p. 3]. The different techniques find ways to interject the designer in the user's world and the user in the designer's world in order to develop a shared conceptual model o f the task and the context in which it is being done [<xref ref-type="bibr" rid="R10" id="23" class="deo:Reference">10</xref>]. The main goal o f the project reported in this paper is to develop a curriculum using an experiential learning environment for this important aspect o f application design.</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="25" page="1" column="2">237</outsider>
+      <section class="deo:Results">
+        <h1 class="DoCO:SectionTitle" id="60" page="3" column="2">4 Results</h1>
+        <region class="DoCO:TextChunk" id="61" confidence="possible" page="3" column="2">Formative evaluation was used during Fall 2000 and Spring 2001 to identify the strengths o f the HCI course redesign and changes to be made for subsequent semesters. The instruments used in the formative evaluation included both likert-scale and open-ended questionnaires, student interviews, evaluation of student-produced videotapes and work models, and observation o f classroom exercises. The evaluation resulted in modification to some exercises designed to teach ethnographic techniques.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="62" page="3" column="2">239</outsider>
+        <region class="DoCO:TextChunk" id="63" page="4" column="1">The project looks at two general questions in terms o f the H C I students: H o w well do the course materials and lab experiences translate to an understanding o f design principles and practices? How well does the HCI students' understanding o f design principles and practices relate to their actual design practices?</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="64" page="4" column="1">4.1 Student Understanding of Participatory Design</h1>
+        <region class="DoCO:TextChunk" id="66" page="4" column="1">Based on data from surveys, interviews, observations, group work models, and analysis o f videotapes o f interview sessions, paper prototyping sessions and final projects presentations in the HCI course, students do understand participatory design principles and practices. HCI students regularly discussed ways their volunteers influenced the initial project design, and changes they made in their prototypes based on feedback from the volunteers. In interviews, HCI students with prior computer programming and design work-related experience regularly commented on how their experience with participatory design techniques in the HCI course had changed the way they now "looked at things at work." Several lamented that while they now understood the way design should be done, based on their experiences "unfortunately that is not the way it is done in the real world." Another student remarked, "This course is a re- freshing change to the usual CS/Math courses. I believe that it will help me a lot in designing interfaces that are actually what the user needs and understands." Students were surveyed with respect to the value o f the HCI course activities and exercises in helping them understanding ethnographic techniques and components o f participatory design (<xref ref-type="table" rid="T3" id="65" class="deo:Reference">Table 3</xref>). The exercises they valued most involved practicing skills, such as interviewing and data interpretation, which they used later in completing the final project. All rated the experience o f doing the final project most highly.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="67" page="4" column="1">4.2 Student's Use of Design Techniques</h1>
+        <region class="DoCO:TextChunk" id="68" page="4" column="1">The second question involving the HCI students looks at how well the students related their understanding o f participatory design principles and practices to their actual design practices. In order to address this question, design practices o f students in the two-semester senior project course are being studied. Not all students in the senior project course were involved in the redesigned HCI course, though all students reported some exposure to the contextual design process. We are currently in the process o f following a second group through the first semester design phase o f the senior project course. Results reported here are gathered from questionnaires, examination o f project direc- tors' weekly reports and interviews, with students who completed the first semester o f the senior project course in Spring 2001. Four teams with four students each completed the first semester o f the senior project course in Spring 2001. Students who had completed the revised HCI course led two teams. Each o f these teams also included a second student who had completed the revised HCI course. No members o f the</region>
+        <region class="DoCO:FigureBox" id="Fx69">
+          <image class="DoCO:Figure" src="62rz.page_004.image_04.png" thmb="62rz.page_004.image_04-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="70" confidence="possible" page="4" column="2">in revised</region>
+        <region class="unknown" id="71" page="4" column="2">other two teams participated the H C I course, though both team leaders reported some familiarity with participatory design techniques. Several similarities and differences were noted in the teams' approaches. Each team relied heavily on interviews with users to understand the users' needs and h o w the project activity was currently being done. Teams with leaders from the revised H C I course taped sessions with the users so members could review the interviews at later stages of design. The other two teams did not record sessions with users. T e a m leaders from the revised H C I course identified</region>
+        <region class="DoCO:TextChunk" id="72" page="4" column="2">the interviewing exercises from the prerequisite HCI course as particularly valuable as they gathered information for their project design. Team leaders from the other two teams both identified interviewing skills as something they be- lieved should be included in the prerequisite HCI course. One team led by a leader from the revised HCI course reported "informally" using the work models. The remaining teams reported that they had not used the models in arriv- ing at their designs. None o f the teams used paper prototyping during this phase o f the project design, though all indi- cated that they expected to use it as they completed the projects in the next semester.</region>
+        <region class="unknown" id="73" page="4" column="2">.</region>
+        <region class="unknown" id="74" page="4" column="2">.</region>
+        <region class="unknown" id="75" page="4" column="2">.</region>
+        <region class="unknown" id="76" page="4" column="2">.</region>
+        <region class="unknown" id="77" page="4" column="2">.</region>
+        <region class="unknown" id="78" page="4" column="2">.</region>
+        <region class="unknown" id="79" page="4" column="2">.</region>
+        <region class="unknown" id="80" page="4" column="2">.</region>
+        <region class="unknown" id="81" page="4" column="2">.</region>
+        <region class="unknown" id="82" page="4" column="2">.</region>
+        <region class="unknown" id="83" page="4" column="2">.</region>
+        <region class="unknown" id="84" page="4" column="2">.</region>
+        <region class="unknown" id="85" page="4" column="2">.</region>
+        <region class="unknown" id="86" page="4" column="2">.</region>
+        <region class="unknown" id="87" page="4" column="2">.</region>
+        <region class="unknown" id="88" page="4" column="2">.</region>
+        <region class="unknown" id="89" page="4" column="2">.</region>
+        <region class="unknown" id="90" page="4" column="2">.</region>
+        <region class="unknown" id="91" page="4" column="2">.</region>
+        <region class="unknown" id="92" page="4" column="2">.</region>
+        <region class="unknown" id="93" page="4" column="2">.</region>
+        <region class="unknown" id="94" page="4" column="2">.</region>
+        <region class="unknown" id="95" page="4" column="2">.</region>
+        <region class="unknown" id="96" page="4" column="2">.</region>
+        <region class="unknown" id="97" page="4" column="2">.</region>
+        <region class="unknown" id="98" page="4" column="2">.</region>
+        <region class="unknown" id="99" page="4" column="2">.</region>
+        <region class="unknown" id="100" page="4" column="2">.</region>
+        <region class="unknown" id="101" page="4" column="2">.</region>
+        <region class="unknown" id="102" page="4" column="2">.</region>
+        <region class="unknown" id="103" page="4" column="2">.</region>
+        <region class="unknown" id="104" page="4" column="2">.</region>
+        <region class="unknown" id="105" page="4" column="2">.</region>
+        <region class="unknown" id="106" page="4" column="2">3</region>
+        <region class="unknown" id="107" page="4" column="2">~ •</region>
+        <region class="unknown" id="108" page="4" column="2">,0</region>
+        <region class="unknown" id="109" page="4" column="2">c i</region>
+        <region class="unknown" id="110" page="4" column="2">c ° o =</region>
+        <region class="unknown" id="111" page="4" column="2">°</region>
+        <region class="unknown" id="112" page="4" column="2">"- i .~ ~ Exercises</region>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="113" page="4" column="2">5 Conclusions</h1>
+        <region class="DoCO:TextChunk" id="119" page="4" column="2">The revised HCI curriculum with the inclusion o f ethnographic techniques and the use o f voluntary subjects has increased students' understanding and appreciation o f participatory design. In the words o f two different students, "this course has made me look at my job in new ways." Students rated the course project involving student volunteers as users as extremely helpful in understanding the process o f contextual design. Over the two semesters o f this study, each group completed all stages o f the conceptual design process to successfully design a product based on user input. Based on preliminary results o f studying long-term attitudes toward design, the approach taken in the revised HCI course seems particularly successful in raising student awareness o f the importance o f the user as a partner in the design process. We are continuing to study this aspect o f the HCI curriculum over the 2001-2002 academic year <marker type="page" number="5"/><marker type="column" number="1"/><marker type="block"/> terms by following how the second group of students approaches design work on their senior projects. Two unexpected aspects of the study we are examining are the effect of student-perceived instructor bias and access to an HCI lab. The instructor who ran the senior projects course in the first part of our study has a background in sofavare engineering and has never taught HCI. His approach to project analysis follow traditional software engineering requirements gathering which do not require the type of user interaction we are teaching. A second aspect is access to an HCI lab. As part of this project, a lab was designed to support user interaction and team design activities. Because of the construction time, the first class to complete the redesigned HCI did not have the benefit of this lab, while the second class had the full benefit of the lab. We anticipate that the specialized designed lab itself will effect student's understanding of the process and their commitment toward it. A recent study by Sugar[<xref ref-type="bibr" rid="R20" id="116" class="deo:Reference">20</xref>] reports that design students take a novice, surface approach to interpreting user's actions from the results of usability testing. This results in only "band-aid" type changes to design. As Sugar notes, the results of this study indicate the importance of embed- ding usability testing in a larger creative activity. We believe that by including the ethnographic techniques in the design process students are able to form a more complete user model through which usability test results can be in- terpreted in a deeper, more meaningful way.<marker type="block"/> This project was funded in part by the National Science Foundation, Division of Undergraduate Education, Grant Award #9981088. We would also like to thank Joe Grant for his help in designing the HCI lab.</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="115" page="4" column="2">240</outsider>
+        <region class="unknown" id="118" page="5" column="1">Acknowledgments</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="120" confidence="possible" page="5" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="121" confidence="possible" page="5" column="1">[1] Beyer, H., and Holztblatt, K. (1997) Contextual Design: A customer-centered approach to systems designs, Morgan Kaufman Publishers, San Francisco, CA.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="122" confidence="possible" page="5" column="1">[2] Flanagan, J., Huang, T., Jones, P., and Kasif, S., eds. (1997) NSF Workshop on Human-Centered Systesm: Information, Interacfivity, and Intelligence, Final Re- port. (http ://www.ifp.uiuc.edu/nsfhcs).</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="123" confidence="possible" page="5" column="1">[3] Gentner, D. and Grndin, J. (1996) "Design Models for Computer-Human Interfaces", IEEE Computer, 29(6)28-35.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="124" confidence="possible" page="5" column="1">[4] Huges, J., O'Brien, J., Rodden, T., Rouncefield, M., Blythin, S. (1997) "Designing with Ethonography: A presentation framework for design", Proceedings of the Conference on Designing Interactive Systesm, ACM Press, New York, NY, 147-158.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="125" confidence="possible" page="5" column="1">[5] Huges, J., King, V., Rodden, T, and Anderson, H. (1995) "The Role of Ethonography in Interactive Systems Design", Interactions, 2(2)56-65.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="127" confidence="possible" page="5" column="2">[6] Johnson-Laird, P. (1989)"Mental Models", Chapter 12 in Foundations of Cognitive Science, M. Posner, ed., MIT Press, Cambridge, MA.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="128" confidence="possible" page="5" column="2">[7] Kapor, M. (1991) "A Software Design Manifesto: Time for a change", Dr. Dobb's Journal, 172, 62-68.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="129" confidence="possible" page="5" column="2">[8] Landauer, T. K. (1995) The Trouble with Computers: Usefulness, Usability, and Productivity, The MIT Press, Cambridge, Mass.</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="130" confidence="possible" page="5" column="2">[9] Liddle, D. (1996) "Design of the Conceptual Model", in Bringing Design to Software, ACM Press, New York, NY, 17-31.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="131" confidence="possible" page="5" column="2">[10]Muller, J., and Kuhn, S. (1993) "Participatory Design", Communications of the ACM, 36(6) 24-28.</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="132" confidence="possible" page="5" column="2">[11]Norman, D. (1983) "Some Observations on Mental Models", Chapter 1 in Mental Models, D. Gentner &amp; A. Stevens, eds., Lawrence Erlbaurn Assoc., Hillsdale, NJ.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="133" confidence="possible" page="5" column="2">[12]Norman, D. (1988) "The Psychopathology of Every- day Things", Chapter 1 in The Psychology of Every- day Things, Basic Books.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="134" confidence="possible" page="5" column="2">[13] Preece, J. (1996) Human-Computer Interaction, Addison-Wesley, Menlo Park, CA.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="135" confidence="possible" page="5" column="2">[14] Roberge, J., (1991) "Embedding Laboratories Within the Computer Science Curriculum." Papers of the 2 2 nd SIGCSE technical symposium in Computer Science Education. 23(1), 6-10.</ref>
+          <ref rid="R15" class="deo:BibliographicReference" id="136" confidence="possible" page="5" column="2">[15]Rose, A., Shneiderman, B, and Plaisant, C.(1995) "An Applied Ethnographic Method for Redesigning User Interfaces", Symposium on Designing Interactive Systems: Processes, Practices, Methods, &amp; Techniques (DIS "95), G. Olson &amp; S. Schuon, eds., ACM Press, 115-122.</ref>
+          <ref rid="R16" class="deo:BibliographicReference" id="137" confidence="possible" page="5" column="2">[16] Sachs, P. (1995) "Transforming Work: Collaboration, Learning, and Design", Communications of the ACM, 38(9), 36.-44.</ref>
+          <ref rid="R17" class="deo:BibliographicReference" id="138" confidence="possible" page="5" column="2">[17] Saffo, P. (1996) "The Consumer Spectrum" Chapter 5 in Bringing Design to Software, T. Winograd ed., Addison-Wesley, Menlo Park, CA.</ref>
+          <ref rid="R18" class="deo:BibliographicReference" id="139" confidence="possible" page="5" column="2">[18] Shneiderman, B. (1998) Designing the User Interface: Strategies for Effective Human-Computer Interaction, Addison-Wesley, Menlo Park, CA.</ref>
+          <ref rid="R19" class="deo:BibliographicReference" id="140" confidence="possible" page="5" column="2">[19] Simonsen, J. and Kensing, F. (1997) "Using Ethnography in Contextual Design", Communication of the ACM, 40(7), 82 - 87.</ref>
+          <ref rid="R20" class="deo:BibliographicReference" id="141" confidence="possible" page="5" column="2">[20]Sugar, W. (2001) "What is So Good About User- Centered Design? Documenting the Effect of Usability Sessions on Novice Software Designers", Journal of Research on Computing Education, 33(3), 235 - 250.</ref>
+          <ref rid="R21" class="deo:BibliographicReference" id="142" confidence="possible" page="5" column="2">[21]Winograd, T. (1996) "Introduction" in Bringing Design to Software, ACM Press, New York, NY, xiii- XXXV.</ref>
+        </ref-list>
+        <region class="DoCO:FigureBox" id="Fx126">
+          <image class="DoCO:Figure" src="62rz.page_005.image_05.png" thmb="62rz.page_005.image_05-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="143" page="5" column="2">241</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>bdbf567c7164030788bf315b71cba1fc79fbf3c49f331b6acabea3b8faebaf5b</job>
+    <base_name>62h1</base_name>
+    <doi>http://dx.doi.org/10.1145/1900441.1900476</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <title-group>
+        <article-title class="DoCO:Title" id="1">A Framework for Organizing the Tools and Techniques of Participatory Design</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Elizabeth B.-N. Sanders</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="3">Eva Brandt</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="4">Thomas Binder</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="6">MakeTools, LLC 183 Oakland Park Ave. Columbus OH 43214 <email id="5">Liz@MakeTools.com</email></region>
+      <abstract class="DoCO:Abstract" id="7">The field of Participatory Design (PD) has grown rapidly over the last 20 to 30 years. For more than two decades non-designers have been increasingly involved in various design activities through a large number of participatory design projects all over the world. The project aims in PD have developed from being mainly about ICT development to today include, for instance, space design, product development, industrial design, architecture, service- and transformation design. As every project is unique, it is necessary to decide which design approach(es), methods, tools and techniques to use in a specific project. Thus many practices for how to involve people in designing have been used and developed during the years. There is some confusion as to which tools and techniques to use, when, and for what purpose. Therefore we are proposing a framework to help organize the proliferation of tools, techniques and methods in hopes that the PD community will benefit by discussing relevant applications and identifying potential areas for further exploration.</abstract>
+      <section class="DoCO:Section">
+        <h2 class="DoCO:SectionTitle" id="8" confidence="possible" page="1" column="1">Author Keywords</h2>
+      </section>
+      <region class="DoCO:TextChunk" id="9" confidence="possible">Tools, techniques, methods, approaches, framework</region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="10" page="1" column="1">ACM</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="11" confidence="possible" page="1" column="1">Classification Keywords</h2>
+          <region class="DoCO:TextChunk" id="12" confidence="possible" page="1" column="1">H5.m. Information interfaces and presentation (e.g., HCI): Miscellaneous.</region>
+        </section>
+      </section>
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="13" page="1" column="1">INTRODUCTION</h1>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="32" confidence="possible" page="2" column="1">First, some definitions</h2>
+          <region class="DoCO:TextChunk" id="33" page="2" column="1">The terminology that is used to describe the application of participatory design practices has come from many sources and is often inconsistent Therefore, we will define the key concepts of PD that we will refer to in this paper. Tools = the material components that are used in PD activities. Toolkit = a collection of tools that are used in combination to serve a specific purpose. Technique = Technique describes how the tools and toolkits are put into action. For example, many different techniques can be used with a deck of image cards. They can be sorted, categorized, prioritized, used to make a collage, tell a story and/or used to spark conversations. Method = a method is a combination of tools, toolkits, techniques and/or games that are strategically put together to address defined goals within the research plan. Approach = the approach describes the overall mindset with which the research plan is to be conducted. For example, in this paper we will assume a participatory mindset, characterized by the belief that all people are creative.</region>
+        </section>
+      </section>
+      <region class="DoCO:TextChunk" id="31" page="1" column="1">Participatory Design (PD) today is an emerging design practice that involves different non-designers in various co-design activities throughout the design process. By non-designers we refer to potential users, other external stakeholders and/or people on the development team who are from disciplines other than design such as those in marketing, engineering, sales, etc. PD processes usually involve many people having different backgrounds, experiences, interests, and roles within the project. Thus, an important challenge is to find appropriate ways for engaging and involving people in PD activities. <marker type="column" number="2"/><marker type="block"/> Participatory design practices have developed significantly since the pioneering work of the 80’s reported in, for example, <xref ref-type="bibr" rid="R7" id="20" class="deo:Reference">Greenbaum and Kyng (1991)</xref> and <xref ref-type="bibr" rid="R13" id="21" class="deo:Reference">Schuler and Namioka (1993)</xref>. Where the early work was mainly conducted by researchers and was guided by attempts to open up the design of ICT systems to the participation of future users, participatory design today spans across a broad spectrum of domains and makes use of a broad repertoire of tools and techniques in both commercial, community oriented and research contexts. The tools and techniques have different origins and have been developed for different purposes. In the tradition of Scandinavian systems design there has been a strong emphasis on the cooperative aspect of participatory design, where designers and non-designers enter into what <xref ref-type="bibr" rid="R5" id="22" class="deo:Reference">Ehn (1988)</xref> has called a meeting of language games with prototyping of shared artefacts as a centerpiece of design dialogues. Such approaches have been taken further in suggestions among others for codesign laboratories (<xref ref-type="bibr" rid="R1" id="23" class="deo:Reference">Binder and Brandt, 2008</xref>) or design collaboratoriums (<xref ref-type="bibr" rid="R4" id="24" class="deo:Reference">Buur and Bødker, 2000</xref>) where design dialogues are expanded to also include collaborative explorations of the everyday practices of people. The main tools and techniques originating in this tradition have been scenario techniques drawing on approaches from drama and forum theatre, design games providing materials and setting rules for the design dialogue and mock up and prototyping techniques enabling participants to jointly construct prototypes despite different professional backgrounds or interest in the design project. Other traditions within participatory design have given more concern to how non-designers can articulate design proposals in such a way that these can provide a starting point for subsequent professional development work. Here we find various toolkits deliberately aimed at supporting particular groups of potential users in making robust representations of systems or products (see Müller (2007) and <xref ref-type="bibr" rid="R12" id="25" class="deo:Reference">Sanders (2008)</xref> for examples). Yet other researchers and practitioners have pursued participatory design by providing infrastructures or toolkits supporting users in tailoring and appropriating technology designed by others (e.g., <xref ref-type="bibr" rid="R6" id="26" class="deo:Reference">Goodell, Kuhn, Maulsby and Traynor, 1999</xref>). More recently and with inspiration from neighboring traditions mainly within interaction design of providing potential future users with inspirational probing kits that may produce inspirational material for the professional designer, we have seen a proliferation of approaches that suggest extensive crossovers between previously separate<marker type="page" number="2"/><marker type="column" number="1"/><marker type="block"/> participatory design “tool boxes”. Mattelmakki (2006) shows how probing techniques become particularly rich and productive when situated in codesign contexts. <xref ref-type="bibr" rid="R14" id="29" class="deo:Reference">Westerlund (2009)</xref> and others combine probing and prototyping. <xref ref-type="bibr" rid="R3" id="30" class="deo:Reference">Brereton and Buur (2008)</xref> take tools and techniques originally created for distinct participatory events such as workshops and embed them in long- term participatory activities around what can be seen as an on-going infrastructuring of the use context. With this sketchy outline of the origins and amalgamation of different repertoires of tools and techniques for participatory design we will suggest that a new, broader and perhaps also more pragmatic framework is needed. In the following we will give a first suggestion for such a framework to help make sense of and organize the current situation so that it is easier to compare, discuss and make choices about tools, techniques and methods. A framework can help us decide which tools and techniques are most relevant for specific situations. It can also give us ideas for trying new things out. A framework points toward the future by revealing the gaps, holes and empty spaces that warrant further exploration. A framework that organizes the tools and techniques for participatory design can help to connect design and research practices. It can also help to connect academics and practitioners. Frameworks can be very useful as pedagogical devices and can be quite practical as well.</region>
+      <region class="unknown" id="16" page="1" column="1">PDC 2010, November 29 – December 3, 2010, Sydney, Australia. Copyright the author(s) Additional copies are available at the ACM Digital Library (<ext-link ext-link-type="uri" href="http://portal.acm.org/dl.cfm)" id="15">http://portal.acm.org/dl.cfm)</ext-link> PDC 2010 Proceedings ISBN: x-xxxxx-xxx-x</region>
+      <region class="unknown" id="19" page="1" column="2">The Danish Center For Design Research* The Danish Design School Copenhagen, Denmark <email id="17">Eva.Brandt@dkds.dk</email> <email id="18">Thomas.Binder@dkds.dk</email></region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="28" page="1" column="2">1</outsider>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="34" page="2" column="1">THE FRAMEWORK</h1>
+        <region class="DoCO:TextChunk" id="36" page="2" column="1">Based on our combined global perspectives (Europe and the US) and years of experience as both teachers and practitioners of participatory design, we propose the following framework. It has also been informed by many previous papers. We have included only key review papers in the References section. We hope to spark a <marker type="column" number="2"/><marker type="block"/> dialogue with this short paper and to use the feedback that we receive about it to inform a longer and more thorough paper that will become a chapter in a book called Participatory Design to be published in 2011. The framework provides an overview of participatory design tools and techniques for engaging non-designers in specific participatory design activities. It has three dimensions: form, purpose and context. Form describes the kind of action that is taking place between the participants in an activity, and is described as making, telling and/or enacting. Purpose describes why the tools and techniques are being used and is described along four dimensions: 1) for probing participants, 1) for priming participants in order to immerse them in the domain of interest, 3) to get a better understanding of their current experience or, 4) the generation of ideas or design concepts for the future, for instance by creating and exploring future scenarios. It is possible to use each of the forms with any of the purposes. Context describes where and how the tools and techniques are used. Context is described along these four dimensions: group size and composition, face-to-face vs. on-line, venue, as well as stakeholder relationships. It is very important to understand the purpose and context of the tools and techniques and to customize them accordingly. The content of the collage toolkit and the instructions for its use will vary depending upon the purpose for which it is aimed as well as the context in which it will be applied. For example, making 2-D collages can be used for priming or probing or understanding current experience or for generating ideas about the future. Each of these collage toolkits will be different. The following chart lists examples of the tools and techniques that are being used today organized by form (i.e., making, telling and enacting). The X’s indicate where these tools and techniques are currently being applied in relation to their purpose (i.e., for probing, priming, understanding or generating).</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="37" confidence="possible" page="2" column="2">TOOLS AND TECHNIQUES</h1>
+        <region class="unknown" id="38" page="2" column="2">PROBE PRIME UNDERSTAND GENERATE X X X X X X X X X</region>
+        <region class="unknown" id="39" page="2" column="2">MAKING TANGIBLE THINGS 2-D collages using visual and verbal triggers on backgrounds with timelines, circles, etc. 2-D mappings using visual and verbal components on patterned backgrounds 3-D mock-ups using e.g. foam, clay, Legos or Velcro-modeling TALKING, TELLING AND EXPLAINING</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="40" page="2" column="2">2</outsider>
+        <region class="DoCO:TextChunk" id="49" page="3" column="1">Diaries and daily logs through X X X writing, drawing, blogs, photos, video, etc. Cards to organize, categorize X X and prioritize ideas. The cards may contain video snippets, incidents, signs, traces, moments, photos, domains, technologies, templates and what if provocations. ACTING, ENACTING AND PLAYING Game boards and game pieces X X X and rules for playing Props and black boxes X X Participatory envisioning and X enactment by setting users in future situations Improvisation X Acting out, skits and play X X acting <xref ref-type="table" rid="T1" id="41" class="deo:Reference">Table 1</xref>: The tools and techniques of PD organized by form and by purpose. There are a number of dimensions that describe the context of use of the tools and techniques of PD. Each of the following variables should be carefully considered when planning the PD research method. Group size and composition: You can conduct participatory design sessions with either individuals or with people in groups. The groups can vary in size from two people to large numbers of people. And within the group situation you have the option of asking the participants to work either individually or collectively. When is it appropriate to ask people to work individually or collectively? The full answer to this question would take another paper to describe. The short answer is that probing, priming and understanding applications are best done individually to be able to capture unique individual experiences. Once shared, these individual expressions can help connect people to one another, setting the stage for successful collaboration in later activities. Generative applications can be done either individually or collectively. In fact, it is often in the collaborative act of making, telling or enacting that innovation occurs. Face-to-face or on-line: Participatory design sessions have traditionally been conducted in a face-to-face manner and certainly this is the preferred situation for all involved. But the face-to-face approach can be very time- and cost-intensive. The application of technologies such as Skype and video-conferencing makes it possible for people all over the world to participate via the internet. Probing and priming activities, in particular, have been successfully executed via on-line media for some time now. For example, video use-logs and blogging can be used for remote priming. However, the ability to use on- line tools and techniques for the entire participatory session, particularly one that includes enacting is still a distant possibility. The chart below shows how the tools and techniques of PD are currently being put to use along the dimensions of<marker type="column" number="2"/><marker type="block"/> group composition and the face-to-face vs on-line. We can anticipate that the application of the tools and techniques in the on-line mode will continue to grow as advances in new communication technology emerge.<marker type="block"/> Venue: You can conduct participatory design sessions just about anywhere, but some of the most common locations include in participants’ own environments (home, work, school, etc), in the design studio or the research lab or in a generic facility/conference room. There are advantage and disadvantages for each location and the venue decision is one to carefully consider. It should be noted that the need to travel may pose constraints on the size and weight of the tools, materials and applications that can be considered. Budget constraints often force creativity in the further development of the tools and techniques of participatory<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> design. The recent proliferation of on-line applications is a case in point. Stakeholder relationships: The relationship between the design/research team and the participants is another variable to consider when planning a participatory approach. You may only be able to plan for a one-time event. However, the ideal situation is a continual relationship that is marked by iterative meetings. In a continual relationship it is important to bring new people into the PD process to ensure that a variety of perspectives can be addressed. Some additional questions to consider include: • Will the participants be prepared ahead of the group session or individual interview? • Or do they need to be primed on the spot? • Will the participants be paid or are they volunteers? • How much time, energy and attention can you reasonably expect them to give you?</region>
+        <region class="DoCO:TableBox" id="Tx44">
+          <content>
+            <table class="DoCO:Table" number="2" page="3">
+              <thead class="table"/>
+              <tbody>
+                <tr class="table">
+                  <td class="table"> CURRENT</td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> APPLICATIONS TOOLS TECHNIQUES AND OF THE</td>
+                  <td class="table.strange"> INDIVIDUAL</td>
+                  <td class="table.strange"> GROUP</td>
+                  <td class="table.strange"> FACE-TO- FACE</td>
+                  <td class="table.strange"> ON-LINE</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> MAKING TANGIBLE</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> THINGS</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2-D collages using visual and</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> verbal triggers on backgrounds</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> with timelines, circles, etc.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 2-D mappings using visual and</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> verbal components on patterned</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> backgrounds</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> 3-D mock-ups using foam, clay,</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> Legos or Velcro-modeling</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> TALKING, TELLING AND</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> EXPLAINING</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Stories and storyboarding</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> through writing, drawing, blogs,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> wikis, photos, video, etc.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Diaries and daily logs through</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> writing, drawing, blogs, photos,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> video, etc.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Cards to organize, categorize</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> and prioritize ideas. The cards</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> may contain video snippets,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> incidents, signs, traces, moments,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> photos, domains, technologies,</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> templates and what if</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> provocations.</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> ACTING, ENACTING AND</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> PLAYING</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Game boards and game pieces</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> and rules for playing</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Props and black boxes</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Participatory envisioning and</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> enactment by setting users in</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table.strange">
+                  <td class="table.strange"> future situations</td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                  <td class="table.strange"></td>
+                </tr>
+                <tr class="table">
+                  <td class="table"> Improvisation</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"> X</td>
+                  <td class="table"></td>
+                </tr>
+              </tbody>
+            </table>
+          </content>
+          <region class="TableInfo" id="45" confidence="possible" page="3" column="2">CURRENT APPLICATIONS TECHNIQUES TOOLS AND OF THE INDIVIDUAL GROUP FACE-TO- FACE ON-LINE MAKING TANGIBLE THINGS 2-D collages using visual and X X X X verbal triggers on backgrounds with timelines, circles, etc. 2-D mappings using visual and X X X verbal components on patterned backgrounds 3-D mock-ups using foam, clay, X X X Legos or Velcro-modeling TALKING, TELLING AND EXPLAINING Stories and storyboarding X X X X through writing, drawing, blogs, wikis, photos, video, etc. Diaries and daily logs through X X X writing, drawing, blogs, photos, video, etc. Cards to organize, categorize X X X and prioritize ideas. The cards may contain video snippets, incidents, signs, traces, moments, photos, domains, technologies, templates and what if provocations. ACTING, ENACTING AND PLAYING Game boards and game pieces X X X and rules for playing Props and black boxes X X X Participatory envisioning and X X X enactment by setting users in future situations Improvisation X X X</region>
+          <caption class="deo:Caption" id="46" page="3" column="2">Table 2: Current applications of the tools and techniques of PD described by context.</caption>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="48" page="3" column="2">3</outsider>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="50" confidence="possible" page="4" column="1">How methods are made from the tools, toolkits, techniques and games</h2>
+          <region class="DoCO:TextChunk" id="51" page="4" column="1">A method is a combination of tools and techniques that have been strategically put together to serve a specific purpose. In designing the method, it is very important to think about the entire experience that the participants are going to go through. Each activity should prepare or prime them to successfully execute the next activity. The PD tools and techniques are best used in combination and the ideal situation is to create a workshop or research plan by drawing upon all three types of activities: making, telling and enacting. In fact, over the last 10 years it has become more and more common for the three types of activities to be used iteratively. For example, telling activities such as photo diaries might be used as primes in order to set the stage for face-to-face play- acting of current scenarios. Making activities, such as the construction of props of future design artifacts, might then be used to inspire the creation of future scenarios.</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="52" page="4" column="1">LOOKING AHEAD</h1>
+        <region class="DoCO:TextChunk" id="53" page="4" column="1">We have proposed a framework to help organize the proliferation of tools, techniques and methods in hopes that the PD community will benefit by using it to compare, discuss and make choices about tools, techniques and methods. We offer it as a working framework to be used, reused and refined over time. This is the feedback we hope to obtain: Can the framework be useful for practitioners? If yes, then how will they use it? Is it useful for educators? How can we make it more useful? Can it be useful for design researchers? Please direct your feedback about the framework to any of the authors. Thanks!</region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="54" page="4" column="2">REFERENCES</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="55" page="4" column="2">Binder, T. and Brandt, E. (2008). The Design:Lab as platform in participatory design research. In Binder, Brandt and Gregory (Eds.), CoDesign, International Journal of CoDesign in Design and the Arts. Volume 4 Number 2, June 2008. Pp. 115 – 129. Taylor &amp; Francis.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="56" page="4" column="2">Brandt, E. (2006) Designing exploratory design games. PDC: Expanding Boundaries in Design. Trento, Italy, Volume 1, pp. 57-66.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="57" page="4" column="2">Brereton, M. and Buur, J. (2008) New challenges for design participation in the era of ubiquitous computing. CoDesign, 4(2), 101-113.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="58" page="4" column="2">Buur, J. and Bødker, S. (2000) From usability lab to “design collaboratorium” DIS: Processes, Practices, Methods, and Techniques, New York City, pp. 297 – 307.</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="59" page="4" column="2">Ehn, P. (1988). Work-oriented design of computer artifacts. Falköping, Sweden: Arbetslivcentrum/Almqvist and Wiksell International.</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="60" page="4" column="2">Goodell, H. Kuhn, S. Maulsby, D. and Traynor, C (1999) End user programming/informal programming, ACM SIGCHI Bulletin, Volume 31 , Issue 4, October 1999, pp. 17 – 2.</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="61" page="4" column="2">Greenbaum, J., and Kyng, M. (1991). Design at work: Cooperative design of computer systems. Hillsdale NJ: Erlbaum.</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="62" page="4" column="2">Kensing, F., and Munk-Madsen, A. (1993). PD: Structure in the toolbox. Communications of the ACM 36(6), 78-85 (June 1993).</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="63" page="4" column="2">Mattelmäki, T (2006) Design probes. DA Dissertation. Helsinki: University of Art and Design Helsinki.</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="64" page="4" column="2">Muller, M.J., White, E.A., and Wildman, D.M. (1993). Taxonomy of PD practices: A brief practitioner's guide. Communications of the ACM 36(6), 26-28 (June 1993).</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="65" page="4" column="2">Muller, M.J. (2007) Participatory design: The third space in HCI (revised). In J. Jacko and A. Sears (eds.), Handbook of HCI 2nd Edition. Mahway NJ USA: Erlbaum.</ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="66" confidence="possible" page="4" column="2">Sanders, E. (2008). An evolving map of design practices and design research. In Interactions – experiences, people, technology. ACM. Volume XV.6 November + December 2008, p. 13-17.</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="67" page="4" column="2">Schuler, D., and Namioka, A. (1993) (Eds.). Participatory design: Principles and practices. Hillsdale NJ USA: Erlbaum.</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="68" page="4" column="2">Westerlund, B (2009) Design space exploration: Cooperative creation of proposals for desired interactions with future artefacts. Ph.D. Thesis, Human-Computer Interaction, Stockholm: KTH.</ref>
+        </ref-list>
+        <outsider class="DoCO:TextBox" type="page_nr" id="69" page="4" column="2">4</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

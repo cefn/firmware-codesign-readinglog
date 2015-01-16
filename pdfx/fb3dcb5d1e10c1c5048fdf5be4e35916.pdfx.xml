@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>16fbdd3b6c8c8ad9d532279767f2fd7ecee958370c92c7b8a1768b4fcc3855e9</job>
+    <base_name>62h2</base_name>
+    <doi confidence="possible" alt_doi="http://dx.doi.org/10.1007/3-540-46648-7_27">http://dx.doi.org/10.1007/978-1-84800-100-8_4</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <region class="DoCO:FigureBox" id="Fx1">
+        <image class="DoCO:Figure" src="62h2.page_001.image_01.png" thmb="62h2.page_001.image_01-thumb.png"/>
+        <image class="DoCO:Figure" src="62h2.page_001.image_02.png" thmb="62h2.page_001.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="2">www.codingstandard.com</region>
+      <title-group>
+        <article-title class="DoCO:Title" id="3">HIC++ V4.0 – an overview by the authors</article-title>
+      </title-group>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="4">By Wojciech Basalaj</name>
+        </contrib>
+        <contrib contrib-type="author">
+          <name id="5">Richard Corden</name>
+        </contrib>
+      </contrib-group>
+      <region class="unknown" id="6">October 2013</region>
+      <abstract class="DoCO:Abstract" id="7" confidence="possible">On 3rd October 2013, High Integrity C++, one of the most respected, longest established and widely adopted C++ coding standards, marked its 10th anniversary with a the publication of major new update – Version 4.0. Over the past decade a staggering 24,000 copies of this coding standard have been downloaded. This whitepaper presents genealogy and philosophy of the latest version of HIC++, and its unique contribution over the previously available coding standards for C++. C++11 changes the game considerably: secret handshakes can be replaced with explicit new syntax. The new HIC++ specifically favors these C++11 features to simplify the rule set and its enforcement. In a similar vein, additional concepts are introduced to further simplify this coding standard. This has created room for brand new rules covering the new features in C++11, e.g. lambdas, rvalue references, and the concurrency libraries. The result is a reduced number of rules, which are more generic, comprehensive, and amenable to automated enforcement compared to the previous version of HIC++. To demonstrate benefits of this new approach, the effectiveness of the new and old versions of HIC++ is compared empirically.</abstract>
+      <region class="DoCO:FigureBox" id="Fx8">
+        <image class="DoCO:Figure" src="62h2.page_001.image_03.png" thmb="62h2.page_001.image_03-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="9">1</outsider>
+      <region class="DoCO:FigureBox" id="Fx10">
+        <image class="DoCO:Figure" src="62h2.page_002.image_04.png" thmb="62h2.page_002.image_04-thumb.png"/>
+        <image class="DoCO:Figure" src="62h2.page_002.image_05.png" thmb="62h2.page_002.image_05-thumb.png"/>
+      </region>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <section class="deo:Introduction">
+        <h1 class="DoCO:SectionTitle" id="11" page="2" column="1">1 Introduction</h1>
+        <region class="DoCO:TextChunk" id="17" page="2" column="1">The original High Integrity C++ coding standard, published on 3 October 2003, pooled best practice advice available at the time [<xref ref-type="bibr" rid="R10" id="12" class="deo:Reference">Stroustrup</xref>][Effective C++][More Effective <xref ref-type="bibr" rid="R3" id="13" class="deo:Reference">Effective C++][Effective STL</xref> Strength C++][Exceptional C++], as well as internal know-how at Programming Research. The result was a set of 202 rules and guidelines for the use of the C++ language. Since stylistic issues were largely ignored, and left for the individual organizations to define, this collection of rules and guidelines established a subset of the original programming language [<xref ref-type="bibr" rid="R4" id="14" class="deo:Reference">ISO C++ 2003</xref>], applicable to any development, including high integrity. In the intervening decade other publicly available language subsets emerged [<xref ref-type="bibr" rid="R6" id="15" class="deo:Reference">JSF AV C</xref>++][MISRA C++], which specifically focus on use of C++ for safety critical applications. In 2011 major changes to the C++ language have been ratified [<xref ref-type="bibr" rid="R5" id="16" class="deo:Reference">ISO C++ 2011</xref>], which invalidate some of the existing advice, as well as expose gaps relating to the use of new constructs, such as lambdas, rvalue references and new facilities of the standard library. In order to prevent HIC++ from losing its relevance, a major revision has emerged to address these shortcomings.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="18" page="2" column="1">2 Rule Composition</h1>
+        <region class="DoCO:TextChunk" id="20" page="2" column="1">The relationship between Version 3.3 and Version 4.0 of HIC++ is summarized in <xref ref-type="fig" rid="F1" id="19" class="deo:Reference">Figure 1</xref>, and further explained in subsequent sections.</region>
+        <region class="DoCO:TextChunk" id="21" confidence="possible" page="2" column="1">80 retired 20 identical 28 reworded HIC++ V3.3 202 rules 12 relaxed 12 extended (5 merged) HIC++ V4.0 155 rules 15 updated for C++11 (4 merged) 44 merged into 16 61 new</region>
+        <region class="DoCO:FigureBox" id="F1">
+          <caption class="deo:Caption" id="22" page="2" column="1">Figure 1: Composition of HIC++ V3.3 and V4.0.</caption>
+        </region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="23" page="2" column="1">2.1 Retired Rules</h2>
+          <region class="DoCO:TextChunk" id="32" page="2" column="1">A large number of rules in a language subset typically gives rise to rule overlap, and can make enforcement problematic, especially if manual enforcement is used. With this in mind, in version 4.0 of HIC++ [HIC++4] we have opted not to carry forward 80 rules and guidelines from version 3.x [HIC++3]. Some of them are not relevant to the guiding principles of HIC++: code maintenance, portability, readability and robustness. A good <marker type="page" number="3"/><marker type="block"/> example is the retired guideline 3.1.7, which is simply too subjective, and without a proven case for or against following it: retired Do not use the 'inline' keyword for member functions, inline functions by defining them in the class body.<marker type="block"/> Rules that are not susceptible to automated enforcement, thus limiting their practical value, have also been omitted, for example rule 3.3.7: retired Only define virtual functions in a base class if the behavior will always be valid default behavior for derived classes.<marker type="block"/> Finally, a small numbered of rules have become completely obsolete with the new C++ standard [<xref ref-type="bibr" rid="R5" id="30" class="deo:Reference">ISO C++ 2011</xref>], because they have become constraint violations (compilation errors), or well defined, as is now the case for guideline 10.18: retired Guard the modulus operation to ensure that both arguments are non-negative.<marker type="block"/> Of the remaining rules, 20 have been unchanged and 28 have been reworded to clarify enforcement and improve consistency. Other rules have undergone a more extensive reformulation, as detailed below.</region>
+          <region class="DoCO:FigureBox" id="Fx25">
+            <image class="DoCO:Figure" src="62h2.page_002.image_06.png" thmb="62h2.page_002.image_06-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="26" page="2" column="1">2</outsider>
+          <region class="DoCO:FigureBox" id="Fx27">
+            <image class="DoCO:Figure" src="62h2.page_003.image_07.png" thmb="62h2.page_003.image_07-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_003.image_08.png" thmb="62h2.page_003.image_08-thumb.png"/>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="33" page="3" column="1">2.2 Generalized Rules</h2>
+          <region class="DoCO:TextChunk" id="36" page="3" column="1">It is common for a language subset to contain a rule or a guideline banning a particular language construct, e.g. ‘minimize the use of casts’, and another constraining its use, e.g. ‘avoid using pointer or reference casts’. This introduces a level of redundancy, because either the more restrictive rule should be followed, or the more lenient one. In our view it is more practical to have a single rule – typically the more restrictive one – and use the rule deviation mechanism, to permit localized non-compliance. With this in mind we have merged several rules from HIC++ V3.3, to remove such a two-tiered approach, and avoid rule overlap. Rules which have similar rationale, but pertain to different features, represent another aspect of redundancy in HIC++ V3.3. A good example of this situation is the following pair of rules: Rule 8.4.2 (V3.3) Declare each variable on a separate line in a separate declaration statement... Rule 8.4.7 (V3.3) Declare one type name only in each typedef declaration. <marker type="block"/> We have realized that the key consideration is their common rationale, and decided to merge these rules into * a single rule , with a similar approach applied to analogous cases of duplication. In some cases, by adopting a modern coding concept we were able to side step a complete set of rules concerned with a problematic C++ feature. For example, the following new rule allows pointers and resource handles to be properly managed, addressing exception safety, and preventing memory leaks and dangling pointers, previously covered with separate rules: 3.4.3 (V4.0) Use RAII for resources<marker type="block"/> Overall, by following these principles we managed to replace 44 overlapping rules with 16 more generic ones, as detailed in an Appendix of the HIC++ manual [HIC++4].</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="37" page="3" column="1">2.3 C++11 Updates</h2>
+          <region class="DoCO:TextChunk" id="39" page="3" column="1">In the latest version of the C++ standard [<xref ref-type="bibr" rid="R5" id="38" class="deo:Reference">ISO C++ 2011</xref>], new syntax has been added to simplify the definition of special member functions, namely =delete and =default, rendering obsolete rules in HIC++ V3.3 and other language subsets relating to the declaration of copy constructors, copy assignment operators and destructors: Rule 3.1.3 (V3.3) Declare or define a copy constructor, a copy assignment operator and a destructor for classes which manage resources. Guideline 3.1.13 Verify that all classes provide a minimal standard interface against a checklist (V3.3) comprising: a default constructor; a copy constructor; a copy assignment operator and a destructor.</region>
+          <region class="DoCO:TextChunk" id="40" confidence="possible" page="3" column="1">* HIC++ V4.0 Rule 7.1.1: Declare each identifier on a separate line in a separate declaration</region>
+          <region class="DoCO:FigureBox" id="Fx41">
+            <image class="DoCO:Figure" src="62h2.page_003.image_09.png" thmb="62h2.page_003.image_09-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="42" page="3" column="1">3</outsider>
+          <region class="DoCO:FigureBox" id="Fx43">
+            <image class="DoCO:Figure" src="62h2.page_004.image_10.png" thmb="62h2.page_004.image_10-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_004.image_11.png" thmb="62h2.page_004.image_11-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="44" confidence="possible" page="4" column="1">These rules have been replaced in HIC++ 4.0 with one with clearer text and much simplified enforcement: 12.5.1 Define explicitly =default or =delete implicit special member functions of concrete classes</region>
+          <region class="DoCO:TextChunk" id="45" page="4" column="1">Similarly, special identifiers final and override allow simplification of rules relating to overridden virtual member † functions. Additionally, the new standard library header &lt;cstdint&gt; defines size specific type aliases, e.g. ‡ int32_t, which are preferable to similar type definitions in user code, as advocated by previous best practice . § In all, 15 rules have been updated based on introduction of better alternatives in C++11.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="46" page="4" column="1">2.4 Other Significant Modifications</h2>
+          <region class="DoCO:TextChunk" id="48" page="4" column="1">In a few cases, namely 12 rules, we felt that extending the rules, by making them in effect more restrictive, would benefit their justification, and enforceability. As an example: Rule 9.2 (V3.3) Only throw objects of class type. 15.1.1 (V4.0) Only use instances of std::exception for exceptions <marker type="block"/> ** Conversely, 12 other rules were relaxed, as we believed them to be overly restrictive, without a good case matching the guiding principles of HIC++, as detailed in Section 2.1. As an example: Rule 11.3 (V3.3) Specify the name of each function parameter in both the function declaration and the function definition. Use the same names in the function declaration and definition. 8.2.1 (V4.0) Make parameter names absent or identical in all declarations</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="49" page="4" column="1">3 New Rules</h1>
+        <region class="DoCO:TextChunk" id="51" page="4" column="1">Finally, 61 new rules have been added, covering topics detailed below. This brings the total rule count in HIC++ V4.0 to 155, down from 202 in V3.3. Each rule now has a comprehensive explanation with examples of compliance and non-compliance, and is categorized using its relevant clause and sub-clause from the text of the language standard [<xref ref-type="bibr" rid="R5" id="50" class="deo:Reference">ISO C++ 2011</xref>]. The new categorization ensures that related rules are grouped, and allows for easy navigation within the document, as well as cross referencing with the language standard.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="52" page="4" column="1">3.1 Prior Language Subsets</h2>
+          <region class="DoCO:TextChunk" id="58" page="4" column="1">In a separate whitepaper [ <xref ref-type="bibr" rid="R9" id="53" class="deo:Reference">PRQA Overlaps</xref>], overlaps between publicly available language subsets [HIC++3][<xref ref-type="bibr" rid="R6" id="54" class="deo:Reference">JSF AV C</xref>++][MISRA C++] were examined. In particular, it was found that several rules are common to JSF AV C++ and <xref ref-type="bibr" rid="R7" id="55" class="deo:Reference">MISRA C</xref>++ but absent from HIC++ V3.3. Clearly, these represented potential gaps in the language subset. After review, 15 rules have been incorporated into the new version of HIC++, which are heavily influenced by their JSF AV C++ (and also <xref ref-type="bibr" rid="R7" id="56" class="deo:Reference">MISRA C</xref>++) counterparts. One of the rules has also been updated to fit the new language specification, as elaborated in Section 2.3. In addition, 6 rules unique to MISRA C++ have also been incorporated, with one updated to match C++11.<marker type="block"/> Notably, we have borrowed from JSF AV C++ the notion of an interface class, and defined it in HIC++ as follows: - all public functions are pure virtual functions or getters, and - there are no public or protected data members, and - it contains at most one private data member of integral or enumerated type Addition of this concept simplifies formulation of a rule limiting use of multiple inheritance:</region>
+          <region class="DoCO:TextChunk" id="59" confidence="possible" page="4" column="1">† if available in a particular compiler implementation ‡ HIC++ V3.3 Rule 8.4.6, JSF AV C++ Rule 209, MISRA C++ Rule 3-9-2 § also 4 have been merged as detailed in Section 2.2 ** also 5 have been merged as detailed in Section 2.2</region>
+          <region class="DoCO:FigureBox" id="Fx60">
+            <image class="DoCO:Figure" src="62h2.page_004.image_12.png" thmb="62h2.page_004.image_12-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="61" page="4" column="1">4</outsider>
+          <region class="DoCO:FigureBox" id="Fx62">
+            <image class="DoCO:Figure" src="62h2.page_005.image_13.png" thmb="62h2.page_005.image_13-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_005.image_14.png" thmb="62h2.page_005.image_14-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="63" confidence="possible" page="5" column="1">10.3.1 (V4.0) Ensure that a derived class has at most one base class which is not an interface class</region>
+          <region class="DoCO:TextChunk" id="69" page="5" column="1">This brings the new version of HIC++ partially closer to both JSF++ and MISRA C++, as the overlap increased †† to from 76 to 91 rules in common. However, at the same time the HIC++ unique area has been extended by 40 rules, as detailed in the subsequent sections. <xref ref-type="fig" rid="F2" id="64" class="deo:Reference">Figure 2</xref> presents a side-by-side comparison of JSF++ and MISRA C++ overlaps with HIC++ V3.3 and V4.0 respectively. In order to represent the comparison accurately, the effects of rule merges (as described in Section 2.2) and rule deletions (see Section 2.1) are ignored. As can be seen from <xref ref-type="fig" rid="F2" id="65" class="deo:Reference">Figure 2</xref>, HIC++ V4.0 (combined with V3.3) now accounts for 55% of the combined rule set, compared to 46% previously. The remaining rules are beyond the scope of HIC++ as detailed in Sections 2.1 and 5.<marker type="block"/> CERT C++ Secure Coding Standard [CERT C++] is another commonly used coding standard. As this is the most recent entrant to the C++ coding standards arena, it shares many rules with the prior coding standards. A considerable proportion of the remaining rules are not concerned with the use of C++ language features, e.g. rules constraining use of the POSIX API or focused on code behavior. For this reason it is not strictly speaking a subset of the C++ language. Only two CERT C++ rules are quoted in HIC++ V4.0, with the remaining rules being redundant (as discussed in Section 2.2), previously covered elsewhere, or not directly related to C++.</region>
+          <region class="DoCO:FigureBox" id="F2">
+            <image class="DoCO:Figure" src="62h2.page_005.image_15.png" thmb="62h2.page_005.image_15-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_005.image_16.png" thmb="62h2.page_005.image_16-thumb.png"/>
+            <caption class="deo:Caption" id="68" page="5" column="1">Figure 2: Overlaps between HIC++, JSF AV C++ and MISRA C++. HIC++ slices are denoted with red hue, JSF++ with yellow, and MISRA C++ with checkered pattern.</caption>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="70" page="5" column="1">3.2 Previously Unpublished</h2>
+          <region class="DoCO:TextChunk" id="75" page="5" column="1">PRQA is actively involved in various C++ forums [WG21][ <xref ref-type="bibr" rid="R1" id="71" class="deo:Reference">ACCU</xref>], where on occasion C++ vulnerabilities are discussed. Through such unpublished sources, we have identified 4 additional rules not specific to C++11 for inclusion in the new version of HIC++. These rules can be identified in the HIC++ Manual [HIC++4] by the absence of any external references.<marker type="block"/> 3.3 C++11 The new version of C++ standard [<xref ref-type="bibr" rid="R5" id="73" class="deo:Reference">ISO C++ 2011</xref>] has revised the language definition substantially, and in particular has added several new features, e.g. lambdas and rvalue references. Mainstream C++ compilers have already implemented these features, so it is paramount to address dangerous aspects of their use. C++ gurus have started disseminating guidance on the use of these features [GOTW] [<xref ref-type="bibr" rid="R2" id="74" class="deo:Reference">Effective C++ ’11</xref>], and we have based 7 new rules on this material. In addition, we have added 17 rules originating from unpublished</region>
+          <region class="DoCO:TextChunk" id="76" confidence="possible" page="5" column="1">†† 72 HIC++ v3.3 rules are in common with MISRA C++</region>
+          <region class="DoCO:FigureBox" id="Fx77">
+            <image class="DoCO:Figure" src="62h2.page_005.image_17.png" thmb="62h2.page_005.image_17-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="78" page="5" column="1">5</outsider>
+          <region class="DoCO:FigureBox" id="Fx79">
+            <image class="DoCO:Figure" src="62h2.page_006.image_18.png" thmb="62h2.page_006.image_18-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_006.image_19.png" thmb="62h2.page_006.image_19-thumb.png"/>
+          </region>
+          <region class="DoCO:TextChunk" id="81" page="6" column="1">sources, as described in Section 3.2, and our independent analysis of the text of the language standard [<xref ref-type="bibr" rid="R5" id="80" class="deo:Reference">ISO C++ 2011</xref>].</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="82" page="6" column="1">3.4 Concurrency</h2>
+          <region class="DoCO:TextChunk" id="85" page="6" column="1">Previously, ISO C++ lacked any support for multithreading and synchronization. This has been rectified in the latest version of the standard [<xref ref-type="bibr" rid="R5" id="83" class="deo:Reference">ISO C++ 2011</xref>], by explicitly providing data race guarantees, and extending the standard library with the provision of the Atomic Operations and Thread Support libraries. C++ and concurrent programming gurus have embraced these features and started to provide guidance on their use [<xref ref-type="bibr" rid="R11" id="84" class="deo:Reference">Sutter Hardware</xref>][Williams Concurrency]. Based on these sources we have formulated 11 rules, and also 1 from unpublished sources, specifically relating to concurrency facilities in C++11. Notably we have provided an additional class high_integrity::thread, which wraps and enforces correct usage of std::thread, and provided its definition in the following rule:</region>
+          <region class="DoCO:TextChunk" id="86" confidence="possible" page="6" column="1">18.2.1 (V4.0) Use high integrity::thread in place of std::thread</region>
+        </section>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="87" page="6" column="1">4 Enforcement in Practice</h1>
+        <region class="DoCO:TextChunk" id="91" page="6" column="1">So far we have provided justification for all the rule changes and additions in HIC++V4.0. However, an open question remains as to how these modifications affect the enforceability of HIC++. As HIC++ is one of the most popular language subsets for C++ [ <xref ref-type="bibr" rid="R12" id="88" class="deo:Reference">VDC</xref>], it is important to understand how code written for ISO C++ 2003, which adheres to HIC++ V3.3, complies with regards to HIC++ V4.0. If there is no a major increase in non-compliance, projects can switch to HIC++ V4.0 with relative ease, and safely start using and migrating to new C++11 features. In order to verify this assumption we compared compliance of several open source projects to HIC++ V3.3 and V4.0.<marker type="block"/> We analyzed each codebase with QA·C++ (PRQA’s Static Analysis tool) and the HIC++ Compliance Module V3.3, and then suppressed all non-compliance warnings, i.e. deviated from all specific instances of rule violations. We then analyzed the code with QA·C++ and the HIC++ Compliance Module V4.0, and examined the new compliance warnings. <xref ref-type="table" rid="T1" id="90" class="deo:Reference">Table 1</xref> lists all the projects and their corresponding deterioration in compliance, in column 3. As can be seen from the table, for projects that already comply with HIC++ V3.3, the ‡‡ additional burden in fully migrating to the latest version is modest, at 15% of the original effort of compliance on average.</region>
+        <region class="DoCO:TextChunk" id="92" confidence="possible" page="6" column="1">Project thousand Ratio of additional HIC++ Ratio of unnecessary lines of code V4.0 violations (%) HIC++V3.3 violations (%) cgicc-3.2.9 11 23% 9% commoncpp2-1.8.1 45.5 28% 24% cvc3-2.4.1 5.5 33% 22% doxygen-1.8.1.2 51.2 11% 17% libsigc++-2.2.10 24.6 38% 8% pstoedit-3.60 40.4 16% 10% QScintilla-gpl-2.6.2 106 11% 16% re2c-0.13.5 12 12% 21% ucommon-5.2.2 68.3 21% 25% znotes-0.4.5 12.3 14% 15% total 376.8 average ratio 15% 17%</region>
+        <region class="DoCO:TextChunk" id="93" page="6" column="1">‡‡ This could be performed in a piecemeal fashion, with the rules that create the most non-compliance tackled last, alternatively by deviating from these specific rules.</region>
+        <region class="DoCO:FigureBox" id="Fx94">
+          <image class="DoCO:Figure" src="62h2.page_006.image_20.png" thmb="62h2.page_006.image_20-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="95" page="6" column="1">6</outsider>
+        <region class="DoCO:FigureBox" id="Fx96">
+          <image class="DoCO:Figure" src="62h2.page_007.image_21.png" thmb="62h2.page_007.image_21-thumb.png"/>
+          <image class="DoCO:Figure" src="62h2.page_007.image_22.png" thmb="62h2.page_007.image_22-thumb.png"/>
+        </region>
+        <region class="DoCO:TextChunk" id="98" confidence="possible" page="7" column="1">rd th <xref ref-type="table" rid="T1" id="97" class="deo:Reference">Table 1</xref>: Comparison of violations unique to HIC++ V4.0 (3 column) and V3.3 (4 column). The averages were calculated by treating the whole collection of projects as a single codebase.</region>
+        <region class="DoCO:TextChunk" id="100" page="7" column="1">To complete this study we inverted the HIC++ versions, and reanalyzed the codebases, as detailed above. This has allowed us to see if the retired rules (as described in Section 2.1), the overlapping rules (as per Section 2.2), and the relaxed rules (as per Section 2.4) are causing unwanted violations with V3.3, which are now absent with V4.0. Column 4 of <xref ref-type="table" rid="T1" id="99" class="deo:Reference">Table 1</xref> demonstrates that HIC++ V4.0 avoids 17% of unnecessary §§ violations on average. Therefore, on balance the new version of HIC++ requires less effort to enforce, while constituting a more comprehensive language subset, as detailed in Sections 2 and 3.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="101" page="7" column="1">5 Comparison with the MISRA Guidelines</h1>
+        <region class="DoCO:TextChunk" id="105" page="7" column="1">In March 2013, the latest version of the MISRA C guidelines was published [ <xref ref-type="bibr" rid="R8" id="102" class="deo:Reference">MISRA C:2012</xref>]. This is the third edition of the guidelines which cover the use of C in critical systems. Questions may arise as to the difference in philosophy of HIC++ V4.0 and MISRA, as well as the absence of the explicit MISRA C:2012 meta concepts, specifically: - Rules versus Directives, - Decidable versus Undecidable, and - Analysis Scope<marker type="block"/> The key difference between the HIC++ and MISRA (also <xref ref-type="bibr" rid="R6" id="104" class="deo:Reference">JSF AV C</xref>++) standards is the target application domains. The HIC++ rule set has been selected such that all rules are appropriate and can be applied to any domain, resulting in improved code quality, without adding overhead due to overly restrictive rules. In the case where critical or safety related issues are to be considered, then HIC++ should be used as a companion coding standard with a more restrictive rule set.</region>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="106" page="7" column="1">5.1 Difference in Philosophy</h2>
+          <region class="DoCO:TextChunk" id="107" page="7" column="1">Many of the rules selected for HIC++ share roots with rules in MISRA. The philosophies of the rule sets are therefore very similar, however, HIC++ differs slightly from MISRA in terms of the target domain. MISRA C:2012 targets software for use in critical systems. In such environments the cost of failure, no matter how rare, is significant and so rules must cover as many failure cases as possible. For example, MISRA C:2012 Dir 4.12 disallows the use of dynamic memory. This is appropriate within a critical embedded environment where an attempt to acquire more memory than is available would result in the failure of the system. HIC++ does not have such a restriction, as many applications are designed for running on hardware with gigabytes of memory. Similarly, MISRA C:2012 Rule 21.6 covers the functionality provided by the I/O libraries. The use of I/O in critical applications is disallowed because its behavior can be unspecified, implementation defined or undefined. However, I/O is a requirement for many applications in non- critical domains and so such a rule cannot be generally applied.</region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="108" page="7" column="1">5.2 Rules vs Directives</h2>
+          <region class="DoCO:TextChunk" id="110" page="7" column="1">MISRA C:2012 explicitly distinguishes between issues that can be detected through analysis of source code alone (“Rules”), and items that are subjective or that require knowledge from an external source (“Directives”). The rule set of HIC++ has been selected and written in such a way that enforcement should be possible through source code analysis. For example, the HIC++ rule relating to assembler usage is worded such that any use of the 'asm' declaration is a violation of the rule: 7.5.1 Do not use the asm declaration <marker type="block"/> In comparison, MISRA C:2012 Dir 4.2 requires that use of assembly language be documented. It cannot be determined from the source code alone if such documentation exists and is correct.</region>
+          <region class="DoCO:TextChunk" id="111" confidence="possible" page="7" column="1">§§ Corresponding to the retired rules, see Section 2.1.</region>
+          <region class="DoCO:FigureBox" id="Fx112">
+            <image class="DoCO:Figure" src="62h2.page_007.image_23.png" thmb="62h2.page_007.image_23-thumb.png"/>
+          </region>
+          <outsider class="DoCO:TextBox" type="page_nr" id="113" page="7" column="1">7</outsider>
+          <region class="DoCO:FigureBox" id="Fx114">
+            <image class="DoCO:Figure" src="62h2.page_008.image_24.png" thmb="62h2.page_008.image_24-thumb.png"/>
+            <image class="DoCO:Figure" src="62h2.page_008.image_25.png" thmb="62h2.page_008.image_25-thumb.png"/>
+          </region>
+        </section>
+        <section class="DoCO:Section">
+          <h2 class="DoCO:SectionTitle" id="115" page="8" column="1">5.3 Decidable vs Undecidable and Scope</h2>
+          <region class="DoCO:TextChunk" id="116" page="8" column="1">HIC++ does not include the concept of decidability or scope as described by the MISRA C:2012 guidelines, however HIC++ does include the concept of demonstrability. In MISRA C:2012, a rule is deemed to be 'decidable' if in every case, it is theoretically possible for a static analysis tool to determine if code complies to the rule. For example, a rule may be deemed undecidable if code behavior could be dependent on input from an external source. On the other hand, the HIC++ concept of demonstrability requires that the issue is not possible in the source code: 4.2.2 Ensure that data loss does not demonstrably occur in an integral expression 5.2.1 Ensure that pointer or array access is demonstrably within bounds of a valid object 5.5.1 Ensure that the right hand operand of the division or remainder operators is demonstrably non-zero</region>
+        </section>
+      </section>
+      <section class="deo:Conclusion">
+        <h1 class="DoCO:SectionTitle" id="117" page="8" column="1">6 Conclusions</h1>
+        <region class="DoCO:TextChunk" id="118" page="8" column="1">This whitepaper presents genealogy of the latest version of HIC++ as reviewed HIC++ V3.3, new rules and rule revisions specific to C++11, additional rules common to JSF++ and MISRA C++ not already in HIC++, and also concurrency rules. As a key consideration, rules are formulated to avoid conflicts or overlap, in order to improve enforceability. Rule presentation has been improved, with a new categorization based on the relevant clause and sub-clause of the C++ language standard, and a comprehensive justification with examples. The principles of the latest HIC++ and MISRA C guidelines have been discussed and the differences noted, the foremost of which is applicability of HIC++ to any development domain. Finally, it has been shown that the rule changes have beneficial effect on enforceability, with improved signal-to-noise ratio, when compared to the previous version of HIC++.</region>
+        <region class="DoCO:FigureBox" id="Fx119">
+          <image class="DoCO:Figure" src="62h2.page_008.image_26.png" thmb="62h2.page_008.image_26-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="120" page="8" column="1">8</outsider>
+        <region class="DoCO:FigureBox" id="Fx121">
+          <image class="DoCO:Figure" src="62h2.page_009.image_27.png" thmb="62h2.page_009.image_27-thumb.png"/>
+          <image class="DoCO:Figure" src="62h2.page_009.image_28.png" thmb="62h2.page_009.image_28-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="122" page="9" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref class="deo:BibliographicReference" id="124" page="9" column="1"> <ext-link ext-link-type="uri" href="http://www.accu.org/" id="123">http://www.accu.org/</ext-link> CERT C++ Secure Coding Standard, https://www.securecoding.cert.org Scott Meyers: Effective C++, 1996, Addison-Wesley</ref>
+          <ref rid="R1" class="deo:BibliographicReference" id="125" page="9" column="1">[ACCU] [CERT C++] [Effective C++] [More Effective C++]</ref>
+          <ref class="deo:BibliographicReference" id="126" confidence="possible" page="9" column="1">Scott Meyers: More Effective C++, 1996, Addison-Wesley</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="127" page="9" column="1">[Effective C++ ’11]</ref>
+          <ref class="deo:BibliographicReference" id="129" confidence="possible" page="9" column="1">Scott Meyers: Draft TOC for Effective C++11 Concurrency Chapter, <ext-link ext-link-type="uri" href="http://scottmeyers.blogspot.hu/2013/04/draft-toc-for-ec11-" id="128">http://scottmeyers.blogspot.hu/2013/04/draft-toc-for-ec11-</ext-link></ref>
+          <ref class="deo:BibliographicReference" id="130" confidence="possible" page="9" column="1">concurrencychapter.html Scott Meyers: Effective STL, 2001, Addison-Wesley</ref>
+          <ref class="deo:BibliographicReference" id="131" confidence="possible" page="9" column="1">Herb Sutter: Exceptional C++, 2000, Addison-Wesley</ref>
+          <ref class="deo:BibliographicReference" id="134" confidence="possible" page="9" column="1">Herb Sutter: Guru of the Week, <ext-link ext-link-type="uri" href="http://herbsutter.com/gotw/" id="132">http://herbsutter.com/gotw/</ext-link> High Integrity C++ Coding Standard Manual - Version 3.2, <ext-link ext-link-type="uri" href="http://www.codingstandard.com" id="133">http://www.codingstandard.com</ext-link>, October 2008, Programming Research</ref>
+          <ref class="deo:BibliographicReference" id="136" confidence="possible" page="9" column="1">High Integrity C++ Coding Standard Manual - Version 4.0, <ext-link ext-link-type="uri" href="http://www.codingstandard.com" id="135">http://www.codingstandard.com</ext-link>, October 2013, Programming Research</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="137" page="9" column="1">[Effective STL] [Exceptional C++] [GOTW] [HIC++3] [HIC++4] [Industrial Strength C++]</ref>
+          <ref class="deo:BibliographicReference" id="138" confidence="possible" page="9" column="1">Mats Henricson, Erik Nyquist, Ellemtel Utvecklings AB: Industrial Strength C++, 1997, Prentice Hall</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="139" page="9" column="1">[ISO C++ 2003]</ref>
+          <ref rid="R5" class="deo:BibliographicReference" id="140" page="9" column="1">[ISO C++ 2011]</ref>
+          <ref rid="R6" class="deo:BibliographicReference" id="141" page="9" column="1">[JSF AV C++]</ref>
+          <ref rid="R7" class="deo:BibliographicReference" id="142" page="9" column="1">[MISRA C++]</ref>
+          <ref rid="R8" class="deo:BibliographicReference" id="143" page="9" column="1">[MISRA C:2012]</ref>
+          <ref rid="R9" class="deo:BibliographicReference" id="144" page="9" column="1">[PRQA Overlaps]</ref>
+          <ref class="deo:BibliographicReference" id="145" confidence="possible" page="9" column="1">International Standard ISO/IEC 14882:2003(E) Programming languages – C++. International Standard ISO/IEC 14882:2011(E) Information technology – Programming languages – C++. Joint Strike Fighter Air Vehicle C++ Coding Standards Rev C, December 2005, Lockheed Martin Corporation MISRA C++:2008 Guidelines for the use of the C++ language in critical systems, June 2008, MIRA Limited MISRA C:2012 Guidelines for the use of the C language in critical systems, March 2013, MIRA Limited HICPP, JSF++ and MISRA C++: a study of rule overlaps and effective compliance, November 2011, Programming Research,</ref>
+          <ref rid="R10" class="deo:BibliographicReference" id="146" page="9" column="1">[Stroustrup]</ref>
+          <ref class="deo:BibliographicReference" id="148" confidence="possible" page="9" column="1"> <ext-link ext-link-type="uri" href="http://www.programmingresearch.com/resources/white-papers/" id="147">http://www.programmingresearch.com/resources/white-papers/</ext-link> Bjarne Stroustrup: The C++ Programming Language. Addison-Wesley. 2000</ref>
+          <ref rid="R11" class="deo:BibliographicReference" id="149" page="9" column="1">[Sutter Hardware]</ref>
+          <ref class="deo:BibliographicReference" id="151" confidence="possible" page="9" column="1">Herb Sutter: The C++ Memory Model and Modern Hardware, <ext-link ext-link-type="uri" href="http://herbsutter.com/2013/02/11/atomic-weapons-the-c-memory-modeland-" id="150">http://herbsutter.com/2013/02/11/atomic-weapons-the-c-memory-modeland-</ext-link></ref>
+          <ref rid="R12" class="deo:BibliographicReference" id="152" page="9" column="1">[VDC]</ref>
+          <ref class="deo:BibliographicReference" id="153" confidence="possible" page="9" column="1">modern-hardware The Increasing Value and Complexity of Software Call for the Reevaluation of Development and Testing Practices, April 2011, VDC,</ref>
+          <ref rid="R13" class="deo:BibliographicReference" id="154" page="9" column="1">[WG21]</ref>
+          <ref rid="R14" class="deo:BibliographicReference" id="155" page="9" column="1">[Williams Concurrency]</ref>
+          <ref class="deo:BibliographicReference" id="158" confidence="possible" page="9" column="1"> <ext-link ext-link-type="uri" href="http://www.programmingresearch.com/resources/white-papers/" id="156">http://www.programmingresearch.com/resources/white-papers/</ext-link> ISO/IEC JTC1/SC22/WG21 - The C++ Standards Committee, <ext-link ext-link-type="uri" href="http://www.open-std.org/jtc1/sc22/wg21/" id="157">http://www.open-std.org/jtc1/sc22/wg21/</ext-link> Anthony Williams: C++ Concurrency in Action - Practical Multithreading, 2012, Manning Publications Co.</ref>
+        </ref-list>
+        <region class="DoCO:FigureBox" id="Fx159">
+          <image class="DoCO:Figure" src="62h2.page_009.image_29.png" thmb="62h2.page_009.image_29-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="160" page="9" column="1">9</outsider>
+        <region class="DoCO:FigureBox" id="Fx161">
+          <image class="DoCO:Figure" src="62h2.page_010.image_30.png" thmb="62h2.page_010.image_30-thumb.png"/>
+          <image class="DoCO:Figure" src="62h2.page_010.image_31.png" thmb="62h2.page_010.image_31-thumb.png"/>
+        </region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="162" page="10" column="1">About the Authors</h1>
+        <region class="DoCO:TextChunk" id="164" page="10" column="1">Wojciech Basalaj Wojciech is a senior developer at PRQA, primarily responsible for the Dataflow analysis component of QA·C and QA·C++. Previously, he looked after pre- and post-sales support of PRQA’s products. Through hands on and customer facing experience he amassed knowledge of C++ coding standards, and is a co-author of High Integrity C++. <marker type="block"/> Richard Corden Richard is a lead developer at PRQA, primarily responsible for the enhancement of QA·C++, a static analysis tool for the C++ language. He has extensive experience in the development and implementation of C++ coding standards, and is a co-author of MISRA C++ and High Integrity C++. He represents PRQA at the ISO C++ Committee [WG21] meetings.</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="165" page="10" column="1">About PRQA</h1>
+        <region class="DoCO:TextChunk" id="168" page="10" column="1">Established in 1985, PRQA, ISO 9001 and TickIT certified, is recognized throughout the industry as a pioneer in static analysis, championing automated coding standard inspection and defect detection, delivering its expertise through industry-leading software inspection and standards enforcement technology used by over 3,000 companies globally. <marker type="block"/> PRQA’s industry-leading tools, QA·C, QA·C++ and QA·Verify, offer the closest possible examination of C and C++ code. All contain powerful, proprietary parsing engines combined with deep accurate dataflow which deliver high fidelity language analysis and comprehension. They identify problems caused by language usage that is dangerous, overly complex, non-portable or difficult to maintain. Plus, they provide a mechanism for coding standard enforcement.<marker type="block"/> PRQA has corporate offices in UK, USA, India, Ireland and Netherlands, complemented by a worldwide distribution network. Find out more at www.programmingresearch.com</region>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="169" page="10" column="1">Contact Us</h1>
+        <region class="DoCO:TextChunk" id="171" confidence="possible" page="10" column="1">PRQA has offices globally and offers worldwide customer support. Visit our website to find details of your local representative. Email: <email id="170">info@programmingresearch.com</email> Web: www.programmingresearch.com and www.codingstandard.com All products or brand names are trademarks or registered trademarks of their respective holders.</region>
+        <region class="DoCO:FigureBox" id="Fx172">
+          <image class="DoCO:Figure" src="62h2.page_010.image_32.png" thmb="62h2.page_010.image_32-thumb.png"/>
+        </region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="173" page="10" column="1">10</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>

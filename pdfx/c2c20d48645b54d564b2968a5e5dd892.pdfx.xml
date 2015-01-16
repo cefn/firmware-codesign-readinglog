@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pdfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://pdfx.cs.man.ac.uk/static/article-schema.xsd">
+  <meta>
+    <job>c0781da0c6214bc9eff3dd2131b6408371dc6c600f575f5ad6a495927772d8c4</job>
+    <base_name>62kj</base_name>
+    <doi>http://dx.doi.org/10.1145/1232743.1232769</doi>
+  </meta>
+  <article>
+    <front class="DoCO:FrontMatter">
+      <outsider class="DoCO:TextBox" type="header" id="1">Viewpoint</outsider>
+      <contrib-group class="DoCO:ListOfAuthors">
+        <contrib contrib-type="author">
+          <name id="2">Jenova Chen</name>
+        </contrib>
+      </contrib-group>
+      <title-group>
+        <article-title class="DoCO:Title" id="3" confidence="possible">Flow in Games (and Everything Else) A well-designed game transports its players to their</article-title>
+      </title-group>
+      <region class="unknown" id="4">personal Flow Zones, delivering genuine feelings of pleasure and happiness.</region>
+      <region class="DoCO:FigureBox" id="Fx5">
+        <image class="DoCO:Figure" src="62kj.page_001.image_01.png" thmb="62kj.page_001.image_01-thumb.png"/>
+      </region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="6">HANEY LISA</outsider>
+    </front>
+    <body class="DoCO:BodyMatter">
+      <region class="DoCO:TextChunk" id="9" page="1" column="1">ave you ever enjoyed an H interactive experience, even as it was ignored by others? Why does a particular experience have broader appeal than others? Answers depend on whether it incorporates user-oriented design. Com- puter scientists and software engineers peer into screens and think in terms of machine language during a typical workday, but most of what they do still concerns the consumers, professionals, and researchers who will interact with the software they create. To make something that will be enjoyed, the first thing any technology developer must learn is what users want. Here, I discuss how to improve any interactive experience associated with end-user technology or related products, expanding on them for a broader audience through the perspective of Flow theory in psychology and video game design. Writing 2,300 years ago, Aristotle concluded that, above all else, people seek personal happiness and pleasure. A common goal shared by almost all user- oriented designs today is to provide the means to evoke positive user feelings, whether they involve vehicles, fashion, software, movies, or video games. Though many tricks and techniques are available for creating products that please, they can be generalized into something all designers and technology develop- <marker type="column" number="2"/><marker type="block"/> ers can apply in their own designs. To do so, however, they must first know what exactly happiness is made of. In the mid-1970s, in an attempt to explain happiness, Mihaly Csikszentmihalyi, a professor of psychology at the Claremont Graduate University, Claremont, CA, introduced the concept of Flow, which has since become fundamental to the field of positive psychology, including the study, according to Wikipedia, of “happiness, creativity, subjective well-being, and fun.” Flow represents the feeling of complete and energized focus in an activity, with a high level of enjoyment and fulfillment [<xref ref-type="bibr" rid="R2" id="8" class="deo:Reference">2</xref>]. During the Flow experience, we lose track of time and worries. Indeed, our level of focus maximizes our performance in and pleasurable feelings from the activity. Flow is also called the optimal experience, or being in “the Zone.” Though often associated with professional athletes and artists, it is a feeling shared by every human being. Recall being so engaged in something that you forget to eat or sleep. What made you feel that way? Csikszentmihalyi’s research and personal observa- tions identified eight major components of Flow:</region>
+      <region class="DoCO:TextChunk" id="10" confidence="possible" page="1" column="2">• A challenging activity requiring skill; • A merging of action and awareness; • Clear goals; • Direct, immediate feedback; • Concentration on the task at hand;</region>
+      <outsider class="DoCO:TextBox" type="footer" id="11" page="1" column="2">COMMUNICATIONS OF THE ACM April 2007/Vol. 50, No. 4</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="12" page="1" column="2">31</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="13" page="2" column="1">Viewpoint</outsider>
+      <region class="DoCO:FigureBox" id="F1">
+        <caption class="deo:Caption" id="14" page="2" column="1">Figure 1. Flow Zone factors.</caption>
+      </region>
+      <outsider class="DoCO:TextBox" type="header" id="15" page="2" column="1">• A sense of control; • A loss of self-consciousness; and • An altered sense of time.</outsider>
+      <region class="DoCO:FigureBox" id="Fx16">
+        <image class="DoCO:Figure" src="62kj.page_002.image_02.png" thmb="62kj.page_002.image_02-thumb.png"/>
+      </region>
+      <region class="unknown" id="17" page="2" column="1">ABILITIES</region>
+      <region class="DoCO:FigureBox" id="F2">
+        <caption class="deo:Caption" id="18" page="2" column="1">Figure 2. Different</caption>
+      </region>
+      <region class="unknown" id="19" page="2" column="1">have different Flow Zones.</region>
+      <region class="DoCO:FigureBox" id="Fx20">
+        <image class="DoCO:Figure" src="62kj.page_002.image_03.png" thmb="62kj.page_002.image_03-thumb.png"/>
+      </region>
+      <region class="unknown" id="21" page="2" column="1">ABILITIES</region>
+      <region class="DoCO:FigureBox" id="F3">
+        <caption class="deo:Caption" id="22" page="2" column="1">Figure 3. Designers adapt</caption>
+      </region>
+      <region class="unknown" id="23" page="2" column="1">players’ Flow experience through the choices they into the</region>
+      <region class="DoCO:TextChunk" id="27" page="2" column="1">Not all of them are needed, however, for an activity or technology to give users the experience of Flow [<xref ref-type="bibr" rid="R1" id="24" class="deo:Reference">1</xref>]. Does your work or hobby reflect them? Do you have fun doing it? Flow can emerge from any kind of activity, whether it’s a five-minute pinball game or a 10-year research project. A life that would be con- sidered happy is usually bundled with various long- and short-term Flow experiences, from career and family to daily entertainment like TV, movies, and video games. Since Spacewar!, one of the earliest games, was introduced in 1962 on a DEC-PDP-1 at MIT, video games have evolved into a major entertainment medium, offering players an alternative method for evoking a sense of enjoyment, in the form of short- term feelings of happiness. Descriptions of the Flow experience are identical to what players experience when immersed in games, losing track of time and external pressure, along with other interests. Gamers value video games based on whether or not they provide a Flow experience [<xref ref-type="bibr" rid="R3" id="25" class="deo:Reference">3</xref>]. As the result of more than three decades of commercial competition, most of today’s video games deliberately include and leverage the eight components of Flow. They deliver instantaneous, accessible sensory feedback and offer clear goals the player accomplishes through the mastery of specific gameplay skills. In order to evaluate and compare the qual- ity of the Flow experience in video games and other forms of interactive experience, the duration of the Flow experience becomes the major criteria determin- ing whether or not a player is transported to the Zone [<xref ref-type="bibr" rid="R4" id="26" class="deo:Reference">4</xref>].</region>
+      <region class="unknown" id="28" page="2" column="1">I N THE Z ONE</region>
+      <region class="DoCO:FigureBox" id="Fx29">
+        <image class="DoCO:Figure" src="62kj.page_002.image_04.png" thmb="62kj.page_002.image_04-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="31" confidence="possible" page="2" column="1">What can the player, and all technology users, do to maintain and extend an interactive experience before it is interrupted? An inspiring concept in Flow theory is the Flow Zone (see <xref ref-type="fig" rid="F1" id="30" class="deo:Reference">Figure 1</xref>). In order to maintain a user’s Flow experience, the activity must balance the inherent challenge of the</region>
+      <outsider class="DoCO:TextBox" type="page_nr" id="32" page="2" column="2">32</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="33" page="2" column="2">April 2007/Vol. 50, No. 4 COMMUNICATIONS OF THE ACM</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="34" page="3" column="1">During the Flow experience, we lose track of time and worries.</outsider>
+      <region class="DoCO:FigureBox" id="Fx35">
+        <image class="DoCO:Figure" src="62kj.page_003.image_05.png" thmb="62kj.page_003.image_05-thumb.png"/>
+      </region>
+      <region class="DoCO:TextChunk" id="49" page="3" column="1">activity and the player’s ability to address and over- come it. If the challenge is beyond that ability, the activity becomes so overwhelming that it generates anxiety. If the challenge fails to engage the player, the player quickly loses interest and tends to leave the game. Fortunately, we have tolerance for a temporary lack of stimulation—assuming we are given hope that more is on the way—a fuzzy safe Zone where the activity is not too challenging or boring and where psychic entropies (such as anxiety and boredom) do not intrude [ <xref ref-type="bibr" rid="R1" id="36" class="deo:Reference">1</xref>]. Due to the natural relationship between challenge and ability, Flow has been used by designers, teachers, and coaches in such wide-ranging fields as sports, tutoring, and increasingly video game design. Assuming the content and premise are inherently appealing to the audience, designing any interactive experience, including video games, centers on how to keep players in the Flow throughout its duration. The game must reflect the right balance of challenge and ability in order to keep players inside the Flow Zone. However, designing such a balance becomes a greater and greater challenge as the size of the potential audience grows. Sports, art, and engineering, as well as many other professional activities and forms of entertainment, are all able to induce a Flow experience; so can various video games, from Tetris to Grand Theft Auto. However, the unforgiving reality involved in designing a commercial user-oriented experience and prod- uct is the fact that no two people experience the same thing the same way. Concerning video games, different players have<marker type="column" number="2"/><marker type="block"/> different skills and expect different challenges. Most games offer only a single narrow, static experience (the red line in <xref ref-type="fig" rid="F2" id="38" class="deo:Reference">Figure 2</xref>). It might keep the typical player in the Flow but will not be fun for the hard- core or even the novice player. For example, a simple action (such as moving a camera in a 3D space) might be frustrating for a casual gamer who has never played a 3D game. Even though the rest of the game might be something casual gamers enjoy in other 2D games, the frustrating beginning is likely to turn them away. In order to design an interactive experience for a broader audience, the experience cannot be the same for all players or users. Any such experience must offer many choices, adapting to different users’ personal Flow Zones (see <xref ref-type="fig" rid="F3" id="39" class="deo:Reference">Figure 3</xref>). However, the designer’s approach is not as simple as populating the experience with choices. In video games, simply increasing the number of choices is costly. Too many choices overwhelm the user and maybe even the computer. When people can’t decide what to choose, they are at a loss. Being required to make frequent choices could also be annoying, further interrupting gameplay. Both situations confound the fundamental components of Flow—a sense of control and concentration on the task at hand. The best way for game designers to avoid these counterproductive situations is to embed the player’s choices into the core activities of the interactive experience. For example, once surfers of real ocean waves develop enough skill to be able control their direction on the water, they have freed themselves to choose and engage particular waves. Making these<marker type="page" number="4"/><marker type="column" number="1"/><marker type="block"/> Communications C ONCLUSION To provide an enjoyable interactive experience for the widest variety and number of users, a game’s, ACM AT 60: A special section traces the and more generally any end-user technology’s, early days of ACM as seen by historians design should follow a four-step methodology: and archivists in celebration of the association’s 60th anniversary. • Mix and match the components of Flow; • Keep the user’s experience within the user’s Flow Zone; ALSO IN MAY: • Offer adaptive choices, allowing different users to enjoy the Flow in their own way; and The Software Architect: Essence, Intuition, • Embed choices inside the core activities to ensure and Guiding Principles the Flow is never interrupted.<marker type="block"/> Whether the design involves software, toys, restaurants, or Web sites, designers must keep these steps in mind and evaluate the activities presented to the user. Exploring all kinds of fields, including video games, they will find many good designs that follow them and compare them with others that don’t and figure out what works. I’ve found (among other things) that it becomes obvious why the Swedish-based furniture company IKEA is so popu- lar and why nobody would ever want to take a GRE test. c</region>
+      <outsider class="DoCO:TextBox" type="sidenote" id="41" page="3" column="2">HANEY LISA</outsider>
+      <outsider class="DoCO:TextBox" type="footer" id="42" page="3" column="2">COMMUNICATIONS OF THE ACM April 2007/Vol. 50, No. 4</outsider>
+      <outsider class="DoCO:TextBox" type="page_nr" id="43" page="3" column="2">33</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="44" page="4" column="1">Viewpoint</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="45" page="4" column="1">choices, they are able to confront the challenge of the core activity of surfing.</outsider>
+      <outsider class="DoCO:TextBox" type="header" id="46" page="4" column="1">Coming Next Month in</outsider>
+      <region class="unknown" id="48" page="4" column="1">Universal Accessibility as a Multimodal Design Issue Software Product Development in Small IT Businesses Accessing the Deep Web Modeling Multi-Agent Systems</region>
+      <region class="unknown" id="50" page="4" column="1">Does Personality Matter? An Analysis of Code-Review Ability</region>
+      <section class="DoCO:Bibliography">
+        <h1 class="DoCO:SectionTitle" id="51" confidence="possible" page="4" column="1">References</h1>
+        <ref-list class="DoCO:BiblioGraphicReferenceList">
+          <ref rid="R1" class="deo:BibliographicReference" id="52" page="4" column="1">1. Csikszentmihalyi, M. Flow: The Psychology of Optimal Experience. Harper Perennial, London, 1990.</ref>
+          <ref rid="R2" class="deo:BibliographicReference" id="53" page="4" column="1">2. Debold, E. Flow with soul: An interview with Dr. Mihaly Csikszentmihalyi. What Is Enlightenment Magazine (Spring-Summer 2002); www.wie.org/j21/cziksz.asp.</ref>
+          <ref rid="R3" class="deo:BibliographicReference" id="54" page="4" column="1">3. Holt, R. Examining Video Game Immersion as a Flow State. B.A. Thesis, Department of Psychology, Brock University, St. Catharines, Ontario, Canada, 2000.</ref>
+          <ref rid="R4" class="deo:BibliographicReference" id="55" page="4" column="1">4. Sweetser, P. and Wyeth, P. GameFlow: A model for evaluating player enjoyment in games. Computers in Entertainment 3, 3 (July 2005).</ref>
+        </ref-list>
+      </section>
+      <section class="DoCO:Section">
+        <h1 class="DoCO:SectionTitle" id="56" confidence="possible" page="4" column="1">Jenova Chen</h1>
+        <region class="unknown" id="58" page="4" column="1"> (<email id="57">jenovachen@gmail.com</email>) is a the creative director and co-founder of thatgamecompany, Los Angeles, CA.</region>
+        <region class="unknown" id="59" page="4" column="1">© 2007 ACM 0001-0782/07/0400 $5.00</region>
+        <outsider class="DoCO:TextBox" type="page_nr" id="60" page="4" column="2">34</outsider>
+        <outsider class="DoCO:TextBox" type="footer" id="61" page="4" column="2">April 2007/Vol. 50, No. 4 COMMUNICATIONS OF THE ACM</outsider>
+      </section>
+    </body>
+  </article>
+</pdfx>
