@@ -7,9 +7,9 @@ logx:webpage(
         <h1>Each Page Below Represents a Task </h1>
         {
             for $item in (
-                logx:viewer-link('xq/tasks/tag.xq', 'Tag papers'),
-                logx:viewer-link('xq/tasks/year.xq', 'Annotate with Year'),
-                logx:viewer-link('xq/tasks/scan.xq', 'Scan content of paper')
+                logx:viewer-link('xq/tasks/tags.xq', 'Tag papers'),
+                logx:viewer-link('xq/tasks/years.xq', 'Annotate with Year'),
+                logx:viewer-link('xq/tasks/notes.xq', 'Papers without notes')
             )
             return <p>{$item}</p>
         }
