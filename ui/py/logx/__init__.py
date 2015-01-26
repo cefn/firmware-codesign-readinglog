@@ -1,4 +1,4 @@
-import os,re,urllib,sys,traceback
+import os,re,urllib,sys,traceback,copy
 
 '''
 from PyQt5.QtCore import QObject,pyqtSlot,pyqtSignal,QUrl,QBuffer
@@ -34,7 +34,7 @@ def inline_import_sources(xquerypath, modulepathstore=None):
 
     # definitions of patterns used to process query and imported files
     import_pattern = 'import module namespace ([A-Za-z]+)="([^"]+)" at "([^"]+)";'
-    declare_pattern = '(declare function.*?};|declare variable [^;]+;)'
+    declare_pattern = '^(declare\s*(?:function|variable).+?;\s*)$'
     
     # get the original query and separate out the imports in it
     queryfile = open(xquerypath,'r')
@@ -49,14 +49,18 @@ def inline_import_sources(xquerypath, modulepathstore=None):
     num_capture_groups = 3
     strings_per_import = num_capture_groups + 1
     
+    importnamespacesplit = [] # used to gather namespace declarations
+    importfunctionsplit = [] # used to gather function declarations
+    localcodesplit = [] # used to store remaining statements to be placed at the end
+    
     # for each module import, replace it with inlined funcs and vars
     for splitindex in range(1,len(querysplit),strings_per_import):
         #[bracketed patterns serve namespace and path from each match]
         import_groups = querysplit[splitindex:splitindex+strings_per_import]
-        (localnamespace,globalnamespace,modulepath,following) = import_groups
+        (localnamespace,globalnamespace,modulepath,localcode) = import_groups
         
         # add a namespace declaration corresponding to this import
-        newquerysplit.append( 'declare namespace %s="%s";' % (localnamespace, globalnamespace))
+        importnamespacesplit.append( 'declare namespace %s="%s";\n\n' % (localnamespace, globalnamespace))
         
         if(not(os.path.isabs(modulepath))):
             modulepath = os.path.normpath(os.path.join(os.path.dirname(xquerypath), modulepath))
@@ -69,10 +73,18 @@ def inline_import_sources(xquerypath, modulepathstore=None):
         modulefile.close()
         modulefunctionsplit = re.findall(declare_pattern,modulesource, re.MULTILINE|re.DOTALL)
 
-        newquerysplit.append("\n\n".join(modulefunctionsplit) + "\n\n")
-        newquerysplit.append(following)
+        importfunctionsplit.append("\n\n".join(modulefunctionsplit) + "\n\n")
+        localcodesplit.append(localcode)
+
+    # combine all the parts in the appropriate order
+    newquerysplit.extend(importnamespacesplit) # namespaces
+    newquerysplit.extend(importfunctionsplit) # imported functions
+    newquerysplit.extend(localcodesplit) # local code
 
     newquerysource = ''.join(newquerysplit) # rejoin all the string parts
+    f = open('/tmp/newquerysource.xq','w')
+    f.write(newquerysource)
+    f.close()
     return newquerysource
 
 # provides simple signalling mechanism for watchdog module
@@ -110,6 +122,7 @@ class Viewer(QObject): #change back to object to view property errors
         super(Viewer,self).__init__()
         self._focuspath = focuspath 
         self._querypath = querypath
+        self._queryparams = {}
         self._xquerynames = xquerynames if xquerynames != None else list()
         self._javascriptnames = javascriptnames if javascriptnames != None else dict()
         self.view = view if view != None else QWebView() # note: uses setter
@@ -164,7 +177,14 @@ class Viewer(QObject): #change back to object to view property errors
 
     @pyqtSlot(str)
     def loadquery(self, querypath):
-        self.querypath = str(querypath)
+      querypath = str(querypath)
+      # populate queryparams
+      self._queryparams = {} # initially empty dictionary
+      pathsplit = querypath.split('?') # extract params from end
+      if len(pathsplit) > 1: # extract name:value from each param
+        for (name,value) in [pair.split('=') for pair in pathsplit[1].split('&')]:
+          self._queryparams[name]=value
+      self.querypath = pathsplit[0] # load new path with new params
 
     @querypath.setter
     def querypath(self, querypath):
@@ -198,8 +218,12 @@ class Viewer(QObject): #change back to object to view property errors
     @property
     def xmlbuffer(self):
         queryimpl = QXmlQuery(QXmlQuery.XQuery10)
-        #push values in xquerynames
-        for item in self.xquerynames:
+        #merge params from xquerynames and query path arguments
+        params = copy.deepcopy(self.xquerynames)
+        for name,value in self._queryparams.iteritems():
+          params.append([name,value])
+        #push values into external variable names in xquery
+        for item in params:
             if len(item)==3 : # item has namespace
                 (name,value,namespace) = item
                 qname = QXmlName(queryimpl.namePool(), name, namespace)
@@ -237,9 +261,9 @@ class Viewer(QObject): #change back to object to view property errors
             self._watches[filepath] = self._watchdogobserver.schedule(adaptor, os.path.dirname(os.path.realpath(filepath)))
 
     def unregistersource(self, filepath):
-        if filepath in self._matches:
-            self._watchdogobserver.unschedule(self._matches[filepath])
-
+        if filepath in self._watches:
+            self._watchdogobserver.unschedule(self._watches[filepath])
+            
     @pyqtSlot()
     def render(self):
         QWebSettings.clearMemoryCaches()
@@ -278,11 +302,18 @@ class Editor(Viewer):
     def loadfocus(self, filepath):
         (filepath, headers) = urllib.urlretrieve(str(filepath))
         self.focuspath = filepath
+
+    @pyqtSlot()
+    def onload(self):
+      self.loadedpath = self.focuspath
     
     @pyqtSlot(str)
     def save(self, serialized, filepath=None):
         if filepath == None:
-            filepath = self.focuspath
+            if self.loadedpath == None:
+              raise Error("Cannot guess filepath, no onload event was triggered")
+            else:
+              filepath = self.loadedpath
         f = open(filepath, 'w')
         savefilter = QXmlQuery(QXmlQuery.XQuery10)
         savefilter.setFocus(serialized)
@@ -290,6 +321,8 @@ class Editor(Viewer):
         result = savefilter.evaluateToString()
         result = result.toUtf8()
         f.write(result)
+        f.close()
+        return filepath
 
     @pyqtSlot(str)
     def autosave(self, serialized):
