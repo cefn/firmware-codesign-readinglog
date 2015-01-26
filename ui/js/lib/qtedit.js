@@ -1,16 +1,9 @@
 require(['jquery'], function($){
     
+    editor.onload()
+    
     isChanged = false; //TODO CH namespace this properly
-    
-    //TODO CH, this is specific to editing pdf readinglog notes
-    //should be in separate javascript library from the editor logic
-    $("h1 a").each(function(){
-        var thisq = $(this);
-        var href=thisq.attr("href");
-        href = "javascript:pdf.loadpdf('" + href + "')";
-        thisq.attr("href",href);
-    });
-    
+
     function serializeDocument(){
         var ser = new XMLSerializer();
         var mystr = ser.serializeToString(document.documentElement);
@@ -84,7 +77,7 @@ require(['jquery'], function($){
     });
     
     $(window).bind("beforeunload",function(event) {
-        if (isChanged) {    
+        if (isChanged) {
             event.returnValue = "You have unsaved changes";
             return event.returnValue
         }
@@ -92,7 +85,6 @@ require(['jquery'], function($){
             return;
         }
     });
-
     
     //do a load of readinglog improvement tasks with this functionality
     
