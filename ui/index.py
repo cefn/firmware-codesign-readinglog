@@ -68,7 +68,7 @@ def main(argv):
     app = QApplication(sys.argv)    
     ui = uic.loadUi('index.ui')
         
-    editor = Editor(focuspath=None,view=ui.editView,javascriptnames=javascriptnames)
+    editor = Editor(focuspath=None,view=ui.editView,javascriptnames=javascriptnames,xquerynames=xquerynames)
     viewer = Viewer(querypath=querypath,view=ui.navView,javascriptnames=javascriptnames,xquerynames=xquerynames)
     pdf = PdfAdaptor()
     
