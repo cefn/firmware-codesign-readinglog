@@ -13,7 +13,7 @@ from PyQt4.QtXmlPatterns import QXmlItem,QXmlName,QXmlQuery
 from PyQt4.QtWebKit import QWebView,QWebSettings
 
 from watchdog.observers import Observer
-
+	
 def debug_trace():
   '''Set a tracepoint in the Python debugger that works with Qt'''
   from pdb import set_trace
@@ -262,7 +262,10 @@ class Viewer(QObject): #change back to object to view property errors
 
     def unregistersource(self, filepath):
         if filepath in self._watches:
-            self._watchdogobserver.unschedule(self._watches[filepath])
+			try:
+				self._watchdogobserver.unschedule(self._watches[filepath])
+			except:
+				print( handle_except(e) )				
             
     @pyqtSlot()
     def render(self):
